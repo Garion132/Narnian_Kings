@@ -1,0 +1,708 @@
+narnian = {
+	graphical_cultures = { westerngfx }
+
+	narnian = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.8 0.2 0.2 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	lone_islander = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.82 0.22 0.22 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	seven_islander = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.60 0.82 0.18 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	terebinthian= {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.62 0.8 0.2 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	archen = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 0.6 0.4 0.2 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	outer_islander = {
+		graphical_cultures = { frankishgfx }
+		
+		color = { 0.3 0.3 0.5 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	centaur = {
+		graphical_cultures = { saxongfx }
+		
+		color = { 0.8 0.3 0.2 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = centaur_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	minotaur = {
+		graphical_cultures = { saxongfx }
+		
+		color = { 0.8 0.4 0.2 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	gryphon = {
+		graphical_cultures = { saxongfx }
+		
+		color = { 0.8 0.4 0.3 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	faun = {
+		graphical_cultures = { celticgfx }
+		
+		color = { 0.8 0.42 0.33 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	narnian_giant = {
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.8 0.55 0.3 }
+		
+		# Þ 222 þ 254 Ð 208 ð 240 æ
+		
+		male_names = {
+			Ale Alfr_Alf Alfgeir Anders_Andrew Anlaufr Anundr_Anund Arnbjörn Arngrimr Arni_Arne Arnfast Asbjörn_Asbjörn Bagge Baldr_Balder Barid Bengt_Benedict Bersi Bertil Birger Björn_Beorn Bo Borkvard Botulfr Bragi_Brage Buðli
+			Dag Dan Dyre Eilif Egill_Egil Emund Einarr_Einar Eirikr_Erik Eskild Falki Faste Filip_Philip Fredrik_Frederick Frirek Froði_Frode Freyr_Frej Folki_Folke Gandalfr Geirr Georg_George Gnupa_Gnupa Gorm_Gorm Greger_Gregory Grimr_Grim Guðfrið_Godfrey Guðmundr_Gudmund Guðröðr_Gudröd Gunnarr_Gunnar Hakon_Hakon Halsten Haraldr_Harold Haukr Helgi_Helge
+			Hemming Holmger Hrafn Hrolfr_Rolf Hrane Hæsteinn Hjalmar_Hjalmar Hroðgar Hroðulfr Hrörekr_Rurik Hysing Ingólfr_Ingolf Ingemar Ingjald Ivar_Ivar Jedvard_Edward Jon_John Karl_Charles Kettil Kettilmund Kjartan Klas Knut_Knut Kol Kolbjörn Magnus_Magnus Markus_Marcus 
+			Mats_Matthew Nils_Nicholas Niklas_Nicholas Oddr_Odd Ofeig Olafr_Olaf Ormr_Orm Ottarr_Ottar Refr Refil Ragnarr_Ragnar Rikulfr Rögnvaldr_Ragnvald Skuli_Skule Snorri Sigbjörn Sigtrygg Sigurðr_Sigurd Starkaðr_Starkad Steinn_Sten Sturla Styrbjörn Styrkar Sumarliði_Somerled Suni_Sune Sveinn_Sven
+			Sverker Sæmundr_Sämund Sölvi_Sölve Sörkver Tjudmund_Tjudmund Toke_Toke Tolir Þorbjörn_Torbjörn Þorfinn_Torfinn Þorbrandr_Torbrand Þordr_Tord Þorgil_Torkel Þorsteinn_Torsten Þorolfr_Thorolf Toste Totil Tryggve Tyke Ulfr_Ulf Vagn Valdemar_Vladimir Åke Yngvar_Ingvar Örvar_Orvar Öysteinn_Eysteinn
+		}
+		female_names = {
+			Aleta Alfhildr_Alfhild Alfrið_Alfridh Alvör Anna_Anna Asa_Åsa Aslaug Asta_Asta Astrid_Astrid Beata Birgitta_Brigid Björg Bodil Bothildr_Bothild Cecilia_Cecilia
+			Edla Elin Elisabet_Elizabeth Freyja_Freja Gerðr Gloð Grima Gunnhildr_Gunhild Gurli Guðrun_Gudrun Gyla Gyrið Gyða_Gytha Hafrid Halla Helena_Helen Holmfrid
+			Iliana Inga_Inga Ingfrid Ingibjörg_Ingeborg Ingjerðr_Ingegerd Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kraka Kristina_Christina Linda Maer
+			Malmfrið_Malmfrid Margareta_Margaret Maria_Maria Rikissa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild Saga Sara_Sarah Sif Sigrid_Sigrid Skuld Sofia_Sophia
+			Svanhildr_Svanhild Ulfhildr_Ulvhilde Vigdis Ylva_Ylva Yrsa Þora_Thora Þordis_Thordis Þyra_Thyra
+		}
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "of "
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = giant_modifier
+		
+		allow_looting = yes
+		allow_rivermovement = yes
+	}
+}
+
+men_of_the_south = {
+	graphical_cultures = { muslimgfx }
+
+	calormen = {
+		graphical_cultures = { persiangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.43 0.32 0.32 }
+		
+		male_names = {
+			Gurak Divashtich Yodkhsetak Tuhun Tarkhun Urak Turghar Lushan Nanaifarn Avyaman Yechi Chaki Mechun Tishifan Wupoyan
+			Tarxun Wanxanak Nawekat Wiyus Uxushukan Bharxuman Skatch Sheshch Chaxren Ramch Shaw Maxak Ramtish Axushfarn Bhurz Chukshak Fudanyan Dishebo Vandak Khudayfarn Sili Tishrat Chunakk Namdar Xutawch Pisak Karz Nijat Chatfaratsaran Dewastich Varzakk Nanai-thvar Kanakk Chuzakk Khwatawch Karzh Nizat Nanaikuch Ukhwan Pator Wakhushuvirt Maniakh Watch Shafnoshak
+			
+			Akhurmaztakk Akhushfarn_Akhushfarn Anghatnaw Anghatspadh Anushirvan_Anushirvan Ardavan_Ardavan Ardeshir_Ardeshir Armatsach Arsach Artikhuvandakh 
+			Artivan_Ardavan Aspandhat Astken Aurang_Aurang Avyaman-yan_Avyaman-yan Avyaman_Avyaman Avyamanch_Avyamanch Avyamanvandak Babak_Babak Bahram_Bahram 
+			Banda Barak_Barak Bharkhuman_Bharkhuman Bhurz_Bhurz Buddhadasa Chakar_Chakar Chakhapak Chakhren_Chakhren Cher_Cher Chetvandak Dariush_Darius 
+			Devadasa Dewashtich_Dewashtich Dhakh Dhruwaspvandak Esfandiar_Esfandiar Eskander_Alexander Ewakhsh Faramarz_Faramarz Farhad_Farhad Farn Farnaghat 
+			Farnch Farnkhund Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fatmiwach Ferdows_Ferdows Fereedun_Feridun Frikhwataw Ghawtus Ghobad_Ghobad 
+			Ghoshfarn Ghotamsach Godarz_Godarz Goshtasb_Goshtasb Hazarasp_Hazarasp Hormazd_Hormazd Hormoz_Hormoz Induk Irkin_Irkin Jamshid_Jamshid Jiamut 
+			Jimatvande_Jimatvande Kanak_Kanak Kartir Karzhtik Kavoos_Kavoos Kaway Kharstrang Khosrow_Khosrow Khun Khurshid_Khurshid Khwadhawanakk 
+			Khwarmew Khwasaw Khwasawch Kund Kundakk Kurush_Cyrus Kushan Kushanakanak Makhak_Makhak Marti Marzuban_Marzuban Maymarghch Methakan Mew Miren 
+			Muqanna Nanai Nanaidhvar Nanaifarn_Nanaifarn Nanaikhsay Nanaithvar_Nanaydvar Nanaizanch Nanayakk Nanevante_Nanevante Narisaf Narshakhi Nawchirth 
+			Nibothak_Nibothak Nipak_Nipak Nithan_Nithan Ot-tegin_Ot-tegin Papakk Parsak Parviz_Parviz Pashang_Pashang Patrodhan Pekako Peroz_Peroz Pesakk 
+			Pujman_Pujman Qishiq_Qishiq Ramtish_Ramtish Rashdhes Razmwanwan Resan Rewdhvar Rokhshan_Rokhshan Rostam_Rostam Rutha Sagharak Sas Sasan Satasp 
+			Sesh_Sesh Shahbaz_Shahbaz Shahin_Shahin Shahrokh_Sharokh Shans Shapur_Shapur Shaw_Shaw Shennu_Shennu Shirch Sina_Sina Spadh Spadhkharsh Srawakk 
+			Stayidh Suryakk Tahmasb_Tahmasb Takhsich Takhsichvandak Takut Tarkhun_Tarkhun Taw Tir Tishtrya_Tishtrya Tishvandak Turghar_Turghar Ukhushukan_Ukhushukan 
+			Urak_Urak Vagh Vaghrew Vahhab_Vahhab Varshasb_Varshasb Varzak_Varzak Varzirak Vishtasb_Vishtasb Viyus_Viyus Vuvva Wakhunam Wakhushakk Wakhushu Wanenak 
+			Wankaway Wankhanak_Wankhanak Wanrazmak Wanwans Wishaghn Xeykhosrow_Keykhosrow Y’n_Y’n Zand_Zand Zartosht_Zartosht Zymt_Zymt
+		}
+		female_names = {
+			Nana Upach An Kang
+			
+			Aghatzak Anakhit Arghavan_Arghavan Banafsheh_Banafsheh Chat_Chat Chatis Chet Chinanch Darya_Darya Funa_Funa Furuzan_Furuzan Ghamze_Ghamze Ghoncheh_Ghoncheh 
+			Golbahar_Golbahar Golshan_Golshan Khansch Makh Mah_Mah Mahtab_Mahtab Miwnay Nana_Nana Nanai_Nanai Nanaidhat Navvaba_Navvaba Nazgol_Nazgol 
+			Nazilla_Nazilla Parvaneh_Parvaneh Parvin_Parvin Ranisa Roxana_Roxana Sanakhram Shahrzad_Shahrzad Shahzadeh_Shahzadeh Shayn Shirin_Shirin Touran_Touran 
+			Yasaman_Yasaman Yena_Yena
+		}
+		
+		dukes_called_kings = yes
+		founder_named_dynasties = yes
+
+		from_dynasty_prefix = "m "
+		male_patronym = "zk "
+		female_patronym = "zk "
+
+		modifier = default_culture_modifier
+	}
+}
+telmarine = {
+	graphical_cultures = { southerngfx }
+	
+	telmarine = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.95 0.82 0.09 }
+
+		male_names = {
+			Alfonso_Alphonse Alonso_Alphonse Álvar_Oliver Álvaro_Oliver Bermudo_Vermudo Diego_Diaco Enrique_Henry Fadrique_Frederick Felipe_Philip Fernando_Ferdinand
+ 			Fruela_Froila García_Garcia Gil_Egidius Gómez_Gomez Gonzalo_Gonzalo Guillén_William Guillermo_William Gutierre_Walter Juan_John Lope_Lupo Luis_Louis
+			Manrique_Amalric Martín_Martin Munio_Munio Nuño_Nuno Ordoño_Ordono Oveco_Obeko Pedro_Peter Pelayo_Pelagius Ramiro_Ramiro Rodrigo_Roderick
+			Salvador Sancho_Sancho Suero_Suero Tello Vela_Vela
+		}
+		female_names = {
+			Aldonza_Aldonza Anderquina Beatriz_Beatrice Berenguela_Berengaria Blanca_Blanche Constanza_Constance Elvira_Elvira Estefanía_Stephania Fronilda_Fronilde Gontroda_Gotruda
+			Inés_Agnes Isabel_Elisabeth Jimena_Ximena Juana_Joan Leonor_Eleanor Mafalda_Matilda María_Maria Marina_Marine Mayor_Mayor Mencía_Mencia
+			Milia_Emily Sancha_Sancha Teresa_Teresa Toda_Toda Urraca_Urraca
+		}
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = telmarine_culture_modifier
+	}
+	teldesteira = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.82 0.95 0.09 }
+
+		male_names = {
+			Alfonso_Alphonse Alonso_Alphonse Álvar_Oliver Álvaro_Oliver Bermudo_Vermudo Diego_Diaco Enrique_Henry Fadrique_Frederick Felipe_Philip Fernando_Ferdinand
+ 			Fruela_Froila García_Garcia Gil_Egidius Gómez_Gomez Gonzalo_Gonzalo Guillén_William Guillermo_William Gutierre_Walter Juan_John Lope_Lupo Luis_Louis
+			Manrique_Amalric Martín_Martin Munio_Munio Nuño_Nuno Ordoño_Ordono Oveco_Obeko Pedro_Peter Pelayo_Pelagius Ramiro_Ramiro Rodrigo_Roderick
+			Salvador Sancho_Sancho Suero_Suero Tello Vela_Vela
+		}
+		female_names = {
+			Aldonza_Aldonza Anderquina Beatriz_Beatrice Berenguela_Berengaria Blanca_Blanche Constanza_Constance Elvira_Elvira Estefanía_Stephania Fronilda_Fronilde Gontroda_Gotruda
+			Inés_Agnes Isabel_Elisabeth Jimena_Ximena Juana_Joan Leonor_Eleanor Mafalda_Matilda María_Maria Marina_Marine Mayor_Mayor Mencía_Mencia
+			Milia_Emily Sancha_Sancha Teresa_Teresa Toda_Toda Urraca_Urraca
+		}
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = telmarine_culture_modifier
+	}
+	koramarine = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.82 0.95 0.09 }
+
+		male_names = {
+			Alfonso_Alphonse Alonso_Alphonse Álvar_Oliver Álvaro_Oliver Bermudo_Vermudo Diego_Diaco Enrique_Henry Fadrique_Frederick Felipe_Philip Fernando_Ferdinand
+ 			Fruela_Froila García_Garcia Gil_Egidius Gómez_Gomez Gonzalo_Gonzalo Guillén_William Guillermo_William Gutierre_Walter Juan_John Lope_Lupo Luis_Louis
+			Manrique_Amalric Martín_Martin Munio_Munio Nuño_Nuno Ordoño_Ordono Oveco_Obeko Pedro_Peter Pelayo_Pelagius Ramiro_Ramiro Rodrigo_Roderick
+			Salvador Sancho_Sancho Suero_Suero Tello Vela_Vela
+		}
+		female_names = {
+			Aldonza_Aldonza Anderquina Beatriz_Beatrice Berenguela_Berengaria Blanca_Blanche Constanza_Constance Elvira_Elvira Estefanía_Stephania Fronilda_Fronilde Gontroda_Gotruda
+			Inés_Agnes Isabel_Elisabeth Jimena_Ximena Juana_Joan Leonor_Eleanor Mafalda_Matilda María_Maria Marina_Marine Mayor_Mayor Mencía_Mencia
+			Milia_Emily Sancha_Sancha Teresa_Teresa Toda_Toda Urraca_Urraca
+		}
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = telmarine_culture_modifier
+	}
+}
+other = {
+	graphical_cultures = { westerngfx }
+
+	star = {
+		graphical_cultures = { englishgfx }
+		used_for_random=no
+		color = { 0.8 0.2 0.1 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+	}
+	charn = {
+		graphical_cultures = { englishgfx }
+		used_for_random=no
+		color = { 0.8 0.1 0.6 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+	}
+	lion = {
+		graphical_cultures = { englishgfx }
+		used_for_random=no
+		color = { 0.8 0.6 0 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+	}
+}
+northern_giant = {
+	graphical_cultures = { westerngfx }
+
+	ettins = {
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.3 0.55 0.8 }
+		
+		# Þ 222 þ 254 Ð 208 ð 240 æ
+		
+		male_names = {
+			Ale Alfr_Alf Alfgeir Anders_Andrew Anlaufr Anundr_Anund Arnbjörn Arngrimr Arni_Arne Arnfast Asbjörn_Asbjörn Bagge Baldr_Balder Barid Bengt_Benedict Bersi Bertil Birger Björn_Beorn Bo Borkvard Botulfr Bragi_Brage Buðli
+			Dag Dan Dyre Eilif Egill_Egil Emund Einarr_Einar Eirikr_Erik Eskild Falki Faste Filip_Philip Fredrik_Frederick Frirek Froði_Frode Freyr_Frej Folki_Folke Gandalfr Geirr Georg_George Gnupa_Gnupa Gorm_Gorm Greger_Gregory Grimr_Grim Guðfrið_Godfrey Guðmundr_Gudmund Guðröðr_Gudröd Gunnarr_Gunnar Hakon_Hakon Halsten Haraldr_Harold Haukr Helgi_Helge
+			Hemming Holmger Hrafn Hrolfr_Rolf Hrane Hæsteinn Hjalmar_Hjalmar Hroðgar Hroðulfr Hrörekr_Rurik Hysing Ingólfr_Ingolf Ingemar Ingjald Ivar_Ivar Jedvard_Edward Jon_John Karl_Charles Kettil Kettilmund Kjartan Klas Knut_Knut Kol Kolbjörn Magnus_Magnus Markus_Marcus 
+			Mats_Matthew Nils_Nicholas Niklas_Nicholas Oddr_Odd Ofeig Olafr_Olaf Ormr_Orm Ottarr_Ottar Refr Refil Ragnarr_Ragnar Rikulfr Rögnvaldr_Ragnvald Skuli_Skule Snorri Sigbjörn Sigtrygg Sigurðr_Sigurd Starkaðr_Starkad Steinn_Sten Sturla Styrbjörn Styrkar Sumarliði_Somerled Suni_Sune Sveinn_Sven
+			Sverker Sæmundr_Sämund Sölvi_Sölve Sörkver Tjudmund_Tjudmund Toke_Toke Tolir Þorbjörn_Torbjörn Þorfinn_Torfinn Þorbrandr_Torbrand Þordr_Tord Þorgil_Torkel Þorsteinn_Torsten Þorolfr_Thorolf Toste Totil Tryggve Tyke Ulfr_Ulf Vagn Valdemar_Vladimir Åke Yngvar_Ingvar Örvar_Orvar Öysteinn_Eysteinn
+		}
+		female_names = {
+			Aleta Alfhildr_Alfhild Alfrið_Alfridh Alvör Anna_Anna Asa_Åsa Aslaug Asta_Asta Astrid_Astrid Beata Birgitta_Brigid Björg Bodil Bothildr_Bothild Cecilia_Cecilia
+			Edla Elin Elisabet_Elizabeth Freyja_Freja Gerðr Gloð Grima Gunnhildr_Gunhild Gurli Guðrun_Gudrun Gyla Gyrið Gyða_Gytha Hafrid Halla Helena_Helen Holmfrid
+			Iliana Inga_Inga Ingfrid Ingibjörg_Ingeborg Ingjerðr_Ingegerd Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kraka Kristina_Christina Linda Maer
+			Malmfrið_Malmfrid Margareta_Margaret Maria_Maria Rikissa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild Saga Sara_Sarah Sif Sigrid_Sigrid Skuld Sofia_Sophia
+			Svanhildr_Svanhild Ulfhildr_Ulvhilde Vigdis Ylva_Ylva Yrsa Þora_Thora Þordis_Thordis Þyra_Thyra
+		}
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdottir"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = giant_modifier
+		
+		allow_looting = yes
+		allow_rivermovement = yes
+	}
+	harfang_giant = {
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.6 0.2 0.8 }
+		
+		# Þ 222 þ 254 Ð 208 ð 240 æ
+		
+		male_names = {
+			Ale Alfr_Alf Alfgeir Anders_Andrew Anlaufr Anundr_Anund Arnbjörn Arngrimr Arni_Arne Arnfast Asbjörn_Asbjörn Bagge Baldr_Balder Barid Bengt_Benedict Bersi Bertil Birger Björn_Beorn Bo Borkvard Botulfr Bragi_Brage Buðli
+			Dag Dan Dyre Eilif Egill_Egil Emund Einarr_Einar Eirikr_Erik Eskild Falki Faste Filip_Philip Fredrik_Frederick Frirek Froði_Frode Freyr_Frej Folki_Folke Gandalfr Geirr Georg_George Gnupa_Gnupa Gorm_Gorm Greger_Gregory Grimr_Grim Guðfrið_Godfrey Guðmundr_Gudmund Guðröðr_Gudröd Gunnarr_Gunnar Hakon_Hakon Halsten Haraldr_Harold Haukr Helgi_Helge
+			Hemming Holmger Hrafn Hrolfr_Rolf Hrane Hæsteinn Hjalmar_Hjalmar Hroðgar Hroðulfr Hrörekr_Rurik Hysing Ingólfr_Ingolf Ingemar Ingjald Ivar_Ivar Jedvard_Edward Jon_John Karl_Charles Kettil Kettilmund Kjartan Klas Knut_Knut Kol Kolbjörn Magnus_Magnus Markus_Marcus 
+			Mats_Matthew Nils_Nicholas Niklas_Nicholas Oddr_Odd Ofeig Olafr_Olaf Ormr_Orm Ottarr_Ottar Refr Refil Ragnarr_Ragnar Rikulfr Rögnvaldr_Ragnvald Skuli_Skule Snorri Sigbjörn Sigtrygg Sigurðr_Sigurd Starkaðr_Starkad Steinn_Sten Sturla Styrbjörn Styrkar Sumarliði_Somerled Suni_Sune Sveinn_Sven
+			Sverker Sæmundr_Sämund Sölvi_Sölve Sörkver Tjudmund_Tjudmund Toke_Toke Tolir Þorbjörn_Torbjörn Þorfinn_Torfinn Þorbrandr_Torbrand Þordr_Tord Þorgil_Torkel Þorsteinn_Torsten Þorolfr_Thorolf Toste Totil Tryggve Tyke Ulfr_Ulf Vagn Valdemar_Vladimir Åke Yngvar_Ingvar Örvar_Orvar Öysteinn_Eysteinn
+		}
+		female_names = {
+			Aleta Alfhildr_Alfhild Alfrið_Alfridh Alvör Anna_Anna Asa_Åsa Aslaug Asta_Asta Astrid_Astrid Beata Birgitta_Brigid Björg Bodil Bothildr_Bothild Cecilia_Cecilia
+			Edla Elin Elisabet_Elizabeth Freyja_Freja Gerðr Gloð Grima Gunnhildr_Gunhild Gurli Guðrun_Gudrun Gyla Gyrið Gyða_Gytha Hafrid Halla Helena_Helen Holmfrid
+			Iliana Inga_Inga Ingfrid Ingibjörg_Ingeborg Ingjerðr_Ingegerd Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kraka Kristina_Christina Linda Maer
+			Malmfrið_Malmfrid Margareta_Margaret Maria_Maria Rikissa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild Saga Sara_Sarah Sif Sigrid_Sigrid Skuld Sofia_Sophia
+			Svanhildr_Svanhild Ulfhildr_Ulvhilde Vigdis Ylva_Ylva Yrsa Þora_Thora Þordis_Thordis Þyra_Thyra
+		}
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdottir"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = giant_modifier
+		
+		allow_looting = yes
+		allow_rivermovement = yes
+	}
+}
+dwarf = {
+	graphical_cultures = { westerngfx }
+
+	red_dwarf = {
+		graphical_cultures = { dwarfgfx }
+		used_for_random=yes
+		color = { 0.1 0.15 0.15 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		
+		modifier = dwarf_culture_modifier
+	}
+	black_dwarf = {
+		graphical_cultures = { dwarfgfx }
+		used_for_random=yes
+		color = { 0.08 0.08 0.08 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert
+			Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip
+			Ralph_Ralph Randolph_Ralph Reginald Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+		}
+		female_names = {
+			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
+			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		
+		modifier = dwarf_culture_modifier
+	}
+}
+maori = {
+	graphical_cultures = { westafricangfx indiangfx muslimgfx  }
+	
+	tangatawhetu = {
+		graphical_cultures = { westafricangfx } #temp
+		
+		color = { 0.4 0.1 0.2 }
+		
+		female_names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina 
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Moanna Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+		male_names = {
+			Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena 
+			Kapono Keahi Kealii Keani Keanu Keiki Kelii Keon Keoni Kimo Konala Liko Loe Lulani Makaio  Makani Malo Mauli Mele Moke 
+			Nalani Oke Palani Pekelo
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+	}
+	kingiongaiwi = {
+		graphical_cultures = { westafricangfx } #temp
+		
+		color = { 0.5 0.1 0.1 }
+		
+		female_names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina 
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Moanna Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+		male_names = {
+			Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena 
+			Kapono Keahi Kealii Keani Keanu Keiki Kelii Keon Keoni Kimo Konala Liko Loe Lulani Makaio  Makani Malo Mauli Mele Moke 
+			Nalani Oke Palani Pekelo
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+	}
+}

@@ -1,0 +1,69 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # Castle
+castle = {
+	ca_telmarine_pike_barracks_1 = {
+		desc = ca_telmarine_pike_barracks_desc	
+		potential = {
+			OR = {
+				culture = telmarine
+				culture = koramarine
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		pikemen = 100
+		light_infantry = 50
+		tax_income = 0.1
+		ai_creation_factor = 110
+		gold_cost = 150
+		build_time = 100
+		extra_tech_building_start = 0.3
+	}
+	ca_telmarine_pike_barracks_2 = {
+		desc = ca_telmarine_pike_barracks_2_desc	
+		potential = {
+			OR = {
+				culture = telmarine
+				culture = koramarine
+			}
+		}
+		upgrades_from = ca_telmarine_pike_barracks_1
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		pikemen = 120
+		light_infantry = 20
+		tax_income = 0.1
+		ai_creation_factor = 110
+		gold_cost = 250
+		build_time = 250
+		extra_tech_building_start = 0.3
+	}
+	ca_telmarine_pike_barracks_3 = {
+		desc = ca_telmarine_pike_barracks_3_desc	
+		potential = {
+			OR = {
+				culture = telmarine
+				culture = koramarine
+			}
+		}
+		upgrades_from = ca_telmarine_pike_barracks_2
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		pikemen = 130
+		light_infantry = 30
+		tax_income = 0.2
+		ai_creation_factor = 110
+		gold_cost = 350
+		build_time = 250
+		extra_tech_building_start = 0.3
+	}
+}

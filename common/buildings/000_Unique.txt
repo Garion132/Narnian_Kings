@@ -1,0 +1,289 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # Castle
+castle = {
+	ca_cair_paravel = {
+		desc = cair_paravel_desc	
+		potential = {
+			FROMFROM = { title = b_cair_paravel }
+		}
+		galleys = 50
+		archers = 500
+		light_infantry = 500
+		heavy_infantry = 300
+		ai_creation_factor = 110
+		gold_cost = 1500
+		build_time = 1080
+		tax_income = 35.0
+		fort_level = 2
+		extra_tech_building_start = 1.0
+	}
+	ca_anvard_palace = {
+		desc = anvard_palace_desc	
+		potential = {
+			FROMFROM = { title = b_anvard }
+		}
+		light_infantry = 250
+		heavy_infantry = 60
+		pikemen = 250
+		knights = 140
+		ai_creation_factor = 110
+		gold_cost = 1500
+		build_time = 1080
+		tax_income = 12.4
+		fort_level = 6
+		extra_tech_building_start = 0.0
+	}
+	ca_tisroc_palace = {
+		desc = tisroc_palace_desc	
+		potential = {
+			FROMFROM = { title = b_palace_of_the_tisroc }
+		}
+		light_infantry = 800
+		heavy_infantry = 200
+		pikemen = 300
+		archers = 150
+		light_cavalry = 250
+		light_cavalry_defensive = 0.25
+		light_cavalry_offensive = 0.25
+		ai_creation_factor = 110
+		gold_cost = 1500
+		build_time = 1080
+		tax_income = 18.8
+		diplomacy = 2
+		fort_level = 5
+		extra_tech_building_start = 0.0
+	}
+	ca_castle_harfang = {
+		desc = castle_harfang_desc	
+		potential = {
+			FROMFROM = { title = b_harfang }
+		}
+		light_infantry = 40
+		heavy_infantry = 40
+		pikemen = 40
+		archers = 40
+		ai_creation_factor = 110
+		gold_cost = 1500
+		build_time = 1080
+		tax_income = 4
+		fort_level = 4
+		extra_tech_building_start = 0.0
+	}
+	ca_castle_caspian = {
+		desc = castle_caspian_desc	
+		potential = {
+			FROMFROM = { 
+				title = b_castle_caspian
+			}
+			year>2120
+			
+		}
+		light_infantry = 200
+		heavy_infantry = 200
+		pikemen = 50
+		archers = 250
+		ai_creation_factor = 110
+		gold_cost = 1700
+		build_time = 1420
+		tax_income = 3
+		fort_level = 10
+		extra_tech_building_start = 0.0
+	}
+	ca_castle_telmar = {
+		desc = castle_telmar_desc	
+		potential = {
+			FROMFROM = { 
+				title = b_castle_telmar
+			}
+			year>800
+		}
+		light_infantry = 100
+		heavy_infantry = 100
+		pikemen = 300
+		archers = 200
+		ai_creation_factor = 110
+		gold_cost = 1400
+		build_time = 1000
+		tax_income = 8
+		fort_level = 8
+		extra_tech_building_start = 0.0
+	}
+	ca_terebinthia_city = {
+		desc = ca_terebinthia_desc	
+		potential = {
+			FROMFROM = { title = b_terebinthia }
+			year>641
+		}
+		galleys = 25
+		light_infantry = 500
+		heavy_infantry = 100
+		archers = 200
+		ai_creation_factor = 110
+		gold_cost = 1700
+		build_time = 1420
+		tax_income = 10
+		extra_tech_building_start = 0.0
+	}
+	ca_terebinthia_city2 = {
+		desc = ca_terebinthia2_desc
+		upgrades_from = ca_terebinthia_city
+		potential = {
+			FROMFROM = { title = b_terebinthia }
+			year>1682
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		galleys = 25
+		light_infantry = 100
+		heavy_infantry = 400
+		archers = 200
+		knights = 100
+		ai_creation_factor = 110
+		
+		gold_cost = 2200
+		build_time = 1800
+		tax_income = 9
+		extra_tech_building_start = 0.0
+	}
+	ca_witches_mansion = {
+		desc = ca_witches_mansion_desc
+		potential = {
+			FROMFROM = { title = b_dwarfsdale }
+			year = 920
+			OWNER ={ 
+				OR = {
+					culture = charn
+					character = 1900
+				}
+			}
+		}
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		light_infantry = 200
+		heavy_infantry = 300
+		archers = 150
+		pikemen = 150
+		ai_creation_factor = 110
+		
+		gold_cost = 2200
+		build_time = 1800
+		fort_level = 8
+		extra_tech_building_start = 0.0
+	}
+	ca_koralis_house = {
+		desc = ca_koralis_house_desc
+		potential = {
+			FROMFROM = { title = b_serit }
+			year = 810
+		}
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		light_infantry = 750
+		heavy_infantry = 300
+		archers = 250
+		pikemen = 500
+		ai_creation_factor = 110
+		
+		gold_cost = 2200
+		build_time = 1800
+		fort_level = 4
+		tax_income = 15
+		extra_tech_building_start = 0.0
+	}
+	ca_gorgehead_fort = {
+		desc = ca_gorgehead_fort_desc
+		potential = {
+			FROMFROM = { title = b_gorgehead }
+			year = 810
+		}
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		light_infantry = 200
+		ai_creation_factor = 110
+		
+		gold_cost = 2200
+		build_time = 1800
+		fort_level = 20
+		tax_income = 3
+		extra_tech_building_start = 0.0
+	}
+	ca_cilfarch_fort = {
+		desc = ca_cilfarch_fort_desc
+		potential = {
+			FROMFROM = { title = b_cilfarch }
+			year = 810
+		}
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		light_infantry = 200
+		ai_creation_factor = 110
+		
+		gold_cost = 2200
+		build_time = 1800
+		fort_level = 20
+		tax_income = 3
+		extra_tech_building_start = 0.0
+	}
+	ca_craigton_fort = {
+		desc = ca_craigton_fort_desc
+		potential = {
+			FROMFROM = { title = b_craigton }
+			year = 810
+		}
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		light_infantry = 200
+		ai_creation_factor = 110
+		
+		gold_cost = 2200
+		build_time = 1800
+		fort_level = 20
+		tax_income = 3
+		extra_tech_building_start = 0.0
+	}
+	ca_temple_of_lunos = {
+		desc = ca_temple_of_lunos_desc
+		potential = {
+			FROMFROM = { title = b_lunos }
+			year = 950
+			religion = lunos
+		}
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		light_infantry = 1000
+		heavy_infantry = 50
+		archers = 100
+		ai_creation_factor = 110
+		
+		gold_cost = 2200
+		build_time = 1800
+		fort_level = 12
+		tax_income = 2
+		extra_tech_building_start = 0.0
+	}
+}
+city = {
+	ci_grand_city_of_shannan = {
+		desc = ca_grand_city_of_shannan_desc
+		potential = {
+			FROMFROM = { title = b_shannan_city }
+			year = 810
+		}
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		light_infantry = 500
+		heavy_infantry = 150
+		archers = 300
+		ai_creation_factor = 110
+		
+		gold_cost = 2200
+		build_time = 1800
+		fort_level = 10
+		tax_income = 10
+		extra_tech_building_start = 0.0
+	}
+}
