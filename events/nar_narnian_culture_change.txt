@@ -1,0 +1,61 @@
+character_event = {
+	id = 200012
+	desc = "EVTDESC200012"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		OR={
+			culture="english"
+			culture="charn"
+		}
+		NOT = {
+			trait="foreign_child"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+	option = {
+		name = "EVTOPTA200012"
+		capital_scope = {
+			reverse_culture = ROOT
+		}
+	}
+}
+character_event = {
+	id = 200013
+	desc = "EVTDESC200013"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_narrative_frame_war
+	
+	trigger = {
+	OR={
+	AND={
+		culture="faun"
+		NOT={trait="faun"}
+		}
+	AND={
+		culture_group="dwarf"
+		NOT={trait="dwarf_culture"}
+		}
+	}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+		
+	option = {
+		name = "EVTOPTA200013"
+		trigger={culture="faun"}
+		add_trait="faun"
+	}
+	option = {
+		name = "EVTOPTA200013"
+		trigger={culture_group="dwarf"}
+		add_trait="dwarf_culture"
+	}
+}

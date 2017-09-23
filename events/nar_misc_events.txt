@@ -1,0 +1,60 @@
+namespace = nar_misc
+character_event = { #Archenland offers vassalization to independant aslan rulers in the greater archenland area
+	id = nar_misc.1
+	desc = "EVTDESCnar_misc1"
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+	
+	trigger = {
+		has_landed_title = k_archenland
+		has_ambition = obj_greater_archenland
+	}
+	
+	option = { #give the order
+		name = EVTOPTAnar_misc.1
+		any_independent_ruler = {
+			limit = {
+				any_demesne_title = {
+					limit = {region = region_greater_archenland}
+				}
+				true_religion = aslan
+			}
+			character_event = {id = nar_misc.2}
+		}
+	}
+	option = { #no
+		name = EVTOPTBnar_misc.1
+	}
+}
+
+character_event = { #recives archenlands offer
+	id = nar_misc.2
+	desc = "EVTDESCnar_misc2"
+	
+	is_triggered_only=yes
+	
+	option = { #yes, all hail the king of archenland
+		name = EVTOPTAnar_misc.2
+		#any_independent_ruler = {
+			#limit = {has_landed_title = k_archenland}
+			ROOT = {set_defacto_liege = FROM}
+		#}
+		FROM = {character_event = {id = nar_misc.3}}
+	}
+	option = { #no
+		name = EVTOPTBnar_misc.2
+		FROM = {character_event = {id = nar_misc.3}}
+	}
+}
+character_event = { #recives archenlands offer
+	id = nar_misc.3
+	desc = "EVTDESCnar_misc3"
+	
+	is_triggered_only=yes
+	
+	option = { #yes, all hail the king of archenland
+		name = EVTOPTAnar_misc.3
+	}
+}
