@@ -1,0 +1,28 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+monastic_order_aslans_pure_rank_5_male;High Grandmaster;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_5_female;High Grandmistress;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_4_male;Grandmaster;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_4_female;Grandmistress;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_3_male;Master;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_3_female;Mistress;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_2_male;Knight;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_2_female;Knight;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_1_male;Layman;;;;;;;;;;;;;x
+monastic_order_aslans_pure_rank_1_female;Layman;;;;;;;;;;;;;x
+monastic_order_aslans_pure;Aslans Pure;;;;;;;;;;;;;x
+monastic_order_aslans_pure_desc;Aslans Pure is a military order tasked with keeping the peace within all aslan-worshiping realms;;;;;;;;;;;;;x
+aslans_pure_obedience;Lower members of the Order will obey the command of the High Grandmaster;;;;;;;;;;;;;x
+currency_order_aslans_pure;Aslans Favor;;;;;;;;;;;;;x
+monastic_order_aslans_pure_leader_desc;The High Grandmaster of the Order of Aslans Pure;;;;;;;;;;;;;x
+monastic_order_aslans_pure_leader;High Grandmaster;;;;;;;;;;;;;x
+EVTDESC_MNM_NAR_102;We have reviewed your request to join the Order and have accepted.;;;;;;;;;;;;;x
+EVTOPTA_MNM_NAR_102;Thank you;;;;;;;;;;;;;x
+
+
+
+
+
+
+
+
+
