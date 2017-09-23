@@ -1,0 +1,120 @@
+decisions = {
+
+	form_narnian_state  = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			is_playable = yes
+			independent = yes
+			religion_group = narnian
+			AND = {
+				k_narnia = { has_holder = no }
+				e_narnia = { has_holder = no }
+			}
+		}
+		allow = {
+			wealth = 200
+			war = no
+			prisoner = no
+			in_command = no
+			age = 16
+			AND = {##controls major centers
+				completely_controls = c_cair_paravel
+				OR={
+					completely_controls = d_beruna
+					any_independent_ruler = {
+						AND = {
+							completely_controls = d_beruna
+							pays_tribute_to = ROOT
+						}
+					}
+				}
+				OR={
+					completely_controls = d_galma
+					any_independent_ruler = {
+						AND = {
+							completely_controls = d_galma
+							pays_tribute_to = ROOT
+						}
+					}
+				}
+				OR={
+					completely_controls = c_aslans_how
+					any_independent_ruler = {
+						AND = {
+							completely_controls = c_aslans_how
+							pays_tribute_to = ROOT
+						}
+					}
+				}
+			}
+			OR = {#has the right
+				prestige = 500
+				AND = {
+					prestige = 150
+					trait = child_of_adam_or_eve
+					religion = aslan
+					c_cair_paravel = {religion = aslan}
+					c_aslans_how = {religion = aslan}
+				}
+				AND = {
+					prestige = 250
+					trait = line_of_charn
+					religion = white_witch
+					c_cair_paravel = {religion = white_witch}
+					c_aslans_how = {religion = white_witch}
+				}
+			}
+		}
+		effect = {
+			wealth = -200
+			prestige = 100
+			character_event = { id = NARCR.5 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	call_narnian_sphere_to_arms = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			is_playable = yes
+			independent = yes
+			religion_group = narnian
+			has_landed_title = k_rebel_narnia
+			NOT = { has_character_flag = called_narnian_sphere_to_arms }
+		}
+		allow = {
+			war = yes
+			prisoner = no
+			wealth = 200
+		}
+		effect = {
+			wealth = -200
+			any_independent_ruler = {
+				limit = {
+					OR = {
+						character = 2100
+						character = 52600
+						character = 60120
+						character = 70109
+						character = 70500
+					}
+				}
+				character_event = { id = winter_reb.50 }
+			}
+			set_character_flag = called_narnian_sphere_to_arms
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}
+targetted_decisions = {
+}
+
