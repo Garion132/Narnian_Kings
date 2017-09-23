@@ -1,0 +1,222 @@
+########################################################################################################
+# Traits for important Narinan Charactures
+########################################################################################################
+charn_education_steward = {
+	customizer = no
+	stewardship = 13
+	learning = 8
+	inherit_chance = 0
+	max_manpower_mult = 0.15
+	random=no
+	birth=0
+}
+line_of_charn = {
+	customizer = no
+	intrigue = 9
+	combat_rating = 5
+	martial = 8
+	health = 9
+	ai_greed = 20
+	ai_honor = -30
+	birth = 0
+	inherit_chance = 100
+	random = no
+}
+star = {
+	immortal = yes
+	health = 100
+	customizer = no
+	intrigue = 5
+	birth = 0
+	inherit_chance = 50
+	random=no
+}
+everlasting_apple = {
+	immortal = yes
+	health = 25
+	customizer = no
+	intrigue = 5
+	learning = 4
+	birth = 0
+	inherit_chance = 0
+	random=no
+}
+foreign_child = {
+	customizer = yes
+	learning = 2
+	monthly_character_prestige = 0.3
+	birth = 0
+	inherit_chance = 0
+	random=no
+}
+child_of_adam_or_eve = {
+	customizer = no
+	vassal_opinion = 25
+	birth = 0
+	cached = yes
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+}
+narnian_tyrant = {
+	martial = 1
+	vassal_opinion = -25
+	birth = 0
+	random=no
+}
+#traits for Narnian culture differant species
+faun = {
+	potential = {
+		culture = faun
+	}
+	opposites = {
+		giant_race
+		beaver
+		dwarf_culture
+		wolf
+		human_race
+	}
+	customizer = no
+	birth = 100
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+	health = 7.5
+}
+dwarf_culture = {
+	potential = {
+		culture_group = dwarf
+	}
+	opposites = {
+		giant_race
+		beaver
+		wolf
+		faun
+		human_race
+	}
+	customizer = no
+	birth = 100
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+	martial = 3
+	health = 15
+	combat_rating = 3
+	fertility = -0.15
+}
+beaver = {
+	customizer = no
+	potential = {
+		culture = narnian
+	}
+	opposites = {
+		giant_race
+		wolf
+		dwarf_culture
+		faun
+		human_race
+	}
+	birth = 0
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+	health = -2.5
+	learning = 3
+}
+wolf = {
+	customizer = no
+	potential = {
+		culture = narnian
+	}
+	opposites = {
+		giant_race
+		beaver
+		dwarf_culture
+		faun
+		human_race
+	}
+	birth = 0
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+	martial = 2
+	health = -2.5
+	intrigue = 1
+	combat_rating = 2.5
+}
+giant_race = {
+	customizer = no
+	opposites = {
+		wolf
+		beaver
+		dwarf_culture
+		faun
+		human_race
+	}
+	birth = 0
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+	martial = 4
+	combat_rating = 5
+}
+human_race = {
+	customizer = no
+	potential = {
+		culture = narnian
+		culture = archen
+		culture = terebinthian
+		culture = lone_islander
+		culture_group = men_of_the_south
+		culture_group = telmarine
+		culture_group = maori
+	}
+	opposites = {
+		wolf
+		beaver
+		dwarf_culture
+		faun
+	}
+	birth = 0
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+}
+## trait to let long live races breed
+female_infertility = {
+	birth = 0
+	fertility = -1000
+}
+
+scrouge_of_telmar = {
+	health = -2.5
+	diplomacy = -2
+	martial = -2
+	stewardship = -2
+	intrigue = -2
+	learning = -2
+	random = no
+}
+#traits for Valuia Divine dynasty mechanics
+valuia_dynasty = {
+	customizer = no
+	opposites = {
+		valuia_dynasty_minor
+	}
+	birth = 0
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+	health = 2.1
+}
+valuia_dynasty_minor = {
+	customizer = no
+	opposites = {
+		valuia_dynasty
+	}
+	birth = 0
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	random=no
+	health = 1.3
+}

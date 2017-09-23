@@ -1,0 +1,1431 @@
+e_dylis_tiral = {
+	color={ 115 198 140 }
+	color2={ 255 255 255 }
+	
+	short_name = yes
+	kingiongaiwi = "Airihi Wheunuataketake"
+	tangatawhetu = "Airihi Wheunuataketake"
+
+	k_shannan = {
+		color={ 255 178 56 }
+		color2={ 255 255 255 }
+		
+		teldesteira = "South Sheshia"
+		
+		d_shannan = {
+			color={ 255 178 56 }
+			color2={ 255 255 255 }
+			
+			capital = 1058 # 
+			
+			c_shannan = {
+				color={ 255 178 56 }
+				color2={ 255 255 255 }
+					
+				b_shannan_city = {
+				}
+				b_castle_of_shannan = {
+				}
+				b_shrine_of_shannan = {
+					holy_site = celtic
+				}
+				b_salannan = {
+				}
+			}
+		}
+		d_finelias= {
+			color={ 171 232 52 }
+			color2={ 255 255 255 }
+			
+			capital = 1061 # 
+			
+			c_iseulta = {
+				color={ 148 248 55 }
+				color2={ 255 255 255 }
+					
+				b_iseulta = {
+				}
+			}
+			c_ua_lilia = {
+				color={ 153 229 52 }
+				color2={ 255 255 255 }
+					
+				b_ua_lilia = {
+				}
+			}
+			c_finelias = {
+				color={ 154 229 53 }
+				color2={ 255 255 255 }
+					
+				b_finelias = {
+				}
+			}			
+		}
+		d_finster = {
+			color={ 165 242 52 }
+			color2={ 255 255 255 }
+			
+			capital = 1063 # 
+			
+			c_new_ulster = {
+				color={ 148 255 55 }
+				color2={ 255 255 255 }
+					
+				b_new_ulster = {
+				}
+			}
+			c_finster = {
+				color={ 153 239 52 }
+				color2={ 255 255 255 }
+					
+				b_finster = {
+				}
+			}
+			c_liagiun = {
+				color={ 154 239 53 }
+				color2={ 255 255 255 }
+					
+				b_liagiun = {
+				}
+			}			
+		}
+		d_rendoell = {
+			color={ 135 212 52 }
+			color2={ 255 255 255 }
+			
+			capital = 1063 # 
+			
+			c_oneall = {
+				color={ 138 215 55 }
+				color2={ 255 255 255 }
+					
+				b_oneall = {
+				}
+			}
+			c_rendoell = {
+				color={ 133 210 52 }
+				color2={ 255 255 255 }
+					
+				b_rendoell = {
+				}
+			}
+			c_untera = {
+				color={ 134 219 53 }
+				color2={ 255 255 255 }
+					
+				b_untera = {
+				}
+			}			
+		}
+		d_malwydann = {
+			color={ 142 213 51 }
+			color2={ 255 255 255 }
+			
+			capital = 1066 # 
+			
+			c_miaought = {
+				color={ 141 214 59 }
+				color2={ 255 255 255 }
+					
+				b_miaought = {
+				}
+			}
+			c_malwydann = {
+				color={ 142 213 51 }
+				color2={ 255 255 255 }
+					
+				b_malwydann = {
+				}
+			}
+			c_iloatan = {
+				color={ 146 212 58 }
+				color2={ 255 255 255 }
+					
+				b_iloatan = {
+				}
+			}			
+		}
+	}
+	k_tirdhreach = {
+		color={ 178 255 112 }
+		color2={ 255 255 255 }
+		
+		d_fenaster = {
+			color={ 175 230 120 }
+			color2={ 255 255 255 }
+			
+			capital = 1082 # 
+			
+			c_malronh = {
+				color={ 178 230 120 }
+				color2={ 255 255 255 }
+					
+				b_malronh = {
+				}
+			}
+			c_ilinish = {
+				color={ 180 227 122 }
+				color2={ 255 255 255 }
+					
+				b_ilinish = {
+				}
+				b_ilinish_city = {
+				}
+			}
+			c_fenaster = {
+				color={ 172 235 118 }
+				color2={ 255 255 255 }
+					
+				b_fenaster = {
+				}
+			}
+			c_juensaer = {
+				color={ 170 232 115 }
+				color2={ 255 255 255 }
+					
+				b_juensaer = {
+				}
+				b_juensrne = {
+				}
+			}
+		}
+		d_leinsreach = {
+			color={ 171 221 136 }
+			color2={ 255 255 255 }
+			
+			capital = 1086 # 
+			
+			c_pulnaish = {
+				color={ 181 225 118 }
+				color2={ 255 255 255 }
+					
+				b_pulnaish = {
+				}
+			}
+			c_derveria = {
+				color={ 180 227 122 }
+				color2={ 255 255 255 }
+					
+				b_derveria = {
+				}
+			}
+			c_new_leinster = {
+				color={ 175 238 112 }
+				color2={ 255 255 255 }
+					
+				b_new_leinster = {
+				}
+			}
+		}
+		d_nenvenought = {
+			color={ 168 213 130 }
+			color2={ 255 255 255 }
+			
+			capital = 1086 # 
+			
+			c_nenvenought = {
+				color={ 168 210 130 }
+				color2={ 255 255 255 }
+					
+				b_nenvenought = {
+				}
+				b_temple_of_danu = {
+					holy_site = celtic
+				}
+			}
+			c_finilas = {
+				color={ 170 217 132 }
+				color2={ 255 255 255 }
+					
+				b_finilas = {
+				}
+			}
+			c_cerintal = {
+				color={ 162 215 138 }
+				color2={ 255 255 255 }
+					
+				b_cerintal = {
+				}
+			}
+			c_cyrnil = {
+				color={ 160 212 135 }
+				color2={ 255 255 255 }
+					
+				b_cyrnil = {
+				}
+			}
+		}
+		d_winderlent = {
+			color={ 168 223 140 }
+			color2={ 255 255 255 }
+			
+			capital = 1091 # 
+			
+			c_suninlat = {
+				color={ 164 221 142 }
+				color2={ 255 255 255 }
+					
+				b_suninlat = {
+				}
+			}
+			c_winderish = {
+				color={ 171 220 140 }
+				color2={ 255 255 255 }
+					
+				b_winderish = {
+				}
+			}
+			c_vernuoght = {
+				color={ 169 226 141 }
+				color2={ 255 255 255 }
+					
+				b_vernuoght = {
+				}
+				b_vernuton = {
+				}
+			}
+		}
+		d_tilrend = {
+			color={ 184 223 141 }
+			color2={ 255 255 255 }
+			
+			capital = 1095 # 
+			
+			c_dyrinesa = {
+				color={ 184 219 135 }
+				color2={ 255 255 255 }
+					
+				b_dyrinesa = {
+				}
+			}
+			c_tilrend = {
+				color={ 182 215 134 }
+				color2={ 255 255 255 }
+					
+				b_tilrend = {
+				}
+			}
+			c_beriumah = {
+				color={ 183 214 131 }
+				color2={ 255 255 255 }
+					
+				b_beriumah = {
+				}
+			}
+		}
+		d_tyurilonea = {
+			color={ 184 223 141 }
+			color2={ 255 255 255 }
+			
+			capital = 1098 # 
+			
+			c_karrinough = {
+				color={ 161 216 140 }
+				color2={ 255 255 255 }
+					
+				b_karrinough = {
+				}
+				b_karrington={
+				}
+			}
+			c_tyurah = {
+				color={ 165 210 141 }
+				color2={ 255 255 255 }
+					
+				b_tyurah = {
+				}
+			}
+			c_menourea = {
+				color={ 171 212 140 }
+				color2={ 255 255 255 }
+					
+				b_menourea = {
+				}
+			}
+		}
+		d_cirona = {
+			color={ 150 208 149 }
+			color2={ 255 255 255 }
+			
+			capital = 1102 # 
+			
+			c_hutrenia = {
+				color={ 151 206 148 }
+				color2={ 255 255 255 }
+					
+				b_hutrenia = {
+				}
+			}
+			c_seirnios = {
+				color={ 155 209 146 }
+				color2={ 255 255 255 }
+					
+				b_seirnios = {
+				}
+			}
+			c_cirona = {
+				color={ 151 207 142 }
+				color2={ 255 255 255 }
+					
+				b_cirona = {
+				}
+			}
+			c_olperia = {
+				color={ 150 205 144 }
+				color2={ 255 255 255 }
+					
+				b_olperia = {
+				}
+			}
+		}
+		d_perium = {
+			color={ 160 218 151 }
+			color2={ 255 255 255 }
+			
+			capital = 1105 # 
+			
+			c_heriula = {
+				color={ 162 216 150 }
+				color2={ 255 255 255 }
+					
+				b_heriula = {
+				}
+			}
+			c_perium = {
+				color={ 165 219 152 }
+				color2={ 255 255 255 }
+					
+				b_perium = {
+				}
+			}
+			c_quonila = {
+				color={ 161 227 156 }
+				color2={ 255 255 255 }
+					
+				b_quonila = {
+				}
+			}
+			c_nenveriu = {
+				color={ 160 215 158 }
+				color2={ 255 255 255 }
+					
+				b_nenveriu = {
+				}
+			}
+		}
+		d_beriuo = {
+			color={ 171 231 142 }
+			color2={ 255 255 255 }
+			
+			capital = 1105 # 
+			
+			c_vuniough = {
+				color={ 176 231 140 }
+				color2={ 255 255 255 }
+					
+				b_vuniough = {
+				}
+			}
+			c_beriuo = {
+				color={ 172 235 142 }
+				color2={ 255 255 255 }
+					
+				b_beriuo = {
+				}
+			}
+			c_oulito = {
+				color={ 170 236 146 }
+				color2={ 255 255 255 }
+					
+				b_oulito = {
+				}
+			}
+		}
+		d_burnalis = {
+			color={ 182 232 142 }
+			color2={ 255 255 255 }
+			
+			capital = 1105 # 
+			
+			c_lumnash = {
+				color={ 183 231 146 }
+				color2={ 255 255 255 }
+					
+				b_lumnash = {
+				}
+			}
+			c_werriuma = {
+				color={ 185 235 144 }
+				color2={ 255 255 255 }
+					
+				b_werriuma = {
+				}
+			}
+			c_burnalis = {
+				color={ 179 233 143 }
+				color2={ 255 255 255 }
+					
+				b_burnalis = {
+				}
+			}
+			c_buriloa = {
+				color={ 195 230 142 }
+				color2={ 255 255 255 }
+					
+				b_buriloa = {
+				}
+			}
+		}
+		d_malought = {
+			color={ 54 18 120 }
+			color2={ 255 255 255 }
+			
+			capital = 1078 # 
+			
+			c_malought = {
+				color={ 52 11 110 }
+				color2={ 255 255 255 }
+					
+				b_malought = {
+				}
+			}
+			c_moriasan = {
+				color={ 78 20 110 }
+				color2={ 255 255 255 }
+					
+				b_moriasan = {
+				}
+				b_moriasan_city = {
+				}
+				b_moriample = {
+				}
+			}
+			c_denseira = {
+				color={ 75 21 110 }
+				color2={ 255 255 255 }
+					
+				b_denseira = {
+				}
+				b_seiratun = {
+				}
+			}
+		}
+	}
+	k_iresa = {
+		color={ 50 124 48 }
+		color2={ 255 255 255 }
+		
+		d_nemain = {
+			color={ 50 124 48 }
+			color2={ 255 255 255 }
+			
+			capital = 1120 # 
+			
+			c_nemain = {
+				color={ 50 124 48 }
+				color2={ 255 255 255 }
+					
+				b_nemain = {
+				}
+			}
+			c_iubuna = {
+				color={ 55 113 51 }
+				color2={ 255 255 255 }
+					
+				b_iubuna = {
+				}
+			}
+			c_lludium = {
+				color={ 52 110 55 }
+				color2={ 255 255 255 }
+					
+				b_lludium = {
+				}
+			}
+		}
+		d_magcabon = {
+			color={ 50 118 43 }
+			color2={ 255 255 255 }
+			
+			capital = 1122 # 
+			
+			c_magcabon = {
+				color={ 43 131 41 }
+				color2={ 255 255 255 }
+					
+				b_magcabon = {
+				}
+			}
+			c_yullicea = {
+				color={ 50 109 54 }
+				color2={ 255 255 255 }
+					
+				b_yullicea = {
+				}
+			}
+			c_goligonia = {
+				color={ 58 116 60 }
+				color2={ 255 255 255 }
+					
+				b_goligonia = {
+				}
+			}
+		}
+		d_taranisa = {
+			color={ 40 120 46 }
+			color2={ 255 255 255 }
+			
+			capital = 1126 # 
+			
+			c_werebhan = {
+				color={ 43 131 41 }
+				color2={ 255 255 255 }
+					
+				b_werebhan = {
+				}
+			}
+			c_taranisa = {
+				color={ 50 109 54 }
+				color2={ 255 255 255 }
+					
+				b_taranisa = {
+				}
+			}
+			c_patricius = {
+				color={ 58 116 60 }
+				color2={ 255 255 255 }
+					
+				b_patricius = {
+				}
+			}
+			c_uilosas = {
+				color={ 51 110 37 }
+				color2={ 255 255 255 }
+					
+				b_uilosas = {
+				}
+				b_uilosisan = {
+				}
+			}
+		}
+		d_ualthias = {
+			color={ 50 100 46 }
+			color2={ 255 255 255 }
+			
+			capital = 1130 # 
+			
+			c_weruino = {
+				color={ 51 124 46 }
+				color2={ 255 255 255 }
+					
+				b_weruino = {
+				}
+			}
+			c_ualth = {
+				color={ 42 105 58 }
+				color2={ 255 255 255 }
+					
+				b_ualth = {
+				}
+			}
+			c_wuseriol = {
+				color={ 60 121 65 }
+				color2={ 255 255 255 }
+					
+				b_wuseriol = {
+				}
+			}
+		}
+		d_finough = {
+			color={ 189 221 164 }
+			color2={ 255 255 255 }
+			
+			capital = 1105 # 
+			
+			c_periunih = {
+				color={ 185 223 164 }
+				color2={ 255 255 255 }
+					
+				b_periunih = {
+				}
+			}
+			c_darunh = {
+				color={ 182 224 163 }
+				color2={ 255 255 255 }
+					
+				b_darunh = {
+				}
+			}
+			c_finough = {
+				color={ 180 222 160 }
+				color2={ 255 255 255 }
+					
+				b_finough = {
+				}
+				b_temple_of_dagda = {
+					holy_site = celtic
+				}
+			}
+			c_koulash = {
+				color={ 187 229 161 }
+				color2={ 255 255 255 }
+					
+				b_koulash = {
+				}
+			}
+		}
+	}
+}
+e_impara = {
+	color={ 48 255 185 }
+	color2={ 255 255 255 }
+	
+	#short_name = yes
+	kingiongaiwi = "Emepaera"
+	tangatawhetu = "Emepaera"
+
+	k_ua_pulioua = {
+		color={ 75 201 53 }
+		color2={ 255 255 255 }
+		
+		d_seniria = {
+			color={ 75 201 53 }
+			color2={ 255 255 255 }
+			
+			capital = 1132 # 
+			
+			c_seniria = {
+				color={ 76 200 60 }
+				color2={ 255 255 255 }
+					
+				b_seniria = {
+				}
+			}
+			c_ienster = {
+				color={ 71 198 49 }
+				color2={ 255 255 255 }
+					
+				b_ienster = {
+				}
+			}
+			c_uninial = {
+				color={ 81 206 48 }
+				color2={ 255 255 255 }
+					
+				b_uninial = {
+				}
+			}
+		}
+		d_dyilnster = {
+			color={ 75 201 53 }
+			color2={ 255 255 255 }
+			
+			capital = 1136 # 
+			
+			c_paluria = {
+				color={ 75 208 53 }
+				color2={ 255 255 255 }
+					
+				b_paluria = {
+				}
+			}
+			c_dyilnster = {
+				color={ 74 210 58 }
+				color2={ 255 255 255 }
+					
+				b_dyilnster = {
+				}
+			}
+			c_tiytal = {
+				color={ 72 208 60 }
+				color2={ 255 255 255 }
+					
+				b_tiytal = {
+				}
+			}
+			c_luriast = {
+				color={ 78 204 62 }
+				color2={ 255 255 255 }
+					
+				b_luriast = {
+				}
+			}
+		}
+		d_bragnina = {
+			color={ 75 201 53 }
+			color2={ 255 255 255 }
+			
+			capital = 1141 # 
+			
+			c_tyrcuyta = {
+				color={ 75 208 53 }
+				color2={ 255 255 255 }
+					
+				b_tyrcuyta = {
+				}
+			}
+			c_ogamain = {
+				color={ 74 210 58 }
+				color2={ 255 255 255 }
+					
+				b_ogamain = {
+				}
+			}
+			c_bragnina = {
+				color={ 72 208 60 }
+				color2={ 255 255 255 }
+					
+				b_bragnina = {
+				}
+			}
+			c_hilurou = {
+				color={ 78 204 62 }
+				color2={ 255 255 255 }
+					
+				b_hilurou = {
+				}
+			}
+		}
+		d_denivere = {
+			color={ 78 195 61 }
+			color2={ 255 255 255 }
+			
+			capital = 1146 # 
+			
+			c_gentura = {
+				color={ 75 221 59 }
+				color2={ 255 255 255 }
+					
+				b_gentura = {
+				}
+			}
+			c_sentiuma = {
+				color={ 82 216 54 }
+				color2={ 255 255 255 }
+					
+				b_sentiuma = {
+				}
+			}
+			c_denddulb = {
+				color={ 74 212 65 }
+				color2={ 255 255 255 }
+					
+				b_denddulb = {
+				}
+			}
+			c_denivere = {
+				color={ 78 201 63 }
+				color2={ 255 255 255 }
+					
+				b_denivere = {
+				}
+			}
+			c_annwnidum = {
+				color={ 83 224 71 }
+				color2={ 255 255 255 }
+					
+				b_annwnidum = {
+				}
+			}
+		}
+	}
+	k_impara = {
+		color={ 50 255 184 }
+		color2={ 255 255 255 }
+		
+		kingiongaiwi = "Emepaera"
+		tangatawhetu = "Emepaera"
+		
+		d_impara = {
+		
+			color={ 50 255 184 }
+			color2={ 255 255 255 }
+			
+			capital = 1148 # 
+			
+			c_impara = {
+				color={ 50 255 184 }
+				color2={ 255 255 255 }
+					
+				b_impara = {
+				}
+			}
+			c_jenaveria = {
+				color={ 45 255 190 }
+				color2={ 255 255 255 }
+					
+				b_jenaveria = {
+				}
+			}
+			c_irenvia = {
+				color={ 63 250 180 }
+				color2={ 255 255 255 }
+					
+				b_irenvia = {
+				}
+			}
+		}
+		d_venounght = {
+		
+			color={ 60 248 176 }
+			color2={ 255 255 255 }
+			
+			capital = 1148 # 
+			
+			c_sentalios = {
+				color={ 48 230 189 }
+				color2={ 255 255 255 }
+					
+				b_sentalios = {
+				}
+			}
+			c_ventarought = {
+				color={ 60 248 196 }
+				color2={ 255 255 255 }
+					
+				b_ventarought = {
+				}
+			}
+			c_guinavera = {
+				color={ 49 230 190 }
+				color2={ 255 255 255 }
+					
+				b_guinavera = {
+				}
+			}
+			c_authura = {
+				color={ 40 230 192 }
+				color2={ 255 255 255 }
+					
+				b_authura = {
+				}
+			}
+		}
+		d_uanentil = {
+		
+			color={ 25 226 176 }
+			color2={ 255 255 255 }
+			
+			capital = 1159 # 
+			
+			c_irendium = {
+				color={ 28 225 176 }
+				color2={ 255 255 255 }
+					
+				b_irendium = {
+				}
+			}
+			c_yueris = {
+				color={ 26 222 179 }
+				color2={ 255 255 255 }
+					
+				b_yueris = {
+				}
+			}
+			c_leoira = {
+				color={ 24 220 180 }
+				color2={ 255 255 255 }
+					
+				b_leoira = {
+				}
+				b_leoira_city = {
+				}
+			}
+			c_olunia = {
+				color={ 22 225 170 }
+				color2={ 255 255 255 }
+					
+				b_olunia = {
+				}
+			}
+			c_uanentil = {
+				color={ 25 227 173 }
+				color2={ 255 255 255 }
+					
+				b_uanentil = {
+				}
+			}
+		}
+		d_nenival = {
+		
+			color={ 78 218 153 }
+			color2={ 255 255 255 }
+			
+			capital = 1162 # 
+			
+			c_benuralis = {
+				color={ 79 220 156 }
+				color2={ 255 255 255 }
+					
+				b_benuralis = {
+				}
+			}
+			c_onulials = {
+				color={ 77 218 154 }
+				color2={ 255 255 255 }
+					
+				b_onulials = {
+				}
+			}
+			c_nenival = {
+				color={ 78 219 155 }
+				color2={ 255 255 255 }
+					
+				b_nenival = {
+				}
+			}
+			c_inveriua = {
+				color={ 76 221 151 }
+				color2={ 255 255 255 }
+					
+				b_inveriua = {
+				}
+			}
+		}
+		d_selinougt = {
+		
+			color={ 53 218 155 }
+			color2={ 255 255 255 }
+			
+			capital = 1166 # 
+			
+			c_dyhunia = {
+				color={ 55 220 159 }
+				color2={ 255 255 255 }
+					
+				b_dyhunia = {
+				}
+			}
+			c_nilougt = {
+				color={ 55 218 158 }
+				color2={ 255 255 255 }
+					
+				b_nilougt = {
+				}
+			}
+			c_seliougt = {
+				color={ 52 219 160 }
+				color2={ 255 255 255 }
+					
+				b_seliougt = {
+				}
+			}
+			c_minurough = {
+				color={ 51 221 156 }
+				color2={ 255 255 255 }
+					
+				b_minurough = {
+				}
+			}
+		}
+		d_loghlanough = {
+		
+			color={ 62 234 128 }
+			color2={ 255 255 255 }
+			
+			capital = 1172 # 
+			
+			c_tarina = {
+				color={ 62 234 123 }
+				color2={ 255 255 255 }
+					
+				b_tarina = {
+				}
+			}
+			c_oster = {
+				color={ 66 229 126 }
+				color2={ 255 255 255 }
+					
+				b_oster = {
+				}
+			}
+			c_ua_linta = {
+				color={ 69 231 121 }
+				color2={ 255 255 255 }
+					
+				b_ua_linta = {
+				}
+			}
+			c_septeniough = {
+				color={ 67 232 120 }
+				color2={ 255 255 255 }
+					
+				b_septeniough = {
+				}
+			}
+			c_loghlanough = {
+				color={ 61 230 124 }
+				color2={ 255 255 255 }
+					
+				b_loghlanough = {
+				}
+			}
+		}
+		d_irenought = {
+		
+			color={ 74 213 100 }
+			color2={ 255 255 255 }
+			
+			capital = 1175 # 
+			
+			c_celligan = {
+				color={ 75 210 103 }
+				color2={ 255 255 255 }
+					
+				b_celligan = {
+				}
+			}
+			c_necardif = {
+				color={ 72 212 106 }
+				color2={ 255 255 255 }
+					
+				b_necardif = {
+				}
+			}
+			c_irenought = {
+				color={ 71 214 101 }
+				color2={ 255 255 255 }
+					
+				b_irenought = {
+				}
+			}
+			c_keriough = {
+				color={ 74 211 100 }
+				color2={ 255 255 255 }
+					
+				b_keriough = {
+				}
+			}
+			c_genought = {
+				color={ 75 216 104 }
+				color2={ 255 255 255 }
+					
+				b_genought = {
+				}
+			}
+		}
+	}
+	k_dfyrid = {
+		color={ 255 178 56 }
+		color2={ 255 255 255 }
+		
+		kingiongaiwi = "Kerihana"
+		tangatawhetu = "Kerihana"
+		
+		d_dfyrid = {
+			color={ 48 255 182 }
+			color2={ 255 255 255 }
+			
+			c_dyfed = {
+				color={ 255 187 39 }
+				color2={ 255 255 255 }
+					
+				b_dyfed = {
+				}
+			}
+			c_denaster = {
+				color={ 255 188 40 }
+				color2={ 255 255 255 }
+					
+				b_denaster = {
+				}
+			}
+			c_liroia = {
+				color={ 255 183 42 }
+				color2={ 255 255 255 }
+					
+				b_liroia = {
+				}
+			}
+		}
+		d_sepinarin = {
+			color={ 53 170 155 }
+			color2={ 255 255 255 }
+			
+			capital = 1191 # 
+			
+			c_jenought = {
+				color={ 209 175 70 }
+				color2={ 255 255 255 }
+					
+				b_jenought = {
+				}
+			}
+			c_sepinarin = {
+				color={ 206 172 72 }
+				color2={ 255 255 255 }
+					
+				b_sepinarin = {
+				}
+			}
+			c_leirous = {
+				color={ 210 170 76 }
+				color2={ 255 255 255 }
+					
+				b_leirous = {
+				}
+			}
+			c_leirisa = {
+				color={ 200 176 70 }
+				color2={ 255 255 255 }
+					
+				b_leirisa = {
+				}
+			}
+		}
+		d_laithreain = {
+			color={ 191 155 50 }
+			color2={ 255 255 255 }
+			
+			c_ua_lanvar = {
+				color={ 184 154 41 }
+				color2={ 255 255 255 }
+					
+				b_ua_lanvar = {
+				}
+			}
+			c_laithreain = {
+				color={ 182 160 40 }
+				color2={ 255 255 255 }
+					
+				b_laithreain = {
+				}
+			}
+			c_laithreain_uachtarach = {
+				color={ 189 171 37 }
+				color2={ 255 255 255 }
+					
+				b_laithreain_uachtarach = {
+				}
+			}
+			c_reimsenua = {
+				color={ 189 171 37 }
+				color2={ 255 255 255 }
+					
+				b_reimsenua = {
+				}
+			}
+		}
+		d_arlioght = {
+			color={ 172 148 61 }
+			color2={ 255 255 255 }
+			
+			c_arliusia = {
+				color={ 177 151 58 }
+				color2={ 255 255 255 }
+					
+				b_arliusia = {
+				}
+			}
+			c_derstioght = {
+				color={ 174 137 57 }
+				color2={ 255 255 255 }
+					
+				b_derstioght = {
+				}
+			}
+			c_sarianie = {
+				color={ 181 144 62 }
+				color2={ 255 255 255 }
+					
+				b_sarianie = {
+				}
+			}
+			c_juamerign = {
+				color={ 169 148 60 }
+				color2={ 255 255 255 }
+					
+				b_juamerign = {
+				}
+			}
+		}
+		d_rivinith = {
+			color={ 152 121 50 }
+			color2={ 255 255 255 }
+			
+			c_farrun = {
+				color={ 151 124 58 }
+				color2={ 255 255 255 }
+					
+				b_farrun = {
+				}
+			}
+			c_yewhold = {
+				color={ 148 119 47 }
+				color2={ 255 255 255 }
+					
+				b_yewhold = {
+				}
+			}
+			c_rivinith = {
+				color={ 153 117 52 }
+				color2={ 255 255 255 }
+					
+				b_rivinith = {
+				}
+			}
+			c_ollnought = {
+				color={ 148 122 50 }
+				color2={ 255 255 255 }
+					
+				b_ollnought = {
+				}
+			}
+			c_tremond = {
+				color={ 149 118 51 }
+				color2={ 255 255 255 }
+					
+				b_tremond = {
+				}
+			}
+		}
+		d_aluought = {
+			color={ 121 100 34 }
+			color2={ 255 255 255 }
+			
+			c_aluought = {
+				color={ 121 94 37 }
+				color2={ 255 255 255 }
+					
+				b_aluought = {
+				}
+			}
+			c_jenuris = {
+				color={ 118 98 33 }
+				color2={ 255 255 255 }
+					
+				b_jenuris = {
+				}
+			}
+			c_denverith = {
+				color={ 123 102 35 }
+				color2={ 255 255 255 }
+					
+				b_denverith = {
+				}
+			}
+			c_ioverught = {
+				color={ 118 101 36 }
+				color2={ 255 255 255 }
+					
+				b_ioverught = {
+				}
+			}
+		}
+	}
+}
+
+	
+e_moon_empire = {
+	color={ 57 16 124 }
+	color2={ 255 255 255 }
+	
+	short_name = yes
+	allow = {
+		religion = lunos
+		culture = irish	
+	}
+	k_luna = {
+		color={ 57 16 124 }
+		color2={ 255 255 255 }
+		
+		teldesteira = "Colonia de la luna"
+		
+		d_lunos = {
+			color={ 57 16 124 }
+			color2={ 255 255 255 }
+			
+			capital = 1076 # 
+			
+			c_lunos = {
+				color={ 57 16 124 }
+				color2={ 255 255 255 }
+					
+				b_lunos = {
+				}
+				b_mon_tresa = {
+				}
+				b_high_temple_of_luna = {
+					holy_site = celtic
+				}
+				b_araluoa = {
+				}
+				b_puraouliu = {
+				}
+			}
+			c_myyrdin = {
+				color={ 60 18 120 }
+				color2={ 255 255 255 }
+					
+				b_myyrdin = {
+				}
+				b_temple_of_myyrdin = {
+				}
+				b_myrra = {
+				}
+				b_upiloa = {
+				}
+			}
+		}
+		d_malloius = {
+			color={ 54 14 120 }
+			color2={ 255 255 255 }
+			
+			capital = 1072 # 
+			
+			c_malloius = {
+				color={ 54 14 120 }
+				color2={ 255 255 255 }
+					
+				b_malloius = {
+				}
+			}
+			c_selia = {
+				color={ 70 16 115 }
+				color2={ 255 255 255 }
+					
+				b_selia = {
+				}
+				b_temple_of_selia = {
+					holy_site = celtic
+				}
+			}
+			c_sariout = {
+				color={ 72 17 118 }
+				color2={ 255 255 255 }
+					
+				b_sariout = {
+				}
+			}
+			c_lughis = {
+				color={ 75 18 120 }
+				color2={ 255 255 255 }
+					
+				b_lughis = {
+				}
+			}
+		}
+	}
+}
+
+d_lunos_priestess = {
+	color={ 57 16 124 }
+	color2={ 255 255 255 }
+	allow = {
+		religion = lunos
+		culture = irish	
+		female = yes
+	}  
+	title = "Priest Regent"
+	title_female = "High Priestess"
+	controls_religion = lunos
+}
+
+b_maccumal = {
+	culture = irish
+	religion = celtic
+}
+b_uan_leoira = {
+	culture = irish
+	religion = celtic
+}

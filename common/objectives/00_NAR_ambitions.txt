@@ -1,0 +1,244 @@
+obj_a_true_tisroc = {
+	type = character
+	
+	potential = {
+		religion_group = tash
+		has_landed_title = e_calormen
+		NOT = {completely_controls = e_calormen}
+	}
+	
+	allow = {
+		is_adult = yes
+		piety = 100
+	}
+	
+	chance = {
+		factor = 50
+		
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 0.01
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			OR = {
+				trait = strong
+				trait = genius
+				trait = quick
+			}
+		}
+		modifier = {
+			factor = 10.0
+			trait = zealous
+		}
+	}
+	success = {
+		completely_controls = e_calormen
+	}
+	abort = {
+		OR = {
+			trait = craven
+			trait = content
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		change_stewardship = 1
+		piety = 100
+		prestige = 100
+		if = {
+			limit = {
+				has_nickname = no
+			}
+			give_nickname = nick_the_culture
+		}
+		any_vassal = {
+			limit = {
+				religion = ROOT
+			}
+			opinion = {
+				who = ROOT
+				modifier = opinion_loyal_vassal
+				months = 1200
+			}
+		}
+		# Achievement
+		hidden_tooltip = {
+			if = {
+				limit = { ai = no }
+				set_character_flag = achievement_a_true_tisroc
+			}
+		}
+	}
+}
+
+obj_dominator_of_archenland = {
+	type = character
+	
+	potential = {
+		religion_group = tash
+		has_landed_title = e_calormen
+		NOR = {
+			completely_controls = k_archenland
+			any_independent_ruler = {
+				AND = {
+					completely_controls = k_archenland
+					pays_tribute_to = ROOT
+				}
+			}
+		}
+	}
+	
+	allow = {
+		is_adult = yes
+		prestige = 250
+	}
+	
+	chance = {
+		factor = 50
+		
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 0.01
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			OR = {
+				trait = strong
+				trait = genius
+				trait = quick
+			}
+		}
+		modifier = {
+			factor = 10.0
+			trait = zealous
+		}
+	}
+	success = {
+		OR = {
+			completely_controls = k_archenland
+			any_independent_ruler = {
+				AND = {
+					completely_controls = k_archenland
+					pays_tribute_to = ROOT
+				}
+			}
+		}
+	}
+	abort = {
+		OR = {
+			trait = craven
+			trait = content
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		change_martial = 1
+		piety = 100
+		prestige = 100
+		if = {
+			limit = {
+				has_nickname = no
+			}
+			give_nickname = nick_the_liberator
+		}
+		any_independent_ruler = {
+			limit = {completely_controls = k_archenland}
+			set_defacto_liege = ROOT
+			opinion = {
+				who = ROOT
+				modifier = opinion_usurped_title
+				months = 1200
+			}
+		}
+	}
+}
+
+obj_greater_archenland = {
+	type = character
+	
+	potential = {
+		religion_group = aslan
+		has_landed_title = k_archenland
+		NOT = {completely_controls_region = region_greater_archenland}
+	}
+	
+	allow = {
+		is_adult = yes
+		piety = 50
+	}
+	
+	chance = {
+		factor = 50
+		
+		modifier = {
+			factor = 1.25
+			trait = patient
+		}
+		modifier = {
+			factor = 0.01
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			OR = {
+				trait = strong
+				trait = genius
+				trait = quick
+			}
+		}
+		modifier = {
+			factor = 10.0
+			trait = zealous
+		}
+	}
+	success = {
+		completely_controls_region = region_greater_archenland
+	}
+	abort = {
+		OR = {
+			trait = craven
+			trait = content
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		change_stewardship = 2
+		piety = 100
+		prestige = 250
+		if = {
+			limit = {
+				has_nickname = no
+			}
+			give_nickname = nick_the_culture
+		}
+		any_vassal = {
+			limit = {
+				religion = ROOT
+			}
+			opinion = {
+				who = ROOT
+				modifier = opinion_loyal_vassal
+				months = 1200
+			}
+		}
+		# Achievement
+		hidden_tooltip = {
+			if = {
+				limit = { ai = no }
+				set_character_flag = achievement_greater_archenland
+			}
+		}
+	}
+}

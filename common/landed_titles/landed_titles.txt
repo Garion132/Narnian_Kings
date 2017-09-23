@@ -1,0 +1,9 @@
+k_telmarine_narnia = {
+	color={ 28 134 28 }
+	color2={ 219 43 43 }
+}
+k_telmarine_invasion = {
+	color={ 255 175 12 }
+	color2={ 255 255 255 }
+	tribe=yes
+}

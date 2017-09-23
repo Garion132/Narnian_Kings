@@ -1,0 +1,1467 @@
+e_calormen = {
+	color={ 42 4 16 }
+	color2={ 0 0 0 }
+	capital = 662 # Tashbaan
+	short_name = yes
+
+	title = "Tisroc"
+	title_female = "Tisroc"
+	foa = "Tisroc"
+
+	k_calor={
+	color={ 74 4 16 }
+	color2={ 0 0 0 }
+	
+		d_tashbaan = {
+			color={ 5 76 86 }
+			color2={ 255 255 255 }
+			
+			capital = 662 # Tashbaan
+
+			c_tashbaan = {
+				color={ 7 70 82 }
+				color2={ 255 255 255 }
+				
+				b_palace_of_the_tisroc = {
+				}
+				b_tashbaan = {
+				}
+				b_high_temple_of_tash = {
+					holy_site = tash
+					holy_site = tellan
+				}
+				b_tashbaan_tombs = {
+					holy_site = aslan
+				}
+				b_tashbaan_outer_ring = {
+				}
+				b_tashbaan_suburbs = {
+				}
+				b_tashselia = {
+				}
+			}
+			c_east_tashbaan = {
+				color={ 6 71 89 }
+				color2={ 255 255 255 }
+				
+				b_east_tashbaan = {
+				}
+			}
+			c_west_tashbaan = {
+				color={ 11 67 81 }
+				color2={ 255 255 255 }
+				
+				b_west_tashbaan = {
+				}
+			}
+			c_south_tashbaan = {
+				color={ 14 63 75 }
+				color2={ 255 255 255 }
+				
+				b_south_tashbaan = {
+				}
+			}
+		}
+		d_azem_balda = {
+			color={ 5 76 86 }
+			color2={ 255 255 255 }
+			
+			capital = 675 # Tashbaan
+
+			c_azem_balda = {
+				color={ 64 24 38 }
+				color2={ 255 255 255 }
+				
+				b_azem_balda = {
+				}
+			}
+			c_azem_rashdals = {
+				color={ 68 22 36 }
+				color2={ 255 255 255 }
+				
+				b_azem_rashdals = {
+				}
+			}
+			c_azem_outfords = {
+				color={ 74 28 41 }
+				color2={ 255 255 255 }
+				
+				b_azem_outfords = {
+				}
+			}
+			c_azem = {
+				color={ 83 22 43 }
+				color2={ 255 255 255 }
+				
+				b_azem = {
+				}
+			}
+			c_south_azem = {
+				color={ 94 26 57 }
+				color2={ 255 255 255 }
+				
+				b_south_azem = {
+				}
+			}
+		}
+		d_ilkeen = {
+			color={ 98 76 86 }
+			color2={ 255 255 255 }
+			
+			capital = 681 # Tashbaan
+
+			c_ilkeen = {
+				color={ 102 70 64 }
+				color2={ 255 255 255 }
+				
+				b_upper_ilkeen = {
+				}
+				b_lower_ilkeen = {
+				}
+			}
+			c_south_ilkeen = {
+				color={ 109 70 65 }
+				color2={ 255 255 255 }
+				
+				b_south_ilkeen = {
+				}
+			}
+			c_ilkeen_fords = {
+				color={ 108 65 62 }
+				color2={ 255 255 255 }
+				
+				b_ilkeen_fords = {
+				}
+			}
+			c_ourtilkeen ={
+				color={ 112 62 68 }
+				color2={ 255 255 255 }
+				
+				b_ourtilkeen = {
+				}
+			}
+		}
+		d_agorbah = {
+			color={ 141 93 92 }
+			color2={ 255 255 255 }
+
+			c_agorbah={
+				color={ 134 75 91 }
+				color2={ 255 255 255 }
+				
+				b_agorbah = {
+				}
+			}
+			c_agorbah_outlands={
+				color={ 111 72 100 }
+				color2={ 255 255 255 }
+				
+				b_agorbah_outlands = {
+				}
+			}
+			c_agorsa={
+				color={ 111 81 101 }
+				color2={ 255 255 255 }
+				
+				b_agorsa = {
+				}
+			}
+			c_agorbaan={
+				color={ 108 71 103 }
+				color2={ 255 255 255 }
+				
+				b_agorbaan = {
+				}
+			}
+			c_agouros={
+				color={ 110 78 104 }
+				color2={ 255 255 255 }
+				
+				b_agouros = {
+				}
+			}
+		}
+		d_teeban = {
+			color={ 141 93 92 }
+			color2={ 255 255 255 }
+
+			c_teeban={
+				color={ 134 85 91 }
+				color2={ 255 255 255 }
+				
+				b_teeban = {
+				}
+			}
+			c_loubaan={
+				color={ 121 82 100 }
+				color2={ 255 255 255 }
+				
+				b_loubaan = {
+				}
+			}
+			c_huioban={
+				color={ 125 83 101 }
+				color2={ 255 255 255 }
+				
+				b_huioban = {
+				}
+			}
+			c_outer_teeban={
+				color={ 128 87 109 }
+				color2={ 255 255 255 }
+				
+				b_outer_teeban = {
+				}
+			}
+		}
+		d_slavers_bay = {
+			color={ 191 93 92 }
+			color2={ 255 255 255 }
+
+			c_caloira={
+				color={ 184 85 91 }
+				color2={ 255 255 255 }
+				
+				b_caloira = {
+				}
+			}
+			c_ihsbaan={
+				color={ 171 82 100 }
+				color2={ 255 255 255 }
+				
+				b_ihsbaan = {
+				}
+			}
+			c_tashbelda={
+				color={ 175 83 101 }
+				color2={ 255 255 255 }
+				
+				b_tashbelda = {
+				}
+			}
+			c_bizra={
+				color={ 178 87 109 }
+				color2={ 255 255 255 }
+				
+				b_bizra = {
+				}
+			}
+			c_nortelbah={
+				color={ 178 81 121 }
+				color2={ 255 255 255 }
+				
+				b_nortelbah = {
+				}
+			}
+			c_telbann={
+				color={ 180 84 132 }
+				color2={ 255 255 255 }
+				
+				b_telbann = {
+				}
+			}
+		}	
+	}
+	k_great_desert={
+		color={ 197 202 40 }
+		color2={ 255 255 255 }
+		
+		d_south_archen={
+			color={ 212 202 91 }
+			color2={ 255 255 255 }
+			
+			calormen = "Northern Great Desert"
+
+			capital = 650 #Doriam
+
+			c_doriam = {
+				color={ 204 213 102 }
+				color2={ 255 255 255 }
+				
+				b_doriam = {
+				}
+			}
+			c_southgarden = {
+				color={ 247 210 113 }
+				color2={ 255 255 255 }
+				
+				b_southgarden = {
+				}
+			}
+			c_gardengate = {
+				color={ 213 181 113 }
+				color2={ 255 255 255 }
+				
+				b_gardengate = {
+				}
+			}
+			c_amayier = {
+				color={ 253 184 91 }
+				color2={ 255 255 255 }
+				
+				b_amayier = {
+				}
+			}
+			c_partezia = {
+				color={ 248 188 21 }
+				color2={ 255 255 255 }
+				
+				b_partezia = {
+				}
+			}
+			c_taparogh = {
+				color={ 255 183 15 }
+				color2={ 255 255 255 }
+				
+				b_taparogh = {
+				}
+			}
+			c_getaberan = {
+				color={ 250 190 10 }
+				color2={ 255 255 255 }
+				
+				b_getaberan = {
+				}
+			}
+		}
+		d_arched_bays = {
+			color={ 24 61 97 }
+			color2={ 255 255 255 }
+			
+			capital = 672 # Archedriver
+
+			c_archpoint = {
+				color={ 12 71 79 }
+				color2={ 255 255 255 }
+				
+				b_archpoint = {
+				}
+			}
+			c_archedriver = {
+				color={ 18 68 71 }
+				color2={ 255 255 255 }
+				
+				b_archedriver = {
+				}
+			}
+			c_five_arches = {
+				color={ 10 64 74 }
+				color2={ 255 255 255 }
+				
+				b_five_arches = {
+				}
+			}
+			c_calorarch = {
+				color={ 20 69 70 }
+				color2={ 255 255 255 }
+				
+				b_calorarch = {
+				}
+			}
+		}
+		d_ankiun = {
+			color={ 197 120 40 }
+			color2={ 255 255 255 }
+			
+			c_ankiun = {
+				color={ 253 112 91 }
+				color2={ 255 255 255 }
+				
+				b_ankiun = {
+				}
+			}
+			c_dorposhot = {
+				color={ 248 110 21 }
+				color2={ 255 255 255 }
+				
+				b_dorposhot = {
+				}
+			}
+			c_dusharia = {
+				color={ 255 112 15 }
+				color2={ 255 255 255 }
+				
+				b_dusharia = {
+				}
+			}
+			c_qaumra = {
+				color={ 250 114 10 }
+				color2={ 255 255 255 }
+				
+				b_qaumra = {
+				}
+			}
+			c_sharat = {
+				color={ 240 104 10 }
+				color2={ 255 255 255 }
+				
+				b_sharat = {
+				}
+			}
+		}
+		d_desert_road = {
+			color={ 52 8 8 }
+			color2={ 255 255 255 }
+			
+			capital = 662 # North Desert Road
+
+			c_north_desert_road = {
+				color={ 70 7 8 }
+				color2={ 255 255 255 }
+				
+				b_north_desert_road = {
+				}
+			}
+			c_south_desert_road = {
+				color={ 61 7 9 }
+				color2={ 255 255 255 }
+				
+				b_south_desert_road = {
+				}
+			}
+			c_south_valley = {
+				color={ 42 72 96 }
+				color2={ 255 255 255 }
+				
+				b_south_valley = {
+				}
+			}
+		}
+		d_tehishbaan = {
+			color={ 161 72 73 }
+			color2={ 255 255 255 }
+
+			c_tehishbaan={
+				color={ 124 71 95 }
+				color2={ 255 255 255 }
+				
+				b_tehishbaan = {
+				}
+			}
+			c_tehishbaan_outskirts={
+				color={ 121 75 88 }
+				color2={ 255 255 255 }
+				
+				b_tehishbaan_outskirts = {
+				}
+			}
+			c_pugrahan={
+				color={ 141 72 100 }
+				color2={ 255 255 255 }
+				
+				b_pugrahan = {
+				}
+			}
+			c_norcalor={
+				color={ 163 81 96 }
+				color2={ 255 255 255 }
+				
+				b_norcalor = {
+				}
+			}
+		}
+		d_spur_of_calore = {
+			color={ 78 100 86 }
+			color2={ 255 255 255 }
+			
+			capital = 668 # Palazar
+
+			c_palazar = {
+				color={ 77 70 82 }
+				color2={ 255 255 255 }
+				
+				b_palazar = {
+				}
+				b_palazcity = {
+				}
+				b_palazar_temple_of_tash = {
+					holy_site = tash
+				}
+			}
+			c_southern_palazar = {
+				color={ 74 86 92 }
+				color2={ 255 255 255 }
+				
+				b_southern_palazar = {
+				}
+			}
+			c_spur_of_calore = {
+				color={ 71 74 85 }
+				color2={ 255 255 255 }
+				
+				b_spur_of_calore = {
+				}
+			}
+			c_northern_palazar = {
+				color={ 76 92 72 }
+				color2={ 255 255 255 }
+				
+				b_northern_palazar = {
+				}
+			}
+		}
+		d_kalorius = {
+			color={ 70 86 76 }
+			color2={ 255 255 255 }
+			
+			#capital = 666 # Kalorius
+			
+			c_tashbaan_bay = {
+				color={ 74 99 80 }
+				color2={ 255 255 255 }
+				
+				b_tashbaan_bay = {
+				}
+			}
+			c_kalorius = {
+				color={ 70 86 76 }
+				color2={ 255 255 255 }
+				
+				b_kalorius = {
+				}
+				b_kalor_city={
+				}
+				b_kalorius_temple = {
+				}
+			}
+			c_great_desert_coast = {
+				color={ 80 90 70 }
+				color2={ 255 255 255 }
+				
+				b_great_desert_coast = {
+				}
+			}
+		}
+	}
+	k_calavar={
+	color={ 73 18 27 }
+	color2={ 0 0 0 }
+
+		d_azimbalda = {
+			color={ 5 76 86 }
+			color2={ 255 255 255 }
+			
+			capital = 703 # Tashbaan
+
+			c_azimbalda = {
+				color={ 76 71 89 }
+				color2={ 255 255 255 }
+				
+				b_azimbalda = {
+				}
+				b_outer_azimbalda = {
+				}
+				b_azimtash={
+					holy_site = tash
+				}
+				b_grand_azim = {
+				}
+			}
+			c_western_azimbalda = {
+				color={ 76 73 91 }
+				color2={ 255 255 255 }
+				
+				b_western_azimbalda = {
+				}
+			}
+			c_souteazim = {
+				color={ 71 67 81 }
+				color2={ 255 255 255 }
+				
+				b_souteazim = {
+				}
+			}
+			c_azimbal = {
+				color={ 74 63 75 }
+				color2={ 255 255 255 }
+				
+				b_azimbal = {
+				}
+			}
+			c_azimcavar = {
+				color={ 71 67 71 }
+				color2={ 255 255 255 }
+				
+				b_azimcavar = {
+				}
+			}
+		}
+		d_azlam = {
+			color={ 5 76 84 }
+			color2={ 255 255 255 }
+			
+			capital = 707 # Tashbaan
+
+			c_azlaium = {
+				color={ 56 71 79 }
+				color2={ 255 255 255 }
+				
+				b_azlaium = {
+				}
+			}
+			c_aliuzi = {
+				color={ 51 67 71 }
+				color2={ 255 255 255 }
+				
+				b_aliuzi = {
+				}
+			}
+			c_zeluia = {
+				color={ 54 63 65 }
+				color2={ 255 255 255 }
+				
+				b_zeluia = {
+				}
+			}
+			c_azliua = {
+				color={ 49 61 72 }
+				color2={ 255 255 255 }
+				
+				b_azliua = {
+				}
+			}
+			c_azlam = {
+				color={ 49 72 75 }
+				color2={ 255 255 255 }
+				
+				b_azlam = {
+				}
+			}
+		}
+		d_telazim = {
+			color={ 50 70 90 }
+			color2={ 255 255 255 }
+			
+			capital = 711 # Tashbaan
+
+			c_telazim = {
+				color={ 56 21 39 }
+				color2={ 255 255 255 }
+				
+				b_telazim = {
+				}
+			}
+			c_teluia = {
+				color={ 51 27 31 }
+				color2={ 255 255 255 }
+				
+				b_teluia = {
+				}
+			}
+			c_aluyia = {
+				color={ 54 23 35 }
+				color2={ 255 255 255 }
+				
+				b_aluyia = {
+				}
+			}
+			c_calava = {
+				color={ 49 21 32 }
+				color2={ 255 255 255 }
+				
+				b_calava = {
+				}
+			}
+			c_calvia = {
+				color={ 61 26 32 }
+				color2={ 255 255 255 }
+				
+				b_calvia = {
+				}
+			}
+			c_cavabann = {
+				color={ 54 31 31 }
+				color2={ 255 255 255 }
+				
+				b_cavabann = {
+				}
+			}
+			c_calavar_coast = {
+				color={ 51 32 34 }
+				color2={ 255 255 255 }
+				
+				b_calavar_coast = {
+				}
+			}
+		}
+		d_zalindreh = {
+			color={ 95 76 86 }
+			color2={ 255 255 255 }
+			
+			capital = 719 # Tashbaan
+
+			c_zalindreh = {
+				color={ 96 71 89 }
+				color2={ 255 255 255 }
+				
+				b_zalindreh = {
+				}
+				b_zalindreh_city = {
+				}
+			}
+			c_zalindreh_bay = {
+				color={ 91 67 81 }
+				color2={ 255 255 255 }
+				
+				b_zalindreh_bay = {
+				}
+			}
+			c_ourtalindreh = {
+				color={ 94 63 75 }
+				color2={ 255 255 255 }
+				
+				b_ourtalindreh = {
+				}
+			}
+		}
+		d_soutash = {
+			color={ 95 76 86 }
+			color2={ 255 255 255 }
+			
+			capital = 732 # Soutash
+
+			c_soutash = {
+				color={ 156 71 89 }
+				color2={ 255 255 255 }
+				
+				b_soutash = {
+				}
+			}
+			c_tashcalavar = {
+				color={ 151 67 81 }
+				color2={ 255 255 255 }
+				
+				b_tashcalavar = {
+				}
+			}
+			c_salavar = {
+				color={ 154 63 75 }
+				color2={ 255 255 255 }
+				
+				b_salavar = {
+				}
+			}
+			c_lower_salavar = {
+				color={ 154 63 75 }
+				color2={ 255 255 255 }
+				
+				b_lower_salavar = {
+				}
+			}
+			c_zaland = {
+				color={ 152 66 73 }
+				color2={ 255 255 255 }
+				
+				b_zaland = {
+				}
+			}
+			c_zezala = {
+				color={ 155 64 72 }
+				color2={ 255 255 255 }
+				
+				b_zezala = {
+				}
+			}
+		}
+		d_tashdreh = {
+			color={ 97 81 87 }
+			color2={ 255 255 255 }
+			
+			capital = 723 # Tashdreh
+
+			c_tashven = {
+				color={ 125 71 89 }
+				color2={ 255 255 255 }
+				
+				b_tashven = {
+				}
+			}
+			c_tashdreh = {
+				color={ 112 67 81 }
+				color2={ 255 255 255 }
+				
+				b_tashdreh = {
+				}
+			}
+			c_valundreh = {
+				color={ 134 63 75 }
+				color2={ 255 255 255 }
+				
+				b_valundreh = {
+				}
+			}
+			c_ourtvalundreh = {
+				color={ 134 81 75 }
+				color2={ 255 255 255 }
+				
+				b_ourtvalundreh = {
+				}
+			}
+			c_tashwailin = {
+				color={ 134 76 75 }
+				color2={ 255 255 255 }
+				
+				b_tashwailin = {
+				}
+			}
+		}
+		d_eusabaan = {
+			color={ 134 91 99 }
+			color2={ 255 255 255 }
+			
+			capital = 729 # Eusabaan
+
+			c_eusdrea = {
+				color={ 164 81 79 }
+				color2={ 255 255 255 }
+				
+				b_eusdrea = {
+				}
+			}
+			c_taleusa = {
+				color={ 151 67 79 }
+				color2={ 255 255 255 }
+				
+				b_taleusa = {
+				}
+			}
+			c_eusabaan = {
+				color={ 154 63 76 }
+				color2={ 255 255 255 }
+				
+				b_eusabaan = {
+				}
+			}
+			c_euistals = {
+				color={ 161 81 76 }
+				color2={ 255 255 255 }
+				
+				b_euistals = {
+				}
+			}
+		}
+		d_mezreel = {
+			color={ 184 91 99 }
+			color2={ 255 255 255 }
+			
+			capital = 740 # Mezreel
+
+			c_mezreel = {
+				color={ 189 81 79 }
+				color2={ 255 255 255 }
+				
+				b_mezreel = {
+				}
+			}
+			c_merazel = {
+				color={ 180 67 79 }
+				color2={ 255 255 255 }
+				
+				b_merazel = {
+				}
+			}
+			c_mialouz = {
+				color={ 181 63 76 }
+				color2={ 255 255 255 }
+				
+				b_mialouz = {
+				}
+			}
+			c_mavaul = {
+				color={ 186 81 76 }
+				color2={ 255 255 255 }
+				
+				b_mavaul = {
+				}
+			}
+			c_mizarla = {
+				color={ 182 81 76 }
+				color2={ 255 255 255 }
+				
+				b_mizarla = {
+				}
+			}
+		}
+		d_salzosa = {
+			color={ 166 105 112 }
+			color2={ 255 255 255 }
+			
+			capital = 747 # Salzosa
+
+			c_qualdia = {
+				color={ 157 74 89 }
+				color2={ 255 255 255 }
+				
+				b_qualdia = {
+				}
+			}
+			c_quials = {
+				color={ 152 77 78 }
+				color2={ 255 255 255 }
+				
+				b_quials = {
+				}
+			}
+			c_salzos = {
+				color={ 153 75 75 }
+				color2={ 255 255 255 }
+				
+				b_salzos = {
+				}
+			}
+			c_yuisla = {
+				color={ 158 76 75 }
+				color2={ 255 255 255 }
+				
+				b_yuisla = {
+				}
+				b_temple_of_yuisla = {
+					holy_site = tash
+				}
+				b_city_of_lights = {
+				}
+			}
+			c_dolistash = {
+				color={ 160 69 78 }
+				color2={ 255 255 255 }
+				
+				b_dolistash = {
+				}
+			}
+		}
+		d_selousbaan = {
+			color={ 156 101 121 }
+			color2={ 255 255 255 }
+			
+			capital = 752 # Selbaan
+
+			c_wuilusa = {
+				color={ 167 54 59 }
+				color2={ 255 255 255 }
+				
+				b_wuilusa = {
+				}
+			}
+			c_salvaza = {
+				color={ 162 57 58 }
+				color2={ 255 255 255 }
+				
+				b_salvaza = {
+				}
+			}
+			c_selbaan = {
+				color={ 163 55 55 }
+				color2={ 255 255 255 }
+				
+				b_selbaan = {
+				}
+			}
+			c_souitsbah = {
+				color={ 168 56 55 }
+				color2={ 255 255 255 }
+				
+				b_souitsbah = {
+				}
+			}
+		}
+		d_sudcalvar = {
+			color={ 198 133 141 }
+			color2={ 255 255 255 }
+			
+			capital = 754 # Selbaan
+
+			c_sucalvar = {
+				color={ 162 53 57 }
+				color2={ 255 255 255 }
+				
+				b_sucalvar = {
+				}
+			}
+			c_tulcabah = {
+				color={ 168 52 58 }
+				color2={ 255 255 255 }
+				
+				b_tulcabah = {
+				}
+			}
+			c_wizcilbaan = {
+				color={ 166 51 56 }
+				color2={ 255 255 255 }
+				
+				b_wizcilbaan = {
+				}
+			}
+			c_suilvar = {
+				color={ 169 54 55 }
+				color2={ 255 255 255 }
+				
+				b_suilvar = {
+				}
+			}
+			c_teilsbah = {
+				color={ 169 56 52 }
+				color2={ 255 255 255 }
+				
+				b_teilsbah = {
+				}
+			}
+		}
+	}
+	k_kolarius={
+	color={ 111 29 28 }
+	color2={ 0 0 0 }
+
+		d_upper_kollash = {
+			color={ 175 76 86 }
+			color2={ 255 255 255 }
+			
+			capital = 762 # 
+
+			c_kaoulas = {
+				color={ 76 71 89 }
+				color2={ 255 255 255 }
+				
+				b_kaoulas = {
+				}
+			}
+			c_terulisa = {
+				color={ 76 73 91 }
+				color2={ 255 255 255 }
+				
+				b_terulisa = {
+				}
+			}
+			c_selcudash = {
+				color={ 71 67 81 }
+				color2={ 255 255 255 }
+				
+				b_selcudash = {
+				}
+			}
+			c_setulash = {
+				color={ 74 63 75 }
+				color2={ 255 255 255 }
+				
+				b_setulash = {
+				}
+			}
+			c_telash = {
+				color={ 71 67 71 }
+				color2={ 255 255 255 }
+				
+				b_telash = {
+				}
+			}
+		}
+		d_lower_kollash = {
+			color={ 182 124 123 }
+			color2={ 255 255 255 }
+			
+			capital = 762 # 
+
+			c_kalas = {
+				color={ 156 71 89 }
+				color2={ 255 255 255 }
+				
+				b_kalas = {
+				}
+			}
+			c_salfuis = {
+				color={ 156 73 91 }
+				color2={ 255 255 255 }
+				
+				b_salfuis = {
+				}
+				b_salfuitash = {
+					holy_site = tash
+				}
+			}
+			c_seluida = {
+				color={ 151 67 81 }
+				color2={ 255 255 255 }
+				
+				b_seluida = {
+				}
+			}
+			c_kolfais = {
+				color={ 154 63 75 }
+				color2={ 255 255 255 }
+				
+				b_kolfais = {
+				}
+			}
+			c_sceres = {
+				color={ 156 60 78 }
+				color2={ 255 255 255 }
+				
+				b_sceres = {
+				}
+			}
+		}
+		d_mezealisa = {
+			color={ 174 111 114 }
+			color2={ 255 255 255 }
+			
+			capital = 762 # 
+
+			c_terzeel = {
+				color={ 136 70 93 }
+				color2={ 255 255 255 }
+				
+				b_terzeel = {
+				}
+			}
+			c_dulzela = {
+				color={ 136 71 99 }
+				color2={ 255 255 255 }
+				
+				b_dulzela = {
+				}
+			}
+			c_szulisha = {
+				color={ 131 62 96 }
+				color2={ 255 255 255 }
+				
+				b_szulisha = {
+				}
+			}
+			c_zelzen = {
+				color={ 134 61 98 }
+				color2={ 255 255 255 }
+				
+				b_zelzen = {
+				}
+			}
+		}
+		d_zelisa = {
+			color={ 171 101 124 }
+			color2={ 255 255 255 }
+			
+			capital = 762 # 
+
+			c_tashseila = {
+				color={ 146 80 96 }
+				color2={ 255 255 255 }
+				
+				b_tashseila = {
+				}
+			}
+			c_zelizeas = {
+				color={ 146 81 100 }
+				color2={ 255 255 255 }
+				
+				b_zelizeas = {
+				}
+			}
+			c_uilosis = {
+				color={ 141 72 98 }
+				color2={ 255 255 255 }
+				
+				b_uilosis = {
+				}
+			}
+			c_zeliuos = {
+				color={ 144 81 100 }
+				color2={ 255 255 255 }
+				
+				b_zeliuos = {
+				}
+			}
+		}
+		d_xerex = {
+			color={ 162 111 129 }
+			color2={ 255 255 255 }
+			
+			capital = 762 # 
+
+			c_dashilhiash = {
+				color={ 149 90 106 }
+				color2={ 255 255 255 }
+				
+				b_dashilhiash = {
+				}
+			}
+			c_deshalisa = {
+				color={ 148 91 110 }
+				color2={ 255 255 255 }
+				
+				b_deshalisa = {
+				}
+			}
+			c_seshasha = {
+				color={ 149 82 108 }
+				color2={ 255 255 255 }
+				
+				b_seshasha = {
+				}
+			}
+			c_xexsoros = {
+				color={ 148 91 110 }
+				color2={ 255 255 255 }
+				
+				b_xexsoros = {
+				}
+			}			
+			c_xeserex = {
+				color={ 149 89 107 }
+				color2={ 255 255 255 }
+				
+				b_xeserex = {
+				}
+			}
+		}
+		d_dasash = {
+			color={ 162 111 129 }
+			color2={ 255 255 255 }
+			
+			capital = 762 # 
+
+			c_karis = {
+				color={ 139 90 116 }
+				color2={ 255 255 255 }
+				
+				b_karis = {
+				}
+			}
+			c_casriash = {
+				color={ 158 91 116 }
+				color2={ 255 255 255 }
+				
+				b_casriash = {
+				}
+			}
+			c_sacresash = {
+				color={ 156 82 112 }
+				color2={ 255 255 255 }
+				
+				b_sacresash = {
+				}
+			}
+			c_wisarash = {
+				color={ 158 91 114 }
+				color2={ 255 255 255 }
+				
+				b_wisarash = {
+				}
+			}
+			c_xaebaldas = {
+				color={ 154 96 113 }
+				color2={ 255 255 255 }
+				
+				b_xaebaldas = {
+				}
+			}		
+		}
+		d_tahvelia = {
+			color={ 171 72 111 }
+			color2={ 255 255 255 }
+			
+			capital = 789 # 
+
+			c_tahsalis = {
+				color={ 140 71 119 }
+				color2={ 255 255 255 }
+				
+				b_tahsalis = {
+				}
+			}
+			c_sesilvasa = {
+				color={ 157 68 122 }
+				color2={ 255 255 255 }
+				
+				b_sesilvasa = {
+				}
+			}
+			c_baanselias = {
+				color={ 156 69 119 }
+				color2={ 255 255 255 }
+				
+				b_baanselias = {
+				}
+			}
+			c_savanlisa = {
+				color={ 141 73 118 }
+				color2={ 255 255 255 }
+				
+				b_savanlisa = {
+				}
+			}		
+		}
+		d_xesarium = {
+			color={ 171 131 97 }
+			color2={ 255 255 255 }
+			
+			capital = 791 # 
+
+			c_xesare = {
+				color={ 172 120 91 }
+				color2={ 255 255 255 }
+				
+				b_xesare = {
+				}
+				b_xesresa = {
+				}
+			}
+			c_talis = {
+				color={ 181 122 92 }
+				color2={ 255 255 255 }
+				
+				b_talis = {
+				}
+			}
+			c_suilois = {
+				color={ 169 121 93 }
+				color2={ 255 255 255 }
+				
+				b_suilois = {
+				}
+			}
+			c_tyalio = {
+				color={ 172 121 92 }
+				color2={ 255 255 255 }
+				
+				b_tyalio = {
+				}
+			}
+			c_talula = {
+				color={ 175 140 90 }
+				color2={ 255 255 255 }
+				
+				b_talula = {
+				}
+			}		
+		}
+		d_veliustash = {
+			color={ 184 133 102 }
+			color2={ 255 255 255 }
+			
+			capital = 799 # 
+
+			c_tashvelsia = {
+				color={ 185 130 100 }
+				color2={ 255 255 255 }
+				
+				b_tashvelsia = {
+				}
+			}
+			c_swerata = {
+				color={ 184 125 101 }
+				color2={ 255 255 255 }
+				
+				b_swerata = {
+				}
+			}
+			c_tyuriash = {
+				color={ 186 126 103 }
+				color2={ 255 255 255 }
+				
+				b_tyuriash = {
+				}
+			}
+			c_uiospals = {
+				color={ 183 128 102 }
+				color2={ 255 255 255 }
+				
+				b_uiospals = {
+				}
+			}
+			c_palertash = {
+				color={ 181 135 103 }
+				color2={ 255 255 255 }
+				
+				b_palertash = {
+				}
+			}
+			c_wellioa = {
+				color={ 180 137 101 }
+				color2={ 255 255 255 }
+				
+				b_wellioa = {
+				}
+			}
+			c_veliuos = {
+				color={ 182 134 100 }
+				color2={ 255 255 255 }
+				
+				b_veliuos = {
+				}
+			}			
+		}
+	}
+}
+k_kollash={
+	color={ 95 29 32 }
+	color2={ 0 0 0 }
+	tribe = yes
+	allow={
+		num_of_duke_titles = 2
+		primary_title = { title = d_upper_kollash }
+	}
+		capital = 767 # Kolfais
+		creation_requires_capital = yes
+}
+k_salztash={
+	color={ 95 29 32 }
+	color2={ 0 0 0 }
+	tribe = yes
+	allow={
+		num_of_duke_titles = 2
+		primary_title = { title = d_salzosa }
+	}
+		capital = 746 # Kolfais
+		creation_requires_capital = yes
+}
+k_colivar={
+	color={ 204 191 155 }
+	color2={ 0 0 0 }
+	tribe = yes
+	allow={
+		num_of_duke_titles = 2
+		primary_title = { title = d_sudcalvar }
+	}
+	capital = 757 # Suilvar
+	creation_requires_capital = yes
+}
+k_veliualla={
+	color={ 186 130 104 }
+	color2={ 0 0 0 }
+	tribe = yes
+	allow={
+		num_of_duke_titles = 2
+		OR = {
+			primary_title = { title = d_veliustash }
+			primary_title = { title = d_dasash }
+			primary_title = { title = d_tahvelia }
+		}
+		wealth = 50
+	}
+	capital = 799 # Kolfais
+	creation_requires_capital = no
+}
+k_xesarium={
+	color={ 171 132 98 }
+	color2={ 0 0 0 }
+	tribe = yes
+	allow={
+		num_of_duke_titles = 2
+		primary_title = { title = d_xesarium }
+	}
+		capital = 791 # Xesare
+		creation_requires_capital = yes
+}
+
+b_zalin = {
+	culture = calormen
+	religion = tash
+}
+
+d_high_priests_of_tash = {
+	color={ 42 4 16 }
+	color2={ 255 255 255 }
+	
+	controls_religion = tash
+	religion = tash
+	landless = yes
+	title = "High Priest"
+	capital = 662 # Tashbaan
+}

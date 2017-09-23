@@ -1,0 +1,708 @@
+e_giant_empire={
+color={ 74 110 149 }
+color2={ 237 28 36 }
+
+	k_ettinsmoor = {
+		color={ 64 120 144 }
+		color2={ 237 28 36 }
+		capital=514
+
+		d_east_ettinsmoor = {
+			color={ 71 194 144 }
+			color2={ 255 255 255 }
+			
+			c_ettinmearns = {
+				color={ 64 120 144 }
+				color2={ 255 255 255 }
+				
+				b_ettinmearns = {
+				}
+			}
+			c_skelligmoor = {
+				color={ 62 120 123 }
+				color2={ 255 255 255 }
+				
+				b_skelligmoor = {
+				}
+			}
+			c_ettinsbay = {
+				color={ 87 112 131 }
+				color2={ 254 255 255 }
+				
+				b_ettinsbay = {
+				}
+			}
+			c_seacairn = {
+				color={ 92 110 122 }
+				color2={ 255 255 255 }
+				
+				b_seacairn = {
+				}
+			}
+			c_hattinshorn = {
+				color={ 70 132 110 }
+				color2={ 255 255 255 }
+				
+				b_hattinshorn = {
+				}
+			}
+			c_bridgegate = {
+				color={ 92 162 122 }
+				color2={ 255 255 255 }
+				
+				b_bridgegate = {
+				}
+			}
+			c_cairnsmere = {
+				color={ 74 111 98 }
+				color2={ 255 255 255 }
+				
+				b_cairnsmere = {
+				}
+			}
+			c_bridgeway = {
+				color={ 74 100 98 }
+				color2={ 255 255 255 }
+				
+				b_bridgeway = {
+				}
+			}
+		}
+		d_ettinsmoor = {
+			color={ 171 194 144 }
+			color2={ 255 255 255 }
+			capital=514
+
+			c_jotuncroft = {
+				color={ 170 108 90 }
+				color2={ 255 255 255 }
+				
+				b_jotuncroft = {
+				}
+			}
+			c_twinheads = {
+				color={ 174 102 83 }
+				color2={ 255 255 255 }
+				
+				b_twinheads = {
+				}
+			}
+			c_fourarm = {
+				color={ 171 104 80 }
+				color2={ 255 255 255 }
+				
+				b_fourarm = {
+				}
+			}
+			c_ettinsgate = {
+				color={ 174 100 94 }
+				color2={ 255 255 255 }
+				
+				b_ettinsgate = {
+				}
+			}
+			c_greatcairns = {
+				color={ 163 99 104 }
+				color2={ 255 255 255 }
+				
+				b_greatcairns = {
+				}
+			}
+			c_chiefsmoor = {
+				color={ 191 92 106 }
+				color2={ 255 255 255 }
+				
+				b_chiefsmoor = {
+				}
+			}
+		}
+		d_north_ettins={
+			color={ 120 110 96 }
+			color2={ 255 255 255 }
+
+			c_widevalley = {
+				color={ 172 105 89 }
+				color2={ 255 255 255 }
+				
+				b_widevalley = {
+				}
+			}
+			c_ettinsmire = {
+				color={ 183 100 100 }
+				color2={ 255 255 255 }
+				
+				b_ettinsmire = {
+				}
+			}
+			c_steepcraig = {
+				color={ 172 96 103 }
+				color2={ 255 255 255 }
+				
+				b_steepcraig = {
+				}
+			}
+			c_giantknolls = {
+				color={ 168 84 94 }
+				color2={ 255 255 255 }
+				
+				b_giantknolls = {
+				}
+			}
+			c_wildmere = {
+				color={ 151 112 106 }
+				color2={ 255 255 255 }
+				
+				b_wildmere = {
+				}
+			}
+			c_ogresmoor = {
+				color={ 110 84 97 }
+				color2={ 255 255 255 }
+				
+				b_ogresmoor = {
+				}
+			}
+		}
+		d_cyclops_hills={
+			color={ 191 134 162 }
+			color2={ 255 255 255 }
+
+			c_stumbleby = {
+				color={ 181 104 112 }
+				color2={ 255 255 255 }
+				
+				b_stumbleby = {
+				}
+			}
+			c_bighills = {
+				color={ 172 96 103 }
+				color2={ 255 255 255 }
+				
+				b_bighills = {
+				}
+			}
+			c_cyclopsia = {
+				color={ 134 88 63 }
+				color2={ 255 255 255 }
+				
+				b_cyclopsia = {
+				}
+			}
+			c_cycairn = {
+				color={ 179 98 100 }
+				color2={ 255 255 255 }
+				
+				b_cycairn = {
+				}
+			}
+			c_argemoor = {
+				color={ 138 56 67 }
+				color2={ 255 255 255 }
+				
+				b_argemoor = {
+				}
+			}
+			c_eyeknock = {
+				color={ 164 95 96 }
+				color2={ 255 255 255 }
+				
+				b_eyeknock = {
+				}
+			}
+		}
+	}
+	k_harfang={
+		color={ 128 7 93 }
+		color2={ 204 192 38 }
+		capital=488
+		
+		d_harfang={
+			color={ 124 17 90 }
+			color2={ 204 192 38 }
+
+			c_harfang={
+				color={ 123 9 91 }
+				color2={ 204 192 38 }
+
+				b_harfang={
+				}
+			}
+			c_ruinous={
+				color={ 123 9 91 }
+				color2={ 204 192 38 }
+
+				b_ruinous={
+				}
+			}
+			c_goliathia={
+				color={ 137 12 83 }
+				color2={ 204 192 38 }
+
+				b_goliathia={
+				}
+			}
+			c_gath={
+				color={ 114 11 81 }
+				color2={ 204 192 38 }
+
+				b_gath={
+				}
+			}
+			c_ogogog={
+				color={ 124 13 88 }
+				color2={ 204 192 38 }
+
+				b_ogogog={
+				}
+			}
+			c_tarnaphil={
+				color={ 122 17 73 }
+				color2={ 204 192 38 }
+
+				b_tarnaphil={
+				}
+			}
+		}
+		d_emimoor={
+			color={ 114 27 101 }
+			color2={ 204 192 38 }
+
+			c_gibboric={
+				color={ 113 29 91 }
+				color2={ 204 192 38 }
+
+				b_gibboric={
+				}
+			}
+			c_emimoor={
+				color={ 113 29 91 }
+				color2={ 204 192 38 }
+
+				b_emimoor={
+				}
+			}
+			c_anakiar={
+				color={ 117 22 83 }
+				color2={ 204 192 38 }
+
+				b_anakiar={
+				}
+			}
+			c_titanor={
+				color={ 114 21 81 }
+				color2={ 204 192 38 }
+
+				b_titanor={
+				}
+			}
+			c_aegirsport={
+				color={ 114 23 88 }
+				color2={ 204 192 38 }
+
+				b_aegirsport={
+				}
+			}
+			c_jotnaris={
+				color={ 112 27 73 }
+				color2={ 204 192 38 }
+
+				b_jotnaris={
+				}
+			}
+		}
+		d_giants_way={
+			color={ 124 37 90 }
+			color2={ 204 192 38 }
+
+			c_giants_bridge={
+				color={ 123 39 91 }
+				color2={ 204 192 38 }
+
+				b_giants_bridge={
+				}
+			}
+			c_giants_pass={
+				color={ 121 32 87 }
+				color2={ 204 192 38 }
+
+				b_giants_pass={
+				}
+			}
+			c_giants_road={
+				color={ 118 29 88 }
+				color2={ 204 192 38 }
+
+				b_giants_road={
+				}
+			}
+			c_giants_gate={
+				color={ 115 31 87 }
+				color2={ 204 192 38 }
+
+				b_giants_gate={
+				}
+			}
+			c_mountain_fortress={
+				color={ 111 32 89 }
+				color2={ 204 192 38 }
+
+				b_mountain_fortress={
+				}
+			}
+		}
+		d_labyrinthia={
+			color={ 136 39 91 }
+			color2={ 204 192 38 }
+
+			c_labyrinthia={
+				color={ 133 39 91 }
+				color2={ 204 192 38 }
+
+				b_labyrinthia={
+				}
+			}
+			c_daedalus={
+				color={ 137 41 91 }
+				color2={ 204 192 38 }
+
+				b_daedalus={
+				}
+			}
+			c_mazeium={
+				color={ 131 37 93 }
+				color2={ 204 192 38 }
+
+				b_mazeium={
+				}
+			}
+		}
+		d_ogreia={
+			color={ 162 17 102 }
+			color2={ 204 192 38 }
+
+			c_ogreia={
+				color={ 117 39 107 }
+				color2={ 204 192 38 }
+
+				b_ogreia={
+				}
+				b_ogreiscia = {
+				}
+			}
+			c_ogreden={
+				color={ 137 41 104 }
+				color2={ 204 192 38 }
+
+				b_ogreden={
+				}
+			}
+			c_gargoyle_mountains={
+				color={ 110 40 96 }
+				color2={ 204 192 38 }
+
+				b_gargoyle_mountains={
+				}
+			}
+			c_ogre_gate={
+				color={ 124 42 98 }
+				color2={ 204 192 38 }
+
+				b_ogre_gate={
+				}
+			}
+			c_ogre_caves={
+				color={ 131 51 87 }
+				color2={ 204 192 38 }
+
+				b_ogre_caves={
+				}
+			}
+			c_boggle_valley={
+				color={ 136 54 99 }
+				color2={ 204 192 38 }
+
+				b_boggle_valley={
+				}
+			}
+		}
+		d_goblinton={
+			color={ 142 36 97 }
+			color2={ 204 192 38 }
+
+			c_goblin_tunnels={
+				color={ 142 77 93 }
+				color2={ 204 192 38 }
+
+				b_goblin_tunnels={
+				}
+			}
+			c_goblinton={
+				color={ 151 67 84 }
+				color2={ 204 192 38 }
+
+				b_goblinton={
+				}
+				b_goblin_town={
+				}
+			}
+			c_hoblinakh={
+				color={ 141 72 88 }
+				color2={ 204 192 38 }
+
+				b_hoblinakh={
+				}
+			}
+			c_orkush={
+				color={ 134 65 86 }
+				color2={ 204 192 38 }
+
+				b_orkush={
+				}
+			}
+		}
+	}
+}
+k_ogreia = {
+	color={ 145 23 102 }
+	color2={ 204 192 38 }
+	tribe = yes
+	allow={
+		num_of_duke_titles = 2
+		primary_title = { title = d_ogreia }
+	}
+}
+d_white_witch={
+	color={ 250 250 250 }
+	color2={ 245 240 240 }
+	title = "Emperor"
+	title_female = "Empress"
+	controls_religion = white_witch
+	religion = white_witch
+	allow={character = 1900}
+	dignity = 100
+	caliphate = yes
+}
+e_charn = {
+	color={ 130 13 130 }
+	color2={ 200 0 0 }
+	short_name = yes
+	#landless=yes
+	allow={culture = charn}
+	k_new_charn = {
+		color={ 130 13 130 }
+		color2={ 200 0 0 }
+		d_new_charn={
+			color={ 140 12 140 }
+			color2={ 200 0 0 }
+			c_new_charn={
+				color={ 140 18 140 }
+				color2={ 200 200 205 }
+
+				b_new_charn={
+				}
+				b_temple_of_charn={
+					holy_site = white_witch
+				}
+			}
+			c_yagahexe={
+				color={ 145 28 137 }
+				color2={ 200 200 205 }
+
+				b_yagahexe={
+				}
+			}
+			c_hagtessia={
+				color={ 151 23 149 }
+				color2={ 200 200 205 }
+
+				b_hagtessia={
+				}
+			}
+			c_winterfield={
+				color={ 171 63 169 }
+				color2={ 200 200 205 }
+
+				b_winterfield={
+				}
+			}
+		}
+		d_witchcastle={
+			color={ 145 12 148 }
+			color2={ 200 0 0 }
+			
+			c_witchcastle={
+				color={ 143 78 145 }
+				color2={ 200 200 205 }
+
+				b_witchcastle={
+				}
+				b_witch_temple={
+					holy_site = white_witch
+				}
+			}
+			c_lycanturf={
+				color={ 145 41 137 }
+				color2={ 200 200 205 }
+
+				b_lycanturf={
+				}
+			}
+			c_wraithmire={
+				color={ 153 38 145 }
+				color2={ 200 200 205 }
+
+				b_wraithmire={
+				}
+			}
+			c_harpyden={
+				color={ 164 61 172 }
+				color2={ 200 200 205 }
+
+				b_harpyden={
+				}
+			}
+		}
+	}
+	k_dwarven_states = {
+		color={ 40 40 45 }
+		color2={ 200 200 205 }
+		allow={culture_group = dwarf}
+		
+		d_westmine={
+			color={ 202 199 176 }
+			color2={ 200 200 205 }
+		}
+		d_wolfswood={
+			color={ 192 178 176 }
+			color2={ 200 200 205 }
+		}
+		d_lycanian={
+			color={ 131 199 176 }
+			color2={ 200 200 205 }
+		}
+		d_lower_snakeford={
+			color={ 171 190 176 }
+			color2={ 200 200 205 }
+
+			c_mushroom_hills={
+				color={ 192 177 193 }
+				color2={ 200 200 205 }
+
+				b_mushroom_hills={
+				}
+				b_mushroom_caverns={
+				}
+			}
+			c_toadstool_forest={
+				color={ 201 167 184 }
+				color2={ 200 200 205 }
+
+				b_toadstool_forest={
+				}
+				b_toadstool_heights={
+				}
+			}
+			c_wooseden={
+				color={ 191 172 188 }
+				color2={ 200 200 205 }
+
+				b_wooseden={
+				}
+			}
+			c_snakewood={
+				color={ 199 179 185 }
+				color2={ 200 200 205 }
+
+				b_snakewood={
+				}
+			}
+			c_wolfswood={
+				color={ 196 181 189 }
+				color2={ 200 200 205 }
+
+				b_wolfswood={
+				}
+			}
+		}
+		d_upper_snakeford={
+			color={ 213 187 178 }
+			color2={ 200 200 205 }
+
+			c_aconitine={
+				color={ 192 187 193 }
+				color2={ 200 200 205 }
+
+				b_aconitine={
+				}
+			}
+			c_wispwood={
+				color={ 201 177 184 }
+				color2={ 200 200 205 }
+
+				b_wispwood={
+				}
+			}
+			c_trollhole={
+				color={ 191 182 188 }
+				color2={ 200 200 205 }
+
+				b_trollhole={
+				}
+			}
+			c_liche_hollow={
+				color={ 199 189 185 }
+				color2={ 200 200 205 }
+
+				b_liche_hollow={
+				}
+			}
+			c_boggle_woods={
+				color={ 196 191 189 }
+				color2={ 200 200 205 }
+
+				b_boggle_woods={
+				}
+			}
+		}
+		d_cruelwoods={
+			color={ 13 37 28 }
+			color2={ 200 200 205 }
+
+			c_cruelstone={
+				color={ 12 17 13 }
+				color2={ 200 200 205 }
+
+				b_cruelstone={
+				}
+			}
+			c_howling_hills={
+				color={ 21 17 14 }
+				color2={ 200 200 205 }
+
+				b_howling_hills={
+				}
+			}
+			c_witchwood={
+				color={ 11 12 18 }
+				color2={ 200 200 205 }
+
+				b_witchwood={
+				}
+			}
+			c_lycania={
+				color={ 19 19 15 }
+				color2={ 200 200 205 }
+
+				b_lycania={
+				}
+			}
+			c_manticorea={
+				color={ 16 11 19 }
+				color2={ 200 200 205 }
+
+				b_manticorea={
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,506 @@
+###Aslans Pure### test
+monastic_order_aslans_pure = {
+	primary_attribute = martial
+	is_religious = yes
+	opinion_to_other_members = +10
+	opinion_per_rank_above = +5
+	sound = monastic_orders_interface
+	society_ranks_gfx = aslans_pure_ranks
+	non_interference = {
+		always = yes
+	}
+	active = {
+		has_dlc = "Mystics"
+	}
+	indestructible = yes
+
+	can_join_society = {
+		hidden_trigger = {
+			NAND = {
+				ai = yes
+				is_society_rank_full = { 
+					society = monastic_order_aslans_pure
+					rank = 1
+				}
+			}
+		}
+		martial = 13
+		age = 16
+		OR = {
+			religion = aslan
+			religion = tellan
+		}
+		NOT = { trait = excommunicated }
+		custom_tooltip = {
+			text = did_not_betray_society
+			NOT = { has_character_flag = betrayed_order_aslans_pure }
+		}
+		scaled_wealth = 0.25
+	}
+	
+	#ask_to_join_society = {
+	#	event = MNM.4450
+	#}
+	#society_rank_up_decision = {
+	#
+	#
+	#}
+	show_society = {
+		OR = {
+			religion = aslan
+			religion = tellan
+		}
+	}
+	
+	potential = {
+		OR = {
+			religion = aslan
+			religion = tellan
+		}
+	}
+	
+	society_rank = {
+		level = 1
+		limit = 100 
+		startup_limit = 15
+		modifier = {
+			monthly_character_piety = 0.05
+		}
+	}
+	
+	society_rank = {
+		level = 2
+		limit = 50
+		startup_limit = 10
+		modifier = { 
+			monthly_character_piety = 0.1
+			martial = 1
+		}
+		decisions = {
+			#monastic_orders_go_celibate #Power: toggle celibacy
+			#monastic_orders_stop_celibate
+		}
+	}
+	
+	society_rank = {
+		level = 3
+		limit = 15 
+		startup_limit = 5
+		modifier = {
+			monthly_character_piety = 0.2
+			martial = 2
+			build_cost_temple_modifier = -0.25
+		}
+		decisions = {
+			monastic_orders_invite_ascetic
+			aslans_pure_cease_war_internal
+		}
+	}
+
+	society_rank = {  #todo add powers
+		level = 4
+		limit = 5
+		startup_limit = 3
+		modifier = { 
+			monthly_character_piety = 0.5
+			stewardship = 1
+			martial = 3
+			build_cost_temple_modifier = -0.5 
+		}
+		custom_tooltip = aslans_pure_power_diligent_tt
+	}
+	
+	society_rank = { #todo add powers
+		level = 5
+		limit = 1
+		startup_limit = 1
+		modifier = { 
+			monthly_character_piety = 0.5
+			stewardship = 2
+			martial = 5
+			build_cost_modifier = -0.5
+		}
+		obedient = {
+			FROM={
+				society_rank = { 
+					society = monastic_order_aslans_pure
+					rank < 4
+				}
+			}
+		}	
+		obedience_tooltip = aslans_pure_obedience
+	}
+
+	monthly_currency_gain = {
+		name = currency_order_aslans_pure
+    	
+    	per_attribute = {
+    		name = martial
+    		value = 0.5
+    	}
+    	has_trait = {
+			trait = brilliant_strategist
+			value = 5
+		}
+		has_trait = {
+			trait = skilled_tactician
+			value = 3
+		}
+		has_trait = {
+			trait = diligent
+			value = 3
+		}
+		has_trait = {
+			trait = wroth
+			value = 3
+		}
+    	has_trait = {
+			trait = strong
+			value = 3
+		}
+		has_trait = {
+			trait = kind
+			value = 1
+		}
+		has_trait = {
+			trait = patient
+			value = 1
+		}
+		has_trait = {
+			trait = humble
+			value = 1
+		}
+		has_trait = {
+			trait = zealous
+			value = 1
+		}
+		society_rank = {
+			rank = 5
+			value = 10
+		}
+	}
+
+	member_score_per_attribute = 3
+	member_score_per_rank = 100
+
+	member_score = {
+		value = 10
+
+		modifier = {
+			trait = brilliant_strategist
+			factor = 5
+		}
+		modifier = {
+			trait = skilled_tactician
+			factor = 3
+		}
+		modifier = {
+			trait = strategist
+			factor = 1.5
+		}
+		modifier = {
+			trait = diligent
+			factor = 1.3
+		}
+    	modifier = {
+			trait = wroth
+			factor = 1.3
+		}
+		modifier = {
+			trait = kind
+			factor = 1.1
+		}
+		modifier = {
+			trait = patient
+			factor = 1.1
+		}
+		modifier = {
+			trait = humble
+			factor = 1.1
+		}
+		modifier = {
+			trait = zealous
+			factor = 1.15
+		}
+	}
+	
+	startup_populate = {
+	    trigger = {
+			ai = yes
+	    	controls_religion = no
+			OR = {
+				religion = aslan
+				religion = tellan
+			}
+			age = 16
+			is_in_society = no
+			NOT = { higher_tier_than = KING }
+			NOR = {
+				mercenary = yes
+				holy_order = yes
+			}
+			NOT = { trait = cynical }
+			NOT = { trait = excommunicated }
+			has_secret_religion_trait_trigger = no
+			OR = {
+				trait = zealous
+				trait = brilliant_strategist
+				trait = wroth
+				trait = strategist
+				martial = 16
+			}
+		}
+	}
+}
+secret_religious_society_template = {
+	template = yes
+	primary_attribute = diplomacy
+	is_religious = yes
+	is_secret = yes
+	opinion_to_other_members = +10
+	opinion_per_rank_above = +5
+	opinion_to_perceived_members = +10
+	criminal = yes
+	sound = secret_cults_interface
+	society_ranks_gfx = secret_ranks
+	non_interference = {
+		FROM = {
+			same_realm = ROOT
+		}
+	}
+	
+	can_join_society = {
+		hidden_trigger = {
+			NAND = {
+				ai = yes
+				is_society_rank_full = { 
+					society = FROM
+					rank = 1
+				}
+			}
+		}
+		age = 16
+		any_society_member = { society_member_of = FROM }
+		secret_religion = FROM
+		hidden_trigger = {
+			NOT = { has_character_flag = society_join_block }
+		}
+	}
+
+	show_society = {
+		any_society_member = { society_member_of = FROM }
+		secret_religion = FROM
+	}
+	
+	potential = {
+		age = 16
+		secret_religion = FROM
+	}
+	
+	society_rank = {
+		level = 1
+		limit = 200
+		startup_limit = 0
+		decisions = {
+			secret_religions_induct_child
+			secret_religions_evoke_sympathy
+		}
+	}
+	
+	society_rank = {
+		level = 2
+		limit = 100
+		startup_limit = 0
+		modifier = { 
+			is_visible = {
+				OR = {
+					same_society_as = FROM
+					FROM = { is_society_discovered = yes }
+				}
+			}
+			diplomacy = 1
+		}
+		decisions = {
+			secret_religions_induct_character
+		}
+	}
+	
+	society_rank = {
+		level = 3
+		limit = 50
+		startup_limit = 0
+		modifier = {
+			is_visible = {
+				OR = {
+					same_society_as = FROM
+					FROM = { is_society_discovered = yes }
+				}
+			}
+			diplomacy = 2
+		}
+		decisions = {
+			secret_religions_prepare_grounds
+		}
+	}
+
+	society_rank = {
+		level = 4
+		limit = 20
+		startup_limit = 0
+		modifier = { 
+			diplomacy = 3
+			is_visible = {
+				OR = {
+					same_society_as = FROM
+					FROM = { is_society_discovered = yes }
+				}
+			}
+		}
+		decisions = {
+			secret_religions_openly_adopt_faith
+		}
+	}
+	
+	plots = {
+	
+	}
+	
+	monthly_currency_gain = {
+		name = secret_religion_currency
+		
+		per_attribute = {
+    		name = diplomacy
+    		value = 0.5
+    	}
+		has_trait = {
+			trait = zealous
+			value = 3
+		}
+		has_trait = {
+			trait = scholar
+			value = 3
+		}
+		has_trait = {
+			trait = theologian
+			value = 3
+		}	
+		has_trait = {
+			trait = celibate
+			value = 2
+		}
+		has_trait = {
+			trait = diligent
+			value = 1
+		}
+    	has_trait = {
+			trait = chaste
+			value = 1
+		}
+		has_trait = {
+			trait = temperate
+			value = 1
+		}
+		has_trait = {
+			trait = charitable
+			value = 1
+		}
+		has_trait = {
+			trait = kind
+			value = 1
+		}
+		has_trait = {
+			trait = patient
+			value = 1
+		}
+		has_trait = {
+			trait = humble
+			value = 1
+		}
+		has_trait = {
+			trait = honest
+			value = 1
+		}
+		has_trait = {
+			trait = erudite
+			value = 1
+		}
+		has_trait = {
+			trait = pilgrim
+			value = 1
+		}
+		society_rank = {
+			rank = 4
+			value = 10
+		}
+	}
+
+	member_score_per_attribute = 3
+	member_score_per_rank = 100
+
+	member_score = {
+		value = 10
+
+		modifier = {
+			trait = zealous
+			factor = 1.3
+		}
+		modifier = {
+			trait = scholar
+			factor = 1.3
+		}
+		modifier = {
+			trait = theologian
+			factor = 1.3
+		}
+		modifier = {
+			trait = celibate
+			factor = 1.2
+		}
+		modifier = {
+			trait = diligent
+			factor = 1.2
+		}
+    	modifier = {
+			trait = chaste
+			factor = 1.1
+		}
+		modifier = {
+			trait = temperate
+			factor = 1.1
+		}
+		modifier = {
+			trait = charitable
+			factor = 1.1
+		}
+		modifier = {
+			trait = kind
+			factor = 1.1
+		}
+		modifier = {
+			trait = patient
+			factor = 1.1
+		}
+		modifier = {
+			trait = humble
+			factor = 1.1
+		}
+		modifier = {
+			trait = honest
+			factor = 1.1
+		}
+		modifier = {
+			trait = erudite
+			factor = 1.1
+		}
+		modifier = {
+			trait = pilgrim
+			factor = 1.1
+		}
+	}
+	
+	startup_populate = {
+	    trigger = {
+	    	always = no
+		}
+	}
+}
