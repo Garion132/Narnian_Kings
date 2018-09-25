@@ -1,0 +1,13 @@
+# 525 - Eyeknock
+# County Title
+title = c_eyeknock
+# Settlements
+max_settlements = 1
+
+b_eyeknock = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch

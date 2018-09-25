@@ -1,0 +1,14 @@
+# 2058 - Vunerin
+# County Title
+title = c_vunerin
+# Settlements
+max_settlements = 1
+
+
+b_vunerin = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

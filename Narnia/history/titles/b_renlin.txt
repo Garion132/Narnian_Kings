@@ -1,0 +1,7 @@
+859.3.5={
+	holding_dynasty = 105
+	liege = k_stjernehimmelen
+}
+986.2.4={
+	holder=95300
+}

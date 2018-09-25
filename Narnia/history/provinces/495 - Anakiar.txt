@@ -1,0 +1,13 @@
+# 495 - Anakiar
+# County Title
+title = c_anakiar
+# Settlements
+max_settlements = 1
+
+b_anakiar = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch

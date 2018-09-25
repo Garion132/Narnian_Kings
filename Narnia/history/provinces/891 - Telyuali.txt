@@ -1,0 +1,13 @@
+# 891 - Telyuali
+# County Title
+title = c_telyuali
+# Settlements
+max_settlements = 1
+
+b_telyuali = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

@@ -1,0 +1,122 @@
+1.1.1={
+	holder = 0
+}
+20.1.1={
+	holder = 1000
+}
+50.1.2={
+	holder = 1002
+}
+85.5.7={
+	holder = 1003
+}
+120.4.2= {
+	holder=1004
+}
+155.6.1= {
+	holder=1005
+	law = crown_authority_2
+	law = succ_primogeniture
+}
+190.2.20={
+	holder=1006
+}
+215.1.4={
+	holder=1008
+}
+240.4.5={
+	holder=1009
+}
+275.7.5={
+	holder=1010
+}
+300.2.6={
+	holder=1011
+}
+302.4.8={
+	holder=1012
+}
+325.4.8={
+	holder=1013
+}
+900.1.17={
+	holder=0
+	liege=""
+	effect = { reset_coa = THIS }
+}
+1000.2.5={
+	holder=1016
+	liege="e_narnia"
+	law = crown_authority_4
+}
+1015.2.9={
+	holder=0
+	liege=""
+}
+1998.5.1={
+	holder=30001
+	effect = { set_coa = k_telmarine_narnia }
+}
+2035.4.2={
+	holder=30002
+}
+2070.4.2={
+	holder=30003
+}
+2105.4.2={
+	holder=30004
+}
+2140.4.2={
+	holder=30005
+}
+2175.4.2={
+	holder=30006
+	effect = {
+		#make castle caspian the capital
+		b_castle_caspian = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+2210.4.2={
+	holder=30007
+}
+2245.4.2={
+	holder=30008
+}
+2280.4.2={
+	holder=30009
+}
+2290.4.7={
+	holder=30010
+}
+2290.8.9={
+	holder=30011
+}
+2303.7.12={
+	holder=30012
+	effect = {
+		reset_coa = THIS
+		#make cair paravel the capital
+		b_cair_paravel = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+2356.7.12={
+	holder=30014
+}

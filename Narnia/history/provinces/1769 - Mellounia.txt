@@ -1,0 +1,19 @@
+# 1768 - Mellounia
+# County Title
+title = c_mellounia
+# Settlements
+max_settlements = 8
+
+
+b_mellounia = castle
+b_meloia = city
+b_house_of_light = temple
+b_mellounia_outer_fortress = castle
+b_tarven_halls = city
+b_coltsfell = city
+b_urean = city
+b_melloain_minor = castle
+
+# Misc
+culture = mellounian
+religion = mellounian_law

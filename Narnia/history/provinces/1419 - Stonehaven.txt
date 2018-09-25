@@ -1,0 +1,14 @@
+# 1419 - Stonehaven
+# County Title
+title = c_stonehaven
+# Settlements
+max_settlements = 1
+
+
+b_stonehaven = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

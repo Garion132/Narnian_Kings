@@ -1,0 +1,14 @@
+# 1152 - Ventarought
+# County Title
+title = c_ventarought
+# Settlements
+max_settlements = 1
+
+
+b_ventarought = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

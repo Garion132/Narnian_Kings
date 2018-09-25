@@ -1,0 +1,13 @@
+# 479 - Mazeium
+# County Title
+title = c_mazeium
+# Settlements
+max_settlements = 1
+
+b_mazeium = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch

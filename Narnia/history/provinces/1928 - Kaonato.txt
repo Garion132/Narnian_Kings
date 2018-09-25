@@ -1,0 +1,14 @@
+# 1928 - Kaonato
+# County Title
+title = c_kaonato
+# Settlements
+max_settlements = 1
+
+
+b_kaonato = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = alzuashonaru
+religion = shinoi

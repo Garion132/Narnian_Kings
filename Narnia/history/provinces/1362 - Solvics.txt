@@ -1,0 +1,14 @@
+# 1362 - Solvics
+# County Title
+title = c_solvics
+# Settlements
+max_settlements = 1
+
+
+b_solvics = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = muzhchinzmei
+religion = pamyatrossii

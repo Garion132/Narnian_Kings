@@ -1,0 +1,14 @@
+# 1437 - Ralensmound
+# County Title
+title = c_ralensmound
+# Settlements
+max_settlements = 1
+
+
+b_ralensmound = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = denols

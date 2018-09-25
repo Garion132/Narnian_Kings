@@ -1,0 +1,13 @@
+# 595 - New Charn
+# County Title
+title = c_new_charn
+# Settlements
+max_settlements = 1
+
+b_new_charn = castle
+b_temple_of_charn = temple
+#b_sandstone_sept = temple
+
+# Misc
+culture = black_dwarf
+religion = white_witch

@@ -1,0 +1,11 @@
+1.1.1={
+	holder = 0
+	law = crown_authority_3
+	law = succ_primogeniture
+}
+50.1.1={
+	holder = 1900
+}
+900.9.20={
+	holder = 0
+}

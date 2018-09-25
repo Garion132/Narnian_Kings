@@ -1,0 +1,7 @@
+120.4.2= {
+	holder=0
+	liege=k_archenland
+}
+997.6.9={
+	holder = 2450
+}

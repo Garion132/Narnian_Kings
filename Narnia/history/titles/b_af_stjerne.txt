@@ -1,0 +1,7 @@
+1.1.1={
+	holding_dynasty = 103
+	liege="k_stjernehimmelen"
+}
+990.2.4={
+	holder=95100
+}

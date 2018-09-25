@@ -1,0 +1,14 @@
+# 2166 - Rari
+# County Title
+title = c_rari
+# Settlements
+max_settlements = 1
+
+
+b_rari = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = irish
+religion = caitliceann

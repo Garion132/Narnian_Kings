@@ -1,0 +1,14 @@
+# 2304 - Blackwatch Hold
+# County Title
+title = c_blackwatch_hold
+# Settlements
+max_settlements = 1
+
+
+b_blackwatch_hold = castle
+b_blackwatch_on_bay = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

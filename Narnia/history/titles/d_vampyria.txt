@@ -1,0 +1,13 @@
+500.6.9={
+	liege = e_charn
+}
+920.12.9={
+	liege = 0
+	set_tribute_suzerain = { who = e_narnia type = autonomous_vassal}
+}
+993.6.9={
+	holder = 53300
+}
+1000.4.5={
+	clear_tribute_suzerain = e_narnia
+}

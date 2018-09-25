@@ -1,0 +1,14 @@
+# 2118 - Erlias
+# County Title
+title = c_erlias
+# Settlements
+max_settlements = 4
+
+
+b_erlias = castle
+b_erlad = city
+b_ermine = temple
+
+# Misc
+culture = esliterman
+religion = eloia

@@ -1,0 +1,7 @@
+1.1.1={
+	holding_dynasty = 138
+	liege="d_chionia"
+}
+990.2.4={
+	holder=53500
+}

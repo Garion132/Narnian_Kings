@@ -1,0 +1,47 @@
+# 337 - Cair Paravel
+
+# County Title
+title = c_cair_paravel
+
+# Settlements
+max_settlements = 2
+
+b_cair_paravel = castle
+b_cair_paravel_on_sea = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan
+85.1.1={
+	b_cair_paravel = ca_keep_1
+	b_cair_paravel = ca_keep_2
+	b_cair_paravel = ca_keep_3
+	b_cair_paravel = ca_training_grounds_1
+	b_cair_paravel = ca_stable_1
+	b_cair_paravel = ca_wall_1
+	b_cair_paravel = ca_wall_2
+	b_cair_paravel = ca_wall_3
+	b_cair_paravel = ca_wall_4
+	b_cair_paravel = ca_wall_5
+	b_cair_paravel = ca_militia_barracks_1
+	b_cair_paravel = ca_barracks_1
+	b_cair_paravel = ca_town_1
+	b_cair_paravel = ca_town_2
+	b_cair_paravel = ca_cair_paravel
+	b_cair_paravel = ca_wall_q_5
+}
+2000.1.1={
+	remove_settlement = b_cair_paravel
+	remove_settlement = b_cair_paravel_on_sea
+	b_cair_paravel_ruins = castle #Seige and desruction of cair paravel by Caspian I,
+	b_cair_paravel_ruins = ca_wall_1
+	b_cair_paravel_ruins = ca_keep_1
+}
+2302.12.30={
+	remove_settlement = b_cair_paravel_ruins
+	b_cair_paravel = castle
+	b_cair_paravel = ca_cair_paravel
+	b_cair_paravel_on_sea = city
+}
+

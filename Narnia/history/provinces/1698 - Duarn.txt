@@ -1,0 +1,14 @@
+# 1698 - Duarn
+# County Title
+title = c_duarn
+# Settlements
+max_settlements = 1
+
+
+b_duarn = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = shinoi

@@ -1,0 +1,19 @@
+1.1.1={
+	#law = succ_gavelkind
+820.6.9 = {
+	effect={
+	b_stjerne = {
+		ROOT = {
+			holder_scope = {
+				if = {
+					limit = { has_landed_title = PREVPREV }
+					capital = PREVPREV
+				}
+			}
+		}	
+	}
+	}
+}
+989.3.7 = {
+	holder = 95001
+}

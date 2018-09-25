@@ -1,0 +1,8 @@
+1.1.1={
+	holder = 0
+	law = succ_primogeniture
+}
+992.1.5={
+	#liege = k_reinorkolonie
+	holder = 72000
+}

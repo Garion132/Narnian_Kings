@@ -1,0 +1,14 @@
+# 1732 - Talren
+# County Title
+title = c_talren
+# Settlements
+max_settlements = 1
+
+
+b_talren = castle
+#b_malenkith = city
+b_taalas = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

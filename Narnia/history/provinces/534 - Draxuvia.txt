@@ -1,0 +1,12 @@
+# 534 - Draxuvia
+# County Title
+title = c_draxuvia
+# Settlements
+max_settlements = 2
+
+b_draxuvia = castle
+b_draxuville = city
+
+# Misc
+culture = outer_islander
+religion = dragon_worship

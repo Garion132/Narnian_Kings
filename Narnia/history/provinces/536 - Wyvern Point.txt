@@ -1,0 +1,17 @@
+# 536 - Wyvern Point
+# County Title
+title = c_wyvern_point
+# Settlements
+max_settlements = 5
+
+b_wyvern_point = castle
+b_wyvern_cove = temple
+b_iliern = city
+
+# Misc
+culture = outer_islander
+religion = dragon_worship
+
+923.6.4={
+	religion = white_witch
+}

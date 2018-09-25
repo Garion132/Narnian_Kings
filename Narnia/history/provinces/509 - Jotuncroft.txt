@@ -1,0 +1,13 @@
+# 509 - Jotuncroft
+# County Title
+title = c_jotuncroft
+# Settlements
+max_settlements = 1
+
+b_jotuncroft = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch

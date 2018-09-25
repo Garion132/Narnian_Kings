@@ -1,0 +1,12 @@
+# 533 - Draconium
+# County Title
+title = c_draconium
+# Settlements
+max_settlements = 3
+
+b_draconium = city
+b_draconhols = castle
+
+# Misc
+culture = outer_islander
+religion = dragon_worship

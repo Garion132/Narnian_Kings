@@ -1,0 +1,13 @@
+# 942 - Rennia
+# County Title
+title = c_rennia
+# Settlements
+max_settlements = 1
+
+b_rennia = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = tellan

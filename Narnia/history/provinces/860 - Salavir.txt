@@ -1,0 +1,13 @@
+# 860 - Salavir
+# County Title
+title = c_salavir
+# Settlements
+max_settlements = 1
+
+b_salavir = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

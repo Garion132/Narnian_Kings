@@ -1,0 +1,14 @@
+# 2357 - Carnis
+# County Title
+title = c_carnis
+# Settlements
+max_settlements = 1
+
+
+b_carnis = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

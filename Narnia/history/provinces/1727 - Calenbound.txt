@@ -1,0 +1,14 @@
+# 1727 - Calenbound
+# County Title
+title = c_calenbound
+# Settlements
+max_settlements = 1
+
+
+b_calenbound = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

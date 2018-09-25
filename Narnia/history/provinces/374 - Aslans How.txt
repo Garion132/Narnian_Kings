@@ -1,0 +1,14 @@
+# 374 - Aslan How
+
+# County Title
+title = c_aslans_how
+# Settlements
+max_settlements = 2
+
+b_aslans_how = castle
+#b_shadysands = city
+b_stone_table = temple
+
+# Misc
+culture = narnian
+religion = aslan

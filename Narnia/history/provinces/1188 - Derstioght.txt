@@ -1,0 +1,14 @@
+# 1188 - Derstioght
+# County Title
+title = c_derstioght
+# Settlements
+max_settlements = 1
+
+
+b_derstioght = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

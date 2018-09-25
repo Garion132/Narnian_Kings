@@ -1,0 +1,13 @@
+# 916 - Irenid
+# County Title
+title = c_irenid
+# Settlements
+max_settlements = 1
+
+b_irenid = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

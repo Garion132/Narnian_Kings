@@ -1,0 +1,14 @@
+# 2392 - Crowshill
+# County Title
+title = c_crowshill
+# Settlements
+max_settlements = 1
+
+
+b_crowshill = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

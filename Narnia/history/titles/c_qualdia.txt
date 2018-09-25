@@ -1,0 +1,8 @@
+1.1.1={
+	holder = 0
+	law = crown_authority_1
+}
+981.1.2={
+	holder = 40750
+	liege = k_salztash
+}

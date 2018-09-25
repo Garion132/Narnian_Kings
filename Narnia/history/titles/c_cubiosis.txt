@@ -1,0 +1,10 @@
+500.1.1={
+	holder = 1900
+}
+902.1.1={
+	liege = k_new_charn
+	holder = 0
+}
+972.6.9={
+	holder = 53950
+}

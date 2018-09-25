@@ -1,0 +1,14 @@
+# 2318 - Olbols
+# County Title
+title = c_olbols
+# Settlements
+max_settlements = 1
+
+
+b_olbols = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

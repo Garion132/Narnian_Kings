@@ -1,0 +1,17 @@
+1.1.1={
+	
+	name = "Holyside"
+	adjective = "Holysidian"
+}
+932.9.8={
+	holder = 85501
+}
+956.9.17={
+	holder = 85500
+}
+989.6.17 = {
+	holder = 0
+	effect = { set_coa = k_karakaroua_maori }
+	reset_name = yes
+	reset_adjective = yes
+}

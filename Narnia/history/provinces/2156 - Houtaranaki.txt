@@ -1,0 +1,20 @@
+# 2156 - Houtaranaki
+# County Title
+title = c_houtaranaki
+# Settlements
+max_settlements = 1
+
+
+b_houtaranaki = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+religion = celtic
+culture = irish
+996.6.9={
+	culture = kingiongaiwi
+}
+1023.5.9={
+	religion = purakau_ao_kohatu
+}

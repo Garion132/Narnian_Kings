@@ -1,0 +1,14 @@
+# 1286 - Felurin
+# County Title
+title = c_felurin
+# Settlements
+max_settlements = 1
+
+
+b_felurin = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

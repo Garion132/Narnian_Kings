@@ -1,0 +1,14 @@
+# 1798 - Kalrin
+# County Title
+title = c_kalrin
+# Settlements
+max_settlements = 4
+
+
+b_kalrin = castle
+b_kuioeal = city
+#b_tolsmin = temple
+
+# Misc
+culture = callendeen
+religion = savra

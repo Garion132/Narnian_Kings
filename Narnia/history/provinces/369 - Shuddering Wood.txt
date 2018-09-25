@@ -1,0 +1,39 @@
+# 369 - Shuddering Wood
+
+# County Title
+title = c_shuddering_wood
+# Settlements
+max_settlements = 2
+
+b_shuddering_wood = castle
+
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan
+
+2180.9.14 = {
+b_castle_caspian = castle
+capital=b_castle_caspian
+culture = telmarine
+	b_castle_caspian = ca_keep_1
+	b_castle_caspian = ca_keep_2
+	b_castle_caspian = ca_keep_3
+	b_castle_caspian = ca_keep_4
+	b_castle_caspian = ca_keep_5
+	b_castle_caspian = ca_keep_6
+	b_castle_caspian = ca_training_grounds_1
+	b_castle_caspian = ca_stable_1
+	b_castle_caspian = ca_wall_1
+	b_castle_caspian = ca_wall_2
+	b_castle_caspian = ca_wall_3
+	b_castle_caspian = ca_wall_4
+	b_castle_caspian = ca_wall_5
+	b_castle_caspian = ca_militia_barracks_1
+	b_castle_caspian = ca_barracks_1
+	b_castle_caspian = ca_town_1
+	b_castle_caspian = ca_town_2
+	b_castle_caspian = ca_wall_q_5
+	b_castle_caspian = ca_castle_caspian
+}

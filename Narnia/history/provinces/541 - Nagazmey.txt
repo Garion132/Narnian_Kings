@@ -1,0 +1,19 @@
+# 541 - Nagazmey
+# County Title
+title = c_nagazmey
+# Settlements
+max_settlements = 1
+
+b_nagazmey = castle
+b_nagam = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = dragon_worship
+872.3.9={
+religion = aslan
+}
+927.9.7={
+religion = white_witch
+}

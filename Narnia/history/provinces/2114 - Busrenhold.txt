@@ -1,0 +1,14 @@
+# 2114 - Busrenhold
+# County Title
+title = c_busrenhold
+# Settlements
+max_settlements = 1
+
+
+b_busrenhold = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

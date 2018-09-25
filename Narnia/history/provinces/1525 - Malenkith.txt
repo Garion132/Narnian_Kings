@@ -1,0 +1,14 @@
+# 1525 - Malenkith
+# County Title
+title = c_malenkith
+# Settlements
+max_settlements = 1
+
+
+b_malenkith = castle
+#b_shannan_city = city
+#b_nordvin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

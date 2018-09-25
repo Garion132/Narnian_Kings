@@ -1,0 +1,13 @@
+# 378 - Dryadia
+# County Title
+title = c_dryadia
+# Settlements
+max_settlements = 1
+
+b_dryadia = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = faun
+religion = aslan

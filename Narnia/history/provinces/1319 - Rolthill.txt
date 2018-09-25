@@ -1,0 +1,14 @@
+# 1319 - Rolthill
+# County Title
+title = c_rolthill
+# Settlements
+max_settlements = 1
+
+
+b_rolthill = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

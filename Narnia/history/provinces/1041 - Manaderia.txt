@@ -1,0 +1,13 @@
+# 1041 - Manaderia
+# County Title
+title = c_manaderia
+# Settlements
+max_settlements = 1
+
+b_manaderia = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

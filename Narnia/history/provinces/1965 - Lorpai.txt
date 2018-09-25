@@ -1,0 +1,14 @@
+# 1965 - Lorpai
+# County Title
+title = c_lorpai
+# Settlements
+max_settlements = 1
+
+
+b_lorpai = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

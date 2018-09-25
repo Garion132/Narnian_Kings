@@ -1,0 +1,18 @@
+1.1.1={
+	law = succ_primogeniture
+}
+750.1.1 = {
+	liege = e_dylis_tiral
+}
+920.6.7={
+	holder = 82092
+}
+971.8.6={
+	holder = 82093
+}
+986.9.5={
+	holder = 82094
+}
+1019.2.16={
+	holder = 82095
+}

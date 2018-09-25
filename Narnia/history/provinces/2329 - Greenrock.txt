@@ -1,0 +1,14 @@
+# 2329 - Greenrock
+# County Title
+title = c_greenrock
+# Settlements
+max_settlements = 1
+
+
+b_greenrock = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

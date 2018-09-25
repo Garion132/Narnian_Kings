@@ -1,0 +1,13 @@
+# 1021 - Merrians
+# County Title
+title = c_merrians
+# Settlements
+max_settlements = 1
+
+b_merrians = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = tash

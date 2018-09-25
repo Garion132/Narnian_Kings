@@ -1,0 +1,14 @@
+# 2364 - Barrak
+# County Title
+title = c_barrak
+# Settlements
+max_settlements = 2
+
+
+b_barrak = castle
+b_carnd = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

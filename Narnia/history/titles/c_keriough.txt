@@ -1,0 +1,15 @@
+1.1.1={
+	holder=0
+}
+800.1.1={
+	liege = k_ripena
+}
+960.5.30 = {
+	liege =  k_impara
+}
+972.3.6={
+	holder=81200
+}
+1030.5.9={
+	holder=81201
+}

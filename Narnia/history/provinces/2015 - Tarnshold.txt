@@ -1,0 +1,14 @@
+# 2015 - Tarnshold
+# County Title
+title = c_tarnshold
+# Settlements
+max_settlements = 1
+
+
+b_tarnshold = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

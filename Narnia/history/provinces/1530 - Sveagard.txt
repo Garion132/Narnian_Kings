@@ -1,0 +1,15 @@
+# 1530 - Sveagard
+# County Title
+title = c_sveagard
+# Settlements
+max_settlements = 1
+
+
+#b_malenkith = city
+b_sveagard = castle
+#b_shannan_city = city
+#b_nordvin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

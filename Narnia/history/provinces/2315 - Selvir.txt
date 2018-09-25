@@ -1,0 +1,14 @@
+# 2315 - Selvir
+# County Title
+title = c_selvir
+# Settlements
+max_settlements = 1
+
+
+b_selvir = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

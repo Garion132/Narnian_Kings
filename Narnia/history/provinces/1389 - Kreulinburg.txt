@@ -1,0 +1,14 @@
+# 1389 - Kreulinburg
+# County Title
+title = c_kreulinburg
+# Settlements
+max_settlements = 1
+
+
+b_kreulinburg = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = muzhchinzmei
+religion = pamyatrossii

@@ -1,0 +1,6 @@
+972.2.17 = {
+	liege = k_veliualla
+}
+997.7.28 = {
+	liege = d_veliustash
+}

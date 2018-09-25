@@ -1,0 +1,14 @@
+# 1854 - Dennane
+# County Title
+title = c_dennane
+# Settlements
+max_settlements = 1
+
+
+b_dennane = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = telvasrian
+religion = kelvrain

@@ -1,0 +1,14 @@
+# 1908 - Okal
+# County Title
+title = c_okal
+# Settlements
+max_settlements = 5
+
+
+b_okal = castle
+b_okalval = city
+b_shana = temple
+
+# Misc
+culture = alzuashonaru
+religion = shinoi

@@ -1,0 +1,13 @@
+# 444 - Gorgehead
+# County Title
+title = c_gorgehead
+# Settlements
+max_settlements = 4
+
+b_gorgehead = castle
+b_gorgesteps = city
+b_temple_of_the_gorge = temple
+
+# Misc
+culture = telmarine
+religion = aslan

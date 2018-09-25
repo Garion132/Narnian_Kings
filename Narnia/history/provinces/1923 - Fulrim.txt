@@ -1,0 +1,14 @@
+# 1923 - Fulrim
+# County Title
+title = c_fulrim
+# Settlements
+max_settlements = 1
+
+
+b_fulrim = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

@@ -1,0 +1,14 @@
+# 1963- Cuvaire
+# County Title
+title = c_cuvaire
+# Settlements
+max_settlements = 1
+
+
+b_cuvaire = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

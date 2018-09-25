@@ -1,0 +1,13 @@
+# 516 - Bighills
+# County Title
+title = c_bighills
+# Settlements
+max_settlements = 1
+
+b_bighills = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch

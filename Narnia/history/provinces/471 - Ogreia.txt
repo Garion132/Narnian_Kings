@@ -1,0 +1,21 @@
+# 471 - Ogreia
+# County Title
+title = c_ogreia
+# Settlements
+max_settlements = 2
+
+b_ogreia = castle
+b_ogreiscia = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch
+
+876.5.14={
+	b_ogreia = ca_keep_1
+	b_ogreia = ca_wall_1
+	b_ogreia = ca_militia_barracks_1
+	b_ogreia = ca_barracks_1
+	b_ogreia = ca_town_1
+}

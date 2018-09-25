@@ -1,0 +1,13 @@
+# 429 - Minoboaria
+# County Title
+title = c_minoboaria
+# Settlements
+max_settlements = 1
+
+b_minoboaria = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = minotaur
+religion = aslan

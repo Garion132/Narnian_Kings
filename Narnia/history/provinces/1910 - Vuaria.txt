@@ -1,0 +1,14 @@
+# 1910 - Vuaria
+# County Title
+title = c_vuaria
+# Settlements
+max_settlements = 1
+
+
+b_vuaria = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

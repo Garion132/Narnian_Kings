@@ -1,0 +1,14 @@
+# 1710 - Wiasmith
+# County Title
+title = c_wiasmith
+# Settlements
+max_settlements = 1
+
+
+b_wiasmith = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

@@ -1,0 +1,14 @@
+# 1799 - Toranskald
+# County Title
+title = c_toranskald
+# Settlements
+max_settlements = 3
+
+
+b_toranskald = castle
+b_toranfelods = city
+#b_tolsmin = temple
+
+# Misc
+culture = callendeen
+religion = mellounian_law

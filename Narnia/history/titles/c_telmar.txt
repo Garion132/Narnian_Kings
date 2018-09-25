@@ -1,0 +1,6 @@
+800.6.9={
+	liege = k_tellan_church
+}
+985.5.13={
+	holder = 31900
+}

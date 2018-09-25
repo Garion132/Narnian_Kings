@@ -1,0 +1,13 @@
+# 416 - Badgerhill
+# County Title
+title = c_badgerhill
+# Settlements
+max_settlements = 1
+
+b_badgerhill = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan

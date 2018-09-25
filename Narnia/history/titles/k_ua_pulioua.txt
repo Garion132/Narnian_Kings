@@ -1,0 +1,35 @@
+1.1.1={
+	holder=0
+}
+600.2.20={
+	law = succ_primogeniture
+	law = crown_authority_1
+	effect = {
+		#make Uilosas the capital
+		b_uninial = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+951.6.9={
+	holder = 80705
+}
+970.3.10={
+	holder=80701
+}
+991.9.9={
+	holder=80700
+}
+1015.6.23 = {
+	holder = 81100
+}
+1055.5.9 = {
+	holder = 81102
+}

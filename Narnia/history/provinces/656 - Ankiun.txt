@@ -1,0 +1,14 @@
+# 656 - Ankiun
+
+# County Title
+title = c_ankiun
+# Settlements
+max_settlements = 1
+
+b_ankiun = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = calormen
+religion = tash

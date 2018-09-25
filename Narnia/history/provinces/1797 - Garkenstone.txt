@@ -1,0 +1,16 @@
+# 1797 - Garkenstone
+# County Title
+title = c_garkenstone
+# Settlements
+max_settlements = 5
+
+
+b_garkenstone = castle
+b_garkenpain = castle
+b_garkenfold = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = sulvarian
+religion = savra

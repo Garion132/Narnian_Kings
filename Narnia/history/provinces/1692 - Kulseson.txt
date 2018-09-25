@@ -1,0 +1,14 @@
+# 1692 - Kulseson
+# County Title
+title = c_kulseson
+# Settlements
+max_settlements = 1
+
+
+b_kulseson = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = lavurite

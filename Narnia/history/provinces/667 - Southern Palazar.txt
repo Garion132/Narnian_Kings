@@ -1,0 +1,14 @@
+# 667 - Southern Palazar
+
+# County Title
+title = c_southern_palazar
+# Settlements
+max_settlements = 2
+
+b_southern_palazar = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

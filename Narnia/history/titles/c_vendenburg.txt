@@ -1,0 +1,4 @@
+992.1.5={
+	liege = k_reinorkolonie
+	holder = 72000
+}

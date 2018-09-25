@@ -1,0 +1,14 @@
+# 2102 - Ruean
+# County Title
+title = c_ruean
+# Settlements
+max_settlements = 1
+
+
+b_ruean = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

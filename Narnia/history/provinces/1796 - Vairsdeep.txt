@@ -1,0 +1,15 @@
+# 1796 - Vairsdeep
+# County Title
+title = c_vairsdeep
+# Settlements
+max_settlements = 5
+
+
+b_vairsdeep = castle
+b_veisgia = city
+b_vandier_holds = castle
+#b_tolsmin = temple
+
+# Misc
+culture = callendeen
+religion = savra

@@ -1,0 +1,14 @@
+# 1821 - Daiment
+# County Title
+title = c_daiment
+# Settlements
+max_settlements = 1
+
+
+b_daiment = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = callendeen
+religion = kelvrain

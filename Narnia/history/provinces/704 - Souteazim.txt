@@ -1,0 +1,13 @@
+# 704 - Souteazim
+# County Title
+title = c_souteazim
+# Settlements
+max_settlements = 1
+
+b_souteazim = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

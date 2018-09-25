@@ -1,0 +1,142 @@
+character_event = {
+	id = 200012
+	desc = "EVTDESC200012"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		OR={
+			culture="english"
+			culture="charn"
+		}
+		NOT = {
+			trait="foreign_child"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+	option = {
+		name = "EVTOPTA200012"
+		capital_scope = {
+			reverse_culture = ROOT
+		}
+	}
+}
+character_event = {
+	id = 200013
+	desc = "EVTDESC200013"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		OR={
+			culture="faun"
+			culture_group="dwarf"
+			culture_group = telmarine
+			culture_group = nar_russian
+			culture_group = men_of_the_south
+			culture = outer_islander
+			culture = archen
+			culture = terebinthian
+			culture = seven_islander
+			culture = lone_islander
+			culture = german
+			culture = irish
+			culture_group = narniyan_tamisl
+			culture_group = nedic
+			culture_group = maori
+			culture_group = andal
+			culture_group = reinor_group
+			culture_group = cerek_group
+			culture_group = pelliven
+			culture_group = polypontian
+			culture_group = axolenta
+			culture_group = mellounian
+			culture_group = culture_group_nihonaru
+			culture_group="culture_group_numenorean"
+			culture_group="valii"
+		}
+		NOR={
+			trait="human_race"
+			trait="ilvitar_human_race"
+			trait="dwarf_culture"
+			trait="faun"
+			trait="valuia_dynasty"
+			trait="valuia_dynasty_minor"
+			trait="giant_race"
+		}
+		NOT = {ai = no}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+		
+	option = {
+		name = "EVTOPTA200013"
+		trigger={culture="faun"}
+		add_trait="faun"
+	}
+	option = {
+		name = "EVTOPTB200013"
+		trigger={culture_group="dwarf"}
+		add_trait="dwarf_culture"
+	}
+	#option = {
+	#	name = "EVTOPTC200013"
+	#	trigger={
+	#		OR={
+	#			culture_group="northern_giant"
+	#			culture="narnian_giant"
+	#		}
+	#	}
+	#	add_trait="giant_race"
+	#}
+	option = {
+		name = "EVTOPTC200013"
+		trigger={
+			OR={
+				culture_group = telmarine
+				culture_group = nar_russian
+				culture_group = men_of_the_south
+				culture = outer_islander
+				culture = archen
+				culture = terebinthian
+				culture = seven_islander
+				culture = lone_islander
+				culture = german
+				culture = irish
+				culture_group = narniyan_tamisl
+				culture_group = nedic
+				culture_group = maori
+				culture_group = andal
+				culture_group = reinor_group
+				culture_group = cerek_group
+				culture_group = pelliven
+				culture_group = polypontian
+				culture_group = axolenta
+				culture_group = mellounian
+				culture_group = culture_group_nihonaru
+			}
+		}
+		add_trait="human_race"
+	}
+	option = {
+		name = "EVTOPTD200013"
+		trigger={
+			culture_group="culture_group_numenorean"
+		}
+		add_trait="ilvitar_human_race"
+	}
+	option = {
+		name = "EVTOPTE200013"
+		trigger={
+			culture_group="valii"
+		}
+		add_trait="valuia_dynasty_minor"
+	}
+	
+}

@@ -1,0 +1,28 @@
+# 317 - Aslans Country
+
+# County Title
+title = c_aslans_country
+
+# Settlements
+max_settlements = 1
+
+b_aslans_country = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = lion
+religion = aslan
+
+85.1.1={
+	b_aslans_country = ca_keep_1
+	b_aslans_country = ca_keep_2
+	b_aslans_country = ca_keep_3
+	b_aslans_country = ca_training_grounds_1
+	b_aslans_country = ca_stable_1
+	b_aslans_country = ca_wall_1
+	b_aslans_country = ca_wall_2
+	b_aslans_country = ca_militia_barracks_1
+	b_aslans_country = ca_barracks_1
+	b_aslans_country = ca_town_1
+}

@@ -1,0 +1,14 @@
+# 1331 - Glashith
+# County Title
+title = c_glashith
+# Settlements
+max_settlements = 1
+
+
+b_glashith = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

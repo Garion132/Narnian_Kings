@@ -1,0 +1,13 @@
+# 619 - Barrier Waste
+# County Title
+title = c_barrier_waste
+# Settlements
+max_settlements = 1
+
+b_barrier_waste = castle
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = vyric
+religion = white_witch

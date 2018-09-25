@@ -1,0 +1,27 @@
+999.1.1={
+law = cognatic_succession
+law = succ_primogeniture
+holder=1014
+	effect = {
+		#make cair_paravel the capital
+		b_cair_paravel = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+1015.2.15={
+holder=0
+}
+2302.1.1={
+holder=30012
+}
+2303.7.12={
+	holder=0
+}

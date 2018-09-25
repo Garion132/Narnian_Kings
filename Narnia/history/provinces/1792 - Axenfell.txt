@@ -1,0 +1,15 @@
+# 1792 - Axenfell
+# County Title
+title = c_axenfell
+# Settlements
+max_settlements = 3
+
+
+b_axenfell = castle
+b_axenfold_hall = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = kelvrain

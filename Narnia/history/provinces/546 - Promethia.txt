@@ -1,0 +1,13 @@
+# 546 - Promethia
+# County Title
+title = c_promethia
+# Settlements
+max_settlements = 1
+
+b_promethia = castle
+#b_tanin = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = dragon_worship

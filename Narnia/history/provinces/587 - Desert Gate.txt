@@ -1,0 +1,14 @@
+# 587 - Desert Gate
+
+# County Title
+title = c_desert_gate
+# Settlements
+max_settlements = 1
+
+b_desert_gate = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = archen
+religion = aslan

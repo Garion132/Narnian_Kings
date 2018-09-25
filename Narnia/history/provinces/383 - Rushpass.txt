@@ -1,0 +1,13 @@
+# 383 - Rushpass
+# County Title
+title = c_rushpass
+# Settlements
+max_settlements = 1
+
+b_rushpass = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = faun
+religion = aslan

@@ -1,0 +1,14 @@
+# 1091 - Suninlat
+# County Title
+title = c_suninlat
+# Settlements
+max_settlements = 1
+
+
+b_suninlat = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

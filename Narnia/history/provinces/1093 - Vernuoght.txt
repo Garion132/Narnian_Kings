@@ -1,0 +1,14 @@
+# 1093 - Vernuoght
+# County Title
+title = c_vernuoght
+# Settlements
+max_settlements = 1
+
+
+b_vernuoght = castle
+b_vernuton = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

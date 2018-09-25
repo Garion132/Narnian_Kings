@@ -1,0 +1,14 @@
+# 1444 - Tolstone
+# County Title
+title = c_tolstone
+# Settlements
+max_settlements = 1
+
+
+b_tolstone = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = denols

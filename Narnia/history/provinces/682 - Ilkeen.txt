@@ -1,0 +1,14 @@
+# 682 - Ilkeen
+
+# County Title
+title = c_ilkeen
+# Settlements
+max_settlements = 2
+
+b_upper_ilkeen = castle
+b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

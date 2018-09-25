@@ -1,0 +1,1042 @@
+namespace = winter_reb
+#####################
+#events of the winter rebellion
+################
+
+character_event = { #Jadis duels Aslan during the battle of beruna
+	id = winter_reb.1
+	desc = "EVTDESCwinter_reb1"
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	trigger = {
+		character = 1900
+		in_battle = yes
+		in_command = yes
+		k_aslans_country = {
+			holder_scope={
+			in_battle = yes
+			in_command = yes
+			character = 1907
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTAwinter_reb.1"
+		hidden_tolltip = {
+		set_global_flag = battle_of_beruna
+		random_list = {
+			39 = { 
+				any_independent_ruler = {
+					limit = {
+						ai = no
+						NOT = { character = ROOT }
+						}
+					narrative_event = { id = winter_reb.2 } # Notify players of this 
+				}
+				random_character = {
+					limit = { 
+						character = 1900
+						is_alive = yes
+					}
+				}
+				any_war = {
+					limit = { 
+						attacker = { character = 1014 }
+					}
+					end_war = success
+				}
+				PREV={death = { death_reason = death_battle killer = 1907 }}
+				set_global_flag = peter_wins_war
+			}
+			41 = { 
+				any_independent_ruler = {
+					limit = {
+						ai = no
+						NOT = { character = ROOT }
+						}
+					narrative_event = { id = winter_reb.3 } # Notify players of this 
+				}
+				#any_war = {
+				#	limit = { 
+				#		attacker = { character = 1014 }
+				#	}
+				#	end_war = reverse_demand
+				#}
+				k_aslans_country = {
+					holder_scope={death = { death_reason = death_battle killer = 1900 }}
+				}
+				set_global_flag = jadis_wins_war
+	
+			}
+			20={#one or the other flees, moddled by the battle results
+				}
+		}
+		}
+	}
+}
+
+narrative_event = { #Jadis duels Aslan during the battle of beruna and wins
+	id = winter_reb.2
+	desc = "EVTDESCwinter_reb2"
+	title = "EVTTITLEwinter_reb2"
+
+	is_triggered_only=yes
+
+	option = {
+		name = "EVTOPTAwinter_reb.2"
+		trigger = {NOT = {religion = aslan}}
+	}
+	option = {
+		name = "EVTOPTBwinter_reb.2"
+		trigger = {religion = aslan}
+	}
+}
+
+narrative_event = { #Jadis duels Aslan during the battle of beruna and loses
+	id = winter_reb.3
+	desc = "EVTDESC_winter_reb3"
+	title = "EVTTITLE_winter_reb3"
+
+	is_triggered_only=yes
+
+	trigger = {}
+	
+	option = {
+		name = "EVTOPTAwinter_reb.3"
+	}
+}
+
+narrative_event = { #Jadis wins the winter rebellion
+	id = winter_reb.4
+	desc = "EVTDESCwinter_reb4"
+	title = "EVTTITLEwinter_reb4"
+
+	is_triggered_only=yes
+	
+	only_playable = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTAwinter_reb.4"
+		trigger = {NOT = {religion = white_witch}}
+	}
+	option = {
+		name = "EVTOPTBwinter_reb.4"
+		trigger = {religion = white_witch}
+	}
+}
+narrative_event = { #Aslan wins the winter rebellion
+	id = winter_reb.5
+	desc = "EVTDESCwinter_reb5"
+	title = "EVTTITLEwinter_reb5"
+
+	is_triggered_only=yes
+	
+	only_playable = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTAwinter_reb.5"
+		trigger = {NOT = {religion = aslan}}
+	}
+	option = {
+		name = "EVTOPTBwinter_reb.5"
+		trigger = {religion = aslan}
+	}
+}
+
+character_event = { #The White Stag
+	id = winter_reb.10
+	desc = "EVTDESCwinter_reb10"
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	trigger = {
+		AND ={
+			character = 1014
+			year > 1014
+			has_landed_title = e_narnia
+		}
+		NOT = {
+			has_character_flag = refused_to_hunt_white_stag
+		}
+	}
+	option = {
+		name = EVTOPTAwinter_reb.10
+		hidden_tooltip = {
+		narrative_event = { id = winter_reb.11 random = 20}
+		}
+		prestige = 50
+	}
+	option = {
+		name = EVTOPTBwinter_reb.10
+		
+		prestige = -25
+		set_character_flag = refused_to_hunt_white_stag
+		
+		random_character = {
+			limit = { 
+				character = 1017
+				is_alive = yes
+			}
+			remove_trait = modern_marrage_mindset
+		}
+		random_character = {
+			limit = { 
+				character = 1015
+				is_alive = yes
+			}
+			remove_trait = modern_marrage_mindset
+		}
+	}
+}
+
+narrative_event = { #The White Stag part two
+	id = winter_reb.11
+	desc = "EVTDESCwinter_reb11"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.11
+		hidden_tooltip = {
+			narrative_event = { id = winter_reb.12 random = 10}
+		}
+		prestige = 200
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				OR = {
+					trait = brave
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = craven
+					trait = proud
+					trait = ambitious
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBwinter_reb.11
+		
+		prestige = -125
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 10
+				OR = {
+					trait = craven
+					trait = proud
+					trait = ambitious
+				}
+			}
+		}
+		set_character_flag = refused_to_hunt_white_stag
+		hidden_tooltip = {
+			random_character = {
+				limit = { 
+					character = 1015
+					is_alive = yes
+				}
+				remove_trait = modern_marrage_mindset
+			}
+			random_character = {
+				limit = { 
+					character = 1017
+					is_alive = yes
+				}
+				remove_trait = modern_marrage_mindset
+			}
+		}
+	}
+}
+
+narrative_event = { #The White Stag part three
+	id = winter_reb.12
+	desc = "EVTDESCwinter_reb12"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.12
+		#hidden_tooltip = {
+		
+		random_character = {
+			limit = {
+				character = 2102
+				is_ruler = false
+				ROOT= {
+					has_children = no
+				}
+			}
+			character_event = { id = winter_reb.14 } # Offer Corin the Title
+		}
+		prestige = 500
+		random_character = {
+			limit = { 
+				character = 1017
+				is_alive = yes
+				NOT={ is_married = yes}
+			}
+			death = { death_reason = death_missing }
+		}
+		random_character = {
+			limit = { 
+				character = 1016
+				is_alive = yes
+			}
+			death = { death_reason = death_missing }
+		}
+		random_character = {
+			limit = { 
+				character = 1015
+				is_alive = yes
+				NOT={ is_married=yes }
+			}
+			death = { death_reason = death_missing }
+		}
+		random_character = {
+			limit = { 
+				character = 1014
+				is_alive = yes
+			}
+			death = { death_reason = death_missing }
+		}
+		any_independent_ruler = {
+			limit = {
+				ai = no
+				NOT = { character = ROOT }
+			}
+			narrative_event = { id = winter_reb.13 } # Notify players of this 
+		}
+	}
+}
+
+narrative_event = { #world is notified of the pevensies disapearance
+	id = winter_reb.13
+	desc = "EVTDESC_winter_reb13"
+	title = "EVTTITLE_winter_reb13"
+
+	is_triggered_only=yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.13
+	}
+}
+
+character_event = { #Corin is offered the throne
+	id = winter_reb.14
+	desc = "EVTDESCwinter_reb14"
+
+	is_triggered_only=yes
+	
+	option = { #yes
+		name = EVTOPTAwinter_reb.14
+		hidden_tooltip = {
+			any_independent_ruler = {
+				limit = {
+					ai = no
+					NOT = { character = ROOT }
+				}
+				narrative_event = { id = winter_reb.15 } # Notify players of this 
+			}
+		}
+		random_character = {
+			limit = { 
+				character = 1014
+				#is_alive = yes
+			}
+			inherit = ROOT
+		}
+		prestige = 500
+	}
+	option = { #no i don't want a title
+		name = EVTOPTBwinter_reb.14
+		
+		prestige = -25
+		add_trait = content
+	}
+}
+narrative_event = { #world is notified of corin's acceptance
+	id = winter_reb.15
+	desc = "EVTDESC_winter_reb15"
+	title = "EVTTITLE_winter_reb15"
+
+	is_triggered_only=yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.15
+	}
+}
+narrative_event = { #The White Stag loop
+	id = winter_reb.16
+	desc = "EVTDESCwinter_reb16"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.16
+		hidden_tooltip = {
+			random_list = {
+				45={
+					narrative_event = { id = winter_reb.11 random = 10}
+				}
+				55={
+					narrative_event = { id = winter_reb.17 random = 10}
+				}
+			}
+		}
+	}
+}
+narrative_event = { #The White Stag loop
+	id = winter_reb.17
+	desc = "EVTDESCwinter_reb17"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.17
+		hidden_tooltip = {
+			narrative_event = { id = winter_reb.18 random = 120}
+		}
+	}
+}
+
+character_event = { #The White Stag re-loop
+	id = winter_reb.18
+	desc = "EVTDESCwinter_reb18"
+
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTAwinter_reb.18
+		hidden_tooltip = {
+			narrative_event = { id = winter_reb.16 random = 10}
+		}
+		prestige = 100
+	}
+	option = {
+		name = EVTOPTBwinter_reb.18
+		
+		prestige = -100
+		set_character_flag = refused_to_hunt_white_stag
+	}
+}
+
+character_event = { #Ettins invasion
+	id = winter_reb.20
+	desc = "EVTDESCwinter_reb20"
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	hide_window = yes
+	trigger = {
+		year > 1005
+		has_global_flag = peter_wins_war
+		has_landed_title = e_narnia
+		NOT= {has_global_flag = ettins_invasion}
+	}
+	immediate = {
+		set_global_flag = ettins_invasion
+		any_independent_ruler = {
+				limit = {
+					#ai = no
+					NOT = { character = ROOT }
+					has_landed_title = k_ettinsmoor
+				}
+			character_event = { id = winter_reb.21 } # send to ettinsmoor 
+		}
+	}
+}
+
+character_event = { #The Ettinsking decides what to do
+	id = winter_reb.21
+	desc = "EVTDESCwinter_reb21"
+
+	is_triggered_only = yes
+	option = {#we shall retake the south
+		name = EVTOPTAwinter_reb.21
+		hidden_tooltip = {
+			#character_event = { id = winter_reb.22 days = 38 random = 10} # send to ettinsmoor 
+			character_event = { id = winter_reb.23 days = 300 random = 50} # send to ettinsmoor
+			character_event = { id = winter_reb.26 days = 600 random = 100} # send to ettinsmoor
+		}
+		prestige = 50
+		clear_event_target = king_of_narnia
+		FROM = {
+			save_event_target_as = king_of_narnia
+		}
+	}
+	option = {#we are too weak
+		name = EVTOPTBwinter_reb.21
+		
+		add_trait = content
+	}
+}
+
+# character_event = { #The Ettinsking gets troops
+	# id = winter_reb.22
+	# desc = "EVTDESCwinter_reb22"
+
+	# is_triggered_only = yes
+	# option = {#troops flock to our banners
+		# name = EVTOPTAwinter_reb.22
+		# if={
+			# limit = {
+			# NOT={has_global_flag = ettins_invasion_started}
+			# }
+			# character_event = { id = winter_reb.22 days = 20 random = 180} # send to ettinsmoor 
+		
+		
+		# }
+		# #character_event = { id = 62320 } # spawn invasion troops the lazy way
+
+	# }
+# }
+
+
+character_event = { #The Ettinsking decides what to do
+	id = winter_reb.23
+	desc = "EVTDESCwinter_reb23"
+
+	is_triggered_only = yes
+	option = {#send emissaries to the kingdoms of the north
+		name = EVTOPTAwinter_reb.23
+		trigger={
+			wealth >= 100
+		}
+		hidden_tooltip = {
+			any_independent_ruler = {
+				limit = {
+					#ai = no
+					NOT = { character = ROOT }
+					religion = white_witch
+					higher_tier_than = DUKE
+				}
+				character_event = { id = winter_reb.24 } # send to the northern people
+			}
+			event_target:king_of_narnia = {
+				character_event = { id = winter_reb.25} # send to narnia
+			}
+		}
+		prestige = 50
+		wealth =-100
+	}
+	option = {#send a rider to Harfang
+		name = EVTOPTCwinter_reb.23
+		trigger ={
+			wealth < 100
+		}
+		hidden_tooltip = {
+			any_independent_ruler = {
+				limit = {
+					#ai = no
+					NOT = { character = ROOT }
+					religion = white_witch
+					has_landed_title = k_harfang
+				}
+				character_event = { id = winter_reb.24 } # send to harfang
+			}
+			event_target:king_of_narnia = {
+				character_event = { id = winter_reb.25} # send to narnia
+			}
+		}
+		prestige = 10
+	}
+	option = {#we need no allies
+		name = EVTOPTBwinter_reb.23
+		
+		add_trait = ambitious
+	}
+}
+
+character_event = { #The Ettinsking asks for help
+	id = winter_reb.24
+	desc = "EVTDESCwinter_reb24"
+
+	is_triggered_only = yes
+	option = {#yes i will aid
+		name = EVTOPTAwinter_reb.24
+		
+		ROOT = {add_alliance = {who = FROM years = 25}}
+	}
+	option = {#no
+		name = EVTOPTBwinter_reb.24
+		
+		prestige = 25
+	}
+}
+character_event = { #Ettinsmoor is building up troops near our border
+	id = winter_reb.25
+	desc = "EVTDESCwinter_reb25"
+
+	is_triggered_only = yes
+	option = {#start training troops
+		name = EVTOPTAwinter_reb.25
+		
+		martial = 2
+	}
+	option = {#attack before they are ready to attack us
+		name = EVTOPTBwinter_reb.25
+			war = {
+				target = FROM
+				casus_belli = tributary_cb
+				thirdparty_title = k_ettinsmoor
+				name = "Narnian Puntive War"
+			}
+	}
+	option = {#these are meally rumours
+		name = EVTOPTCwinter_reb.25
+		
+		prestige = 25
+	}
+}
+character_event = { #Ettinsmoor's time to invade
+	id = winter_reb.26
+	desc = "EVTDESCwinter_reb26"
+
+	is_triggered_only = yes
+	option = {#Time to attack
+		name = EVTOPTAwinter_reb.26
+		event_target:king_of_narnia = {
+			reverse_war = {
+				target = ROOT
+				casus_belli = tribal_invasion
+				thirdparty_title = k_narnia
+				name = "Ettinsmoor Invasion of Narnia"
+			}
+		}
+	}
+	option = {#leave it for now
+		name = EVTOPTBwinter_reb.26
+		trigger={
+			year <= 1010
+		}
+		hidden_tooltip = {
+			character_event = { id = winter_reb.26 days = 60 random = 30} # return event
+		}
+	}
+}
+
+
+
+
+
+
+
+
+character_event = { #The True King of Narnia asks for our aid
+	id = winter_reb.49
+	
+	is_triggered_only=yes
+	hide_window = yes
+	
+	immediate = {
+		any_independent_ruler = {
+			limit = {
+				OR = {
+					character = 2100
+					character = 52600
+					character = 70109
+					character = 70500
+					character = 53100
+					character = 53000
+				}
+			}
+			character_event = { id = winter_reb.50 }
+		}
+		any_playable_ruler = {
+			limit={
+				OR = {
+					character = 60120
+					character = 52900
+				}
+			}
+			character_event = { id = winter_reb.50 }
+		}
+	}
+}
+
+character_event = { #The True King of Narnia asks for our aid
+	id = winter_reb.50
+	title = "EVTTITLE_winter_reb50"
+	desc = "EVTDESCwinter_reb50"
+	
+	is_triggered_only=yes
+	
+	option = { #no i will not risk it
+		name = EVTOPTBwinter_reb.50
+	}
+	option = { #no i will join the rightful Queen jadis 
+		name = EVTOPTCwinter_reb.50
+		trigger = { culture_group = dwarf}
+		add_trait = content
+	}
+	option = { #yes i wil join
+		name = EVTOPTAwinter_reb.50
+		if ={
+			limit = {
+				de_facto_liege = e_narnia
+			}
+			set_defacto_liege =c_1014
+		}
+		any_independent_ruler = {
+			limit = { character = 1014 }
+				ROOT = { join_attacker_wars = PREV }
+				character_event = {id = winter_reb.51}
+		}
+		true_religion = aslan
+	}
+}
+
+character_event = { #Peter is informed of those who joined
+	id = winter_reb.51
+	desc = "EVTDESC_winter_reb51"
+	title = "EVTTITLE_winter_reb51"
+
+	is_triggered_only=yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.51
+	}
+}
+
+character_event = { #A horse and his boy
+	id = winter_reb.99
+	desc = "EVTDESCwinter_reb99"
+
+	mean_time_to_happen = {
+		months = 11
+	}
+	
+	trigger = {
+		character = 2101
+		year = 1008
+		NOT = {has_global_flag = "a_horse_and_its_boy"}
+	}
+	option = {
+		name = EVTOPTAwinter_reb.99
+		hidden_tooltip = {
+			set_global_flag = "a_horse_and_its_boy"
+		#character_event = { id = winter_reb.100 random = 30}
+		}
+		remove_trait = lost_from_birth
+	}
+	#option = {
+	#	name = EVTOPTBwinter_reb.5
+	#}
+}
+
+#character_event = { #Aravis and Cor meet and reach Anvard
+	# id = winter_reb.100
+	# desc = "EVTDESCwinter_reb100"
+
+	# is_triggered_only=yes
+	
+	# option = { #yes
+		# name = EVTOPTAwinter_reb.100
+		# hidden_tooltip = {
+			# random_character = {
+				# limit = {
+					# character = 2103
+					# is_alive = yes
+					# # can_marry = 2101
+				# }
+			# employer = 2100
+			# add_betrothal = 2101
+			# }
+		# }
+	# } 
+# }
+
+character_event = { #A horse and his boy Rabadash Events
+	id = winter_reb.101
+	desc = "EVTDESCwinter_reb101"
+
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	trigger = {
+		#has_global_flag = "a_horse_and_its_boy"
+		AND = {
+			year = 1008
+			NOT = {year = 1012}
+		}
+		character = 40108
+		is_alive = yes
+		random_character = {
+			limit = {
+				character = 1015
+			}
+			is_married = no
+			alive = yes
+		}
+		NOT = {
+			trait = content
+		}
+		NOT = {
+			trait = craven
+		}
+		NOR = {
+			has_character_flag = "propasisioned_susan"
+			has_character_flag = "rejected_and_asked_for_war"
+		}
+	}
+	option = { #ask her
+		name = EVTOPTAwinter_reb.101
+		hidden_tooltip = {
+			random_character = {
+			limit = {
+				character = 1015
+			}
+			character_event = { id = winter_reb.102 }
+			}
+		}
+		set_character_flag = "propasisioned_susan"
+	}
+	option = {#don't risk it
+		name = EVTOPTBwinter_reb.101
+		prestige = -20
+		add_trait = content
+	}
+}
+
+character_event = { #Susan is propersisioned
+	id = winter_reb.102
+	desc = "EVTDESCwinter_reb102"
+
+	is_triggered_only=yes
+	
+	option = {#no
+		name = EVTOPTAwinter_reb.102
+		prestige = 10
+		add_trait = chaste
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = winter_reb.103 }#give rabadash the no
+			}
+		}
+	}
+	option = { #yes i will
+		name = EVTOPTBwinter_reb.102
+		remove_trait = modern_marrage_mindset
+		FROM = {
+			add_spouse = ROOT
+			prestige = 250
+		}
+	} 
+}
+character_event = { #Rabadash decides what to do
+	id = winter_reb.103
+	desc = "EVTDESCwinter_reb103"
+
+	is_triggered_only=yes
+	
+	option = { #Invade Narnia and seize her
+		name = EVTOPTAwinter_reb.103
+		trigger={
+			NOT = {has_landed_title = e_calormen}
+		}
+		hidden_tooltip = {
+			any_independent_ruler = {
+				limit = {
+					dynasty = 7
+					has_landed_title = e_calormen
+				}
+			character_event = { id = winter_reb.104 }
+			}
+		}
+		decadence = 20
+		set_character_flag = "rejected_and_asked_for_war"
+		clr_character_flag = "propasisioned_susan"
+	} 
+	option = { #Rabadash is already Tisroc
+		name = EVTOPTCwinter_reb.103
+		trigger={
+			has_landed_title = e_calormen
+		}
+		any_independent_ruler = {
+			limit = {has_landed_title = k_archenland}
+			reverse_war = {
+				target = ROOT
+				casus_belli = tributary_cb
+				thirdparty_title = k_archenland
+				thirdparty = THIS
+				name = "Rabadash's war for susan and the domination of archenland"
+			}
+			any_independent_ruler = {
+				limit = {
+					OR = {
+						character = 1014
+						character = 1016
+					}
+				}
+				join_defender_wars = PREV
+			}
+		}
+	}
+	option = { #no i must respect her wishes
+		name = EVTOPTBwinter_reb.103
+		prestige = -200
+		add_trait = craven
+		add_trait = just
+		add_trait = kind
+		decadence = 7
+	} 
+}
+character_event = { #Rabadash comes to you demainding war with narnia
+	id = winter_reb.104
+	desc = "EVTDESCwinter_reb104"
+
+	is_triggered_only=yes
+	
+	option = { #agree 
+		name = EVTOPTBwinter_reb.104
+		any_independent_ruler = {
+		limit = {character = 2100}
+			any_character = {
+				limit = {character = 40108}
+				create_title = {
+					tier = DUKE 
+					name = "RABADASH_CAVALRY"
+					holder = THIS
+					landless = yes
+				#	temporary = yes
+				#	adventurer = yes
+				}
+				spawn_unit = {
+					owner = THIS
+					province = 553
+					home = 662
+					troops = {
+						heavy_cavalry = { 200 200 }}
+					}
+					attrition = 0.0
+					disband_on_peace = yes
+					maintenance_multiplier = 0.0
+					unit_modifier = {
+						land_morale = 20
+						land_organisation = 20
+						siege_speed = 20
+					}
+				}
+				reverse_war = {
+				target = ROOT
+				casus_belli = invasion
+				thirdparty_title = k_archenland
+				thirdparty = PREV
+				name = "Rabadash's war for susan and the domination of archenland"
+				}
+			}
+			any_independent_ruler = {
+				limit = {character = 1014}
+				join_defender_wars = PREV
+			}
+		}
+
+	option = { #agree and ready the troops
+		name = EVTOPTBwinter_reb.104#calormen empire and rabadash event troops vs peters narnia and archenland over tributary statius of archenland plus event triggered to force marrage
+		any_independent_ruler = {
+		limit = {character = 2100}
+			reverse_war = {
+				target = ROOT
+				casus_belli = tributary_cb
+				thirdparty_title = k_archenland
+				thirdparty = PREV
+				name = "Rabadash's war for susan and the domination of archenland"
+			}
+			any_independent_ruler = {
+				limit = {character = 1014}
+				join_defender_wars = PREV
+			}
+			any_character = {
+				limit = {character = 40108}
+				create_title = {
+					tier = DUKE 
+					name = "RABADASH_CAVALRY"
+					holder = THIS
+					landless = yes
+				#	temporary = yes
+				#	adventurer = yes
+				}
+				spawn_unit = {
+					owner = THIS
+					province = 553
+					home = 662
+					troops = {
+						heavy_cavalry = { 500 500 }
+						light_cavalry = { 1500 1500 }
+					}
+					attrition = 0.0
+					disband_on_peace = yes
+					maintenance_multiplier = 0.0
+				}
+				join_attacker_wars = ROOT
+			}
+		}
+	}
+	option = { #No it would be unjust
+		name = EVTOPTCwinter_reb.104
+		prestige = 200
+		add_trait = just
+		decadence = -20
+		random_character = {
+			limit = { 
+				character = 40108
+			}
+			prestige = -150
+			clr_character_flag = "rejected_and_asked_for_war"
+			set_character_flag = "rabadash_disowned"
+		}
+	} 
+}
+
+character_event = { #end of the rabadash war Victory
+	id = winter_reb.105
+	desc = "EVTDESCwinter_reb105"
+
+	trigger = {
+		any_independent_ruler = {
+			limit = { 
+				dynasty = 7
+				is_alive = yes
+			}
+			war = no
+			k_archenland = {
+				pays_tribute_to = ROOT
+			}
+			year = 1008
+			NOT = {year = 1014}
+			NOT = {has_global_flag = rabadash_war_victory}
+		}
+	}
+	
+	option = { #
+		name = EVTOPTAwinter_reb.105
+		hidden_tooltip = {
+			random_character = {
+				limit = {
+					character = 40108
+					is_alive = yes
+				}
+				add_spouse = 1015
+				prestige = 1000
+				decadence = -15
+			}
+			set_global_flag = rabadash_war_victory
+		}
+	} 
+}

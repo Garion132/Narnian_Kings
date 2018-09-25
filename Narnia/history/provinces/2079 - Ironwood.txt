@@ -1,0 +1,14 @@
+# 2079 - Ironwood
+# County Title
+title = c_ironwood
+# Settlements
+max_settlements = 1
+
+
+b_ironwood = castle
+b_ironport = city
+#b_tolsmin = temple
+
+# Misc
+culture = weosterman
+religion = eloia

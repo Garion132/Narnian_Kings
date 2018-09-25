@@ -1,0 +1,14 @@
+# 2294 - Acford Mines
+# County Title
+title = c_acford_mines
+# Settlements
+max_settlements = 2
+
+
+b_acford_mines = castle
+b_acford_fell = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

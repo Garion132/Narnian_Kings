@@ -1,0 +1,14 @@
+# 1500 - Ulanovel
+# County Title
+title = c_ulanovel
+# Settlements
+max_settlements = 1
+
+
+b_ulanovel = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian_merku
+religion = denols

@@ -1,0 +1,14 @@
+# 1813 - Cranemas
+# County Title
+title = c_cranemas
+# Settlements
+max_settlements = 1
+
+
+b_cranemas = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = callendeen
+religion = kelvrain

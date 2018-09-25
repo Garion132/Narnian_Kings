@@ -1,0 +1,14 @@
+# 1789 - Vainde
+# County Title
+title = c_vainde
+# Settlements
+max_settlements = 4
+
+
+b_vainde = castle
+b_varitha = city
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = kelvrain

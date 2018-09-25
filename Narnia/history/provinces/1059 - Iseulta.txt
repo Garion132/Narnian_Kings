@@ -1,0 +1,14 @@
+# 1059 - Iseulta
+# County Title
+title = c_iseulta
+# Settlements
+max_settlements = 1
+
+
+b_iseulta = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = celtic

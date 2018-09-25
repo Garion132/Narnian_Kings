@@ -1,0 +1,14 @@
+# 2351 - Yark
+# County Title
+title = c_yark
+# Settlements
+max_settlements = 1
+
+
+b_yark = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

@@ -1,0 +1,14 @@
+# 1357 - Solkenit
+# County Title
+title = c_solkenit
+# Settlements
+max_settlements = 1
+
+
+b_solkenit = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = muzhchinzmei
+religion = pamyatrossii

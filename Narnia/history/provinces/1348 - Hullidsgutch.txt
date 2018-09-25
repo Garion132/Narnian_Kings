@@ -1,0 +1,20 @@
+# 1348 - Hullidsgutch
+# County Title
+title = c_hullidsgutch
+# Settlements
+max_settlements = 1
+
+
+b_hullidsgutch = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic
+
+
+850.1.1={
+	b_hullidsgutch = ca_keep_1
+	b_hullidsgutch = ca_militia_barracks_1
+}

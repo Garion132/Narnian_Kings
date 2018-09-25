@@ -1,0 +1,13 @@
+# 731 - Tashcalavar
+# County Title
+title = c_tashcalavar
+# Settlements
+max_settlements = 1
+
+b_tashcalavar = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,14 @@
+# 2328 - Execter
+# County Title
+title = c_execter
+# Settlements
+max_settlements = 1
+
+
+b_execter = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

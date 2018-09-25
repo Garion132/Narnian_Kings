@@ -1,0 +1,9 @@
+800.1.1={
+	liege = k_langvest
+}
+930.1.1={
+	liege = k_nihou
+}
+997.6.21={
+	holder = 97000
+}

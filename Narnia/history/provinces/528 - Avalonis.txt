@@ -1,0 +1,13 @@
+# 528 - Avalonis
+# County Title
+title = c_avalonis
+# Settlements
+max_settlements = 1
+
+b_avalonis = castle
+b_avalon = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = aslan

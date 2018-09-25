@@ -1,0 +1,13 @@
+# 721 - Ourtalindreh
+# County Title
+title = c_ourtalindreh
+# Settlements
+max_settlements = 1
+
+b_ourtalindreh = castle
+b_ourtalin = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

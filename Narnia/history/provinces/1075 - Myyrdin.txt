@@ -1,0 +1,14 @@
+# 1075 - Myyrdin
+# County Title
+title = c_myyrdin
+# Settlements
+max_settlements = 4
+
+
+b_myyrdin = castle
+#b_shannan_city = city
+b_temple_of_myyrdin  = temple
+
+# Misc
+culture = irish
+religion = lunos

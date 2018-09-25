@@ -1,0 +1,14 @@
+# 2398 - Lyju
+# County Title
+title = c_lyju
+# Settlements
+max_settlements = 1
+
+
+b_lyju = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = quallis

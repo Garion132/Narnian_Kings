@@ -1,0 +1,15 @@
+# 333 - Hagan
+
+# County Title
+title = c_hagan
+
+# Settlements
+max_settlements = 1
+
+b_hagan = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = seven_islander
+religion = aslan

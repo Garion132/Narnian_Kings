@@ -1,0 +1,13 @@
+# 858 - Veasris
+# County Title
+title = c_veasris
+# Settlements
+max_settlements = 1
+
+b_veasris = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

@@ -1,0 +1,14 @@
+# 1716 - Relingarith
+# County Title
+title = c_relingarith
+# Settlements
+max_settlements = 1
+
+
+b_relingarith = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

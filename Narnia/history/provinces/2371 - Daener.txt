@@ -1,0 +1,14 @@
+# 2371 - Daener
+# County Title
+title = c_daener
+# Settlements
+max_settlements = 1
+
+
+b_daener = castle
+b_damen_ton = city
+b_colstin = temple
+
+# Misc
+culture = cerek
+religion = eline

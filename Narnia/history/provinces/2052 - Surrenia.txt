@@ -1,0 +1,14 @@
+# 2052 - Surrenia
+# County Title
+title = c_surrenia
+# Settlements
+max_settlements = 1
+
+
+b_surrenia = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

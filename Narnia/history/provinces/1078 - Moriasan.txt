@@ -1,0 +1,14 @@
+# 1078 - Moriasan
+# County Title
+title = c_moriasan
+# Settlements
+max_settlements = 3
+
+
+b_moriasan = castle
+b_moriasan_city = city
+b_moriample = temple
+
+# Misc
+culture = irish
+religion = celtic

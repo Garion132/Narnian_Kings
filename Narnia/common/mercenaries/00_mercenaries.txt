@@ -1,0 +1,125 @@
+# Define mercenary types here now instead of in the static_composition.txt file
+# Also remember to tell the landed title to use this mercenary type instead.
+# Several titles can refer to the same type as well now.
+
+knights_templar_composition = {
+	levy_size = 1
+	heavy_infantry = 600
+	knights = 300
+	archers = 200
+}
+archenland_free_composition = {
+	levy_size = 4
+	light_infantry = 75
+	heavy_infantry = 50
+	knights = 25
+	archers = 10
+}
+narnian_free_composition = {
+	levy_size = 3
+	light_infantry = 75
+	heavy_infantry = 50
+	archers = 25
+}
+aslans_chosen_composition = {
+	levy_size = 2
+	light_cavalry  = 600
+	knights = 300
+	horse_archers = 200
+}
+centaur_composition = {
+	levy_size = 2
+	light_cavalry  = 60
+	knights = 40
+	horse_archers = 20
+}
+grand_witch_composition = {
+	levy_size = 8
+	light_infantry = 10
+	pikemen = 5
+	heavy_infantry = 5
+}
+calormen_composition = {
+	levy_size = 3
+	light_infantry = 70
+	heavy_infantry = 50
+	light_cavalry = 25
+	archers = 10
+}
+tash_composition = {
+	levy_size = 5
+	light_infantry = 700
+	heavy_infantry = 500
+	light_cavalry = 200
+	archers = 100
+}
+kollash_league_composition = {
+	levy_size = 0.01
+	light_infantry = 1750
+	heavy_infantry = 1500
+	light_cavalry = 1250
+	archers = 1300
+}
+
+dylis_band_composition = {
+	levy_size = 1
+	light_infantry = 100
+	heavy_infantry = 150
+	archers = 50
+}
+fianna_composition = {
+	levy_size = 1
+	heavy_infantry = 500
+	archers = 300
+	unit_modifier = {
+		heavy_infantry_offensive = 1.2
+		heavy_infantry_defensive = 1.2
+		archers_offensive = 1.2
+		archers_defensive = 1.2
+	}
+}
+
+rosski_faithful_composition = {
+	levy_size = 2
+	light_infantry = 50
+	heavy_infantry = 60
+	archers = 10
+	knights = 25
+}
+rassivichs_composition = {
+	levy_size = 5
+	light_infantry = 50
+	heavy_infantry = 60
+	archers = 10
+	knights = 25
+}
+nord_composition = {
+	levy_size = 4
+	light_infantry = 25
+	heavy_infantry = 25
+	archers = 30
+}
+## Must exist or else dynamic mercenary band might fail for nomads!
+default_culture_band_composition = {
+	levy_size = 1
+	light_infantry = 100
+}
+
+altaic_culture_band_composition = {
+	levy_size = 1
+	light_cavalry = 60
+	horse_archers = 40
+}
+
+magyar_culture_band_composition = {
+	levy_size = 1
+	light_cavalry = 70
+	horse_archers = 30
+}
+
+alan_culture_band_composition = {
+	levy_size = 1
+	light_cavalry = 70
+	horse_archers = 30
+}
+

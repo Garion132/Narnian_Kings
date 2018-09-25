@@ -1,0 +1,14 @@
+# 1795 - Onsdale
+# County Title
+title = c_onsdale
+# Settlements
+max_settlements = 4
+
+
+b_onsdale = castle
+#b_malenkith = city
+b_onsdale_point = temple
+
+# Misc
+culture = sulvarian
+religion = savra

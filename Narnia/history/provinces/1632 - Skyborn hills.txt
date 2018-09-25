@@ -1,0 +1,14 @@
+# 1632 - Skyborn hills
+# County Title
+title = c_skyborn_hills
+# Settlements
+max_settlements = 1
+
+
+b_skyborn_hills = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

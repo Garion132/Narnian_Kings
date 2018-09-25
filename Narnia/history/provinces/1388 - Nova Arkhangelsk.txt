@@ -1,0 +1,14 @@
+# 1388 - Nova Arkhangelsk
+# County Title
+title = c_nova_arkhangelsk
+# Settlements
+max_settlements = 1
+
+
+b_nova_arkhangelsk = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = muzhchinzmei
+religion = pamyatrossii

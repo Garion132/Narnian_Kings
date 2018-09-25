@@ -1,0 +1,7 @@
+624.6.27={
+	liege = k_koraly
+	law = succ_primogeniture
+}
+992.2.5 = {
+	holder = 31100
+}

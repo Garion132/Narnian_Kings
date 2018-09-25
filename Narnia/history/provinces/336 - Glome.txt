@@ -1,0 +1,15 @@
+# 336 - Glome
+
+# County Title
+title = c_glome
+
+# Settlements
+max_settlements = 1
+
+b_glome = castle
+b_city_of_glome = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = seven_islander
+religion = aslan

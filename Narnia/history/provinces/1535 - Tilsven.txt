@@ -1,0 +1,14 @@
+# 1535 - Tilsven
+# County Title
+title = c_tilsven
+# Settlements
+max_settlements = 2
+
+
+b_tilsven = castle
+#b_malenkith = city
+b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

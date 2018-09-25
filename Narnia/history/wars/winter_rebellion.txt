@@ -1,0 +1,22 @@
+name = "Winter Rebelion"
+
+casus_belli = {
+	actor = 1014 # Peter
+	recipient = 1900 # Jadis
+	casus_belli = winter_war
+	landed_title = e_narnia
+	date = 999.12.24
+}
+
+999.12.24 = {
+	add_attacker = 1014 # Peter (MAIN ATTACKER) 
+	add_attacker = 1907 # Aslan
+	add_defender = 1900 # Jadis (MAIN DEFENDER)
+
+}
+
+1000.2.5 = {
+	rem_attacker = 1907 # Aslan
+	rem_attacker = 1014 # Peter (MAIN ATTACKER)
+	rem_defender = 1900 # Jadis (MAIN DEFENDER)
+}

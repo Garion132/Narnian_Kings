@@ -1,0 +1,14 @@
+# 1906 - Oua
+# County Title
+title = c_oua
+# Settlements
+max_settlements = 3
+
+
+b_oua = castle
+b_ouavale = city
+b_aarola = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

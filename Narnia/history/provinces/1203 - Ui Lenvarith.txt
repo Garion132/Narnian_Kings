@@ -1,0 +1,14 @@
+# 1203 - Ui Lenvarith
+# County Title
+title = c_ui_lenvarith
+# Settlements
+max_settlements = 1
+
+
+b_ui_lenvarith = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

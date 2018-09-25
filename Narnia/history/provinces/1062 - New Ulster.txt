@@ -1,0 +1,14 @@
+# 1062 - New Ulster
+# County Title
+title = c_new_ulster
+# Settlements
+max_settlements = 1
+
+
+b_new_ulster = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

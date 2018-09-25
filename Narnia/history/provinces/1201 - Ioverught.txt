@@ -1,0 +1,14 @@
+# 1201 - Ioverught
+# County Title
+title = c_ioverught
+# Settlements
+max_settlements = 1
+
+
+b_ioverught = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

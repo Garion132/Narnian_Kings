@@ -1,0 +1,14 @@
+# 2382 - Taerin
+# County Title
+title = c_taerin
+# Settlements
+max_settlements = 1
+
+
+b_taerin = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

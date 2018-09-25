@@ -1,0 +1,13 @@
+# 735 - South Ilkeen
+# County Title
+title = c_south_ilkeen
+# Settlements
+max_settlements = 1
+
+b_south_ilkeen = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

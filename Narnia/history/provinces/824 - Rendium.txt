@@ -1,0 +1,13 @@
+# 824 - Rendium
+# County Title
+title = c_rendium
+# Settlements
+max_settlements = 1
+
+b_rendium = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

@@ -1,0 +1,26 @@
+# 791 - Xesare
+# County Title
+title = c_xesare
+# Settlements
+max_settlements = 1
+
+b_xesare = castle
+b_xesresa = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = western_calormen_cults
+
+597.1.1={
+	b_xesare = ca_keep_1
+	b_xesare = ca_keep_2
+	b_xesare = ca_training_grounds_1
+	b_xesare = ca_stable_1
+	b_xesare = ca_wall_1
+	b_xesare = ca_wall_2
+	b_xesare = ca_wall_3
+	b_xesare = ca_militia_barracks_1
+	b_xesare = ca_barracks_1
+	b_xesare = ca_town_1
+}

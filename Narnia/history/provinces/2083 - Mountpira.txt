@@ -1,0 +1,14 @@
+# 2083 - Mountpira
+# County Title
+title = c_mountpira
+# Settlements
+max_settlements = 1
+
+
+b_mountpira = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

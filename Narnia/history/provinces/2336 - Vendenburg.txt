@@ -1,0 +1,15 @@
+# 2336 - Vendenburg
+# County Title
+title = c_vendenburg
+# Settlements
+max_settlements = 1
+
+
+b_vendenburg = castle
+b_olturg = city
+b_barrenburg = castle
+b_raner = temple
+
+# Misc
+culture = german
+religion = eline

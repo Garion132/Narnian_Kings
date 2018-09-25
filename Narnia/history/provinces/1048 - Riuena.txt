@@ -1,0 +1,22 @@
+# 1048 - Riuena
+# County Title
+title = c_riuena
+# Settlements
+max_settlements = 1
+
+b_riuena = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan
+600.1.1 = {
+	b_riuena = ca_town_1
+	b_riuena = ca_wall_q_1
+	b_riuena = ca_wall_1
+	b_riuena = ca_barracks_1
+	b_riuena = ca_barracks_2
+	b_riuena = ca_militia_barracks_1
+	b_riuena = ca_keep_1
+}

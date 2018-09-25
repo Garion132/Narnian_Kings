@@ -1,0 +1,13 @@
+# 420 - Lantern Woods
+# County Title
+title = c_lantern_woods
+# Settlements
+max_settlements = 2
+
+b_lantern_woods = castle
+#b_shadysands = city
+b_the_lamp_post = temple
+
+# Misc
+culture = narnian
+religion = aslan

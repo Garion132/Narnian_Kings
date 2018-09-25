@@ -1,0 +1,6 @@
+800.3.10={
+	liege=k_dwarven_states
+}
+863.9.10={
+	holder=52850
+}

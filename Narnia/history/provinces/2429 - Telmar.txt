@@ -1,0 +1,15 @@
+# 2429 - Telmar
+# County Title
+title = c_telmar
+# Settlements
+max_settlements = 3
+
+b_telmar = castle
+b_church_of_old_telmar = temple
+
+# Misc
+culture = telmarine
+religion = tellan
+920.6.3={
+	capital = b_church_of_old_telmar
+}

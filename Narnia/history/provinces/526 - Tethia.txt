@@ -1,0 +1,13 @@
+# 526 - Tethia
+# County Title
+title = c_tethia
+# Settlements
+max_settlements = 1
+
+b_tethia = city
+b_tethitia = castle
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = aslan

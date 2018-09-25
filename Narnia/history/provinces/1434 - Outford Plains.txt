@@ -1,0 +1,14 @@
+# 1434 - Outford Plains
+# County Title
+title = c_outford_plains
+# Settlements
+max_settlements = 1
+
+
+b_outford_plains = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = denols

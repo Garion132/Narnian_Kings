@@ -1,0 +1,9 @@
+542.6.9={
+	liege = d_laninsstier
+}
+795.6.9={
+	liege = k_eslia
+}
+986.4.7={
+	holder = 122300
+}

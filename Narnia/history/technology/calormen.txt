@@ -1,0 +1,105 @@
+#Narnia
+technology = {
+	titles = {
+		d_tashbaan
+		d_spur_of_calore
+		d_kalorius
+		d_azem_balda
+		d_ilkeen
+		d_eusabaan
+		d_zalindreh
+		d_azimbalda
+		d_teeban
+		d_slavers_bay
+		d_agorbah
+		d_tashdreh
+		d_mezreel
+		d_zelisa
+		d_mezealisa
+		d_lower_kollash
+		d_upper_kollash
+		d_soutash
+		d_desert_road
+		d_tehishbaan
+		d_arched_bays
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+technology = {
+	titles = {
+		d_tahvelia
+		d_veliustash
+		d_dasash
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		TECH_LIGHT_INFANTRY = 1.25
+		TECH_CASTLE_CONSTRUCTION = 1.7
+	}	
+	2555 = {
+		military = 4.7
+		economy = 4.7
+		culture = 4.7
+	}
+}
+technology = {
+	titles = {
+		d_azlam
+		d_telazim
+		d_salzosa
+		d_sudcalvar
+		d_xerex
+		d_xesarium
+		d_selousbaan
+		d_gaolin
+		d_surtvain
+		d_turain
+		d_waunare
+		d_jei
+		d_calorn
+		d_iros
+		d_velsaash
+		d_callensta
+		d_nopl
+		d_alnque
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 4.0
+		economy = 4.0
+		culture = 4.0
+	}
+}
+technology = {
+	titles = {
+		c_xesare
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		TECH_LIGHT_INFANTRY = 1.5
+		TECH_HEAVY_INFANTRY = 1.7
+		TECH_CASTLE_CONSTRUCTION = 2
+	}	
+	2555 = {
+		military = 5.2
+		economy = 5.2
+		culture = 5.4
+	}
+}

@@ -1,0 +1,18 @@
+# 535 - Wyvernia
+# County Title
+title = c_wyvernia
+# Settlements
+max_settlements = 5
+
+b_wyvernia = castle
+b_wyveuan = city
+b_wyuera = castle
+b_wuloia = castle
+
+# Misc
+culture = outer_islander
+religion = dragon_worship
+
+834.6.5={
+	religion = aslan
+}

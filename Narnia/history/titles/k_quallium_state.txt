@@ -1,0 +1,6 @@
+#1.1.1={
+#	liege = k_quallium_state
+#}
+986.5.9={
+	holder = 127000
+}

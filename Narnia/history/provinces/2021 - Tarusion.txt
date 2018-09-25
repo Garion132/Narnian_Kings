@@ -1,0 +1,14 @@
+# 2021 - Tarusion
+# County Title
+title = c_tarusion
+# Settlements
+max_settlements = 1
+
+
+b_tarusion = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

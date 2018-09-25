@@ -1,0 +1,12 @@
+250.4.2= {
+	liege=e_calormen
+}
+786.6.19 = {
+	liege = d_kalorius
+}
+946.5.28 = {
+	holder = 40115
+}
+997.2.6 = {
+	holder = 40116
+}

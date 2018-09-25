@@ -1,0 +1,14 @@
+# 2178 - Raiakua
+# County Title
+title = c_raiakua
+# Settlements
+max_settlements = 2
+
+
+b_raiakua = castle
+#b_malenkith = city
+b_raiakuana = temple
+
+# Misc
+culture = irish
+religion = caitliceann

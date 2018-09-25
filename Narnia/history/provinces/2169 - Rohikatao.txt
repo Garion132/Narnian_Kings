@@ -1,0 +1,14 @@
+# 2169 - Rohikatao
+# County Title
+title = c_rohikatao
+# Settlements
+max_settlements = 1
+
+
+b_rohikatao = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = irish
+religion = caitliceann

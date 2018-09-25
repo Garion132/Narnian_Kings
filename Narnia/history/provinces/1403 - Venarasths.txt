@@ -1,0 +1,14 @@
+# 1403 - Venarasths
+# County Title
+title = c_venarasths
+# Settlements
+max_settlements = 1
+
+
+b_venarasths = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

@@ -1,0 +1,14 @@
+# 1625 - Caelorn
+# County Title
+title = c_caelorn
+# Settlements
+max_settlements = 1
+
+
+b_caelorn = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

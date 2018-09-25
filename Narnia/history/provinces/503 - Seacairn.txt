@@ -1,0 +1,18 @@
+# 503 - Seacairn
+# County Title
+title = c_seacairn
+# Settlements
+max_settlements = 1
+
+b_seacairn = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch
+
+
+2112.1.1={
+culture = telmarine
+}

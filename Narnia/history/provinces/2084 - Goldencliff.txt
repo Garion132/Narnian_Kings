@@ -1,0 +1,14 @@
+# 2084 - Goldencliff
+# County Title
+title = c_goldencliff
+# Settlements
+max_settlements = 1
+
+
+b_goldencliff = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

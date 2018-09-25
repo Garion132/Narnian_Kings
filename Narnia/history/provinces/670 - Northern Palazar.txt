@@ -1,0 +1,14 @@
+# 670 - Northern Palazar
+
+# County Title
+title = c_northern_palazar
+# Settlements
+max_settlements = 1
+
+b_northern_palazar = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

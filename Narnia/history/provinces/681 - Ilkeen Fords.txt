@@ -1,0 +1,14 @@
+# 681 - Ilkeen Fords
+
+# County Title
+title = c_ilkeen_fords
+# Settlements
+max_settlements = 1
+
+b_ilkeen_fords = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

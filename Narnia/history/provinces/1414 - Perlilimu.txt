@@ -1,0 +1,14 @@
+# 1414 - Perlilimu
+# County Title
+title = c_perlilimu
+# Settlements
+max_settlements = 1
+
+
+b_perlilimu = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

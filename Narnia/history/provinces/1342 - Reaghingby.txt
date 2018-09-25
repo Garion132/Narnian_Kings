@@ -1,0 +1,14 @@
+# 1342 - Reaghingby
+# County Title
+title = c_reaghingby
+# Settlements
+max_settlements = 1
+
+
+b_reaghingby = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

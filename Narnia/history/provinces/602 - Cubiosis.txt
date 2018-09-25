@@ -1,0 +1,13 @@
+# 602 - Cubiosis
+# County Title
+title = c_cubiosis
+# Settlements
+max_settlements = 1
+
+b_cubiosis = castle
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = red_dwarf
+religion = white_witch

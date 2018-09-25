@@ -1,0 +1,14 @@
+# 1278 - Creaghen
+# County Title
+title = c_creaghen
+# Settlements
+max_settlements = 1
+
+
+b_creaghen = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

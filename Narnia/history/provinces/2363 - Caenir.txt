@@ -1,0 +1,14 @@
+# 2363 - Caenir
+# County Title
+title = c_caenir
+# Settlements
+max_settlements = 1
+
+
+b_caenir = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

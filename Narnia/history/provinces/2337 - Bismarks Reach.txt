@@ -1,0 +1,14 @@
+# 2337 - Bismarks Reach
+# County Title
+title = c_bismarks_reach
+# Settlements
+max_settlements = 1
+
+
+b_bismarks_reach = castle
+b_bismeden = city
+b_sarrna = temple
+
+# Misc
+culture = german
+religion = aryan

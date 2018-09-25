@@ -1,0 +1,14 @@
+# 1916 - Maru
+# County Title
+title = c_maru
+# Settlements
+max_settlements = 1
+
+
+b_maru = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

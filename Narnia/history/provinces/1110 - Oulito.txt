@@ -1,0 +1,14 @@
+# 1110 - Oulito
+# County Title
+title = c_oulito
+# Settlements
+max_settlements = 1
+
+
+b_oulito = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = caitliceann

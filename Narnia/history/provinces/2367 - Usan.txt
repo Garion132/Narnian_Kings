@@ -1,0 +1,14 @@
+# 2367 - Usan
+# County Title
+title = c_usan
+# Settlements
+max_settlements = 1
+
+
+b_usan = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

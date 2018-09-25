@@ -1,0 +1,19 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+germany_germany;Third Reich;;;;;;;;;;;;;x
+title_german_kaiser;Führer;;;;;;;;;;;;;x
+germany_industrailsing;Industrialising;;;;;;;;;;;;;x
+germany_industrailsing_desc;The Reich is gearing up its military production, during this time germany is looking for reasources and is more likely to offload outdated gear;;;;;;;;;;;;;x
+germany_industrailsing_effect_desc;All miltary actions are available;;;;;;;;;;;;;x
+germany_consolidaing;Consolidating;;;;;;;;;;;;;x
+germany_agressive;Aggressive;;;;;;;;;;;;;x
+germany_defensive;Defensive;;;;;;;;;;;;;x
+germany_minimal_funding;Minimal Funding;;;;;;;;;;;;;x
+germany_closed_portal;Closed;;;;;;;;;;;;;x
+germany_closed_portal_desc;The Portal is closed;;;;;;;;;;;;;x
+germany_closed_portal_effect_desc;It is no longer possible to access Germany;;;;;;;;;;;;;x
+german_fp_send_gift;Send Gift;;;;;;;;;;;;;x
+german_fp_send_gift_desc;Send a large gift of gold to the Reich;;;;;;;;;;;;;x
+empire_of_aryan;Reich;;;;;;;;;;;;;x
+kingdom_of_aryan;Reichsprotectorate of ;;;;;;;;;;;;;x
+kingdom_of_quallis;Governate of ;;;;;;;;;;;;;x
+king_of_quallis;Govenor;;;;;;;;;;;;;x

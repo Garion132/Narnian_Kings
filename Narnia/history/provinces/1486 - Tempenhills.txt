@@ -1,0 +1,14 @@
+# 1486 - Tempenhills
+# County Title
+title = c_tempenhills
+# Settlements
+max_settlements = 1
+
+
+b_tempenhills = tribal
+#b_shannan_city = city
+b_lavura = temple
+
+# Misc
+culture = uyirian
+religion = lavurite

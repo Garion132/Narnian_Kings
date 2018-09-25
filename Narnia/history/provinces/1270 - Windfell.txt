@@ -1,0 +1,14 @@
+# 1270 - Windfell
+# County Title
+title = c_windfell
+# Settlements
+max_settlements = 1
+
+
+b_windfell = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

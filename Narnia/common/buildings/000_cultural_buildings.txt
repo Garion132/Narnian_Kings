@@ -1,0 +1,148 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ # Castle
+castle = {
+	#Telmarine
+	ca_telmarine_pike_barracks_1 = {
+		desc = ca_telmarine_pike_barracks_desc	
+		potential = {
+			culture = telmarine
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		pikemen = 40
+		light_infantry = 50
+		tax_income = 0.1
+		ai_creation_factor = 110
+		gold_cost = 150
+		build_time = 100
+		extra_tech_building_start = 0.3
+	}
+	ca_telmarine_pike_barracks_2 = {
+		desc = ca_telmarine_pike_barracks_2_desc	
+		potential = {
+				culture = telmarine
+		}
+		upgrades_from = ca_telmarine_pike_barracks_1
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		pikemen = 60
+		light_infantry = 20
+		tax_income = 0.1
+		ai_creation_factor = 110
+		gold_cost = 250
+		build_time = 250
+		extra_tech_building_start = 0.3
+	}
+	ca_telmarine_pike_barracks_3 = {
+		desc = ca_telmarine_pike_barracks_3_desc	
+		potential = {
+				culture = telmarine
+		}
+		upgrades_from = ca_telmarine_pike_barracks_2
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		pikemen = 100
+		light_infantry = 30
+		tax_income = 0.2
+		ai_creation_factor = 110
+		gold_cost = 350
+		build_time = 250
+		extra_tech_building_start = 0.3
+	}
+	
+	
+	
+	
+	#archenlander
+	ca_archen_knightly_stables_1 = {
+		desc = ca_archen_knightly_stables_desc	
+		potential = {
+			culture = archen
+		}
+		trigger = { TECH_CAVALRY = 0 }
+		light_cavalry = -10
+		knights = 25
+		ai_creation_factor = 110
+		gold_cost = 150
+		build_time = 100
+		extra_tech_building_start = 0.3
+	}
+	ca_archen_knightly_stables_2 = {
+		desc = ca_archen_knightly_stables_2_desc	
+		potential = {
+				culture = archen
+		}
+		upgrades_from = ca_archen_knightly_stables_1
+		trigger = { TECH_CAVALRY = 2 }
+		light_cavalry = -10
+		knights = 50
+		ai_creation_factor = 110
+		gold_cost = 250
+		build_time = 250
+		extra_tech_building_start = 0.3
+	}
+	ca_archen_knightly_stables_3 = {
+		desc = ca_archen_knightly_stables_desc	
+		potential = {
+				culture = archen
+		}
+		upgrades_from = ca_archen_knightly_stables_2
+		trigger = { TECH_CAVALRY = 4 }
+		light_cavalry = -10
+		knights = 75
+		ai_creation_factor = 110
+		gold_cost = 350
+		build_time = 250
+		extra_tech_building_start = 0.3
+	}
+	#Muzhchinzmei
+	ca_muzhchinzmei_milita_barracks_1 = {
+		desc = ca_muzhchinzmei_milita_barracks_desc	
+		potential = {
+			culture = muzhchinzmei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		heavy_infantry = 50
+		light_infantry = 25
+		ai_creation_factor = 110
+		gold_cost = 175
+		build_time = 180
+		extra_tech_building_start = 0.1
+	}
+	#dylis buff
+	ca_dylisitine_barracks = {
+		desc = ca_dylisitine_barracks_desc	
+		potential = {
+			FROMFROM = { region = world_dylis }
+		}
+		archers = 20
+		light_infantry = 50
+		ai_creation_factor = 110
+		gold_cost = 250
+		build_time = 365
+		extra_tech_building_start = 1.0
+	}
+	#Axol
+	ca_axol_barracks = {
+		desc = ca_axol_barracks_desc	
+		potential = {
+			culture = axol
+		}
+		#archers = 20
+		light_infantry = 950
+		heavy_infantry = 75
+		ai_creation_factor = 110
+		gold_cost = 250
+		build_time = 365
+		extra_tech_building_start = 1.0
+	}
+}

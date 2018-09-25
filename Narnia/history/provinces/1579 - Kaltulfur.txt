@@ -1,0 +1,14 @@
+# 1579 - Kaltulfur
+# County Title
+title = c_kaltulfur
+# Settlements
+max_settlements = 1
+
+
+b_kaltulfur = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

@@ -1,0 +1,14 @@
+# 1730 - Ovan
+# County Title
+title = c_ovan
+# Settlements
+max_settlements = 1
+
+
+b_ovan = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

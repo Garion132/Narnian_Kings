@@ -1,0 +1,14 @@
+# 2293 - Tlna
+# County Title
+title = c_tlna
+# Settlements
+max_settlements = 1
+
+
+b_tlna = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

@@ -1,0 +1,697 @@
+#russians 90001-95000
+90001 = {
+	name = "Vyshata" #
+	dynasty = 1005
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 80600
+	#mother = 80201
+	wealth = 700
+	968.3.17={
+		birth="968.3.17"
+	}
+	992.6.9={
+	add_spouse = 90405
+	}
+	1035.2.10={
+		death={death_reason = death_natural}
+	}
+}
+90002 = {
+	name = "Vyshata Veanin" #
+	dynasty = 1005
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90001
+	mother = 90405
+	993.6.22={
+		birth=yes
+	}
+	1053.7.28={
+		death={death_reason = death_natural}
+	}
+}
+90100 = {
+	name = "Iziaslav" #
+	dynasty = 1006
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 80600
+	#mother = 80201
+	wealth = 600
+	963.11.23={
+		birth="963.11.23"
+	}
+	1042.5.17={
+		death="1042.5.17"
+	}
+}
+90200 = {
+	name = "Vysheslav" #
+	dynasty = 1012
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 80600
+	#mother = 80201
+	wealth = 600
+	969.6.14={
+		birth="969.6.14"
+	}
+	1042.5.17={
+		death="1042.5.17"
+	}
+}
+90300 = {
+	name = "Alexei" #
+	dynasty = 1011
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	961.9.23={
+		birth="961.9.23"
+	}
+	1039.6.1={
+		death="1039.6.1"
+	}
+}
+90400 = {
+	name = "Feodor" #
+	dynasty = 1004
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90401
+	#mother = 80201
+	wealth = 700
+	937.6.22={
+		birth=yes
+	}
+	1003.6.11={
+		death={death_reason = death_natural}
+	}
+}
+90401 = {
+	name = "Feodor" #
+	dynasty = 1004
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 80600
+	#mother = 80201
+	903.8.15={
+		birth=yes
+	}
+	953.9.23={
+		death={death_reason = death_natural}
+	}
+}
+90402 = {
+	name = "Feodor Mstislav" #
+	dynasty = 1004
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90400
+	#mother = 80201
+	962.3.17={
+		birth=yes
+	}
+	1035.2.10={
+		death={death_reason = death_natural}
+	}
+}
+90403 = {
+	name = "Vedin" #
+	dynasty = 1004
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90400
+	#mother = 80201
+	963.1.23={
+		birth=yes
+	}
+	1042.5.24={
+		death={death_reason = death_natural}
+	}
+}
+90404 = {
+	name = "Gavrii" #
+	dynasty = 1004
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90400
+	#mother = 80201
+	965.3.17={
+		birth=yes
+	}
+	1046.8.24={
+		death={death_reason = death_natural}
+	}
+}
+90405 = {
+	name = "Agrafena" #
+	dynasty = 1004
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	female = yes
+	father = 90400
+	#mother = 80201
+	966.9.21={
+		birth=yes
+	}
+	1048.3.30={
+		death={death_reason = death_natural}
+	}
+}
+90406 = {
+	name = "Svetozar" #
+	dynasty = 1004
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90400
+	#mother = 80201
+	967.6.8={
+		birth=yes
+	}
+	1021.5.14={
+		death={death_reason = death_natural}
+	}
+}
+90407 = {
+	name = "Feodor Terentiy" #
+	dynasty = 1004
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90402
+	#mother = 80201
+	989.4.24={
+		birth=yes
+	}
+	1043.6.28={
+		death={death_reason = death_natural}
+	}
+}
+90500 = {
+	name = "Gavrinslav" #
+	dynasty = 1009
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90502
+	#mother = 80201
+	975.9.12={
+		birth=yes
+	}
+	1034.1.2={
+		death={death_reason = death_natural}
+	}
+}
+90501 = {
+	name = "Karst" #
+	dynasty = 1009
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90500
+	#mother = 80201
+	add_trait = "genius"
+	993.2.7={
+		birth=yes
+	}
+	1051.9.14={
+		death={death_reason = death_natural}
+	}
+}
+90502 = {
+	name = "Tarekson" #
+	dynasty = 1009
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90503
+	#mother = 80201
+	949.8.8={
+		birth=yes
+	}
+	991.6.18={
+		death={death_reason = death_natural}
+	}
+}
+90503 = {
+	name = "Tarek" #
+	dynasty = 1009
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 90402
+	#mother = 80201
+	915.3.27={
+		birth=yes
+	}
+	974.8.16={
+		death={death_reason = death_natural}
+	}
+}
+
+90600 = {
+	name = "Izia" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 90502
+	#mother = 80201
+	861.10.27={
+		birth=yes
+	}
+	917.4.18={
+		death={death_reason = death_natural}
+	}
+}
+90601 = {
+	name = "Varas" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90600
+	#mother = 80201
+	885.8.24={
+		birth=yes
+	}
+	941.6.11={
+		death={death_reason = death_natural}
+	}
+}
+90602 = {
+	name = "Helge" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90601
+	#mother = 80201
+	904.12.4={
+		birth=yes
+	}
+	945.7.16={
+		death={death_reason = death_natural}
+	}
+}
+90603 = {
+	name = "Varas" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90602
+	#mother = 80201
+	921.9.27={
+		birth=yes
+	}
+	942.5.23={
+		death={death_reason = death_natural}
+	}
+}
+90604 = {
+	name = "Iziaslav" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90601
+	#mother = 80201
+	906.11.30={
+		birth=yes
+	}
+	952.4.24={
+		death={death_reason = death_natural}
+	}
+}
+90605 = {
+	name = "Trifon" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90604
+	#mother = 80201
+	930.6.19={
+		birth=yes
+	}
+	971.6.22={
+		death={death_reason = death_natural}
+	}
+}
+90606 = {
+	name = "Trifon" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90605
+	#mother = 80201
+	956.3.17={
+		birth=yes
+	}
+	981.7.19={
+		death={death_reason = death_natural}
+	}
+}
+90607 = {
+	name = "Trifon" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90606
+	#mother = 80201
+	980.7.9={
+		birth=yes
+	}
+	1023.9.4={
+		death={death_reason = death_natural}
+	}
+}
+90608 = {
+	name = "Igor" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90606
+	#mother = 80201
+	add_trait = "twin"
+	981.5.13={
+		birth=yes
+	}
+	1035.6.22={
+		death={death_reason = death_natural}
+	}
+}
+90609 = {
+	name = "Zabava" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	female = yes
+	father = 90606
+	#mother = 80201
+	add_trait = "twin"
+	981.5.13={
+		birth=yes
+	}
+	1042.6.22={
+		death={death_reason = death_natural}
+	}
+}
+90610 = {
+	name = "Anastasia" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	female = yes
+	father = 90604
+	#mother = 80201
+	931.4.23={
+		birth=yes
+	}
+	962.9.11={
+		death={death_reason = death_natural}
+	}
+}
+90611 = {
+	name = "Daniil" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90604
+	#mother = 80201
+	934.7.30={
+		birth=yes
+	}
+	983.8.30={
+		death={death_reason = death_natural}
+	}
+}
+90612 = {
+	name = "Feodosia" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	female = yes
+	father = 90600
+	#mother = 80201
+	885.7.14={
+		birth=yes
+	}
+	934.3.21={
+		death={death_reason = death_natural}
+	}
+}
+90613 = {
+	name = "Vasiko" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90600
+	#mother = 80201
+	888.5.24={
+		birth=yes
+	}
+	921.8.3={
+		death={death_reason = death_natural}
+	}
+}
+90614 = {
+	name = "Vasiko" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90613
+	#mother = 80201
+	908.6.17={
+		birth=yes
+	}
+	921.8.3={
+		death={death_reason = death_natural}
+	}
+}
+90615 = {
+	name = "Izia" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90613
+	#mother = 80201
+	#add_trait = "bastard"
+	909.10.23={
+		birth=yes
+	}
+	971.6.24={
+		death={death_reason = death_natural}
+	}
+}
+90616 = {
+	name = "Iakov" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90600
+	#mother = 80201
+	889.10.3={
+		birth=yes
+	}
+	931.4.21={
+		death={death_reason = death_natural}
+	}
+}
+90617 = {
+	name = "Kirill" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90616
+	add_trait = "weak"
+	#mother = 80201
+	901.6.22={
+		birth=yes
+	}
+	916.4.21={
+		death={death_reason = death_natural}
+	}
+}
+90618 = {
+	name = "Yaropolk" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90616
+	#mother = 80201
+	902.9.14={
+		birth=yes
+	}
+	959.7.30={
+		death={death_reason = death_natural}
+	}
+}
+90619 = {
+	name = "Pavel" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90616
+	#mother = 80201
+	add_trait = "bastard"
+	903.10.23={
+		birth=yes
+	}
+	948.6.17={
+		death={death_reason = death_natural}
+	}
+}
+90620 = {
+	name = "Xenia" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	female = yes
+	father = 90616
+	#mother = 80201
+	904.7.24={
+		birth=yes
+	}
+	960.8.11={
+		death={death_reason = death_natural}
+	}
+}
+90621 = {
+	name = "Stepan" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90618
+	#mother = 80201
+	928.3.20={
+		birth=yes
+	}
+	979.8.7={
+		death={death_reason = death_natural}
+	}
+}
+90622 = {
+	name = "Mitrofan" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90618
+	#mother = 80201
+	930.5.17={
+		birth=yes
+	}
+	990.6.1={
+		death={death_reason = death_natural}
+	}
+}
+90623 = {
+	name = "Briachislav" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90622
+	#mother = 80201
+	954.6.21={
+		birth=yes
+	}
+	1036.8.24={
+		death={death_reason = death_natural}
+	}
+}
+90624 = {
+	name = "Olga" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90622
+	female = yes
+	#mother = 80201
+	956.2.10={
+		birth=yes
+	}
+	1012.9.3={
+		death={death_reason = death_natural}
+	}
+}
+90625 = {
+	name = "Ruslan" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90622
+	#mother = 80201
+	957.3.9={
+		birth=yes
+	}
+	994.2.24={
+		death={death_reason = death_natural}
+	}
+}
+90626 = {
+	name = "Vsevolod" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90622
+	#mother = 80201
+	958.9.20={
+		birth=yes
+	}
+	1005.9.17={
+		death={death_reason = death_natural}
+	}
+}
+90627 = {
+	name = "Pribislava" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90622
+	female = yes
+	#mother = 80201
+	959.10.12={
+		birth=yes
+	}
+	1014.8.22={
+		death={death_reason = death_natural}
+	}
+}
+90628 = {
+	name = "Izia" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90626
+	#mother = 80201
+	982.4.12={
+		birth=yes
+	}
+	1032.5.27={
+		death={death_reason = death_natural}
+	}
+}
+90629 = {
+	name = "Iziar" #
+	dynasty = 1010
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90615
+	#mother = 80201
+	#add_trait = "bastard"
+	934.5.10={
+		birth=yes
+	}
+	975.9.13={
+		death={death_reason = death_battle}
+	}
+}
+90700 = {
+	name = "Voist" #
+	dynasty = 1013
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 80600
+	#mother = 80201
+	#wealth = 600
+	959.6.3={
+		birth=yes
+	}
+	1010.7.23={
+		death={death_reason = death_natural}
+	}
+}

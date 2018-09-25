@@ -1,0 +1,15 @@
+# 1927 - Juiri
+# County Title
+title = c_juiri
+# Settlements
+max_settlements = 1
+
+
+b_juiri = castle
+b_arvane = city
+b_namein = castle
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

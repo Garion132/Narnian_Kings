@@ -1,0 +1,7 @@
+120.4.2= {
+	holder=0
+	liege=d_stormness
+}
+997.6.9={
+	holder = 2450
+}

@@ -1,0 +1,9 @@
+963.5.7={
+	set_tribute_suzerain = { who = d_tehishbaan percentage = 0.05 }
+}
+975.6.11={
+	holder = 42200
+}
+1021.5.7={
+	clear_tribute_suzerain = d_tehishbaan
+}

@@ -1,0 +1,32 @@
+# 1076 - Lunos
+# County Title
+title = c_lunos
+# Settlements
+max_settlements = 5
+
+
+b_lunos = castle
+b_mon_tresa = city
+b_high_temple_of_luna = temple
+
+# Misc
+culture = irish
+religion = lunos
+
+520.1.1={
+	b_lunos = ca_keep_1
+	b_lunos = ca_keep_2
+	b_lunos = ca_keep_3
+	b_lunos = ca_training_grounds_1
+	b_lunos = ca_stable_1
+	b_lunos = ca_wall_1
+	b_lunos = ca_wall_2
+	b_lunos = ca_militia_barracks_1
+	b_lunos = ca_barracks_1
+	b_lunos = ca_barracks_2
+	b_lunos = ca_barracks_3
+	b_lunos = ca_town_1
+	b_lunos = ca_town_2
+	b_lunos = ca_wall_q_1
+	b_lunos = ca_temple_of_lunos
+}

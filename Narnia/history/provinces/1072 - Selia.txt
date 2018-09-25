@@ -1,0 +1,14 @@
+# 1072 - Selia
+# County Title
+title = c_selia
+# Settlements
+max_settlements = 1
+
+
+b_selia = castle
+#b_shannan_city = city
+b_temple_of_selia  = temple
+
+# Misc
+culture = irish
+religion = lunos

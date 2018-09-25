@@ -1,0 +1,45 @@
+1.1.1={
+	#law = succ_tanistry
+	#law = succ_feudal_elective #a test
+	law = succ_gavelkind
+	law = succession_voting_power_1
+	law = law_voting_power_1
+	law = revoke_title_voting_power_1
+	law = grant_title_voting_power_1
+	law = imprison_voting_power_1
+	law = execution_voting_power_1
+	law = war_voting_power_1
+	law = centralization_0
+	law = agnatic_succession
+	law = tax_levy_law_feudal_6
+}
+781.5.6={
+	holder = 82007
+}
+790.6.27={
+	holder = 82006
+}
+828.3.2={
+	holder = 82005
+}
+858.3.2={
+	holder = 82013
+}
+858.9.3={
+	holder = 82014
+}
+881.3.6 ={
+	holder = 82004
+}
+883.3.2 = {
+	holder = 82003
+}
+914.8.15 = {
+	holder = 82022
+}
+938.9.21 = {
+	holder = 82002
+}
+938.9.30={
+	holder = 82000
+}

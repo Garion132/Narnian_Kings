@@ -1,0 +1,17 @@
+# 398 - Boxen
+# County Title
+title = c_boxen
+# Settlements
+max_settlements = 1
+
+b_boxen = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = centaur
+religion = aslan
+2.1.1={
+	b_boxen = ca_centuarian_armory_1
+	b_boxen = ca_centuarian_fort_1
+}

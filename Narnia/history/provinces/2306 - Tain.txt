@@ -1,0 +1,14 @@
+# 2306 - Tain
+# County Title
+title = c_tain
+# Settlements
+max_settlements = 1
+
+
+b_tain = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

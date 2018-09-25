@@ -1,0 +1,14 @@
+# 1934- Sarisare
+# County Title
+title = c_sarisare
+# Settlements
+max_settlements = 1
+
+
+b_sarisare = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = alzuashonaru
+religion = shinoi

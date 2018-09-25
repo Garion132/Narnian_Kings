@@ -1,0 +1,14 @@
+# 1274 - Truglentry
+# County Title
+title = c_truglentry
+# Settlements
+max_settlements = 1
+
+
+b_truglentry = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

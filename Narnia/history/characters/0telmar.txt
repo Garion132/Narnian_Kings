@@ -1,0 +1,2001 @@
+#Telmarines 30000-~34000
+30001 = {
+	name="Caspian" #I
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	stewardship=20
+	martial=20
+	diplomacy=18
+	add_trait="genius"
+	add_trait="adventurer"
+	father=30053
+	1970.2.1={
+		birth="1970.2.1"
+	}
+	1997.1.1={
+		wealth=1500
+		effect = {
+			spawn_unit = {
+				owner = ROOT
+				province = 390
+				home = 390
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1500 1500 }
+					light_cavalry = { 250 250 }
+					knights = { 250 250 }
+				}
+			attrition = 0.0
+			disband_on_peace = no
+			maintenance_multiplier = 0.2
+			}
+			spawn_unit = {
+				owner = ROOT
+				province = 390
+				home = 390
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1500 1500 }
+					light_cavalry = { 250 250 }
+					knights = { 250 250 }
+				}
+			attrition = 0.0
+			disband_on_peace = no
+			maintenance_multiplier = 0.2
+			}
+			spawn_unit = {
+				owner = ROOT
+				province = 390
+				home = 390
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 1500 1500 }
+					heavy_infantry = { 1500 1500 }
+					light_cavalry = { 250 250 }
+					knights = { 250 250 }
+				}
+			attrition = 0.0
+			disband_on_peace = no
+			maintenance_multiplier = 0.2
+			}
+			create_character = {
+				random_traits = yes
+				name = "Alfonso"
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 35
+				attributes = {
+				martial = 10
+				}
+				give_job_title=commander
+			}
+
+			create_character = {
+				random_traits = yes
+				name = "Enrique"
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 35
+				attributes = {
+				martial = 11
+				}
+				give_job_title=commander
+			}
+			create_character = {
+				random_traits = yes
+				name = "Salvador"
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 35
+				attributes = {
+				martial = 10
+				}
+				give_job_title=commander
+			}
+		}
+	}
+	2035.5.1={
+		death="2035.5.1"
+	}
+}
+30002 = {
+	name="Caspian" #II
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30001
+	2002.2.1={
+		birth="2002.2.1"
+	}
+	2070.4.2={
+		death="2070.4.2"
+	}
+}
+30003 = {
+	name="Caspian" #III
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30002
+	2033.2.1={
+		birth="2033.2.1"
+	}
+	2105.4.2={
+		death="2105.4.2"
+	}
+}
+30004 = {
+	name="Caspian" #IV
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30003
+	2078.2.1={
+		birth="2078.2.1"
+	}
+	2140.4.2={
+		death="2140.4.2"
+	}
+}
+30005 = {
+	name="Caspian" #V
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30004
+	2101.2.1={
+		birth="2101.2.1"
+	}
+	2175.4.2={
+		death="2175.4.2"
+	}
+}
+30006 = {
+	name="Caspian" #VI
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30005
+	2119.2.1={
+		birth="2119.2.1"
+	}
+	2210.4.2={
+		death="2210.4.2"
+	}
+}
+30007 = {
+	name="Caspian" #VII
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30006
+	2147.2.1={
+		birth="2147.2.1"
+	}
+	2180.9.14={
+		capital=c_shuddering_wood
+	}
+	2245.4.2={
+		death="2245.4.2"
+	}
+}
+30008 = {
+	name="Caspian" #VIII
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30007
+	2189.2.1={
+		birth="2189.2.1"
+		capital=c_shuddering_wood
+	}
+	2280.4.2={
+		death="2280.4.2"
+	}
+}
+30009 = {
+	name="Caspian" #IX
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30008
+	2261.2.1={
+		birth="2261.2.1"
+		capital=c_shuddering_wood
+	}
+	2281.2.6={add_spouse=30010}
+	2290.4.7={
+		death={
+			death_reason = death_murder #definatly miraz, denouced by caspian X
+			killer = 30011
+		}
+	}
+}
+30010 = {
+	name="María" #
+	religion="tellan"
+	culture="telmarine"
+	female=yes
+	2265.2.1={
+		birth="2265.2.1"
+	}
+	2281.2.6={add_spouse=30009}
+	2290.8.9={
+		death={
+			death_reason = death_murder_unknown #aledgedlly miraz so we put it here
+			killer = 30011
+		}
+	}
+}
+30011 = {
+	name="Miraz" #The Plotter
+	historical=yes
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30008
+	dna="boooufvmcat"
+	wealth=300
+	add_trait="deceitful"
+	add_trait="elusive_shadow"
+	add_trait="proud"
+	add_trait="ambitious"
+	disallow_random_traits=yes
+	diplomacy=12
+	stewardship=18
+	martial=10
+	intrigue=9
+	learning=5
+	2263.2.1={
+		birth="2263.2.1"
+		capital=c_shuddering_wood
+	}
+	2281.2.6={add_spouse=30201}
+	2290.4.7={
+		wealth=700
+	}
+	2300.1.21={
+		add_trait="kinslayer" #Alligations by Caspian X
+	}
+	2303.7.12={
+		death={
+			death_reason = death_battle
+			killer = 30204
+		}
+		#Glozelle and Sopespian's betrail, Sopespian is the killer
+	}
+}
+30012 = {
+	name="Caspian" #X
+	dynasty=4
+	religion="aslan"
+	culture="telmarine"
+	historical=yes
+	father=30009
+	mother=30010
+	diplomacy=12
+	martial=13
+	stewardship=16
+	add_trait="quick"
+	add_trait="just"
+	add_trait="ambitious"
+	add_trait="child_of_adam_or_eve"
+	add_trait="kind"
+	2290.2.1={
+		birth="2290.2.1"
+	}
+	2290.8.9={
+		add_claim="k_narnia"
+		wealth=4000
+	}
+	2301.12.29 = {
+		capital=c_aslans_how
+          raise_levies = {
+               location = 374 # caspian forces are raised as aslans how
+               force_mult = 1.6
+          }
+		  piety = 250
+		  effect= {add_friend = 60003}
+	}
+	2302.5.22 = {
+          raise_levies = {
+				dismiss = yes
+               location = 374 # the army dispearses
+               force_mult = 1.6
+          }
+	}
+	2302.12.29={
+		effect={add_betrothal=30013}#stop caspian from marrying
+	}
+	2306.9.4={
+		add_spouse="30013"#dawn treader
+	}
+	2356.4.2={
+		death="2356.4.2"
+	}
+}
+30013 = {
+	name="Lilliandil" #
+	religion="aslan"
+	culture="star"
+	add_trait = "star"
+	father=1210 #Ramandu
+	historical=yes
+	female=yes
+	2287.2.1={
+		birth="2287.2.1"
+	}
+	2335.4.2={
+		death={death_reason = death_accident_snakes}#need to add the lady of the green girdle here
+	}
+}
+30014 = {
+	name="Rilian" #
+	dynasty=4
+	religion="aslan"
+	culture="telmarine"
+	father=30012
+	mother=30013
+	2325.2.1={
+		birth="2325.2.1"
+	}
+	2385.4.2={
+		death="2385.4.2"
+	}
+}
+30015 = {
+	name="Miraz" #Miraz son
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	historical=yes
+	father=30011
+	mother=30201
+	2301.5.5={
+		birth="2301.5.5"
+	}
+	2303.4.2={
+		death="2303.4.2"
+	}
+}
+30020 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	#father=30011
+	#mother=30201
+	wealth = 2000
+	diplomacy =  8
+	martial = 11
+	stewardship = 7
+	962.6.7={
+		birth="962.6.7"
+	}
+	1029.1.8={
+		death="1029.1.8"
+	}
+}
+30021 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30020
+	#mother=30201
+	diplomacy =  7
+	martial = 12
+	stewardship = 8
+	983.12.21={
+		birth="983.12.21"
+	}
+	1061.6.13={
+		death="1061.6.13"
+	}
+}
+30022 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30021
+	#mother=30201
+	1002.8.19={
+		birth="1002.8.19"
+	}
+	1073.5.9={
+		death="1073.5.9"
+	}
+}
+30023 = {
+	name="Miraz" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30022
+	#mother=30201
+	1029.7.5={
+		birth="1029.7.5"
+	}
+	1086.9.28={
+		death="1086.9.28"
+	}
+}
+30024 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30023
+	#mother=30201
+	1061.7.5={
+		birth="1029.7.5"
+	}
+	1114.11.28={
+		death="1086.9.28"
+	}
+}
+30025 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30024
+	#mother=30201
+	1092.10.27={
+		birth="1092.10.27"
+	}
+	1171.3.30={
+		death="1171.3.30"
+	}
+}
+30026 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30025
+	#mother=30201
+	1124.10.27={
+		birth="1124.10.27"
+	}
+	1201.6.18={
+		death="1201.6.18"
+	}
+}
+30027 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30026
+	#mother=30201
+	1149.7.21={
+		birth="1149.7.21"
+	}
+	1224.2.12={
+		death="1224.2.12"
+	}
+}
+30028 = {
+	name="Rillian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30027
+	#mother=30201
+	1175.5.7={
+		birth="1175.5.7"
+	}
+	1251.9.28={
+		death="1251.9.28"
+	}
+}
+30029 = {
+	name="Salvador" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30028
+	#mother=30201
+	1210.9.12={
+		birth="1210.9.12"
+	}
+	1276.12.2={
+		death="1276.12.2"
+	}
+}
+30030 = {
+	name="Salvador" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30029
+	#mother=30201
+	1237.1.29={
+		birth="1237.1.29"
+	}
+	1299.11.27={
+		death="1299.11.27"
+	}
+}
+30031 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30030
+	#mother=30201
+	1271.3.14={
+		birth="1271.3.14"
+	}
+	1329.5.19={
+		death="1329.5.19"
+	}
+}
+30032 = {
+	name="Ferdinand" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30031
+	#mother=30201
+	1304.9.6={
+		birth="1304.9.6"
+	}
+	1381.6.15={
+		death="1381.6.15"
+	}
+}
+30033 = {
+	name="Ferdinand" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30032
+	#mother=30201
+	1339.3.30={
+		birth="1339.3.30"
+	}
+	1421.1.4={
+		death="1421.1.4"
+	}
+}
+30034 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30033
+	#mother=30201
+	1364.6.24={
+		birth="1364.6.24"
+	}
+	1431.9.23={
+		death="1431.9.23"
+	}
+}
+30035 = {
+	name="Ferdinand" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30034
+	#mother=30201
+	1402.8.12={
+		birth="1402.8.12"
+	}
+	1475.11.14={
+		death="1475.11.14"
+	}
+}
+30036 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30035
+	#mother=30201
+	1436.6.8={
+		birth="1436.6.8"
+	}
+	1489.10.27={
+		death="1489.10.27"
+	}
+}
+30037 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30036
+	#mother=30201
+	1468.9.22={
+		birth="1468.9.22"
+	}
+	1521.4.21={
+		death="1521.4.21"
+	}
+}
+30038 = {
+	name="Salavar" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30037
+	#mother=30201
+	1494.4.19={
+		birth="1494.4.19"
+	}
+	1555.9.15={
+		death="1555.9.15"
+	}
+}
+30039 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30038
+	#mother=30201
+	1526.6.12={
+		birth="1526.6.12"
+	}
+	1589.2.27={
+		death="1589.2.27"
+	}
+}
+30040 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30039
+	#mother=30201
+	1553.6.13={
+		birth="1553.6.13"
+	}
+	1614.9.27={
+		death="1614.9.27"
+	}
+}
+30041 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30039
+	#mother=30201
+	1551.2.22={
+		birth="1551.2.22"
+	}
+	1611.3.14={
+		death="1611.3.14"
+	}
+}
+30042 = {
+	name="Ferdinand" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30041
+	#mother=30201
+	1582.3.17={
+		birth="1582.3.17"
+	}
+	1642.6.27={
+		death="1642.6.27"
+	}
+}
+30043 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30042
+	#mother=30201
+	1601.6.23={
+		birth="1601.6.23"
+	}
+	1674.2.21={
+		death="1674.2.21"
+	}
+}
+30044 = {
+	name="Miraz" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30043
+	#mother=30201
+	1634.1.14={
+		birth="1634.1.14"
+	}
+	1696.8.28={
+		death="1696.8.28"
+	}
+}
+30045 = {
+	name="Ferdinand" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30044
+	#mother=30201
+	1668.9.8={
+		birth="1668.9.8"
+	}
+	1730.1.20={
+		death="1730.1.20"
+	}
+}
+30046 = {
+	name="Ferdinand" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30045
+	#mother=30201
+	1701.2.21={
+		birth="1701.2.21"
+	}
+	1783.9.18={
+		death="1783.9.18"
+	}
+}
+30047 = {
+	name="Ferdinand" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30046
+	#mother=30201
+	1733.5.1={
+		birth="1733.5.1"
+	}
+	1810.3.14={
+		death="1810.3.14"
+	}
+}
+30048 = {
+	name="Maris" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30047
+	#mother=30201
+	1767.4.7={
+		birth="1767.4.7"
+	}
+	1838.6.11={
+		death="1838.6.11"
+	}
+}
+30049 = {
+	name="Maris" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30048
+	#mother=30201
+	1800.1.23={
+		birth="1800.1.23"
+	}
+	1878.6.7={
+		death="1878.6.7"
+	}
+}
+30050 = {
+	name="Miraz" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30049
+	#mother=30201
+	1831.9.4={
+		birth="1831.9.4"
+	}
+	1903.2.28={
+		death="1903.2.28"
+	}
+}
+30051 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30050
+	#mother=30201
+	1860.4.9={
+		birth="1860.4.9"
+	}
+	1937.5.27={
+		death="1937.5.27"
+	}
+}
+30052 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30051
+	#mother=30201
+	1889.10.24={
+		birth="1889.10.24"
+	}
+	1952.6.8={
+		death="1952.6.8"
+	}
+}
+30053 = {
+	name="Maris" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30052
+	#mother=30201
+	1915.9.14={
+		birth="1915.9.14"
+	}
+	1982.9.19={
+		death="1982.9.19"
+	}
+}
+30054 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30053
+	#mother=30201
+	1942.11.27={
+		birth="1942.11.27"
+	}
+	2001.8.24={
+		death="2001.8.24"
+	}
+}
+30055 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30054
+	#mother=30201
+	1968.9.16={
+		birth="1968.9.16"
+	}
+	2042.4.29={
+		death="2042.4.29"
+	}
+}
+30056 = {
+	name="Mariso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30055
+	#mother=30201
+	1992.4.22={
+		birth="1992.4.22"
+	}
+	2069.9.16={
+		death="2069.9.16"
+	}
+}
+30057 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30056
+	#mother=30201
+	2021.6.19={
+		birth="2021.6.19"
+	}
+	2084.9.17={
+		death="2084.9.17"
+	}
+}
+30058 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30057
+	#mother=30201
+	2056.7.8={
+		birth="2056.7.8"
+	}
+	2135.8.24={
+		death="2135.8.24"
+	}
+}
+30059 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30058
+	#mother=30201
+	2091.3.29={
+		birth="2091.3.29"
+	}
+	2164.5.13={
+		death="2164.5.13"
+	}
+}
+30060 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30059
+	#mother=30201
+	2129.10.13={
+		birth="2129.10.13"
+	}
+	2192.4.11={
+		death="2192.4.11"
+	}
+}
+30061 = {
+	name="Alfonso" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30060
+	#mother=30201
+	2151.6.18={
+		birth="2151.6.18"
+	}
+	2229.9.23={
+		death="2229.9.23"
+	}
+}
+30062 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30061
+	#mother=30201
+	2189.4.11={
+		birth="2189.4.11"
+	}
+	2278.2.19={
+		death="2278.2.19"
+	}
+}
+30063 = {
+	name="Miras" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30062
+	#mother=30201
+	2214.6.19={
+		birth="2214.6.19"
+	}
+	2291.3.2={
+		death="2291.3.2"
+	}
+}
+30064 = {
+	name="Miras" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30063
+	#mother=30201
+	wealth = 2000
+	2247.2.6={
+		birth="2247.2.6"
+	}
+	2321.9.5={
+		death="2321.9.5"
+	}
+}
+30065 = {
+	name="Caspian" #
+	dynasty=4
+	religion="tellan"
+	culture="telmarine"
+	father=30064
+	#mother=30201
+	2272.7.9={
+		birth="2272.7.9"
+	}
+	2349.4.24={
+		death="2349.4.24"
+	}
+}
+30199= {
+	name="Enrique" #
+	religion="tellan"
+	culture="telmarine"
+	dynasty=14
+	father=30202
+	stewardship=11
+	2264.5.12={
+		birth="2264.5.12"
+	}
+	2317.4.9={
+		death="2317.4.9"
+	}
+}
+30200= {
+	name="Guillén" #
+	religion="tellan"
+	dynasty=14
+	culture="telmarine"
+	stewardship=10
+	2194.3.9={
+		birth="2194.3.9"
+	}
+	2264.4.7={
+		death="2264.4.7"
+	}
+}
+30201= {
+	name="Prunaprismia" #
+	religion="tellan"
+	culture="telmarine"
+	dynasty=14
+	father=30202 #Scythley
+	female=yes
+	2265.2.1={
+		birth="2265.2.1"
+	}
+	2281.2.6={
+			add_spouse=30011
+			add_trait = "chaste"
+	}
+	2303.4.2={
+		death={death_reason = death_vanished }#took aslans offer
+	}
+}
+30202= {
+	name="Scythley" #
+	religion="tellan"
+	dynasty=14
+	father=30200
+	culture="telmarine"
+	add_trait="midas_touched"
+	add_trait="just"
+	add_trait="kind"
+	add_trait="content"
+	stewardship=10
+	2242.2.1={
+		birth="2242.2.1"
+	}
+	2303.5.4={
+		death={death_reason = death_vanished }#took aslans offer
+	}
+}
+30203= {
+	name="Glozelle" #
+	dynasty=6
+	religion="tellan"
+	culture="telmarine"
+	father=30206
+	2240.7.1={
+		birth="2240.7.1"
+	}
+	2303.7.13={
+		death={death_reason = death_battle
+		killer = 1014}
+	}
+}
+30204= {
+	name="Sopespian" #
+	dynasty=6
+	religion="tellan"
+	culture="telmarine"
+	father=30205
+	2244.6.7={
+		birth="2244.6.7"
+	}
+	2303.7.13={
+		death={death_reason = death_battle}
+	}
+}
+30205= {
+	name="Sopespian" #
+	dynasty=6
+	religion="tellan"
+	culture="telmarine"
+	father=30207
+	2220.6.7={
+		birth="2220.6.7"
+	}
+	2298.2.1={
+		death="2298.2.1"
+	}
+}
+30206= {
+	name="Garcire" #
+	dynasty=6
+	religion="tellan"
+	culture="telmarine"
+	father=30207
+	2221.9.14={
+		birth="2221.9.14"
+	}
+	2281.4.21={
+		death="2281.4.21"
+	}
+}
+30207= {
+	name="Garcia" #
+	dynasty=6
+	religion="tellan"
+	culture="telmarine"
+	2178.7.12={
+		birth="2158.7.12"
+	}
+	2240.4.21={
+		death="2240.4.21"
+	}
+}
+30208= {
+	name="Gregoire" #
+	dynasty=6
+	father=30207
+	religion="tellan"
+	culture="telmarine"
+	2220.7.12={
+		birth="2220.7.12"
+	}
+	2270.1.27={
+		death="2270.1.27"
+	}
+}
+30209= {
+	name="Gregoire" #
+	dynasty=6
+	father=30208
+	religion="tellan"
+	culture="telmarine"
+	trait="brilliant_strategist"
+	trait="defensive_leader"
+	martial=17
+	2244.7.12={
+		birth="2244.7.12"
+	}
+	2290.1.17={
+		employer=30011
+	}
+	2303.7.13={
+		death={death_reason = death_battle
+		killer = 1014}
+	}
+}
+30300 = {
+	name="Alfons" #
+	#dynasty=6
+	#father=30208
+	religion="tellan"
+	culture="telmarine"
+	2244.7.12={
+		birth="2244.7.12"
+	}
+	#2290.1.17={
+	#	employer=30011
+	#}
+	2321.2.17={
+		death="2321.2.17"
+	}
+}
+30301 = {
+	name="Alfons" #
+	#dynasty=6
+	father=30300
+	religion="tellan"
+	culture="telmarine"
+	2283.4.2={
+		birth="2283.4.2"
+	}
+	#2290.1.17={
+	#	employer=30011
+	#}
+	2361.5.25={
+		death="2361.5.25"
+	}
+}
+30302 = {
+	name="Enrique" #
+	#dynasty=6
+	father=30300
+	religion="tellan"
+	culture="telmarine"
+	2285.6.24={
+		birth="2285.6.24"
+	}
+	#2290.1.17={
+	#	employer=30011
+	#}
+	2338.3.9={
+		death="2338.3.9"
+	}
+}
+30400 = {
+	name="Gutierre" #
+	#dynasty=6
+	#father=30300
+	religion="tellan"
+	culture="telmarine"
+	2269.5.27={
+		birth="2269.5.27"
+	}
+	#2290.1.17={
+	#	employer=30011
+	#}
+	2343.9.12={
+		death="2343.9.12"
+	}
+}
+30500 = {
+	name="Koram" #
+	dynasty = 50
+	religion = "tellan"
+	culture="koramarine"
+	effect={
+		add_weak_claim = d_koralis
+	}
+	father=30501
+	mother=42101
+	martial = 5
+	diplomacy = 7
+	intrigue = 6
+	981.6.22={
+		birth="981.6.22"
+	}
+	1050.10.24={
+		death="1050.10.24"
+	}
+}
+30501 = {
+	name="Koram" #
+	dynasty = 50
+	religion = "tellan"
+	culture="koramarine"
+	add_claim = d_koralis
+	father=30502
+	#mother=30201
+	960.6.22={
+		birth="981.6.22"
+	}
+	988.9.6={
+		add_spouse = 42101
+	}
+	993.5.13={
+		death={
+			death_reason = death_battle
+			killer = 30600
+		}
+		effect= {
+			remove_claim = d_koralis
+		}
+	}
+}
+30502 = {
+	name="Koram" #
+	dynasty = 50
+	religion = "tellan"
+	culture="koramarine"
+	#father=30502
+	#mother=30201
+	942.9.14={
+		birth="902.9.14"
+	}
+	981.2.1={
+		death={
+			death_reason = death_battle
+		}
+	}
+}
+30503 = {
+	name="Caspian" #
+	dynasty = 50
+	religion = "tellan"
+	culture="koramarine"
+	effect={
+	add_weak_claim = d_koralis
+	}
+	father=30501
+	mother=42101
+	983.9.19={
+		birth="983.9.19"
+	}
+	1046.12.10={
+		death="1046.12.10"
+	}
+}
+30504 = {
+	name="Maria" #
+	dynasty = 50
+	religion = "tellan"
+	culture = "koramarine"
+	female = yes
+	father=30501
+	mother=42101
+	986.1.23={
+		birth="986.1.23"
+	}
+	1061.2.17={
+		death="1061.2.17"
+	}
+}
+30505 = {
+	name="Isabelle" #
+	dynasty = 50
+	religion = "tellan"
+	culture = "koramarine"
+	female = yes
+	father=30501
+	mother=42101
+	989.6.10={
+		birth="989.6.10"
+	}
+	1071.6.20={
+		death="1071.6.20"
+	}
+}
+30600 = {
+	name="Daras" #
+	dynasty = 50
+	religion = "tellan"
+	culture="koramarine"
+	father=30502
+	#mother=30201
+	effect={
+		remove_claim = k_koraly
+		add_weak_claim = k_koraly
+		capital = c_serit
+	}
+	964.5.19={
+		birth="964.5.19"
+	}
+	1030.2.14={
+		death="1030.2.14"
+	}
+}
+30601 = {
+	name="Daras" #
+	dynasty = 50
+	religion = "tellan"
+	culture="koramarine"
+	father = 30600
+	#mother=30201
+	998.3.29={
+		birth="998.3.29"
+	}
+	1064.9.28={
+		death="1064.9.28"
+	}
+}
+30602 = {
+	name="Sophia" #
+	dynasty = 50
+	religion = "tellan"
+	culture = "koramarine"
+	female = yes
+	father = 30600
+	#mother=30201
+	999.4.12={
+		birth="999.4.12"
+	}
+	1081.10.6={
+		death="1081.10.6"
+	}
+}
+30800 = {
+	name = "Munio" #
+	dynasty = 51
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 30801
+	#mother=30201
+	978.9.29={
+		birth="978.9.29"
+	}
+	1046.3.30={
+		death="1046.3.30"
+	}
+}
+30801 = {
+	name = "Munio" #
+	dynasty = 51
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother=30201
+	942.3.19={
+		birth="942.3.19"
+	}
+	978.3.30={
+		death={
+			death_reason = death_battle
+		}
+	}
+}
+30802 = {
+	name = "Sophia" #
+	dynasty = 51
+	religion = "tellan"
+	culture = "teldesteira"
+	female = yes
+	father = 30801
+	#mother=30201
+	976.3.10={
+		birth="976.3.10"
+	}
+	1042.3.30={
+		death="1042.3.30"
+	}
+}
+30900 = {
+	name = "Seshana" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 30901
+	#mother = 30901
+	971.3.14={
+		birth="971.3.14"
+	}
+	993.8.9={
+		add_spouse=30802
+	}
+	1042.4.2={
+		death="1042.4.2"
+	}
+}
+30901 = {
+	name = "Seshana" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	952.8.17={
+		birth="952.8.17"
+	}
+	991.1.1={
+		death="1042.4.2"
+	}
+}
+30902 = {
+	name = "Rodrigo" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 30901
+	#mother = 30201
+	intrigue = 8
+	973.8.21={
+		birth="973.8.21"
+	}
+	991.1.1={
+		add_claim = k_sheshia
+	}
+	993.8.9={
+		#add_spouse=30802
+	}
+	1042.4.2={
+		death="1042.4.2"
+	}
+}
+30903 = {
+	name = "Rodrigo" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 30902
+	#mother = 30201
+	993.2.10={
+		birth="993.2.10"
+	}
+	1069.4.3={
+		death="1069.4.3"
+	}
+}
+30904 = {
+	name = "Miroz" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 30900
+	mother = 30802
+	999.8.27={
+		birth="999.8.27"
+	}
+	1081.6.17={
+		death="1081.6.17"
+	}
+}
+30905 = {
+	name = "Setnas" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 30902
+	#mother = 30802
+	997.1.3={
+		birth="997.1.3"
+	}
+	1078.8.30={
+		death="1078.8.30"
+	}
+}
+30906 = {
+	name = "Isabelle" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	female = yes
+	father = 30902
+	#mother = 30802
+	997.11.30={
+		birth="997.11.30"
+	}
+	1062.2.14={
+		death="1062.2.14"
+	}
+}
+31000 = {
+	name = "Caspianos" #
+	dynasty = 53
+	religion = "tellan"
+	culture = "koramarine"
+	#father = 30600
+	#mother = 30201
+	979.1.11={
+		birth="979.1.11"
+	}
+	990.1.1={
+		capital = b_riuena
+	}
+	1050.5.8={
+		death="1050.5.8"
+	}
+}
+31100 = {
+	name = "Sepaspian" #
+	dynasty = 72
+	religion = "tellan"
+	culture = "telmarine"
+	#father = 30600
+	#mother = 30201
+	981.6.12={
+		birth="981.6.12"
+	}
+	990.1.1={
+		capital = b_weras
+	}
+	1050.5.8={
+		death="1050.5.8"
+	}
+}
+31200 = {
+	name = "Selanos" #
+	dynasty = 70
+	religion = "tellan"
+	culture = "koramarine"
+	father = 31201
+	#mother = 30201
+	976.5.9={
+		birth="976.5.9"
+	}
+	1040.3.14={
+		death="1040.3.14"
+	}
+}
+31201 = {
+	name = "Selanos" #
+	dynasty = 70
+	religion = "tellan"
+	culture = "koramarine"
+	#father = 30600
+	#mother = 30201
+	949.3.12={
+		birth="949.3.12"
+	}
+	997.2.3={
+		death="997.2.3"
+	}
+}
+31202 = {
+	name = "Selanos" #
+	dynasty = 71
+	religion = "tellan"
+	culture = "koramarine"
+	father = 31201
+	mother = 31203
+	trait="legit_bastard"
+	give_nickname=nick_the_bastard
+	978.9.12={
+		birth="978.9.12"
+	}
+	1049.3.14={
+		death="1049.3.14"
+	}
+}
+31203 = {
+	name = "Periuna" #
+	dynasty = 71
+	religion = "tellan"
+	culture = "koramarine"
+	female = yes
+	#father = 30600
+	#mother = 30201
+	951.5.9={
+		birth="951.5.9"
+	}
+	996.9.21={
+		death="996.9.21"
+	}
+}
+31300 = {
+	name = "Tarran" #
+	dynasty = 73
+	religion = "tellan"
+	culture = "telmarine"
+	#father = 30600
+	#mother = 30201
+	956.9.24={
+		birth="956.9.24"
+	}
+	990.1.1={
+		capital = b_weras
+	}
+	1026.10.25={
+		death="1026.10.25"
+	}
+}
+31301 = {
+	name = "Tarran" #
+	dynasty = 73
+	religion = "tellan"
+	culture = "telmarine"
+	father = 31300
+	#mother = 30201
+	982.5.20={
+		birth="982.5.20"
+	}
+	990.1.1={
+		capital = b_weras
+	}
+	1050.5.8={
+		death="1050.5.8"
+	}
+}
+31400 = {
+	name = "Álvar" #
+	dynasty = 74
+	religion = "tellan"
+	culture = "telmarine"
+	#father = 31300
+	#mother = 30201
+	976.10.3={
+		birth="976.10.3"
+	}
+	1035.1.8={
+		death="1035.1.8"
+	}
+}
+31500 = {
+	name = "Diaco" #
+	dynasty = 75
+	religion = "tellan"
+	culture = "telmarine"
+	#father = 31300
+	#mother = 30201
+	981.3.1={
+		birth="981.3.1"
+	}
+	1049.9.8={
+		death="1049.9.8"
+	}
+}
+31600 = {
+	name = "Alphons" #
+	dynasty = 85
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	968.11.28={
+		birth="968.11.28"
+	}
+	1021.7.25={
+		death="1021.7.25"
+	}
+}
+31601 = {
+	name = "Alphons" #
+	dynasty = 85
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 31600
+	#mother = 30201
+	992.3.14={
+		birth="992.3.14"
+	}
+	1021.7.25={
+		death="1021.7.25"
+	}
+}
+31700 = {
+	name="Lira" #
+	#dynasty = 50
+	religion = "tellan"
+	culture="koramarine"
+	female = yes
+	#father=30501
+	#mother=30201
+	977.3.9={
+		birth=yes
+	}
+	1043.8.17={
+		death=yes
+	}
+}
+31800 = {
+	name="Jose" #
+	#dynasty = 50
+	religion = "tellan"
+	culture="koramarine"
+	#female = yes
+	#father=30501
+	#mother=30201
+	972.4.11={
+		birth=yes
+	}
+	1051.6.12={
+		death=yes
+	}
+}
+31900 = {
+	name="Álvar" #
+	#dynasty = 50
+	religion = "tellan"
+	culture="telmarine"
+	#female = yes
+	#father=30501
+	#mother=30201
+	learning = 10
+	952.7.20={
+		birth=yes
+	}
+	1021.7.8={
+		death=yes
+	}
+}
+32000 = {
+	name = "Lius Exsaltain" #
+	#dynasty = 
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	martial = 14
+	stewardship = 11
+	979.3.6={
+		birth=yes
+	}
+	1039.8.17={
+		death=yes
+	}
+}
+32100 = {
+	name = "Oveco" #
+	#dynasty = 
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	969.8.12={
+		birth=yes
+	}
+	1027.6.30={
+		death=yes
+	}
+}
+32200 = {
+	name = "Nuno" #
+	dynasty = 158
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	946.2.5={
+		birth=yes
+	}
+	1002.5.17={
+		death=yes
+	}
+}
+32201 = {
+	name = "Nuno" #
+	dynasty = 158
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32200
+	#mother = 30201
+	971.3.26={
+		birth=yes
+	}
+	1027.6.30={
+		death=yes
+	}
+}
+
+32300 = {
+	name = "Tello" #
+	dynasty = 159
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	927.9.6={
+		birth=yes
+	}
+	985.7.23={
+		death=yes
+	}
+}
+32301 = {
+	name = "Caemus" #
+	dynasty = 159
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32300
+	#mother = 30201
+	951.6.3={
+		birth=yes
+	}
+	1014.7.30={
+		death=yes
+	}
+}
+32302 = {
+	name = "Miris" #
+	dynasty = 159
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32301
+	#mother = 30201
+	979.4.25={
+		birth=yes
+	}
+	1035.8.14={
+		death=yes
+	}
+}
+
+32400 = {
+	name = "Gil" #
+	dynasty = 160
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	946.7.5={
+		birth=yes
+	}
+	1003.6.18={
+		death=yes
+	}
+}
+32401 = {
+	name = "Ganar" #
+	dynasty = 160
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32400
+	#mother = 30201
+	981.8.16={
+		birth=yes
+	}
+	1023.8.23={
+		death=yes
+	}
+}
+
+32500 = {
+	name = "Fernando" #
+	dynasty = 161
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	934.6.15={
+		birth=yes
+	}
+	1008.9.26={
+		death=yes
+	}
+}
+32501 = {
+	name = "Sartuis" #
+	dynasty = 161
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32500
+	#mother = 30201
+	961.3.18={
+		birth=yes
+	}
+	1024.5.9={
+		death=yes
+	}
+}
+32502 = {
+	name = "Kairen" #
+	dynasty = 161
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32501
+	#mother = 30201
+	990.6.7={
+		birth=yes
+	}
+	1058.4.30={
+		death=yes
+	}
+}
+
+32600 = {
+	name = "Fernando" #
+	dynasty = 162
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	946.5.2={
+		birth=yes
+	}
+	1011.6.14={
+		death=yes
+	}
+}
+32601 = {
+	name = "Fernando" #
+	dynasty = 162
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32600
+	#mother = 30201
+	978.6.6={
+		birth=yes
+	}
+	1042.5.14={
+		death=yes
+	}
+}
+
+32700 = {
+	name = "Fernando" #
+	dynasty = 168
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	946.5.2={
+		birth=yes
+	}
+	1011.6.14={
+		death=yes
+	}
+}

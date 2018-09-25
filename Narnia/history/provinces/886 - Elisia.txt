@@ -1,0 +1,13 @@
+# 886 - Elisia
+# County Title
+title = c_elisia
+# Settlements
+max_settlements = 1
+
+b_elisia = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

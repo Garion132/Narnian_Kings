@@ -1,0 +1,14 @@
+# 1885 - Tinna
+# County Title
+title = c_tinna
+# Settlements
+max_settlements = 1
+
+
+b_tinna = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_arandorian
+religion = eru

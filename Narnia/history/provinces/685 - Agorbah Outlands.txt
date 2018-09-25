@@ -1,0 +1,14 @@
+# 685 - Agorbah Outlands
+
+# County Title
+title = c_agorbah_outlands
+# Settlements
+max_settlements = 1
+
+b_agorbah_outlands = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

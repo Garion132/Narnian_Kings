@@ -1,0 +1,14 @@
+# 1903 - Lopir
+# County Title
+title = c_lopir
+# Settlements
+max_settlements = 5
+
+
+b_lopir = castle
+b_turassol = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

@@ -1,0 +1,14 @@
+# 1722 - Malincar
+# County Title
+title = c_malincar
+# Settlements
+max_settlements = 1
+
+
+b_malincar = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

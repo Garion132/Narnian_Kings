@@ -1,0 +1,13 @@
+# 847 - Tesalia
+# County Title
+title = c_tesalia
+# Settlements
+max_settlements = 1
+
+b_tesalia = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tash

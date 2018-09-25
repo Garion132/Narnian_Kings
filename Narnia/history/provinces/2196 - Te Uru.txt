@@ -1,0 +1,18 @@
+# 2196 - Te Uru
+# County Title
+title = c_te_uru
+# Settlements
+max_settlements = 1
+
+
+b_te_uru = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+religion = caitliceann
+culture = irish
+993.1.2={
+	culture = kingiongaiwi
+	religion = purakau_ao_kohatu
+}

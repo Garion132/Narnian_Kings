@@ -1,0 +1,13 @@
+# 376 - Bannerdowns
+# County Title
+title = c_bannerdowns
+# Settlements
+max_settlements = 1
+
+b_bannerdowns = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = faun
+religion = aslan

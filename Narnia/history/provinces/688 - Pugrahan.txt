@@ -1,0 +1,14 @@
+# 688 - Pugrahan
+
+# County Title
+title = c_pugrahan
+# Settlements
+max_settlements = 1
+
+b_pugrahan = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

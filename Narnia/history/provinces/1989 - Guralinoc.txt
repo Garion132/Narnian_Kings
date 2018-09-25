@@ -1,0 +1,14 @@
+# 1989 - Guralinoc
+# County Title
+title = c_guralinoc
+# Settlements
+max_settlements = 1
+
+
+b_guralinoc = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = elexol
+religion = eline

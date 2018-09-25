@@ -1,0 +1,15 @@
+# 1903 - Nixo
+# County Title
+title = c_nixo
+# Settlements
+max_settlements = 4
+
+
+b_nixo = castle
+b_ujlora = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

@@ -1,0 +1,14 @@
+# 1759 - Beirganran
+# County Title
+title = c_beirganran
+# Settlements
+max_settlements = 1
+
+
+b_beirganran = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = sulvarian
+religion = savra

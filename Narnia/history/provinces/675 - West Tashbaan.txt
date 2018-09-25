@@ -1,0 +1,30 @@
+# 675 - West Tashbaan
+
+# County Title
+title = c_west_tashbaan
+# Settlements
+max_settlements = 3
+
+b_west_tashbaan = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash
+
+597.1.1={
+	b_west_tashbaan = ca_keep_1
+	b_west_tashbaan = ca_keep_2
+	b_west_tashbaan = ca_training_grounds_1
+	b_west_tashbaan = ca_stable_1
+	b_west_tashbaan = ca_wall_1
+	b_west_tashbaan = ca_wall_2
+	b_west_tashbaan = ca_wall_3
+	b_west_tashbaan = ca_militia_barracks_1
+	b_west_tashbaan = ca_barracks_1
+	b_west_tashbaan = ca_barracks_2
+	b_west_tashbaan = ca_town_1
+	b_west_tashbaan = ca_town_2
+	b_west_tashbaan = ca_town_3
+}

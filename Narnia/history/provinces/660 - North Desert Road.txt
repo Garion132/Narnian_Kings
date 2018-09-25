@@ -1,0 +1,14 @@
+# 660 - North Desert Road
+
+# County Title
+title = c_north_desert_road
+# Settlements
+max_settlements = 1
+
+b_north_desert_road = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

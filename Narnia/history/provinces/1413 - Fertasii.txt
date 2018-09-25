@@ -1,0 +1,14 @@
+# 1413 - Fertasii
+# County Title
+title = c_fertasii
+# Settlements
+max_settlements = 1
+
+
+b_fertasii = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

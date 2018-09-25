@@ -1,0 +1,6 @@
+800.1.1={
+	liege = k_tilderrend
+}
+930.1.1={
+	liege = k_kariavith
+}

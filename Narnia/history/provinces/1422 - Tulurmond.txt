@@ -1,0 +1,14 @@
+# 1422 - Tulurmond
+# County Title
+title = c_tulurmond
+# Settlements
+max_settlements = 1
+
+
+b_tulurmond = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

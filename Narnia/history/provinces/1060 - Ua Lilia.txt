@@ -1,0 +1,14 @@
+# 1060 - Ua Lilia
+# County Title
+title = c_ua_lilia
+# Settlements
+max_settlements = 1
+
+
+b_ua_lilia = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = celtic

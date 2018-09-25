@@ -1,0 +1,8 @@
+972.2.17 = {
+	liege = k_veliualla
+	holder=40551
+}
+997.7.28={
+	holder=40550
+	liege = ""
+}

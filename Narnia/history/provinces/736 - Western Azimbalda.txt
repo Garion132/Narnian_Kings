@@ -1,0 +1,13 @@
+# 736 - Western Azimbalda
+# County Title
+title = c_western_azimbalda
+# Settlements
+max_settlements = 1
+
+b_western_azimbalda = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

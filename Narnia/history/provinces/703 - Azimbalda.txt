@@ -1,0 +1,13 @@
+# 703 - Azimbalda
+# County Title
+title = c_azimbalda
+# Settlements
+max_settlements = 4
+
+b_azimbalda = castle
+b_outer_azimbalda = city
+b_azimtash = temple
+
+# Misc
+culture = calormen
+religion = tash

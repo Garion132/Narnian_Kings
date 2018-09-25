@@ -1,0 +1,9 @@
+1.1.1={
+	law = succ_primogeniture
+}
+750.1.1 = {
+	liege = e_dylis_tiral
+}
+900.6.14 = {
+	liege = d_aghor
+}

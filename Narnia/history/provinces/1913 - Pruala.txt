@@ -1,0 +1,14 @@
+# 1913 - Pruala
+# County Title
+title = c_pruala
+# Settlements
+max_settlements = 1
+
+
+b_pruala = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = alzuashonaru
+religion = shinoi

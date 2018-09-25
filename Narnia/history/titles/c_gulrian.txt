@@ -1,0 +1,6 @@
+800.4.6={
+	liege = k_eslia
+}
+953.6.9={
+	liege = k_miliros
+}

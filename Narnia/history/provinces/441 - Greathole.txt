@@ -1,0 +1,13 @@
+# 441 - Greathole
+# County Title
+title = c_greathole
+# Settlements
+max_settlements = 1
+
+b_greathole = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan

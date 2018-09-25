@@ -1,0 +1,14 @@
+# 668 - Palazar
+
+# County Title
+title = c_palazar
+# Settlements
+max_settlements = 4
+
+b_palazar = castle
+b_palazcity = city
+b_palazar_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,19 @@
+# 342 - Riverfinger
+
+# County Title
+title = c_riverfinger
+
+# Settlements
+max_settlements = 1
+
+b_riverfinger = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan
+
+2001.1.1={
+culture = telmarine
+}

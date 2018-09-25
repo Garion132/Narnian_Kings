@@ -1,0 +1,14 @@
+# 1619 - Polasverns
+# County Title
+title = c_polasverns
+# Settlements
+max_settlements = 1
+
+
+b_polasverns = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

@@ -1,0 +1,13 @@
+# 631 - Baleria
+# County Title
+title = c_baleria
+# Settlements
+max_settlements = 1
+
+b_baleria = tribal
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = chionmen
+religion = white_witch

@@ -1,0 +1,14 @@
+# 2012 - Nuimo
+# County Title
+title = c_nuimo
+# Settlements
+max_settlements = 1
+
+
+b_nuimo = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = neorndman
+religion = eloia

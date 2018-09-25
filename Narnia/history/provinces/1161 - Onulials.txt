@@ -1,0 +1,14 @@
+# 1161 - Onulials
+# County Title
+title = c_onulials
+# Settlements
+max_settlements = 1
+
+
+b_onulials = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

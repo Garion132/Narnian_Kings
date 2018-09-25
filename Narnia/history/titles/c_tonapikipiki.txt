@@ -1,0 +1,6 @@
+836.5.8={
+	liege = k_karakaroua
+}
+989.6.17 = {
+	liege = e_kingitangahou
+}

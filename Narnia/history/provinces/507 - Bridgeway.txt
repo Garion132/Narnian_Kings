@@ -1,0 +1,18 @@
+# 507 - Bridgeway
+# County Title
+title = c_bridgeway
+# Settlements
+max_settlements = 1
+
+b_bridgeway = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch
+
+
+2120.1.1={
+culture = telmarine
+}

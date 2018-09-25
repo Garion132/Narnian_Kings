@@ -1,0 +1,14 @@
+# 2333 - Redwood Holds
+# County Title
+title = c_redwood_holds
+# Settlements
+max_settlements = 1
+
+
+b_redwood_holds = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

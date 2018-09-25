@@ -1,0 +1,13 @@
+# 508 - Widevalley
+# County Title
+title = c_widevalley
+# Settlements
+max_settlements = 1
+
+b_widevalley = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch

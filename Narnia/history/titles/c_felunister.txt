@@ -1,0 +1,13 @@
+1.1.1={
+	law = succ_primogeniture
+	law = cognatic_succession
+}
+850.1.1 = {
+	liege = k_karinster
+}
+984.6.16={
+	holder = 87050
+}
+1003.7.19 = {
+	holder = 87053
+}

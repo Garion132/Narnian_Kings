@@ -1,0 +1,13 @@
+# 438 - Caribou Pastrures
+# County Title
+title = c_caribou_pastrures
+# Settlements
+max_settlements = 1
+
+b_caribou_pastrures = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan

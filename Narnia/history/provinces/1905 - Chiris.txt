@@ -1,0 +1,14 @@
+# 1905 - Chiris
+# County Title
+title = c_chiris
+# Settlements
+max_settlements = 4
+
+
+b_chiris = castle
+#b_malenkith = city
+b_tirau = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

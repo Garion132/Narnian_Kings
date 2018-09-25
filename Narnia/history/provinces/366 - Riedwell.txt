@@ -1,0 +1,14 @@
+# 366 - Riedwell
+
+# County Title
+title = c_riedwell
+# Settlements
+max_settlements = 1
+
+b_riedwell = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan

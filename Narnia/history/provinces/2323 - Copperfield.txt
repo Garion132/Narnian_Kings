@@ -1,0 +1,14 @@
+# 2323 - Copperfield
+# County Title
+title = c_copperfield
+# Settlements
+max_settlements = 1
+
+
+b_copperfield = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

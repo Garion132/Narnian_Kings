@@ -1,0 +1,22 @@
+1.1.1={
+	holder=0
+}
+850.6.9={
+	liege = d_impara
+}
+900.5.9={
+	liege = d_venounght
+	holder = 86800
+}
+913.7.15 = {
+	holder = 86801
+}
+941.6.28 = {
+	holder = 86802
+}
+979.10.3={
+	holder = 80803
+}
+990.9.19={
+	holder = 81100
+}

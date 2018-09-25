@@ -1,0 +1,18 @@
+# 502 - Ettinsbay
+# County Title
+title = c_ettinsbay
+# Settlements
+max_settlements = 1
+
+b_ettinsbay = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch
+
+
+2108.1.1={
+culture = telmarine
+}

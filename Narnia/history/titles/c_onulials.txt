@@ -1,0 +1,9 @@
+1.1.1={
+	holder=0
+}
+850.6.9={
+	liege = d_impara
+}
+950.1.1={
+	liege = d_venounght
+}

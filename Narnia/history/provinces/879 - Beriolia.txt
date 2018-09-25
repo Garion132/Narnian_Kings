@@ -1,0 +1,20 @@
+# 879 - Beriolia
+# County Title
+title = c_beriolia
+# Settlements
+max_settlements = 1
+
+b_beriolia = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan
+
+603.1.1={
+culture = telmarine
+}
+1001.2.5={
+culture = koramarine
+}

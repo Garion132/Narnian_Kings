@@ -1,0 +1,14 @@
+#859.3.5={
+#	liege = k_ostimlod
+#}
+989.2.6={
+	holder = 125100
+	law = crown_authority_2
+	law = succ_primogeniture
+	law = cognatic_succession
+	law = tax_levy_law_feudal_6
+	law = law_voting_power_1
+}
+1012.6.25={
+	holder = 125101
+}

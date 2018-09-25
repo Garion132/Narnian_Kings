@@ -1,0 +1,121 @@
+1.1.1={
+	holder = 0
+	law = crown_authority_1
+	law = succ_primogeniture
+}
+302.4.8={
+	holder=1012
+	law = crown_authority_2
+	law = succ_primogeniture
+	law = cognatic_succession
+	law = tax_levy_law_feudal_1
+}
+325.4.8={
+	holder=1020
+}
+398.7.18 = {
+	holder=1021
+}
+403.10.19 = {
+	holder=1022
+}
+451.4.26 = {
+	holder=1023
+}
+482.2.10 = {
+	holder=1024
+}
+502.9.23 = {
+	holder = 1025
+}
+521.12.17 = {
+	holder = 1026
+}
+550.5.31 = {
+	holder = 1027
+}
+582.9.22 = {
+	holder = 1028
+}
+597.1.12 = {
+	holder = 1029
+}
+619.3.26 = {
+	holder = 1030
+}
+663.7.19 = {
+	holder = 1031
+}
+664.8.6 = {
+	holder = 1032
+}
+712.3.9 = {
+	holder = 1033
+}
+753.3.9 = {
+	holder = 1034
+}
+767.10.28 = {
+	holder = 1035
+}
+788.7.8 = {
+	holder = 1036
+}
+803.9.22 = {
+	holder = 1037
+}
+842.7.15 = {
+	holder = 1038
+}
+867.2.27 = {
+	holder = 1013
+}
+
+900.1.7={
+	holder=1900
+	law = crown_authority_3
+	effect = {
+		#make the witch's castle the capital
+		b_dwarfsdale = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+1000.2.5={
+	holder=1014
+	effect = {
+		#make cair_paravel the capital
+		b_cair_paravel = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+1015.2.9={
+	holder=2102
+}
+1046.9.29={
+	holder=1040
+}
+1082.5.11={
+	holder=0
+}
+2303.7.12={
+	holder=30012
+}
+2356.7.12={
+	holder=30014
+}

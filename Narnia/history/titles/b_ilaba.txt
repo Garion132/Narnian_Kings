@@ -1,0 +1,10 @@
+750.6.9={
+	liege = d_haruu
+	holding_dynasty = 1040
+}
+978.3.6={
+	holder = 96601
+}
+999.6.12={
+	holder = 96600
+}

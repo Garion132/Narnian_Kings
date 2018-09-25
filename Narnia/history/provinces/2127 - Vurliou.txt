@@ -1,0 +1,14 @@
+# 2127 - Vurliou
+# County Title
+title = c_vurliou
+# Settlements
+max_settlements = 1
+
+
+b_vurliou = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

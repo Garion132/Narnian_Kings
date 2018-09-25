@@ -1,0 +1,7 @@
+900.6.6={
+	liege = d_hoporunga
+}
+991.11.30 = {
+	liege = e_kingitangahou
+	holder = 86300
+}

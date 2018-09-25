@@ -1,0 +1,14 @@
+# 1412 - Zuntis
+# County Title
+title = c_zuntis
+# Settlements
+max_settlements = 1
+
+
+b_zuntis = tribal
+#b_shannan_city = city
+b_jenun = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

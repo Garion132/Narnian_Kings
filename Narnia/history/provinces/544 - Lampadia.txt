@@ -1,0 +1,13 @@
+# 544 - Lampadia
+# County Title
+title = c_lampadia
+# Settlements
+max_settlements = 1
+
+b_lampadia = castle
+b_lampedian = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = dragon_worship

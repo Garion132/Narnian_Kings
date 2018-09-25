@@ -1,0 +1,14 @@
+# 1175 - Irenought
+# County Title
+title = c_irenought
+# Settlements
+max_settlements = 1
+
+
+b_irenought = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

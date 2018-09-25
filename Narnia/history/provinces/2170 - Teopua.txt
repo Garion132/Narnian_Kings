@@ -1,0 +1,14 @@
+# 2170 - Teopua
+# County Title
+title = c_teopua
+# Settlements
+max_settlements = 1
+
+
+b_teopua = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = irish
+religion = caitliceann

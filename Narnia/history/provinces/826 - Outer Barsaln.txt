@@ -1,0 +1,13 @@
+# 826 - Outer Barsaln
+# County Title
+title = c_outer_barsaln
+# Settlements
+max_settlements = 1
+
+b_outer_barsaln = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

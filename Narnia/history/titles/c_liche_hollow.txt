@@ -1,0 +1,4 @@
+896.3.10={
+	holder = 52600
+	law = succ_feudal_elective
+}

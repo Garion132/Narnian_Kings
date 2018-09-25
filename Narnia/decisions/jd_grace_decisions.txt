@@ -1,0 +1,1874 @@
+###GRACE INTERACTION DECISIONS FOR CHINA###
+
+#Add the decisions in a nice order which will make sense in the menu! For example, ranked by cost/reward.
+
+
+#PAYING TRIBUTE DECISIONS (GAIN GRACE)
+offmap_decisions = {
+
+	german_fp_send_gift = {
+		only_playable = yes
+		button_name = offmap_gifts
+		ai_check_interval = 12
+
+		potential = {
+			is_offmap_tag = offmap_germany
+			NOT = {has_status = germany_closed}
+		}
+
+		from_potential = {
+			has_dlc = "Jade Dragon"
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+			religion = aryan
+			
+		}
+
+		allow = {
+			show_only_failed_conditions = yes
+			FROM = {
+				show_scope_change = no
+				scaled_wealth = { value = 4 min = 500 }
+				custom_tooltip = {
+					text = chinese_grace_send_gift_allow_tt 
+					NOT = { has_character_modifier = german_grace_send_gift_time }
+				}
+				prisoner = no
+				NOT = { trait = incapable }
+				is_inaccessible_trigger = no
+			}
+			# china_offmap_decisions_enabled_trigger = yes #leave in please, to be used if the tooltip for german_offmap_tribute_decisions_enabled_trigger changes and we need to reference things uniquely again
+			german_offmap_tribute_decisions_enabled_trigger = yes
+		}
+		effect = {
+			FROM = {
+				sound_effect = china_grace_gain
+				scaled_wealth = { value = -4 min = -500 } #If this changes the ai chances should probably be adjusted
+				hidden_effect = {
+					add_character_modifier = {
+						hidden = yes
+						name = german_grace_send_gift_timer
+						years = 15 #Change chinese_grace_send_gift_allow_tt if this number changes
+					} 
+				}
+				tooltip = {
+					if = {
+						limit = {
+							liked_by_offmap = {
+								type = offmap_germany
+								context = wealth
+							}
+							NOT = {
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = wealth
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 450
+						}
+						#e_china_west_governor = {
+						#	show_scope_change = no
+						#	offmap_power = {
+						#		show_scope_change = no
+						#		custom_tooltip = { text = likes_tt }
+						#	}
+						#}
+					}
+					if = {
+						limit = {
+							disliked_by_offmap = {
+								type = offmap_germany
+								context = wealth
+							}
+							NOT = {
+								liked_by_offmap = {
+									type = offmap_germany
+									context = wealth
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 150
+						}
+						e_china_west_governor = {
+							show_scope_change = no
+							offmap_power = {
+								show_scope_change = no
+								custom_tooltip = { text = dislikes_tt }
+							}
+						}
+					}
+					if = {
+						limit = {
+							liked_by_offmap = {
+								type = offmap_germany
+								context = wealth
+							}
+							disliked_by_offmap = {
+								type = offmap_germany
+								context = wealth
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 300
+						}
+						e_china_west_governor = {
+							show_scope_change = no
+							offmap_power = {
+								show_scope_change = no
+								custom_tooltip = { text = likes_but_dislikes_tt }
+							}
+						}
+					}
+					if = {
+						limit = {
+							NOR = {
+								liked_by_offmap = {
+									type = offmap_germany
+									context = wealth
+								}
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = wealth
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 300
+						}
+					}
+				}
+			#}
+			hidden_effect = { 
+				#if = {
+					#limit = { NOT = { has_character_flag = jd_gifting_artifact } }
+					if = {
+						limit = {
+							OR={
+								liked_by_offmap = {
+								type = offmap_germany
+									context= wealth
+								}
+								liked_by_offmap = {
+									type = offmap_germany
+								}
+							}
+							NOR={
+								disliked_by_offmap = {
+									type = offmap_germany
+								}
+								disliked_by_offmap = {
+									type = offmap_germany
+									context= wealth
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 450
+						}
+					}
+					else_if = {
+						limit = {
+							OR={
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = wealth
+								}
+								disliked_by_offmap = {
+									type = offmap_germany
+								}
+							}
+							NOR={ 
+								liked_by_offmap = {
+									type = offmap_germany
+								}
+								liked_by_offmap ={
+									type = offmap_germany
+									context = wealth
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 150
+						}
+					}
+					else ={
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 300
+						}
+					}
+				#} 
+			}
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1 # slow down
+			}
+			modifier = {
+				factor = 0.1
+				FROM = { NOT = { monthly_income = 11 } } #I.e. it would take more than 4 years to collect the 500 gold
+			}
+		}
+	}
+
+	german_fp_offer_commander = {
+		only_playable = yes
+		button_name = offmap_gifts
+		
+		third_party_filter = home_court
+		ai_third_party_filter = home_court
+		third_party = FROM
+		ai_check_interval = 36
+		show_third_party_potential = yes
+
+		potential = {
+			is_offmap_tag = offmap_germany
+			OR = {
+				offmap_germany = { has_status = germany_falling_back }
+				offmap_germany = { has_status = germany_under_pressure }
+				offmap_germany = { has_status = germany_invaded }
+			}
+			NOT = {has_status = germany_closed}
+		}
+	
+		from_potential = {
+			has_dlc = "Jade Dragon"
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+			religion = aryan
+		}
+
+		allow = {
+			show_only_failed_conditions = yes
+			offmap_germany = {
+				OR = {
+					has_status = germany_falling_back
+					has_status = germany_under_pressure
+					has_status = germany_invaded
+				}
+			}
+			FROM = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = china_tribute_send_commander_cooldown_tt
+					NOT = { has_character_modifier = chinese_grace_send_commander_timer }
+				}
+				prisoner = no
+				NOT = { trait = incapable }
+				is_inaccessible_trigger = no
+			}
+			# china_offmap_decisions_enabled_trigger = yes #leave in please, to be used if the tooltip for german_offmap_tribute_decisions_enabled_trigger changes and we need to reference things uniquely again
+			german_offmap_tribute_decisions_enabled_trigger = yes
+		}
+		
+		third_party_potential = {
+			show_only_failed_conditions = yes
+			FROMFROM = {
+				show_scope_change = no
+
+				is_adult = yes
+				martial = 12
+				is_heir = no
+				NOT = { is_landed = yes }
+				custom_tooltip = {
+					text = not_married_or_getting_married_tt
+					NOT = { is_betrothed = yes }
+					NOT = { is_married = yes }
+				}
+				custom_tooltip = {
+					text = is_not_incapable_inbred_or_imbecile_tt
+					NOT = { trait = incapable }
+					NOT = { trait = inbred }
+					NOT = { trait = imbecile }
+				}
+				custom_tooltip = {
+					text = is_not_maimed_or_infirm_tt
+					NOT = { trait = maimed }
+					NOT = { trait = infirm }
+				}
+
+				NOT = { prisoner = yes }
+				
+				OR = {
+					is_female = no
+					has_minor_title = title_commander
+					has_game_rule = {
+						name = gender
+						value = all
+					}
+				}
+			}
+		}
+
+		third_party_allow = {
+			show_only_failed_conditions = yes
+			FROMFROM = {
+				is_ill = no
+				custom_tooltip = {
+					text = is_not_wounded_severely_injured_tt
+					NOT = { trait = wounded }
+					NOT = { trait = severely_injured }
+				}
+				is_inaccessible_trigger = no
+			}
+		}
+		
+		third_party_score = {
+			factor = 100
+			
+			additive_modifier = {
+				value = 20
+				FROMFROM = { 
+					show_scope_change = no
+					martial = 12					
+					hidden_trigger = {
+						NOT = { martial = 14 }
+					}
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					martial = 14					
+					hidden_trigger = {
+						NOT = { martial = 16 }
+					}
+				}
+			}
+			additive_modifier = {
+				value = 60
+				FROMFROM = {
+					show_scope_change = no 
+					martial = 16				
+					hidden_trigger = {
+						NOT = { martial = 18 }
+					}
+				}
+			}
+			additive_modifier = {
+				value = 80
+				FROMFROM = {
+					show_scope_change = no 
+					martial = 18				
+					hidden_trigger = {
+						NOT = { martial = 20 }
+					}
+				}
+			}
+			additive_modifier = {
+				value = 100
+				FROMFROM = {
+					show_scope_change = no 
+					martial = 20				
+					hidden_trigger = {
+						NOT = { martial = 22 }
+					}
+				}
+			}
+			additive_modifier = {
+				value = 120
+				FROMFROM = {
+					show_scope_change = no 
+					martial = 22				
+					hidden_trigger = {
+						NOT = { martial = 24 }
+					}
+				}
+			}
+			additive_modifier = {
+				value = 140
+				FROMFROM = { 
+					show_scope_change = no
+					martial = 24
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = genius
+				}
+			}
+			additive_modifier = {
+				value = 30
+				FROMFROM = { 
+					show_scope_change = no
+					trait = quick
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = strong
+				}
+			}
+			additive_modifier = {
+				value = 30
+				FROMFROM = {
+					show_scope_change = no
+					trait = robust
+				}
+			}
+			additive_modifier = {
+				value = 30
+				FROMFROM = {
+					show_scope_change = no
+					trait = shrewd
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = strategist
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = duelist
+				}
+			}
+			additive_modifier = {
+				value = 20
+				FROMFROM = { 
+					show_scope_change = no
+					trait = hunter
+				}
+			}
+			additive_modifier = {
+				value = 100
+				FROMFROM = { 
+					show_scope_change = no
+					trait = berserker
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = adventurer
+				}
+			}
+			additive_modifier = {
+				value = 20
+				FROMFROM = { 
+					show_scope_change = no
+					trait = patient
+				}
+			}
+			additive_modifier = {
+				value = 20
+				FROMFROM = { 
+					show_scope_change = no
+					trait = brave
+				}
+			}
+			additive_modifier = {
+				value = 20
+				FROMFROM = { 
+					show_scope_change = no
+					trait = diligent
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = shieldmaiden
+				}
+			}
+		
+			additive_modifier = {
+				value = 50
+				FROMFROM = { 
+					show_scope_change = no
+					trait = sapper
+				}
+			}
+			additive_modifier = {
+				value = 50
+				FROMFROM = { 
+					show_scope_change = no
+					trait = master_of_flame
+				}
+			}
+			additive_modifier = {
+				value = 50
+				FROMFROM = { 
+					show_scope_change = no
+					trait = logistics_expert
+				}
+			}
+			additive_modifier = {
+				value = 50
+				FROMFROM = { 
+					show_scope_change = no
+					trait = levy_coordinator
+				}
+			}
+			
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = light_foot_leader
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = heavy_infantry_leader
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = cavalry_leader
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = inspiring_leader
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = trickster
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = organizer
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = defensive_leader
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = experimenter
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = flanker
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = aggressive_leader
+				}
+			}
+			additive_modifier = {
+				value = 40
+				FROMFROM = { 
+					show_scope_change = no
+					trait = siege_leader
+				}
+			}
+			
+			
+			additive_modifier = {
+				value = 25
+				custom_tooltip = {
+					text = tribute_interaction_level3_education_tt
+					FROMFROM = { 
+						trait = skilled_tactician
+					}
+				}
+			}
+			additive_modifier = {
+				value = 50
+				custom_tooltip = {
+					text = tribute_interaction_level4_education_tt
+					FROMFROM = { 
+						trait = brilliant_strategist
+					}
+				}
+			}
+			modifier = {
+				factor = 2.0
+				FROMFROM = { 
+					show_scope_change = no
+					liked_by_offmap = {
+						type = offmap_germany
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = {
+					show_scope_change = no 
+					disliked_by_offmap = {
+						type = offmap_germany
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { 
+					show_scope_change = no
+					liked_by_offmap = {
+						type = offmap_germany
+					}
+				}
+			}
+			modifier = {
+				factor = 0.66
+				FROM = {
+					show_scope_change = no 
+					disliked_by_offmap = {
+						type = offmap_germany
+					}
+				}
+			}
+		}
+	
+		effect = {
+			save_event_target_as = target_governor
+			FROM = {
+				sound_effect = china_grace_gain
+				save_event_target_as = target_tribute_sender
+			}
+			FROMFROM = {
+				save_event_target_as = person_sent_as_tribute
+			}
+			#if = {
+			#	limit = {
+			#		FROMFROM = { disliked_by_offmap = offmap_germany }
+			#	}
+			#	custom_tooltip = { text = notification_china_dislike_tt }
+			#}
+			#if = {
+			#	limit = {
+			#		NOT = { FROMFROM = { disliked_by_offmap = offmap_germany } }
+			#		FROMFROM = { liked_by_offmap = offmap_germany }
+			#	}
+			#	custom_tooltip = { text = notification_china_like_tt }
+			#}
+			FROM = {
+				show_scope_change = no
+				add_offmap_currency = {
+					offmap = offmap_germany
+					value = local_third_party_score
+				}
+			}
+			
+			# Like/Dislike effect description
+			#################################
+			if = {
+				limit = {
+					OR = {
+						FROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						FROMFROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+					NOR = {
+						FROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						FROMFROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+				}
+				#e_china_west_governor = {
+				#	show_scope_change = no
+				#	offmap_power = {
+				##		show_scope_change = no
+				#		custom_tooltip = { text = likes_tt }
+				#	}
+				#}
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						FROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						FROMFROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+					NOR = {
+						FROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						FROMFROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						FROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						FROMFROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+					OR = {
+						FROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						FROMFROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+				}
+			}
+			#################################
+			
+			FROMFROM = {
+				show_scope_change = no
+				leave_court_for_china_effect = yes
+			}
+			hidden_effect = {
+				FROM = {
+					add_character_modifier = {
+						modifier = chinese_grace_send_commander_timer
+						hidden = yes
+						years = 20
+					}
+					if = {
+						limit = { local_third_party_score_low_trigger = yes }
+						set_character_flag = sent_bad_tribute
+					}
+					if = {
+						limit = { local_third_party_score_medium_trigger = yes }
+						set_character_flag = sent_decent_tribute
+					}
+					if = {
+						limit = { local_third_party_score_great_trigger = yes }
+						set_character_flag = sent_great_tribute
+					}
+					letter_event = { id = JD.10050 days = 5 random = 2 }
+				}
+			}
+		}
+	
+		revoke_allowed = {
+			always = no
+		}
+	
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.3 # slow down
+			}
+		}
+	}
+	
+	germany_fp_send_relief = {
+		only_playable = yes
+		button_name = offmap_gifts
+		ai_check_interval = 60
+
+		potential = {
+			is_offmap_tag = offmap_germany
+			offmap_germany = { has_status = germany_invaded }
+			NOT = {has_status = germany_closed}
+		}
+
+		from_potential = {
+			has_dlc = "Jade Dragon"
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+			religion = aryan
+		}
+
+		allow = {
+			show_only_failed_conditions = yes
+			FROM = {
+				show_scope_change = no
+				is_nomadic = no
+				is_tribal = no
+				NOT = {
+					has_character_modifier = germany_send_relief
+				}
+				prisoner = no
+				NOT = { trait = incapable }
+				is_inaccessible_trigger = no
+			}
+			# china_offmap_decisions_enabled_trigger = yes #leave in please, to be used if the tooltip for german_offmap_tribute_decisions_enabled_trigger changes and we need to reference things uniquely again
+			german_offmap_tribute_decisions_enabled_trigger = yes
+		}
+
+		effect = {
+			hidden_effect = { offmap_germany = { governor = { character_event = { id = JD.3010 } } } }
+			FROM = {
+				sound_effect = china_grace_gain
+				add_character_modifier = {
+					inherit = yes
+					name = germany_send_relief
+					years = 10
+				}
+				if = {
+					limit = {
+						liked_by_offmap = {
+							type = offmap_germany
+						}
+						NOT = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+					add_offmap_currency = {
+						offmap = offmap_germany
+						value = 750
+					}
+				}
+				if = {
+					limit = {
+						disliked_by_offmap = {
+							type = offmap_germany
+						}
+						NOT = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+					add_offmap_currency = {
+						offmap = offmap_germany
+						value = 250
+					}
+				}
+				if = {
+					limit = {
+						liked_by_offmap = {
+							type = offmap_germany
+						}
+						disliked_by_offmap = {
+							type = offmap_germany
+						}
+					}
+					add_offmap_currency = {
+						offmap = offmap_germany
+						value = 500
+					}
+				}
+				if = {
+					limit = {
+						NOR = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+					}
+					add_offmap_currency = {
+						offmap = offmap_germany
+						value = 500
+					}
+				}
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				FROM = {
+					war = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = { independent = no }
+			}
+		}
+	}
+	
+	chinese_grace_offer_artifact = {
+		only_playable = yes
+		button_name = offmap_gifts
+		
+		third_party_filter = artifacts
+		ai_third_party_filter = artifacts
+		third_party = FROM
+		ai_check_interval = 60
+		show_third_party_potential = yes
+	
+		from_potential = {
+			has_dlc = "Jade Dragon"
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+			religion = aryan
+		}
+
+		potential = {
+			is_offmap_tag = offmap_germany
+			NOT = {has_status = germany_closed}
+		}
+
+		allow = {
+			show_only_failed_conditions = yes
+			FROM = {
+				show_scope_change = no
+				prisoner = no
+				NOT = { trait = incapable }
+				is_inaccessible_trigger = no
+			}
+			# china_offmap_decisions_enabled_trigger = yes #leave in please, to be used if the tooltip for german_offmap_tribute_decisions_enabled_trigger changes and we need to reference things uniquely again
+			german_offmap_tribute_decisions_enabled_trigger = yes
+		}
+		
+		third_party_potential = {
+			show_only_failed_conditions = yes
+			FROMFROM = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = send_artifact_potential_tt
+					quality > 2
+					NOR = {
+						has_artifact_flag = curse
+						has_artifact_flag = german
+					}
+				}
+			}
+		}
+		
+		third_party_allow = {
+			
+		}
+		
+		third_party_score = {
+			factor = 500
+			
+			additive_modifier = {
+				value = 4500
+				FROMFROM = { 
+					quality == 4
+				}
+			}
+			additive_modifier = {
+				value = 9500
+				FROMFROM = { 
+					quality == 5
+				}
+			}
+			additive_modifier = {
+				value = -200
+				FROMFROM = {
+					quality < 4
+					has_artifact_flag = lore #Magnum Opus book
+				}
+			}
+			additive_modifier = {
+				value = -3000
+				FROMFROM = {
+					quality == 4
+					has_artifact_flag = lore #Magnum Opus book
+				}
+			}
+			additive_modifier = {
+				value = -250
+				FROMFROM = {
+					quality < 4
+					has_artifact_flag = created
+				}
+			}
+			additive_modifier = {
+				value = -3500
+				FROMFROM = {
+					quality == 4
+					has_artifact_flag = created
+				}
+			}
+			modifier = {
+				factor = 1.25
+				FROMFROM = {
+					has_artifact_flag = gift_of_christmas
+				}
+			}
+			modifier = {
+				factor = 1.25
+				FROMFROM = {
+					has_artifact_flag = gift_of_life
+				}
+			}
+			modifier = {
+				factor = 1.5
+				offmap_germany = {
+					show_scope_change = no 
+					offmap_has_like = likes_wealth
+				}
+			}
+			modifier = {
+				factor = 0.5
+				offmap_germany = {
+					show_scope_change = no 
+					offmap_has_dislike = likes_wealth
+				}
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { 
+					show_scope_change = no
+					liked_by_offmap = {
+						type = offmap_germany
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					show_scope_change = no 
+					disliked_by_offmap = {
+						type = offmap_germany
+					}
+				}
+			}
+		}
+	
+		effect = {
+			FROM = {
+				show_scope_change = no
+				add_offmap_currency = {
+					offmap = offmap_germany
+					value = local_third_party_score
+				}
+			}
+
+			# Like/Dislike effect description
+			#################################
+			if = {
+				limit = {
+					OR = {
+						FROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						offmap_germany = {
+							offmap_has_like = likes_wealth
+						}
+					}
+					NOR = {
+						FROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						offmap_germany = {
+							offmap_has_dislike = likes_wealth
+						}
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						FROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						offmap_germany = {
+							offmap_has_dislike = likes_wealth
+						}
+					}
+					NOR = {
+						FROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						offmap_germany = {
+							offmap_has_like = likes_wealth
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						FROM = {
+							liked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						offmap_germany = {
+							offmap_has_like = likes_wealth
+						}
+					}
+					OR = {
+						FROM = {
+							disliked_by_offmap = {
+								type = offmap_germany
+							}
+						}
+						offmap_germany = {
+							offmap_has_dislike = likes_wealth
+						}
+					}
+				}
+			}
+			#################################
+			hidden_tooltip = {
+				if = {
+					limit = {
+						FROM = {
+							ai = no
+						}
+						FROMFROM = {
+							quality > 3
+						}
+					}
+					FROM = {
+						set_character_flag = achievement_a_curious_trinket
+					}
+				}
+			}
+			save_event_target_as = target_governor
+			FROM = {
+				sound_effect = china_grace_gain
+				save_event_target_as = target_tribute_sender
+			}
+
+			hidden_effect = { #to reduce cluttered tooltip (effect already heavily implied...)
+				offmap_germany = {
+					offmap_ruler = {
+						ROOT_FROMFROM = {
+							show_scope_change = no
+							tooltip = {
+								transfer_artifact = {
+									to = PREV
+									from = ROOT_FROM
+								}
+							}
+							hidden_effect = { unsafe_destroy_artifact = yes }
+						}
+					}
+				}
+			}
+
+			hidden_effect = {
+				FROM = {
+					set_character_flag = jd_gifting_artifact
+				}
+				hidden_effect = { offmap_germany = { governor = { character_event = { id = JD.20023 } } } }
+			}
+		}
+	
+		revoke_allowed = {
+			always = no
+		}
+	
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				FROMFROM = {
+					quality > 3
+				}
+			}
+			modifier = {
+				factor = 0.1 # slow down
+			}
+		}
+	}
+
+	german_fp_send_supplies = {
+		only_playable = yes
+		button_name = offmap_gifts
+		ai_check_interval = 12
+
+		potential = {
+			is_offmap_tag = offmap_germany
+			NOR = {
+				offmap_germany = { has_status = germany_occupied }
+				offmap_germany = { has_status = germany_closed }
+				offmap_germany = { has_policy = germany_closed_portal }
+			} 
+		}
+
+		from_potential = {
+			has_dlc = "Jade Dragon"
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+			religion = aryan
+		}
+
+		allow = {
+			show_only_failed_conditions = yes
+			FROM = {
+				show_scope_change = no
+				custom_tooltip = {
+					any_realm_province = {
+						NOT = {has_province_modifier = suppling_german_war_machine}
+					}
+				}
+				prisoner = no
+				NOT = { trait = incapable }
+				is_inaccessible_trigger = no
+			}
+			# china_offmap_decisions_enabled_trigger = yes #leave in please, to be used if the tooltip for german_offmap_tribute_decisions_enabled_trigger changes and we need to reference things uniquely again
+			german_offmap_tribute_decisions_enabled_trigger = yes
+		}
+		effect = {
+			FROM = {
+				sound_effect = china_grace_gain
+				hidden_effect = {
+					add_character_modifier = {
+						hidden = yes
+						name = german_grace_send_gift_timer
+						years = 15 #Change chinese_grace_send_gift_allow_tt if this number changes
+					} 
+				}
+				tooltip = {
+					random_realm_province = {
+						limit ={
+							NOT = {has_province_modifier = suppling_german_war_machine}
+						}
+						add_province_modifier = {name = suppling_german_war_machine duration = 730}
+					}
+					if = {
+						limit = {
+							liked_by_offmap = {
+								type = offmap_germany
+								context = supplies
+							}
+							NOT = {
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+							}
+							OR = {
+								offmap_germany = { has_status = germany_invaded }
+								offmap_germany = { has_status = germany_falling_back }
+								offmap_germany = { has_status = germany_under_pressure }
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 750
+						}
+						#e_china_west_governor = {
+						#	show_scope_change = no
+						#	offmap_power = {
+						#		show_scope_change = no
+						#		custom_tooltip = { text = likes_tt }
+						#	}
+						#}
+					}
+					if = {
+						limit = {
+							liked_by_offmap = {
+								type = offmap_germany
+								context = supplies
+							}
+							NOT = {
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+							}
+							offmap_germany = { has_policy = germany_industrialising }
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 700
+						}
+						#e_china_west_governor = {
+						#	show_scope_change = no
+						#	offmap_power = {
+						#		show_scope_change = no
+						#		custom_tooltip = { text = likes_tt }
+						#	}
+						#}
+					}
+					if = {
+						limit = {
+							liked_by_offmap = {
+								type = offmap_germany
+								context = supplies
+							}
+							NOT = {
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 600
+						}
+						#e_china_west_governor = {
+						#	show_scope_change = no
+						#	offmap_power = {
+						#		show_scope_change = no
+						#		custom_tooltip = { text = likes_tt }
+						#	}
+						#}
+					}
+					if = {
+						limit = {
+							disliked_by_offmap = {
+								type = offmap_germany
+								context = supplies
+							}
+							NOT = {
+								liked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 200
+						}
+					}
+					if = {
+						limit = {
+							liked_by_offmap = {
+								type = offmap_germany
+								context = supplies
+							}
+							disliked_by_offmap = {
+								type = offmap_germany
+								context = supplies
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 400
+						}
+					}
+					if = {
+						limit = {
+							NOR = {
+								liked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+							}
+							offmap_germany = { has_policy = germany_industrialising }
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 500
+						}
+						#e_china_west_governor = {
+						#	show_scope_change = no
+						#	offmap_power = {
+						#		show_scope_change = no
+						#		custom_tooltip = { text = likes_tt }
+						#	}
+						#}
+					}
+					if = {
+						limit = {
+							NOR = {
+								liked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+							}
+							NOT = {
+								offmap_germany = { has_policy = germany_industrialising }
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 400
+						}
+					}
+				}
+			#}
+				hidden_effect = { 
+					random_realm_province = {
+						limit ={
+							NOT = {has_province_modifier = suppling_german_war_machine}
+						}
+						add_province_modifier = {name = suppling_german_war_machine duration = 730}
+					}
+					if = {
+						limit = {
+							OR={
+								liked_by_offmap = {
+								type = offmap_germany
+									context= supplies
+								}
+								liked_by_offmap = {
+									type = offmap_germany
+								}
+							}
+							NOR={
+								disliked_by_offmap = {
+									type = offmap_germany
+								}
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+							}
+							OR = {
+								offmap_germany = { has_status = germany_invaded }
+								offmap_germany = { has_status = germany_falling_back }
+								offmap_germany = { has_status = germany_under_pressure }
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 750
+						}
+						#e_china_west_governor = {
+						#	show_scope_change = no
+						#	offmap_power = {
+						#		show_scope_change = no
+						#		custom_tooltip = { text = likes_tt }
+						#	}
+						#}
+					}
+					else_if = {
+						limit = {
+							OR={
+								liked_by_offmap = {
+								type = offmap_germany
+									context= supplies
+								}
+								liked_by_offmap = {
+									type = offmap_germany
+								}
+							}
+							NOR={
+								disliked_by_offmap = {
+									type = offmap_germany
+								}
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 600
+						}
+					}
+					else_if = {
+						limit = {
+							OR={
+								disliked_by_offmap = {
+									type = offmap_germany
+									context = supplies
+								}
+								disliked_by_offmap = {
+									type = offmap_germany
+								}
+							}
+							NOR={ 
+								liked_by_offmap = {
+									type = offmap_germany
+								}
+								liked_by_offmap ={
+									type = offmap_germany
+									context = supplies
+								}
+							}
+						}
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 200
+						}
+					}
+					else ={
+						add_offmap_currency = {
+							offmap = offmap_germany
+							value = 400
+						}
+					}
+				}
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1 # slow down
+			}
+		}
+	}
+
+}
+
+
+
+#REQUESTING BOON DECISIONS (SPENDING GRACE)
+offmap_decisions = {
+	
+	#If your grace decisions will spawn a character then give them an appropriate flag eg: is_chinese_administrator and add them to the JD.60310 trigger switch to refund grace if they die early
+
+	#Get a german doctor
+	german_fp_doctor = {
+		only_playable = yes
+		button_name = offmap_boons
+		ai_check_interval = 12
+
+		from_potential = {
+			has_dlc = "Jade Dragon"
+			has_dlc = Reapers
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+			religion = aryan
+		}
+
+		potential = {
+			is_offmap_tag = offmap_germany
+			NOR = {
+				offmap_germany = { has_status = germany_occupied }
+				offmap_germany = { has_status = germany_closed }
+				offmap_germany = { has_policy = germany_closed_portal }
+			}
+		}
+
+#		potential = {
+#			offmap_germany = { governor = { character = ROOT } }
+#		}
+
+		allow = {
+			show_only_failed_conditions = yes
+			FROM = {
+				show_scope_change = no
+				has_offmap_currency = { offmap = offmap_germany value = 250 }
+				custom_tooltip = {
+					text = chinese_grace_doctor_allow_tt
+					NOT = { any_courtier = { has_minor_title = title_court_physician } }
+				}
+				prisoner = no
+				NOT = { trait = incapable }
+				is_inaccessible_trigger = no
+			}
+			german_offmap_boon_decisions_enabled_trigger = yes
+		}
+
+		effect = {
+			FROM = {
+				show_scope_change = no
+				sound_effect = china_grace_spend
+				add_offmap_currency = {
+					offmap = offmap_germany
+					value = -250
+				}
+			}
+			#hidden_effect = { offmap_germany = { character_event = { id = JD.20021 } } } 
+			hidden_effect = { ROOT = { character_event = { id = nar_misc.13 } } }
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0
+			#factor = 1
+			#modifier = {
+			#	factor = 0.1 # slow down
+			#}
+			#modifier = {
+			#	FROM = { NOT = { any_courtier = { learning = 15 } } }
+			#	factor = 1.5
+			#}
+			#modifier = {
+			#	FROM = {
+			#		NOT = { any_courtier = { learning = 15 } }
+			#		OR = {
+			#			NOT = { health = 3 }
+			#			character_disease_trigger = yes
+			#			has_symptom_trigger = yes
+			#		}
+			#	}
+			#	factor = 10
+			#}
+			#modifier = {
+			#	FROM = {
+			#		NOT = { has_grace_medium_trigger = yes }
+			#	}
+			#	factor = 0.1
+			#}
+		}
+	}
+
+	#Get german tanks
+	german_fp_panzers = {
+		only_playable = yes
+		button_name = offmap_boons
+		ai_check_interval = 12
+
+		from_potential = {
+			has_dlc = "Jade Dragon"
+			has_dlc = Reapers
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+			religion = aryan
+		}
+
+		potential = {
+			is_offmap_tag = offmap_germany
+			NOR = {
+				offmap_germany = { has_status = germany_occupied }
+				offmap_germany = { has_status = germany_closed }
+				offmap_germany = { has_policy = germany_closed_portal }
+			}
+			has_policy = germany_industrailsing
+		}
+
+#		potential = {
+#			offmap_germany = { governor = { character = ROOT } }
+#		}
+
+		allow = {
+			show_only_failed_conditions = yes
+			FROM = {
+				show_scope_change = no
+				has_offmap_currency = { offmap = offmap_germany value = 7500 }
+				prisoner = no
+				NOT = { trait = incapable }
+				is_inaccessible_trigger = no
+			}
+			german_offmap_boon_decisions_enabled_trigger = yes
+			OR = {
+				offmap_germany = { has_policy = germany_industrailsing }
+				offmap_germany = { has_policy = germany_consolidaing }
+			}
+		}
+
+		effect = {
+			FROM = {
+				show_scope_change = no
+				sound_effect = china_grace_spend
+				add_offmap_currency = {
+					offmap = offmap_germany
+					value = -7500
+				}
+			}
+			#hidden_effect = { offmap_germany = { character_event = { id = JD.20021 } } } 
+			hidden_effect = { From = { character_event = { id = nar_misc.15 } } }
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0
+			#factor = 1
+			#modifier = {
+			#	factor = 0.1 # slow down
+			#}
+			#modifier = {
+			#	FROM = { NOT = { any_courtier = { learning = 15 } } }
+			#	factor = 1.5
+			#}
+			#modifier = {
+			#	FROM = {
+			#		NOT = { any_courtier = { learning = 15 } }
+			#		OR = {
+			#			NOT = { health = 3 }
+			#			character_disease_trigger = yes
+			#			has_symptom_trigger = yes
+			#		}
+			#	}
+			#	factor = 10
+			#}
+			#modifier = {
+			#	FROM = {
+			#		NOT = { has_grace_medium_trigger = yes }
+			#	}
+			#	factor = 0.1
+			#}
+		}
+	}
+	
+	german_fp_ammunition = {
+		only_playable = yes
+		button_name = offmap_boons
+		ai_check_interval = 12
+
+		from_potential = {
+			has_dlc = "Jade Dragon"
+			has_dlc = Reapers
+			mercenary = no
+			holy_order = no
+			is_landed = yes
+			religion = aryan
+		}
+
+		potential = {
+			is_offmap_tag = offmap_germany
+			NOR = {
+				offmap_germany = { has_status = germany_occupied }
+				offmap_germany = { has_status = germany_closed }
+				offmap_germany = { has_policy = germany_closed_portal }
+			}
+		}
+
+#		potential = {
+#			offmap_germany = { governor = { character = ROOT } }
+#		}
+
+		allow = {
+			show_only_failed_conditions = yes
+			FROM = {
+				show_scope_change = no
+				has_offmap_currency = { offmap = offmap_germany value = 1000 }
+				prisoner = no
+				NOT = { trait = incapable }
+				is_inaccessible_trigger = no
+			}
+			german_offmap_boon_decisions_enabled_trigger = yes
+		}
+
+		effect = {
+			FROM = {
+				show_scope_change = no
+				sound_effect = china_grace_spend
+				add_offmap_currency = {
+					offmap = offmap_germany
+					value = -1000
+				}
+				add_character_modifier = {
+					#hidden = yes
+					name = german_ammunition
+					years = 1 # German Muntions
+				} 
+			}
+			#hidden_effect = { offmap_germany = { character_event = { id = JD.20021 } } } 
+			#hidden_effect = { ROOT = { character_event = { id = nar_misc.13 } } }
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0
+			#factor = 1
+			#modifier = {
+			#	factor = 0.1 # slow down
+			#}
+			#modifier = {
+			#	FROM = { NOT = { any_courtier = { learning = 15 } } }
+			#	factor = 1.5
+			#}
+			#modifier = {
+			#	FROM = {
+			#		NOT = { any_courtier = { learning = 15 } }
+			#		OR = {
+			#			NOT = { health = 3 }
+			#			character_disease_trigger = yes
+			#			has_symptom_trigger = yes
+			#		}
+			#	}
+			#	factor = 10
+			#}
+			#modifier = {
+			#	FROM = {
+			#		NOT = { has_grace_medium_trigger = yes }
+			#	}
+			#	factor = 0.1
+			#}
+		}
+	}
+}

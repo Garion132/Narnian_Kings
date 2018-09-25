@@ -1,0 +1,14 @@
+# 1764 - Jelvar
+# County Title
+title = c_jelvar
+# Settlements
+max_settlements = 1
+
+
+b_jelvar = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = jelvar
+religion = tarutarin

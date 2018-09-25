@@ -1,0 +1,14 @@
+# 2141 - Ruiaraa
+# County Title
+title = c_ruiaraa
+# Settlements
+max_settlements = 1
+
+
+b_ruiaraa = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

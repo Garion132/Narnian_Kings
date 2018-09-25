@@ -1,0 +1,570 @@
+#115000-120000
+115000 = {
+	name = "Coatl" #father of Axol
+	dynasty = 1037
+	religion = "tarutarin"
+	culture = "axol"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	stewardship = 8
+	martial = 9
+	diplomacy = 11
+	add_trait =	"genius"
+	add_trait = "just"
+	add_trait = "proud"
+	add_trait = "kind"
+	give_nickname = "nick_the_father_of_axol"
+	923.8.17={
+		birth=yes
+	}
+	1002.7.21={
+		death=yes
+	}
+}
+115001 = {
+	name = "Tochtli" #
+	dynasty = 1037
+	religion = "tarutarin"
+	culture = "axol"
+	father = 115000
+	#mother = 80201
+	954.7.26={
+		birth=yes
+	}
+	998.4.3={
+		death=yes
+	}
+}
+115002 = {
+	name = "Tochtli" #
+	dynasty = 1037
+	religion = "tarutarin"
+	culture = "axol"
+	father = 115001
+	#mother = 80201
+	wealth = 300
+	982.3.7={
+		birth=yes
+	}
+	1042.8.24={
+		death=yes
+	}
+}
+115003 = {
+	name = "Olcha" #
+	dynasty = 1037
+	religion = "tarutarin"
+	culture = "axol"
+	father = 115001
+	#mother = 80201
+	wealth = 300
+	983.8.20={
+		birth=yes
+	}
+	1042.8.24={
+		death=yes
+	}
+}
+115004 = {
+	name = "Tencini" #
+	dynasty = 1037
+	religion = "tarutarin"
+	culture = "axol"
+	father = 115001
+	#mother = 80201
+	wealth = 300
+	985.1.28={
+		birth=yes
+	}
+	1042.8.24={
+		death=yes
+	}
+}
+115005 = {
+	name = "Chimalli" #
+	dynasty = 1037
+	religion = "tarutarin"
+	culture = "axol"
+	female=yes
+	father = 115001
+	#mother = 80201
+	wealth = 300
+	986.4.9={
+		birth=yes
+	}
+	1042.8.24={
+		death=yes
+	}
+}
+115006 = {
+	name = "Zantil" #
+	dynasty = 1037
+	religion = "tarutarin"
+	culture = "axol"
+	father = 115001
+	#mother = 80201
+	wealth = 300
+	988.6.30={
+		birth=yes
+	}
+	1042.8.24={
+		death=yes
+	}
+}
+
+115100 = {
+	name = "Xochi" #
+	dynasty = 1038
+	religion = "tarutarin"
+	culture = "axol"
+	#father = 80600
+	#mother = 80201
+	948.8.17={
+		birth=yes
+	}
+	1014.12.4={
+		death=yes
+	}
+}
+115101 = {
+	name = "Xochi" #
+	dynasty = 1038
+	religion = "tarutarin"
+	culture = "axol"
+	father = 115100
+	#mother = 80201
+	972.6.21={
+		birth=yes
+	}
+	1032.10.24={
+		death=yes
+	}
+}
+
+115200 = {
+	name = "Tari" #
+	dynasty = 1039
+	religion = "eline"
+	culture = "elexol"
+	#father = 80600
+	#mother = 80201
+	951.9.20={
+		birth=yes
+	}
+	1008.6.12={
+		death=yes
+	}
+}
+115201 = {
+	name = "Koris" #
+	dynasty = 1039
+	religion = "eline"
+	culture = "elexol"
+	father = 115200
+	#mother = 80201
+	972.6.22={
+		birth=yes
+	}
+	1035.7.18={
+		death=yes
+	}
+}
+115202 = {
+	name = "Arnde" #
+	dynasty = 1039
+	female = yes
+	religion = "eline"
+	culture = "elexol"
+	father = 115200
+	#mother = 80201
+	974.2.17={
+		birth=yes
+	}
+	1041.4.3={
+		death=yes
+	}
+}
+
+115300 = {
+	name = "Cacamatzin" #
+	dynasty = 1041
+	religion = "eloia"
+	culture = "axol"
+	#father = 80600
+	#mother = 80201
+	952.12.12={
+		birth=yes
+	}
+	1008.6.12={
+		death=yes
+	}
+}
+115301 = {
+	name = "Aculnahua" #
+	dynasty = 1041
+	religion = "eloia"
+	culture = "axol"
+	father = 115300
+	#mother = 80201
+	975.9.17={
+		birth=yes
+	}
+	1035.7.18={
+		death=yes
+	}
+}
+
+115400 = {
+	name = "Coatl" #
+	#dynasty = 1041
+	religion = "tarutarin"
+	culture = "axol"
+	#father = 80600
+	#mother = 80201
+	967.3.30={
+		birth=yes
+	}
+	1011.5.31={
+		death=yes
+	}
+}
+
+115450 = {
+	name = "Mazatl" #
+	#dynasty = 1041
+	religion = "tarutarin"
+	culture = "axol"
+	#father = 80600
+	#mother = 80201
+	964.3.27={
+		birth=yes
+	}
+	1021.5.31={
+		death=yes
+	}
+}
+
+115500 = {
+	name = "Tecocoltzin" #
+	#dynasty = 1041
+	religion = "tarutarin"
+	culture = "axol"
+	#father = 80600
+	#mother = 80201
+	965.9.22={
+		birth=yes
+	}
+	1018.9.19={
+		death=yes
+	}
+}
+
+115550 = {
+	name = "Itxcoatl" #
+	#dynasty = 1041
+	religion = "tarutarin"
+	culture = "axol"
+	#father = 80600
+	#mother = 80201
+	966.8.17={
+		birth=yes
+	}
+	1022.3.27={
+		death=yes
+	}
+}
+
+115600 = {
+	name = "Tizocic" #
+	#dynasty = 1041
+	religion = "tarutarin"
+	culture = "axol"
+	#father = 80600
+	#mother = 80201
+	972.6.12={
+		birth=yes
+	}
+	1018.9.19={
+		death=yes
+	}
+}
+
+115650 = {
+	name = "Chimal" #
+	dynasty = 1064
+	religion = "eline"
+	culture = "elexol"
+	#father = 80600
+	#mother = 80201
+	937.1.18={
+		birth=yes
+	}
+	997.6.22={
+		death=yes
+	}
+}
+115651 = {
+	name = "Exarn" #
+	dynasty = 1064
+	religion = "eline"
+	culture = "elexol"
+	father = 115650
+	#mother = 80201
+	961.3.27={
+		birth=yes
+	}
+	1010.1.8={
+		death=yes
+	}
+}
+115652 = {
+	name = "Saenan" #
+	dynasty = 1064
+	religion = "eline"
+	culture = "elexol"
+	father = 115651
+	#mother = 80201
+	985.2.4={
+		birth=yes
+	}
+	1038.4.9={
+		death=yes
+	}
+}
+
+115700 = {
+	name = "Coza" #
+	dynasty = 1065
+	religion = "eline"
+	culture = "elexol"
+	#father = 80600
+	#mother = 80201
+	941.11.5={
+		birth=yes
+	}
+	1002.4.9={
+		death=yes
+	}
+}
+115701 = {
+	name = "Nelli" #
+	dynasty = 1065
+	religion = "eline"
+	culture = "elexol"
+	father = 115700
+	#mother = 80201
+	970.2.19={
+		birth=yes
+	}
+	1028.8.14={
+		death=yes
+	}
+}
+
+115750 = {
+	name = "Yotl" #
+	dynasty = 1066
+	religion = "eline"
+	culture = "elexol"
+	#father = 80600
+	#mother = 80201
+	924.6.21={
+		birth=yes
+	}
+	991.6.4={
+		death=yes
+	}
+}
+115751 = {
+	name = "Tizoc" #
+	dynasty = 1066
+	religion = "eline"
+	culture = "elexol"
+	father =115750
+	#mother = 80201
+	951.9.14={
+		birth=yes
+	}
+	1008.4.7={
+		death=yes
+	}
+}
+115752 = {
+	name = "Acaran" #
+	dynasty = 1066
+	religion = "eline"
+	culture = "elexol"
+	father = 115751
+	#mother = 80201
+	979.5.22={
+		birth=yes
+	}
+	1034.7.6={
+		death=yes
+	}
+}
+115753 = {
+	name = "Aisla" #
+	dynasty = 1066
+	female = yes
+	religion = "eline"
+	culture = "elexol"
+	father = 115751
+	#mother = 80201
+	980.10.6={
+		birth=yes
+	}
+	1042.4.3={
+		death=yes
+	}
+}
+
+115800 = {
+	name = "Ozomat" #
+	dynasty = 1067
+	religion = "eline"
+	culture = "elexol"
+	#father = 80600
+	#mother = 80201
+	931.4.5={
+		birth=yes
+	}
+	986.4.12={
+		death=yes
+	}
+}
+115801 = {
+	name = "Coanacoch" #
+	dynasty = 1067
+	religion = "eline"
+	culture = "elexol"
+	female = yes
+	father = 115800
+	#mother = 80201
+	957.6.2={
+		birth=yes
+	}
+	980.5.9={
+		add_matrilineal_spouse = 115803
+	}
+	1006.7.25={
+		death=yes
+	}
+}
+115802 = {
+	name = "Xilo" #
+	dynasty = 1067
+	religion = "eline"
+	culture = "elexol"
+	#female = yes
+	father = 115803
+	mother = 115801
+	982.3.4={
+		birth=yes
+	}
+	1046.9.12={
+		death=yes
+	}
+}
+115803 = {
+	name = "Hutil" #
+	#dynasty = 1067
+	religion = "eline"
+	culture = "elexol"
+	#female = yes
+	#father = 115800
+	#mother = 115801
+	952.6.12={
+		birth=yes
+	}
+	1003.11.4={
+		death=yes
+	}
+}
+
+115850 = {
+	name = "Ahuitzotl" #
+	dynasty = 1068
+	religion = "eline"
+	culture = "elexol"
+	#father = 80600
+	#mother = 80201
+	928.6.14={
+		birth=yes
+	}
+	987.5.23={
+		death=yes
+	}
+}
+115851 = {
+	name = "Quaut" #
+	dynasty = 1068
+	religion = "eline"
+	culture = "elexol"
+	father = 115850
+	#mother = 80201
+	950.3.25={
+		birth=yes
+	}
+	1016.7.5={
+		death=yes
+	}
+}
+115852 = {
+	name = "Iqure" #
+	dynasty = 1068
+	religion = "eline"
+	culture = "elexol"
+	father = 115851
+	#mother = 80201
+	971.6.17={
+		birth=yes
+	}
+	1028.1.14={
+		death=yes
+	}
+}
+
+115900 = {
+	name = "Tecthco" #
+	dynasty = 1069
+	religion = "eline"
+	culture = "elexol"
+	#father = 80600
+	#mother = 80201
+	931.7.20={
+		birth=yes
+	}
+	991.6.17={
+		death=yes
+	}
+}
+115901 = {
+	name = "Maxtalla" #
+	dynasty = 1069
+	religion = "eline"
+	culture = "elexol"
+	father = 115900
+	#mother = 80201
+	962.6.18={
+		birth=yes
+	}
+	1013.4.8={
+		death=yes
+	}
+}
+115902 = {
+	name = "Telarn" #
+	dynasty = 1069
+	religion = "eline"
+	culture = "elexol"
+	father = 115901
+	#mother = 80201
+	989.7.30={
+		birth=yes
+	}
+	1045.6.7={
+		death=yes
+	}
+}

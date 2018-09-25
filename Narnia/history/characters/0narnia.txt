@@ -1,0 +1,701 @@
+#60000-70000
+60000 = {
+	name="Tumnus" #everyone knows who this is
+	#dynasty=1
+	historical=yes
+	religion="aslan"
+	culture="faun"
+	add_trait="faun"
+	add_trait="kind"
+	add_trait="craven"
+	add_trait="honest"
+	add_trait="honest"
+	learning=15
+	diplomacy=19
+	939.4.21={
+		birth="969.4.21"
+	}
+	999.12.19={
+	effect={add_friend=1017}
+	employer=1014
+	}
+	1036.4.9={
+		death="1036.4.9"
+	}
+}
+60001 = {
+	name="mr. Beaver"
+	culture="narnian"
+	add_trait="beaver"
+}
+60002 = {
+	name="ms. Beaver"
+	female=yes
+	culture="narnian"
+	add_trait="beaver"
+}
+60003 = {
+	name="Glenstorm" 
+	dynasty=12
+	religion="aslan"
+	culture="centaur"
+	add_trait="mastermind_theologian"
+	add_trait="kind"
+	add_trait="brave"
+	add_trait="scholar"
+	add_trait="strong"
+	add_trait="zealous"
+	add_trait="cavalry_leader"
+	add_trait="proud"
+	martial=12
+	2258.4.4={
+		birth="2258.4.4"
+	}
+	2279.9.14={
+		add_spouse=60004
+	}
+	2342.8.22={
+		death="2342.8.22"
+	}
+}
+60004 = {
+	name="Windmane" 
+	female=yes
+	religion="aslan"
+	culture="centaur"
+	add_trait="kind"
+	add_trait="brave"
+	add_trait="strong"
+	add_trait="cavalry_leader"
+	2261.5.11={
+		birth="2261.5.11"
+	}
+	2345.7.17={
+		death="2345.7.17"
+	}
+}
+60005 = {
+	name="Ironhoof"
+	dynasty=12
+	religion="aslan"
+	culture="centaur"
+	add_trait="strong"
+	father=60003
+	mother=60004
+	2281.4.21={
+		birth="2281.4.21"
+	}
+	2351.4.9={
+		death="1036.4.9"
+	}
+}
+60006 = {
+	name="Suncloud"
+	dynasty=12
+	religion="aslan"
+	culture="centaur"
+	father=60003
+	mother=60004
+	2282.4.21={
+		birth="2282.4.21"
+	}
+	2364.4.9={
+		death="1036.4.9"
+	}
+}
+60007 = {
+	name="Rainstone"
+	dynasty=12
+	religion="aslan"
+	culture="centaur"
+	father=60003
+	mother=60004
+	add_trait="brave"
+	add_trait="strong"
+	add_trait="cavalry_leader"
+	2284.4.21={
+		birth="2284.4.21"
+	}
+	2302.4.9={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+60008 = {
+	name = "Oreius"
+	dynasty = 12
+	religion = "aslan"
+	culture = "centaur"
+	#father = 60003
+	#mother = 60004
+	martial = 13
+	add_trait = "brave"
+	add_trait = "strong"
+	add_trait = "proud"
+	add_trait = "zealous"
+	954.7.18 = {
+		birth = "954.7.18"
+	}
+	1022.8.17 = {
+		death = "1022.8.17"
+	}
+}
+60009 = {
+	name = "Oreius"
+	dynasty = 12
+	religion = "aslan"
+	culture = "centaur"
+	father = 60008
+	#mother = 60004
+	stewardship = 10
+	martial = 11
+	add_trait = "proud"
+	998.1.12 = {
+		birth = "998.1.12"
+	}
+	1082.4.27 = {
+		death="1082.4.27"
+	}
+}
+60010 = {
+	name = "Stonemane"
+	dynasty = 12
+	religion = "aslan"
+	culture = "centaur"
+	father = 60009
+	#mother=60004
+	#add_trait="brave"
+	1022.2.27 = {
+		birth = "1022.2.27"
+	}
+	1102.8.1 = {
+		death = "1082.8.1"
+	}
+}
+60120 = {
+	name="Stonehelm"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	dna="rubrsknmbip"
+	martial=13
+	#father=60009
+	#mother=60004
+	add_trait="dwarf_culture"
+	963.8.30={
+		birth="963.8.30"
+	}
+	1204.9.12={
+		death="1204.9.12"
+	}
+}
+60121 = {
+	name="Ironfist"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60120
+	#mother=60004
+	add_trait="dwarf_culture"
+	1124.2.14={
+		birth="1124.2.14"
+	}
+	1423.10.26={
+		death="1423.10.26"
+	}
+}
+60122 = {
+	name="Ironhammer"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60121
+	#mother=60004
+	add_trait="dwarf_culture"
+	1241.4.14={
+		birth="1241.4.14"
+	}
+	1572.5.17={
+		death="1572.5.17"
+	}
+}
+60123 = {
+	name="Coalaxe"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60122
+	#mother=60004
+	add_trait="dwarf_culture"
+	1468.9.23={
+		birth="1468.9.23"
+	}
+	1682.8.25={
+		death="1682.8.25"
+	}
+}
+60124 = {
+	name="Coalaxe"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60123
+	#mother=60004
+	add_trait="dwarf_culture"
+	1594.4.4={
+		birth="1594.4.4"
+	}
+	1816.11.9={
+		death="1816.11.9"
+	}
+}
+60125 = {
+	name="Ironhammer"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60124
+	#mother=60004
+	add_trait="dwarf_culture"
+	1756.6.27={
+		birth="1756.6.27"
+	}
+	1939.4.18={
+		death="1939.4.18"
+	}
+}
+60126 = {
+	name="Goldfist"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60125
+	#mother=60004
+	add_trait="dwarf_culture"
+	1901.2.13={
+		birth="1901.2.13"
+	}
+	2194.8.24={
+		death="2194.8.24"
+	}
+}
+60127 = {
+	name="Ironaxe"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60126
+	#mother=60004
+	add_trait="dwarf_culture"
+	2052.6.21={
+		birth="2052.6.21"
+	}
+	2328.9.3={
+		death="2328.9.3"
+	}
+}
+60128 = {
+	name="Stonehelm"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60127
+	#mother=60004
+	add_trait="dwarf_culture"
+	2201.9.9={
+		birth="2201.9.9"
+	}
+	2436.4.24={
+		death="2436.4.24"
+	}
+}
+60129 = {
+	name="Goldfist"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60120
+	#mother=60004
+	add_trait="dwarf_culture"
+	999.12.22={
+		birth="999.12.22"
+	}
+	1321.9.3={
+		death="1423.10.26"
+	}
+}
+60150 = {
+	name="Rumble"
+	dynasty=80
+	religion="aslan"
+	culture="narnian_giant"
+	#father=60127
+	#mother=60004
+	#add_trait="dwarf_culture"
+	add_trait="giant_race"
+	968.2.27={
+		birth="968.2.27"
+	}
+	1021.9.10={
+		death="1021.9.10"
+	}
+}
+60200 = {
+	name="Tumon" #
+	#dynasty=1
+	historical=yes
+	religion="aslan"
+	culture="faun"
+	add_trait="faun"
+	add_trait="kind"
+	add_trait="quick"
+	martial=11
+	diplomacy=10
+	943.6.11={
+		birth="943.6.11"
+	}
+	999.12.19={
+	effect={add_friend=1014}
+	}
+	1081.7.10={
+		death="1081.7.10"
+	}
+}
+60300 = {
+	name="Swifthoof" 
+	#dynasty=12
+	religion="aslan"
+	culture="centaur"
+	add_trait="brave"
+	add_trait="strong"
+	add_trait="zealous"
+	add_trait="cavalry_leader"
+	martial=15
+	980.7.29={
+		birth="980.7.29"
+	}
+	999.12.19={
+		effect={add_friend=1014}
+	}
+	1024.2.10={
+		death="1024.2.10"
+	}
+}
+60400 = {
+	name="Sulmer" #
+	#dynasty=1
+	historical=yes
+	religion="aslan"
+	culture="faun"
+	add_trait="faun"
+	951.9.6={
+		birth="951.9.6"
+	}
+	999.12.19={
+	effect={add_friend=1014}
+	}
+	1101.5.7={
+		death="1101.5.7"
+	}
+}
+60500 = {
+	name="Blackhoof" 
+	#dynasty=12
+	religion="aslan"
+	culture="centaur"
+	add_trait="diligent"
+	add_trait="strong"
+	add_trait="zealous"
+	add_trait="cavalry_leader"
+	add_trait="impailer"
+	add_trait="brilliant_strategist"
+	martial=13
+	979.6.13={
+		birth=yes
+	}
+	999.12.19={
+		effect={add_friend=1014}
+	}
+	1036.9.22={
+		death={death_reason=death_battle}
+	}
+}
+60600 = {
+	name="Kulden" #
+	#dynasty=1
+	historical=yes
+	religion="aslan"
+	culture="faun"
+	add_trait="faun"
+	add_trait="quick"
+	add_trait="erudite"
+	912.6.26={
+		birth=yes
+	}
+	999.12.19={
+		effect={add_friend=1014}
+	}
+	1083.6.26={
+		death=yes
+	}
+}
+60650 = {
+	name="Ardon" #
+	#dynasty=1
+	#historical=yes
+	religion="aslan"
+	culture="Centaur"
+	#add_trait="centaur"
+	967.8.17={
+		birth=yes
+	}
+	999.12.19={
+		employer=1014
+	}
+	1045.8.30={
+		death=yes
+	}
+}
+60700 = {
+	name="Rodre" #
+	dynasty=201
+	#historical=yes
+	religion="aslan"
+	culture="narnian"
+	add_trait="human_race"
+	add_trait="brave"
+	add_trait="skilled_tactician"
+	add_trait="proud"
+	add_trait="gregorious"
+	966.11.26={
+		birth=yes
+	}
+	1009.4.3={
+		employer=1014
+	}
+	1035.4.19={
+		death=yes
+	}
+}
+60701 = {
+	name="Tarrin" #
+	dynasty=201
+	#historical=yes
+	religion="aslan"
+	culture="narnian"
+	father = 60700
+	mother = 60702
+	add_trait="human_race"
+	add_trait="brave"
+	add_trait="quick"
+	add_trait="fair"
+	add_trait="shy"
+	add_trait="kind"
+	add_trait="diligent"
+	add_trait="humble"
+	990.6.27={
+		birth=yes
+	}
+	1009.4.3={
+		employer=1014
+	}
+	1059.1.17={
+		death=yes
+	}
+}
+60702 = {
+	name="Marcella" #
+	#dynasty=201
+	#historical=yes
+	female = yes
+	religion="aslan"
+	culture="narnian"
+	#father = 60700
+	add_trait="human_race"
+	971.3.18={
+		birth=yes
+	}
+	989.6.17={
+		add_spouse = 60700
+	}
+	1009.4.3={
+		employer=1014
+	}
+	1041.7.3={
+		death=yes
+	}
+}
+60703 = {
+	name="Raisa" #
+	dynasty=201
+	#historical=yes
+	religion="aslan"
+	culture="narnian"
+	father = 60700
+	mother = 60702
+	female = yes
+	#add_trait="centaur"
+	991.8.7={
+		birth=yes
+	}
+	1009.4.3={
+		employer=1014
+	}
+	1056.9.7={
+		death=yes
+	}
+}
+
+60750 = {
+    name="Skyroot"
+    dynasty=204
+    religion="aslan"
+    culture="centaur"
+    935.9.26={
+        birth=yes
+    }
+    948.12.25={add_spouse=60751}
+	999.11.14={
+		death = yes
+	}
+}
+60751 = {
+    name="Worldmane"
+    religion="aslan"
+    culture="centaur"
+	female = yes
+    940.4.5={
+        birth=yes
+    }
+	1003.4.30={
+		death = yes
+	}
+}
+60752 = {
+    name="Roughrunner"
+    dynasty=204
+    religion="aslan"
+    culture="centaur"
+    father=60750
+    mother=60751
+    990.2.16={
+        birth=yes
+    }
+	1052.4.12={
+		death = yes
+	}
+}
+
+60800 = {
+    name="Durnus"
+    dynasty=205
+    religion="aslan"
+    culture="faun"
+	add_trait = "faun"
+    915.3.15={
+        birth=yes
+	}
+    930.7.34={
+		add_spouse=60801
+    }
+	1072.3.27={
+		death = yes
+	}
+}
+60801 = {
+    name="Alnea"
+    religion="aslan"
+    culture="faun"
+	add_trait = "faun"
+	female=yes
+    918.2.19={
+        birth=yes
+    }
+	1054.4.12={
+		death = yes
+	}
+}
+60802 = {
+    name="Duaslus"
+    dynasty=205
+    religion="aslan"
+    culture="faun"
+	add_trait = "faun"
+    father=60800
+    mother=60801
+    946.7.9={
+        birth=yes
+    }
+	1102.7.12={
+		death = yes
+	}
+}
+60803 = {
+    name="Dollus"
+    dynasty=205
+    religion="aslan"
+    culture="faun"
+	add_trait = "faun"
+    father=60800
+    mother=60801
+    950.4.16={
+        birth=yes
+    }
+	1106.4.9={
+		death = yes
+	}
+}
+
+60850 = {
+    name="Silveredge"
+    dynasty=206
+    religion="aslan"
+    culture="centaur"
+    953.4.6={
+        birth=yes
+    }
+    976.12.25={add_spouse=60851}
+	1012.8.9={
+		death = yes
+	}
+}
+60851 = {
+    name="Greymight"
+    religion="aslan"
+    culture="centaur"
+    950.6.16={
+        birth=yes
+    }
+	1008.12.14={
+		death = yes
+	}
+}
+60852 = {
+    name="Shadowband"
+	dynasty=206
+    religion="aslan"
+    culture="centaur"
+    father=60850
+    mother=60851
+    980.6.16={
+        birth=yes
+	}
+	1036.4.15={
+		death = yes
+	}
+}
+60853 = {
+    name="Younghorn"
+	dynasty=206
+    religion="aslan"
+    culture="centaur"
+    father=60850
+    mother=60851
+    986.6.16={
+        birth=yes
+    }
+	1041.1.23={
+		death = yes
+	}
+}

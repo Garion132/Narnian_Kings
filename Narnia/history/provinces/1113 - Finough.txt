@@ -1,0 +1,14 @@
+# 1113 - Finough
+# County Title
+title = c_finough
+# Settlements
+max_settlements = 2
+
+
+b_finough = castle
+#b_shannan_city = city
+b_temple_of_danu = temple
+
+# Misc
+culture = irish
+religion = celtic

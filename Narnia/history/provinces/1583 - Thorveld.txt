@@ -1,0 +1,14 @@
+# 1583 -Thorveld
+# County Title
+title = c_thorveld
+# Settlements
+max_settlements = 1
+
+
+b_thorveld = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

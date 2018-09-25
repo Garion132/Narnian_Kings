@@ -1,0 +1,14 @@
+# 1995 - Zuriaoc
+# County Title
+title = c_zuriaoc
+# Settlements
+max_settlements = 1
+
+
+b_zuriaoc = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = elexol
+religion = eline

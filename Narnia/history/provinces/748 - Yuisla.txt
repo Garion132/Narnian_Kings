@@ -1,0 +1,13 @@
+# 748 - Yuisla
+# County Title
+title = c_yuisla
+# Settlements
+max_settlements = 3
+
+b_yuisla = castle
+#b_lower_ilkeen = city
+b_temple_of_yuisla = temple
+
+# Misc
+culture = calormen
+religion = southern_calormen_cults

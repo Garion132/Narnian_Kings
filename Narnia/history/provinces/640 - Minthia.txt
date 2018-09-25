@@ -1,0 +1,13 @@
+# 640 - Minthia
+# County Title
+title = c_minthia
+# Settlements
+max_settlements = 1
+
+b_minthia = tribal
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = chionmen
+religion = white_witch

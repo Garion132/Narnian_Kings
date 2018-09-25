@@ -1,0 +1,4 @@
+881.6.24={
+	liege = d_west_dereshia
+}
+

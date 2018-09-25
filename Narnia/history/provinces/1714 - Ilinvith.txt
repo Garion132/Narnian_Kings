@@ -1,0 +1,14 @@
+# 1714 - Ilinvith
+# County Title
+title = c_ilinvith
+# Settlements
+max_settlements = 1
+
+
+b_ilinvith = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

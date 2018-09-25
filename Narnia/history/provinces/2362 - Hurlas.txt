@@ -1,0 +1,14 @@
+# 2362 - Hurlas
+# County Title
+title = c_hurlas
+# Settlements
+max_settlements = 1
+
+
+b_hurlas = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

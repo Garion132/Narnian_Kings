@@ -1,0 +1,18 @@
+1.1.1={
+	law = succ_gavelkind
+}
+750.1.1 = {
+	liege = e_dylis_tiral
+}
+900.1.1 = {
+	holder = 82054
+}
+939.7.28 = {
+	holder = 82055
+}
+966.9.24 = {
+	holder = 82056
+}
+985.6.21 = {
+	holder = 82058
+}

@@ -1,0 +1,14 @@
+# 2325 - The Palisades
+# County Title
+title = c_the_palisades
+# Settlements
+max_settlements = 1
+
+
+b_the_palisades = castle
+b_palisade_city = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

@@ -1,0 +1,10 @@
+900.6.6={
+	liege = d_ti_arwai
+}
+951.6.2={
+	#liege = k_holyside
+	holder = 85550
+}
+990.4.30 = {
+	holder = 85600
+}

@@ -1,0 +1,15 @@
+# 1540 - Sommerset Lost
+# County Title
+title = c_sommerset_lost
+# Settlements
+max_settlements = 1
+
+
+#b_malenkith = city
+b_sommerset_lost = castle
+#b_shannan_city = city
+#b_nordvin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

@@ -1,0 +1,13 @@
+# 937 - Foreshia
+# County Title
+title = c_foreshia
+# Settlements
+max_settlements = 5
+
+b_foreshia = castle
+b_foreshiown = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = tellan

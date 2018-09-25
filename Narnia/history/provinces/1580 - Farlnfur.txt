@@ -1,0 +1,14 @@
+# 1580 -Farlnfur
+# County Title
+title = c_farlnfur
+# Settlements
+max_settlements = 1
+
+
+b_farlnfur = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

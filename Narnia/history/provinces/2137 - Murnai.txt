@@ -1,0 +1,20 @@
+# 2137 - Murnai
+# County Title
+title = c_murnai
+# Settlements
+max_settlements = 2
+
+
+b_murnai = castle
+#b_malenkith = city
+b_miru = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi
+996.6.9={
+	culture = kingiongaiwi
+}
+1012.6.9={
+	religion = purakau_ao_kohatu
+}

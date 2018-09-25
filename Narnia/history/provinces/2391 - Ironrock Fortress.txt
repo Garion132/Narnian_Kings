@@ -1,0 +1,14 @@
+# 2391 - Ironrock Fortress
+# County Title
+title = c_ironrock_fortress
+# Settlements
+max_settlements = 4
+
+
+b_ironrock_fortress = castle
+b_ironstone = city
+b_ostid = temple
+
+# Misc
+culture = cerek
+religion = eline

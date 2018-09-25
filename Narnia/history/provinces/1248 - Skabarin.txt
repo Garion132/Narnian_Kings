@@ -1,0 +1,14 @@
+# 1248 - Skabarin
+# County Title
+title = c_skabarin
+# Settlements
+max_settlements = 1
+
+
+b_skabarin = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

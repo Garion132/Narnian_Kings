@@ -1,0 +1,17 @@
+# 404 - Cyllaria
+# County Title
+title = c_cyllaria
+# Settlements
+max_settlements = 1
+
+b_cyllaria = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = centaur
+religion = aslan
+2.1.1={
+	b_cyllaria = ca_centuarian_armory_1
+	b_cyllaria = ca_centuarian_fort_1
+}

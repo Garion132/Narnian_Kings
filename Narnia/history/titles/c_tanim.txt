@@ -1,0 +1,6 @@
+859.3.5={
+	liege = d_cereksword
+}
+997.3.4={
+	holder = 125800
+}

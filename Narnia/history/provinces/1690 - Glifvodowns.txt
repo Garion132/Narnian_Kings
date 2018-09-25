@@ -1,0 +1,14 @@
+# 1690 - Glifvodowns
+# County Title
+title = c_glifvodowns
+# Settlements
+max_settlements = 1
+
+
+b_glifvodowns = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = pamyatrossii

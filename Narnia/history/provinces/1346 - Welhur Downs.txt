@@ -1,0 +1,14 @@
+# 1346 - Welhur Downs
+# County Title
+title = c_welhur_downs
+# Settlements
+max_settlements = 1
+
+
+b_welhur_downs = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

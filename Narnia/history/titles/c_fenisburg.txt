@@ -1,0 +1,9 @@
+800.1.1={
+	liege = k_tilderrend
+}
+930.1.1={
+	liege = k_kariavith
+}
+989.5.29={
+	holder = 90100
+}

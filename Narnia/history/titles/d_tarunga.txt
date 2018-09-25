@@ -1,0 +1,4 @@
+993.3.27 = {
+	holder = 85900
+	liege = e_kingitangahou
+}

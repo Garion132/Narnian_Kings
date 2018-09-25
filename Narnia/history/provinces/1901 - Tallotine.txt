@@ -1,0 +1,15 @@
+# 1901 - Tallotine
+# County Title
+title = c_tallotine
+# Settlements
+max_settlements = 4
+
+
+b_tallotine = castle
+b_tallotari = city
+b_taouras = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

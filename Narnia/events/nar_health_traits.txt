@@ -1,0 +1,47 @@
+namespace = nar_health
+
+character_event = { #
+	id = nar_health.1
+	desc = "EVTDESCnar_health1"
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	min_age = 45
+	is_female = yes
+	
+	trigger = {
+	is_female = yes
+	NOT = {
+		AND = {
+			trait = pregnant
+			trait = female_infertility
+		}
+	}
+	OR = {
+		AND = {##if has human life span and over 45 
+			age = 45
+			NOT = {
+				OR = {
+					trait = dwarf_culture
+					trait = faun
+					trait = line_of_charn
+					trait = star
+				}
+			}
+		}
+		AND = {##if faun and over 100
+			age = 100
+			trait = faun
+		}
+		AND = {##if dwaven and over 150
+			age = 150
+			trait = dwarf_culture
+		}
+	}
+	}
+	option = {
+		name = "EVTOPTAnar_health.1"
+		add_trait = female_infertility
+	}
+}

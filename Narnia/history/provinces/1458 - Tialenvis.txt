@@ -1,0 +1,14 @@
+# 1458 - Tialenvis
+# County Title
+title = c_tialenvis
+# Settlements
+max_settlements = 2
+
+
+b_tialenvis = tribal
+#b_shannan_city = city
+b_lavuri = temple
+
+# Misc
+culture = uyirian
+religion = lavurite

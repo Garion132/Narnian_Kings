@@ -1,0 +1,14 @@
+# 1557 - Duradium
+# County Title
+title = c_duradium
+# Settlements
+max_settlements = 1
+
+
+b_duradium = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

@@ -1,0 +1,6 @@
+859.3.5={
+	liege = k_stjernehimmelen
+}
+989.3.7 = {
+	holder = 95001
+}

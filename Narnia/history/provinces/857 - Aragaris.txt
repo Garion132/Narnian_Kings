@@ -1,0 +1,13 @@
+# 857 - Aragaris
+# County Title
+title = c_aragaris
+# Settlements
+max_settlements = 1
+
+b_aragaris = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

@@ -1,0 +1,13 @@
+# 512 - Ettinsgate
+# County Title
+title = c_ettinsgate
+# Settlements
+max_settlements = 1
+
+b_ettinsgate = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch

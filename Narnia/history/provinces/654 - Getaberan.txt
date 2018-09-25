@@ -1,0 +1,14 @@
+# 654 - Getaberan
+
+# County Title
+title = c_getaberan
+# Settlements
+max_settlements = 1
+
+b_getaberan = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = calormen
+religion = aslan

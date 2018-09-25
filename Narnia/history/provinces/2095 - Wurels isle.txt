@@ -1,0 +1,14 @@
+# 2095 - Wurels isle
+# County Title
+title = c_wurels_isle
+# Settlements
+max_settlements = 2
+
+
+b_wurels_city = city
+b_wurels_fort = castle
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

@@ -1,0 +1,15 @@
+# 1495 - Ninenvord
+# County Title
+title = c_ninenvord
+# Settlements
+max_settlements = 1
+
+
+b_ninenvord = city
+b_ninen = castle
+#b_shannan_city = city
+b_ninensept = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

@@ -1,0 +1,13 @@
+# 823 - Casisen
+# County Title
+title = c_casisen
+# Settlements
+max_settlements = 1
+
+b_casisen = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

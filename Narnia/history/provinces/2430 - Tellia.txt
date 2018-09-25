@@ -1,0 +1,12 @@
+# 2430 - Tellia
+# County Title
+title = c_tellia
+# Settlements
+max_settlements = 3
+
+b_tellia = castle
+
+
+# Misc
+culture = telmarine
+religion = tellan

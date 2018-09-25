@@ -1,0 +1,225 @@
+#For tributary types with breaks_at_suzerain_death = yes add the type to JD.60015 for the notification event
+
+default = {
+	tributary_name = TRIBUTARY_DEFAULT_NAME
+	tributary_plural = TRIBUTARY_DEFAULT_PLURAL
+	suzerain_name = SUZERAIN_DEFAULT_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = yes
+	breaks_at_tributary_death = no
+	suzerain_must_defend = no
+	tributary_can_be_summoned = yes
+	tributary_must_defend = yes
+	tributaries_can_infight = yes
+	suzerain_can_join_infighting = yes
+	tributaries_can_unite = no
+	breaks_on_realm_change = yes
+	icon = 7
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.4
+	}
+	reinforce_tribute_percentage = {
+		value = 0
+	}
+	prestige_to_suzerain = {
+		value = 0
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
+
+permanent = {
+	tributary_name = TRIBUTARY_PERMANENT_NAME
+	tributary_plural = TRIBUTARY_PERMANENT_PLURAL
+	suzerain_name = SUZERAIN_PERMANENT_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = yes
+	suzerain_can_join_infighting = no
+	tributary_can_be_summoned = no
+	tributary_must_defend = no
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 10
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.20
+	}
+	reinforce_tribute_percentage = {
+		value = 0.15
+	}
+	prestige_to_suzerain = {
+		value = 0
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
+
+# Note - Characters set as vassals to nomads who are a different culture will end up this tributary type if Horse Lords is enabled
+# This is hardcoded
+nomadic = {
+	tributary_name = TRIBUTARY_NOMADIC_NAME
+	tributary_plural = TRIBUTARY_NOMADIC_PLURAL
+	suzerain_name = SUZERAIN_NOMADIC_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = no
+	tributary_can_be_summoned = yes
+	tributary_must_defend = no
+	tributaries_can_infight = yes
+	suzerain_can_join_infighting = yes
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 10
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.50
+	}
+	reinforce_tribute_percentage = {
+		value = 0
+	}
+	prestige_to_suzerain = {
+		value = 0.3
+	}
+	prestige_to_tributary = {
+		value = -0.3
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
+
+satellite_state = {
+	tributary_name = TRIBUTARY_SATELLITE_STATE_NAME
+	tributary_plural = TRIBUTARY_SATELLITE_STATE_PLURAL
+	suzerain_name = SUZERAIN_SATELLITE_STATE_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = yes
+	suzerain_can_join_infighting = no
+	tributary_can_be_summoned = no
+	tributary_must_defend = no
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 10
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.0
+	}
+	reinforce_tribute_percentage = {
+		value = 0.0
+	}
+	prestige_to_suzerain = {
+		value = 0.2
+	}
+	prestige_to_tributary = {
+		value = 0.5
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
+
+autonomous_vassal = {
+	tributary_name = TRIBUTARY_AUTONOMOUS_VASSAL_NAME
+	tributary_plural = TRIBUTARY_AUTONOMOUS_VASSAL_PLURAL
+	suzerain_name = SUZERAIN_AUTONOMOUS_VASSAL_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = yes
+	suzerain_must_defend = yes
+	suzerain_can_be_called = yes
+	suzerain_can_join_infighting = no
+	tributary_can_be_summoned = yes
+	tributary_must_defend = yes
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 10
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.0
+	}
+	reinforce_tribute_percentage = {
+		value = 0.2
+	}
+	prestige_to_suzerain = {
+		value = 0.2
+	}
+	prestige_to_tributary = {
+		value = 0.5
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
+imperial_automonous_vassal = {
+	tributary_name = TRIBUTARY_IMPERIAL_AUTONOMOUS_VASSAL_NAME
+	tributary_plural = TRIBUTARY_IMPERIAL_AUTONOMOUS_VASSAL_PLURAL
+	suzerain_name = SUZERAIN_IMPERIAL_AUTONOMOUS_VASSAL_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_can_join_infighting = no
+	suzerain_must_defend = yes
+	suzerain_can_be_called = yes
+	suzerain_can_join_infighting = no
+	tributaries_can_infight = yes
+	tributary_can_be_summoned = yes
+	tributary_must_defend = yes
+	tributaries_can_unite = yes
+	breaks_on_realm_change = yes
+	icon = 10
+	cbs_against_suzerain = {
+		free_tributary_cb
+	}
+	income_tribute_percentage = {
+		value = 0.0
+	}
+	reinforce_tribute_percentage = {
+		value = 0.2
+	}
+	prestige_to_suzerain = {
+		value = 0.2
+	}
+	prestige_to_tributary = {
+		value = 0.5
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0.2
+	}
+}

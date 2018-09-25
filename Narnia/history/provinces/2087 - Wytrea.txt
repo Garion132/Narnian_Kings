@@ -1,0 +1,14 @@
+# 2087 - Wytrea
+# County Title
+title = c_wytrea
+# Settlements
+max_settlements = 2
+
+
+b_wytrea_city = city
+b_wytrea = castle
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

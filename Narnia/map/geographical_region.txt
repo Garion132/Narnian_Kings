@@ -1,0 +1,317 @@
+# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+###########################################################################
+# World Regions
+#	These groups are mutually exclusive on the same tier
+###########################################################################
+
+region_narnia_proper = {
+	duchies = {
+		d_cair_paravel d_ettinsgard d_rushwood d_eponadium d_pania d_lake_telmar_towns d_aslans_how d_faunwald 
+		d_dancing_lawn d_beruna d_galma d_the_marsh d_western_wood d_sagittaria d_gryphon_vale d_limnadeon 
+		d_lantern_wastes d_minotauria d_narnian_dwarven_states d_northedge d_deepdelve d_lantern_woods
+	}
+}
+region_archenland = {
+	duchies = { 
+		d_anvard d_oreadia d_lyredale d_dellourea d_willoughby d_stormness d_gelfria d_cair_oriel d_archenbay
+	}
+}
+region_outer_narnian_islands = {
+	duchies = { 
+		d_terebinthia d_lone_islands
+	}
+}
+region_greater_archenland = {
+	duchies = {
+		d_south_archen d_arched_bays d_ankiun
+	}
+	regions = {region_archenland}
+}
+world_imperial_narnia = {
+	regions = {
+	region_archenland region_narnia_proper region_outer_narnian_islands
+	}
+}
+region_ettinsmoor = {
+	duchies = { 
+		d_east_ettinsmoor d_ettinsmoor d_north_ettins d_cyclops_hills
+	}
+}
+region_far_northern_giants = {
+	duchies = { 
+		d_giants_way d_labyrinthia d_emimoor d_harfang d_ogreia d_goblinton
+	}
+}
+region_telmar = {
+	duchies = {
+		d_telmarine_heartlands d_darvar d_salica d_lake_telmar_towns d_upper_telmarne d_lower_telmarne d_barsalain
+		d_oreaisan d_telareais d_iroseias d_falreais d_uiolais d_telarus d_aragar d_telsepail
+	}
+}
+region_koralis = {
+	duchies = {
+		d_liolid d_koralis d_reunia
+	}
+}
+region_koraly = {
+	duchies = {
+		d_liolid d_koralis d_irenisa d_telhonor d_karrak d_aragoria d_telnarvarra d_veitalid d_reliusia d_koraslis
+		d_koraly d_tyiros d_leraas d_werasi d_reteopa
+	}
+}
+region_sesh = {
+	duchies = {
+		d_east_dereshia d_west_dereshia d_telkarisa d_lerishai d_jermaneia d_ililid d_quandilas d_daiashan d_daiasesh
+		d_baradisesh d_foreshia d_karresha d_nerilesh d_menaira d_shesh d_lupara d_telmansa
+		d_kerria d_iureashesh d_venarisa d_oldershesh d_kernais_coast
+	}
+}
+region_riunea = {
+	duchies = {
+		d_koralindia
+		d_koraleon
+		d_riavul
+		d_raisurval
+		d_senatelios
+		d_renadiuma
+		d_reunia
+		d_riuena
+	}
+}
+region_old_telmar = {
+	duchies = {
+		d_old_telmar
+		d_tellian_colonies
+	}
+}
+world_telmarine = {
+	regions = {
+	region_telmar region_old_telmar region_koralis region_koraly region_sesh region_riunea
+	}
+}
+region_shannan = {
+	duchies = {
+		d_shannan d_finster d_finelias d_rendoell d_malwydann
+	}
+}
+region_luna = {
+	duchies = {
+		d_lunos d_malloius
+	}
+}
+region_tridhreach = {
+	duchies = {
+		d_malought d_fenaster d_nenvenought d_leinsreach d_winderlent d_tilrend d_beriuo d_burnalis
+		d_perium d_cirona d_tyurilonea 
+	}
+}
+region_iresa = {
+	duchies = {
+		d_nemain d_finough d_taranisa d_magcabon d_ualthias
+	}
+}
+region_coast_of_the_moon = {
+	regions = {
+	region_luna region_tridhreach region_iresa
+	}
+	duchies = {
+		d_venarisa d_kernais_coast d_finster d_rendoell
+	}
+}
+region_calore = {
+	duchies = {
+		d_tashbaan d_slavers_bay d_ilkeen d_agorbah d_teeban d_tehishbaan d_desert_road d_kalorius
+		d_spur_of_calore d_arched_bays d_telazim d_azlam d_azem_balda d_ankiun d_south_archen
+	}
+}
+region_south_calore = {
+	duchies = {
+		d_dasash d_veliustash d_xesarium d_xerex d_tahvelia d_upper_kollash d_lower_kollash d_mezalisa
+		d_zelisa d_mezreel d_sudcalvar d_selousbaan d_azimbalda d_tashdreh d_eusabaan d_salzosa d_zalindreh
+		d_soutash d_mezealisa
+	}
+}
+world_caloremen = {
+	regions = {
+	region_calore region_south_calore
+	}
+}
+region_surval = {
+	duchies = {
+		d_vurntenvium d_skrellvern d_pravaris d_ulionais d_tolvenlsk d_fertasii d_tel_rendiasim d_shenddengard
+		d_stonehaven d_illinea d_oltenmark d_lowvern d_oltington d_oriltverld d_peranis d_tollingsford d_oltenton
+		d_oriltford d_renindyium d_wytemor d_perevantium d_wilnfords d_illosan_hold d_vilstalium d_varinmans_hold
+		d_hilusrua d_oltsven d_wilcanster d_ryiavith d_hilusura d_tilond d_tilderrend d_svengorod d_pellsgrove
+		d_kolsnfell d_rosenford d_sulvaris d_conton d_levnim d_archesten d_vendium d_turnveld d_vaegoran d_olinme
+		d_bulguar d_plunenven d_jinern d_ulenvin d_yuiar d_pangamatere d_marngata d_rarana d_pahukiuki
+	}
+}
+region_impara = {
+	duchies = {
+		d_impara d_uanentil d_venounght d_nenival d_selinougt d_irenought d_loghlanough
+	}
+}
+region_ua_pulioua = {
+	duchies = {
+		d_bragnina d_denivere d_dyilnster d_seniria
+	}
+}
+region_dfyird = {
+	duchies = {
+		d_dfyrid d_sepinarin d_aluought d_rivinith d_laithreain d_arlioght
+	}
+}
+world_greater_impara={
+	regions = {
+		region_dfyird region_ua_pulioua region_impara
+	}
+}
+region_denvenster = {
+	duchies = {
+		d_madide d_dal_renval d_comanought d_achilloby d_gillverny d_denbraken d_celivin
+		d_aghor
+	}
+}
+region_esvenought = {
+	duchies = {
+		d_galton d_ilithia d_doriath d_jenverith d_talenby d_algolton d_kilbunserby
+		d_tyrawlny
+	}
+}
+region_norcencer = {
+	duchies = {
+		d_rilen d_keldalry d_rolffe d_patrick_downs d_molurin d_duhaluo d_moysenford
+		d_new_kildare d_ua_shesought d_malwydann
+	}
+}
+region_old_dylis = {
+	duchies = {
+		d_ildrogigen d_vellaster d_eliongu d_aghanna d_calstford d_ryligh d_old_dylis
+		d_claruis d_svelcuster d_calsthime d_athmle d_dolcalster
+	}
+}
+region_karinster = {
+	duchies = {
+		d_karin d_ralingslnby d_colinafel d_ui_celtds d_welhur d_ililid
+	}
+}
+world_dylis = {
+	regions = {
+		region_denvenster region_esvenought region_norcencer region_old_dylis region_karinster
+	}
+}
+region_snake_river = {
+	duchies = {
+		d_ralenvict d_kenitgrad d_koltenite d_nova_petersburg d_fernv d_uiralos d_lenenban
+		d_kolztmere d_kregensburg d_kreulinburg d_nova_arkhangelsk d_fernasburg d_zenius
+		d_ilioza
+	}
+}
+
+region_mellounian_plains = {
+	duchies = {
+		d_koltude d_vainin d_vachis d_zaien d_vairsdeep d_kaira d_tolain d_drailing d_marsana
+		d_calavaer d_ziore d_xeoa d_iros d_jei d_slrten d_nopl d_aquntae d_gulrus d_tolnse
+		d_jelvar d_hathian d_linvar d_littare d_vurea d_mellounia d_keanxe d_solvene d_turain
+		d_surtvain d_gaolin d_waunare d_calorn d_velsaash d_callensta d_alnque d_viera d_veirain
+		d_tinna d_aelndic d_ramocla d_tarate d_serrindor d_xaria d_oplina d_adisa d_krulain d_salrten
+		d_eastern_jelvir d_licenotec d_tarchurku
+	}
+}
+region_caitli_plains = {
+	duchies = {
+		d_rari d_rewara d_ti_arwai d_teopua d_ihokara d_whiroaroa d_inawhana d_pauhana d_hoporunga
+		d_ngapaua
+	}
+}
+region_ranane_coast = {
+	duchies = {
+		d_werou d_lourunga d_tarunga d_te_arahou d_lioava d_oduranda d_haruu
+		d_oyua d_fulrim
+	}
+}
+region_henin_hills = {
+	duchies = {
+		d_ohaua d_tauara d_heniwa d_kanaehana d_curilu d_ohekuha d_kokeanke d_tearonga
+		d_iniwhua d_ugisua
+	}
+}
+world_sudylis = {
+	regions = {
+	region_henin_hills region_ranane_coast region_caitli_plains
+	}
+}
+region_almard_point = {
+	duchies = {
+		d_nixo d_oua d_nicho d_xura d_maru d_aroda d_tealnfoyu d_shearsverd
+		d_frostsvar d_amocaal d_arnufold d_grimsmoor d_olkush d_zarenvord
+	}
+}
+region_ienor = {
+	duchies = {
+		d_pulirao d_chihara d_konayowa d_karainmere d_new_hardrad
+		d_westweld d_tovan d_pulrath d_laire d_amunimas d_ienor d_dulraith
+		d_encarnin
+	}
+}
+region_sorverd = {
+	duchies = {
+		d_voluun d_new_falkreath d_ilenad d_caelorn d_fjorhelm d_garnsholme
+		d_dolveld d_coleos d_cartheld d_ramsreach d_loddin d_volaamin
+		d_coldwinds d_southreach d_uliinrac d_hreinttjornur d_woldheath
+	}
+}
+region_ostmarch = {
+	duchies = {
+		d_ostenfords d_kostenfort d_oluim d_narnvaith d_aarnta d_ostvenr d_verene
+		d_palenvii d_taleni d_lryu d_perastium d_calternspoint d_tluniea d_whitefell
+		d_duradium d_kolvarfell d_sveagard d_keldain d_olisiso d_artsveld d_malenkith
+		d_tenvimdun
+	}
+}
+region_valuna = {
+	duchies = {
+		d_orena d_valune d_tarenilis d_xeanme d_tarensant d_surr d_alunre d_valdenir
+		d_rynvell
+	}
+}
+region_eslia = {
+	duchies = {
+		d_selcun d_lopiar d_rulailn d_belsana d_narwind d_reachvell d_tarnea d_goldfang
+		d_carnsholme d_wytraburned d_kourn d_miliro d_puliran d_laninsstier d_cliroin
+		d_erlias d_goldwall d_bluevine d_molira d_nillium d_garlinmine d_ryene d_xuras
+	}
+}
+region_obun_coast = {
+	duchies = {
+		d_queiasli d_saiuru d_varuquea d_chaliaru d_tanltican d_wuiyea d_jliraas
+	}
+}
+region_elexol_coast = {
+	duchies = {
+		d_xulio d_puroi d_tzuarsitian d_tiairalc d_varianoc d_queiaoc
+		d_tuiarloa d_zuriaoc d_niklrau
+	}
+}
+region_western_quellio = {
+	duchies = {
+		d_lyju d_cereksword d_hotwater_plains d_gaven d_salina d_jademines d_ironfall
+		d_daener d_totarne d_aesirs d_caenir d_zaenr d_reanor d_verak d_yark d_enara
+		d_salchan d_gult d_neuri d_synn d_acfor d_minas_velda d_telair d_crennor d_salent
+		d_sanica d_vesine d_tain d_ciloni d_helimin d_cape_of_aedrs d_stormrock_reach
+		d_the_towers d_olbols d_loxoa d_nolsthime d_bridge_islands
+	}
+}
+
+world_eastern_coast = {
+	regions = {
+	region_archenland region_narnia_proper world_caloremen
+	}
+}

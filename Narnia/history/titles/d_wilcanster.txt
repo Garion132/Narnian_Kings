@@ -1,0 +1,9 @@
+#800.5.9={
+#	liege = k_hokubukyowakoku
+#}
+800.5.9={
+	de_jure_liege = k_tilderrend
+}
+921.3.18={
+	de_jure_liege = k_oriltford
+}

@@ -1,0 +1,14 @@
+# 678 - Azem Rashdals
+
+# County Title
+title = c_azem_rashdals
+# Settlements
+max_settlements = 1
+
+b_azem_rashdals = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

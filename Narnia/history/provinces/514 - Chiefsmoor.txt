@@ -1,0 +1,19 @@
+# 514 - Chiefsmoor
+# County Title
+title = c_chiefsmoor
+# Settlements
+max_settlements = 1
+
+b_chiefsmoor = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch
+
+425.4.12={
+	b_chiefsmoor = ca_keep_1
+	b_chiefsmoor = ca_keep_2
+	b_chiefsmoor = ca_wall_1
+}

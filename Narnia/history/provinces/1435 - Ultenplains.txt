@@ -1,0 +1,14 @@
+# 1435 - Ultenplains
+# County Title
+title = c_ultenplains
+# Settlements
+max_settlements = 1
+
+
+b_ultenplains = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = denols

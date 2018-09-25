@@ -1,0 +1,97 @@
+technology = {
+	titles = {
+		d_vachis
+		d_koltude
+		d_vainin
+		d_zaien
+		d_vairsdeep
+		d_krulain
+		d_adisa
+		d_tolain
+		d_drailing
+		d_kaira
+		d_marsana
+		d_calavaer
+		d_oplina
+		d_viera
+		d_tinna
+		d_aelndic
+		d_ramocla
+		d_tarate
+		d_serrindor
+		d_veirain
+		d_xeoa
+		d_ziore
+		d_calavaer
+		d_marsana
+		d_salrten
+		
+	}
+	200 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 6.5
+		economy = 6.5
+		culture = 6.5
+	}
+}
+technology = {
+	titles = {
+		d_mellounia
+	}
+	200 = {
+		military = 0.6
+		economy = 0.6
+		culture = 0.6
+	}	
+	2555 = {
+		military = 8
+		economy = 8
+		culture = 8
+	}
+}
+}
+technology = {
+	titles = {
+		d_jelvar
+		d_hathian
+		d_linvar
+		d_xaria
+		d_littare
+		d_vurea
+		d_keanxe
+		d_solvene
+	}
+	200 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 4
+		economy = 4
+		culture = 4
+	}
+}
+technology = {
+	titles = {
+		d_tolnse
+		d_aquntae
+		d_gulrus
+		d_solvene
+		d_keanxe
+	}
+	200 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 5.3
+		economy = 5.3
+		culture = 5.3
+	}
+}

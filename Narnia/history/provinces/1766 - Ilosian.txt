@@ -1,0 +1,14 @@
+# 1766 - Ilosian
+# County Title
+title = c_ilosian
+# Settlements
+max_settlements = 1
+
+
+b_ilosian = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = jelvar
+religion = tarutarin

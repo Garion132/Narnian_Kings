@@ -1,0 +1,13 @@
+# 381 - Maenadia
+# County Title
+title = c_maenadia
+# Settlements
+max_settlements = 1
+
+b_maenadia = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = faun
+religion = aslan

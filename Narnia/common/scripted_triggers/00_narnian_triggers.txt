@@ -1,0 +1,78 @@
+#Found in the 00_offmap_powers file... and the conditions for the decisions
+german_offmap_boon_decisions_enabled_trigger = {
+	german_offmap_decisions_enabled_trigger = yes
+	custom_tooltip = {
+		text = german_offmap_boon_decisions_enabled_trigger_cd_tt #From is player character
+		FROM = { NOT = { has_character_modifier = jd_german_boon_cd } } #boon cooldown, which is set in each decision (one year!)...
+	}
+}
+
+#Found in the 00_offmap_powers file... and the conditions for the decisions, use custom tooltip for that decisions cooldown modifier
+german_offmap_tribute_decisions_enabled_trigger = {
+	german_offmap_decisions_enabled_trigger = yes
+}
+
+#What goes into the two triggers above...
+german_offmap_decisions_enabled_trigger = { 
+	offmap_germany = {
+		NOT = { has_policy = germany_closed_portal }
+		custom_tooltip = {
+			text = german_offmap_decisions_enabled_trigger_war_tt #"Is at peace with §Y[From.GetTitledFirstName]§!"
+			NOT = { governor = { war_with = FROM } }
+		}
+		governor = {
+			show_scope_change = no
+			is_within_diplo_range = FROM
+			hidden_trigger  = { NOT = { character = FROM } } #Governor cannot use boon/tributes decisions
+		}
+	}
+	hidden_trigger = { has_dlc = "Jade Dragon" }
+	conditional_tooltip = { 
+		trigger = { FROM = { primary_title = { has_title_flag = rogue_general_title } } }
+		custom_tooltip = { 
+			text = german_offmap_decisions_pretender_emperor_tt
+			always = no
+		}
+	}
+}
+
+provence_has_gold_mines = {
+	FROMFROM = { 
+		OR = {
+			title = b_deepdelve
+			title = b_northmines
+			title = b_gaochar
+			title = b_lyredale
+			title = b_gath
+			title = b_telmaris
+			title = b_hutiash
+			title = b_lughis
+			title = b_adisa
+			title = b_terebinthia_outskirta
+		}
+	}
+}
+
+provence_has_sliver_mines = {
+	FROMFROM = { 
+		OR = {
+			title = b_minurough
+			title = b_minthia
+			title = b_te_puka
+			title = b_miner_downs
+			title = b_cartheld
+			title = b_amunimas
+			title = b_rendiasim
+			title = b_xaebaldas
+			title = b_goblinton
+			title = b_nixia
+			title = b_conolfuffs
+			title = b_draconhols
+			title = b_asteria
+			title = b_zaland
+			title = b_lopiarn
+			title = b_serital
+			title = b_cape_of_silver
+		}
+	}
+}

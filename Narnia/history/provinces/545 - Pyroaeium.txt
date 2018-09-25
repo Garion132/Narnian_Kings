@@ -1,0 +1,13 @@
+# 545 - Pyroaeium
+# County Title
+title = c_pyroaeium
+# Settlements
+max_settlements = 2
+
+b_pyroaeium = castle
+#b_tanin = city
+b_pyroaentum = temple
+
+# Misc
+culture = outer_islander
+religion = dragon_worship

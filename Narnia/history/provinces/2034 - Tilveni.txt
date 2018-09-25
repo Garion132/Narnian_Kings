@@ -1,0 +1,14 @@
+# 2034 - Tilveni
+# County Title
+title = c_tilveni
+# Settlements
+max_settlements = 1
+
+
+b_tilveni = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

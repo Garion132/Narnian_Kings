@@ -1,0 +1,14 @@
+# 2310 - Salvations End
+# County Title
+title = c_salvations_end
+# Settlements
+max_settlements = 1
+
+
+b_salvations_end = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

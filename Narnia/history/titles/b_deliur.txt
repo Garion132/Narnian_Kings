@@ -1,0 +1,16 @@
+300.1.1={
+	holding_dynasty = 16
+	liege="d_lone_islands"
+}
+2163.7.28={
+	holder=70020
+}
+2229.10.14={
+	holder=70021
+}
+2259.4.21={
+	holder=70022
+}
+2291.1.11={
+	holder=70023
+}

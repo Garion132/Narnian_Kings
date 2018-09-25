@@ -1,0 +1,9 @@
+600.1.2={
+	liege=d_upper_telmarne
+}
+973.3.2 = {
+	holder=31300
+}
+1026.10.25 = {
+	holder=31301
+}

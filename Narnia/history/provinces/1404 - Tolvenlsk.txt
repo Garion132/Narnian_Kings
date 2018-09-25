@@ -1,0 +1,14 @@
+# 1404 - Tolvenlsk
+# County Title
+title = c_tolvenlsk
+# Settlements
+max_settlements = 1
+
+
+b_tolvenlsk = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

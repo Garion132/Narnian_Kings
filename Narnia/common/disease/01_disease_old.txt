@@ -1,0 +1,3 @@
+# This file holds the diseases from before The Reaper's due, with all the old values
+# note the "rip = no" -- this will exclude a disease from The Reaper's Due disease database, so that we can have both versions of the disease
+# if "rip" is not specified, the disease will be available in both version (with the same values in both) and doesn't need to be set twice

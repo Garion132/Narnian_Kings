@@ -1,0 +1,14 @@
+# 591 - Orangia
+
+# County Title
+title = c_orangia
+# Settlements
+max_settlements = 1
+
+b_orangia = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = archen
+religion = aslan

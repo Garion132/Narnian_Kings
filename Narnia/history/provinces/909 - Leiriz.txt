@@ -1,0 +1,13 @@
+# 909 - Leiriz
+# County Title
+title = c_leiriz
+# Settlements
+max_settlements = 1
+
+b_leiriz = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

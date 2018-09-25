@@ -1,0 +1,14 @@
+# 689 - Norcalor
+
+# County Title
+title = c_norcalor
+# Settlements
+max_settlements = 1
+
+b_norcalor = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,14 @@
+# 2283 - Neamn
+# County Title
+title = c_neamn
+# Settlements
+max_settlements = 1
+
+
+b_neamn = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = quallis

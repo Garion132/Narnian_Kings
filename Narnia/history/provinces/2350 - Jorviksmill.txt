@@ -1,0 +1,14 @@
+# 2350 - Jorviksmill
+# County Title
+title = c_jorviksmill
+# Settlements
+max_settlements = 1
+
+
+b_jorviksmill = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

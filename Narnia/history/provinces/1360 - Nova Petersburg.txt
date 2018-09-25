@@ -1,0 +1,14 @@
+# 1360 - Nova Petersburg
+# County Title
+title = c_nova_petersburg
+# Settlements
+max_settlements = 2
+
+
+b_nova_petersburg = castle
+#b_shannan_city = city
+b_peterscathedral = temple
+
+# Misc
+culture = muzhchinzmei
+religion = pamyatrossii

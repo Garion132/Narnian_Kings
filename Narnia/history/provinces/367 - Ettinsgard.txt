@@ -1,0 +1,18 @@
+# 367 - Ettinsgard
+
+# County Title
+title = c_ettinsgard
+# Settlements
+max_settlements = 1
+
+b_ettinsgard = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan
+
+2180.1.1={
+culture = telmarine
+}

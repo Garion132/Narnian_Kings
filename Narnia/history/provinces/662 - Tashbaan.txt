@@ -1,0 +1,51 @@
+# 662 - Tashbaan
+
+# County Title
+title = c_tashbaan
+# Settlements
+max_settlements = 7
+
+b_palace_of_the_tisroc = castle
+b_tashbaan = city
+b_high_temple_of_tash = temple
+b_tashbaan_tombs = temple
+b_tashbaan_outer_ring = city
+b_tashbaan_suburbs = castle
+
+# Misc
+culture = calormen
+religion = tash
+
+597.1.1={
+	b_palace_of_the_tisroc = ca_tisroc_palace
+	b_palace_of_the_tisroc = ca_keep_1
+	b_palace_of_the_tisroc = ca_keep_2
+	b_palace_of_the_tisroc = ca_keep_3
+	b_palace_of_the_tisroc = ca_training_grounds_1
+	b_palace_of_the_tisroc = ca_stable_1
+	b_palace_of_the_tisroc = ca_wall_1
+	b_palace_of_the_tisroc = ca_wall_2
+	b_palace_of_the_tisroc = ca_wall_3
+	b_palace_of_the_tisroc = ca_wall_4
+	b_palace_of_the_tisroc = ca_wall_5
+	b_palace_of_the_tisroc = ca_militia_barracks_1
+	b_palace_of_the_tisroc = ca_barracks_1
+	b_palace_of_the_tisroc = ca_barracks_2
+	b_palace_of_the_tisroc = ca_barracks_3
+	b_palace_of_the_tisroc = ca_town_1
+	b_palace_of_the_tisroc = ca_town_2
+	b_palace_of_the_tisroc = ca_town_3
+	b_palace_of_the_tisroc = ca_town_4
+	b_palace_of_the_tisroc = ca_town_5
+	b_palace_of_the_tisroc = ca_town_6
+	b_tashbaan_suburbs = ca_wall_1
+	b_tashbaan_suburbs = ca_wall_2
+	b_tashbaan_suburbs = ca_barracks_1
+	b_tashbaan_suburbs = ca_barracks_2
+	b_tashbaan_suburbs = ca_barracks_3
+	b_tashbaan_suburbs = ca_town_1
+	b_tashbaan_suburbs = ca_town_2
+	b_tashbaan_suburbs = ca_town_3
+	b_tashbaan_suburbs = ca_town_4
+	b_tashbaan_suburbs = ca_town_5
+}

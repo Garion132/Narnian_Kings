@@ -1,0 +1,13 @@
+# 779 - Xexsoros
+# County Title
+title = c_xexsoros
+# Settlements
+max_settlements = 1
+
+b_xexsoros = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = western_calormen_cults

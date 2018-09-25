@@ -1,0 +1,14 @@
+# 2277 - Aevium
+# County Title
+title = c_aevium
+# Settlements
+max_settlements = 1
+
+
+b_aevium = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = quallis

@@ -1,0 +1,14 @@
+# 2369 - Saena
+# County Title
+title = c_saena
+# Settlements
+max_settlements = 1
+
+
+b_saena = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

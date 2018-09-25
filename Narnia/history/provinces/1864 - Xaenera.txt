@@ -1,0 +1,14 @@
+# 1864 - Xaenera
+# County Title
+title = c_xaenera
+# Settlements
+max_settlements = 1
+
+
+b_xaenera = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = calormen
+religion = southern_calormen_cults

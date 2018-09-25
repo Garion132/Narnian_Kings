@@ -1,0 +1,15 @@
+# 1911 - Xura
+# County Title
+title = c_xura
+# Settlements
+max_settlements = 4
+
+
+b_xura = castle
+b_xuraton = city
+b_talsi_hold = castle
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

@@ -1,0 +1,13 @@
+# 797 - Swerata
+# County Title
+title = c_swerata
+# Settlements
+max_settlements = 1
+
+b_swerata = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = western_calormen_cults

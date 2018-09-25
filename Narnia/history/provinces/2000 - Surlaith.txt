@@ -1,0 +1,14 @@
+# 2000 - Surlaith
+# County Title
+title = c_surlaith
+# Settlements
+max_settlements = 1
+
+
+b_surlaith = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = elexol
+religion = eline

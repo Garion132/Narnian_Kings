@@ -1,0 +1,14 @@
+# 2003 - Salnine Point
+# County Title
+title = c_salnine_point
+# Settlements
+max_settlements = 1
+
+
+b_salnine_point = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

@@ -1,0 +1,14 @@
+# 1991 - Tuiarloa
+# County Title
+title = c_tuiarloa
+# Settlements
+max_settlements = 1
+
+
+b_tuiarloa = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = elexol
+religion = eline

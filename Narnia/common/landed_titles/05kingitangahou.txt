@@ -1,0 +1,772 @@
+e_kingitangahou = {
+	color={ 8 93 124 }
+	color2={ 255 255 255 }
+	
+	irish = Sudylis
+
+	k_tarna ={
+		color={ 124 2 0 }
+		color2={ 255 255 255 }
+		
+		kingiongaiwi = Tangaterana
+		tangatawhetu = Tangaterana
+		irish = Tarna
+		
+		d_tarunga = {
+			color={ 124 11 6 }
+			color2={ 255 255 255 }
+			
+			c_tarunga = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_tarunga ={}
+			}
+			c_taupohou = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				nishonaru = Uphou
+				
+				b_taupohou = {}
+			}
+			c_iwiawa = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				nishonaru = Awa
+				
+				b_iwiawa = {}
+			}
+			c_gaohana = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_gaohana = {}
+			}
+		}
+		d_te_arahou = {
+			color={ 131 15 2 }
+			color2={ 255 255 255 }
+			
+			c_whaowhena = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				irish = Adra
+				
+				b_whaowhena ={}
+			}
+			c_te_arahou = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Arahad
+				
+				b_te_arahou = {}
+			}
+			c_rangateperi = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				nishonaru = Tepai
+				
+				b_rangateperi = {}
+			}
+		}
+		d_werou = {
+			color={ 141 16 2 }
+			color2={ 255 255 255 }
+			
+			c_ngapa = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				irish = Garnfort
+				
+				b_ngapa ={}
+			}
+			c_houtaranaki = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Seaborne
+				
+				b_houtaranaki = {}
+			}
+			c_iwintarn = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Tarnehold
+				
+				b_iwintarn = {}
+			}
+			c_te_werou_pa = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = "Fort Verra"
+				
+				b_te_werou_pa = {
+					#irish = "Fort Verra"
+				}
+			}
+		}
+		d_lourunga = {
+			color={ 120 9 12 }
+			color2={ 255 255 255 }
+			
+			irish = Lowmond
+			capital = 2159
+			
+			c_lourunga = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				irish = Lowmond
+				
+				b_lourunga ={
+					#irish = Lowmond
+				}
+			}
+			c_toutenua = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Hightotem
+				
+				b_toutenua = {#irish = Hightotem
+				}
+			}
+			c_wheuriwhero = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Newcircle
+				
+				b_wheuriwhero = {
+					#irish = Newcircle
+				}
+			}
+			c_puruatanga_pa = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = "Fort Para"
+				
+				b_puruatanga_pa = {
+					irish = "Fort Para"
+				}
+			}
+		}
+	}
+	
+	k_ripena = {
+		color={ 69 119 49 }
+		color2={ 255 255 255 }
+		
+		irish = Ripena
+		kingiongaiwi = Riphamanawhennua
+		tangatawhetu = Riphamanawhennua
+		
+		d_whiroaroa = {
+			color={ 70 110 46 }
+			color2={ 255 255 255 }
+			
+			c_tuhanaha = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_tuhanaha ={}
+			}
+			c_whiroaroa = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_whiroaroa = {}
+			}
+			c_roripekanga = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_roripekanga = {}
+			}
+		}
+		d_rari = {
+			color={ 64 119 38 }
+			color2={ 255 255 255 }
+			
+			c_rari = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_rari ={}
+			}
+			c_tawhititaumata = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Whitfields
+				
+				b_tawhititaumata = {}
+			}
+			c_matetuporo = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Matrefalls
+				
+				b_matetuporo = {}
+			}
+		}
+		d_teopua = {
+			color={ 121 103 52 }
+			color2={ 255 255 255 }
+			
+			irish = Piane
+			
+			c_rohikatao = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				irish = Roister
+				
+				b_rohikatao ={}
+			}
+			c_teopua = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Teos
+				
+				b_teopua = {}
+			}
+			c_te_mamakuteua = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Highhills
+				
+				b_te_mamakuteua = {}
+			}
+		}
+		d_rewara = {
+			color={ 132 128 60 }
+			color2={ 255 255 255 }
+			
+			irish = Faehills
+			
+			c_rewara = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				irish = Faehill
+				
+				b_rewara ={}
+			}
+			c_mimiwhau = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Mima
+				b_mimiwhau = {}
+			}
+			c_tuakura = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Tuough
+				
+				b_tuakura = {}
+			}
+		}
+		d_ti_arwai = {
+			color={ 119 108 43 }
+			color2={ 255 255 255 }
+			
+			irish = Ariwa
+			
+			c_tiowheki = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				irish = Titos
+				
+				b_tiowheki ={}
+			}
+			c_ti_arwai = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Ariwa
+				
+				b_ti_arwai = {}
+			}
+			c_pontanga = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Parag
+				
+				b_pontanga = {}
+			}
+		}
+		d_ihokara = {
+			color={ 130 110 33 }
+			color2={ 255 255 255 }
+			
+			irish = Caran
+			
+			c_raiakua = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_raiakua ={}
+				b_raiakuana = {
+					holy_site = celtic
+					holy_site = purakau_ao_kohatu
+				}
+			}
+			c_temitahua = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_temitahua = {}
+			}
+			c_ihokara = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_ihokara = {}
+			}
+			c_taiomakaraehe = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_taiomakaraehe = {}
+			}
+		}
+	}
+	k_karakaroua = {
+		color={ 47 81 183 }
+		color2={ 101 181 165 }
+		
+		irish = Holyside
+		nishonaru = Koir
+		
+		d_pauhana = {
+			color={ 4 101 126 }
+			color2={ 255 255 255 }
+			
+			c_tenekuri = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_tenekuri ={}
+			}
+			c_pauhana = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_pauhana = {}
+			}
+			c_teniwhana = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_teniwhana = {}
+			}
+			c_takauanga = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_takauanga = {}
+			}
+		}
+		d_hoporunga = {
+			color={ 12 110 116 }
+			color2={ 255 255 255 }
+			
+			irish = Highpare
+			
+			c_rotoruahou = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_rotoruahou ={}
+			}
+			c_horopa = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Highpare
+				
+				b_horopa = {}
+			}
+			c_aoatana = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_aoatana = {}
+			}
+		}
+		d_inawhana = {
+			color={ 23 91 139 }
+			color2={ 255 255 255 }
+			
+			c_te_puka = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				irish =  Ana-kirwood
+				b_te_puka ={}
+			}
+			c_panuaomaui = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_panuaomaui = {}
+			}
+			c_inawhana = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_inawhana = {}
+			}
+			c_manakana = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				irish = Holyside
+				
+				b_manakana = {}
+				b_houmanukau = {}
+				b_huhana = {
+					holy_site = purakau_ao_kohatu
+				}
+			}
+			c_ongawhaua = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_ongawhaua = {}
+			}
+		}
+		d_ngapaua = {
+			color={ 6 88 103 }
+			color2={ 255 255 255 }
+			
+			c_tonapikipiki = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_tonapikipiki ={}
+			}
+			c_ngapaua = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_ngapaua = {}
+			}
+			c_te_uru = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_te_uru = {}
+			}
+			c_mangawaiti = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_mangawaiti = {}
+			}
+		}
+	}
+	k_iwiwhao ={
+		color={ 90 114 122 }
+		color2={ 255 255 255 }
+		
+		irish = Karna
+		nishonaru = Arna
+		
+		d_ohaua = {
+			color={ 92 114 116 }
+			color2={ 255 255 255 }
+			
+			c_katoatana = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_katoatana ={}
+			}
+			c_hekikikeri = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_hekikikeri = {}
+			}
+			c_kohiwitangi = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_kohiwitangi = {}
+			}
+			c_ohaua = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_ohaua = {}
+			}
+			c_matapanu = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_matapanu = {}
+			}
+		}
+		d_heniwa = {
+			color={ 98 110 120 }
+			color2={ 255 255 255 }
+			
+			c_heniwa = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_heniwa ={}
+			}
+			c_oroorowhanu = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				nishonaru = Ororo
+				
+				b_oroorowhanu = {}
+			}
+			c_paemana = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_paemana = {}
+			}
+		}
+		d_tauara = {
+			color={ 89 118 106 }
+			color2={ 255 255 255 }
+			
+			c_hokihoa = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_hokihoa ={}
+			}
+			c_tauara = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_tauara = {}
+			}
+			c_kaorina = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_kaorina = {}
+			}
+		}
+		d_kanaehana = {
+			color={ 114 135 115 }
+			color2={ 255 255 255 }
+			
+			c_kanaehana = {
+				color={ 122 5 16 }
+				color2={ 255 255 255 }
+				
+				b_kanaehana ={}
+			}
+			c_katoea = {
+				color={ 128 9 11 }
+				color2={ 255 255 255 }
+				
+				b_katoea = {}
+			}
+		}
+	}
+	k_ranou={
+		color={ 184 193 183 }
+		color2={ 255 86 71 }
+			
+		tangatawhetu = Rangatiratangaoraro
+		kingiongaiwi = Rangatiratangaoraro
+		nishonaru = Ranou
+			
+		d_oyua = {
+			color={ 197 197 197 }
+			color2={ 255 255 255 }
+		
+			c_azumil = {
+				color={ 192 186 196 }
+				color2={ 255 255 255 }
+			
+				b_azumil ={}
+			}
+			c_oyua = {
+				color={ 197 184 192 }
+				color2={ 255 255 255 }
+			
+				b_oyua ={}
+			}
+			c_nurm = {
+				color={ 197 185 186 }
+				color2={ 255 255 255 }
+			
+				b_nurm ={}
+			}
+			c_taloa = {
+				color={ 193 205 196 }
+				color2={ 255 255 255 }
+			
+				b_taloa ={}
+			}
+		}
+		d_lioava = {
+			color={ 197 177 200 }
+			color2={ 255 255 255 }
+		
+			c_sana = {
+				color={ 196 186 196 }
+				color2={ 255 255 255 }
+			
+				b_sana ={}
+			}
+			c_lioava = {
+				color={ 197 174 192 }
+				color2={ 255 255 255 }
+			
+				b_lioava ={}
+			}
+			c_murnai = {
+				color={ 197 175 196 }
+				color2={ 255 255 255 }
+			
+				b_murnai ={}
+				b_miru = {
+					holy_site = shinoi
+					holy_site = purakau_ao_kohatu
+				}
+			}
+		}
+		d_oduranda = {
+			color={ 97 107 97 }
+			color2={ 255 255 255 }
+			
+			nishonaru = Odu
+		
+			c_queaic = {
+				color={ 92 106 96 }
+				color2={ 255 255 255 }
+				
+				nishonaru = Quea
+				
+				b_queaic ={}
+			}
+			c_oduranda = {
+				color={ 97 104 92 }
+				color2={ 255 255 255 }
+			
+				nishonaru = Odu
+			
+				b_oduranda ={}
+			}
+			c_bunrai = {
+				color={ 97 105 96 }
+				color2={ 255 255 255 }
+				
+				nishonaru = Raie
+			
+				b_bunrai ={}
+			}
+			c_ruiaraa = {
+				color={ 97 105 96 }
+				color2={ 255 255 255 }
+				
+				nishonaru = Ruio
+			
+				b_ruiaraa ={}
+			}
+		}
+		d_haruu = {
+			color={ 97 107 97 }
+			color2={ 255 255 255 }
+		
+			c_culuora = {
+				color={ 92 106 96 }
+				color2={ 255 255 255 }
+			
+				b_culuora ={}
+			}
+			c_haruu = {
+				color={ 97 104 92 }
+				color2={ 255 255 255 }
+			
+				b_haruu ={}
+				b_harnulia = {}
+			}
+			c_naokana = {
+				color={ 97 105 96 }
+				color2={ 255 255 255 }
+			
+				b_naokana ={}
+			}
+		}
+	}
+}
+
+d_seaborne={
+	color={ 226 61 43 }
+	color2={ 101 181 165 }
+	
+	tangatawhetu = Taranakihou
+	kingiongaiwi = Taranakihou
+	
+	capital = 2156
+}
+
+k_awa={
+	color={ 154 226 81 }
+	color2={ 100 100 100 }
+	
+	tangatawhetu = Iwiawa
+	kingiongaiwi = Iwiawa
+	irish = Raea
+	
+	capital = 2150
+}
+
+k_loiva={
+	color={ 224 141 177 }
+	color2={ 100 100 100 }
+	
+	tangatawhetu = Avan
+	kingiongaiwi = Avan
+	
+	capital = 2136
+}
+
+k_karite={
+	color={ 143 216 65 }
+	color2={ 100 100 100 }
+	
+	tangatawhetu = Ohpana
+	kingiongaiwi = Ohpana
+	
+	capital = 2230
+}
+k_raruna={
+	color={ 216 178 52 }
+	color2={ 100 100 100 }
+	
+	tangatawhetu = Rarau
+	kingiongaiwi = Rarau
+	
+	capital = 2222
+}

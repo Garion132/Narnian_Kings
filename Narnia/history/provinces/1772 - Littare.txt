@@ -1,0 +1,14 @@
+# 1772 - Littare
+# County Title
+title = c_littare
+# Settlements
+max_settlements = 4
+
+
+b_littare = castle
+b_ranere = city
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = mellounian_law

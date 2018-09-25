@@ -1,0 +1,14 @@
+# 683 - South Azem
+
+# County Title
+title = c_south_azem
+# Settlements
+max_settlements = 1
+
+b_south_azem = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,14 @@
+# 1762 - Enenvoun
+# County Title
+title = c_enenvoun
+# Settlements
+max_settlements = 1
+
+
+b_enenvoun = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = jelvar
+religion = tarutarin

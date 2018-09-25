@@ -1,0 +1,14 @@
+# 1138 - Luriast
+# County Title
+title = c_luriast
+# Settlements
+max_settlements = 1
+
+
+b_luriast = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = caitliceann

@@ -1,0 +1,139 @@
+#Telmar
+technology = {
+	titles = {	
+		d_salica
+		d_upper_telmarne
+		d_lower_telmarne
+		d_darvar
+		d_barsalain
+		d_oreaisan
+		d_telareais
+		d_iroseias
+		d_falreais
+		d_uiolais
+		d_telarus
+		d_aragar
+		d_telsepail
+		d_werasi
+		d_reteopa
+		d_koralis
+		d_liolid
+		d_reunia
+		d_foreshia
+		d_koralindia
+		d_koraleon
+		d_riavul
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	1000 = {
+		military = 1.4
+		economy = 1.5
+		culture = 1.5
+	}
+	2555 = {
+		military = 5.3
+		economy = 5.3
+		culture = 5.3
+	}
+}
+technology = {
+	titles = {	
+		d_leraas
+		d_tyiros
+		d_telhonor
+		d_reliusia
+		d_veitalid
+		d_irenisa
+		d_koraslis
+		d_karrak
+		d_aragoria
+		d_telnarvarra
+		d_east_dereshia
+		d_raisurval
+		d_senatelios
+		d_renadiuma
+		d_jermaneia
+		d_telkarisa
+		d_nerilesh
+		d_ililid
+		d_lerishai
+		d_quandilas
+		d_west_dereshia
+		d_daiashan
+		d_baradisesh
+		d_daiasesh
+		d_karresha
+		d_ua_shesought
+		d_shesh
+		d_lupara
+		d_menaira
+		d_telmansa
+		d_iureashesh
+		d_kerria
+		d_oldershesh
+		d_venarisa
+		d_kernais_coast
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		TECH_FORTIFICATIONS_CONSTRUCTION = 2.0
+	}
+	2555 = {
+		military = 4.3
+		economy = 4.3
+		culture = 4.3
+	}
+}
+technology = {
+	titles = {
+		d_telmarine_heartlands
+		d_koraly
+		d_riuena
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		TECH_FORTIFICATIONS_CONSTRUCTION = 2.0
+	}
+	2555 = {
+		military = 6.0
+		economy = 6.0
+		culture = 6.0
+	}
+}
+
+#Valii
+technology = {
+	titles = {	
+		d_verene
+		d_palenvii
+		d_taleni
+		d_lryu
+		d_orena
+		d_valune
+		d_tarenilis
+		d_xeanme
+		d_surr
+		d_tarensant
+		d_rynvell
+		d_alunre
+		d_valdenir
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2555 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

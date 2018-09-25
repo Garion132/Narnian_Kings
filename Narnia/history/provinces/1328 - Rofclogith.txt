@@ -1,0 +1,18 @@
+# 1328 - Rofclogith
+# County Title
+title = c_rofclogith
+# Settlements
+max_settlements = 1
+
+
+b_rofclogith = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic
+
+850.1.1={
+	b_rofclogith = ca_militia_barracks_1
+}

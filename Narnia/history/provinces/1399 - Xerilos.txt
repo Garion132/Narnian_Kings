@@ -1,0 +1,14 @@
+# 1399 - Xerilos
+# County Title
+title = c_xerilos
+# Settlements
+max_settlements = 1
+
+
+b_xerilos = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

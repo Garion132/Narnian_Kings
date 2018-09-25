@@ -1,0 +1,14 @@
+# 2286 - Rinui
+# County Title
+title = c_rinui
+# Settlements
+max_settlements = 1
+
+
+b_rinui = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = vindi
+religion = quallis

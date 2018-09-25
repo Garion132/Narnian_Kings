@@ -1,0 +1,16 @@
+# 2261 - Constanium
+# County Title
+title = c_constanium
+# Settlements
+max_settlements = 5
+
+
+b_constanium = castle
+b_caner = city
+b_constis_lantern = temple
+b_quallium_hold = castle
+b_palimea = city
+
+# Misc
+culture = quende
+religion = quallis

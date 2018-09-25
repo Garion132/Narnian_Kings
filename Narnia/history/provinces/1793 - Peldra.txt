@@ -1,0 +1,15 @@
+# 1793 - Peldra
+# County Title
+title = c_peldra
+# Settlements
+max_settlements = 4
+
+
+b_peldra = castle
+b_poliaisda = city
+b_peldrantwn = castle
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = mellounian_law

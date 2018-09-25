@@ -1,0 +1,14 @@
+# 1572 - Narnvaith
+# County Title
+title = c_narnvaith
+# Settlements
+max_settlements = 1
+
+
+b_narnvaith = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

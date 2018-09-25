@@ -1,0 +1,14 @@
+# 1395 - Twarlwick
+# County Title
+title = c_twarlwick
+# Settlements
+max_settlements = 1
+
+
+b_twarlwick = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = pamyatrossii

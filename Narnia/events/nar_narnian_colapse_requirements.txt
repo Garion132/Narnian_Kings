@@ -1,0 +1,134 @@
+namespace = NARCR
+
+
+character_event = {
+	id = NARCR.1
+	desc = "EVTDESC200001"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		year = 970
+		NOT={year = 1500}
+		has_landed_title= e_narnia
+		war=no
+		NOT = {trait = "narnian_tyrant"}
+		AND = {
+			NOR = {
+				holder_scope = { dynasty = 1 }
+				holder_scope = { dynasty = 2 }
+				holder_scope = { dynasty = 3 }
+				holder_scope = { trait = child_of_adam_or_eve }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+	option = {
+		name = "EVTOPTA200001"
+		e_narnia = {destroy_landed_title = THIS}
+	}
+	option = { #my might will hold
+		name = "EVTOPTB200001"
+		trigger = {martial=20}
+		add_trait = narnian_tyrant
+		
+	}
+	option = { #But i am a child of adam and eve
+		name = "EVTOPTC200001"
+		trigger = {
+			AND = {
+				trait = human_race 
+				OR = {
+					culture_group = telmarine
+					culture = irish
+					culture = german
+					culture_group = narnian_russian
+					culture_group = nihonaru
+					culture_group = maori
+					culture_group = narniyan_tamisl
+				}
+				religion_group = narnian
+			}
+		}
+		add_trait = child_of_adam_or_eve
+	}
+}
+character_event = {
+	id = NARCR.3
+	desc = "EVTDESC200003"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		year = 750
+		NOT={year = 1900}
+		has_landed_title= d_white_witch
+		war=no
+		NOR = {
+			holder_scope = { dynasty = 2 }
+			trait = line_of_charn
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+	option = {
+		name = "EVTOPTA200003"
+		d_white_witch = {destroy_landed_title = THIS}
+	}
+}
+character_event = {##triggered event to rebuild narnia
+	id = NARCR.5
+	desc = "EVTDESCNARCR5"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTANARCR.5"
+		k_narnia = { grant_title = ROOT }
+		any_independent_ruler = {
+			limit = {completely_controls = d_galma}
+			set_defacto_liege = ROOT
+		}
+		any_independent_ruler = {
+			limit =	{completely_controls = d_beruna}
+			set_defacto_liege = ROOT
+		}
+		any_independent_ruler = {
+			limit =	{completely_controls = c_aslans_how}
+			set_defacto_liege = ROOT
+		}
+	}
+}
+character_event = {
+	id = NARCR.11
+	desc = "EVTDESC200011"
+	picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		year = 1997
+		NOT={year = 2100}
+		has_landed_title= k_narnia
+		has_landed_title= k_telmarine_invasion
+		war=no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+	option = {
+		name = "EVTOPTA200011"
+		k_telmarine_invasion = {destroy_landed_title = THIS}
+	}
+}

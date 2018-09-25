@@ -1,0 +1,13 @@
+# 1044 - Linreas
+# County Title
+title = c_linreas
+# Settlements
+max_settlements = 1
+
+b_linreas = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

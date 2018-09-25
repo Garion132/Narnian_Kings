@@ -1,0 +1,11 @@
+250.4.2= {
+	liege=e_calormen
+	law = succ_primogeniture
+	law = centralization_2
+}
+949.8.29 = {
+	holder =40125
+}
+973.3.6 = {
+	holder =40126
+}

@@ -1,0 +1,14 @@
+# 1970 - Liasjrua
+# County Title
+title = c_liasjrua
+# Settlements
+max_settlements = 1
+
+
+b_liasjrua = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

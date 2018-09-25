@@ -1,0 +1,13 @@
+# 623 - Gamayuna
+# County Title
+title = c_gamayuna
+# Settlements
+max_settlements = 1
+
+b_gamayuna = castle
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = kathsmen
+religion = white_witch

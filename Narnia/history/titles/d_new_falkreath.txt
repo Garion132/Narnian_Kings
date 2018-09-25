@@ -1,0 +1,21 @@
+1.1.1={
+	#law = succ_primogeniture
+}
+900.6.9={
+	holder = 97705
+}
+952.4.23={
+	holder = 97704
+}
+978.6.17 = {
+	holder = 97700
+}
+1009.5.18 = {
+	holder = 97701
+}
+1025.8.23 = {
+	holder = 97702
+}
+990.3.5={
+	liege = k_sorsverd
+}

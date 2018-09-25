@@ -1,0 +1,12 @@
+1.1.1={
+	holder=0
+}
+800.1.1={
+	liege = d_nenival
+}
+912.6.8={
+	liege = d_venounght
+}
+990.9.19={
+	holder = 81100
+}

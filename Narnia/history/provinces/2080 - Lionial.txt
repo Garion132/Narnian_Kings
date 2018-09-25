@@ -1,0 +1,14 @@
+# 2080 - Lionial
+# County Title
+title = c_lionial
+# Settlements
+max_settlements = 1
+
+
+b_lionial = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

@@ -1,0 +1,14 @@
+# 1900 - Ochin
+# County Title
+title = c_ochin
+# Settlements
+max_settlements = 5
+
+
+b_ochin = castle
+b_ainla = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

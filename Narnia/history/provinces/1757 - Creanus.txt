@@ -1,0 +1,14 @@
+# 1757 - Creanus
+# County Title
+title = c_creanus
+# Settlements
+max_settlements = 1
+
+
+b_creanus = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = sulvarian
+religion = savra

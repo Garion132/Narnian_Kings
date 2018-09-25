@@ -1,0 +1,14 @@
+# 2123 - Gulrian
+# County Title
+title = c_gulrian
+# Settlements
+max_settlements = 1
+
+
+b_gulrian = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

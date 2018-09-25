@@ -1,0 +1,13 @@
+# 815 - Paritas
+# County Title
+title = c_paritas
+# Settlements
+max_settlements = 1
+
+b_paritas = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

@@ -1,0 +1,14 @@
+# 2335 - Telair
+# County Title
+title = c_telair
+# Settlements
+max_settlements = 1
+
+
+b_telair = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

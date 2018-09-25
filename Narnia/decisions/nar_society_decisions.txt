@@ -1,0 +1,136 @@
+targeted_decisions = {
+	#Power: scare ruler
+	aslans_pure_cease_war_internal = {
+		
+		filter = all
+		ai_target_filter = realm
+
+		from_potential = {
+			is_playable = yes
+			is_adult = yes
+			NOT = { trait = incapable }
+			society_rank = {
+				society = monastic_order_aslans_pure
+				rank >= 3
+			}
+			prisoner = no
+		}
+
+		potential = {
+			NOT = { character = FROM }
+			age >= 10
+			is_ruler = yes
+			is_within_diplo_range = FROM
+			#war = yes
+			OR = {
+				religion = aslan
+				religion = tellan
+			}
+			any_war = {
+				limit = { 
+					defender = { 
+						OR={
+							religion = aslan 
+							religion = tellan
+						}
+					}
+					attacker = { 
+						OR={
+							religion = aslan 
+							religion = tellan
+						}
+					}
+				}
+			}
+		}
+
+		allow = {
+			FROM = { 
+				has_society_currency_major_trigger = yes 
+			}
+			ROOT = {
+				OR = {
+					trait = zealous
+					society_rank = {
+						society = monastic_order_aslans_pure
+						rank <= 4
+					}
+					trait = craven
+					trait = trusting
+					trait = just
+					#NOT = { higher_tier_than = DUKE }
+				}
+				NOT = {trait = cynical}
+			}
+		}
+
+		effect = {
+			FROM = {
+				detract_society_currency_major_effect = yes
+			}
+
+			random_list = {
+				60 = {
+					modifier = {
+						factor = 9
+						FROM = { society_rank == 5 }
+					}
+					modifier = {
+						factor = 3
+						FROM = { society_rank == 4 }
+					}
+					ROOT = {
+						any_war = {
+							limit = { 
+								defender = { 
+									OR = {
+										religion = aslan 
+										religion = tellan
+									}
+								}
+								attacker = { 
+									OR = {
+										religion = aslan 
+										religion = tellan
+									}
+								}
+							}
+						end_war = invalid
+						}
+					}
+				}
+				40 = {
+					#custom_tooltip = { text = assassins_scare_ruler_fail }
+					#hidden_effect = { FROM = { character_event = { id = MNM.6980 days = 1 } } }
+				}
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01 # slow down
+			}
+			modifier = {
+				FROM = { trait = just }
+				factor = 2
+			}
+			modifier = {
+				OR = {
+					is_friend = FROM
+					is_lover = FROM
+					NOR = {
+						liege = { character = FROM }
+						is_liege_of = FROM
+					}
+				}
+				factor = 0
+			}
+		}
+	}
+	
+}

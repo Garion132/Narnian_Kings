@@ -1,0 +1,14 @@
+# 2032 - Tarisnhole
+# County Title
+title = c_tarisnhole
+# Settlements
+max_settlements = 1
+
+
+b_tarisnhole = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = weosterman
+religion = eloia

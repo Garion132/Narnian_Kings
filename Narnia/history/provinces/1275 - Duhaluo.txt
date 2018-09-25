@@ -1,0 +1,14 @@
+# 1275 - Duhaluo
+# County Title
+title = c_duhaluo
+# Settlements
+max_settlements = 1
+
+
+b_duhaluo = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

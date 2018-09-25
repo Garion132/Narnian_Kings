@@ -1,0 +1,14 @@
+# 1547 - Parsvear
+# County Title
+title = c_parsvear
+# Settlements
+max_settlements = 1
+
+
+b_parsvear = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

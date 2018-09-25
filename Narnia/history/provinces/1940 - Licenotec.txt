@@ -1,0 +1,14 @@
+# 1940 - Licenotec
+# County Title
+title = c_licenotec
+# Settlements
+max_settlements = 1
+
+
+b_licenotec = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

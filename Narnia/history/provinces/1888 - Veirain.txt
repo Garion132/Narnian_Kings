@@ -1,0 +1,14 @@
+# 1888 - Veirain
+# County Title
+title = c_veirain
+# Settlements
+max_settlements = 1
+
+
+b_veirain = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = kelvrain

@@ -1,0 +1,14 @@
+# 1462 - Pervinium
+# County Title
+title = c_pervinium
+# Settlements
+max_settlements = 1
+
+
+b_pervinium = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = lavurite

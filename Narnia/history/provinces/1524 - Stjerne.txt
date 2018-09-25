@@ -1,0 +1,15 @@
+# 1524 - Stjerne
+# County Title
+title = c_stjerne
+# Settlements
+max_settlements = 1
+
+
+b_stjerne = city
+b_himmelenhold = castle
+#b_shannan_city = city
+b_nordvin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

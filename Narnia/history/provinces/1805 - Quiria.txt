@@ -1,0 +1,14 @@
+# 1805 - Quiria
+# County Title
+title = c_quiria
+# Settlements
+max_settlements = 2
+
+
+b_quiria = castle
+#b_malenkith = city
+b_calmin = temple
+
+# Misc
+culture = callendeen
+religion = savra

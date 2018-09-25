@@ -1,0 +1,16 @@
+# 1801 - Zaien
+# County Title
+title = c_zaien
+# Settlements
+max_settlements = 6
+
+
+b_zaien = castle
+b_zaien_town = city
+b_telarsa_markets = city
+b_paraien = castle
+b_paraiens_fold = temple
+
+# Misc
+culture = callendeen
+religion = mellounian_law

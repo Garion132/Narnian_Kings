@@ -1,0 +1,14 @@
+# 1096 - Beriumah
+# County Title
+title = c_beriumah
+# Settlements
+max_settlements = 1
+
+
+b_beriumah = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

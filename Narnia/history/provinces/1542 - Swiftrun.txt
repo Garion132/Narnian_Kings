@@ -1,0 +1,15 @@
+# 1542 - Swiftrun
+# County Title
+title = c_swiftrun
+# Settlements
+max_settlements = 1
+
+
+#b_malenkith = city
+b_swiftrun = castle
+#b_shannan_city = city
+#b_nordvin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

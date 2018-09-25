@@ -1,0 +1,14 @@
+# 1791 - Vainin
+# County Title
+title = c_vainin
+# Settlements
+max_settlements = 5
+
+
+b_vainin = castle
+b_taelinl = city
+b_vityalts = temple
+
+# Misc
+culture = mellounian
+religion = kelvrain

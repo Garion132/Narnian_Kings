@@ -1,0 +1,18 @@
+# 2189 - Te Puka
+# County Title
+title = c_te_puka
+# Settlements
+max_settlements = 1
+
+
+b_te_puka = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+religion = caitliceann
+culture = irish
+996.6.9={
+	culture = kingiongaiwi
+	religion = purakau_ao_kohatu
+}

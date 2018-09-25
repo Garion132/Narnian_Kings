@@ -1,0 +1,13 @@
+# 734 - Lower Salavar
+# County Title
+title = c_lower_salavar
+# Settlements
+max_settlements = 1
+
+b_lower_salavar = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = southern_calormen_cults

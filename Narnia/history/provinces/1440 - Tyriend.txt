@@ -1,0 +1,14 @@
+# 1440 - Tyriend
+# County Title
+title = c_tyriend
+# Settlements
+max_settlements = 1
+
+
+b_tyriend = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = denols

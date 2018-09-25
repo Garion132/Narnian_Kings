@@ -1,0 +1,14 @@
+# 2036 - Tylene
+# County Title
+title = c_tylene
+# Settlements
+max_settlements = 1
+
+
+b_tylene = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

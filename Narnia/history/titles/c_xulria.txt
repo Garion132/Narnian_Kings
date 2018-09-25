@@ -1,0 +1,6 @@
+795.6.9={
+	liege = d_bluevine
+}
+953.6.9={
+	liege = k_lygur 
+}

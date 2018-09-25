@@ -1,0 +1,13 @@
+# 540 - Smokalius
+# County Title
+title = c_smokalius
+# Settlements
+max_settlements = 1
+
+b_smokalius = castle
+#b_asturia = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = dragon_worship

@@ -1,0 +1,10 @@
+1.1.1={
+	holder = 0
+	law = succ_primogeniture
+}
+791.1.1={
+	liege = k_sheshia
+}
+981.5.12={
+	holder = 31600
+}

@@ -1,0 +1,13 @@
+# 924 - Elsolia
+# County Title
+title = c_elsolia
+# Settlements
+max_settlements = 1
+
+b_elsolia = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

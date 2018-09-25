@@ -1,0 +1,13 @@
+# 485 - Gargoyle Mountains
+# County Title
+title = c_gargoyle_mountains
+# Settlements
+max_settlements = 1
+
+b_gargoyle_mountains = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch

@@ -1,0 +1,14 @@
+# 657 - Dusharia
+
+# County Title
+title = c_dusharia
+# Settlements
+max_settlements = 1
+
+b_dusharia = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = calormen
+religion = tash

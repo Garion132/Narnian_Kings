@@ -1,0 +1,11 @@
+859.3.5={
+	#liege = d_cereksword
+	set_tribute_suzerain = { who = k_wensila type = autonomous_vassal }
+}
+997.3.4={
+	holder = 125800
+}
+1053.6.9={
+	clear_tribute_suzerain = k_wensila
+	liege = k_wensila
+}

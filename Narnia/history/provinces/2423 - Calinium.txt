@@ -1,0 +1,14 @@
+# 2423 - Calinium
+# County Title
+title = c_calinium
+# Settlements
+max_settlements = 1
+
+
+b_calinium = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = vindi
+religion = quallis

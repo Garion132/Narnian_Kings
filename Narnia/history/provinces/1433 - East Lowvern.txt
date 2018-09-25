@@ -1,0 +1,14 @@
+# 1433 - East Lowvern
+# County Title
+title = c_east_lowvern
+# Settlements
+max_settlements = 1
+
+
+b_east_lowvern = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = denols

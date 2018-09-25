@@ -1,0 +1,13 @@
+# 486 - Goblin Tunnels
+# County Title
+title = c_goblin_tunnels
+# Settlements
+max_settlements = 1
+
+b_goblin_tunnels = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch

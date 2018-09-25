@@ -1,0 +1,12 @@
+# 2432 - Lieon
+# County Title
+title = c_lieon
+# Settlements
+max_settlements = 3
+
+b_lieon = castle
+
+
+# Misc
+culture = telmarine
+religion = tellan

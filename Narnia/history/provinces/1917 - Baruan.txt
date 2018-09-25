@@ -1,0 +1,14 @@
+# 1917 - Baruan
+# County Title
+title = c_baruan
+# Settlements
+max_settlements = 1
+
+
+b_baruan = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

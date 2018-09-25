@@ -1,0 +1,23 @@
+# 1340 - Goltconster
+# County Title
+title = c_goltconster
+# Settlements
+max_settlements = 1
+
+
+b_goltconster = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic
+
+850.1.1={
+	b_goltconster = ca_keep_1
+	b_goltconster = ca_militia_barracks_1
+	b_goltconster = ca_militia_barracks_2
+	b_goltconster = ca_barracks_1
+	b_goltconster = ca_wall_1
+
+}

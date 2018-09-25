@@ -1,0 +1,13 @@
+# 380 - Faunwald
+# County Title
+title = c_faunwald
+# Settlements
+max_settlements = 1
+
+b_faunwald = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = faun
+religion = aslan

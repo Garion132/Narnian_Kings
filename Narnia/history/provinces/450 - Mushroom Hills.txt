@@ -1,0 +1,13 @@
+# 450 - Mushroom Hills
+# County Title
+title = c_mushroom_hills
+# Settlements
+max_settlements = 1
+
+b_mushroom_hills = castle
+b_mushroom_caverns = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = red_dwarf
+religion = white_witch

@@ -1,0 +1,14 @@
+# 2280 - Queldia
+# County Title
+title = c_queldia
+# Settlements
+max_settlements = 2
+
+
+b_queldia = castle
+#b_malenkith = city
+b_quendis_temple = temple
+
+# Misc
+culture = veriosian
+religion = quallis

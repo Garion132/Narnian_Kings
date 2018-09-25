@@ -1,0 +1,260 @@
+#Korozmei
+technology = {
+	titles = {	
+		d_ilioza
+		d_lenenban
+		d_uiralos
+		d_nova_petersburg
+		d_kenitgrad
+		d_fernv
+		d_fernasburg
+		d_zenius
+		d_arkhangelsk
+		d_kregensburg
+		d_koltenite
+		d_ralenvict
+		d_nova_arkhangelsk
+		d_kreulinburg
+		d_kolztmere
+		d_svengorod
+		d_tilderrend
+		d_tilond
+		d_dolveld
+		d_fjorhelm
+		d_garnsholme
+		d_woldheath
+		d_caelorn
+		d_ilenad
+		d_new_falkreath
+		d_voluun
+		d_frostsvar
+		d_shearsverd
+		d_amocaal
+		d_tealnfoyu
+		d_grimsmoor
+		d_arnufold
+		d_olkush
+		d_zarenvord
+		d_pellsgrove
+		d_vendium
+		d_levnim
+		d_archesten
+		d_conton
+		d_kolsnfell
+		d_rosenford
+		d_sulvaris
+		d_vaegoran
+		d_ienor
+		d_amunimas
+		d_pulrath
+		d_dulraith
+		d_encarnin
+		d_laire
+		d_new_hardrad
+		d_tovan
+		d_konayowa
+		d_westweld
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	1000 = {
+		military = 1.4
+		economy = 1.5
+		culture = 1.5
+	}
+	2555 = {
+		military = 5.3
+		economy = 5.3
+		culture = 5.3
+	}
+}
+#Surval
+technology = {
+	titles = {	
+		d_peranis
+		d_oriltverld
+		d_shenddengard
+		d_tolvenlsk
+		d_fertasii
+		d_ulionais
+		d_pravaris
+		d_ryiavith
+		d_oltsven
+		d_wilcanster
+		d_hilusura
+		d_illinea
+		d_tel_rendiasim
+		d_oltington
+		d_skrellvern
+		d_lowvern
+		d_vurntenvium
+		d_tollingsford
+		d_varinmans_hold
+		d_renindyium
+		d_wytemor
+		d_wilcanster
+		d_perevantium
+		d_wilnfords
+		d_illosan_hold
+		d_vilstalium
+		d_turnveld
+		d_jinern
+		d_ulenvin
+		d_yuiar
+		d_stonehaven
+		d_oltenmark
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	1000 = {
+		military = 1.6
+		economy = 1.6
+		culture = 1.6
+	}
+	2555 = {
+		military = 5.3
+		economy = 5.3
+		culture = 5.3
+	}
+}
+#Vaegor
+technology = {
+	titles = {	
+		d_bulguar
+		d_plunenven
+		d_olinme
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	1000 = {
+		military = 2.1
+		economy = 1.8
+		culture = 1.7
+	}
+	2555 = {
+		military = 6.0
+		economy = 5.3
+		culture = 5.3
+	}
+}
+#
+technology = {
+	titles = {	
+		d_calternspoint
+		d_keldain
+		d_perastium
+		d_artsveld
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		TECH_TRADE_PRACTICES = 3.0
+		TECH_NAVAL = 2.0
+	}
+	2555 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+technology = {
+	titles = {	
+		d_olisiso
+		d_malenkith
+		d_sveagard
+		d_kolvarfell
+		d_tluniea
+		d_tenvimdun
+		d_whitefell
+		d_duradium
+		d_ostvenr
+		d_aarnta
+		d_oluim
+		d_narnvaith
+		d_kostenfort
+		d_ostenfords
+		d_hreinttjornur
+		d_uliinrac
+		d_southreach
+		d_coldwinds
+		d_volaamin
+		d_loddin
+		d_ramsreach
+		d_cartheld
+		d_coleos
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	1000.1.1={
+		military = 0.9
+		economy = 0.9
+		culture = 0.9
+	}
+	2555 = {
+		military = 5.0
+		economy = 5.4
+		culture = 5.4
+	}
+}
+technology = {
+	titles = {	
+		c_tilsven
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2555 = {
+		military = 7.0
+		economy = 7.4
+		culture = 7.4
+	}
+}
+#Yuhniochi
+technology = {
+	titles = {	
+		d_aroda
+		d_maru
+		d_oua
+		d_xura
+		d_nicho
+		d_nixo
+		d_fulrim
+		d_pulirao
+		d_curilu
+		d_ugisua
+		d_chihara
+		d_karainmere
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	1000 = {
+		military = 1.4
+		economy = 1.5
+		culture = 1.5
+	}
+	2555 = {
+		military = 5.3
+		economy = 5.3
+		culture = 5.3
+	}
+}
+
+

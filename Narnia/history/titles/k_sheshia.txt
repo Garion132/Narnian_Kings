@@ -1,0 +1,18 @@
+1.1.1={
+	holder = 0
+	law = crown_authority_0
+	#law = succ_primogeniture
+	law = law_voting_power_1
+	law = revoke_title_voting_power_1
+	law = grant_title_voting_power_1
+	law = imprison_voting_power_1
+	law = execution_voting_power_1
+	law = war_voting_power_1
+	law = centralization_1
+}
+972.9.4={
+	holder=30901
+}
+991.1.1={
+	holder = 30900
+}

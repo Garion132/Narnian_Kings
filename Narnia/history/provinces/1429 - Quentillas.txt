@@ -1,0 +1,14 @@
+# 1429 - Quentillas
+# County Title
+title = c_quentillas
+# Settlements
+max_settlements = 1
+
+
+b_quentillas = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = denols

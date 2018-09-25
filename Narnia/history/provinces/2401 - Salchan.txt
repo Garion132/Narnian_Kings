@@ -1,0 +1,14 @@
+# 2401 - Salchan
+# County Title
+title = c_salchan
+# Settlements
+max_settlements = 1
+
+
+b_salchan = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = quallis

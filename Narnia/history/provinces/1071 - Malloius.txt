@@ -1,0 +1,14 @@
+# 1071 - Malloius
+# County Title
+title = c_malloius
+# Settlements
+max_settlements = 1
+
+
+b_malloius = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = lunos

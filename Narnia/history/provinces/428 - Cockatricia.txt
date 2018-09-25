@@ -1,0 +1,13 @@
+# 428 - Cockatricia
+# County Title
+title = c_cockatricia
+# Settlements
+max_settlements = 1
+
+b_cockatricia = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = minotaur
+religion = aslan

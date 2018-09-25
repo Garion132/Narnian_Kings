@@ -1,0 +1,17 @@
+1.1.1={
+	holder=0
+}
+900.6.6={
+	liege = d_seaborne
+}
+986.6.9={
+	holder = 85775
+}
+993.6.17 = {
+	liege = e_kingitangahou
+	holder = 85800
+}
+996.9.17 = {
+	liege = d_rivinith #Failed attack by the kingitangahou
+	holder = 86250
+}

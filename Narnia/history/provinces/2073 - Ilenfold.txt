@@ -1,0 +1,14 @@
+# 2073 - Ilenfold
+# County Title
+title = c_ilenfold
+# Settlements
+max_settlements = 1
+
+
+b_ilenfold = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

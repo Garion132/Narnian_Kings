@@ -1,0 +1,14 @@
+# 2088 - Vurnam
+# County Title
+title = c_vurnam
+# Settlements
+max_settlements = 1
+
+
+b_vurnam = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

@@ -1,0 +1,13 @@
+# 938 - Jeresh
+# County Title
+title = c_jeresh
+# Settlements
+max_settlements = 1
+
+b_jeresh = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = tellan

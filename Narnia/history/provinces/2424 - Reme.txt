@@ -1,0 +1,14 @@
+# 2424 - Reme
+# County Title
+title = c_reme
+# Settlements
+max_settlements = 1
+
+
+b_reme = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = vindi
+religion = quallis

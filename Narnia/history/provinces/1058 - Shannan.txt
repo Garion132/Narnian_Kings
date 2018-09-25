@@ -1,0 +1,14 @@
+# 1058 - Shannan
+# County Title
+title = c_shannan
+# Settlements
+max_settlements = 6
+
+b_shannan_city = city
+b_castle_of_shannan = castle
+b_shrine_of_shannan = temple
+
+
+# Misc
+culture = irish
+religion = celtic

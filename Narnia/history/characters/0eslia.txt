@@ -1,0 +1,2592 @@
+#120001-125000
+120001 = {
+	name="Tommen"	# Tommen came to Elisa through a storm on his quest to Valyria (AGOT)
+	dynasty=117
+	dna="cdlmdkkhfer"
+	properties="0e0cbk"
+
+	religion="eloia"
+	culture="weosterman"
+	
+	add_trait = ambitious
+	add_trait = wroth
+	add_trait = brave
+	add_trait = proud
+	add_trait = trusting
+	add_trait = "human_race"
+	add_trait = "foreign_child"
+
+	#father=8012190
+
+	384.1.1 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	420.1.1 = {
+		give_nickname = nick_the_lost_lion
+	}
+	425.6.7={
+		add_spouse = 120002
+	}
+	461.5.6={
+		death = {death_reason = death_natural}
+	}
+}
+120002 = {
+	name="Telia"	# Tommens wife (Dryad?)
+	#dynasty=117
+	female = yes
+
+	religion="eloia"
+	culture="dryad"
+	
+	add_trait = dryad_culture
+
+	#father=8012190
+
+	320.8.6 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	461.5.6={
+		death = {death_reason = death_natural}
+	}
+}
+120003 = {
+	name="Tommen"	# Tommens son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120001
+	mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	429.9.7 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	486.12.23={
+		death = {death_reason = death_natural}
+	}
+}
+120004 = {
+	name="Tyran"	# Tommen II son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120003
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	460.10.14 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	534.5.7={
+		death = {death_reason = death_natural}
+	}
+}
+120005 = {
+	name="Hector"	# Tyran's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120004
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	491.8.4 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	567.5.23={
+		death = {death_reason = death_natural}
+	}
+}
+120006 = {
+	name="Damion"	# Hector's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120005
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	527.9.21 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	582.6.15={
+		death = {death_reason = death_natural}
+	}
+}
+120007 = {
+	name="Lorimer"	# Damion's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120006
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	550.4.16 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	602.7.27={
+		death = {death_reason = death_natural}
+	}
+}
+120008 = {
+	name="Jaime"	# Lorimer's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120007
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	576.7.20 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	641.2.19={
+		death = {death_reason = death_natural}
+	}
+}
+120009 = {
+	name="Jaime"	# Jaime's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120008
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	600.5.27 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	668.7.12={
+		death = {death_reason = death_natural}
+	}
+}
+120010 = {
+	name="Tytos"	# Jaime II's son founder of the high kingdom
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120009
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = kind
+
+	#father=8012190
+
+	623.6.18 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	702.6.24={
+		death = {death_reason = death_natural}
+	}
+}
+120011 = {
+	name="Othell"	# Tytos's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120010
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	642.9.14 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	671.8.14={
+		death = {death_reason = death_battle}#1st war vs axol
+	}
+}
+120012 = {
+	name="Tion"	# Tytos's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120010
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	644.7.21 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	701.5.6={
+		death = {death_reason = death_natural}
+	}
+}
+120013 = {
+	name="Tytos"	# Tytos's grandson
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120012
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	663.9.14 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	725.7.29={
+		death = {death_reason = death_natural}
+	}
+}
+120014 = {
+	name="Cavan"	# Tytos II's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120013
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	690.2.23 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	751.8.10={
+		death = {death_reason = death_natural}
+	}
+}
+120015 = {
+	name="Tytos"	# Cavan's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120014
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	716.8.15 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	782.5.27={
+		death = {death_reason = death_natural}
+	}
+}
+120016 = {
+	name="Tytos"	# Tytos III's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120015
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	740.9.23 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	806.8.14={
+		death = {death_reason = death_natural}
+	}
+}
+120017 = {
+	name="Tytos"	# Tytos VI's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120016
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	765.11.15 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	823.9.23={
+		death = {death_reason = death_natural}
+	}
+}
+
+120018 = {
+	name="Tyrion"	# Tytos V's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120017
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	802.6.8 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	876.10.5={
+		death = {death_reason = death_natural}
+	}
+}	
+120019 = {
+	name="Lum"	# Tyrion's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120018
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	827.9.21 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	902.8.6={
+		death = {death_reason = death_natural}
+	}
+}
+120020 = {
+	name="Cedric"	# Lum's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120019
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	850.4.28 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	914.7.19={
+		death = {death_reason = death_natural}
+	}
+}
+120021 = {
+	name="Tyrek"	# Cedric's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120020
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	874.9.10 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	942.2.17={
+		death = {death_reason = death_natural}
+	}
+}
+120022 = {
+	name="Tyrek"	# Tyrek's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120021
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	902.12.20 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	975.9.6={
+		death = {death_reason = death_natural}
+	}
+}
+120023 = {
+	name="Tommen"	# Tyrek II's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120022
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	928.4.7 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	983.11.2={
+		death = {death_reason = death_natural}
+	}
+}
+120024 = {
+	name="Kevan"	# Tommen's son
+	dynasty=117
+	#female = yes
+	dna="bbccikeahbc"
+	properties="dn00fb"
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120023
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = eslian_concortat
+
+	#father=8012190
+
+	951.8.23 = {birth=yes}
+	970.6.7 = { 
+		add_spouse = 122102 	
+	}
+	1014.2.7={
+		death = {death_reason = death_natural}
+	}
+}
+120025 = {
+	name="Tytos"	# Kevan's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120024
+	mother = 122102
+	
+	add_trait = human_race
+
+	972.9.15 = {birth=yes}
+	988.6.1 = {
+		effect ={
+			add_friend = "122100"
+		}
+	}
+	1002.6.7 = {
+		add_spouse = 120028
+	}
+	1042.8.24={
+		death = {death_reason = death_natural}
+	}
+}
+120026 = {
+	name="Alenia"	# Tommen's Daugher
+	dynasty=117
+	female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120023
+	mother = 122102
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	942.11.20 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	1006.4.24={
+		death = {death_reason = death_natural}
+	}
+}
+120027 = {
+	name="Kiven"	# Tytos's son
+	dynasty=117
+	#female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120025
+	mother = 120028
+	
+	add_trait = human_race
+
+	1003.8.22 = {birth=yes}
+	1068.7.9={
+		death = {death_reason = death_natural}
+	}
+}
+120028 = {
+	name="Medai"	# Lady of low noble birth
+	#dynasty=117
+	female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	#father = 120023
+	#mother = 120002
+	
+	add_trait = "human_race"
+	add_trait = "fair"
+	add_trait = "shy"
+
+	979.2.16 = {birth=yes}
+	#7903.1.1 = { 
+		#add_trait=brightroar 	
+	#}
+	1038.9.14={
+		death = {death_reason = death_natural}
+	}
+}
+120029 = {
+	name="Alena"	# Kevan's daughter
+	dynasty=117
+	female = yes
+
+	religion = "eloia"
+	culture = "weosterman"
+	father = 120024
+	#mother = 120002
+	
+	add_trait = human_race
+
+	975.6.23 = {birth=yes}
+	#1002.6.7 = {
+	#	add_spouse = 120028
+	#}
+	1042.8.24={
+		death = {death_reason = death_natural}
+	}
+}
+
+120100 = {
+	name="Norwin"	#
+	dynasty=118
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120102
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = eslian_concortat
+
+	#father=8012190
+
+	953.8.14 = {birth=yes}
+	1021.9.17={
+		death = {death_reason = death_natural}
+	}
+}
+120101 = {
+	name="Flement"	#
+	dynasty=118
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120100
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	989.6.20 = {birth=yes}
+	1042.8.24={
+		death = {death_reason = death_natural}
+	}
+}
+120102 = {
+	name="Flement"	#
+	dynasty=118
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120103
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	931.2.18 = {birth=yes}
+	973.8.18={
+		death = {death_reason = death_natural}
+	}
+}
+120103 = {
+	name="Cavan"	#
+	dynasty=118
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120100
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	903.8.21 = {birth=yes}
+	956.7.9={
+		death = {death_reason = death_natural}
+	}
+}
+
+
+120200 = {
+	name="Ossifer"	#
+	dynasty=119
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120202
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	930.4.5 = {birth=yes}
+	996.5.21={
+		death = {death_reason = death_natural}
+	}
+}
+120201 = {
+	name="Ossifer"	#
+	dynasty=119
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120200
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = eslian_concortat
+
+	#father=8012190
+
+	956.7.20 = {birth=yes}
+	1002.9.14={
+		death = {death_reason = death_natural}
+	}
+}
+120202 = {
+	name="Lester"	#
+	dynasty=119
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120203
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	900.4.8 = {birth=yes}
+	962.7.24={
+		death = {death_reason = death_natural}
+	}
+}
+120203 = {
+	name="Robert"	#
+	dynasty=119
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120100
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	871.6.30 = {birth=yes}
+	941.5.12={
+		death = {death_reason = death_natural}
+	}
+}
+120204 = {
+	name="Elmer"	#
+	dynasty=119
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120201
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	980.5.18 = {birth=yes}
+	1036.8.26={
+		death = {death_reason = death_natural}
+	}
+}
+
+120300 = {
+	name = "Steffon"	#
+	dynasty = 120
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120301
+	#mother = 120002
+	
+	add_trait = eslian_concortat
+	add_trait = human_race
+
+	#father=8012190
+
+	952.4.5 = {birth=yes}
+	1003.9.12={
+		death = {death_reason = death_natural}
+	}
+}
+120301 = {
+	name = "Landyll"	#
+	dynasty = 120
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120302
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	931.8.9 = {birth=yes}
+	989.5.24={
+		death = {death_reason = death_natural}
+	}
+}
+120302 = {
+	name = "Daric"	#
+	dynasty = 120
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120202
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	903.4.30 = {birth=yes}
+	972.9.12={
+		death = {death_reason = death_natural}
+	}
+}
+120303 = {
+	name = "Preston"	#
+	dynasty = 120
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120300
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	982.6.21 = {birth=yes}
+	1035.12.28={
+		death = {death_reason = death_natural}
+	}
+}
+
+120400 = {
+	name = "Garth"	#
+	dynasty = 121
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120401
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	972.8.24 = {birth=yes}
+	1038.12.8={
+		death = {death_reason = death_natural}
+	}
+}
+120401 = {
+	name = "Garth"	#
+	dynasty = 121
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120402
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = eslian_concortat
+
+	#father=8012190
+
+	951.9.10 = {birth=yes}
+	1002.7.12={
+		death = {death_reason = death_natural}
+	}
+}
+120402 = {
+	name = "Gareth"	#
+	dynasty = 121
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120401
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	929.5.27 = {birth=yes}
+	982.1.3={
+		death = {death_reason = death_natural}
+	}
+}
+
+120500 = {
+	name = "Berthram"	#
+	dynasty = 122
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120501
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	976.7.3 = {birth=yes}
+	1041.6.24={
+		death = {death_reason = death_natural}
+	}
+}
+120501 = {
+	name = "Samwell"	#
+	dynasty = 122
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120502
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = eslian_concortat
+
+	#father=8012190
+
+	952.6.9 = {birth=yes}
+	1010.5.17={
+		death = {death_reason = death_natural}
+	}
+}
+120502 = {
+	name = "Elmer"	#
+	dynasty = 122
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120501
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	930.2.21 = {birth=yes}
+	996.2.7={
+		death = {death_reason = death_natural}
+	}
+}
+
+120600 = {
+	name = "Tyland"	#
+	dynasty = 123
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	992.6.5 = {birth=yes}
+	1053.10.28={
+		death = {death_reason = death_natural}
+	}
+}
+120601 = {
+	name = "Jaesin"	#
+	dynasty = 123
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120602
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = eslian_concortat
+
+	#father=8012190
+
+	963.8.12 = {birth=yes}
+	1031.5.20={
+		death = {death_reason = death_natural}
+	}
+}
+120602 = {
+	name = "Jaesin"	#
+	dynasty = 123
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 120603
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	941.3.30 = {birth=yes}
+	993.4.18={
+		death = {death_reason = death_natural}
+	}
+}
+120603 = {
+	name = "Lorimer"	#
+	dynasty = 123
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120603
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	920.6.20 = {birth=yes}
+	972.8.19={
+		death = {death_reason = death_natural}
+	}
+}
+
+120700 = {
+	name = "Alton"	#
+	dynasty = 124
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	971.6.5 = {birth=yes}
+	1037.10.28={
+		death = {death_reason = death_natural}
+	}
+}
+120800 = {
+	name = "Quenten"	#
+	dynasty = 125
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	father=120803
+
+	953.2.17 = {birth=yes}
+	1028.10.28={
+		death = {death_reason = death_natural}
+	}
+}
+120801 = {
+	name = "Kennett"	#
+	dynasty = 125
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	father=120800
+
+	976.6.5 = {birth=yes}
+	1039.2.8={
+		death = {death_reason = death_natural}
+	}
+}
+120802 = {
+	name = "Varnoi"	#
+	dynasty = 125
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	father=120801
+
+	978.2.6 = {birth=yes}
+	1051.3.19={
+		death = {death_reason = death_natural}
+	}
+}
+120803 = {
+	name = "Quenten"	#
+	dynasty = 125
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=
+
+	926.9.23 = {birth=yes}
+	989.7.12={
+		death = {death_reason = death_natural}
+	}
+}
+120804 = {
+	name = "Quenten"	#
+	dynasty = 125
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	father=120801
+
+	999.8.13 = {birth=yes}
+	1067.6.3={
+		death = {death_reason = death_natural}
+	}
+}
+120900 = {
+	name = "Ermond"	#
+	dynasty = 126
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	968.6.5 = {birth=yes}
+	1023.10.28={
+		death = {death_reason = death_natural}
+	}
+}
+121000 = {
+	name = "Alaric"	#
+	dynasty = 127
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	973.6.5 = {birth=yes}
+	1042.10.28={
+		death = {death_reason = death_natural}
+	}
+}
+121100 = {
+	name = "Torias"	#
+	dynasty = 128
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 120601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	976.7.9 = {birth=yes}
+	1043.5.17={
+		death = {death_reason = death_natural}
+	}
+}
+
+121200 = {
+	name = "Jonn"	#
+	dynasty = 129
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121201
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	967.8.12 = {birth=yes}
+	1031.4.21={
+		death = {death_reason = death_natural}
+	}
+}
+121201 = {
+	name = "Lann"	#
+	dynasty = 129
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121202
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = eslian_concortat
+
+	#father=8012190
+
+	941.7.21 = {birth=yes}
+	1009.5.12={
+		death = {death_reason = death_natural}
+	}
+}
+121202 = {
+	name = "Vynn"	#
+	dynasty = 129
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121203
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	918.6.10 = {birth=yes}
+	980.3.2={
+		death = {death_reason = death_natural}
+	}
+}
+121203 = {
+	name = "Lann"	#
+	dynasty = 129
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 12120
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	897.6.23 = {birth=yes}
+	959.5.3={
+		death = {death_reason = death_natural}
+	}
+}
+
+121300 = {
+	name = "Lancel"	#
+	dynasty = 130
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121301
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	986.5.23 = {birth=yes}
+	1042.6.17={
+		death = {death_reason = death_natural}
+	}
+}
+121301 = {
+	name = "Podrick"	#
+	dynasty = 130
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121302
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	960.2.10 = {birth=yes}
+	1023.5.6={
+		death = {death_reason = death_natural}
+	}
+}
+121302 = {
+	name = "Damion"	#
+	dynasty = 130
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121303
+	#mother = 120002
+	
+	add_trait = human_race
+
+	#father=8012190
+
+	938.6.21 = {birth=yes}
+	991.7.1={
+		death = {death_reason = death_natural}
+	}
+}
+121303 = {
+	name = "Flement"	#
+	dynasty = 130
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121304
+	#mother = 120002
+	
+	add_trait = human_race
+
+	909.2.3 = {birth=yes}
+	962.4.21={
+		death = {death_reason = death_natural}
+	}
+}
+121304 = {
+	name = "Tregar"	#
+	dynasty = 130
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 121301
+	#mother = 120002
+	
+	add_trait = human_race
+
+	876.8.14 = {birth=yes}
+	928.4.6={
+		death = {death_reason = death_natural}
+	}
+}
+
+121400 = {
+	name = "Harwyn"	#
+	dynasty = 131
+	#female = yes
+
+	religion = "eloia"
+	culture = "neorndman"
+	father = 121401
+	#mother = 120002
+	
+	add_trait = human_race
+
+	992.6.7 = {birth=yes}
+	1050.8.23={
+		death = {death_reason = death_natural}
+	}
+}
+121401 = {
+	name = "Thaddeus"	#
+	dynasty = 131
+	#female = yes
+
+	religion = "eloia"
+	culture = "neorndman"
+	father = 121402
+	#mother = 120002
+	
+	add_trait = human_race
+
+	965.1.2 = {birth=yes}
+	1023.9.16={
+		death = {death_reason = death_natural}
+	}
+}
+121402 = {
+	name = "Lester"	#
+	dynasty = 131
+	#female = yes
+
+	religion = "eloia"
+	culture = "neorndman"
+	father = 121403
+	#mother = 120002
+	
+	add_trait = human_race
+
+	941.4.30 = {birth=yes}
+	992.6.7={
+		death = {death_reason = death_natural}
+	}
+}
+121403 = {
+	name = "Merlon"	#
+	dynasty = 131
+	#female = yes
+
+	religion = "eloia"
+	culture = "neorndman"
+	father = 121404
+	#mother = 120002
+	
+	add_trait = human_race
+
+	918.5.11 = {birth=yes}
+	974.5.21={
+		death = {death_reason = death_natural}
+	}
+}
+121404 = {
+	name = "Elys"	#
+	dynasty = 131
+	#female = yes
+
+	religion = "eloia"
+	culture = "neorndman"
+	#father = 121401
+	#mother = 120002
+	
+	add_trait = human_race
+
+	892.4.23 = {birth=yes}
+	952.7.19={
+		death = {death_reason = death_natural}
+	}
+}
+
+121500 = {
+	name = "Varda"	#
+	dynasty = 135
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 121401
+	#mother = 120002
+	
+	add_trait = human_race
+
+	872.6.9 = {birth=yes}
+	951.4.7={
+		death = {death_reason = death_natural}
+	}
+}
+121501 = {
+	name = "Arnda"	#
+	dynasty = 135
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121500
+	#mother = 120002
+	
+	add_trait = human_race
+
+	896.8.23 = {birth=yes}
+	964.7.11={
+		death = {death_reason = death_natural}
+	}
+}
+121502 = {
+	name = "Anran"	#
+	dynasty = 135
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121501
+	#mother = 120002
+	
+	add_trait = human_race
+
+	919.7.5 = {birth=yes}
+	986.4.12={
+		death = {death_reason = death_natural}
+	}
+}
+121503 = {
+	name = "Varda"	#
+	dynasty = 135
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121502
+	#mother = 120002
+	
+	add_trait = human_race
+
+	941.8.9 = {birth=yes}
+	1002.9.30={
+		death = {death_reason = death_natural}
+	}
+}
+121504 = {
+	name = "Varam"	#
+	dynasty = 135
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121503
+	#mother = 120002
+	
+	add_trait = human_race
+
+	963.7.15 = {birth=yes}
+	1030.7.21={
+		death = {death_reason = death_natural}
+	}
+}
+121505 = {
+	name = "Varda"	#
+	dynasty = 135
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121504
+	#mother = 120002
+	
+	add_trait = human_race
+
+	985.9.26 = {birth=yes}
+	1047.12.2={
+		death = {death_reason = death_natural}
+	}
+}
+
+121600 = {
+	name = "Polliver"	#
+	dynasty = 162
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 121401
+	#mother = 120002
+	
+	add_trait = human_race
+
+	853.8.14 = {birth=yes}
+	921.7.23={
+		death = {death_reason = death_natural}
+	}
+}
+121601 = {
+	name = "Gregor"	#
+	dynasty = 162
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121600
+	#mother = 120002
+	
+	add_trait = human_race
+
+	880.3.6 = {birth=yes}
+	951.7.19={
+		death = {death_reason = death_natural}
+	}
+}
+121602 = {
+	name = "Gregor"	#
+	dynasty = 162
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121601
+	#mother = 120002
+	
+	add_trait = human_race
+
+	905.4.13 = {birth=yes}
+	964.4.9={
+		death = {death_reason = death_natural}
+	}
+}
+121603 = {
+	name = "Varil"	#
+	dynasty = 162
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121602
+	#mother = 120002
+	
+	add_trait = human_race
+
+	929.7.23 = {birth=yes}
+	992.4.17={
+		death = {death_reason = death_natural}
+	}
+}
+121604 = {
+	name = "Gregor"	#
+	dynasty = 162
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121603
+	#mother = 120002
+	
+	add_trait = human_race
+
+	952.4.19 = {birth=yes}
+	1008.8.23={
+		death = {death_reason = death_natural}
+	}
+}
+121605 = {
+	name = "Pollis"	#
+	dynasty = 162
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121604
+	#mother = 120002
+	
+	add_trait = human_race
+
+	975.9.23 = {birth=yes}
+	1024.7.30={
+		death = {death_reason = death_natural}
+	}
+}
+
+121700 = {
+	name = "Taras"	#
+	dynasty = 165
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 121401
+	#mother = 120002
+	
+	add_trait = human_race
+
+	932.6.27 = {birth=yes}
+	992.8.17={
+		death = {death_reason = death_natural}
+	}
+}
+121701 = {
+	name = "Taras"	#
+	dynasty = 165
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121700
+	#mother = 120002
+	
+	add_trait = human_race
+
+	967.9.17 = {birth=yes}
+	1023.7.6={
+		death = {death_reason = death_natural}
+	}
+}
+121702 = {
+	name = "Koran"	#
+	dynasty = 165
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121700
+	#mother = 120002
+	
+	add_trait = human_race
+	add_claim = c_busrenhold
+
+	969.4.23 = {birth=yes}
+	1030.8.6={
+		death = {death_reason = death_natural}
+	}
+}
+121703 = {
+	name = "Hiros"	#
+	dynasty = 165
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121701
+	#mother = 120002
+	
+	add_trait = human_race
+
+	991.3.20 = {birth=yes}
+	1059.2.30 = {
+		death = {death_reason = death_natural}
+	}
+}
+121704 = {
+	name = "Iris"	#
+	dynasty = 165
+	female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121701
+	#mother = 120002
+	
+	add_trait = human_race
+
+	993.5.12 = {birth=yes}
+	1058.6.8 = {
+		death = {death_reason = death_natural}
+	}
+}
+121705 = {
+	name = "Yuior"	#
+	dynasty = 165
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121702
+	#mother = 120002
+	
+	add_trait = human_race
+
+	989.9.12 = {birth=yes}
+	1042.6.17={
+		death = {death_reason = death_natural}
+	}
+}
+121706 = {
+	name = "Kiaran"	#
+	dynasty = 165
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121702
+	#mother = 120002
+	
+	add_trait = human_race
+
+	990.8.20 = {birth=yes}
+	1046.1.6={
+		death = {death_reason = death_natural}
+	}
+}
+
+121800 = {
+	name = "Traso"	#
+	dynasty = 166
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 121401
+	#mother = 120002
+	
+	add_trait = human_race
+
+	901.3.14 = {birth=yes}
+	953.6.17={
+		death = {death_reason = death_natural}
+	}
+}
+121801 = {
+	name = "Reanim"	#
+	dynasty = 166
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121800
+	#mother = 120002
+	
+	add_trait = human_race
+
+	926.7.9 = {birth=yes}
+	979.11.13={
+		death = {death_reason = death_natural}
+	}
+}
+121802 = {
+	name = "Sreana"	#
+	dynasty = 166
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121801
+	#mother = 120002
+	
+	add_trait = human_race
+
+	948.11.23 = {birth=yes}
+	1002.8.28={
+		death = {death_reason = death_natural}
+	}
+}
+121803 = {
+	name = "Traso"	#
+	dynasty = 166
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 121802
+	#mother = 120002
+	
+	add_trait = human_race
+
+	970.3.9 = {birth=yes}
+	1026.9.14 = {
+		death = {death_reason = death_natural}
+	}
+}
+
+121900 = {
+	name = "Hector"	#
+	dynasty = 167
+	#female = yes
+	dna = "rxjjjrdwviz"
+	properties="mb0idk"
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 121401
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = quick
+	add_trait = elusive_shadow
+	add_trait = cynical
+	
+	962.6.28 = {birth=yes}
+	1012.9.8={
+		death = {death_reason = death_natural}
+	}
+}
+
+122000 = {
+	name="Brandon" 
+
+	dynasty=193
+	
+	martial=12
+	stewardship=13
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	#father=831059
+	
+	add_trait="ambitious"
+	add_trait="human_race"
+	add_trait="foreign_child"
+		
+	331.6.7 = { birth=yes}
+	371.1.1 = {
+		give_nickname = nick_the_lost_wolf
+	}
+	378.5.18={
+		add_spouse = 122001
+	}
+	406.1.7={
+		death = { death_reason = death_natural}
+	}
+}
+122001 = {
+	name="Telia"	# Bran's wife (Dryad?)
+	#dynasty=117
+	female = yes
+
+	religion="eloia"
+	culture="dryad"
+	
+	add_trait = dryad_culture
+
+	#father=8012190
+
+	311.8.6 = {birth=yes}
+	434.8.26={
+		death = {death_reason = death_natural}
+	}
+}
+122002 = {
+	name="Radea" 
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122000
+	
+	add_trait="twin"
+	add_trait="human_race"
+		
+	381.4.6 = { birth=yes}
+	441.6.8={
+		death = { death_reason = death_natural}
+	}
+}
+122003 = {
+	name="Ildra" ##the peace offering
+
+	dynasty=193
+	
+	female = yes
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122000
+	
+	add_trait="twin"
+	add_trait="dryad_culture"
+		
+	381.4.6 = { birth=yes}
+	446.9.4={
+		death = { death_reason = death_natural}
+	}
+}
+122004 = {
+	name="Brandon" #the elder
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122002
+	
+	add_trait="human_race"
+		
+	409.4.6 = { birth=yes}
+	441.5.7={
+		give_nickname = nick_the_younger
+	}
+	491.7.13={
+		death = { death_reason = death_natural}
+	}
+}
+122005 = {
+	name="Brandon" #the younger
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122004
+	
+	add_trait="human_race"
+		
+	434.9.24 = { birth=yes}
+	441.5.7={
+		give_nickname = nick_the_younger
+	}
+	506.7.13={
+		death = { death_reason = death_natural}
+	}
+}
+122006 = {
+	name="John Daver" #the Reformer
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122005
+	
+	add_trait="human_race"
+		
+	459.7.13 = { birth=yes}
+	512.6.9={
+		give_nickname = nick_the_republican
+	}
+	536.8.17={
+		death = { death_reason = death_natural}
+	}
+}
+122007 = {
+	name="Brandon" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122006
+	
+	add_trait="human_race"
+		
+	484.9.20 = { birth=yes}
+	559.1.27={
+		death = { death_reason = death_natural}
+	}
+}
+122008 = {
+	name="Javern" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122007
+	
+	add_trait="human_race"
+		
+	509.11.5 = { birth=yes}
+	564.7.3={
+		death = { death_reason = death_natural}
+	}
+}
+122009 = {
+	name="Oldmon" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122008
+	
+	add_trait="human_race"
+		
+	531.6.17 = { birth=yes}
+	587.4.21={
+		death = { death_reason = death_natural}
+	}
+}
+122010 = {
+	name="Brand" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122009
+	
+	add_trait="human_race"
+		
+	560.4.9 = { birth=yes}
+	624.7.6={
+		death = { death_reason = death_natural}
+	}
+}
+122011 = {
+	name="Brand" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122010
+	
+	add_trait="human_race"
+		
+	586.7.15 = { birth=yes}
+	645.3.27={
+		death = { death_reason = death_natural}
+	}
+}
+122012 = {
+	name="Varera" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122011
+	
+	add_trait="human_race"
+		
+	611.6.24 = { birth=yes}
+	687.8.30={
+		death = { death_reason = death_natural}
+	}
+}
+122013 = {
+	name="Brand" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122012
+	
+	add_trait="human_race"
+		
+	636.9.10 = { birth=yes}
+	706.4.13={
+		death = { death_reason = death_natural}
+	}
+}
+122014 = {
+	name="Brand" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122013
+	
+	add_trait="human_race"
+		
+	662.4.25 = { birth=yes}
+	744.8.9={
+		death = { death_reason = death_natural}
+	}
+}
+122015 = {
+	name="Jon" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122014
+	
+	add_trait="human_race"
+		
+	693.5.19 = { birth=yes}
+	758.1.4={
+		death = { death_reason = death_natural}
+	}
+}
+122016 = {
+	name="Merlau" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122015
+	
+	add_trait="human_race"
+		
+	714.6.24= { birth=yes}
+	781.3.31={
+		death = { death_reason = death_natural}
+	}
+}
+122017 = {
+	name="Brand" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122016
+	
+	add_trait="human_race"
+		
+	739.11.4= { birth=yes}
+	803.9.27={
+		death = { death_reason = death_natural}
+	}
+}
+122018 = {
+	name="Domeric" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122017
+	
+	add_trait="human_race"
+		
+	767.8.22= { birth=yes}
+	841.1.17={
+		death = { death_reason = death_natural}
+	}
+}
+122019 = {
+	name="Brand" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122018
+	
+	add_trait="human_race"
+		
+	791.8.22= { birth=yes}
+	869.7.28={
+		death = { death_reason = death_natural}
+	}
+}
+122020 = {
+	name="Tanim" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122019
+	
+	add_trait="human_race"
+		
+	820.12.30= { birth=yes}
+	894.8.14={
+		death = { death_reason = death_natural}
+	}
+}
+122021 = {
+	name="Domar" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122020
+	
+	add_trait="human_race"
+		
+	846.8.11= { birth=yes}
+	911.6.18={
+		death = { death_reason = death_natural}
+	}
+}
+122022 = {
+	name="Brand" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122021
+	
+	add_trait="human_race"
+		
+	871.3.24= { birth=yes}
+	948.9.25={
+		death = { death_reason = death_natural}
+	}
+}
+122023 = {
+	name="Brandon" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122022
+	
+	add_trait="human_race"
+		
+	903.4.7= { birth=yes}
+	989.8.10={
+		death = { death_reason = death_natural}
+	}
+}
+122024 = {
+	name="Jon" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122023
+	
+	add_trait="human_race"
+		
+	927.6.21= { birth=yes}
+	1002.10.7={
+		death = { death_reason = death_natural}
+	}
+}
+122025 = {
+	name="Jon" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122024
+	
+	add_trait="human_race"
+		
+	952.6.21= { birth=yes}
+	1008.9.24={
+		death = { death_reason = death_natural}
+	}
+}
+122026 = {
+	name="Erican" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122025
+	
+	add_trait="human_race"
+		
+	976.3.18= { birth=yes}
+	1026.7.29={
+		death = { death_reason = death_natural}
+	}
+}
+122027 = {
+	name="Jon" #
+
+	dynasty=193
+	
+	religion="eloia"
+	culture="neorndman"
+	
+	father=122025
+	
+	add_trait="human_race"
+		
+	977.9.26= { birth=yes}
+	1033.4.15={
+		death = { death_reason = death_natural}
+	}
+}
+
+122100 = {
+	name = "Taenil"	#
+	dynasty = 197
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 122101
+	#mother = 120002
+	
+	add_trait = human_race
+	add_trait = "dwarf"
+	add_trait = "genius"
+
+	980.9.14 = {birth=yes}
+	988.6.1 = {
+		effect ={
+			add_friend = "120025"
+		}
+	}
+	1032.6.8={
+		death = {death_reason = death_natural}
+	}
+}
+122101 = {
+	name = "Krean"	#
+	dynasty = 197
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 122103
+	#mother = 120002
+	
+	add_trait = human_race
+
+	956.4.26 = {birth=yes}
+	995.3.17={
+		death = {death_reason = death_natural}
+	}
+}
+122102 = {
+	name = "Alicia"	#
+	dynasty = 197
+	female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 122103
+	#mother = 120002
+	
+	add_trait = human_race
+
+	958.3.18 = {birth=yes}
+	998.6.18={
+		death = {death_reason = death_natural}
+	}
+}
+122103 = {
+	name = "Krean"	#
+	dynasty = 197
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 121504
+	#mother = 120002
+	
+	add_trait = human_race
+
+	929.3.6 = {birth=yes}
+	976.8.13={
+		death = {death_reason = death_natural}
+	}
+}
+
+122200 = {
+	name = "Galan"	#
+	dynasty = 198
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 122202
+	#mother = 120002
+	
+	add_trait = human_race
+
+	962.4.19 = {birth=yes}
+	1016.8.15={
+		death = {death_reason = death_natural}
+	}
+}
+122201 = {
+	name = "Terrence"	#
+	dynasty = 198
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	father = 122200
+	#mother = 120002
+	
+	add_trait = human_race
+
+	987.6.5 = {birth=yes}
+	1043.5.19={
+		death = {death_reason = death_natural}
+	}
+}
+122202 = {
+	name = "Daven"	#
+	dynasty = 198
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 122200
+	#mother = 120002
+	
+	add_trait = human_race
+
+	941.3.17 = {birth=yes}
+	992.3.8={
+		death = {death_reason = death_natural}
+	}
+}
+
+122300 = {
+	name = "Thaddeus"	#
+	dynasty = 199
+	#female = yes
+
+	religion = "eloia"
+	culture = "esliterman"
+	#father = 122202
+	#mother = 120002
+	
+	add_trait = human_race
+
+	967.9.30 = {birth=yes}
+	1022.10.26={
+		death = {death_reason = death_natural}
+	}
+}

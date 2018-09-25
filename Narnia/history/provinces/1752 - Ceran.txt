@@ -1,0 +1,14 @@
+# 1752 - Ceran
+# County Title
+title = c_ceran
+# Settlements
+max_settlements = 1
+
+
+b_ceran = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = sulvarian
+religion = savra

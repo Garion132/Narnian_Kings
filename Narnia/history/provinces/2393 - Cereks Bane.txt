@@ -1,0 +1,14 @@
+# 2393 - Cereks Bane
+# County Title
+title = c_cereks_bane
+# Settlements
+max_settlements = 1
+
+
+b_cereks_bane = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = quallis

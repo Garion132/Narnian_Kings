@@ -1,0 +1,14 @@
+# 1646 - Amolen
+# County Title
+title = c_amolen
+# Settlements
+max_settlements = 1
+
+
+b_amolen = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

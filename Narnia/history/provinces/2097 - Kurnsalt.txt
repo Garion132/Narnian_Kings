@@ -1,0 +1,14 @@
+# 2097 - Kurnsalt
+# County Title
+title = c_kurnsalt
+# Settlements
+max_settlements = 1
+
+
+b_kurnsalt = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

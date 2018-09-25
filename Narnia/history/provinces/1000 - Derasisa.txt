@@ -1,0 +1,13 @@
+# 1000 - Derasisa
+# County Title
+title = c_derasisa
+# Settlements
+max_settlements = 1
+
+b_derasisa = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = tellan

@@ -1,0 +1,18 @@
+1.1.1={
+	holder=0
+}
+800.1.1={
+	liege = e_dylis_tiral
+}
+891.6.9={
+	holder = 86811
+}
+908.8.12={
+	liege = k_impara
+}
+981.5.26={
+	holder = 86813
+}
+989.6.17={
+	holder = 86814
+}

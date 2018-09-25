@@ -1,0 +1,39 @@
+#105000-110000
+105001 = {
+	name = "Varle" #The Great
+	dynasty = 1015
+	religion = "viirenscari"
+	culture = "valii"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	stewardship = 8
+	martial = 9
+	diplomacy = 7
+	add_trait="quick"
+	add_trait="valuia_dynasty"
+	823.8.17={
+		birth=yes
+	}
+	1039.6.1={
+		death=yes
+	}
+}
+105002 = {
+	name = "Tarine" #The Lax
+	dynasty = 1015
+	religion = "viirenscari"
+	culture = "valii"
+	father = 105001
+	#mother = 80201
+	wealth = 300
+	diplomacy = 2
+	stewardship = 3
+	add_trait="valuia_dynasty"
+	939.3.27={
+		birth=yes
+	}
+	1103.9.13={
+		death=yes
+	}
+}

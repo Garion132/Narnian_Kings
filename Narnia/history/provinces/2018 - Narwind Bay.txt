@@ -1,0 +1,16 @@
+# 2018 - Narwind Bay
+# County Title
+title = c_narwind_bay
+# Settlements
+max_settlements = 4
+
+b_narwind_town = city
+b_narwind_bay = castle
+b_port_narwind = city
+b_eloias_on_hill = temple
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

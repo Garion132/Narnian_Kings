@@ -1,0 +1,14 @@
+# 1628 - Calderi
+# County Title
+title = c_calderi
+# Settlements
+max_settlements = 1
+
+
+b_calderi = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

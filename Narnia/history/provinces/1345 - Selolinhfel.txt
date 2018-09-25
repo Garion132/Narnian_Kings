@@ -1,0 +1,14 @@
+# 1345 - Selolinhfel
+# County Title
+title = c_selolinhfel
+# Settlements
+max_settlements = 1
+
+
+b_selolinhfel = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

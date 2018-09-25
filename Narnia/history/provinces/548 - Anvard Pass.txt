@@ -1,0 +1,15 @@
+# 548 - Anvard Pass
+
+# County Title
+title = c_anvard_pass
+
+# Settlements
+max_settlements = 1
+
+b_anvard_pass = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = archen
+religion = aslan

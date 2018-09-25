@@ -1,0 +1,15 @@
+# 1770 - Altstad
+# County Title
+title = c_altstad
+# Settlements
+max_settlements = 4
+
+
+b_altstad = castle
+b_ardenvold = city
+#b_tolsmin = temple
+b_sariea = castle
+
+# Misc
+culture = mellounian
+religion = mellounian_law

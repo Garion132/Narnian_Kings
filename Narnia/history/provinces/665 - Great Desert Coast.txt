@@ -1,0 +1,14 @@
+# 665 - Great Desert Coast
+
+# County Title
+title = c_great_desert_coast
+# Settlements
+max_settlements = 2
+
+b_great_desert_coast = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,1788 @@
+#70000-80000
+70000 = {
+	name="Gumpas" #only one of two cannon characters
+	dynasty=13
+	historical=yes
+	father=70002
+	religion="aslan"
+	culture="lone_islander"
+	wealth = 1500
+	add_trait = "cruel"
+	2269.4.18={
+		birth="2269.4.18"
+	}
+	2306.12.19={
+	}
+	2324.5.17={
+		death="2324.5.17"
+	}
+}
+70001 = {
+	name="Bern" #only one of two cannon characters, from Telmarine Narnia
+	#dynasty=1 
+	historical=yes
+	religion="aslan"
+	culture="telmarine"
+	wealth = 341
+	add_trait = "kind"
+	2258.10.27={
+		birth="2258.10.27"
+	}
+	2277.12.19={
+		add_friend=30009
+	}
+	2297.12.19={
+		employer=70000
+	}
+	2306.12.19={
+	}
+	2331.4.27={
+		death="2331.4.27"
+	}
+}
+70002 = {
+	name="Grim" #
+	dynasty=13
+	historical=yes
+	religion="aslan"
+	culture="lone_islander"
+	wealth = 1500
+	2237.7.24={
+		birth="2237.7.24"
+	}
+	#2306.12.19={
+	#}
+	2281.1.15={
+		death="2281.1.15"
+	}
+}
+70003 = {
+	name="Gumpas" #
+	dynasty=13
+	historical=yes
+	father=70000
+	religion="aslan"
+	culture="lone_islander"
+	add_trait = "kind"
+	add_trait = "quick"
+	2281.8.18={
+		birth="2281.8.18"
+	}
+	2357.4.11={
+		death="2357.4.11"
+	}
+}
+70010 = {
+	name="Arvan" #
+	dynasty=15
+	historical=yes
+	religion="aslan"
+	culture="lone_islander"
+	father=70011
+	wealth = 1500
+	2262.11.4={
+		birth="2262.11.4"
+	}
+	#2306.12.19={
+	#}
+	2345.6.7={
+		death="2345.6.7"
+	}
+}
+70011 = {
+	name="Avario" #
+	dynasty=15
+	historical=yes
+	religion="aslan"
+	culture="lone_islander"
+	wealth = 1000
+	father=70012
+	2234.2.9={
+		birth="2234.2.9"
+	}
+	#2306.12.19={
+	#}
+	2298.6.24={
+		death="2298.6.24"
+	}
+}
+70012 = {
+	name="Avario" #
+	dynasty=15
+	historical=yes
+	religion="aslan"
+	culture="lone_islander"
+	wealth = 1000
+	2197.8.14={
+		birth="2197.8.14"
+	}
+	#2306.12.19={
+	#}
+	2264.3.15={
+		death="2264.3.15"
+	}
+}
+70020 = {
+	name="Deluir" #
+	dynasty=16
+	historical=yes
+	religion="aslan"
+	culture="lone_islander"
+	wealth = 1000
+	2153.5.23={
+		birth="2153.5.23"
+	}
+	#2306.12.19={
+	#}
+	2229.10.14={
+		death="2229.10.14"
+	}
+}
+70021 = {
+	name="Delyr" #
+	dynasty=16
+	historical=yes
+	father=70020
+	religion="aslan"
+	culture="lone_islander"
+	wealth = 1000
+	2180.1.24={
+		birth="2180.1.24"
+	}
+	#2306.12.19={
+	#}
+	2259.4.21={
+		death="2259.4.21"
+	}
+}
+70022 = {
+	name="Deliore" #
+	dynasty=16
+	historical=yes
+	father=70021
+	religion="aslan"
+	culture="lone_islander"
+	wealth = 1000
+	2212.4.14={
+		birth="2212.4.14"
+	}
+	#2306.12.19={
+	#}
+	2291.1.11={
+		death="2291.1.11"
+	}
+}
+70023 = {
+	name="Delyta" #
+	dynasty=16
+	historical=yes
+	father=70022
+	religion="aslan"
+	culture="lone_islander"
+	wealth = 1000
+	2241.2.12={
+		birth="2241.2.12"
+	}
+	2314.6.22={
+		death="2314.6.22"
+	}
+}
+70102 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	#father = 70101
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	757.8.14 = {
+		birth="757.8.14"
+	}
+	825.5.6 = {
+		death="825.5.6"
+	}
+}
+70103 = {
+	name = "Frank" #
+	dynasty = 20
+	historical = yes
+	father = 70102
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	781.4.26 = {
+		birth="781.4.26"
+	}
+	858.8.8 = {
+		death="858.8.8"
+	}
+}
+70104 = {
+	name = "Walter" #
+	dynasty = 20
+	historical = yes
+	father = 70103
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	813.2.21={
+		birth="813.2.21"
+	}
+	884.3.5={
+		death="884.3.5"
+	}
+}
+70105 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70104
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	842.5.7 = {
+		birth = "842.5.7"
+	}
+	901.5.10 = {
+		death = "901.5.10"
+	}
+}
+70106 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70105
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	876.6.17={
+		birth="876.6.17"
+	}
+	935.2.19={
+		death="935.2.19"
+	}
+}
+70107 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70106
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	892.2.2={
+		birth="892.2.2"
+	}
+	958.8.24={
+		death="958.8.24"
+	}
+}
+70108 = {
+	name="Frank" #
+	dynasty=20
+	historical=yes
+	father=70107
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	921.5.14={
+		birth="921.5.14"
+	}
+	950.10.8={
+		add_spouse = 40153
+	}
+	999.9.15={
+		death="999.9.15"
+	}
+}
+70109 = {
+	name="Eric" #
+	dynasty=20
+	historical=yes
+	father=70108
+	mother = 40153
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	952.5.19={
+		birth="952.5.19"
+	}
+	1013.5.18={
+		death="1013.5.18"
+	}
+}
+70110 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70109
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	974.2.21={
+		birth="974.2.21"
+	}
+	1037.6.8={
+		death="1037.6.8"
+	}
+}
+70111 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70110
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1000.1.4={
+		birth="1000.1.4"
+	}
+	1069.10.16={
+		death="1069.10.16"
+	}
+}
+70112 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70111
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1030.8.14={
+		birth="1030.8.14"
+	}
+	1107.7.12={
+		death="1107.7.12"
+	}
+}
+70113 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70112
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1057.5.8={
+		birth="1057.5.8"
+	}
+	1133.3.30={
+		death="1133.3.30"
+	}
+}
+70114 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70113
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1083.8.17={
+		birth="1083.8.17"
+	}
+	1151.6.21={
+		death="1151.6.21"
+	}
+}
+70115 = {
+	name="Eric" #
+	dynasty=20
+	historical=yes
+	father=70114
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1102.7.21={
+		birth="1102.7.21"
+	}
+	1168.2.1={
+		death="1168.2.1"
+	}
+}
+70116 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70115
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1130.5.12={
+		birth="1130.5.12"
+	}
+	1198.4.27={
+		death="1198.4.27"
+	}
+}
+70117 = {
+	name="Frank" #
+	dynasty=20
+	historical=yes
+	father=70116
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1157.3.23={
+		birth="1157.3.23"
+	}
+	1224.4.15={
+		death="1224.4.15"
+	}
+}
+70118 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70117
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1181.5.21={
+		birth="1181.5.21"
+	}
+	1250.2.19={
+		death="1250.2.19"
+	}
+}
+70119 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70118
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1199.8.14={
+		birth="1199.8.14"
+	}
+	1284.5.22={
+		death="1284.5.22"
+	}
+}
+70120 = {
+	name="Henry" #
+	dynasty=20
+	historical=yes
+	father=70119
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1235.9.21={
+		birth="1235.9.21"
+	}
+	1302.5.18={
+		death="1302.5.18"
+	}
+}
+70121 = {
+	name="Walter" #
+	dynasty=20
+	historical=yes
+	father=70120
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1262.2.8={
+		birth="1262.2.8"
+	}
+	1330.1.1={
+		death="1330.1.1"
+	}
+}
+70122 = {
+	name="Walder" #
+	dynasty=20
+	historical=yes
+	father=70121
+	religion="aslan"
+	culture="terebinthian"
+	wealth = 2000
+	1280.9.17={
+		birth="1262.9.17"
+	}
+	1346.2.5={
+		death="1346.2.5"
+	}
+}
+70123 = {
+	name = "Eador" #the ageless?
+	dynasty = 20
+	historical = yes
+	father = 70122
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	health = 7.2
+	stewardship = 17
+	martial = 18
+	diplomacy = 14
+	learning = 8
+	add_trait = just
+	add_trait = genius
+	add_trait = strong
+	add_trait = kind
+	1319.12.25 = {
+		birth = "1319.12.25"
+	}
+	1431.1.1 = {
+		death = "1431.1.1"
+	}
+}
+70124 = {
+	name = "Eador" #
+	dynasty = 20
+	historical = yes
+	father = 70123
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1340.4.5 = {
+		birth = "1319.4.5"
+	}
+	1397.9.5 = {
+		death = "1397.9.5"
+	}
+}
+70125 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70124
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1368.7.14 = {
+		birth = "1368.7.14"
+	}
+	1424.9.5 = {
+		death = "1424.9.5"
+	}
+}
+70126 = {
+	name = "Edith" #
+	dynasty = 20
+	historical = yes
+	father = 70125
+	female = yes
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1397.9.15 = {
+		birth = "1368.9.15"
+	}
+	1467.6.21 = {
+		death = "1467.6.21"
+	}
+}
+70127 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70125
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1399.3.27 = {
+		birth = "1368.3.27"
+	}
+	1461.5.30 = {
+		death = "1461.5.30"
+	}
+}
+70128 = {
+	name = "Frank" #
+	dynasty = 20
+	historical = yes
+	father = 70127
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1428.6.18 = {
+		birth = "1428.6.48"
+	}
+	1462.4.2 = {
+		death = "1462.4.2"
+	}
+}
+70129 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70127
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1430.2.7 = {
+		birth = "1430.2.7"
+	}
+	1498.9.5 = {
+		death = "1498.9.5"
+	}
+}
+70130 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70129
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1454.6.24 = {
+		birth = "1454.6.24"
+	}
+	1524.8.19 = {
+		death = "1524.8.19"
+	}
+}
+70131 = {
+	name = "Walter" #
+	dynasty = 20
+	historical = yes
+	father = 70130
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1479.5.24 = {
+		birth = "1479.5.24"
+	}
+	1542.2.28 = {
+		death = "1542.2.28"
+	}
+}
+70132 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70131
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1506.2.14 = {
+		birth = "1506.2.14"
+	}
+	1570.6.22 = {
+		death = "1570.6.22"
+	}
+}
+70133 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70132
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1530.5.10 = {
+		birth = "1506.5.10"
+	}
+	1598.8.13 = {
+		death = "1598.8.13"
+	}
+}
+70134 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70133
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1557.8.20 = {
+		birth = "1557.8.20"
+	}
+	1616.8.8 = {
+		death = "1616.8.8"
+	}
+}
+70135 = {
+	name = "Salzavar" #
+	dynasty = 20
+	historical = yes
+	father = 70134
+	religion = "aslan"
+	culture = "terebinthian"
+	random_traits = no
+	add_trait = "elusive_shadow"
+	add_trait = "kind"
+	add_trait = "just"
+	add_trait = "paranoid"
+	add_trait = "unyielding_leader"
+	add_trait = "schemer"
+	stewardship = 18
+	intrigue = 14
+	wealth = 2000
+	1579.11.16 = {
+		birth = "1579.11.16"
+	}
+	1642.12.9 = {
+		death = "1642.12.6"
+	}
+}
+70136 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70135
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1603.9.10 = {
+		birth = "1603.9.10"
+	}
+	1687.1.23 = {
+		death = "1687.1.23"
+	}
+}
+70137 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70136
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1631.2.21 = {
+		birth = "1603.2.21"
+	}
+	1699.12.31 = {
+		death = "1699.12.31"
+	}
+}
+70138 = {
+	name = "Walter" #
+	dynasty = 20
+	historical = yes
+	father = 70137
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1659.4.14 = {
+		birth = "1659.4.14"
+	}
+	1724.3.29 = {
+		death = "1724.3.29"
+	}
+}
+70139 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70138
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1682.5.25 = {
+		birth = "1659.5.25"
+	}
+	1760.9.17 = {
+		death = "1760.9.17"
+	}
+}
+70140 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70139
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1711.6.12 = {
+		birth = "1711.6.12"
+	}
+	1773.8.13 = {
+		death = "1773.8.13"
+	}
+}
+70141 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70140
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1740.8.19 = {
+		birth = "1740.8.19"
+	}
+	1806.10.5 = {
+		death = "1806.10.5"
+	}
+}
+70142 = {
+	name = "Eador" #
+	dynasty = 20
+	historical = yes
+	father = 70141
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1767.8.19 = {
+		birth = "1767.8.19"
+	}
+	1835.4.16 = {
+		death = "1835.4.16"
+	}
+}
+70143 = {
+	name = "Eador" #
+	dynasty = 20
+	historical = yes
+	father = 70142
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1793.9.28 = {
+		birth = "1793.9.28"
+	}
+	1845.12.14 = {
+		death = "1845.12.14"
+	}
+}
+70144 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70143
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1813.4.17 = {
+		birth = "1813.4.17"
+	}
+	1877.10.12 = {
+		death = "1877.10.12"
+	}
+}
+70145 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70144
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1846.6.19 = {
+		birth = "1846.6.19"
+	}
+	1878.1.11 = {
+		death = {death_reason = death_battle}
+	}
+}
+70146 = {
+	name = "Henry" #the young
+	dynasty = 20
+	historical = yes
+	father = 70145
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1869.4.1 = {
+		birth = "1869.4.1"
+	}
+	1930.10.12 = {
+		death = "1930.10.12"
+	}
+}
+70147 = {
+	name = "Walter" #
+	dynasty = 20
+	historical = yes
+	father = 70146
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1892.9.2 = {
+		birth = "1892.9.2"
+	}
+	1953.2.15 = {
+		death = "1953.2.15"
+	}
+}
+70148 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70147
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1925.9.2 = {
+		birth = "1920.9.2"
+		add_trait = "twin"
+	}
+	2001.11.9 = {
+		death = "2001.11.9"
+	}
+}
+70149 = {
+	name = "Frank" #
+	dynasty = 20
+	historical = yes
+	father = 70147
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1925.9.2 = {
+		birth = "1920.9.2"
+		add_trait = "twin"
+	}
+	2001.11.9 = {
+		death = "2001.11.9"
+	}
+}
+70150 = {
+	name = "Frank" #
+	dynasty = 20
+	historical = yes
+	father = 70149
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1951.8.9 = {
+		birth = "1951.8.9"
+	}
+	2010.10.1 = {
+		death = "2010.10.1"
+	}
+}
+70151 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70150
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1970.5.16 = {
+		birth = "1970.5.16"
+	}
+	2033.12.2 = {
+		death = "2033.12.2"
+	}
+}
+70152 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70151
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	1993.1.12 = {
+		birth = "1993.1.12"
+	}
+	2058.5.18 = {
+		death = "2058.5.18"
+	}
+}
+70153 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70152
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	2016.5.2 = {
+		birth = "2016.5.2"
+	}
+	2078.1.15 = {
+		death = "2078.1.15"
+	}
+}
+70154 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70153
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	2042.5.16 = {
+		birth = "2042.5.16"
+	}
+	2113.6.25 = {
+		death = "2113.6.25"
+	}
+}
+70155 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70154
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 1000
+	2060.8.23 = {
+		birth = "2060.8.23"
+	}
+	2132.2.3 = {
+		death = "2132.2.3"
+	}
+}
+70156 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70155
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 1000
+	2089.9.29 = {
+		birth = "2089.9.29"
+	}
+	2173.5.19 = {
+		death = "2173.5.19"
+	}
+}
+70157 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70156
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 1000
+	2112.12.21 = {
+		birth = "2112.12.21"
+	}
+	2163.5.5 = {
+		death = "2163.5.5"
+	}
+}
+70158 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70157
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 1000
+	2141.1.14 = {
+		birth = "2141.1.14"
+	}
+	2223.9.21 = {
+		death = "2223.9.21"
+	}
+}
+70159 = {
+	name = "Frank" #
+	dynasty = 20
+	historical = yes
+	father = 70158
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 1000
+	2171.6.17 = {
+		birth = "2171.6.17"
+	}
+	2254.9.11 = {
+		death = "2254.9.11"
+	}
+}
+70160 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70159
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 1000
+	2200.4.15 = {
+		birth = "2200.4.15"
+	}
+	2281.5.16 = {
+		death = "2281.5.16"
+	}
+}
+70161 = {
+	name = "Frank" #
+	dynasty = 20
+	historical = yes
+	father = 70160
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 1000
+	2235.3.5 = {
+		birth = "2235.3.5"
+	}
+	2298.4.6 = {
+		death = "2298.4.6"
+	}
+}
+70162 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70161
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	2258.8.13 = {
+		birth = "2258.8.13"
+	}
+	2323.2.4 = {
+		death = "2323.2.4 "
+	}
+}
+70163 = {
+	name = "Henry" #
+	dynasty = 20
+	historical = yes
+	father = 70162
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 1000
+	2280.4.6 = {
+		birth = "2280.4.6"
+	}
+	2352.1.27 = {
+		death = "2353.1.27"
+	}
+}
+70164 = {
+	name = "Alica" #
+	dynasty = 20
+	historical = yes
+	female = yes
+	father = 70162
+	religion = "aslan"
+	culture = "terebinthian"
+	2282.9.15 = {
+		birth = "2282.9.15"
+	}
+	2348.6.14 = {
+		death = "2348.6.14"
+	}
+}
+70165 = {
+	name = "James" #
+	dynasty = 20
+	historical = yes
+	father = 70162
+	religion = "aslan"
+	culture = "terebinthian"
+	2283.5.21 = {
+		birth = "2283.5.21"
+	}
+	2359.9.29 = {
+		death = "2359.9.29"
+	}
+}
+70170 = {
+	name = "Eilinor" #
+	dynasty = 20
+	historical = yes
+	father = 70108
+	mother = 40153
+	female = yes
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	960.8.7 = {
+		birth = "960.8.7"
+	}
+	1024.3.16 = {
+		death = "1024.3.16"
+	}
+}
+70171 = {
+	name = "Alicia" #
+	dynasty = 20
+	historical = yes
+	father = 70109
+	female = yes
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	975.9.12 = {
+		birth = "975.9.12"
+	}
+	999.4.17= {
+		death = "999.4.17"
+	}
+}
+70172 = {
+	name = "Lilly" #
+	dynasty = 20
+	historical = yes
+	father = 70109
+	female = yes
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	976.7.23= {
+		birth = "976.7.23"
+	}
+	1029.8.21= {
+		death = "1029.8.21"
+	}
+}
+70173 = {
+	name = "Salva" #
+	dynasty = 20
+	historical = yes
+	father = 70109
+	religion = "aslan"
+	culture = "terebinthian"
+	wealth = 2000
+	979.9.10= {
+		birth = "979.9.10"
+	}
+	1041.2.3= {
+		death = "1041.2.3"
+	}
+}
+70200 = {
+	name="Grum" #
+	dynasty = 13
+	#father = 70002
+	religion = "aslan"
+	culture = "lone_islander"
+	wealth = 1500
+	add_trait = "proud"
+	952.3.28 = {
+		birth = "952.3.28"
+	}
+	985.2.4 = {
+		add_spouse = 40159
+	}
+	1029.7.21 = {
+		death = "1029.7.21"
+	}
+}
+70201 = {
+	name="Grum" #
+	dynasty = 13
+	father = 70200
+	mother = 40159
+	religion = "aslan"
+	culture = "lone_islander"
+	988.4.12 = {
+		birth = yes
+	}
+	1000.12.19 = {
+	}
+	1046.7.18 = {
+		death = yes
+	}
+}
+70500 = {
+	name="Adam" #
+	dynasty = 88
+	#father = 70002
+	religion = "aslan"
+	culture = "seven_islander"
+	wealth = 2000
+	martial = 7
+	diplomacy = 6
+	967.6.31 = {
+		birth = "967.6.31"
+	}
+	993.10.30 = {
+		add_spouse = 70170
+	}
+	1032.4.17 = {
+		death = "1032.4.17"
+	}
+}
+70501 = {
+	name="Frank" #
+	dynasty = 88
+	father = 70500
+	mother = 70170
+	religion = "aslan"
+	culture = "seven_islander"
+	996.5.11 = {
+		birth = "996.5.11"
+	}
+	1058.1.12 = {
+		death = "1058.1.12"
+	}
+}
+70502 = {
+	name="Mary" #
+	dynasty = 88
+	father = 70500
+	mother = 70170
+	female = yes
+	religion = "aslan"
+	culture = "seven_islander"
+	998.9.24 = {
+		birth = "998.9.24"
+	}
+	1055.5.27 = {
+		death = "1055.5.27"
+	}
+}
+
+70600 = {
+	name="Nicholas" #
+	dynasty = 89
+	#father = 70002
+	religion = "aslan"
+	culture = "outer_islander"
+	wealth = 1500
+	martial = 7
+	diplomacy = 6
+	947.4.12 = {
+		birth = "947.4.12"
+	}
+	1004.2.2 = {
+		death = "1004.2.2"
+	}
+}
+
+70601 = {
+	name="Aldir" #
+	dynasty = 89
+	father = 70600
+	religion = "aslan"
+	culture = "outer_islander"
+	969.8.28 = {
+		birth = "969.8.28"
+	}
+	1044.4.12 = {
+		death = "1044.4.12"
+	}
+}
+
+70700 = {
+	name="James" #
+	dynasty = 90
+	#father = 70002
+	religion = "aslan"
+	culture = "outer_islander"
+	wealth = 500
+	978.8.25 = {
+		birth = "978.8.25"
+	}
+	1051.7.28 = {
+		death = "1051.7.28"
+	}
+}
+
+70800 = {
+	name="Arastellim" #
+	dynasty = 91
+	#father = 70002
+	religion = "aslan"
+	culture = "outer_islander"
+	wealth = 250
+	974.9.10 = {
+		birth = "974.9.10"
+	}
+	1058.4.13 = {
+		death = "1058.4.13"
+	}
+}
+
+70900 = {
+	name="Eridia" #
+	dynasty = 92
+	#father = 70002
+	religion = "aslan"
+	culture = "outer_islander"
+	wealth = 1250
+	968.2.12 = {
+		birth = "968.2.12"
+	}
+	1042.2.21 = {
+		death = "1042.2.21"
+	}
+}
+
+71000 = {
+	name="Louis" #
+	dynasty = 94
+	#father = 70002
+	religion = "white_witch"
+	culture = "outer_islander"
+	wealth = 200
+	972.12.22 = {
+		birth = "972.12.22"
+	}
+	990.3.8={
+		add_spouse=40165
+	}
+	1055.7.30 = {
+		death = "1055.7.30"
+	}
+}
+71100 = {
+	name="Baldomar" #
+	dynasty = 95
+	#father = 70002
+	religion = "aryan"
+	culture = "german"
+	wealth = 200
+	martial = 10
+	add_trait = "skilled_tactician"
+	972.12.22 = {
+		birth = "972.12.22"
+	}
+	992.1.5 = {
+		effect={government = NSDAP_government}
+		add_spouse = 71102
+	}
+	1055.7.30 = {
+		death = "1055.7.30"
+	}
+}
+71101 = {
+	name="Adolf" #
+	dynasty = 95
+	father = 71100
+	mother = 71102
+	religion = "aryan"
+	culture = "german"
+	994.4.2 = {
+		birth = "994.4.2"
+	}
+	1081.4.18 = {
+		death = "1081.4.18"
+	}
+}
+71102 = {
+	name="Marie" #
+	#dynasty = 95
+	#father = 71100
+	religion = "aryan"
+	culture = "german"
+	female = yes
+	971.2.5 = {
+		birth = "971.2.5"
+	}
+	1081.4.18 = {
+		death = "1081.4.18"
+	}
+}
+
+71200 = {
+	name="Rexalt" #
+	dynasty = 96
+	#father = 70002
+	religion = "dragon_worship"
+	culture = "outer_islander"
+	wealth = 200
+	978.8.24 = {
+		birth = "978.8.24"
+	}
+	1052.5.10 = {
+		death = "1052.5.10"
+	}
+}
+
+71300 = {
+	name="Aemond" #
+	#dynasty = 97
+	#father = 70002
+	religion = "white_witch"
+	culture = "outer_islander"
+	wealth = 1000
+	968.9.20 = {
+		birth = "968.9.20"
+	}
+	1031.2.24 = {
+		death = "1031.2.24"
+	}
+}
+
+71400 = {
+	name="Rolland" #
+	#dynasty = 97
+	#father = 70002
+	religion = "aslan"
+	culture = "outer_islander"
+	wealth = 1000
+	981.2.12 = {
+		birth = "981.2.12"
+	}
+	1054.7.18 = {
+		death = "1054.7.18"
+	}
+}
+
+71500 = {
+	name="Verick" #
+	#dynasty = 97
+	#father = 70002
+	religion = "white_witch"
+	culture = "outer_islander"
+	wealth = 1000
+	979.7.30 = {
+		birth = "979.7.30"
+	}
+	1047.9.2 = {
+		death = "1047.9.2"
+	}
+}
+
+71600 = {
+	name="Sarverik" #
+	dynasty = 101
+	#father = 70002
+	religion = "dragon_worship"
+	culture = "outer_islander"
+	wealth = 1500
+	975.2.17 = {
+		birth = "975.2.17"
+	}
+	1051.2.18 = {
+		death = "1051.2.18"
+	}
+}
+
+71700 = {
+	name="Alexsander" #
+	dynasty = 111
+	father = 71704
+	mother = 2036
+	religion = "white_witch"
+	culture = "lone_islander"
+	wealth = 1200
+	959.7.11 = {
+		birth = yes
+	}
+	1000.12.19 = {
+	}
+	1034.4.2 = {
+		death = yes
+	}
+}
+71701 = {
+	name="Rangiln" #
+	dynasty = 111
+	father = 71700
+	religion = "white_witch"
+	culture = "lone_islander"
+	986.3.14 = {
+		birth = yes
+	}
+	1000.12.19 = {
+	}
+	1052.7.21 = {
+		death = yes
+	}
+}
+71702 = {
+	name="James" #
+	dynasty = 111
+	father = 71700
+	religion = "aslan"
+	culture = "lone_islander"
+	988.4.29 = {
+		birth = yes
+	}
+	1000.12.19 = {
+	}
+	1047.2.1 = {
+		death = yes
+	}
+}
+71703 = {
+	name="Lilly" #
+	dynasty = 111
+	father = 71700
+	female = yes
+	religion = "aslan"
+	culture = "lone_islander"
+	989.2.7 = {
+		birth = yes
+	}
+	1000.12.19 = {
+	}
+	1059.4.2 = {
+		death = yes
+	}
+}
+71704 = {
+	name="James" #
+	dynasty = 111
+	#father = 70002
+	religion = "white_witch"
+	culture = "lone_islander"
+	932.3.15 = {
+		birth = yes
+	}
+	959.12.19 = {
+		add_spouse = 2036
+	}
+	989.9.5 = {
+		death = yes
+	}
+}
+71705 = {
+	name="Cole" #
+	dynasty = 111
+	father = 71704
+	mother = 2036
+	religion = "white_witch"
+	culture = "lone_islander"
+	wealth = 1200
+	961.8.30 = {
+		birth = yes
+	}
+	1000.12.19 = {
+	}
+	1031.9.4 = {
+		death = yes
+	}
+}
+
+71800 = {
+	name="Salenvar" #
+	dynasty = 112
+	#father = 71704
+	#mother = 2036
+	religion = "white_witch"
+	culture = "lone_islander"
+	wealth = 1200
+	960.3.31 = {
+		birth = yes
+	}
+	1000.12.19 = {
+	}
+	1032.8.29 = {
+		death = yes
+	}
+}
+71801 = {
+	name="Salenvar" #
+	dynasty = 112
+	father = 71800
+	#mother = 2036
+	religion = "white_witch"
+	culture = "lone_islander"
+	982.6.15 = {
+		birth = yes
+	}
+	1000.12.19 = {
+	}
+	1045.9.14 = {
+		death = yes
+	}
+}
+
+71900 = {
+	name="Adolf" #
+	dynasty = 99
+	#father = 70002
+	religion = "aryan"
+	culture = "german"
+	#wealth = 200
+	#martial = 8
+	add_trait = "immortal"
+	972.12.22 = {
+		birth = yes
+	}
+	992.1.5 = {
+		effect={government = NSDAP_government}
+	}
+	2550.1.1 = {
+		death = yes
+	}
+}
+
+71901 = {
+	name="Astrid" #
+	#dynasty = 99
+	#father = 70002
+	religion = "aryan"
+	culture = "german"
+	female = yes
+	add_trait = "fair"
+	975.2.17 = {
+		birth = yes
+	employer=71100
+	}
+	1051.2.18 = {
+		death = yes
+	}
+}
+71902 = {
+	name="Aleta" #
+	#dynasty = 99
+	#father = 70002
+	religion = "aryan"
+	culture = "german"
+	female = yes
+	add_trait = "ugly"
+	980.2.17 = {
+		birth = yes
+	employer=71100
+	}
+	1051.2.18 = {
+		death = yes
+	}
+}
+71903 = {
+	name="Yrsa" #
+	#dynasty = 99
+	#father = 70002
+	religion = "aryan"
+	culture = "german"
+	female = yes
+	add_trait = "seductress"
+	983.2.17 = {
+		birth = yes
+	employer=71100
+	}
+	1051.2.18 = {
+		death = yes
+	}
+}
+71904 = {
+	name="Iliana" #
+	#dynasty = 99
+	#father = 70002
+	religion = "aryan"
+	culture = "german"
+	female = yes
+	add_trait = "quick"
+	975.2.17 = {
+		birth = yes
+	employer=71100
+	}
+	1051.2.18 = {
+		death = yes
+	}
+}
+71905 = {
+	name="Astrid" #
+	#dynasty = 99
+	#father = 70002
+	religion = "aryan"
+	culture = "german"
+	female = yes
+	add_trait = "fair"
+	975.2.17 = {
+		birth = yes
+	}
+	1051.2.18 = {
+		death = yes
+	}
+}
+
+72000 = {
+	name="Aldrich" #
+	#dynasty = 95
+	#father = 70002
+	religion = "aryan"
+	culture = "german"
+	wealth = 200
+	martial = 10
+	add_trait = "skilled_tactician"
+	961.9.27 = {
+		birth = yes
+	}
+	992.1.5 = {
+		effect={government = NSDAP_government}
+		#add_spouse = 71102
+	}
+	1030.8.12 = {
+		death = yes
+	}
+}

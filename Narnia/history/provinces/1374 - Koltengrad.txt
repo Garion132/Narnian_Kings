@@ -1,0 +1,14 @@
+# 1374 - Koltengrad
+# County Title
+title = c_koltengrad
+# Settlements
+max_settlements = 1
+
+
+b_koltengrad = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = muzhchinzmei
+religion = pamyatrossii

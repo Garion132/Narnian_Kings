@@ -1,0 +1,14 @@
+# 557 - Aberness
+
+# County Title
+title = c_aberness
+# Settlements
+max_settlements = 1
+
+b_aberness = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = archen
+religion = aslan

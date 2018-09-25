@@ -1,0 +1,14 @@
+# 1803 - Sarintain
+# County Title
+title = c_sarintain
+# Settlements
+max_settlements = 1
+
+
+b_sarintain = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = sulvarian
+religion = savra

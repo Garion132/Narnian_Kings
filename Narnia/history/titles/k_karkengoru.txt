@@ -1,0 +1,15 @@
+800.1.1={
+	liege = e_stary_sea
+	de_jure_liege = e_stary_sea
+}
+890.5.7={
+	holder = 101606
+}
+930.6.9={
+	holder = 0
+	liege = ""
+	de_jure_liege = e_surval
+}
+982.3.7 = {
+	holder = 101500
+}

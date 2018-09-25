@@ -1,0 +1,14 @@
+# 2120 - Curoala
+# County Title
+title = c_curoala
+# Settlements
+max_settlements = 3
+
+
+b_curoala = castle
+b_curonton = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

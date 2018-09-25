@@ -1,0 +1,14 @@
+978.9.28 = {
+	holder = 41800
+}
+989.9.15 = {
+	liege = k_veliualla
+	holder=40551
+}
+997.7.28={
+	holder=40550
+	set_tribute_suzerain = { who = c_swerata type = autonomous_vassal}
+}
+1040.1.1={
+	clear_tribute_suzerain = c_swerata
+}

@@ -1,0 +1,14 @@
+# 1656 - Redwood Greens
+# County Title
+title = c_redwood_greens
+# Settlements
+max_settlements = 1
+
+
+b_redwood_greens = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

@@ -1,0 +1,1656 @@
+e_axoleca = {
+	color={ 35 112 49 }
+	color2={ 48 255 93 }
+	capital = 1942 # Pukunu
+	
+	title = "Aksli"
+	title_female = "Akslina"
+	#foa = "Lord High King"
+	
+	k_axol = {
+		color={ 35 112 49 }
+		color2={ 255 255 255 }
+		
+
+		#capital = 1769 # Mellounia
+
+		d_pukunu = {
+			color={ 35 112 49 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_pukunu = {
+				color={ 35 110 50 }
+				color2={ 255 255 255 }
+				
+				b_pukunu = {
+				}
+				b_ilshncan={
+				}
+				b_aloisu={
+				}
+				b_yausrot={
+				}
+			}
+		}
+		d_licenotec = {
+			color={ 25 230 245 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_tethnechia = {
+				color={ 34 214 150 }
+				color2={ 255 255 255 }
+				
+				b_tethnechia = {
+				}
+			}
+			c_licenotec = {
+				color={ 39 203 153 }
+				color2={ 255 255 255 }
+				
+				b_licenotec = {
+				}
+			}
+			c_charnainl = {
+				color={ 42 230 145 }
+				color2={ 255 255 255 }
+				
+				b_charnainl = {
+				}
+			}
+			c_liasjrua = {
+				color={ 42 230 145 }
+				color2={ 255 255 255 }
+				
+				b_liasjrua = {
+				}
+			}
+		}
+		d_tarchurku = {
+			color={ 25 130 45 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_maliniqiru= {
+				color={ 34 114 50 }
+				color2={ 255 255 255 }
+				
+				b_maliniqiru = {
+				}
+			}
+			c_tarchurku = {
+				color={ 39 103 53 }
+				color2={ 255 255 255 }
+				
+				b_tarchurku = {
+				}
+			}
+			c_tarnisuki = {
+				color={ 42 130 45 }
+				color2={ 255 255 255 }
+				
+				b_tarnisuki = {
+				}
+			}
+		}
+	}
+	k_jelvernium = {
+		color={ 191 122 43 }
+		color2={ 255 255 255 }
+		
+
+		#capital = 337 # Cair Paravel
+
+		d_jelvar = {
+			color={ 125 130 45 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_enenvoun = {
+				color={ 134 114 50 }
+				color2={ 255 255 255 }
+				
+				b_enenvoun = {
+				}
+			}
+			c_elincarn = {
+				color={ 139 103 53 }
+				color2={ 255 255 255 }
+				
+				b_elincarn = {
+				}
+			}
+			c_jelvar = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_jelvar = {
+				}
+			}
+		}
+		d_hathian = {
+			color={ 151 210 225 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_hathac = {
+				color={ 147 114 20 }
+				color2={ 255 255 255 }
+				
+				b_hathac = {
+				}
+			}
+			c_ilosian = {
+				color={ 139 113 23 }
+				color2={ 255 255 255 }
+				
+				b_ilosian = {
+				}
+			}
+			c_hathathnhath = {
+				color={ 142 110 125 }
+				color2={ 255 255 255 }
+				
+				b_hathathnhath = {
+				}
+			}
+			c_roga = {
+				color={ 142 116 25 }
+				color2={ 255 255 255 }
+				
+				b_roga = {
+				}
+			}
+		}
+		d_eastern_jelvir = {
+			color={ 151 210 225 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_alcuno = {
+				color={ 147 114 20 }
+				color2={ 255 255 255 }
+				
+				b_alcuno = {
+				}
+			}
+			c_tectnocila = {
+				color={ 139 113 23 }
+				color2={ 255 255 255 }
+				
+				b_tectnocila = {
+				}
+			}
+			c_salisoult = {
+				color={ 142 110 125 }
+				color2={ 255 255 255 }
+				
+				b_salisoult = {
+				}
+			}
+			c_pirnocuan = {
+				color={ 142 116 25 }
+				color2={ 255 255 255 }
+				
+				b_pirnocuan = {
+				}
+			}
+		}
+	}
+	k_obun = {
+		color={ 109 47 59 }
+		color2={ 255 255 255 }
+		
+
+		#capital = 337 # Cair Paravel
+
+		d_jliraas = {
+			color={ 125 130 45 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_jliraas = {
+				color={ 134 114 50 }
+				color2={ 255 255 255 }
+				
+				b_jliraas = {
+				}
+			}
+			c_tzarsi = {
+				color={ 139 103 53 }
+				color2={ 255 255 255 }
+				
+				b_tzarsi = {
+				}
+			}
+			c_quesharia = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_quesharia = {
+				}
+			}
+			c_uyralo = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_uyralo = {
+				}
+			}
+		}
+		d_wuiyea = {
+			color={ 125 130 45 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_wuiyea = {
+				color={ 134 114 50 }
+				color2={ 255 255 255 }
+				
+				b_wuiyea = {
+				}
+			}
+			c_napatana = {
+				color={ 139 103 53 }
+				color2={ 255 255 255 }
+				
+				b_napatana = {
+				}
+			}
+			c_queina = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_queina = {
+				}
+			}
+			c_lnuias = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_lnuias = {
+				}
+			}
+		}
+		d_tanltican = {
+			color={ 10 84 22 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_techinina = {
+				color={ 134 114 50 }
+				color2={ 255 255 255 }
+				
+				b_techinina = {
+				}
+				b_cradle_of_faiths = {
+					holy_site = tarutarin
+					holy_site = eline
+					holy_site = eloia
+				}
+			}
+			c_tanltican = {
+				color={ 139 103 53 }
+				color2={ 255 255 255 }
+				
+				b_tanltican = {
+				}
+			}
+			c_cinlorau = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_cinlorau = {
+				}
+			}
+		}
+		d_chaliaru = {
+			color={ 109 142 13 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_hilaru = {
+				color={ 134 114 50 }
+				color2={ 255 255 255 }
+				
+				b_hilaru = {
+				}
+			}
+			c_chailcaium = {
+				color={ 139 103 53 }
+				color2={ 255 255 255 }
+				
+				b_chailcaium = {
+				}
+			}
+			c_llioaru = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_llioaru = {
+				}
+			}
+		}
+	}
+	k_elichtican = {
+		color={ 133 158 50 }
+		color2={ 255 255 255 }
+		
+
+		#capital = 337 # Cair Paravel
+		d_varuquea = {
+			color={ 125 130 45 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_gurain = {
+				color={ 134 114 50 }
+				color2={ 255 255 255 }
+				
+				b_gurain = {
+				}
+			}
+			c_varuquea = {
+				color={ 139 103 53 }
+				color2={ 255 255 255 }
+				
+				b_varuquea = {
+				}
+			}
+			c_hrenrau = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_hrenrau = {
+				}
+			}
+		}
+		d_saiuru = {
+			color={ 10 201 22 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_cuvaire = {
+				color={ 134 114 50 }
+				color2={ 255 255 255 }
+				
+				b_cuvaire = {
+				}
+			}
+			c_saiuru = {
+				color={ 139 103 53 }
+				color2={ 255 255 255 }
+				
+				b_saiuru = {
+				}
+			}
+			c_lorpai = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_lorpai = {
+				}
+			}
+		}
+		d_queiasli = {
+			color={ 125 130 45 }
+			color2={ 255 255 255 }
+			
+			#capital = 337 # Cair Paravel
+
+			c_buraiua = {
+				color={ 134 114 50 }
+				color2={ 255 255 255 }
+				
+				b_buraiua = {
+				}
+			}
+			c_queiasli = {
+				color={ 139 103 53 }
+				color2={ 255 255 255 }
+				
+				b_queiasli = {
+				}
+			}
+			c_namievra = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_namievra = {
+				}
+			}
+			c_uiaemsu = {
+				color={ 142 130 45 }
+				color2={ 255 255 255 }
+				
+				b_uiaemsu = {
+				}
+			}
+		}
+	}
+	
+}
+
+e_elexol = {
+	color={ 191 89 38 }
+	color2={ 48 255 93 }
+	#capital = 1942 # Pukunu
+	allow ={
+		NOT = {has_landed_title = e_elexol_confederation}
+	}
+	#title = "Aksli"
+	#title_female = "Akslina"
+	#foa = "Lord High King"
+	
+	k_tzuaranotc = {
+		color={ 190 125 20 }
+		color2={ 255 255 255 }
+		
+
+		#capital = 1769 # Mellounia
+
+		d_xulio = {
+			color={ 172 112 49 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_aloiua = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_aloiua = {
+				}
+			}
+			c_xulio = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_xulio = {
+				}
+			}
+			c_ilora = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_ilora = {
+				}
+			}
+		}
+		d_puroi = {
+			color={ 164 122 49 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_puroi = {
+				color={ 171 105 52 }
+				color2={ 255 255 255 }
+				
+				b_puroi = {
+				}
+			}
+			c_culirautan = {
+				color={ 164 117 42 }
+				color2={ 255 255 255 }
+				
+				b_culirautan = {
+				}
+			}
+			c_ytealu = {
+				color={ 168 116 48 }
+				color2={ 255 255 255 }
+				
+				b_ytealu = {
+				}
+			}
+		}
+		d_tzuarsitian = {
+			color={ 175 127 34 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_tyualoc = {
+				color={ 175 124 30 }
+				color2={ 255 255 255 }
+				
+				b_tyualoc = {
+				}
+			}
+			c_tzuarsitian = {
+				color={ 175 123 38 }
+				color2={ 255 255 255 }
+				
+				b_tzuarsitian = {
+				}
+			}
+			c_buriauac = {
+				color={ 175 105 38 }
+				color2={ 255 255 255 }
+				
+				b_buriauac = {
+				}
+			}
+		}
+		d_tiairalc = {
+			color={ 155 108 31 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_tiairalc = {
+				color={ 156 116 24 }
+				color2={ 255 255 255 }
+				
+				b_tiairalc = {
+				}
+			}
+			c_jilruac = {
+				color={ 151 117 29 }
+				color2={ 255 255 255 }
+				
+				b_jilruac = {
+				}
+			}
+			c_falurinoc = {
+				color={ 157 121 35 }
+				color2={ 255 255 255 }
+				
+				b_falurinoc = {
+				}
+			}
+		}
+	}
+	k_elexol = {
+		color={ 191 89 38 }
+		color2={ 255 255 255 }
+		
+
+		#capital = 1769 # Mellounia
+
+		d_varianoc = {
+			color={ 155 92 39 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_talonintan = {
+				color={ 162 90 40 }
+				color2={ 255 255 255 }
+				
+				b_talonintan = {
+				}
+			}
+			c_varianoc = {
+				color={ 167 87 45 }
+				color2={ 255 255 255 }
+				
+				b_varianoc = {
+				}
+			}
+			c_carrinta = {
+				color={ 159 92 42 }
+				color2={ 255 255 255 }
+				
+				b_carrinta = {
+				}
+			}
+		}
+		d_queiaoc = {
+			color={ 135 91 32 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_queiaoc = {
+				color={ 138 90 35 }
+				color2={ 255 255 255 }
+				
+				b_queiaoc = {
+				}
+			}
+			c_salinctan = {
+				color={ 142 94 37 }
+				color2={ 255 255 255 }
+				
+				b_salinctan = {
+				}
+			}
+			c_folinthan = {
+				color={ 148 95 40 }
+				color2={ 255 255 255 }
+				
+				b_folinthan = {
+				}
+			}
+			c_guralinoc = {
+				color={ 140 89 41 }
+				color2={ 255 255 255 }
+				
+				b_guralinoc = {
+				}
+			}
+		}
+		d_tuiarloa = {
+			color={ 135 79 59 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_piauthn = {
+				color={ 143 82 62 }
+				color2={ 255 255 255 }
+				
+				b_piauthn = {
+				}
+				b_piatine = {
+					holy_site = eline
+					holy_site = eloia
+				}
+			}
+			c_tuiarloa = {
+				color={ 145 86 60 }
+				color2={ 255 255 255 }
+				
+				b_tuiarloa = {
+				}
+			}
+			c_muranac = {
+				color={ 138 87 58 }
+				color2={ 255 255 255 }
+				
+				b_muranac = {
+				}
+			}
+			c_tyuaralo = {
+				color={ 141 90 64 }
+				color2={ 255 255 255 }
+				
+				b_tyuaralo = {
+				}
+			}
+		}
+		d_zuriaoc = {
+			color={ 142 86 63 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_wuthnare = {
+				color={ 152 84 61 }
+				color2={ 255 255 255 }
+				
+				b_wuthnare = {
+				}
+			}
+			c_zuriaoc = {
+				color={ 151 81 64 }
+				color2={ 255 255 255 }
+				
+				b_zuriaoc = {
+				}
+			}
+			c_tarnathian = {
+				color={ 148 79 67 }
+				color2={ 255 255 255 }
+				
+				b_tarnathian = {
+				}
+			}
+		}
+		d_niklrau = {
+			color={ 155 82 38 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_niklrau = {
+				color={ 157 86 39 }
+				color2={ 255 255 255 }
+				
+				b_niklrau = {
+				}
+			}
+			c_kitailoc = {
+				color={ 159 93 42 }
+				color2={ 255 255 255 }
+				
+				b_kitailoc = {
+				}
+			}
+			c_uloaoc = {
+				color={ 162 90 40 }
+				color2={ 255 255 255 }
+				
+				b_uloaoc = {
+				}
+			}
+			c_surlaith = {
+				color={ 168 98 45 }
+				color2={ 255 255 255 }
+				
+				b_surlaith = {
+				}
+			}
+		}
+	}
+	k_bridge_islands = {
+		color={ 23 139 132 }
+		color2={ 255 255 255 }
+		
+
+		#capital = 1769 # Mellounia
+
+		d_bridge_islands = {
+			color={ 155 92 39 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_tana = {
+				color={ 162 90 40 }
+				color2={ 255 255 255 }
+				
+				b_tana = {
+				}
+			}
+			c_vunri = {
+				color={ 167 87 45 }
+				color2={ 255 255 255 }
+				
+				b_vunri = {
+				}
+			}
+			c_doislo = {
+				color={ 159 92 42 }
+				color2={ 255 255 255 }
+				
+				b_doislo = {
+				}
+			}
+		}
+	}
+}
+	
+e_elexol_confederation = {
+	color={ 191 89 38 }
+	color2={ 48 255 93 }
+	tribe = yes
+	short_name =yes
+	
+}
+
+e_eslia = {
+	color={ 50 70 125 }
+	color2={ 48 255 93 }
+	capital = 2082 # Pukunu
+	
+	short_name = yes
+	#foa = "Lord High King"
+	
+	k_eslia = {
+		color={ 48 72 124 }
+		color2={ 255 255 255 }
+		title = "High King"
+		title_female = "High Queen"
+		
+		title_prefix = "HIGH_KINGDOM"
+		weosterman = "Eslia"
+		esliterman = "Eslia"
+		axol = "Quleina"
+		elexol = "Whallenoc"
+		german = "Eslian Protectorate"
+
+		capital = 2082 # Mellounia
+
+		d_selcun = {
+			color={ 178 0 255 }
+			color2={ 255 255 255 }
+			
+			#capital = 2082 # Mellounia
+
+			c_selishold = {
+				color={ 165 0 244 }
+				color2={ 255 255 255 }
+				
+				b_selishold = {
+				}
+			}
+			c_totems_point = {
+				color={ 168 0 252 }
+				color2={ 255 255 255 }
+				
+				b_totems_point = {
+				}
+			}
+			c_salnine = {
+				color={ 169 0 233 }
+				color2={ 255 255 255 }
+				
+				b_salnine = {
+				}
+			}
+			c_salnine_point = {
+				color={ 170 0 239 }
+				color2={ 255 255 255 }
+				
+				b_salnine_point = {
+				}
+			}
+			c_tolmunvale = {
+				color={ 167 0 238 }
+				color2={ 255 255 255 }
+				
+				b_tolmunvale = {
+				}
+			}
+		}
+		d_belsana = {
+			color={ 178 113 78 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_belsun = {
+				color={ 165 115 71 }
+				color2={ 255 255 255 }
+				
+				b_belsun = {
+				}
+			}
+			c_dulrain = {
+				color={ 168 109 75 }
+				color2={ 255 255 255 }
+				
+				b_dulrain = {
+				}
+			}
+			c_nuimo = {
+				color={ 169 116 73 }
+				color2={ 255 255 255 }
+				
+				b_nuimo = {
+				}
+			}
+			c_olprian = {
+				color={ 169 116 73 }
+				color2={ 255 255 255 }
+				
+				b_olprian = {
+				}
+			}
+		}
+		d_lopiar = {
+			color={ 68 199 252 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_lopiar = {
+				color={ 70 200 243 }
+				color2={ 255 255 255 }
+				
+				b_lopiar = {
+				}
+				b_lopiarn = {
+				}
+			}
+			c_sarrina = {
+				color={ 68 199 252 }
+				color2={ 255 255 255 }
+				
+				b_sarrina = {
+				}
+				b_sarrinaton={
+				}
+			}
+			c_selcun = {
+				color={ 172 0 234 }
+				color2={ 255 255 255 }
+				
+				b_selcun = {
+				}
+			}
+		}
+		d_rulailn = {
+			color={ 178 0 78 }
+			color2={ 255 255 255 }		
+			
+			c_rulailn = {
+				color={ 178 0 78 }
+				color2={ 255 255 255 }
+				
+				b_rulailn = {
+				}
+				b_rulafort = {
+				}
+				b_rulan = {
+				}
+				b_saventown={
+				}
+				b_salrina={
+				}
+				b_ruloina={
+				}
+			}
+		}
+		d_narwind = {
+			color={ 128 90 9 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_threehills = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_threehills = {
+				}
+			}
+			c_narwind_bay = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_narwind_town = {
+				}
+				b_narwind_bay = {
+				}
+				b_port_narwind = {
+				}
+				b_eloias_on_hill = {
+					holy_site = eloia
+				}
+			}
+			c_niran = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_niran = {
+				}
+			}
+		}
+		d_reachvell = {
+			color={ 172 112 49 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_calivao = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_calivao = {
+				}
+			}
+			c_redslope = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_redslope = {
+				}
+			}
+			c_tarnshold = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_tarnshold = {
+				}
+			}
+			c_windinghills = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_windinghills = {
+				}
+			}
+		}
+		d_tarnea = {
+			color={ 165 193 89 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_tarnea = {
+				color={ 165 195 90 }
+				color2={ 255 255 255 }
+				
+				b_tarnea = {
+				}
+			}
+			c_greykniln = {
+				color={ 168 189 88 }
+				color2={ 255 255 255 }
+				
+				b_greykniln = {
+				}
+			}
+			c_coalslope = {
+				color={ 169 196 86 }
+				color2={ 255 255 255 }
+				
+				b_coalslope = {
+				}
+			}
+			c_tarusion = {
+				color={ 170 189 87 }
+				color2={ 255 255 255 }
+				
+				b_tarusion = {
+				}
+			}
+			c_new_finger = {
+				color={ 23 0 16 }
+				color2={ 255 255 255 }
+				
+				b_new_finger = {
+				}
+			}
+		}
+		d_carnsholme = {
+			color={ 191 132 15 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_oriann = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_oriann = {
+				}
+			}
+			c_whitewood = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_whitewood = {
+				}
+			}
+			c_carnsholme = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_carnsholme = {
+				}
+			}
+			c_tarisnhole = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_tarisnhole = {
+				}
+			}
+		}
+		d_laninsstier = {
+			color={ 48 72 124 }
+			color2={ 255 255 255 }
+			
+			capital = 2082 # New Casterly Rock
+			c_new_casterly_rock = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_new_casterly_rock = {
+				}
+				b_linalport = {
+				}
+				b_temple_of_the_stranger={
+					holy_site = eloia
+				}
+				b_lanist={
+				}
+			}
+			c_curn = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_curn = {
+				}
+			}
+			c_ironwood = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_ironwood = {
+				}
+				b_ironport = {
+				}
+			}
+			c_lionial = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_lionial = {
+				}
+			}
+		}
+		d_goldfang = {
+			color={ 105 186 32 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_jumbliona = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_jumbliona = {
+				}
+			}
+			c_duandel = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_duandel = {
+				}
+			}
+			c_mountpira = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_mountpira = {
+				}
+			}
+			c_fivefang = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_fivefang = {
+				}
+			}
+			c_goldencliff = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_goldencliff = {
+				}
+			}
+		}
+		d_wytreaburned = {
+			color={ 85 161 193 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_burning_coast = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_burning_coast = {
+				}
+			}
+			c_wytrea = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_wytrea = {
+				}
+				b_wytrea_city = {
+				}
+			}
+			c_vurnam = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_vurnam = {
+				}
+			}
+			c_liunra = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_liunra = {
+				}
+			}
+		}
+		d_kourn = {
+			color={ 193 104 159 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_kourn = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_kourn = {
+				}
+			}
+			c_wurels_isle = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_wurels_city = {
+				}
+				b_wurels_fort = {
+				}
+			}
+			c_curnedcoast = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_curnedcoast = {
+				}
+			}
+		}
+		d_xuras = {
+			color={ 172 112 49 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_kurnsalt = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_kurnsalt = {
+				}
+			}
+			c_curina = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_curina = {
+				}
+			}
+			c_vurniol = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_vurniol = {
+				}
+			}
+			c_xuranpoint = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_xuranpoint = {
+				}
+			}
+		}
+		d_ryene = {
+			color={ 193 77 60 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_ruean = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_ruean = {
+				}
+			}
+			c_ryefield = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_ryefield = {
+				}
+			}
+			c_fulriau = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_fulriau = {
+				}
+			}
+			c_bunilrass = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_bunilrass = {
+				}
+			}
+		}
+		d_garlinmine = {
+			color={ 172 112 49 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_wurneli = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_wurneli = {
+				}
+			}
+			c_tarlsfort = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_tarlsfort = {
+				}
+			}
+			c_garlin = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_garlin = {
+				}
+			}
+			c_northmines = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_northmines = {
+				}
+			}
+		}
+		d_nillium = {
+			color={ 72 112 149 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_cloverglade = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_cloverglade = {
+				}
+			}
+			c_nillium = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_nillium = {
+				}
+			}
+			c_kulean = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_kulean = {
+				}
+			}
+		}
+		d_bluevine = {
+			color={ 22 12 149 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_bluevine = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_bluevine = {
+				}
+			}
+			c_lirgurn = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_lirgurn= {
+				}
+			}
+			c_busrenhold = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_busrenhold = {
+				}
+			}
+		}
+		d_goldwall = {
+			color={ 192 123 52 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_culriau = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_culriau = {
+				}
+				b_culrenta = {
+				}
+			}
+			c_vurnaeim = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_vurnaeim = {
+				}
+			}
+			c_goldenwall = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_goldenwall = {
+				}
+			}
+		}
+		d_molira = {
+			color={ 170 121 32 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_xulria = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_xulria = {
+				}
+			}
+			c_gulrian = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_gulrian = {
+				}
+			}
+			c_molira = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_molira = {
+				}
+			}
+		}
+		d_erlias = {
+			color={ 189 110 50 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_erlias = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_erlias = {
+				}
+				b_erlad = {
+				}
+				b_ermine = {
+				}
+				b_rime = {
+				}
+			}
+			c_curoala = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_curoala = {
+				}
+				b_curonton = {
+				}
+				b_ciram = {
+				}
+			}
+			c_nirem = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_nirem = {
+				}
+			}
+		}
+		d_cliroin = {
+			color={ 181 115 44 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_zureli = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_zureli = {
+				}
+			}
+			c_jillifort = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_jillifort = {
+				}
+			}
+			c_cliroin = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_cliroin = {
+				}
+			}
+			c_vurliou = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_vurliou = {
+				}
+			}
+		}
+		d_miliro = {
+			color={ 63 125 123 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_miliro = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_miliro = {
+				}
+			}
+			c_hulrian = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_hulrian = {
+				}
+			}
+			c_yellowing_plains = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_yellowing_plains = {
+				}
+			}
+		}
+		d_puliran = {
+			color={ 112 172 56 }
+			color2={ 255 255 255 }
+			
+			#capital = 1769 # Mellounia
+
+			c_puliran = {
+				color={ 165 115 21 }
+				color2={ 255 255 255 }
+				
+				b_puliran = {
+				}
+			}
+			c_ilrostre = {
+				color={ 168 109 25 }
+				color2={ 255 255 255 }
+				
+				b_ilrostre = {
+				}
+			}
+			c_runforthe = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_runforthe = {
+				}
+			}
+			c_julinsplains = {
+				color={ 169 116 23 }
+				color2={ 255 255 255 }
+				
+				b_julinsplains = {
+				}
+			}
+		}
+	}
+}
+
+k_ryene = {
+	color={ 193 77 60 }
+	color2={ 255 255 255 }
+	tribe = yes
+}
+k_lygur = {
+	color={ 193 175 93 }
+	color2={ 255 255 255 }
+	tribe = yes
+}
+k_redfort = {
+	color={ 223 65 50 }
+	color2={ 180 221 108 }
+	tribe = yes
+}
+k_the_reaches = {
+	color={ 75 193 113 }
+	color2={ 255 255 255 }
+	tribe = yes
+}
+k_miliros = {
+	color={ 116 134 193 }
+	color2={ 255 255 255 }
+	tribe = yes
+}
+b_torna = {
+	culture = esliterman
+	religion = eloia
+}
+b_verik = {
+	culture = esliterman
+	religion = eloia
+}
+b_oltarn = {
+	culture = esliterman
+	religion = eloia
+}
+b_koliran = {
+	culture = esliterman
+	religion = eloia
+}
+b_julirau = {
+	culture = esliterman
+	religion = eloia
+}
+b_starlk = {
+	culture = neorndman
+	religion = eloia
+}

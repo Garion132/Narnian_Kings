@@ -1,0 +1,9 @@
+1.1.1={
+	holder = 0
+}
+900.1.1={
+	liege = k_serinogvord
+}
+986.8.23={
+	holder = 90001
+}

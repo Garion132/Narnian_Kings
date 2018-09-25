@@ -1,0 +1,6 @@
+1.1.1={
+	law = succ_primogeniture
+}
+800.1.1 = {
+	liege = d_ilithia
+}

@@ -1,0 +1,14 @@
+# 1523 - Quilenvern
+# County Title
+title = c_quilenvern
+# Settlements
+max_settlements = 1
+
+
+b_quilenvern = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian_merku
+religion = lavurite

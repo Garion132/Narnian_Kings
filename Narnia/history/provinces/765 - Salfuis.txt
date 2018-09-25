@@ -1,0 +1,13 @@
+# 765 - Salfuis
+# County Title
+title = c_salfuis
+# Settlements
+max_settlements = 1
+
+b_salfuis = castle
+#b_lower_ilkeen = city
+b_salfuitash = temple
+
+# Misc
+culture = calormen
+religion = western_calormen_cults

@@ -1,0 +1,14 @@
+# 1157 - Leoira
+# County Title
+title = c_leoira
+# Settlements
+max_settlements = 1
+
+
+b_leoira_city = city
+b_leoira = castle
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

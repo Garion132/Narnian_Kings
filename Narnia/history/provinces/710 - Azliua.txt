@@ -1,0 +1,13 @@
+# 710 - Azliua
+# County Title
+title = c_azliua
+# Settlements
+max_settlements = 1
+
+b_azliua = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

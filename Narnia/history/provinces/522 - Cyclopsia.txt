@@ -1,0 +1,13 @@
+# 522 - Cyclopsia
+# County Title
+title = c_cyclopsia
+# Settlements
+max_settlements = 1
+
+b_cyclopsia = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch

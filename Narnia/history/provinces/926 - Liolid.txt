@@ -1,0 +1,13 @@
+# 926 - Liolid
+# County Title
+title = c_liolid
+# Settlements
+max_settlements = 1
+
+b_liolid = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

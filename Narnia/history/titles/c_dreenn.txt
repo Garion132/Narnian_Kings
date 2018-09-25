@@ -1,0 +1,9 @@
+750.6.9={
+	liege = k_liene
+}
+946.7.24={
+	liege = d_krulain
+}
+984.7.12={
+	holder = 111000
+}

@@ -1,0 +1,14 @@
+# 2029 - Sarrina
+# County Title
+title = c_sarrina
+# Settlements
+max_settlements = 1
+
+
+b_sarrina = castle
+b_sarrinaton = city
+#b_tolsmin = temple
+
+# Misc
+culture = neorndman
+religion = eloia

@@ -1,0 +1,13 @@
+# 693 - Agorbaan
+# County Title
+title = c_agorbaan
+# Settlements
+max_settlements = 1
+
+b_agorbaan = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

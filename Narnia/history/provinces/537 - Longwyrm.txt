@@ -1,0 +1,13 @@
+# 537 - Longwyrm
+# County Title
+title = c_longwyrm
+# Settlements
+max_settlements = 4
+
+b_longwyrm = castle
+b_shortwyrm = city
+b_wyrmhold = castle
+
+# Misc
+culture = outer_islander
+religion = white_witch

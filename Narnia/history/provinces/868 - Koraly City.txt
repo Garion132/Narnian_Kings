@@ -1,0 +1,31 @@
+# 868 - Koraly City
+# County Title
+title = c_koraly_city
+# Settlements
+max_settlements = 1
+
+b_koraly_city = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan
+
+85.1.1={
+	b_koraly_city = ca_keep_1
+	b_koraly_city = ca_keep_2
+	b_koraly_city = ca_keep_3
+	b_koraly_city = ca_training_grounds_1
+	b_koraly_city = ca_training_grounds_2
+	b_koraly_city = ca_stable_1
+	b_koraly_city = ca_wall_1
+	b_koraly_city = ca_wall_2
+	b_koraly_city = ca_militia_barracks_1
+	b_koraly_city = ca_barracks_1
+	b_koraly_city = ca_barracks_2
+	b_koraly_city = ca_barracks_3
+	b_koraly_city = ca_barracks_4
+	b_koraly_city = ca_town_1
+	b_koraly_city = ca_town_2
+}

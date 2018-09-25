@@ -1,0 +1,14 @@
+# 1738 - Westweld
+# County Title
+title = c_westweld
+# Settlements
+max_settlements = 1
+
+
+b_westweld = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

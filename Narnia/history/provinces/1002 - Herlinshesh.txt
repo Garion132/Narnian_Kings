@@ -1,0 +1,13 @@
+# 1002 - Herlinshesh
+# County Title
+title = c_herlinshesh
+# Settlements
+max_settlements = 1
+
+b_herlinshesh = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = tashlan

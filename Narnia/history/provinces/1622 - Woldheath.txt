@@ -1,0 +1,14 @@
+# 1622 - Woldheath
+# County Title
+title = c_woldheath
+# Settlements
+max_settlements = 1
+
+
+b_woldheath = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

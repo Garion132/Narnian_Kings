@@ -1,0 +1,14 @@
+# 1158 - Olunia
+# County Title
+title = c_olunia
+# Settlements
+max_settlements = 1
+
+
+b_olunia = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

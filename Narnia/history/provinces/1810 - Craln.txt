@@ -1,0 +1,14 @@
+# 1810 - Craln
+# County Title
+title = c_craln
+# Settlements
+max_settlements = 1
+
+
+b_craln = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = telvasrian
+religion = savra

@@ -1,0 +1,6 @@
+947.6.8={
+	set_tribute_suzerain = { who = e_mellounia type = imperial_automonous_vassal}
+}
+989.9.24={
+	holder = 42700
+}

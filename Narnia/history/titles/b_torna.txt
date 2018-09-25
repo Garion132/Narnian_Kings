@@ -1,0 +1,7 @@
+1.1.1={
+	holding_dynasty = 124
+	liege="d_rulailn"
+}
+993.2.4={
+	holder=120700
+}

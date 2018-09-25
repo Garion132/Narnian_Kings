@@ -1,0 +1,14 @@
+# 580 - Pascalen
+
+# County Title
+title = c_pascalen
+# Settlements
+max_settlements = 1
+
+b_pascalen = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = archen
+religion = aslan

@@ -1,0 +1,14 @@
+# 2380 - Hotwater Hollow
+# County Title
+title = c_hotwater_hollow
+# Settlements
+max_settlements = 1
+
+
+b_hotwater_hollow = castle
+#b_malenkith = city
+b_hotwater_caverns = temple
+
+# Misc
+culture = cerek
+religion = eline

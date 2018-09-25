@@ -1,0 +1,14 @@
+# 1516 - Uolunas
+# County Title
+title = c_uolunas
+# Settlements
+max_settlements = 1
+
+
+b_uolunas = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian_merku
+religion = denols

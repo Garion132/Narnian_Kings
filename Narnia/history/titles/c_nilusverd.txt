@@ -1,0 +1,6 @@
+1.1.1={
+	#law = succ_primogeniture
+}
+873.6.9={
+	liege = d_amocaal
+}

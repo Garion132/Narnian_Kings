@@ -1,0 +1,14 @@
+tributaries:
+Autominus vassal no tax, called to arms and can break away if substerian is weak
+monitary tributary taxed but can't be called to arms
+satellite state. auto defensive pact, satalight state can call susterian to defensive wars, no tax
+
+off map empires:
+south empire 1
+south empire 2
+
+can be introduced (if possible)
+Great Britian
+Germany
+USSR
+USA

@@ -1,0 +1,14 @@
+820.4.20={
+	policy = germany_consolidaing
+}
+995.9.5 = {
+	holder = 71900
+	status = germany_stable
+	policy = germany_industrailsing
+}
+1010.6.9={
+	policy = germany_agressive
+}
+1500.7.12={
+	policy = germany_consolidaing
+}

@@ -1,0 +1,27 @@
+# 330 - Brenn
+
+# County Title
+title = c_brenn
+
+# Settlements
+max_settlements = 1
+
+b_brenn = castle
+b_brennom = city
+b_temple_on_brenn = temple
+
+# Misc
+culture = seven_islander
+religion = aslan
+
+700.1.5={
+	b_brenn = ca_keep_1
+	b_brenn = ca_keep_2
+	b_brenn = ca_keep_3
+	b_brenn = ca_wall_1
+	b_brenn = ca_wall_2
+	b_brenn = ca_shipyard_1
+	b_brenn = ca_shipyard_2
+	b_brenn = ca_shipyard_3
+	b_brenn = ca_shipyard_4
+}

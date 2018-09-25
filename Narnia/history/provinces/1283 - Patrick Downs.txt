@@ -1,0 +1,14 @@
+# 1283 - Patrick Downs
+# County Title
+title = c_patrick_downs
+# Settlements
+max_settlements = 1
+
+
+b_patrick_downs = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

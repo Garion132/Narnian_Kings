@@ -1,0 +1,14 @@
+# 1083 - Juensaer
+# County Title
+title = c_juensaer
+# Settlements
+max_settlements = 1
+
+
+b_juensaer = castle
+#b_shannan_city = city
+b_juensrne = temple
+
+# Misc
+culture = irish
+religion = celtic

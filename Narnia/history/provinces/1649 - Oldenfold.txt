@@ -1,0 +1,14 @@
+# 1649 - Oldenfold
+# County Title
+title = c_oldenfold
+# Settlements
+max_settlements = 1
+
+
+b_oldenfold = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = alzuashonaru
+religion = pamyatrossii

@@ -1,0 +1,189 @@
+namespace = Nar_holy_war
+narrative_event = {
+	id = Nar_holy_war.1
+	title = "EVTNAMENar_holy_war.1"
+	desc = "EVTDESCNar_holy_war.1"
+	picture = GFX_evt_crusaders
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	major = yes
+	show_ROOT = yes
+	hide_new = yes
+	
+	trigger = {
+		can_call_crusade = yes
+		ROOT = { religion=tellan }
+		new_character = {
+			#religion_group = muslim
+		}
+	}
+	
+	option = {
+		name = "EVTOPTANar_holy_war.1" # Deus Vult!
+		trigger = { religion = ROOT }
+	}
+	option = {
+		name = "EVTOPTBNar_holy_war.1" # No concern of ours
+		trigger = {
+			NOT = { religion = ROOT }
+			new_character = {
+				NOT = { religion = PREV }
+				NOT = { character = PREV }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTDNar_holy_war.1" # To Arms!
+		trigger = {
+			new_character = {
+				character = PREV
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTENar_holy_war.1" # Terrible News!
+		trigger = {
+			new_character = {
+				religion = PREV
+				NOT = { character = PREV }
+			}
+		}
+	}
+}
+
+
+character_event = { #koraly falls
+	id = Nar_holy_war.5
+	desc = "EVTDESCNar_holy_war.5"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		c_koraly_city = {
+			holder_scope = {
+				NOT = {
+					religion = tellan
+				}
+			}
+		}
+		religion = tellan
+		is_incapable = no
+		has_landed_title = k_telmar
+		
+		NOT = {has_character_flag = koraly_has_fallen_tellan}
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = { # we can do nothing
+		name = "EVTOPTANar_holy_war.5"
+		piety =-75
+		set_character_flag = koraly_has_fallen_tellan
+	}
+	option = { # we should restore the kingdom
+		name = "EVTOPTANar_holy_war.5"
+		if = {
+			limit = {
+				k_koraly={holder_scope={religion=tellan}}
+			}
+			k_koraly={
+				holder_scope={
+					reverse_war = { 
+						target = FROM
+						casus_belli = claim
+						thirdparty_title = k_koraly
+						tier = KING
+						
+						thirdparty = ROOT
+					}
+				}
+			}
+			
+		}
+		if = {
+			limit = {
+				NOT = {k_koraly={holder_scope={religion=tellan}}}
+			}
+			k_koraly={
+				holder_scope={
+					reverse_war = { 
+						target = FROM
+						casus_belli = claim
+						thirdparty_title = k_koraly
+						tier = KING
+						
+						thirdparty = ROOT
+					}
+				}
+			}
+		}
+		set_character_flag = koraly_has_fallen_tellan
+	}
+	option = { # call for crusades
+		name = "EVTOPTCNar_holy_war.5"
+		
+		rightful_religious_head_scope={
+			character_event = {id = Nar_holy_war.6}
+		}
+		set_character_flag = koraly_has_fallen_tellan
+	}
+}
+character_event = { #request from the king of telmar for a "crusade"
+	id = Nar_holy_war.6
+	desc = "EVTDESCNar_holy_war.6"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = "EVTOPTANar_holy_war.6"
+		set_global_flag = tellan_crusade
+		FROM = {character_event = {id = Nar_holy_war.8}}
+	}
+	option = { # no
+		name = "EVTOPTBNar_holy_war.6"
+		FROM = {character_event = {id = Nar_holy_war.7}}
+	}
+}
+character_event = { #respose to the crusade request negitive
+	id = Nar_holy_war.7
+	desc = "EVTDESCNar_holy_war.7"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # great
+		name = "EVTOPTANar_holy_war.7"
+	}
+}
+character_event = { #thanks to the king of telmar the pope has decleared a new age of crusades
+	id = Nar_holy_war.8
+	desc = "EVTDESCNar_holy_war.8"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_narrative_frame_war
+	
+	major = yes
+	
+	show_ROOT = yes
+	
+	only_playable = yes
+	religion = tellan
+	#trigger = {
+	#	has_global_flag = tellan_crusade
+	#	NOT = {has_global_flag = tellan_crusades_unlocked}
+	#	controls_religion = yes
+	#}
+	
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "EVTOPTANar_holy_war.8"
+		set_global_flag = tellan_crusades_unlocked
+	}
+}

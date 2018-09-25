@@ -1,0 +1,20 @@
+# 719 - Zalindreh
+# County Title
+title = c_zalindreh
+# Settlements
+max_settlements = 4
+
+b_zalindreh = castle
+b_zalindreh_city = city
+b_zalindres = temple
+
+# Misc
+culture = calormen
+religion = tash
+
+792.6.15 = {
+	capital = b_zalindreh_city
+}
+1102.9.23 = {
+	capital = b_zalindreh
+}

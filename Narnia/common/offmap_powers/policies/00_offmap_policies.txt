@@ -1,0 +1,28 @@
+### Policies are modifiers so they can contain the same things are other modifiers
+# however they are not applied to a character but to the offmap_power
+# they can also have flags that can be tested from the offmap_power scope
+
+germany_consolidaing = {#putting down rebellions/unrisings/gorilla fighters, low action on the fronts
+	frame = 1 #
+}
+
+germany_industrailsing = {#Germany is building up for a push
+	#flags = { disallow_interactions disallow_troops }
+	frame = 2# cheaper to get boons
+}
+
+germany_agressive= {#Germany is directly invading somewhere
+	frame = 3 # 
+}
+
+germany_defensive= {#death camps and the like, people more likely sneaking into narnia
+	frame = 4
+}
+
+germany_minimal_funding= {#Germany is mostly uninterested in Narnia, 
+	frame = 5#no exsports
+}
+
+germany_closed_portal= {#Germany has either fallen or given up on the world of narnia
+	frame = 6#no germany to interact with
+}

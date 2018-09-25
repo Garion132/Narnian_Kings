@@ -1,0 +1,13 @@
+# 730 - Euistals
+# County Title
+title = c_euistals
+# Settlements
+max_settlements = 1
+
+b_euistals = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

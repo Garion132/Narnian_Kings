@@ -1,0 +1,13 @@
+# 659 - Sharat
+# County Title
+title = c_sharat
+# Settlements
+max_settlements = 1
+
+b_sharat = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = calormen
+religion = tash

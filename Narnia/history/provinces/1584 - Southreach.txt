@@ -1,0 +1,14 @@
+# 1584 -Southreach
+# County Title
+title = c_southreach
+# Settlements
+max_settlements = 1
+
+
+b_southreach = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

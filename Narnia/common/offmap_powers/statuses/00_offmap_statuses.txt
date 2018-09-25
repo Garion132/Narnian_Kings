@@ -1,0 +1,34 @@
+### Statuses are modifiers so they can contain the same things are other modifiers
+# however they are not applied to a character but to the offmap_power
+# they can also have flags that can be tested from the offmap_power scope
+
+germany_stable = {
+	frame = 1
+}
+
+germany_exspanding = {
+	frame = 2
+}
+
+germany_under_pressure = {
+	frame = 3
+}
+
+germany_falling_back = {
+	frame = 4
+}
+
+germany_invaded = {
+	#flags = { disallow_interactions disallow_troops }
+	frame = 5
+}
+
+germany_occupied = {
+	#flags = { disallow_interactions disallow_troops }
+	frame = 6
+}
+
+germany_closed = {
+	#flags = { disallow_interactions disallow_troops }
+	frame = 7
+}

@@ -1,0 +1,14 @@
+# 2130 - Jillifort
+# County Title
+title = c_jillifort
+# Settlements
+max_settlements = 1
+
+
+b_jillifort = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

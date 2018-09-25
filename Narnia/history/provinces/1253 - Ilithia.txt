@@ -1,0 +1,14 @@
+# 1253 - Ilithia
+# County Title
+title = c_ilithia
+# Settlements
+max_settlements = 1
+
+
+b_ilithia = castle
+b_ilentia = temple
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

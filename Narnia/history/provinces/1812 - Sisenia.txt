@@ -1,0 +1,14 @@
+# 1812 - Sisenia
+# County Title
+title = c_sisenia
+# Settlements
+max_settlements = 1
+
+
+b_sisenia = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = callendeen
+religion = savra

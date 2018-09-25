@@ -1,0 +1,14 @@
+# 1417 - Tel Venstat
+# County Title
+title = c_tel_venstat
+# Settlements
+max_settlements = 1
+
+
+b_tel_venstat = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

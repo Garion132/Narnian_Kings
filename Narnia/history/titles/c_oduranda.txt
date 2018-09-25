@@ -1,0 +1,8 @@
+900.6.6={
+	liege = k_loiva
+}
+993.3.27 = {
+	liege = e_kingitangahou
+	#liege = k_iwiwhao
+	holder = 86200
+}

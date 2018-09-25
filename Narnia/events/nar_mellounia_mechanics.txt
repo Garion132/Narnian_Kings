@@ -1,0 +1,395 @@
+namespace = nar_mell
+character_event = { #A autonmus vassal died leaving an incabable ruler in charge, shall we intergrate them
+	id = nar_mell.1
+	desc = "EVTDESCnar_mell1"
+	
+	is_triggered_only = yes
+	only_rulers = yes
+	hide_window = yes
+	
+	trigger = {
+		suzerain={
+			OR = {
+				has_landed_title = e_mellounia
+				has_landed_title = e_axoleca
+			}
+		}
+		current_heir = {
+			OR={
+				stewardship <= 5
+				trait = incapable
+				trait = inbred
+				trait = infirm
+				trait = content
+				age <= 6
+				#religion = mellounian_law
+				suzerain = {
+					OR = {
+						stewardship >= 25
+						diplomacy >= 25
+						martial >= 25
+					}
+				}
+			}
+		}
+	}
+	immediate = {
+		current_heir = {
+			character_event = { id = nar_mell.3 days = 5}
+		}
+	}
+
+}
+
+character_event = { #A autonmus vassal died leaving an amenible ruler in charge, shall we intergrate them
+	id = nar_mell.2
+	desc = "EVTDESCnar_mell2"
+	is_triggered_only = yes#ROOT = emps FROM = autonmus vassal
+	
+	option = { #give the order
+		name = EVTOPTAnar_mell.2
+		trigger = {
+			prestige >= 250
+			cash >= 250
+		}
+		prestige = -250
+		cash = -250
+		war = { 
+			target = FROM
+			casus_belli = force_vassalization
+			thirdparty_title = FROM 
+			tier = KING 
+		}
+		FROM = {
+			character_event = { id = nar_mell.4 }
+		}
+	}
+	option = { #no
+		name = EVTOPTBnar_mell.2
+	}
+}
+
+character_event = { #your autonomy has been revoked
+	id = nar_mell.3
+	desc = "EVTDESCnar_mell3"
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		suzerain = {
+			character_event = { id = nar_mell.2 }
+		}
+	}
+}
+
+character_event = { #your autonomy has been revoked
+	id = nar_mell.4
+	desc = "EVTDESCnar_mell4"
+	is_triggered_only = yes
+	
+	option = { #we must submit
+		name = EVTOPTAnar_mell.4
+		FROM ={
+			any_war = {
+				if = {
+					limit = {
+						using_cb = force_vassalization
+						defender = { character = FROM }
+						attacker = { character = ROOT }
+					}	
+					thirdparty_title_scope = { set_title_flag = war_title }
+					end_war = success
+				}	
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = proud
+					trait = ambitious
+				}
+			}
+			modifier = {
+				factor = 0.2
+				OR = {
+					trait = stubborn
+				}
+			}
+			
+		}
+	}
+	option = { #NO 
+		name = EVTOPTBnar_mell.4
+		
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = craven
+					trait = content
+					trait = shy
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = trusting
+				}
+			}
+		}
+	}
+}
+###revolts against the rule
+character_event = { #the beurocarcy mutters
+	id = nar_mell.5
+	desc = "EVTDESCnar_mell5"
+	only_playable = yes
+	trigger = {
+		has_landed_title = e_mellounia
+		NOR = {
+			religion = mellounian_law
+			government = bureaucracy_government
+		}
+		stewardship <= 12
+	}
+	mean_time_to_happen = {
+		months = 8
+	}
+	option = { #i should renenstate the bureaucracy
+		name = EVTOPTAnar_mell.5
+		
+		set_government_type = bureaucracy_government
+		religion = mellounian_law
+		if = {
+			limit = {
+				NOT= {has_landed_title = c_mellounia }
+			}
+			c_mellounia = {
+				usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+			}
+		}
+		if = {
+			limit = {
+				NOT= {has_landed_title = c_ulinoa }
+			}
+			c_ulinoa = {
+				usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+			}
+		}
+		if = {
+			limit = {
+				NOT= {has_landed_title = c_altstad }
+			}
+			c_altstad = {
+				usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+			}
+		}
+		prestige = -500
+		piety = 250
+		
+	}
+	option = { #let them grumble
+		name = EVTOPTBnar_mell.5
+		
+		hidden={
+			capital = {
+				province_event = { id = nar_mell.6 days = 360 random = 500}
+			}
+		}
+		presitge = 200
+	}
+}
+
+province_event = { #small scale revolts
+	id = nar_mell.6
+	desc = "EVTDESCnar_mell6"
+	is_triggered_only = yes
+
+	immediate = {
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mellounian_law
+			culture = PREV
+			female = no
+			age = 48
+			attributes = {
+				stewardship = 21
+			}
+		}
+		
+		new_character = {
+			create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				rebel = yes
+				culture = PREVPREV
+				name = "BEUREAUCRACY_REVOLT"
+				holder = THIS
+			}
+			add_claim = e_mellounia
+			wealth = 1000
+			
+			spawn_unit = {
+				owner = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 200 200 }
+					light_infantry = { 800 800 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 200 200 }
+					light_infantry = { 800 800 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = ROOT
+				home = ROOT
+				troops = {
+					archers = { 200 200 }
+					light_infantry = { 800 800 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = c_olchi
+				home = c_olchi
+				troops = {
+					archers = { 250 250 }
+					light_infantry = { 1000 1000 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = c_olchi
+				home = c_olchi
+				troops = {
+					archers = { 250 250 }
+					light_infantry = { 1000 1000 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = c_olchi
+				home = c_olchi
+				troops = {
+					archers = { 250 250 }
+					light_infantry = { 1000 1000 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = c_jearis
+				home = c_jearis
+				troops = {
+					archers = { 100 100 }
+					light_infantry = { 600 600 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = c_jearis
+				home = c_jearis
+				troops = {
+					archers = { 100 100 }
+					light_infantry = { 600 600 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = THIS
+				province = c_jearis
+				home = c_jearis
+				troops = {
+					archers = { 100 100 }
+					light_infantry = { 600 600 }
+				}
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+			# DoW on the province top liege
+			ROOT = {
+				owner = {
+					top_liege = {
+#						set_defacto_vassal = PREVPREVPREV
+						reverse_war = {
+							target = PREVPREVPREV
+							casus_belli = claim
+							thirdparty_title = e_mellounia # The county
+						}
+						reverse_opinion = {
+							who = PREVPREVPREV
+							modifier = opinion_evil_tyrant
+						}
+						random_tributary = {
+							character_event = { id = nar_mell.7 days = 1 }
+						}
+						random_tributary = {
+							character_event = { id = nar_mell.7 days = 1 }
+						}
+						random_tributary = {
+							character_event = { id = nar_mell.7 days = 1 }
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	option = { #Put them down
+		name = EVTOPTAnar_mell.6
+	}
+}
+
+character_event = { #the BEUREAUCRACY calls for aid
+	id = nar_mell.7
+	desc = "EVTDESCnar_mell7"
+	is_triggered_only = yes
+	
+	option = { #i am loyal to the state
+		name = EVTOPTAnar_mell.7
+		ROOT = {join_attacker_wars = FROM}
+	}
+	#option = { #Stay Neutral
+	#	name = EVTOPTBnar_mell.7
+	#}
+	#option = { #i am loyal to the emperor
+	#	name = EVTOPTCnar_mell.7
+	#	join_defender_wars = suzerain
+	#}
+}

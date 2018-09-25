@@ -1,0 +1,13 @@
+# 707 - Aliuzi
+# County Title
+title = c_aliuzi
+# Settlements
+max_settlements = 1
+
+b_aliuzi = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,13 @@
+# 596 - Winterfield
+# County Title
+title = c_winterfield
+# Settlements
+max_settlements = 1
+
+b_winterfield = castle
+#b_temple_of_charn = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = black_dwarf
+religion = white_witch

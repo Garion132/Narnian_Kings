@@ -1,0 +1,14 @@
+# 664 - Tashbaan Bay
+
+# County Title
+title = c_tashbaan_bay
+# Settlements
+max_settlements = 4
+
+b_tashbaan_bay = castle
+b_port_of_tash = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

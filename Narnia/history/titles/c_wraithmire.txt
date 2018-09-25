@@ -1,0 +1,9 @@
+200.6.9={
+	liege = e_charn
+}
+929.7.6={
+	liege = k_new_charn
+}
+943.7.8={
+	holder = 53900
+}

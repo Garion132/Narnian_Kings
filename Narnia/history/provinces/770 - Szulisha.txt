@@ -1,0 +1,13 @@
+# 770 - Szulisha
+# County Title
+title = c_szulisha
+# Settlements
+max_settlements = 1
+
+b_szulisha = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = western_calormen_cults

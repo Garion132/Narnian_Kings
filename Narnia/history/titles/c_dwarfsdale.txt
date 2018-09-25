@@ -1,0 +1,14 @@
+1.1.1={
+	holder=0
+	liege = "k_narnia"
+}
+302.1.1={
+	liege = "e_narnia"
+}
+900.1.7={
+	holder=1900
+}
+1000.2.5={holder=0}
+1998.1.1={
+	liege = "k_narnia"
+}

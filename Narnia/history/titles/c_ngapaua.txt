@@ -1,0 +1,13 @@
+836.5.8={
+	liege = k_karakaroua
+}
+956.9.17={
+	holder = 85500
+}
+989.6.17 = {
+	holder = 85000
+	liege = e_kingitangahou
+}
+1025.8.24 = {
+	holder = 85001
+}

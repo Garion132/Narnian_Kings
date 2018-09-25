@@ -1,0 +1,14 @@
+# 1926 - Ugisua
+# County Title
+title = c_ugisua
+# Settlements
+max_settlements = 3
+
+
+b_ugisua = castle
+#b_malenkith = city
+b_ana = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

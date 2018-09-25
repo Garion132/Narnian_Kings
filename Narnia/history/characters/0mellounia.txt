@@ -1,0 +1,745 @@
+#110001-115000
+110001 = {
+	name = "Justinian" #
+	dynasty = 1016
+	religion = "savra"
+	culture = "sulvarian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	961.2.9={
+		birth=yes
+	}
+	979.5.9={
+		add_spouse = 110004
+	}
+	1014.8.2={
+		death=yes
+	}
+}
+110002 = {
+	name = "Carvene" #
+	dynasty = 1016
+	religion = "savra"
+	culture = "sulvarian"
+	father = 110001
+	mother = 110004
+	wealth = 300
+	986.9.27={
+		birth=yes
+	}
+	1047.4.15={
+		death=yes
+	}
+}
+110003 = {
+	name = "Eadith" #
+	dynasty = 1016
+	female = yes
+	religion = "savra"
+	culture = "sulvarian"
+	father = 110001
+	mother = 110004
+	982.3.11={
+		birth=yes
+	}
+	1039.5.20={
+		death=yes
+	}
+}
+110004 = {
+	name = "Silava" #
+	#dynasty = 1016
+	female = yes
+	religion = "savra"
+	culture = "sulvarian"
+	#father = 110001
+	#mother = 80201
+	964.9.21={
+		birth=yes
+	}
+	1020.4.15={
+		death=yes
+	}
+}
+
+110100 = {
+	name = "Tarnvain" #
+	dynasty = 1017
+	religion = "mellounian_law"
+	culture = "mellounian"
+	diplomacy = 9
+	martial = 7
+	stewardship = 8
+	learning = 11
+	father = 110101
+	mother = 120026
+	wealth = 2500
+	973.6.18={
+		birth=yes
+	}
+	998.9.20={
+		add_spouse = 110003
+	}
+	1041.5.7={
+		death=yes
+	}
+}
+110101 = {
+	name = "Tanilar" #
+	dynasty = 1017
+	religion = "mellounian_law"
+	culture = "mellounian"
+	father = 110102
+	#mother = 80201
+	#wealth = 1000
+	938.7.23={
+		birth=yes
+	}
+	961.5.6={
+		add_spouse = 120026
+	}
+	986.6.9={
+		death=yes
+	}
+}
+110102 = {
+	name = "Tanaulor" #
+	dynasty = 1017
+	religion = "mellounian_law"
+	culture = "mellounian"
+	#father = 110100
+	#mother = 80201
+	#wealth = 1000
+	897.8.14={
+		birth=yes
+	}
+	956.7.24={
+		death=yes
+	}
+}
+110103 = {
+	name = "Carin" #
+	dynasty = 1017
+	religion = "mellounian_law"
+	culture = "mellounian"
+	father = 110101
+	mother = 120026
+	975.9.17={
+		birth=yes
+	}
+	1052.4.6={
+		death=yes
+	}
+}
+110104 = {
+	name = "Arith" #
+	dynasty = 1017
+	female = yes
+	religion = "mellounian_law"
+	culture = "mellounian"
+	father = 110101
+	mother = 120026
+	977.3.9={
+		birth=yes
+	}
+	1043.9.12={
+		death=yes
+	}
+}
+
+110200 = {
+	name = "Ulchlukan" #
+	#dynasty = 1016
+	religion = "tarutarin"
+	culture = "jelvar"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	974.3.24={
+		birth=yes
+	}
+	1030.4.6={
+		death=yes
+	}
+}
+
+110300 = {
+	name = "Xara" #
+	dynasty = 1018
+	religion = "savra"
+	culture = "jelvar"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	958.6.16={
+		birth=yes
+	}
+	1008.4.9={
+		death=yes
+	}
+}
+110301 = {
+	name = "Raires" #
+	dynasty = 1018
+	religion = "savra"
+	culture = "jelvar"
+	father = 110300
+	#mother = 80201
+	#wealth = 300
+	981.7.27={
+		birth=yes
+	}
+	1037.5.15={
+		death=yes
+	}
+}
+
+110400 = {
+	name = "Paulinus" #
+	dynasty = 1019
+	religion = "kelvrain"
+	culture = "mellounian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	964.7.24={
+		birth=yes
+	}
+	1021.1.4={
+		death=yes
+	}
+}
+
+110500 = {
+	name = "Caesar" #
+	dynasty = 1020
+	religion = "kelvrain"
+	culture = "mellounian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	964.7.24={
+		birth=yes
+	}
+	1021.1.4={
+		death=yes
+	}
+}
+
+110600 = {
+	name = "Cuthalion" #
+	dynasty = 1021
+	religion = "mellounian_law"
+	culture = "culture_arandorian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	add_trait = "ilvitar_human_race"
+	958.9.14={
+		birth=yes
+	}
+	1074.6.21={
+		death=yes
+	}
+}
+
+110700 = {
+	name = "Senliune" #
+	dynasty = 1022
+	religion = "kelvrain"
+	culture = "culture_arandorian"
+	#father = 80600
+	#mother = 80201
+	wealth = 185
+	add_trait = "ilvitar_human_race"
+	963.5.19={
+		birth=yes
+	}
+	1096.5.17={
+		death=yes
+	}
+}
+
+110800 = {
+	name = "Felune" 
+	dynasty = 1023
+	religion = "kelvrain"
+	culture = "telvasrian"
+	father = 110802
+	#mother = 80201
+	wealth = 300
+	effect = {
+		add_weak_claim = k_liene #Old Kings of Liene
+	}
+	964.7.24={
+		birth=yes
+	}
+	1021.1.4={
+		death=yes
+	}
+}
+110801 = {
+	name = "Rian" 
+	dynasty = 1023
+	religion = "kelvrain"
+	culture = "telvasrian"
+	father = 110800
+	#mother = 80201
+	wealth = 300
+	effect = {
+		add_weak_claim = k_liene #Old Kings of Liene
+	}
+	989.7.3={
+		birth=yes
+	}
+	1044.5.9={
+		death=yes
+	}
+}
+110802 = {
+	name = "Felune" 
+	dynasty = 1023
+	religion = "kelvrain"
+	culture = "telvasrian"
+	father = 110803
+	#mother = 80201
+	wealth = 300
+	effect = {
+		add_claim = k_liene #Old Kings of Liene
+	}
+	938.10.17={
+		birth=yes
+	}
+	985.8.9={
+		death=yes
+	}
+}
+110803 = {
+	name = "Cassirdan" 
+	dynasty = 1023
+	religion = "kelvrain"
+	culture = "telvasrian"
+	father = 110804
+	#mother = 80201
+	wealth = 300
+	918.10.17={
+		birth=yes
+	}
+	946.7.24={#rebellion of Caner
+		death=yes
+	}
+}
+110804 = {
+	name = "Caner" 
+	dynasty = 1023
+	religion = "kelvrain"
+	culture = "telvasrian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	add_trait = "proud"
+	add_trait = "cruel"
+	893.1.30={
+		birth=yes
+	}
+	946.7.24={#rebellion of Caner
+		death=yes
+	}
+}
+
+110900 = {
+	name = "Titus" 
+	dynasty = 1024
+	religion = "kelvrain"
+	culture = "callendeen"
+	#father = 110502
+	#mother = 80201
+	wealth = 300
+	974.9.14={
+		birth=yes
+	}
+	1031.7.25={
+		death=yes
+	}
+}
+
+111000 = {
+	name = "Graniun" 
+	dynasty = 1025
+	religion = "kelvrain"
+	culture = "callendeen"
+	#father = 110502
+	#mother = 80201
+	wealth = 300
+	967.2.28={
+		birth=yes
+	}
+	1027.6.17={
+		death=yes
+	}
+}
+
+111100 = {
+	name = "Olipar" 
+	dynasty = 1026
+	religion = "savra"
+	culture = "telvasrian"
+	#father = 110502
+	#mother = 80201
+	wealth = 300
+	951.8.17={
+		birth=yes
+	}
+	1014.8.20={
+		death=yes
+	}
+}
+111101 = {
+	name = "Olipar" 
+	dynasty = 1026
+	religion = "savra"
+	culture = "telvasrian"
+	father = 111100
+	#mother = 80201
+	wealth = 300
+	976.3.3={
+		birth=yes
+	}
+	1035.7.14={
+		death=yes
+	}
+}
+
+111200 = {
+	name = "Gairaus" 
+	dynasty = 1027
+	religion = "savra"
+	culture = "callendeen"
+	#father = 110502
+	#mother = 80201
+	wealth = 300
+	978.4.17={
+		birth=yes
+	}
+	1014.8.20={
+		death=yes
+	}
+}
+
+111300 = {
+	name = "Ueasia" 
+	dynasty = 1028
+	religion = "savra"
+	culture = "callendeen"
+	#father = 110502
+	#mother = 80201
+	wealth = 300
+	967.9.24={
+		birth=yes
+	}
+	1024.7.12={
+		death=yes
+	}
+}
+111301 = {
+	name = "Carei" 
+	dynasty = 1028
+	religion = "savra"
+	culture = "callendeen"
+	female = yes
+	father = 111300
+	#mother = 80201
+	wealth = 300
+	986.3.17={
+		birth=yes
+	}
+	1034.2.12={
+		death=yes
+	}
+}
+111302 = {
+	name = "Ilisa" 
+	dynasty = 1028
+	religion = "savra"
+	culture = "callendeen"
+	female = yes
+	father = 111300
+	#mother = 80201
+	989.7.16={
+		birth=yes
+	}
+	1041.7.12={
+		death=yes
+	}
+}
+111303 = {
+	name = "Ueasia" 
+	dynasty = 1028
+	religion = "savra"
+	culture = "callendeen"
+	father = 111300
+	#mother = 80201
+	991.2.24={
+		birth=yes
+	}
+	1042.9.21={
+		death=yes
+	}
+}
+
+111400 = {
+	name = "Reian" 
+	dynasty = 1029
+	religion = "savra"
+	culture = "callendeen"
+	#father = 110502
+	#mother = 80201
+	wealth = 300
+	963.5.13={
+		birth=yes
+	}
+	1035.2.21={
+		death=yes
+	}
+}
+
+111500 = {
+	name = "Reian" 
+	dynasty = 1030
+	religion = "savra"
+	culture = "callendeen"
+	#father = 110502
+	#mother = 80201
+	wealth = 300
+	959.8.4={
+		birth=yes
+	}
+	1021.7.29={
+		death=yes
+	}
+}
+
+111600 = {
+	name = "Vaiden" 
+	dynasty = 1031
+	religion = "kelvrain"
+	culture = "telvasrian"
+	#father = 110502
+	#mother = 80201
+	wealth = 300
+	948.4.7={
+		birth=yes
+	}
+	1008.9.7={
+		death=yes
+	}
+}
+111601 = {
+	name = "Kaer" 
+	dynasty = 1031
+	religion = "kelvrain"
+	culture = "telvasrian"
+	father = 111600
+	#mother = 80201
+	wealth = 300
+	971.9.14={
+		birth=yes
+	}
+	1034.6.23={
+		death=yes
+	}
+}
+111602 = {
+	name = "Vaiden" 
+	dynasty = 1031
+	religion = "kelvrain"
+	culture = "telvasrian"
+	father = 111601
+	#mother = 80201
+	wealth = 300
+	996.7.24={
+		birth=yes
+	}
+	1052.4.30={
+		death=yes
+	}
+}
+111603 = {
+	name = "Mira" 
+	dynasty = 1031
+	religion = "kelvrain"
+	culture = "telvasrian"
+	female = yes
+	father = 111601
+	#mother = 80201
+	wealth = 300
+	998.1.14={
+		birth=yes
+	}
+	1063.5.25={
+		death=yes
+	}
+}
+
+111700 = {
+	name = "Justiun" 
+	dynasty = 1032
+	religion = "mellounian_law"
+	culture = "mellounian"
+	#father = 111601
+	#mother = 80201
+	wealth = 300
+	956.9.17={
+		birth=yes
+	}
+	1023.3.21={
+		death=yes
+	}
+}
+111701 = {
+	name = "Justiun" 
+	dynasty = 1032
+	religion = "mellounian_law"
+	culture = "mellounian"
+	father = 111700
+	#mother = 80201
+	wealth = 300
+	981.2.7={
+		birth=yes
+	}
+	1048.9.30={
+		death=yes
+	}
+}
+
+111800 = {
+	name = "Crassisan" 
+	dynasty = 1033
+	religion = "savra"
+	culture = "telvasrian"
+	#father = 111601
+	#mother = 80201
+	#wealth = 300
+	969.3.24={
+		birth=yes
+	}
+	1031.7.18={
+		death=yes
+	}
+}
+
+111900 = {
+	name = "Crassisan" 
+	#dynasty = 1033
+	religion = "savra"
+	culture = "telvasrian"
+	#father = 111601
+	#mother = 80201
+	#wealth = 300
+	980.1.30={
+		birth=yes
+	}
+	1028.7.23={
+		death=yes
+	}
+}
+
+112000 = {
+	name = "Toran" 
+	#dynasty = 1033
+	religion = "savra"
+	culture = "callendeen"
+	#father = 111601
+	#mother = 80201
+	#wealth = 300
+	976.4.18={
+		birth=yes
+	}
+	1032.8.15={
+		death=yes
+	}
+}
+
+112100 = {
+	name = "Zavir" 
+	#dynasty = 1033
+	religion = "kelvrain"
+	culture = "mellounian"
+	#father = 111601
+	#mother = 80201
+	#wealth = 300
+	978.12.23={
+		birth=yes
+	}
+	1041.6.23={
+		death=yes
+	}
+}
+
+112200 = {
+	name = "Arcadius" 
+	#dynasty = 1033
+	religion = "kelvrain"
+	culture = "mellounian"
+	#father = 111601
+	#mother = 80201
+	#wealth = 300
+	975.6.11={
+		birth=yes
+	}
+	1041.6.23={
+		death=yes
+	}
+}
+
+112300 = {
+	name = "Caerith" #
+	#dynasty = 1021
+	religion = "eru"
+	culture = "culture_arandorian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	add_trait = "ilvitar_human_race"
+	952.7.22={
+		birth=yes
+	}
+	1076.11.18={
+		death=yes
+	}
+}
+
+112400 = {
+	name = "Tamos" #
+	#dynasty = 1021
+	religion = "kelvrain"
+	culture = "culture_arandorian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	add_trait = "ilvitar_human_race"
+	943.5.17={
+		birth=yes
+	}
+	1068.4.21={
+		death=yes
+	}
+}
+
+112500 = {
+	name = "Uorai" #
+	#dynasty = 1021
+	religion = "eru"
+	culture = "culture_arandorian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	add_trait = "ilvitar_human_race"
+	938.4.17={
+		birth=yes
+	}
+	1057.6.19={
+		death=yes
+	}
+}

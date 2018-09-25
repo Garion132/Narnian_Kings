@@ -1,0 +1,10 @@
+1.1.1={
+	law = succ_primogeniture
+}
+
+746.5.7={
+	holder = 82138
+}
+781.5.6={
+	holder = 0
+}

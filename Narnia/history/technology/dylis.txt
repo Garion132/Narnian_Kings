@@ -1,0 +1,173 @@
+#Dylis
+technology = {
+	titles = {	
+		d_finelias
+		d_finster
+		d_malwydann
+		d_rendoell
+		d_malought
+		d_malloius
+		d_fenaster
+		d_nenvenought
+		d_leinsreach
+		d_winderlent
+		d_beriuo
+		d_burnalis
+		d_tilrend
+		d_perium
+		d_tyurilonea
+		d_finough
+		d_seniria
+		d_dyilnster
+		d_bragnina
+		d_denivere
+		d_cirona
+		d_nemain
+		d_magcabon
+		d_taranisa
+		d_ualthias
+		d_impara
+		d_venounght
+		d_uanentil
+		d_nenival
+		d_selinougt
+		d_loghlanough
+		d_irenought
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2555 = {
+		military = 2.4
+		economy = 2.4
+		culture = 2.4
+	}
+}
+#Dylis
+technology = {
+	titles = {	
+		d_colinafel
+		d_ui_celtds
+		d_welhur
+		d_karin
+		d_ralingslnby
+		d_athmle
+		d_calsthime
+		d_dolcalster
+		d_svelcuster
+		d_claruis
+		d_new_kildare
+		d_ryligh
+		d_aghanna
+		d_calstford
+		d_eliongu
+		d_moysenford
+		d_ildrogigen
+		d_old_dylis
+		d_vellaster
+		d_moysenford
+		d_duhaluo
+		d_rolffe
+		d_patrick_downs
+		d_rilen
+		d_molurin
+		d_folffe
+		d_keldalry
+		d_algolton
+		d_kilbunserby
+		d_doriath
+		d_talenby
+		d_jenverith
+		d_tyrawlny
+		d_ilithia
+		d_galton
+		d_kildunserby
+		d_celivin
+		d_aghor
+		d_comanought
+		d_dal_renval
+		d_madide
+		d_achilloby
+		d_gillverny
+		d_denbraken
+		
+	}
+	500 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2555 = {
+		military = 2.4
+		economy = 2.4
+		culture = 2.4
+	}
+}
+technology = {
+	titles = {
+		d_lunos
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2555 = {
+		military = 4.0
+		economy = 4.0
+		culture = 4.0
+	}
+}
+technology = {
+	titles = {
+		d_werou
+		d_te_arahou
+		d_lourunga
+		d_tarunga
+		d_pauhana
+		d_whiroaroa
+		d_rari
+		d_ti_arwai
+		d_rewara
+		d_teopua
+		d_ihokara
+		d_inawhana
+		d_ngapaua
+		d_hoporunga
+		d_haruu
+		d_lioava
+		d_oduranda
+		d_ohaua
+		d_tauara
+		d_oyua
+		d_heniwa
+		d_kanaehana
+		d_ohekuha
+		d_kokeanke
+		d_iniwhua
+		d_pahukiuki
+		d_tearonga
+		d_marngata
+		d_pangamatere
+		d_rarana
+		d_pahukiuki
+		d_dfyrid
+		d_sepinarin
+		d_laithreain
+		d_arlioght
+		d_rivinith
+		d_aluought
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2555 = {
+		military = 3.4
+		economy = 3.4
+		culture = 3.4
+	}
+}

@@ -1,0 +1,175 @@
+spriteTypes = {
+	
+	### character stuff
+	spriteType = {
+		name = "GFX_charframe_150_am"
+		texturefile = "gfx\\interface\\charframe_150_am.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_am"
+		texturefile = "gfx\\interface\\charframe_100_am.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_am"
+		texturefile = "gfx\\interface\\charframe_75_am.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_am"
+		texturefile = "gfx\\interface\\charframe_50_am.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_am"
+		texturefile = "gfx\\interface\\charframe_34_am.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_charframe_150_nsdap"
+		texturefile = "gfx\\interface\\charframe_150_nsdap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_nsdap"
+		texturefile = "gfx\\interface\\charframe_100_nsdap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_nsdap"
+		texturefile = "gfx\\interface\\charframe_75_nsdap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_nsdap"
+		texturefile = "gfx\\interface\\charframe_50_nsdap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_nsdap"
+		texturefile = "gfx\\interface\\charframe_34_nsdap.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_dylis"
+		texturefile = "gfx\\interface\\charframe_150_dylis.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_dylis"
+		texturefile = "gfx\\interface\\charframe_100_dylis.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_dylis"
+		texturefile = "gfx\\interface\\charframe_75_dylis.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_dylis"
+		texturefile = "gfx\\interface\\charframe_50_dylis.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_dylis"
+		texturefile = "gfx\\interface\\charframe_34_dylis.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_150_buer"
+		texturefile = "gfx\\interface\\charframe_150_buer.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_buer"
+		texturefile = "gfx\\interface\\charframe_100_buer.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_buer"
+		texturefile = "gfx\\interface\\charframe_75_buer.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_buer"
+		texturefile = "gfx\\interface\\charframe_50_buer.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_buer"
+		texturefile = "gfx\\interface\\charframe_34_buer.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+
+	### government icons
+	spriteType = {
+		name = "GFX_icon_divinemandate_government"
+		texturefile = "gfx\\interface\\government_icon_divinemandate.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_NSDAP_government"
+		texturefile = "gfx\\interface\\government_icon_nsdap.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_tash_government"
+		texturefile = "gfx\\interface\\government_icon_tash.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_dylis_government"
+		texturefile = "gfx\\interface\\government_icon_dylis.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_lunos_government"
+		texturefile = "gfx\\interface\\government_icon_lunos.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_dylis_merchant_republic_government"
+		texturefile = "gfx\\interface\\government_icon_dylis_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_absolutemonarchy_government"
+		texturefile = "gfx\\interface\\government_icon_absolutemonarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_bureaucracy_government"
+		texturefile = "gfx\\interface\\government_icon_bureaucracy.dds"
+	}
+
+
+
+
+	spriteType = {
+		name = "GFX_council_postions_sprite"
+		texturefile = "gfx\\interface\\council_positions.dds"
+		noOfFrames = 6
+	}
+
+	spriteType = {
+		name = "GFX_council_postions_small_sprite"
+		texturefile = "gfx\\interface\\council_positions_small.dds"
+		noOfFrames = 6
+	}
+}

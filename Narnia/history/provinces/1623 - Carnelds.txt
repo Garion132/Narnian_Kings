@@ -1,0 +1,14 @@
+# 1623 - Carnelds
+# County Title
+title = c_carnelds
+# Settlements
+max_settlements = 1
+
+
+b_carnelds = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

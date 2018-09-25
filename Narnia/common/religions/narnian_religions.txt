@@ -1,0 +1,1674 @@
+secret_religion_visibility_trigger = {
+	secret_religion = FROM
+}
+
+narnian = {
+	color = { 1 0.8 0 }
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace Frank George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	
+	aslan = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 2
+		
+		color = { 1 0.8 0 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_OLD_LAW
+		priest_title = PRIEST
+		
+		high_god_name = ASLAN_GOD
+		
+		god_names = {
+			ASLAN_GOD GREAT_LION
+		}
+		
+		evil_god_names = {
+			GOD_TASH WHITE_WITCH
+		}
+		intermarry = tellan
+		intermarry = celtic
+		
+		investiture = yes
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		unit_modifier = {		
+				
+			land_morale = 0.15
+			land_organisation = 0.05
+			
+			key = "ALSAN_TROOP_INSPIRE"
+		}
+	}
+	tellan = {
+		graphical_culture = westerngfx
+
+		icon = 9
+		heresy_icon = 12
+		
+		color = { 0.95 0.75 0.3 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			ASLAN_GOD GOD_GOD GOD_TASH
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		intermarry = tash
+		intermarry = tashlan
+		intermarry = aslan
+		intermarry = celtic
+		
+		investiture = yes
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = yes
+		has_heir_designation = yes
+		priests_can_marry = yes
+		peace_piety_gain = 1.1
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		character_modifier = {
+			general_opinion = 10
+		}
+		
+	}
+	teloani = {
+		graphical_culture = westerngfx
+
+		icon = 12
+		heresy_icon = 9
+		
+		color = { 0.90 0.73 0.34 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		parent = tellan
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD 
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL GOD_TASH
+		}
+		intermarry = tash
+		intermarry = tashlan
+		intermarry = aslan
+		
+		investiture = yes
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = yes
+		has_heir_designation = yes
+		priests_can_marry = yes
+		peace_piety_gain = 1.1
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		character_modifier = {
+			general_opinion = 10
+		}
+		
+	}
+	tashlan = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 2
+		parent = aslan
+		
+		color = { 0.85 0.8 0.6 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_TASH
+		
+		god_names = {
+			GOD_TASH ASLAN_GOD GREAT_TASHLAN
+		}
+		
+		evil_god_names = {
+			WHITE_WITCH 
+		}
+		
+		intermarry = tash
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		uses_decadence = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	white_witch = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		heresy_icon = 4
+		
+		color = { 0.8 0.8 0.6 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_OLD_LAW
+		priest_title = PRIEST
+		
+		high_god_name = WHITE_WITCH
+		
+		god_names = {
+			WHITE_WITCH
+		}
+		
+		evil_god_names = {
+			ASLAN_GOD
+		}
+		
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		priests_can_inherit = no
+		allow_viking_invasion = yes
+		short_reign_opinion_year_mult = 1.5
+		aggression = 1.5
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+tash = {
+	color = { 0.95 0.85 0.85 }
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = no # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace Frank George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	tash = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		heresy_icon = 6
+		
+		color = { 0.95 0.85 0.85 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_TASH
+		
+		god_names = {
+			GOD_TASH
+		}
+		
+		evil_god_names = {
+			ASLAN_GOD
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		uses_decadence = yes
+		priests_can_inherit = no
+		max_wives = 3
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = narnian
+		
+		unit_modifier = {		
+				
+			levy_size = 0.15
+			
+			key = "ALSAN_TROOP_INSPIRE"
+		}
+	}
+	western_calormen_cults = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		heresy_icon = 6
+		parent = tash
+		
+		color = { 0.85 0.75 0.75 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_TASH
+		
+		god_names = {
+			GOD_TASH
+		}
+		
+		evil_god_names = {
+			ASLAN_GOD
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		uses_decadence = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	southern_calormen_cults = {
+		graphical_culture = westerngfx
+
+		icon = 5
+		heresy_icon = 6
+		parent = tash
+		color = { 0.85 0.68 0.68 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_TASH
+		
+		god_names = {
+			GOD_TASH
+		}
+		
+		evil_god_names = {
+			ASLAN_GOD
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		uses_decadence = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+}
+aryan = {
+	color = { 0.8 0.2 0.2 }
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Jesus Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	
+	aryan = {
+		graphical_culture = westerngfx
+
+		icon = 10
+		heresy_icon = 11
+		
+		color = { 0.8 0.2 0.2 }
+		
+		crusade_name = BLITZKRIEG
+		scripture_name = MEIN_KAMPF
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_HITLER GOD_THE_FURER
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		unit_modifier = {		
+				
+			land_organisation = 0.1
+			
+			key = "ARYAN_TROOP_INSPIRE"
+		}
+		character_modifier = {
+			general_opinion = -25
+			same_religion_opinion = 40
+		}
+	}
+}
+celtic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.3 0.5 0.0 }
+	
+	# Names given only to Pagan characters (base names)
+	male_names = {
+		Anund Asbjörn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund Gudröd Hardeknud Helge Odd Orm 
+		Orvar Ottar Rikulfr Rurik Sigbjörn Styrbjörn Starkad Styrkar Sämund Sölve Sörkver Thorolf Tjudmund Toke Tolir 
+		Torbjörn Torbrand Torfinn Torgeir Toste Tyke
+	}
+	female_names = {
+		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
+	}
+
+	celtic = { # Druidic
+		graphical_culture = norsegfx
+
+		icon = 7
+		heresy_icon = 8
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+		
+		color = { 0.3 0.5 0.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = DRUID
+		can_call_crusade = yes
+		
+		high_god_name = GOD_CERNNUNOS
+
+		god_names = {
+			GOD_ANGUS GOD_MANANNAN GOD_DAGHDA GOD_LUGH GOD_MACHA GOD_DANA GOD_NUADA GOD_HORNED_ONE GOD_CERNNUNOS
+		}
+		evil_god_names = {
+			THE_FOMORIANS EVIL_BALOR EVIL_BRES GOD_CAILLEACH
+		}
+		
+		unit_home_modifier = {
+			land_morale = 0.4
+			light_infantry_defensive = 0.4
+			heavy_infantry_defensive = 0.4
+			pikemen_defensive = 0.4
+			light_cavalry_defensive = 0.4
+			knights_defensive = 0.4
+			archers_defensive = 0.4
+			horse_archers_defensive = 0.4
+			camel_cavalry_defensive = 0.4
+			war_elephants_defensive = 0.4
+			
+			key = "HERO_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		feminist = yes
+		max_consorts = 3
+		allow_looting = yes
+
+		aggression = 1.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.5 # The default is 2
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = narnian
+		intermarry = lunos
+		
+		allow_in_ruler_designer = yes
+	}	
+	caitliceann = { # Druidic
+		graphical_culture = westerngfx
+
+		icon = 25
+		heresy_icon = 24
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+		
+		color = { 0.7 0.9 0.5 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = DRUID
+		can_call_crusade = yes
+		
+		high_god_name = GOD_GOD
+
+		god_names = {
+			GOD_GOD
+		}
+		evil_god_names = {
+			GOD_DANA GOD_HORNED_ONE
+		}
+		parent = celtic
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = no
+		
+		investiture = yes
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+
+		aggression = 1.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.5 # The default is 2
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = narnian
+		intermarry = celtic
+		
+		allow_in_ruler_designer = yes
+	}
+	lunos = { # Druidic
+		graphical_culture = norsegfx
+
+		icon = 13
+		heresy_icon = 14
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+		
+		color = { 0.4 0.2 0.3 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = DRUID
+		can_call_crusade = yes
+		
+		high_god_name = GODDESS_MOON
+
+		god_names = {
+			GODDESS_MOON
+		}
+		evil_god_names = {
+			THE_FOMORIANS
+		}
+		parent = celtic
+		
+		unit_home_modifier = {
+			land_morale = 0.4
+			light_infantry_defensive = 0.4
+			heavy_infantry_defensive = 0.4
+			pikemen_defensive = 0.4
+			light_cavalry_defensive = 0.4
+			knights_defensive = 0.4
+			archers_defensive = 0.4
+			horse_archers_defensive = 0.4
+			camel_cavalry_defensive = 0.4
+			war_elephants_defensive = 0.4
+			
+			key = "HERO_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		feminist = yes
+		max_consorts = 3
+		allow_looting = yes
+
+		aggression = 1.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.5 # The default is 2
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = narnian
+		intermarry = celtic
+		
+		allow_in_ruler_designer = yes
+	}
+}
+pagan_group = {
+	has_coa_on_barony_only = no
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.3 0.5 0.0 }
+	
+	# Names given only to Pagan characters (base names)
+	male_names = {
+		Anund Asbjörn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund Gudröd Hardeknud Helge Odd Orm 
+		Orvar Ottar Rikulfr Rurik Sigbjörn Styrbjörn Starkad Styrkar Sämund Sölve Sörkver Thorolf Tjudmund Toke Tolir 
+		Torbjörn Torbrand Torfinn Torgeir Toste Tyke
+	}
+	female_names = {
+		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
+	}
+
+	pagan = { # Use for misc other pagans
+		graphical_culture = westerngfx
+
+		icon = 5
+		
+		color = { 0.6 0.0 0.0 }
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
+		
+		dislike_tribal_organization = yes
+		
+		dynamic_cult = no
+		secret_religion = no
+	}
+	
+	surval_reformed = { # reformed
+		graphical_culture = mongolgfx
+
+		icon = 21
+		heresy_icon = 22
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+		
+		color = { 0.5 0.23 0.16 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = DRUID
+		can_call_crusade = yes
+		
+		high_god_name = GREAT_SPRIT
+
+		god_names = {
+			GREAT_SPRIT
+		}
+		evil_god_names = {
+			GREAT_EVIL
+		}
+		
+		priests_can_marry = yes
+		max_consorts = 3
+		allow_looting = yes
+
+		aggression = 1 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.25 # The default is 2
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = lavurite
+		intermarry = denols
+		intermarry = jenunvir
+		
+		dislike_tribal_organization = yes
+		
+		allow_in_ruler_designer = no
+	}
+	
+	denols = { # Northern Cult
+		graphical_culture = mongolgfx
+
+		icon = 15
+		heresy_icon = 22
+		
+		color = { 0.5 0.25 0.12 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = DRUID
+		can_call_crusade = yes
+		
+		high_god_name = GREAT_SPRIT
+
+		god_names = {
+			GREAT_SPRIT
+		}
+		evil_god_names = {
+			GREAT_EVIL
+		}
+		
+		priests_can_marry = yes
+		max_consorts = 3
+		allow_looting = yes
+
+		aggression = 7 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.25 # The default is 2
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = lavurite
+		intermarry = jenunvir
+		
+		reformed = surval_reformed
+		reformer_head_of_religion = yes
+		
+		dislike_tribal_organization = yes
+		
+		allow_in_ruler_designer = yes
+	}	
+	lavurite = { # south-western cult
+		graphical_culture = mongolgfx
+
+		icon = 16
+		heresy_icon = 22
+		
+		color = { 0.5 0.20 0.09 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = DRUID
+		can_call_crusade = yes
+		
+		high_god_name = GREAT_SPRIT
+
+		god_names = {
+			GREAT_SPRIT
+		}
+		evil_god_names = {
+			GREAT_EVIL
+		}
+		
+		priests_can_marry = yes
+		max_consorts = 3
+		allow_looting = yes
+		
+		#parent = denols
+		reformed = surval_reformed
+		reformer_head_of_religion = yes
+
+		aggression = 7 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.25 # The default is 2
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = denols
+		intermarry = jenunvir
+		
+		dislike_tribal_organization = yes
+		
+		allow_in_ruler_designer = yes
+	}
+	jenunvir = { # eastern cult
+		graphical_culture = mongolgfx
+
+		icon = 17
+		heresy_icon = 22
+		
+		color = { 0.5 0.23 0.16 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = DRUID
+		can_call_crusade = yes
+		
+		high_god_name = GREAT_SPRIT
+
+		god_names = {
+			GREAT_SPRIT
+		}
+		evil_god_names = {
+			GREAT_EVIL
+		}
+		
+		priests_can_marry = yes
+		max_consorts = 3
+		allow_looting = yes
+		
+		#parent = denols
+		reformed = surval_reformed
+		reformer_head_of_religion = yes
+
+		aggression = 7 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.25 # The default is 2
+		
+		defensive_attrition = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = lavurite
+		intermarry = denols
+		
+		dislike_tribal_organization = yes
+		
+		allow_in_ruler_designer = yes
+	}
+}
+
+dragon_worship_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = chinesegfx
+	crusade_cb = crusade
+	playable = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.8 0.1 0.1 }
+	
+	# Names given only to Pagan characters (base names)
+	male_names = {
+		Anund Asbjörn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund Gudröd Hardeknud Helge Odd Orm 
+		Orvar Ottar Rikulfr Rurik Sigbjörn Styrbjörn Starkad Styrkar Sämund Sölve Sörkver Thorolf Tjudmund Toke Tolir 
+		Torbjörn Torbrand Torfinn Torgeir Toste Tyke
+	}
+	female_names = {
+		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
+	}
+
+	dragon_worship = { # outer-isles and far north
+		graphical_culture = chinesegfx
+
+		icon = 18
+		heresy_icon = 18
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+		
+		color = { 0.8 0.1 0.1 }
+		crusade_name = GREAT_DRAGON_WAR
+		scripture_name = THE_TALES
+		priest_title = WARLOCK
+		can_call_crusade = yes
+		
+		high_god_name = GREAT_DRAGON
+
+		god_names = {
+			GREAT_DRAGON
+		}
+		evil_god_names = {
+			GOD_WATER_SPRIT
+		}
+		
+		priests_can_marry = yes
+		max_consorts = 1
+		allow_looting = yes
+
+		aggression = 2.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.25 # The default is 2
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = ayran
+		intermarry = aslan
+		intermarry = white_witch
+		
+		allow_in_ruler_designer = yes
+	}
+}
+
+pamyatrossii_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.7 0.1 0.5 }
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Jesus Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	pamyatrossii = {
+		graphical_culture = westerngfx
+
+		icon = 19
+		heresy_icon = 23
+		
+		color = { 0.7 0 0.5 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_ERU GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL MALAKATH
+		}
+		
+		#autocephaly = yes
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = no
+		
+		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	eru = {
+		graphical_culture = westerngfx
+
+		icon = 34
+		heresy_icon = 35
+		
+		color = { 0.7 0.7 0.7 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_ERU
+		
+		god_names = {
+			GOD_ERU
+		}
+		
+		parent = pamyatrossii
+		
+		evil_god_names = {
+			MALAKATH
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		can_excommunicate = no
+		can_grant_divorce = no
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = yes
+		
+		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	orthadoxical = {
+		graphical_culture = westerngfx
+
+		icon = 19
+		heresy_icon = 23
+		
+		color = { 0.8 0 0.6 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		parent = pamyatrossii
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		autocephaly = yes
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = no
+		
+		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	divine_cult = {
+		graphical_culture = westerngfx
+
+		icon = 19
+		heresy_icon = 23
+		
+		color = { 0.68 0.06 0.47 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		parent = pamyatrossii
+		
+		high_god_name = GOD_DIVINE_ONES
+		
+		god_names = {
+			GOD_DIVINE_ONES
+		}
+		
+		evil_god_names = {
+			GOD_THE_EVIL
+		}
+		
+		character_modifier = {
+			martial = 2
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		#can_excommunicate = yes
+		#can_grant_divorce = yes
+		#can_grant_invasion_cb = invasion
+		#can_call_crusade = no
+		priests_can_inherit = no
+		
+		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+}
+
+mellounian_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = chinesegfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.6 0.6 0.6 }
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Jesus Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	mellounian_law = {
+		graphical_culture = chinesegfx
+
+		icon = 26
+		heresy_icon = 27
+		
+		color = { 0.6 0.6 0.6 }
+		
+		crusade_name = ADMINASTRAVE_EXSPANSION
+		scripture_name = THE_CODEX
+		priest_title = JUDGE
+		
+		high_god_name = M_THE_EMPEROR
+		
+		god_names = {
+			THE_LAW M_THE_EMPEROR
+		}
+		
+		evil_god_names = {
+			DISCORD CHAOS
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		can_excommunicate = no
+		#can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = no
+		
+		feminist = yes
+		has_heir_designation = yes
+		peace_piety_gain = 1.5
+		uses_jizya_tax = yes
+		
+		can_retire_to_monastery = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		intermarry = savra
+		intermarry = kelvrain
+		character_modifier = {
+			general_opinion = 10
+		}
+	}
+	
+	savra = {
+		graphical_culture = muslimgfx
+
+		icon = 28
+		heresy_icon = 29
+		
+		color = { 0.9 0.4 0.13 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		
+		high_god_name = SAVRA
+		
+		god_names = {
+			SAVRA
+		}
+		
+		evil_god_names = {
+			KARNDEA
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		#can_excommunicate = yes
+		#can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		
+		can_retire_to_monastery = no
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		intermarry = kelvrain
+		intermarry = mellounian_law
+	}
+	
+	kelvrain = {
+		graphical_culture = muslimgfx
+
+		icon = 30
+		heresy_icon = 31
+		
+		color = { 0.8 0.25 0.7 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		
+		high_god_name = KELRAS
+		
+		god_names = {
+			KELRAS
+		}
+		
+		evil_god_names = {
+			FEREAS
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		#can_excommunicate = yes
+		#can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		
+		can_retire_to_monastery = no
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+		intermarry = savra
+		intermarry = mellounian_law
+	}
+	
+}
+
+vanli = {
+	has_coa_on_barony_only = yes
+	graphical_culture = mesoamericangfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.6 0.05 0.3 }
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Jesus Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	viirenscari = {
+		graphical_culture = mesoamericangfx
+
+		icon = 32
+		heresy_icon = 33
+		
+		color = { 0.6 0.05 0.3 }
+		
+		crusade_name = WAR_OF_LIGHT
+		scripture_name = THE_STAR
+		priest_title = DISIPLE
+		
+		high_god_name = MORNING_STAR
+		
+		god_names = {
+			MORNING_STAR ERILI
+		}
+		
+		evil_god_names = {
+			RED_STAR
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = no
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = yes
+		
+		can_retire_to_monastery = no
+		
+		religious_clothing_head = 1
+		religious_clothing_priest = 1
+	}
+}
+
+siniia = {
+	has_coa_on_barony_only = yes
+	graphical_culture = chinesegfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.6 0.05 0.3 }
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		
+	}
+	female_names = {
+		
+	}
+	shinoi = {
+		graphical_culture = chinesegfx
+
+		icon = 36
+		heresy_icon = 37
+		
+		color = { 0.68 0.7 0.25 }
+		
+		crusade_name = WAR_OF_LIGHT
+		scripture_name = THE_STAR
+		priest_title = DISIPLE
+		
+		high_god_name = SHINOI
+		
+		god_names = {
+			SHINOI
+		}
+		
+		evil_god_names = {
+			NOALI
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = no
+		
+		religious_clothing_head = 4
+		religious_clothing_priest = 4
+	}
+}
+	
+tarane = {
+	has_coa_on_barony_only = yes
+	graphical_culture = mesoamericangfx
+	crusade_cb = crusade
+	playable = yes
+	#ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.6 0.05 0.3 }
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		
+	}
+	female_names = {
+		
+	}
+	tarutarin = {
+		graphical_culture = mesoamericangfx
+
+		icon = 38
+		heresy_icon = 39
+		
+		color = { 0.68 0.7 0.25 }
+		
+		crusade_name = WAR_OF_LIGHT
+		scripture_name = THE_STAR
+		priest_title = DISIPLE
+		
+		high_god_name = TARUTA
+		
+		god_names = {
+			TARUTA
+		}
+		
+		evil_god_names = {
+			NOALI
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+	eline = {
+		graphical_culture = mesoamericangfx
+
+		icon = 40
+		heresy_icon = 41
+		
+		color = { 0.68 0.7 0.25 }
+		
+		crusade_name = WAR_OF_LIGHT
+		scripture_name = THE_STAR
+		priest_title = DISIPLE
+		
+		high_god_name = TARUTA
+		
+		god_names = {
+			TARUTA
+		}
+		
+		evil_god_names = {
+			NOALI
+		}
+		
+		#autocephaly = yes
+		#investiture = yes
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = no
+		priests_can_inherit = no
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+	}
+}
+
+eslian = {
+	color = { 0.2 0.31 0.5 }
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace Frank George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	
+	eloia = {
+		graphical_culture = westerngfx
+
+		icon = 42
+		heresy_icon = 43
+		
+		color = { 0.2 0.31 0.5 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_OLD_LAW
+		priest_title = PRIEST
+		
+		high_god_name = ELOIA_GOD
+		
+		god_names = {
+			ELOIA_GOD THE_STRANGER
+		}
+		
+		evil_god_names = {
+			GOD_THE_BLACK_STORM
+		}
+		#intermarry = tellan
+		#intermarry = celtic
+		
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+	}
+}
+
+purakau_ao_kohatu = {
+	color = { 0.2 0.31 0.5 }
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace Frank George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	
+	purakau_ao_kohatu = {
+		graphical_culture = westerngfx
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.2 0.31 0.5 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_OLD_LAW
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_MAUI
+		}
+		
+		evil_god_names = {
+			GOD_SATAN
+		}
+		#intermarry = tellan
+		#intermarry = celtic
+		
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+	}
+}
+
+quallis_group = {
+	color = { 1.0 0.9 0.99 }
+	has_coa_on_barony_only = yes
+	graphical_culture = indiangfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace Frank George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
+	}
+	female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+	}
+	
+	quallis = {
+		graphical_culture = jaingfx
+
+		icon = 46
+		heresy_icon = 47
+		
+		color = { 1.0 0.9 0.99 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_OLD_LAW
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD
+		}
+		
+		evil_god_names = {
+			GOD_SATAN
+		}
+		#intermarry = tellan
+		#intermarry = celtic
+		
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		priests_can_inherit = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+	}
+	maenar = {
+		graphical_culture = hindugfx
+
+		icon = 48
+		heresy_icon = 49
+		
+		color = { 0.78 0.8 0.2 }
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_OLD_LAW
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		parent = quallis
+		
+		god_names = {
+			GOD_GOD
+		}
+		
+		evil_god_names = {
+			GOD_SATAN
+		}
+		#intermarry = tellan
+		#intermarry = celtic
+		
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		priests_can_inherit = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+	}
+}

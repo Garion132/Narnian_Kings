@@ -1,0 +1,14 @@
+# 2121 - Xulria
+# County Title
+title = c_xulria
+# Settlements
+max_settlements = 1
+
+
+b_xulria = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

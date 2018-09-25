@@ -1,0 +1,14 @@
+# 585 - Dellourea
+
+# County Title
+title = c_dellourea
+# Settlements
+max_settlements = 1
+
+b_dellourea = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = archen
+religion = aslan

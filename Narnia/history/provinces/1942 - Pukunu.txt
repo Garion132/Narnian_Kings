@@ -1,0 +1,15 @@
+# 1942 - Pukunu
+# County Title
+title = c_pukunu
+# Settlements
+max_settlements = 4
+
+
+b_pukunu = castle
+b_ilshncan = city
+b_aloisu = castle
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

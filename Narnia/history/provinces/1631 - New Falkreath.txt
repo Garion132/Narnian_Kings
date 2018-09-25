@@ -1,0 +1,14 @@
+# 1631 - New Falkreath
+# County Title
+title = c_new_falkreath
+# Settlements
+max_settlements = 1
+
+
+b_new_falkreath = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

@@ -1,0 +1,36 @@
+# 328 - Terebinthia
+
+# County Title
+title = c_terebinthia
+
+# Settlements
+max_settlements = 5
+
+b_terebinthia = castle
+b_terebinthia_city = city
+b_terebinthia_outskirts = castle
+b_grand_temple_on_terebinthia = temple
+b_castle_tere = castle
+
+# Misc
+culture = terebinthian
+religion = aslan
+
+641.1.1={
+	b_terebinthia = ca_terebinthia_city
+	b_terebinthia = ca_keep_1
+	b_terebinthia = ca_keep_2
+	b_terebinthia = ca_keep_3
+	b_terebinthia = ca_training_grounds_1
+	b_terebinthia = ca_stable_1
+	b_terebinthia = ca_wall_1
+	b_terebinthia = ca_wall_2
+	b_terebinthia = ca_wall_3
+	b_terebinthia = ca_militia_barracks_1
+	b_terebinthia = ca_barracks_1
+	b_terebinthia = ca_town_1
+	b_terebinthia = ca_town_2
+}
+1682.1.1={
+	b_terebinthia = ca_terebinthia_city2
+}

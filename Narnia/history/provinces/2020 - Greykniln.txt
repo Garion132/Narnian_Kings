@@ -1,0 +1,14 @@
+# 2020 - Greykniln
+# County Title
+title = c_greykniln
+# Settlements
+max_settlements = 1
+
+
+b_greykniln = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

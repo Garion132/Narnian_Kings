@@ -1,0 +1,9 @@
+800.1.1={
+	liege = k_tilderrend
+}
+930.1.1={
+	liege=d_tilderrend
+}
+984.5.6= {
+	holder=101700
+}

@@ -1,0 +1,14 @@
+# 1771 - Ulinoa
+# County Title
+title = c_ulinoa
+# Settlements
+max_settlements = 3
+
+
+b_ulinoa = castle
+b_lirani = city
+b_zaro = temple
+
+# Misc
+culture = mellounian
+religion = mellounian_law

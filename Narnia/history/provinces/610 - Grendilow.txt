@@ -1,0 +1,13 @@
+# 610 - Grendilow
+# County Title
+title = c_grendilow
+# Settlements
+max_settlements = 1
+
+b_grendilow = castle
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = vyric
+religion = white_witch

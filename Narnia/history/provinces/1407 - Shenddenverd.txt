@@ -1,0 +1,14 @@
+# 1407 - Shenddenverd
+# County Title
+title = c_shenddenverd
+# Settlements
+max_settlements = 1
+
+
+b_shenddenverd = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

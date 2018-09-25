@@ -1,0 +1,9 @@
+1.1.1={
+	law = succ_primogeniture
+}
+750.1.1 = {
+	liege = k_athmle
+}
+981.5.7={
+	holder = 86900
+}

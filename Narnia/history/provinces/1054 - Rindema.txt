@@ -1,0 +1,13 @@
+# 1054 - Rindema
+# County Title
+title = c_rindema
+# Settlements
+max_settlements = 1
+
+b_rindema = castle
+#b_lower_ilkeen = city
+b_rinduima = temple
+
+# Misc
+culture = koramarine
+religion = tellan

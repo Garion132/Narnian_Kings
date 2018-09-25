@@ -1,0 +1,18 @@
+# 1329 - Ryligh
+# County Title
+title = c_ryligh
+# Settlements
+max_settlements = 1
+
+
+b_ryligh = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic
+
+850.1.1={
+	b_ryligh = ca_militia_barracks_1
+}

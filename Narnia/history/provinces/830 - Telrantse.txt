@@ -1,0 +1,13 @@
+# 830 - Telrantse
+# County Title
+title = c_telrantse
+# Settlements
+max_settlements = 1
+
+b_telrantse = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

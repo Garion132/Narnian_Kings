@@ -1,0 +1,14 @@
+# 1097 - Karrinough
+# County Title
+title = c_karrinough
+# Settlements
+max_settlements = 2
+
+
+b_karrinough = castle
+b_karrington = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

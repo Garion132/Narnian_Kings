@@ -1,0 +1,24 @@
+# 542 - Revenhold
+# County Title
+title = c_revenhold
+# Settlements
+max_settlements = 1
+
+b_revenhold = castle
+b_reventown = city
+b_revenoutford = castle
+b_temple_of_goring = temple
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = dragon_worship
+
+923.6.8={
+religion = white_witch
+}
+
+990.1.1 = {
+	culture = german
+	religion = aryan
+}

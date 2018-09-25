@@ -1,0 +1,13 @@
+# 893 - Aragoria
+# County Title
+title = c_aragoria
+# Settlements
+max_settlements = 1
+
+b_aragoria = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tashlan

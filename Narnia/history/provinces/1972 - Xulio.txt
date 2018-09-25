@@ -1,0 +1,14 @@
+# 1972 - Xulio
+# County Title
+title = c_xulio
+# Settlements
+max_settlements = 1
+
+
+b_xulio = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = elexol
+religion = eline

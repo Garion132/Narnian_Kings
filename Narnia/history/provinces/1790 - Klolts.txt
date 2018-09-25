@@ -1,0 +1,14 @@
+# 1790 - Klolts
+# County Title
+title = c_klolts
+# Settlements
+max_settlements = 2
+
+
+b_klolts_hold = castle
+b_klolts = city
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = kelvrain

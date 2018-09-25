@@ -1,0 +1,13 @@
+# 527 - Nephelea
+# County Title
+title = c_nephelea
+# Settlements
+max_settlements = 1
+
+#b_nephelea = city
+b_nephelea = castle
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = aslan

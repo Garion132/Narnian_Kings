@@ -1,0 +1,9 @@
+1.1.1={
+	law = succ_gavelkind
+}
+750.1.1 = {
+	liege = e_calormen
+}
+996.3.7 = {
+	holder = 40167
+}

@@ -1,0 +1,14 @@
+# 1925 - Tamata
+# County Title
+title = c_tamata
+# Settlements
+max_settlements = 3
+
+
+b_tamata = castle
+b_patarum = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

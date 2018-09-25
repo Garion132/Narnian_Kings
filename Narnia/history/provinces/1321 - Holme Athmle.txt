@@ -1,0 +1,27 @@
+# 1321 - Holme Athmle
+# County Title
+title = c_holme_athmle
+# Settlements
+max_settlements = 1
+
+
+b_holme_athmle = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic
+
+
+790.1.1={
+	b_holme_athmle = ca_keep_1
+	b_holme_athmle = ca_keep_2
+	b_holme_athmle = ca_militia_barracks_1
+	b_holme_athmle = ca_militia_barracks_2
+	b_holme_athmle = ca_barracks_1
+	b_holme_athmle = ca_wall_1
+	b_holme_athmle = ca_wall_2
+	b_holme_athmle = ca_training_grounds_1
+	b_holme_athmle = ca_stable_1
+}

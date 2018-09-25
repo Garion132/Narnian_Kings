@@ -1,0 +1,110 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESCwinter_reb1;As the Great Battle Rages on, Aslan Apears out of the mist, and roaring leaps upon you;As the Great Battle Rages on, Aslan Apears out of the mist, and roaring leaps upon you;As the Great Battle Rages on, Aslan Apears out of the mist, and roaring leaps upon you;;As the Great Battle Rages on, Aslan Apears out of the mist, and roaring leaps upon you;;;;;;;;;x
+EVTOPTAwinter_reb.1;Lets finish This!;Lets finish This!;Lets finish This!;;Lets finish This!;;;;;;;;;x
+EVTTITLEwinter_reb2;The Duel Concludes, Aslan won.;The Duel Concludes, Aslan won.;The Duel Concludes, Aslan won.;;The Duel Concludes, Aslan won.;;;;;;;;;x
+EVTDESCwinter_reb2;It is Over, The Forces of Aslan and Peter have trimuped over the forces of the witch.;It is Over, The Forces of Aslan and Peter have trimuped over the forces of the witch.;It is Over, The Forces of Aslan and Peter have trimuped over the forces of the witch.;;It is Over, The Forces of Aslan and Peter have trimuped over the forces of the witch.;;;;;;;;;x
+EVTOPTAwinter_reb.2;how long will the reign of the sons of adam last?;how long will the reign of the sons of adam last?;how long will the reign of the sons of adam last?;;how long will the reign of the sons of adam last?;;;;;;;;;x
+EVTOPTBwinter_reb.2;Praise Aslan!;Praise Aslan!;Praise Aslan!;;Praise Aslan!;;;;;;;;;x
+EVTDESC_winter_reb3;It is Over, The White Witch has triumpted and winter returns in full force;It is Over, The White Witch has triumpted and winter returns in full force;It is Over, The White Witch has triumpted and winter returns in full force;;It is Over, The White Witch has triumpted and winter returns in full force;;;;;;;;;x
+EVTTITLE_winter_reb3;The Duel Concludes, Jadis won.;The Duel Concludes, Jadis won.;The Duel Concludes, Jadis won.;;The Duel Concludes, Jadis won.;;;;;;;;;x
+EVTOPTAwinter_reb.3;The last hope for Narnia has fallen;The Last hope for Narnia has Fallen;The Last hope for Narnia has Fallen;;The Last hope for Narnia has Fallen;;;;;;;;;x
+scrouge_of_telmar;Scrouge of Telmar;;;;;;;;;;;;;x
+SCROUGE_OF_TELMAR_INFO;The Scrouge of Telmar laid upon the heritics and heathens of Telmar;;;;;;;;;;;;;x
+EVTTITLE_winter_reb50;[From.GetTitledFirstName] asks for your aid;;;;;;;;;;;;;x
+EVTDESCwinter_reb50;[From.GetTitledFirstName] is fighting a great war aganst the White Queen for the fate of narnia and now calls for your aid, how do you respond?;;;;;;;;;;;;;x
+EVTOPTBwinter_reb.50;No i won't risk it;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.50;Of course, Bannermen Raise the Banners, For Aslan!;;;;;;;;;;;;;x
+EVTDESC_winter_reb51;[From.GetTitledFirstName] agrees to join your rightfull war;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.51;Great!;;;;;;;;;;;;;x
+EVTDESC_winter_reb104;O Glorius Tisroc, true Kin of mine, How if I show you a way by which you can strech out your arm to take Narnia and yet draw it back unharmed if the attempt prove unfortunate?....;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.104;Go and do as you have said, but expect no help from me;;;;;;;;;;;;;x
+EVTOPTBwinter_reb.104;I have a even better plan, you go and do as you have said, and I will follow with a grand host to renforce you in Anvard;;;;;;;;;;;;;x
+EVTOPTCwinter_reb.104;No! that would be unjust and unhonorable and i will have no part in this;;;;;;;;;;;;;x
+nar_misc.1;An Ambition for Archenland;;;;;;;;;;;;;x
+EVTDESCnar_misc1;Plans procede at pace for your grand plan for a Greater Archenland, your advisors suggest that you now send envoys to the independant states to the south and ask them to swear fealty to you.;;;;;;;;;;;;;x
+EVTOPTAnar_misc.1;send the envoys;;;;;;;;;;;;;x
+EVTOPTBnar_misc.1;Don't bother;;;;;;;;;;;;;x
+EVTDESCnar_misc2;[From.GetTitledFirstName] of Archenland has sent an envoy to you asking for your oath of fealty, how shall we respond?;;;;;;;;;;;;;x
+EVTOPTAnar_misc.2;Yes, i shall submit to Archenland;;;;;;;;;;;;;x
+EVTOPTBnar_misc.2;No, Archenland has no power here;;;;;;;;;;;;;x
+form_narnian_state;Form Narnian State;;;;;;;;;;;;;x
+form_narnian_state_desc;I control the major provences in narnia, perhaps i should declear myself the king of the old kingdom of Narnia!;;;;;;;;;;;;;x
+EVTTITLENar_holy_war.8;Tellan Crusades;;;;;;;;;;;;;x
+EVTDESCNar_holy_war.8;Thanks to the direct pleas of [Root.GetTitledFirstName] of Telmar to [From.GetTitledFirstName] has swayed the great [From.GetTitle]. who has declared a new age, an age of great holy wars, the Tellan Crusades!;;;;;;;;;;;;;x
+EVTDESCNar_holy_war.5;Koraly has fallen to vile Heathens and Heritics. what should be done about this?;;;;;;;;;;;;;x
+EVTOPTANar_holy_war.5;We are in no position to do anything;;;;;;;;;;;;;x
+EVTOPTBNar_holy_war.5;We can no longer sit by, restore Koraly at all costs!;;;;;;;;;;;;;x
+EVTOPTCNar_holy_war.5;We need the backing of the church for this, send a message to the Pope!;;;;;;;;;;;;;x
+EVTDESCNar_holy_war.7;The Pope is weak and refuses to do anything.;;;;;;;;;;;;;x
+EVTOPTANar_holy_war.7;We can do nothing;;;;;;;;;;;;;x
+EVTDESCWRWE.1;From a Bastard of a duke to twice King you, [Root.GetTitledFirstName] have risen and in your rise have been given the title "the Lion of Impara" by your subjects, now Oh Lord do you rise to even greater hights or do you consentrate on the well being of your people? But be warned, Further expansion may bring the wrath of the §ZDylis§! onto your head;;;;;;;;;;;;;x
+EVTOPTAWRWE.1;The Land is where i am strong!;;;;;;;;;;;;;x
+EVTOPTBWRWE.1;The People are where i am strong!;;;;;;;;;;;;;x
+EVTTOOLTIPWRWE.3;§KThe Dylis may not take kindly to this§!;;;;;;;;;;;;;x
+EVTDESCWRWE.2;[From.GetTitledName] was Declared the "Lion of Impara" on the streets of [From.Capital.GetName] today. what [From.GetSheHe] plans to do is unknown, but some speculate that Dfyrid may be next;;;;;;;;;;;;;x
+EVTTITLEWRWE.2;The Lion of Impara;;;;;;;;;;;;;x
+EVTOPTAWRWE.2;ok;;;;;;;;;;;;;x
+EVTDESCWRWE.3;Today [From.GetTitledName] was given the title "Lion of Impara" after consolidating control over both Kingdoms of Impara and Ua Pulioua. the question is now, Oh [Root.GetTitle] what are you to do about this upstart.;;;;;;;;;;;;;x
+EVTOPTAWRWE.3;[From.GetSheHe] is no threat to us;;;;;;;;;;;;;x
+EVTOPTBWRWE.3;Offer [From.GetHerHim] an alliance;;;;;;;;;;;;;x
+EVTOPTCWRWE.3;Force [From.GetHerHim] to Bend the Knee;;;;;;;;;;;;;x
+EVTOPTDWRWE.3;[From.GetSheHe] is unmarried and i have a unwed child, let us bind our dynasties together;;;;;;;;;;;;;x
+EVTDESCWRWE.4;A Embassary from the [From.GetTitle] has arrived offering you an alliance [Root.Title.GetFOA]. How should we respond?;;;;;;;;;;;;;x
+EVTOPTAWRWE.4;I Accept;;;;;;;;;;;;;x
+EVTOPTBWRWE.4;I Decline;;;;;;;;;;;;;x
+EVTDESCWRWE.5;A Embassary from the [From.GetTitle] has arrived Demainding that you bend the Knee. How should we respond?;;;;;;;;;;;;;x
+EVTOPTAWRWE.5;I Accept;;;;;;;;;;;;;x
+EVTOPTBWRWE.5;I will never bend!;;;;;;;;;;;;;x
+EVTDESCWRWE.10;A Embassary from the [From.GetTitle] offering [From.GetHersHis] childs hand in marrage. How should we respond?;;;;;;;;;;;;;x
+EVTOPTAWRWE.10;Yes of course;;;;;;;;;;;;;x
+EVTOPTBWRWE.10;Yes, But for the Allance only;;;;;;;;;;;;;x
+EVTOPTCWRWE.10;I Decline;;;;;;;;;;;;;x
+EVTDESCWRWE.11;He accepted our offer;;;;;;;;;;;;;x
+EVTOPTAWRWE.11;I Accept;;;;;;;;;;;;;x
+EVTDESCWRWE.12;He declined our offer;;;;;;;;;;;;;x
+EVTOPTAWRWE.12;I Accept;;;;;;;;;;;;;x
+EVTDESCWRWE.6;[From.GetSheHe] has Accepted;;;;;;;;;;;;;x
+EVTOPTAWRWE.6;Good;;;;;;;;;;;;;x
+EVTDESCWRWE.7;[From.GetSheHe] has Refused to Kneel!;;;;;;;;;;;;;x
+EVTOPTAWRWE.7;March on [From.Capital.GetName] and force [From.GetHerHim] to bend;;;;;;;;;;;;;x
+EVTOPTAWRWE.7;We can not risk war in the state we are in now;;;;;;;;;;;;;x
+EVTDESCWRWE.15;Today you are no longer some prince, today you are the King of Korozmei!;;;;;;;;;;;;;x
+EVTOPTAWRWE.15;Glory to my name;;;;;;;;;;;;;x
+EVTDESCWRWE.16;The Kingdom of Korozmei was founded by [From.GetBestName] who was Coronated today in [From.GetHersHis] court in [From.Capital.GetName];;;;;;;;;;;;;x
+EVTOPTAWRWE.16;Ok;;;;;;;;;;;;;x
+EVTDESCnar_misc3;[From.GetTitledFirstName] has accepted our request for an oath of fealty, [From.GetSheHe] arrived in [Root.Capital.GetName] with an grand escort in order to bend the knee;;;;;;;;;;;;;x
+EVTOPTAnar_misc.3;Rise as my vassal [From.GetTitledFirstName], and bask in my glow;;;;;;;;;;;;;x
+EVTDESCnar_misc4;[From.GetTitledFirstName] has refused our request and has insulted our glorius line;;;;;;;;;;;;;x
+EVTOPTAnar_misc.4;[From.GetSheHe] shall pay;;;;;;;;;;;;;x
+EVTDESCwinter_reb10;Rumours have reached you about a Feral White Stag running within the Lantern woods, shall I inform your mount to prepare for you your majesty?;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.10;Yes, and inform my Siblings as well, Today we Hunt!;;;;;;;;;;;;;x
+EVTOPTBwinter_reb.10;Even a feral stag has rights, I shall not hunt those that Alsan has created;;;;;;;;;;;;;x
+EVTDESCwinter_reb11;You Ride deeper into the lantern woods following the flicker of sliver-white in the trees ahead, untill you come across a weird tall object with a light burning above. One of your Siblings suddly mutters about a "lamppost" and runs off into the trees;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.11;Follow them;;;;;;;;;;;;;x
+EVTOPTBwinter_reb.11;Stop, It is too dangerous!;;;;;;;;;;;;;x
+EVTDESCwinter_reb12;You push deeper into the trees and it gets blacker and blacker untill your are no longer brushing against tree branches and start brushing against something that feels like fur?;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.12;Spare Oom?;;;;;;;;;;;;;x
+EVTDESCwinter_reb13;[From.GetTitledName] and [From.GetHersHis] have disapeared into the Northern woods and have not returned and the Court in [From.Capital.GetName] is in turmoil;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.13;What does this mean for Narnia?;;;;;;;;;;;;;x
+EVTDESCwinter_reb14;[From.GetTitledName] has disapeared today and envoys from Narnia have Arrived offering you the High Kingdom, What is your reply?;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.14;Yes, let the reign of [Root.GetTitledName] begin!;;;;;;;;;;;;;x
+EVTOPTBwinter_reb.14;No i have never wanted a title.;;;;;;;;;;;;;x
+EVTDESCwinter_reb15;[From.GetTitledName] was crowned [From.GetPrimaryTitles] in [From.Capital.GetName] today.;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.15;May [From.GetSheHe] hold Narnia together;;;;;;;;;;;;;x
+EVTDESCwinter_reb16;A Flash of Sliver and the sound of foot falls greet you after many hours of riding around within the lantern woods;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.16;Pursue it;;;;;;;;;;;;;x
+EVTDESCwinter_reb17;You lose the stag within the tree and it is too late to find it again;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.17;Time to return to [Root.Capital.GetName];;;;;;;;;;;;;x
+EVTDESCwinter_reb18;A Coutier comes to you and informs you that the White Stag has been spotted within the Lantern Woods Again;;;;;;;;;;;;;x
+EVTOPTAwinter_reb.18;Ready the Horses!;;;;;;;;;;;;;x
+EVTOPTBwinter_reb.18;Time to give up;;;;;;;;;;;;;x
+invitedCharacterLeavesCourt;[event_target:invited_character.getName] leaves your court;;;;;;;;;;;;;x
+EVTNAMEnar_EXT.1;A Refugee Arrives;;;;;;;;;;;;;x
+EVTDESCnar_EXT.1;A man stumbles into your door at [Root.Capital.GetName] disorentated and confused, after giving him food he tells the tale of great killing camps of another world. After he managed to flee the camp he stumbled into a cave and when he emerged he found that he was in a new world. he now pleas with you to allow him to stay and put his knowledge from another world to work for you.[/n] what is your desision, oh [From.GetTitledFirstName]?;;;;;;;;;;;;;x
+nar_EXT.1.a;He is welcome here;;;;;;;;;;;;;x
+nar_EXT.1.b;We will not allow his type here;;;;;;;;;;;;;x
+call_narnian_sphere_to_arms;Call Narnian Sphere to Arms;;;;;;;;;;;;;x
+call_narnian_sphere_to_arms_desc;Send a missive to the other Aslan and Aslan sympathetic Rulers requesting aid;;;;;;;;;;;;;x
+
+
+

@@ -1,0 +1,14 @@
+# 2299 - Soundium
+# County Title
+title = c_soundium
+# Settlements
+max_settlements = 1
+
+
+b_soundium = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = eline

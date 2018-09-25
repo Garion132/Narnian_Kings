@@ -1,0 +1,13 @@
+# 443 - Craigton
+# County Title
+title = c_craigton
+# Settlements
+max_settlements = 3
+
+b_craigton = castle
+b_town-on-craigton = city
+b_craigtrine = temple
+
+# Misc
+culture = narnian
+religion = aslan

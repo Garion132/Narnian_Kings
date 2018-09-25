@@ -1,0 +1,14 @@
+# 2275 - Daner
+# County Title
+title = c_daner
+# Settlements
+max_settlements = 1
+
+
+b_daner = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = quallis

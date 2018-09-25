@@ -1,0 +1,6 @@
+947.6.8={
+	liege=d_serrindor
+}
+986.6.7={
+	holder = 112300
+}

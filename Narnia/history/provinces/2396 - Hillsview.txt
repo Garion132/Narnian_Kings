@@ -1,0 +1,14 @@
+# 2396 - Hillsview
+# County Title
+title = c_hillsview
+# Settlements
+max_settlements = 1
+
+
+b_hillsview = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = quallis

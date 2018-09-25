@@ -1,0 +1,38 @@
+1.1.1={
+	holder=0
+}
+532.1.1={
+	set_tribute_suzerain = { who = e_charn type = autonomous_vassal}
+}
+678.3.12={
+	holder=52100
+}
+702.5.21={
+	holder=52101
+}
+741.12.14={
+	holder=52102
+}
+810.1.4={
+	holder=52103
+}
+847.8.7={
+	holder=52104
+}
+902.1.1={
+	clear_tribute_suzerain = e_charn
+	set_tribute_suzerain = { who = e_narnia type = autonomous_vassal}
+}
+902.3.29={
+	holder=52105
+}
+945.4.24={
+	holder=52106
+}
+983.3.13={
+	holder=52107
+}
+1000.4.5={
+	#holder=0
+	clear_tribute_suzerain = e_narnia
+}

@@ -1,0 +1,20 @@
+# 2223 - Tearonga
+# County Title
+title = c_tearonga
+# Settlements
+max_settlements = 1
+
+
+b_tearonga = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+religion = shinoi
+culture = nishonaru
+996.6.9={
+	culture = tangatawhetu
+}
+1023.5.9={
+	religion = purakau_ao_kohatu
+}

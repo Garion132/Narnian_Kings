@@ -1,0 +1,12 @@
+1.1.1={
+	law = succ_primogeniture
+}
+850.1.1 = {
+	liege = k_karinster
+}
+981.3.5={
+	holder = 87000
+}
+1006.4.20={
+	holder = 87001
+}

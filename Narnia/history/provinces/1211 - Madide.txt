@@ -1,0 +1,14 @@
+# 1211 - Madide
+# County Title
+title = c_madide
+# Settlements
+max_settlements = 1
+
+
+b_madide = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

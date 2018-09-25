@@ -1,0 +1,13 @@
+# 597 - Hagtessia
+# County Title
+title = c_hagtessia
+# Settlements
+max_settlements = 1
+
+b_hagtessia = castle
+#b_temple_of_charn = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = black_dwarf
+religion = white_witch

@@ -1,0 +1,14 @@
+# 2228 - Moungatehua
+# County Title
+title = c_moungatehua
+# Settlements
+max_settlements = 1
+
+
+b_moungatehua = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = uyirian
+religion = lavurite

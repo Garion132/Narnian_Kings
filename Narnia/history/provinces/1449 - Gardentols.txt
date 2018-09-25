@@ -1,0 +1,14 @@
+# 1449 - Gardentols
+# County Title
+title = c_gardentols
+# Settlements
+max_settlements = 1
+
+
+b_gardentols = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = lavurite

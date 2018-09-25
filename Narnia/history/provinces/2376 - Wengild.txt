@@ -1,0 +1,14 @@
+# 2376 - Wengild
+# County Title
+title = c_wengild
+# Settlements
+max_settlements = 1
+
+
+b_wengild = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = cerek
+religion = eline

@@ -1,0 +1,13 @@
+# 739 - Mialouz
+# County Title
+title = c_mialouz
+# Settlements
+max_settlements = 1
+
+b_mialouz = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = southern_calormen_cults

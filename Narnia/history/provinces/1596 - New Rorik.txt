@@ -1,0 +1,14 @@
+# 1596 - New Rorik
+# County Title
+title = c_new_rorik
+# Settlements
+max_settlements = 1
+
+
+b_new_rorik = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

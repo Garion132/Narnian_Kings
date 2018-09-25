@@ -1,0 +1,14 @@
+# 1686 - Pellsgrove
+# County Title
+title = c_pellsgrove
+# Settlements
+max_settlements = 1
+
+
+b_pellsgrove = tribal
+#b_shannan_city = city
+
+
+# Misc
+culture = uyirian
+religion = lavurite

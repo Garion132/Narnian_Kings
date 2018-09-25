@@ -1,0 +1,14 @@
+# 1981 - Jilruac
+# County Title
+title = c_jilruac
+# Settlements
+max_settlements = 1
+
+
+b_jilruac = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = elexol
+religion = eline

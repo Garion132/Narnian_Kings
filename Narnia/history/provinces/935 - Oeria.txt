@@ -1,0 +1,13 @@
+# 935 - Oeria
+# County Title
+title = c_oeria
+# Settlements
+max_settlements = 1
+
+b_oeria = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

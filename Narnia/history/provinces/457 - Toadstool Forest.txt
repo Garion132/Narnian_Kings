@@ -1,0 +1,13 @@
+# 457 - Toadstool Forest
+# County Title
+title = c_toadstool_forest
+# Settlements
+max_settlements = 1
+
+b_toadstool_forest = castle
+b_toadstool_heights = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = red_dwarf
+religion = white_witch

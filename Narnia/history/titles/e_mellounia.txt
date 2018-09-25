@@ -1,0 +1,18 @@
+900.4.8={
+	law = succ_turkish_succession
+	law = cognatic_succession
+	law = succession_voting_power_1
+	law = law_voting_power_1
+	law = revoke_title_voting_power_1
+	law = grant_title_voting_power_0
+	law = imprison_voting_power_1
+	law = execution_voting_power_1
+	law = war_voting_power_1
+	law = centralization_0
+}
+956.7.24={
+	holder = 110101
+}
+986.6.9={
+	holder = 110100
+}

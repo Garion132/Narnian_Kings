@@ -1,0 +1,12 @@
+800.3.7 = {
+	liege = e_elexol_confederation
+}
+951.6.21={
+	holder = 115900
+}
+991.6.17={
+	holder = 115901
+}
+1013.4.8={
+	holder = 115902
+}

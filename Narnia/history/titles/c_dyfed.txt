@@ -1,0 +1,26 @@
+1.1.1={
+	holder=0
+}
+600.2.20={
+	law = succ_primogeniture
+	law = crown_authority_1
+	liege = k_dfyrid
+}
+850.2.3={
+	holder = 81405
+}
+895.6.18={
+	holder = 81404
+}
+928.7.10={
+	holder = 81403
+}
+942.2.12={
+	holder = 81402
+}
+963.11.5={
+	holder = 81401
+}
+991.9.25={
+	holder=81400
+}

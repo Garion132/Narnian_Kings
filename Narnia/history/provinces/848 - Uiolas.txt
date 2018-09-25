@@ -1,0 +1,13 @@
+# 848 - Uiolas
+# County Title
+title = c_uiolas
+# Settlements
+max_settlements = 2
+
+b_uiolas = castle
+#b_lower_ilkeen = city
+b_temple_uiolas = temple
+
+# Misc
+culture = calormen
+religion = tash

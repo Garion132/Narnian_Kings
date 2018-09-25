@@ -1,0 +1,14 @@
+# 1661 - Olkush
+# County Title
+title = c_olkush
+# Settlements
+max_settlements = 1
+
+
+b_olkush = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

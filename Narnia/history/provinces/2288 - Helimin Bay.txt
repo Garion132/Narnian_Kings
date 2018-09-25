@@ -1,0 +1,14 @@
+# 2288 - Helimin Bay
+# County Title
+title = c_helimin_bay
+# Settlements
+max_settlements = 1
+
+
+b_helimin_bay = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

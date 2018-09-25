@@ -1,0 +1,14 @@
+# 1084 - Pulnaish
+# County Title
+title = c_pulnaish
+# Settlements
+max_settlements = 1
+
+
+b_pulnaish = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

@@ -1,0 +1,14 @@
+# 1258 - Doriath
+# County Title
+title = c_doriath
+# Settlements
+max_settlements = 3
+
+
+b_doriath = castle
+b_dorin = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

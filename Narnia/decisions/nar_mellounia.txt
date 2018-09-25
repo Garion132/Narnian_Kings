@@ -1,0 +1,136 @@
+decisions = {
+	submit_to_the_empire = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			independent = yes
+			capital = {
+				region = region_mellounian_plains
+			}
+			NOR = {
+				has_landed_title = e_mellounia
+				is_tributary = yes
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+		}
+		effect = {
+			prestige = 200
+			any_independent_ruler = {
+				limit = {
+					has_landed_title = e_mellounia
+				}
+				make_tributary = {
+					who = PREV 
+					tributary_type = imperial_automonous_vassal
+				} 
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+			
+			modifier = {
+				e_mellounia = {
+					holder = {
+						ROOT = {opinion = { who = PREV value = 25 }}
+					}
+				}	
+				factor = 2
+			}
+			modifier = {
+				e_mellounia = {
+					holder = {
+						holds_favor_on = ROOT
+					}
+				}	
+				factor = 5
+			}
+			modifier = {
+				e_mellounia = {
+					holder = {
+						ROOT = {
+							religion = PREV
+						}
+					}
+				}	
+				factor = 1
+			}
+			modifier = {
+				e_mellounia = {
+					holder = {
+						ROOT = {
+							religion_group = PREV
+						}
+					}
+				}	
+				factor = 1
+			}
+			modifier = {
+				religion = pamyatrossii
+				
+				factor = 0.5
+			}
+			modifier = {
+				trait = craven
+				
+				factor = 1.1
+			}
+		}
+	}
+	convert_to_mellounian_law = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			capital = {
+				region = region_mellounian_plains
+				religion = mellounian_law
+			}
+			has_landed_title = e_mellounia
+			NOT = {religion_group = mellounian}
+		}
+		allow = {
+			war = no
+			prisoner = no
+		}
+		effect = {
+			prestige = 200
+			religion = mellounian_law
+		}
+		ai_will_do = {
+			factor = 0.9
+		}
+	}
+}
+targetted_decisions = {
+	imperial_call_to_arms = {
+		ai_target_filter = all
+		
+		from_potential = {
+			has_title = e_mellounia
+			war = yes
+		}
+		potential = {
+			is_tributary = {
+				type = imperial_automonous_vassal 
+				suzerain = FROM
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			join_defender_wars = FROM 
+			join_attacker_wars = FROM 
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

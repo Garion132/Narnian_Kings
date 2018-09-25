@@ -1,0 +1,4 @@
+120.4.2= {
+	holder=0
+	liege=k_archenland
+}

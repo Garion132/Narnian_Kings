@@ -1,0 +1,14 @@
+# 1308 - Fellingford
+# County Title
+title = c_fellingford
+# Settlements
+max_settlements = 1
+
+
+b_fellingford = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

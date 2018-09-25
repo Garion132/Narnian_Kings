@@ -1,0 +1,19 @@
+# 344 - Rushford
+
+# County Title
+title = c_rushford
+
+# Settlements
+max_settlements = 1
+
+b_rushford = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan
+
+2014.1.1={
+culture = telmarine
+}

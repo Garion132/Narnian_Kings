@@ -1,0 +1,14 @@
+# 2076 - Koulune
+# County Title
+title = c_koulune
+# Settlements
+max_settlements = 1
+
+
+b_koulune = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

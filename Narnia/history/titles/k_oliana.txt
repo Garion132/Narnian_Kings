@@ -1,0 +1,23 @@
+#800.5.9={
+#	liege = k_hokubukyowakoku
+#}
+800.5.9={
+	de_jure_liege = e_stary_sea
+}
+921.3.18={
+	holder = 96104
+	de_jure_liege = e_yuhniochi
+}
+941.11.23={
+	holder = 96103
+}
+963.7.19={
+	holder = 96102
+}
+983.7.11={
+	holder = 96100
+}
+1003.7.24={
+	holder = 96101
+}
+

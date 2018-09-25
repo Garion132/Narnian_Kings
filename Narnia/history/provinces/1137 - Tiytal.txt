@@ -1,0 +1,14 @@
+# 1137 - Tiytal
+# County Title
+title = c_tiytal
+# Settlements
+max_settlements = 1
+
+
+b_tiytal = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = caitliceann

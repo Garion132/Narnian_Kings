@@ -1,0 +1,13 @@
+# 825 - Darverus
+# County Title
+title = c_darverus
+# Settlements
+max_settlements = 1
+
+b_darverus = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

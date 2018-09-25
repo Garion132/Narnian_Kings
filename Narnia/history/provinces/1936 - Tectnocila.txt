@@ -1,0 +1,14 @@
+# 1936 - Tectnocila
+# County Title
+title = c_tectnocila
+# Settlements
+max_settlements = 1
+
+
+b_tectnocila = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = jelvar
+religion = tarutarin

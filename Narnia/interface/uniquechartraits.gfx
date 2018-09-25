@@ -1,0 +1,194 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_line_of_charn"
+		texturefile = "gfx/traits/line_of_charn.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_everlasting_apple"
+		texturefile = "gfx/traits/everlasting_apple.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_charn_education_steward"
+		texturefile = "gfx/traits/charn_education_steward.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_foreign_child"
+		texturefile = "gfx/traits/foreign_child.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_modern_marrage_mindset"
+		texturefile = "gfx/traits/modern_marrage_mindset.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_child_of_adam_or_eve"
+		texturefile = "gfx/traits/child_of_adam_or_eve.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_narnian_tyrant"
+		texturefile = "gfx/traits/narnian_tyrant.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_female_infertility"
+		texturefile = "gfx/traits/female_infertility.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scrouge_of_telmar"
+		texturefile = "gfx/traits/scrouge_of_telmar.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_modern_doctor"
+		texturefile = "gfx/traits/modern_doctor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_modern_strategist"
+		texturefile = "gfx/traits/modern_stratergist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_dwarf_culture"
+		texturefile = "gfx/traits/races/dwarf_trait.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_wolf"
+		texturefile = "gfx/traits/races/wolf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_star"
+		texturefile = "gfx/traits/races/star.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_faun"
+		texturefile = "gfx/traits/races/faun.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_ilvitar_human_race"
+		texturefile = "gfx/traits/races/ilvitar_human_race.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_human_race"
+		texturefile = "gfx/traits/races/human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_giant_race"
+		texturefile = "gfx/traits/races/giant_race.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_dylis_dynasty_murtagh"
+		texturefile = "gfx/traits/dylis_dynasty_murtagh.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_dylis_dynasty_erinin"
+		texturefile = "gfx/traits/dylis_dynasty_erinin.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_dylis_dynasty_aldomar"
+		texturefile = "gfx/traits/dylis_dynasty_aldomar.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_dylis_dynasty_uar"
+		texturefile = "gfx/traits/dylis_dynasty_uar.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_dylis"
+		texturefile = "gfx/traits/dylis.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_valuia_dynasty"
+		texturefile = "gfx/traits/valuia_dynasty.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_valuia_dynasty_minor"
+		texturefile = "gfx/traits/valuia_dynasty_minor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_eslian_concortat"
+		texturefile = "gfx/traits/eslian_concortat.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_broke_the_eslian_concortat"
+		texturefile = "gfx/traits/broke_the_eslian_concortat.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

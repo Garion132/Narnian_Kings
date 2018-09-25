@@ -1,0 +1,13 @@
+# 406 - Magnesia
+# County Title
+title = c_magnesia
+# Settlements
+max_settlements = 1
+
+b_magnesia = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = gryphon
+religion = aslan

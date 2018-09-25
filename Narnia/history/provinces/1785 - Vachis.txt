@@ -1,0 +1,14 @@
+# 1785 - Vachis
+# County Title
+title = c_vachis
+# Settlements
+max_settlements = 4
+
+
+b_vachis = castle
+b_vearnia = city
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = mellounian_law

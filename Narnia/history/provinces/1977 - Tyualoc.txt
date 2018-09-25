@@ -1,0 +1,14 @@
+# 1977 - Tyualoc
+# County Title
+title = c_tyualoc
+# Settlements
+max_settlements = 1
+
+
+b_tyualoc = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = elexol
+religion = eline

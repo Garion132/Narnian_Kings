@@ -1,0 +1,13 @@
+# 1005 - Senserishesh
+# County Title
+title = c_senserishesh
+# Settlements
+max_settlements = 1
+
+b_senserishesh = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = tashlan

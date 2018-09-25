@@ -1,0 +1,13 @@
+# 625 - Impcaves
+# County Title
+title = c_impcaves
+# Settlements
+max_settlements = 1
+
+b_impcaves = castle
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch

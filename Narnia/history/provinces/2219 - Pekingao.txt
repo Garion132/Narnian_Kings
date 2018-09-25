@@ -1,0 +1,20 @@
+# 2219 - Pekingao
+# County Title
+title = c_pekingao
+# Settlements
+max_settlements = 1
+
+
+b_pekingao = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+religion = lavurite
+culture = uyirimerku
+996.6.9={
+	culture = tangatawhetu
+}
+1023.5.9={
+	religion = purakau_ao_kohatu
+}

@@ -1,0 +1,14 @@
+# 2411 - Synn
+# County Title
+title = c_synn
+# Settlements
+max_settlements = 1
+
+
+b_synn = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = pelligdian
+religion = eline

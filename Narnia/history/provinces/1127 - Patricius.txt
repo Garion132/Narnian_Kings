@@ -1,0 +1,14 @@
+# 1127 - Patricius
+# County Title
+title = c_patricius
+# Settlements
+max_settlements = 1
+
+
+b_patricius = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

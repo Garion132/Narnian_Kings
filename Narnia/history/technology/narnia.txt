@@ -1,0 +1,101 @@
+#Narnia
+technology = {
+	titles = {
+		d_beruna
+		d_galma
+		d_cair_paravel
+		d_archenbay
+		d_ettinsgard
+		d_the_marsh
+		d_faunwald
+		d_aslans_how
+		d_dancing_lawn
+		d_rushwood
+		d_anvard
+		d_stormness
+		d_gelfria
+		d_cair_oriel
+		d_oreadia
+		d_lyredale
+		d_lake_telmar_towns
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+technology = {
+	titles = {
+		d_narnian_dwarven_states
+		d_western_wood
+		d_eponadium
+		d_pania
+		d_sagittaria
+		d_gryphon_vale
+		d_lantern_wastes
+		d_minotauria
+		d_lantern_woods
+		d_limnadeon
+		d_northedge
+		d_deepdelve
+		d_dellourea
+		d_ankiun
+		d_south_archen
+		d_willoughby
+		d_arched_bays
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 2.5
+		economy = 2.5
+		culture = 2.5
+	}
+}
+
+technology = {
+	titles = {
+		d_lone_islands
+		d_terebinthia
+		d_aslans_country #added just so game doesnt throw an error
+		d_southern_isles
+		d_northern_isles
+		c_doorn
+		d_ramandus_island
+		c_cair_paravel
+		d_shannan
+		c_leoira
+		d_wyrm
+		d_cetusius
+		d_revenhold
+		d_venden
+		d_pyroaeium
+		d_nephelisa
+		d_tethia
+		d_nereidia
+		d_asteria
+		d_draconium
+		d_stjernehimmelen
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		TECH_TRADE_PRACTICES = 3.0
+		TECH_NAVAL = 2.0
+	}
+	2555 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

@@ -1,0 +1,14 @@
+850.3.18 = {
+	liege = k_ripena
+}
+951.6.2={
+	#liege = k_holyside
+	holder = 85550
+}
+963.9.23 = {
+	liege = ""
+}
+990.4.30 = {
+	liege = e_kingitangahou
+	holder = 85600
+}

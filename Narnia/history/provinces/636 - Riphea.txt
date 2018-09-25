@@ -1,0 +1,13 @@
+# 636 - Riphea
+# County Title
+title = c_riphea
+# Settlements
+max_settlements = 1
+
+b_riphea = tribal
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = chionmen
+religion = white_witch

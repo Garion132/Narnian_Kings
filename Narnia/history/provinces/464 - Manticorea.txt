@@ -1,0 +1,13 @@
+# 464 - Manticorea
+# County Title
+title = c_manticorea
+# Settlements
+max_settlements = 1
+
+b_manticorea = castle
+#b_mushroom_caverns = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = black_dwarf
+religion = white_witch

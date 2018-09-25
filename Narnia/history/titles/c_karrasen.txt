@@ -1,0 +1,9 @@
+1.1.1={
+	holder = 0
+	law = succ_primogeniture
+}
+852.9.13={
+	liege = d_kernais_coast
+}
+
+

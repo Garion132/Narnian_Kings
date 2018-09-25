@@ -1,0 +1,14 @@
+# 1719 - Graythin
+# County Title
+title = c_graythin
+# Settlements
+max_settlements = 1
+
+
+b_graythin = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

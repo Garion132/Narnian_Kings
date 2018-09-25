@@ -1,0 +1,14 @@
+# 1733 - Oyantirth
+# County Title
+title = c_oyantirth
+# Settlements
+max_settlements = 1
+
+
+b_oyantirth = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = alzuashonaru
+religion = pamyatrossii

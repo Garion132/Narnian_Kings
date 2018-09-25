@@ -1,0 +1,669 @@
+namespace = nar_misc
+character_event = { #Archenland offers vassalization to independant aslan rulers in the greater archenland area
+	id = nar_misc.1
+	desc = "EVTDESCnar_misc1"
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+	
+	trigger = {
+		has_landed_title = k_archenland
+		has_ambition = obj_greater_archenland
+	}
+	
+	option = { #give the order
+		name = EVTOPTAnar_misc.1
+		any_independent_ruler = {
+			limit = {
+				any_demesne_title = {
+					region = region_greater_archenland
+				}
+				true_religion = aslan
+			}
+			character_event = {id = nar_misc.2}
+		}
+		prestige = -50
+	}
+	option = { #no
+		name = EVTOPTBnar_misc.1
+	}
+}
+
+character_event = { #recives archenlands offer
+	id = nar_misc.2
+	desc = "EVTDESCnar_misc2"
+	
+	is_triggered_only=yes
+	
+	option = { #yes, all hail the king of archenland
+		name = EVTOPTAnar_misc.2
+		#any_independent_ruler = {
+			#limit = {has_landed_title = k_archenland}
+			set_defacto_liege = FROM
+		#}
+		FROM = {character_event = {id = nar_misc.3}}
+	}
+	option = { #no
+		name = EVTOPTBnar_misc.2
+		FROM = {character_event = {id = nar_misc.4}}
+	}
+}
+character_event = { #yes
+	id = nar_misc.3
+	desc = "EVTDESCnar_misc3"
+	
+	is_triggered_only=yes
+	
+	option = { #
+		name = EVTOPTAnar_misc.3
+	}
+}
+character_event = { #no
+	id = nar_misc.4
+	desc = "EVTDESCnar_misc4"
+	
+	is_triggered_only=yes
+	
+	option = { #
+		name = EVTOPTAnar_misc.4
+	}
+}
+
+character_event = { #Members of the Ua Dylis get claims on the dylis tiral based on witch branch is in power
+	id = nar_misc.5
+	desc = "EVTDESCnar_misc5"
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	hide_window = yes
+	
+	trigger = {
+		OR = {
+			trait = dylis_dynasty_uar
+			trait = dylis_dynasty_aldomar
+			trait = dylis_dynasty_murtagh
+			trait = dylis_dynasty_erinin
+		}
+		NOR = {
+			has_strong_claim = e_dylis_tiral
+			has_landed_title = e_dylis_tiral
+			#has_weak_claim = e_dylis_tiral
+		}
+		dynasty = 100
+	}
+	
+	immediate = { #claim given
+		if = {
+		limit = {
+			any_independent_ruler = {
+				limit = {
+					any_title = {
+						limit = {title=e_dylis_tiral}
+					}
+					true_religion = celtic
+					dynasty = 100
+					trait = dylis_dynasty_uar
+				}
+			}
+			trait = dylis_dynasty_uar
+		}
+		add_claim = e_dylis_tiral
+		add_claim = c_old_dylis
+		}
+		if = {
+		limit = {
+			any_independent_ruler = {
+				limit = {
+					any_title = {
+						limit = {title=e_dylis_tiral}
+					}
+					true_religion = celtic
+					dynasty = 100
+					trait = dylis_dynasty_aldomar
+				}
+			}
+			trait = dylis_dynasty_aldomar
+		}
+		add_claim = e_dylis_tiral
+		add_claim = c_old_dylis
+		}
+		if = {
+		limit = {
+			any_independent_ruler = {
+				limit = {
+					any_title = {
+						limit = {title=e_dylis_tiral}
+					}
+					true_religion = celtic
+					dynasty = 100
+					trait = dylis_dynasty_murtagh
+				}
+			}
+			trait = dylis_dynasty_murtagh
+		}
+		add_claim = e_dylis_tiral
+		add_claim = c_old_dylis
+		}
+		if = {
+		limit = {
+			any_independent_ruler = {
+				limit = {
+					any_title = {
+						limit = {title=e_dylis_tiral}
+					}
+					true_religion = celtic
+					dynasty = 100
+					trait = dylis_dynasty_erinin
+				}
+			}
+			trait = dylis_dynasty_erinin
+		}
+		add_claim = e_dylis_tiral
+		add_claim = c_old_dylis
+		}
+		else = {
+			add_weak_claim = e_dylis_tiral
+			add_weak_claim = c_old_dylis
+		}
+	}
+}
+
+character_event = { #
+	id = nar_misc.7
+	desc = "EVTDESCnar_misc7"
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	hide_window = yes
+	
+	trigger = {
+		has_landed_title = e_dylis_tiral
+		NOT = {has_trait = dylis}
+	}
+	
+	immediate = { #claim given
+		add_trait = dylis
+	}
+}
+
+character_event = { #
+	id = nar_misc.9
+	desc = "EVTDESCnar_misc9"
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	hide_window = yes
+	
+	trigger = {
+		is_tributary = { 
+			type = imperial 
+			suzerain = {
+				any_landed_title = e_mellounia
+			}
+		}
+		any_suzerain={
+			war = yes
+		}
+		ROOT = {
+			war=no
+		}
+	}
+	
+	immediate = { #claim given
+		ROOT = { join_defender_wars = any_suzerain }
+	}
+}
+
+character_event = { #
+	id = nar_misc.10
+	desc = "EVTDESCnar_misc10"
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	only_independent = yes
+	#hide_window = yes
+	culture_group = westorosii_group
+	
+	trigger = {
+		NOR = {
+			trait = eslian_concortat
+			trait = broke_the_eslian_concortat
+		}
+	}
+	
+	option = { #yes, sign the concortat
+		name = EVTOPTAnar_misc.11
+		add_trait = eslian_concortat
+		ai_chance = {
+			factor = 15
+		}
+	}
+	option = { #no i will not be signatory to this
+		name = EVTOPTBnar_misc.10
+		add_trait = broke_the_eslian_concortat
+		ai_chance = {
+			factor = 3
+		}
+	}
+}
+character_event = { #
+	id = nar_misc.11
+	desc = "EVTDESCnar_misc11"
+	
+	#mean_time_to_happen = {
+	#	months = 3
+	#}
+	
+	is_triggered_only=yes
+	
+	trigger = {
+		ROOT = {
+			trait = eslian_concortat
+			culture_group = westorosii_group
+		}
+		FROM = {
+			NOR ={
+				trait = eslian_concortat
+				culture_group = westorosii_group
+			}
+		}
+	}
+	immediate = { #
+		ROOT = { 
+			any_independent_ruler = {
+				limit = {
+					trait = eslian_concortat
+				}
+				character_event={
+					id = nar_misc.12
+				}
+			}
+		}
+	}
+}
+
+character_event = { #
+	id = nar_misc.12
+	desc = "EVTDESCnar_misc12"
+	
+	#mean_time_to_happen = {
+	#	months = 3
+	#}
+	
+	is_triggered_only=yes
+	
+	#immediate = { #
+	#	ROOT = { join_defender_wars = FROM }
+	#}
+	option = { #yes, continue the concordat
+		name = EVTOPTAnar_misc.12
+		join_defender_wars = FROM
+		prestige = 15
+		ai_chance = {
+			factor = 15
+		}
+	}
+	option = { #no i will renegade the concordat
+		name = EVTOPTBnar_misc.12
+		add_trait = broke_the_eslian_concortat
+		prestige = -250
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+character_event = { #
+	id = nar_misc.13
+	desc = "EVTDESCnar_misc13"
+	
+	#mean_time_to_happen = {
+	#	months = 3
+	#}
+	
+	is_triggered_only=yes
+	
+	immediate = {
+       ROOT = {
+            random_list = {
+                50 = { #Female
+                    modifier = {
+                        NOT = {
+                            has_game_rule = {
+                                name = gender
+                                value = all
+                            }
+                        }
+                        factor = 0.05
+                    }
+                    create_character = {
+                        age = 35
+                        dynasty = actually_culture
+                        religion =	FROM
+                        culture = FROM
+                        female = yes
+                        health = 6
+                        random_traits = no
+                        attributes = {
+                            martial = 2
+                            diplomacy = 5
+                            stewardship = 3
+                            intrigue = 3
+                            learning = 6
+                        }
+                    }
+                }
+                50 = { #Male
+                    create_character = {
+                        age = 35
+                        dynasty = actually_culture
+                        religion = FROM
+                        culture = FROM
+                        female = no
+                        health = 6
+                        random_traits = no
+                        attributes = {
+                            martial = 2
+                            diplomacy = 5
+                            stewardship = 3
+                            intrigue = 3
+                            learning = 6
+                        }
+                    }
+                }
+            }
+            new_character = {
+                #Education & other basic stuff
+                save_event_target_as = germany_doctor
+				set_character_flag = ai_flag_refuse_concubinage
+				set_character_flag = ai_flag_refuse_marriage
+				set_character_flag = originated_from_germany
+				set_character_flag = german_courtier_original_court_@PREV
+                set_character_flag = no_court_invites
+                set_character_flag = is_german_physician
+                random_list = {
+                    50 = { add_trait = scholarly_theologian }
+                    25 = { add_trait = mastermind_theologian }
+                }
+                add_trait = physician
+				add_trait = modern_doctor
+                random_list = {
+                    20 = { } #Nothing
+                    30 = { add_trait = erudite }
+                    30 = { add_trait = shrewd }
+                    15 = { add_trait = quick }
+                    5 = { add_trait = genius }
+                }
+                random_list = {
+                    80 = { } #Nothing
+                    2 = { add_trait = clubfooted }
+                    2 = { add_trait = harelip }
+                    2 = { add_trait = hunchback }
+                    4 = { add_trait = lisp }
+                    4 = { add_trait = stutter }
+                    2 = { add_trait = ugly }
+                    2 = { add_trait = dwarf }
+                    2 = { add_trait = weak }
+                }
+                random_list = {
+                    50 = { } #Nothing
+                    25 = { add_trait = patient }
+                    25 = { add_trait = diligent }
+                }
+                random = {
+                    chance = 1
+                    add_trait = homosexual
+                }
+                opinion = {
+                    who = PREV
+                    modifier = opinion_servant
+                    months = 1200
+                }
+
+                #Add archetype 
+                random_list = {
+                    20 = { #Combat medic
+                        set_character_flag = archetype_decisive
+                        random_list = {
+                            50 = { add_trait = duelist }
+                            50 = { add_trait = scholar }
+                        }
+                        add_trait = scarred
+                        add_trait = robust
+                        random_list = {
+                            60 = { } #Nothing
+                            20 = { 
+                                trigger = { has_dlc = Reapers }
+                                add_trait = one_legged 
+                            }
+                            20 = { 
+                                trigger = { has_dlc = Reapers }
+                                add_trait = one_eyed 
+                            }
+                        }
+                        add_trait = brave
+                        random_list = {
+                            30 = { } #Nothing
+                            50 = { add_trait = cynical }
+                            10 = {
+                                add_trait = cynical
+                                add_trait = depressed
+                            }
+                            10 = {
+                                add_trait = cynical
+                                add_trait = depressed
+                                add_trait = drunkard
+                            }
+                        }
+                        random_list = {
+                            50 = { } #Nothing
+                            20 = { add_trait = kind }
+                            30 = { add_trait = honest }
+                        }
+                        remove_trait = dwarf
+                        remove_trait = weak
+                    }
+                    #Dr Jerk
+                    15 = { 
+                        set_character_flag = archetype_decisive
+                        add_trait = scholar
+                        add_trait = wroth
+                        remove_trait = patient
+                        random_list = {
+                            30 = { add_trait = proud }
+                            30 = { add_trait = envious }
+                            40 = { } #Nothing
+                        }
+                        add_trait = honest
+                        add_trait = cynical
+                        random = {
+                            chance = 30
+                            add_trait = drunkard
+                        }
+                        random_list = {
+                            60 = { }
+                            20 = { 
+                                add_trait = clubfooted
+                                #set_name = Wu #House
+                            }
+                            20 = {
+                                trigger = { has_dlc = Reapers }
+                                add_trait = one_legged
+                                #set_name = Wu #House
+                            }
+                        }
+                    }
+                    10 = { #Mad genius 
+                        set_character_flag = archetype_sociable
+                        random_list = {
+                            50 = { add_trait = impaler }
+                            50 = { add_trait = mystic }
+                        }
+                        random_list = {
+                            33 = { add_trait = drunkard } 
+                            33 = { add_trait = lunatic }
+                            33 = { add_trait = possessed }
+                        }
+                        add_trait = genius
+                        remove_trait = quick
+                        remove_trait = shrewd
+                        add_trait = paranoid
+                        random_list = {
+                            25 = { add_trait = gluttonous } 
+                            25 = { add_trait = wroth }
+                            25 = { add_trait = proud }
+                            25 = { add_trait = greedy }
+                        }   
+                    }
+                    20 = { #Herbalist
+                        set_character_flag = archetype_supportive
+                        add_trait = gardener
+                        add_trait = diligent
+                        add_trait = humble
+                        random_list = {
+                            33 = { add_trait = content } 
+                            33 = { add_trait = shy }
+                            33 = { add_trait = poet }
+                        }
+                        random = {
+                            chance = 50
+                            add_trait = robust
+                        }
+                        remove_trait = weak
+                    }
+                    20 = { #Health nut
+                        set_character_flag = archetype_conservative
+                        add_trait = mystic
+                        add_trait = celibate
+                        add_trait = chaste
+                        add_trait = temperate
+                        random_list = {
+                            50 = { add_trait = craven } 
+                            25 = { add_trait = shy }
+                            25 = { add_trait = content }
+                        }
+                        set_focus = focus_scholarship
+                    }
+                    20 = { #Compassionate doctor
+                        set_character_flag = archetype_supportive
+                        random_list = {
+                            50 = { add_trait = socializer }
+                            50 = { add_trait = scholar }
+                        }
+                        add_trait = kind
+                        add_trait = patient
+                        random_list = {
+                            25 = { add_trait = content } 
+                            25 = { add_trait = humble }
+                            25 = { add_trait = trusting }
+                            25 = { add_trait = charitable }
+                        }
+                        set_focus = focus_family
+                    }
+                    15 = { #McDreamy
+                        set_character_flag = archetype_sociable
+                        if = {
+                            limit = { is_female = yes }
+                            add_trait = seductress
+                        }
+                        if = {
+                            limit = { is_female = no }
+                            add_trait = seducer
+                        }
+                        random_list = {
+                            50 = { } #Nothing
+                            25 = { add_trait = poet }
+                            25 = { add_trait = falconer }
+                        }
+                        random_list = {
+                            30 = { add_trait = fair }
+                            50 = { add_trait = strong }
+                        }
+                        add_trait = lustful
+                        random_list = {
+                            35 = { add_trait = ambitious }
+                            35 = { add_trait = gregarious }
+                            30 = { } #Nothing
+                        }
+                        set_focus = focus_seduction
+                        remove_trait = clubfooted
+                        remove_trait = harelip
+                        remove_trait =  hunchback 
+                        remove_trait = lisp
+                        remove_trait = stutter
+                        remove_trait = ugly
+                        remove_trait = dwarf
+                        remove_trait = weak
+                    }
+                }
+				if = {
+					limit = {
+						offmap_germany = {
+							has_status = germany_stable
+						}
+					}
+					change_learning = 5
+				}
+            }
+            letter_event = { id = nar_misc.14 } 
+        } 
+	}
+}
+#Governor presents doctor
+letter_event = {
+	id = nar_misc.14
+	has_dlc = "Jade Dragon"
+	desc = EVTDESC_nar_misc.14
+	border = GFX_event_letter_frame_diplomacy
+
+	hide_new = yes
+
+	is_triggered_only = yes
+
+	option = { 
+		name = EVTOPTA_nar_misc.14
+		#custom_tooltip = { text = EVTOPTA_JD_20022_TT }
+		event_target:german_doctor = {
+			show_scope_change = no
+			give_minor_title = title_court_physician
+		}
+	}
+}
+#Governor presents doctor
+letter_event = {
+	id = nar_misc.15
+	has_dlc = "Jade Dragon"
+	desc = EVTDESC_nar_misc.15
+	border = GFX_event_letter_frame_diplomacy
+
+	hide_new = yes
+
+	is_triggered_only = yes
+
+	immediate={
+		spawn_unit = {
+			owner = ROOT
+			province = capital_scope
+			home = capital_scope
+			troops = {
+				panzers = { 10 10 }
+			}
+			attrition = 0.5
+			disband_on_peace = no
+			maintenance_multiplier = 0.5
+			can_toggle_looting = no
+		}
+	}
+	option = { 
+		name = EVTOPTA_nar_misc.15
+		#custom_tooltip = { text = EVTOPTA_JD_20022_TT }
+	}
+}

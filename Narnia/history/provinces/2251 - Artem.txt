@@ -1,0 +1,14 @@
+# 2251 - Artem
+# County Title
+title = c_artem
+# Settlements
+max_settlements = 1
+
+
+b_artem = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = quende
+religion = quallis

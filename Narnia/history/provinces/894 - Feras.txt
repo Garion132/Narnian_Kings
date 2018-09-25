@@ -1,0 +1,13 @@
+# 894 - Feras
+# County Title
+title = c_feras
+# Settlements
+max_settlements = 1
+
+b_feras = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

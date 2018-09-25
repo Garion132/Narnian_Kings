@@ -1,0 +1,84 @@
+city = {	
+	ct_gold_mines = {
+		desc = gold_mines_desc
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		potential = {
+			provence_has_gold_mines = yes
+		}
+		gold_cost = 100
+		build_time = 1095
+		tax_income = 12.0
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 1.0
+	}
+	ct_silver_mines = {
+		desc = silver_mines_desc
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		potential = {
+			provence_has_sliver_mines = yes
+		}
+		gold_cost = 100
+		build_time = 1095
+		tax_income = 3.2
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 1.0
+	}
+}
+castle = {	
+	cs_gold_mines = {
+		desc = gold_mines_desc
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		potential = {
+			provence_has_gold_mines = yes
+		}
+		gold_cost = 100
+		build_time = 1095
+		tax_income = 12.0
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 1.0
+	}
+	cs_silver_mines = {
+		desc = silver_mines_desc
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		potential = {
+			provence_has_sliver_mines = yes
+		}
+		gold_cost = 100
+		build_time = 1095
+		tax_income = 3.2
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 1.0
+	}
+}
+temple={
+	tp_gold_mines = {
+		desc = gold_mines_desc
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		potential = {
+			provence_has_gold_mines = yes
+		}
+		gold_cost = 100
+		build_time = 1095
+		tax_income = 12.0
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 1.0
+	}
+	tp_silver_mines = {
+		desc = silver_mines_desc
+		#trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		potential = {
+			provence_has_sliver_mines = yes
+		}
+		gold_cost = 100
+		build_time = 1095
+		tax_income = 3.2
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 1.0
+	}
+}

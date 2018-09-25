@@ -1,0 +1,26 @@
+k_telmarine_narnia = {
+	color={ 71 168 167 }
+	color2={ 219 43 43 }
+}
+k_telmarine_invasion = {
+	color={ 255 175 12 }
+	color2={ 255 255 255 }
+	tribe=yes
+}
+e_sudylis = {
+	color={ 71 168 167 }
+	color2={ 219 43 43 }
+}
+k_karakaroua_maori={
+	color={ 47 81 183 }
+	color2={ 101 181 165 }
+}
+k_holyside={
+	color={ 47 81 183 }
+	color2={ 101 181 165 }
+	
+	trigger = {
+		always=no
+	}
+	#capital = 2192
+}

@@ -1,0 +1,14 @@
+# 1728 - Coltaire
+# County Title
+title = c_coltaire
+# Settlements
+max_settlements = 1
+
+
+b_coltaire = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

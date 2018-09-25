@@ -1,0 +1,492 @@
+namespace = WRWE
+#####################
+#events in the world at the time of L&W&W
+#####################
+
+character_event = { #the Lion of impara
+	id = WRWE.1
+	desc = "EVTDESCWRWE.1"
+	#picture = "GFX_evt_szhadow"
+	#border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		AND={
+			has_landed_title = k_impara
+			has_landed_title = k_ua_pulioua
+			character = 81100
+		}
+		NOT={
+			has_character_flag = lion_of_impara
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+	option = { # i have become the lion, and i shall feast
+		name = "EVTOPTAWRWE.1"
+		add_claim = k_dfyrid
+		give_nickname = nick_the_lion
+		set_character_flag = lion_of_impara
+		prestige = 150
+		add_trait = ambitious
+		hidden_tooltip={
+		any_independent_ruler = {
+			limit = {
+				ai = no
+				NOT = { character = ROOT }
+				religion = ROOT
+				NOT = {has_landed_title = e_dylis_tiral}
+			}
+			narrative_event = { id = WRWE.2 } # Notify players of this 
+		}
+		}
+		any_independent_ruler = {
+			limit = {
+				#ai = no
+				NOT = { character = ROOT }
+				religion = ROOT
+				has_landed_title = e_dylis_tiral
+			}
+			narrative_event = { id = WRWE.3 tooltip = EVTTOOLTIPWRWE.3} # Notify the dylis of this 
+		}
+	}
+	option = { # i have become the lion, and i shall sleep
+		name = "EVTOPTBWRWE.1"
+		give_nickname = nick_the_lion
+		set_character_flag = lion_of_impara
+		prestige = 250
+		add_trait = content
+		hidden_tooltip={
+		any_independent_ruler = {
+			limit = {
+				ai = no
+				NOT = { character = ROOT }
+				religion = ROOT
+			}
+			narrative_event = { id = WRWE.2 } # Notify players of this 
+		}
+		}
+	}
+}
+
+character_event = { #player notified about the Lion of impara
+	id = WRWE.2
+	desc = "EVTDESCWRWE.2"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "EVTOPTAWRWE.2"
+		
+	}
+}
+
+character_event = { #the south-western lion
+	id = WRWE.3
+	desc = "EVTDESCWRWE.3"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # ignore the south
+		name = "EVTOPTAWRWE.3"
+		prestige = 100
+	}
+	option = { # offer him an alliance
+		name = "EVTOPTBWRWE.3"
+		FROM = {character_event = { id = WRWE.4 }}
+	}
+	option = { # demand this upstart bend the knee
+		name = "EVTOPTCWRWE.3"
+		FROM = {character_event = { id = WRWE.5 }}
+	}
+	option = { # bind our dynasty together
+		name = "EVTOPTDWRWE.3"
+		tooltip_info = diplomacy
+		trigger = {
+			any_child = {
+				ai = yes
+				is_female = yes
+				is_marriage_adult = yes
+				is_married = no
+				NOT = { trait = celibate }
+				NOT = { trait = chaste }
+				NOT = { trait = homosexual }
+			}
+			FROM = {
+				is_marriage_adult = yes
+				is_married = no
+			}
+			diplomacy = 8
+		}
+		hidden_tooltip = {
+			FROM = {character_event = { id = WRWE.10 }}
+		}
+	}
+}
+character_event = { #Arthar offered alliance by Dylis
+	id = WRWE.4
+	desc = "EVTDESCWRWE.4"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = "EVTOPTAWRWE.4"
+		ROOT = {add_alliance = {who = FROM years = 15}}
+	}
+	option = { # no
+		name = "EVTOPTAWRWE.4"
+		FROM = {
+			opinion = {
+				modifier = dissolved_alliance
+				who = ROOT
+				years = 5
+			}
+		}
+	}
+}
+
+character_event = { #Arthar offered tributary status by Dylis
+	id = WRWE.5
+	desc = "EVTDESCWRWE.5"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = "EVTOPTAWRWE.5"
+		FROM = { 
+			make_tributary = { who = PREV percentage = 0.25 } 
+			character_event = { id = WRWE.6 }
+		}
+	}
+	option = { # never
+		name = "EVTOPTAWRWE.5"
+		FROM = {
+			opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 5
+			}
+			character_event = { id = WRWE.7 }
+		}
+	}
+}
+character_event = { #player notified about the Lion of impara
+	id = WRWE.6
+	desc = "EVTDESCWRWE.6"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "EVTOPTAWRWE.6"
+		
+	}
+}
+character_event = { #Arthar refuses
+	id = WRWE.7
+	desc = "EVTDESCWRWE.7"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # force him
+		name = "EVTOPTAWRWE.7"
+		war = { 
+			target = FROM
+			casus_belli = tributary_cb 
+			thirdparty_title = k_impara
+			tier = KING 
+		}
+	}
+	option = { # we shall back down
+		name = "EVTOPTAWRWE.7"
+		prestige = -150
+		FROM = {
+			opinion = {
+				modifier = opinion_pleased
+				who = ROOT
+				years = 5
+			}
+		}
+	}
+}
+
+character_event = { #Arthar offered bride
+	id = WRWE.10
+	desc = "EVTDESCWRWE.10"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # yes, she is beautful
+		name = "EVTOPTAWRWE.10"
+		FROM={
+			random_child = {
+				limit = {
+					ai = yes
+					is_female = yes
+					is_marriage_adult = yes
+					is_married = no
+					NOT = { trait = celibate }
+					NOT = { is_ascetic_trigger = yes }
+					NOT = { trait = chaste }
+					NOT = { trait = homosexual }
+				}
+				add_spouse = ROOT
+				opinion = {
+					modifier = opinion_reassured_of_love
+					who = ROOT
+					years = 10
+				}
+				add_lover = ROOT
+			}
+			character_event = { id = WRWE.11 }
+		}
+	}
+	option = { # yes, but only for the alliance
+		name = "EVTOPTAWRWE.10"
+		FROM={
+			random_child = {
+				limit = {
+					ai = yes
+					is_female = yes
+					is_marriage_adult = yes
+					is_married = no
+					NOT = { trait = celibate }
+					NOT = { is_ascetic_trigger = yes }
+					NOT = { trait = chaste }
+					NOT = { trait = homosexual }
+				}
+				add_spouse = ROOT
+			}
+			character_event = { id = WRWE.11 }
+		}
+	}
+	option = { # no
+		name = "EVTOPTCWRWE.10"
+		FROM = {
+			opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 5
+			}
+			random_child = {
+				limit = {
+					ai = yes
+					is_female = yes
+					is_marriage_adult = yes
+					is_married = no
+					NOT = { trait = celibate }
+					NOT = { is_ascetic_trigger = yes }
+					NOT = { trait = chaste }
+					NOT = { trait = homosexual }
+				}
+				opinion = {
+					modifier = opinion_declined_romance
+					who = ROOT
+					years = 5
+				}
+			}
+			character_event = { id = WRWE.12 }
+		}
+	}
+}
+character_event = { #accepted marriage proposal
+	id = WRWE.11
+	desc = "EVTDESCWRWE.11"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "EVTOPTAWRWE.11"
+		
+	}
+}
+character_event = { #rejected marriage proposal
+	id = WRWE.12
+	desc = "EVTDESCWRWE.12"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "EVTOPTAWRWE.12"
+		
+	}
+}
+
+character_event = { #korozmei unified
+	id = WRWE.16
+	desc = "EVTDESCWRWE.16"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "EVTOPTAWRWE.16"
+		
+	}
+}
+character_event = { #fleeing telmar
+	id = WRWE.20
+	desc = "EVTDESCWRWE.20"
+	#picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	trigger = {
+		father_even_if_dead = {
+			OR = {
+				has_landed_title = k_telmar
+				has_landed_title = e_telmar
+			}
+		}
+		k_telmar = {
+			is_heir = no
+		}
+		NOT = {has_landed_title = k_telmar}
+		diplomacy = 7
+		martial = 6
+		age = 18
+		k_telmar ={
+			any_demesne_province = {
+				disease = scrouge_of_telmar
+			}
+		}
+		year >= 1800
+		year <= 2000
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+		
+	option = { # i shall lead a force
+		name = "EVTOPTAWRWE.20"
+		
+			create_title = {
+				tier = DUKE 
+				name = "Telmarine Refugees"
+				holder = THIS
+				landless = yes
+			#	temporary = yes
+			#	adventurer = yes
+			}
+			spawn_unit = {
+				owner = THIS
+				province = 390
+				home = 390
+				troops = {
+					heavy_cavalry = { 100 100 }
+					light_cavalry = { 500 500 }
+					pikemen = {2000 2000}
+					light_infantry = {1000 1000}
+					heavy_infantry = {500 500}
+					archers = {750 750}
+				}
+				attrition = 0.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0.0
+			}
+		set_character_flag = Telmarine_invader
+		any_independent_ruler={
+			limit={
+				any_demesne_title = {
+					title = b_cair_paravel
+				}
+			}
+			ROOT={
+				war = { 
+					target = PREV
+					casus_belli = telmarine_invasion
+					thirdparty_title = k_narnia
+					tier = KING 
+				}
+			}
+		}
+	}
+	option = { # it shall pass
+		name = "EVTOPTBWRWE.20"
+		
+		
+	}
+}
+
+character_event = { #changing the name of the kingitangahou
+	id = WRWE.25
+	desc = "EVTDESCWRWE.25"
+	picture = "GFX_evt_shadow"
+	#border = GFX_event_narrative_frame_war
+	
+	#is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = e_kingitangahou
+		OR = {
+			AND= {
+				NOT = {has_global_flag = rise_of_the_kingitanga}
+				OR = {
+					religion = purakau_ao_kohatu
+					culture_group = maori
+				}
+			}
+			AND={
+				has_global_flag = rise_of_the_kingitanga
+				NOR = {
+					religion = purakau_ao_kohatu
+					culture_group = maori
+				}
+			}
+		}
+	}
+	
+	option = { # ok
+		name = "EVTOPTAWRWE.25"
+		trigger = {
+			has_landed_title = e_kingitangahou
+			NOR = {
+				religion = purakau_ao_kohatu
+				culture_group = maori
+			}
+		}
+		e_kingitangahou = {
+			set_name = SUDYLIS_EMPIRE
+			adjective = SUDYLIS_EMPIRE_ADJ
+			set_coa = e_sudylis
+		}
+		remove_global_flag = rise_of_the_kingitanga
+		
+	}
+	option = { # ok
+		name = "EVTOPTBWRWE.25"
+		trigger = {
+			has_landed_title = e_kingitangahou
+			OR = {
+				religion = purakau_ao_kohatu
+				culture_group = maori
+			}
+		}
+		e_kingitangahou = {
+			set_name = ""
+			adjective = ""
+			reset_coa = THIS
+		}
+		set_global_flag = rise_of_the_kingitanga
+	}
+}

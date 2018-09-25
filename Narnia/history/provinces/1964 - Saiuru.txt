@@ -1,0 +1,14 @@
+# 1964 - Saiuru
+# County Title
+title = c_saiuru
+# Settlements
+max_settlements = 1
+
+
+b_saiuru = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

@@ -1,0 +1,10 @@
+967.5.23={
+	holder = 97450
+}
+991.5.12 = {
+	holder = 85100
+	liege = e_kingitangahou
+}
+995.6.9 = {
+	liege = 0
+}

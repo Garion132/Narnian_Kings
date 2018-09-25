@@ -1,0 +1,18 @@
+756.1.1={
+	holding_dynasty = 111
+	liege="d_lone_islands"
+}
+
+972.8.20 = {
+	holder = 71704
+}
+989.9.5={
+	holder = 71700
+}
+1034.4.2={
+	holder = 71701
+}
+1259.1.1={
+	active = no
+	holding_dynasty = 0
+}

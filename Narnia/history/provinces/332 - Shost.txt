@@ -1,0 +1,15 @@
+# 332 - Shost
+
+# County Title
+title = c_shost
+
+# Settlements
+max_settlements = 1
+
+b_shost = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = seven_islander
+religion = aslan

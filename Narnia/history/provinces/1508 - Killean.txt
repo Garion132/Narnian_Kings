@@ -1,0 +1,14 @@
+# 1508 - Killean
+# County Title
+title = c_killean
+# Settlements
+max_settlements = 1
+
+
+b_killean = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian_merku
+religion = denols

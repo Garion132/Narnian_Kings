@@ -1,0 +1,14 @@
+# 1094 - Dyrinesa
+# County Title
+title = c_dyrinesa
+# Settlements
+max_settlements = 1
+
+
+b_dyrinesa = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

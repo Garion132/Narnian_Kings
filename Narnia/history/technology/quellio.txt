@@ -1,0 +1,147 @@
+#Axol
+technology = {
+	titles = {
+		d_pukunu
+		d_licenotec
+		d_tarchurku
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+#Elichtican
+technology = {
+	titles = {
+		d_varuquea
+		d_saiuru
+		d_queiasli
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+#Jelvernium
+technology = {
+	titles = {
+		d_jelvar
+		d_hathian
+		d_eastern_jelvir
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+#Obun
+technology = {
+	titles = {
+		d_jliraas
+		d_wuiyea
+		d_tanltican
+		d_chaliaru
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+
+#Elexol
+technology = {
+	titles = {	
+		d_xulio
+		d_puroi
+		d_tzuarsitian
+		d_tiairalc
+		d_varianoc
+		d_niklrau
+		d_queiaoc
+		d_zuriaoc
+		d_tuiarloa
+		d_bridge_islands
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	#1000 = {
+	#	military = 1.4
+	#	economy = 1.5
+	#	culture = 1.5
+	#}
+	2555 = {
+		military = 5.7
+		economy = 5.7
+		culture = 5.7
+	}
+}
+#Eslia
+technology = {
+	titles = {	
+		d_belsana
+		d_lopiar
+		d_selcun
+		d_narwind
+		d_tarnea
+		d_reachvell
+		d_carnsholme
+		d_goldfang
+		d_wytreaburned
+		d_puliran
+		d_laninsstier
+		d_nillium
+		d_xuras
+		d_ryene
+		d_garlinmine
+		d_bluevine
+		d_goldwall
+		d_erlias
+		d_molira
+		d_cliroin
+		d_miliro
+		d_kourn
+		d_rulailn
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	#1000 = {
+	#	military = 1.4
+	#	economy = 1.5
+	#	culture = 1.5
+	#}
+	2555 = {
+		military = 6.7
+		economy = 6.7
+		culture = 6.7
+	}
+}

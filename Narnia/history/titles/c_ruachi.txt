@@ -1,0 +1,20 @@
+800.1.1={
+	liege = k_hokubukyowakoku
+}
+930.6.9={
+	liege = k_oliana
+	holder = 96104
+}
+941.11.23={
+	holder = 96103
+}
+963.7.19={
+	holder = 96102
+}
+983.7.11={
+	holder = 96100
+}
+1003.7.24={
+	holder = 96101
+}
+

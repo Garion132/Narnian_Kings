@@ -1,0 +1,17 @@
+name = "War of Deliverance"
+
+casus_belli = {
+	actor = 30012 # Caspian X
+	recipient = 30011 # Miraz
+	casus_belli = war_of_deliverance
+	landed_title = k_narnia
+	date = 2300.1.1
+}
+2302.1.1 = {
+	add_attacker = 30012 # Caspian (MAIN ATTACKER)
+	add_defender = 30011 # Miraz (MAIN DEFENDER)
+}
+2303.7.15 = {
+	rem_attacker = 30012 # Caspian (MAIN ATTACKER)
+	rem_defender = 30011 # Miraz (MAIN DEFENDER)
+}

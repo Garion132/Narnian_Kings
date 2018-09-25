@@ -1,0 +1,14 @@
+# 666 - Kalorius
+
+# County Title
+title = c_kalorius
+# Settlements
+max_settlements = 4
+
+b_kalorius = castle
+b_kalor_city = city
+#b_kalorius_temple = temple
+
+# Misc
+culture = calormen
+religion = tash

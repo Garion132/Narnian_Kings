@@ -1,0 +1,13 @@
+# 603 - Vampyria
+# County Title
+title = c_vampyria
+# Settlements
+max_settlements = 1
+
+b_vampyria = castle
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = vyric
+religion = white_witch

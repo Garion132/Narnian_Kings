@@ -1,0 +1,14 @@
+# 2243 - Vedar
+# County Title
+title = c_vedar
+# Settlements
+max_settlements = 2
+
+
+b_vedar = castle
+#b_malenkith = city
+b_vendars_caste = temple
+
+# Misc
+culture = quende
+religion = quallis

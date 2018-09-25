@@ -1,0 +1,16 @@
+750.6.9={
+	liege = k_liene
+}
+912.5.9={
+	holder = 110804
+}
+946.7.24={
+	holder = 110802
+	liege = d_drailing
+}
+985.8.9= {
+	holder = 110800
+}
+1021.1.4 = {
+	holder = 110801
+}

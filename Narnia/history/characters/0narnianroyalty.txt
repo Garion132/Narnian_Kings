@@ -1,0 +1,865 @@
+#narnian rulers 1000-2000
+
+1000 = {
+	name="Frank" #1st king of narnia, english
+	dynasty=1
+	religion="aslan"
+	culture="english"
+	3.1.2={
+		birth="3.1.2"
+		add_trait="foreign_child"
+		add_trait="child_of_adam_or_eve"
+	}
+	20.1.1={add_spouse=1001}
+	50.1.2={
+		death="50.1.2"
+	}
+}
+1001 = {
+	name="Helen" #1st queen of narnia, english
+	female=yes
+	religion="aslan"
+	culture="english"
+	add_trait="child_of_adam_or_eve"
+	3.1.3={
+		birth="3.1.3"
+		add_trait="foreign_child"
+	}
+	53.1.1={
+		death="53.1.1"
+	}
+}
+1002 = {
+	name="Frank" #II
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1000
+	mother=1001
+	31.2.8={
+		birth="31.2.8"
+	}
+	85.5.7={
+		death="85.5.7"
+	}
+
+}
+1003 = {
+	name="Frank" #III
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1002
+	64.2.1={
+		birth="64.2.1"
+	}
+	120.4.2={
+		death="120.4.2"
+	}
+}
+1004 = {
+	name="Frank" #IV
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1003
+	99.2.8={
+		birth="99.2.8"
+	}
+	155.6.1={
+		death="155.6.1"
+	}
+}
+1005 = {
+	name="Frank" #V
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1004
+	132.2.8={
+		birth="132.2.8"
+	}
+	190.2.20={
+		death="190.2.20"
+	}
+}
+1006 = {
+	name="Frank" #VI
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1005
+	158.9.2={
+		birth="158.9.2"
+	}
+	215.1.4={
+		death="215.1.4"
+	}
+}
+1007 = {
+	name="Col" #1st king of Archenland
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1005
+	160.2.1={
+		birth="160.2.1"
+	}
+	215.2.20={
+		death="215.2.20"
+	}
+}
+1008 = {
+	name="Frank" # unknown characture
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1006
+	181.2.3={
+		birth="181.2.3"
+	}
+	240.4.5={
+		death="240.4.5"
+	}
+}
+1009 = {
+	name="Col" # unknown characture
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1008
+	205.12.4={
+		birth="205.12.4"
+	}
+	275.7.5={
+		death="275.7.5"
+	}
+}
+1010 = {
+	name="Frank" # unknown characture
+	dynasty=1
+	religion="aslan"
+	culture="narnian"
+	add_trait="child_of_adam_or_eve"
+	father=1009
+	243.2.3={
+		birth="243.2.3"
+	}
+	300.2.6={
+		death="300.2.6"
+	}
+}
+1011 = {
+	name = "Swanwhite" # I "the Beautiful"
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1010
+	add_trait = "fair"
+	female = yes
+	give_nickname = "nick_the_beautiful"
+	262.7.3 = {
+		birth = "262.7.3"
+	}
+	302.4.9 = {
+		death = "302.4.9"
+	}
+}
+1012 = {
+	name = "Gale" # I, conquered lone islands(empire)
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1010
+	264.2.1 = {
+		birth = "264.2.1"
+	}
+	325.4.8 = {
+		death = "325.4.8"
+	}
+}
+#The Pevenises
+1014 = {
+	name = "Peter" #the Magnificent 
+	dynasty = 3
+	religion = "aslan"
+	culture = "english"
+	father = 1018
+	mother = 1019
+	martial = 21
+	intrigue = 8
+	stewardship = 10
+	diplomacy = 23
+	add_trait = "strong"
+	add_trait = "quick"
+	add_trait = "kind"
+	add_trait = "just"
+	add_trait = "foreign_child"
+	add_trait = "child_of_adam_or_eve"
+	disallow_random_traits = yes
+	987.2.1 = {
+		birth = yes
+		wealth = 3500
+		add_claim = e_narnia
+		add_claim = k_narnia
+		add_claim = c_paravel
+		add_claim = c_riversreach
+		add_claim = c_helendale
+		add_claim = c_frankport
+	}
+	999.12.24 = {
+          raise_levies = {
+               location = 359 # Peter is given troops from aslan
+               force_mult = 2.2
+          }
+		  piety = 250
+		  effect= {add_friend = 60008}
+	}
+	999.12.27 = {
+		give_nickname = "nick_wolfsbane" #kills jadis head of secret police
+	}
+	1000.2.5 = {
+          raise_levies = {
+			dismiss = yes
+               location = 359 # the army dispearses
+               force_mult = 2.2
+          }
+	}
+	1000.2.5 = {give_nickname = "nick_the_magnificent"}#is crowned High King
+	1015.2.9 = {
+		death = {death_reason = death_vanished}
+	}
+}
+1015 = {
+	name = "Susan" # 
+	dynasty = 3
+	religion = "aslan"
+	culture = "english"
+	add_trait = "foreign_child"
+	add_trait = "child_of_adam_or_eve"
+	add_trait = "modern_marrage_mindset"
+	father = 1018
+	mother = 1019
+	female = yes
+	988.2.1 = {
+		birth = "988.2.1"
+	}
+	1000.2.5 = {give_nickname = "nick_the_gentle"}
+	1015.2.9 = {
+		death = {death_reason = death_vanished}
+	}
+}
+1016 = {
+	name = "Edmund" # 
+	dynasty = 3
+	religion = "aslan"
+	culture = "english"
+	father = 1018
+	mother = 1019
+	add_trait = "foreign_child"
+	add_trait = "child_of_adam_or_eve"
+	990.2.1 = {
+		birth = "990.2.1"
+		wealth = 250
+		add_claim = k_narnia
+	}
+	999.11.30 = {
+          employer = 1900
+	}
+	999.12.30 = {
+        employer = 1014
+	}
+	1000.2.5 = {give_nickname = "nick_the_just"}
+	1015.2.9 = {
+		death = {death_reason = death_vanished}
+	}
+}
+1017 = {
+	name = "Lucy" # 
+	dynasty = 3
+	religion = "aslan"
+	culture = "english"
+	add_trait = "foreign_child"
+	add_trait = "child_of_adam_or_eve"
+	add_trait = "modern_marrage_mindset"
+	female = yes
+	father = 1018
+	mother = 1019
+	992.2.1 = {
+		birth = "992.2.1"
+	}
+	1000.2.5 = {give_nickname = "nick_the_valiant"}
+	1015.2.9 = {
+		death = {death_reason = death_vanished}
+	}
+}
+1018 = {
+	name = "William" # 
+	dynasty = 3
+	religion = "aslan"
+	culture = "english"
+	add_trait = "child_of_adam_or_eve"
+	960.2.1 = {
+		birth = "960.2.1"
+	}
+	979.2.1 = {add_spouse = 1019
+	}
+	999.12.21 = {death = "999.12.21"
+	}
+}
+1019 = {
+	name = "Helen" # 
+	female = yes
+	religion = "aslan"
+	culture = "english"
+	add_trait = "child_of_adam_or_eve"
+	962.2.1 = {
+		birth = "962.2.1"
+	}
+	998.2.9 = {
+		death = "998.2.9"
+	}
+}
+#1020-1040 are for missing narnian kings
+1020 = {
+	name = "Gale" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1012
+	310.9.12 = {
+		birth = yes
+	}
+	398.7.18 = {
+		death = yes
+	}
+}
+1021 = {
+	name = "Frank" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1020
+	353.9.3 = {
+		birth = yes
+	}
+	403.10.19 = {
+		death = yes
+	}
+}
+1022 = {
+	name = "George" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1021
+	386.12.9 = {
+		birth = yes
+	}
+	451.4.26 = {
+		death = yes
+	}
+}
+1023 = {
+	name = "George" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1022
+	403.9.17 = {
+		birth = yes
+	}
+	482.2.10 = {
+		death = yes
+	}
+}
+1024 = {
+	name = "Alan" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1023
+	438.4.30 = {
+		birth = yes
+	}
+	502.9.23 = {
+		death = yes
+	}
+}
+1025 = {
+	name = "Simon" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1024
+	460.9.18 = {
+		birth = yes
+	}
+	521.12.17 = {
+		death = yes
+	}
+}
+1026 = {
+	name = "George" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1025
+	486.7.22 = {
+		birth = yes
+	}
+	550.5.31 = {
+		death = yes
+	}
+}
+1027 = {
+	name = "George" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1026
+	517.2.10 = {
+		birth = yes
+	}
+	582.9.22 = {
+		death = yes
+	}
+}
+1028 = {
+	name = "Gale" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1027
+	542.7.24 = {
+		birth = yes
+	}
+	597.1.12 = {
+		death = yes
+	}
+}
+1029 = {
+	name = "Gale" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1028
+	568.5.18 = {
+		birth = yes
+	}
+	619.3.26 = {
+		death = yes
+	}
+}
+1030 = {
+	name = "Gale" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1029
+	592.4.22 = {
+		birth = yes
+	}
+	663.7.19 = {
+		death = yes
+	}
+}
+1031 = {
+	name = "Frank" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1030
+	616.11.5 = {
+		birth = yes
+	}
+	664.8.6 = {
+		death = yes
+	}
+}
+1032 = {
+	name = "David" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1031
+	642.5.16 = {
+		birth = yes
+	}
+	712.3.9 = {
+		death = yes
+	}
+}
+1033 = {
+	name = "Frank" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1032
+	671.9.23 = {
+		birth = yes
+	}
+	753.3.9 = {
+		death = yes
+	}
+}
+1034 = {
+	name = "Gale" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1033
+	702.6.11 = {
+		birth = yes
+	}
+	767.10.28 = {
+		death = yes
+	}
+}
+1035 = {
+	name = "Roland" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1034
+	724.2.24 = {
+		birth = yes
+	}
+	788.7.8 = {
+		death = yes
+	}
+}
+1036 = {
+	name = "Frank" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1035
+	750.9.13 = {
+		birth = yes
+	}
+	803.9.22 = {
+		death = yes
+	}
+}
+1037 = {
+	name = "Frank" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1036
+	775.4.25 = {
+		birth = yes
+	}
+	842.7.15 = {
+		death = yes
+	}
+}
+1038 = {
+	name = "Gale" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	add_trait = "twin"
+	father = 1037
+	803.9.16 = {
+		birth = yes
+	}
+	867.2.27 = {
+		death = yes
+	}
+}
+1039 = {
+	name = "Galan" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	add_trait = "twin"
+	father = 1037
+	803.9.16 = {
+		birth = yes
+	}
+	857.3.4 = {
+		death = yes
+	}
+}
+1040 = {
+	name="Cole" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	father = 2102
+	#mother = 70171
+	add_trait="child_of_adam_or_eve"
+	1025.9.24={
+		birth=yes
+	}
+	1082.5.11={
+		death=yes
+	}
+}
+#Long lasting other Charactures
+
+1210 = {
+	name = "Ramandu" #
+	religion = "aslan"
+	culture = "star"
+	add_trait = "star"
+	1.1.3 = {
+		birth = "1.1.3"
+	}
+	2555.1.1 = {
+		death = "2555.1.1"
+	}
+}
+1900 = {
+	name = "Jadis" #The White Witch, Queen of Charn, etc.
+	dynasty = 2
+	religion = "white_witch"
+	culture = "charn"
+	female = yes
+	give_nickname = "nick_the_white_witch"
+	add_trait = "charn_education_steward"
+	add_trait = "line_of_charn"
+	add_trait = "proud"
+	add_trait = "strong"
+	add_trait = "cruel"
+	add_trait = "tyrant"
+	add_trait = "zealous"
+	add_trait = "foreign_child"
+	add_trait = "organizer"
+	disallow_random_traits = yes
+	martial = 5
+	intrigue = 16
+	stewardship = 12
+	diplomacy = 21
+	learning = 9
+	fertility = 1
+	1.1.1 ={
+		birth = "1.1.1"
+		add_claim = e_narnia
+		wealth = 2200
+	}
+	18.1.5 ={
+		add_trait = "immortal"
+		add_trait = "everlasting_apple"
+		immortal_age = 18
+	}
+	898.1.1={
+	effect = {
+		spawn_unit = {
+				owner = ROOT
+				province = 598
+				home = 598
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 500 500 }
+					heavy_infantry = { 500 500 }
+					light_cavalry = { 100 100 }
+					knights = { 100 100 }
+				}
+			attrition = 0.0
+			disband_on_peace = yes
+			maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = ROOT
+				province = 598
+				home = 598
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 500 500 }
+					heavy_infantry = { 500 500 }
+					light_cavalry = { 100 100 }
+					knights = { 100 100 }
+				}
+			attrition = 0.0
+			disband_on_peace = yes
+			maintenance_multiplier = 0.0
+			}
+			spawn_unit = {
+				owner = ROOT
+				province = 598
+				home = 390
+				troops = {
+					archers = { 500 500 }
+					light_infantry = { 500 500 }
+					heavy_infantry = { 500 500 }
+					light_cavalry = { 100 100 }
+					knights = { 100 100 }
+				}
+			attrition = 0.0
+			disband_on_peace = yes
+			maintenance_multiplier = 0.0
+			}
+		}
+	}
+	901.1.1={
+		effect = {
+			disband_event_forces = yes
+		}
+		remove_claim = e_narnia
+	}
+	999.12.24 ={
+		raise_levies = {
+			location = 362 # Jadis gathers a grand army
+			force_mult = 4.0
+		}
+	}
+	1000.2.5 ={
+		raise_levies = {
+			dismiss = yes
+			location = 362 # Jadis Dies, Lower Army
+			force_mult = 4.0
+		}
+		death = {
+		death_reason = death_battle 
+		killer = 1907}
+	}
+}
+
+1907 = {
+	name = "Aslan" #The Great Lion, Aslan, son of the emperor from across the sea.
+	occluded=yes
+	religion = "aslan"
+	culture = "lion"
+	give_nickname = "nick_the_great"
+	add_trait = "immortal"
+	add_trait = "proud"
+	add_trait = "strong"
+	add_trait = "kind"
+	add_trait = "foreign_child"
+	add_trait = "mastermind_theologian"
+	add_trait = "brilliant_strategist"
+	add_trait = "midas_touched"
+	add_trait = "grey_eminence"
+	add_trait = "elusive_shadow"
+	add_trait = "inspiring_leader"
+	add_trait = "organizer"
+	disallow_random_traits = yes
+	martial = 55
+	intrigue = 30
+	stewardship = 30
+	diplomacy = 30
+	learning = 30
+	1.1.1={
+		birth = "1.1.1"
+		wealth = 10200
+	}
+	999.12.25={
+          raise_levies = {
+               location = 360 # Aslan lands troops
+               force_mult = 2.7
+          }
+	}
+	1000.2.5={
+          raise_levies = {
+		dismiss=yes
+               location = 360 # Aslan lands troops
+               force_mult = 2.7
+          }
+	}
+	2555.1.1={
+		death = "2555.1.1" #end of time
+	}
+}
+1908 = {
+	name = "Aslan's Loss" #To fix any glitch that comes from killing aslan hopefully
+	occluded=yes
+	religion = "aslan"
+	culture = "lion"
+	add_trait = "immortal"
+	add_trait = "incapable"
+	add_trait = "foreign_child"
+	disallow_random_traits = yes
+	martial = 0
+	intrigue = 0
+	stewardship = 0
+	diplomacy = 30
+	learning = 30
+	add_claim = k_aslans_country
+	1.1.1={
+		birth = "1.1.1"
+	}
+	2555.1.1={
+		death = "2555.1.1" #end of time
+	}
+}
+1013 = {
+	name = "Lew" # the one that jadis kills
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1038
+	853.4.17 = {
+		birth = yes
+	}
+	900.1.7 = {
+		death={
+			death_reason = death_execution_beheading killer = 1900
+		}
+	}
+}
+1041 = {
+	name = "Leathan" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1013
+	879.4.17 = {
+		birth = yes
+	}
+	900.1.7 = {
+		death={
+			death_reason = death_battle killer = 1900#jadis kills as well
+		}
+	}
+}
+1042 = {
+	name = "Farran" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "narnian"
+	add_trait = "child_of_adam_or_eve"
+	father = 1013
+	881.4.17 = {
+		birth = yes
+	}
+	900.1.7 = {
+		death={
+			death_reason = death_battle killer = 1900#jadis likes killing
+		}
+	}
+}

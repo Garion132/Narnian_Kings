@@ -1,0 +1,16 @@
+800.1.1={
+	liege = k_langvest
+}
+930.1.1={
+	liege = d_shearsverd
+	holder = 97602
+}
+968.4.8={
+	holder = 97601
+}
+990.3.5={
+	holder = 97600
+}
+1025.8.17={
+	holder = 97603
+}

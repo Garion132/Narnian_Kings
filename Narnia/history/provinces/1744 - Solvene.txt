@@ -1,0 +1,14 @@
+# 1744 - Solvene
+# County Title
+title = c_solvene
+# Settlements
+max_settlements = 1
+
+
+b_solvene = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = sulvarian
+religion = savra

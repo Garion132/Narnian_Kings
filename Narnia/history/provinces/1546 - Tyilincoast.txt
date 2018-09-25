@@ -1,0 +1,14 @@
+# 1546 - Tyilincoast
+# County Title
+title = c_tyilincoast
+# Settlements
+max_settlements = 1
+
+
+b_tyilincoast = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

@@ -1,0 +1,10 @@
+900.6.9={
+	liege = k_awa
+}
+986.9.12={
+	holder = 97300
+}
+995.1.6 = {
+	holder = 85900
+	liege = d_tarunga
+}

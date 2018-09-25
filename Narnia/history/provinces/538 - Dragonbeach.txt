@@ -1,0 +1,13 @@
+# 538 - Dragonbeach
+# County Title
+title = c_dragonbeach
+# Settlements
+max_settlements = 1
+
+b_dragonbeach = castle
+b_dragoncove = city
+b_dragonium = temple
+
+# Misc
+culture = outer_islander
+religion = dragon_worship

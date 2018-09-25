@@ -1,0 +1,16 @@
+# 2014 - Rulailn
+# County Title
+title = c_rulailn
+# Settlements
+max_settlements = 6
+
+
+b_rulailn = city
+b_rulafort = castle
+b_rulan = city
+b_saventown = city
+#b_tolsmin = temple
+
+# Misc
+culture = neorndman
+religion = eloia

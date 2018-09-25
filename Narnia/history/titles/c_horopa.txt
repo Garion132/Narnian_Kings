@@ -1,0 +1,13 @@
+900.6.6={
+	liege = d_hoporunga
+}
+969.8.23={
+	holder = 85676
+}
+988.6.9={
+	holder = 85675
+}
+991.11.30 = {
+	holder = 85700
+	liege = e_kingitangahou
+}

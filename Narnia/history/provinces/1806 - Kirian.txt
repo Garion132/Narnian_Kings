@@ -1,0 +1,14 @@
+# 1806 - Kirian
+# County Title
+title = c_kirian
+# Settlements
+max_settlements = 1
+
+
+b_kirian = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = telvasrian
+religion = savra

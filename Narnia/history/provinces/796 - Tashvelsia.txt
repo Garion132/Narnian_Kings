@@ -1,0 +1,13 @@
+# 796 - Tashvelsia
+# County Title
+title = c_tashvelsia
+# Settlements
+max_settlements = 1
+
+b_tashvelsia = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = western_calormen_cults

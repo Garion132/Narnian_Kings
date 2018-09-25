@@ -1,0 +1,13 @@
+# 802 - Veliuos
+# County Title
+title = c_veliuos
+# Settlements
+max_settlements = 1
+
+b_veliuos = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = western_calormen_cults

@@ -1,0 +1,13 @@
+# 606 - Yagahexe
+# County Title
+title = c_yagahexe
+# Settlements
+max_settlements = 1
+
+b_yagahexe = castle
+#b_temple_of_charn = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch

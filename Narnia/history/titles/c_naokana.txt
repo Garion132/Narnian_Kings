@@ -1,0 +1,6 @@
+750.6.9={
+	liege = d_haruu
+}
+999.6.12 = {
+	liege = e_kingitangahou
+}

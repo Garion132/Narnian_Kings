@@ -1,0 +1,14 @@
+# 1658 - Whitock Hold
+# County Title
+title = c_whitock_hold
+# Settlements
+max_settlements = 1
+
+
+b_whitock_hold = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

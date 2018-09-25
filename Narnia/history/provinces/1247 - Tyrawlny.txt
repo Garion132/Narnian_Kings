@@ -1,0 +1,14 @@
+# 1247 - Tyrawlny
+# County Title
+title = c_tyrawlny
+# Settlements
+max_settlements = 1
+
+
+b_tyrawlny = castle
+b_tyrawlnton = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

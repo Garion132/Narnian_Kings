@@ -1,0 +1,15 @@
+# 325 - Avra
+
+# County Title
+title = c_avra
+
+# Settlements
+max_settlements = 1
+
+b_avra = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = lone_islander
+religion = aslan

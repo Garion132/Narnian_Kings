@@ -1,0 +1,12 @@
+# 2431 - Tevania
+# County Title
+title = c_tevania
+# Settlements
+max_settlements = 3
+
+b_tevania = castle
+
+
+# Misc
+culture = telmarine
+religion = tellan

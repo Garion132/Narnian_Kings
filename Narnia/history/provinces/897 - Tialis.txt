@@ -1,0 +1,13 @@
+# 897 - Tialis
+# County Title
+title = c_tialis
+# Settlements
+max_settlements = 1
+
+b_tialis = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tash

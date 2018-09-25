@@ -1,0 +1,14 @@
+# 1103 - Olperia
+# County Title
+title = c_olperia
+# Settlements
+max_settlements = 1
+
+
+b_olperia = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

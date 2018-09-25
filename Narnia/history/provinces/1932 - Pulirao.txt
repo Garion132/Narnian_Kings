@@ -1,0 +1,14 @@
+# 1932 - Pulirao
+# County Title
+title = c_pulirao
+# Settlements
+max_settlements = 1
+
+
+b_pulirao = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

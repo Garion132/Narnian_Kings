@@ -1,0 +1,14 @@
+# 2252 - Krienos
+# County Title
+title = c_krienos
+# Settlements
+max_settlements = 1
+
+
+b_krienos = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = quende
+religion = quallis

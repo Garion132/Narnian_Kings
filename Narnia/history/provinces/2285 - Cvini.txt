@@ -1,0 +1,14 @@
+# 2285 - Cvini
+# County Title
+title = c_cvini
+# Settlements
+max_settlements = 1
+
+
+b_cvini = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = vindi
+religion = quallis

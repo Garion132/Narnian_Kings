@@ -1,0 +1,13 @@
+# 946 - Sesiena
+# County Title
+title = c_sesiena
+# Settlements
+max_settlements = 1
+
+b_sesiena = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = teldesteira
+religion = tash

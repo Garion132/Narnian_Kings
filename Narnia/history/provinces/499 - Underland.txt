@@ -1,0 +1,17 @@
+# 499 - Underland
+# County Title
+title = c_underland
+# Settlements
+max_settlements = 7
+
+b_dark_castle = castle
+b_dark_castle = castle
+b_underland_city = city
+b_sunless_shores = city
+b_underpalace = castle
+b_riftside_temple = temple
+b_bism = castle
+
+# Misc
+culture = narnian #temp
+religion = white_witch #temp

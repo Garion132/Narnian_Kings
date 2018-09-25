@@ -1,0 +1,14 @@
+# 2238 - Narboue
+# County Title
+title = c_narboue
+# Settlements
+max_settlements = 1
+
+
+b_narboue = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = quende
+religion = quallis

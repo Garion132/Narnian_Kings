@@ -1,0 +1,14 @@
+# 2320 - Loxoa
+# County Title
+title = c_loxoa
+# Settlements
+max_settlements = 1
+
+
+b_loxoa = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = elexol
+religion = eline

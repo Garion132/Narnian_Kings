@@ -1,0 +1,15 @@
+# 1487 - Bulrenford
+# County Title
+title = c_bulrenford
+# Settlements
+max_settlements = 1
+
+
+b_bulrenford = city
+b_bulrenhold = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

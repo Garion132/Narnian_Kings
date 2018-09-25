@@ -1,0 +1,14 @@
+# 2091 - Julinsplains
+# County Title
+title = c_julinsplains
+# Settlements
+max_settlements = 1
+
+
+b_julinsplains = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

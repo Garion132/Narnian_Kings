@@ -1,0 +1,14 @@
+# 1786 - Karna
+# County Title
+title = c_karna
+# Settlements
+max_settlements = 3
+
+
+b_karna = castle
+#b_malenkith = city
+b_culira = temple
+
+# Misc
+culture = mellounian
+religion = kelvrain

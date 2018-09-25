@@ -1,0 +1,165 @@
+#bm_charlemagne = {
+#	name = "BM_CHARLEMAGNE"
+#	desc = "BM_BM_CHARLEMAGNE_DESC"
+#	date = 200.1.1
+#	
+#	era = no						## Will not be shown on Era screen.
+#	picture = GFX_pick_era_image_1
+#	
+#	selectable_character = {
+#		id = 6392 # Charlemagne
+#		age = 26
+#		name = ERA_CHAR_NAME_6392
+#		
+#		character = {
+#			dna = bcedirmbfcy
+#			properties = aj00bc00000
+#			religion="catholic"
+#			culture="old_frankish"
+#			government = feudal_government
+#			dynasty=25061
+#		}
+#	}
+#}
+bm_winter_invasion = {
+	name = "BM_WINTERINV"
+	desc = "BM_WINTERINV_DESC"
+	date = 898.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_4
+	
+	selectable_character = {
+		id = 1900 # Jadis
+		age = 2000
+		name = ERA_CHAR_NAME_1900
+		title = e_narnia
+		title_name = NARNIAN_EMPIRE
+	}
+}
+bm_winter_rebellion = {
+	name = "BM_WINTERREB"
+	desc = "BM_WINTERREB_DESC"
+	date = 1000.1.1
+	
+	custom_start = yes
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+	
+	selectable_character = {
+		id = 1900 # Jadis
+		character = {
+			dna = jeisapogojs
+			properties = fc0a0000000000
+			female=yes
+			religion="white_witch"
+			culture="charn"
+			government = feudal_government
+			dynasty=2
+		}
+		age = 2100
+		name = ERA_CHAR_NAME_1900
+		title = e_narnia
+		title_name = NARNIAN_EMPIRE
+	}
+	selectable_character = {
+		id = 1014 # Peter
+		character = {
+			dna = lsnqhiacwyo
+			properties = aa0afb00000000
+			religion="aslan"
+			culture="english"
+			government = feudal_government
+			dynasty=3
+		}
+		age = 13
+		name = ERA_CHAR_NAME_1014
+		title = k_narnia
+		title_name = NARNIA
+	}
+	selectable_character = {
+		id = 2100 # Lune
+		character = {
+			dna = bjlfkegcabf
+			properties = ed0ai000000000
+			religion="aslan"
+			culture="archen"
+			government = feudal_government
+			dynasty=1
+		}
+		age = 25
+		name = ERA_CHAR_NAME_2100
+		title = k_archenland
+		title_name = ARCHENLAND
+	}
+	selectable_character = {
+		id = 40106 # Ardeeb
+		character = {
+			dna = ntmpwipqbdr
+			#properties = ed0ai000000000
+			religion="tash"
+			culture="calormen"
+			government = tash_government
+			dynasty=7
+		}
+		age = 72
+		name = ERA_CHAR_NAME_40106
+		title = e_calormen
+		title_name = CALORMEN_EMPIRE
+	}
+}
+bm_fall_of_empires = {
+	name = "BM_FALLINGEMPIRES"
+	desc = "BM_FALLINGEMPIRES_DESC"
+	date = 1389.8.12
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	
+	#selectable_character = {
+	#	id = 30001 # Caspian I
+	#	age = 28
+	#	name = ERA_CHAR_NAME_30001
+	#	title = k_telmarine_invasion
+	#	title_name = TELMAR
+	#}
+}
+bm_telmarine_invasion = {
+	name = "BM_TELMARINEINV"
+	desc = "BM_TELMARINEINV_DESC"
+	date = 1998.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	
+	selectable_character = {
+		id = 30001 # Caspian I
+		age = 28
+		name = ERA_CHAR_NAME_30001
+		title = k_telmarine_invasion
+		title_name = TELMAR
+	}
+}
+bm_war_of_deliverance = {
+	name = "BM_WARDELIVERANCE"
+	desc = "BM_WARDELIVERANCE_DESC"
+	date = 2302.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	
+	selectable_character = {
+		id = 30011 # Miraz
+		age = 39
+		name = ERA_CHAR_NAME_30011
+		title = k_narnia
+		title_name = TELMARNARNIA
+	}
+	selectable_character = {
+		id = 30012 # THE Caspian
+		age = 15
+		name = ERA_CHAR_NAME_30012
+		title = k_narnia
+		title_name = NARNIA
+	}
+}

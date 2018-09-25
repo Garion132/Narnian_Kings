@@ -1,0 +1,13 @@
+795.6.9={
+	liege = k_eslia
+}
+952.3.8={
+	holder = 121700
+}
+953.6.9={
+	liege = k_redfort 
+}
+959.7.5={
+	holder = 121900
+	liege = k_lygur 
+}

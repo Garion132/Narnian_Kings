@@ -1,0 +1,14 @@
+# 1724 - Olon
+# County Title
+title = c_olon
+# Settlements
+max_settlements = 1
+
+
+b_olon = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_ienorian
+religion = pamyatrossii

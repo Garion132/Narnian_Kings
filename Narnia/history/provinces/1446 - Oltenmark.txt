@@ -1,0 +1,14 @@
+# 1446 - Oltenmark
+# County Title
+title = c_oltenmark
+# Settlements
+max_settlements = 1
+
+
+b_oltenmark = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = denols

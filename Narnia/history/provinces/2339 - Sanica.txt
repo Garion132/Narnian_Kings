@@ -1,0 +1,14 @@
+# 2339 - Sanica
+# County Title
+title = c_sanica
+# Settlements
+max_settlements = 1
+
+
+b_sanica = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

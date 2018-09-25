@@ -1,0 +1,14 @@
+# 2060 - Manilos
+# County Title
+title = c_manilos
+# Settlements
+max_settlements = 1
+
+
+b_manilos = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

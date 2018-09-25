@@ -1,0 +1,14 @@
+# 1627 - Keerns
+# County Title
+title = c_keerns
+# Settlements
+max_settlements = 1
+
+
+b_keerns = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

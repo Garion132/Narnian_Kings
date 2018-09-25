@@ -1,0 +1,24 @@
+# 1352 - Colinafel
+# County Title
+title = c_colinafel
+# Settlements
+max_settlements = 1
+
+
+b_colinafel = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic
+
+850.3.9={ #fortifaciton of the border
+	b_colinafel = ca_keep_1
+	b_colinafel = ca_keep_2
+	b_colinafel = ca_wall_1
+	b_colinafel = ca_wall_2
+	b_colinafel = ca_militia_barracks_1
+	b_colinafel = ca_barracks_1
+	b_colinafel = ca_town_1
+}

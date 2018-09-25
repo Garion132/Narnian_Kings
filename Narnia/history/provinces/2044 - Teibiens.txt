@@ -1,0 +1,14 @@
+# 2044 - Teibiens
+# County Title
+title = c_teibiens
+# Settlements
+max_settlements = 1
+
+
+b_teibiens = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

@@ -1,0 +1,14 @@
+# 676 - Azem Balda
+
+# County Title
+title = c_azem_balda
+# Settlements
+max_settlements = 1
+
+b_azem_balda = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

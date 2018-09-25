@@ -1,0 +1,13 @@
+# 742 - Mizarla
+# County Title
+title = c_mizarla
+# Settlements
+max_settlements = 1
+
+b_mizarla = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = southern_calormen_cults

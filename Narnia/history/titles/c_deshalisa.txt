@@ -1,0 +1,26 @@
+1.1.1={
+	holder = 0
+}
+889.2.14={
+	holder = 90600 
+}
+891.3.6={
+	liege = d_kenitgrad
+}
+917.4.18 ={
+	liege = ""
+	holder = 90613
+}
+921.8.3={
+	holder = 90615
+}
+971.6.24={
+	holder = 90629
+}
+975.9.13={
+	holder = 40451
+	liege = d_xerex
+}
+995.9.24={
+	holder = 40450
+}

@@ -1,0 +1,10 @@
+#900.6.6={
+#	liege = k_loiva
+#}
+973.9.15={
+	holder = 97400
+}
+993.3.27 = {
+	#liege = e_kingitangahou
+	holder = 0
+}

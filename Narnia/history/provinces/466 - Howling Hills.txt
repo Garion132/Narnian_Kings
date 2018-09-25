@@ -1,0 +1,13 @@
+# 466 - Howling Hills
+# County Title
+title = c_howling_hills
+# Settlements
+max_settlements = 1
+
+b_howling_hills = castle
+#b_mushroom_caverns = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = black_dwarf
+religion = white_witch

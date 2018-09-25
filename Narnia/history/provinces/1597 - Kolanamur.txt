@@ -1,0 +1,14 @@
+# 1597 - Kolanamur
+# County Title
+title = c_kolanamur
+# Settlements
+max_settlements = 1
+
+
+b_kolanamur = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

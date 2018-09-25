@@ -1,0 +1,14 @@
+# 1588 - Coldwinds
+# County Title
+title = c_coldwinds
+# Settlements
+max_settlements = 1
+
+
+b_coldwinds = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

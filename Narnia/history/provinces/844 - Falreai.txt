@@ -1,0 +1,13 @@
+# 844 - Falreai
+# County Title
+title = c_falreai
+# Settlements
+max_settlements = 1
+
+b_falreai = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tellan

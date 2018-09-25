@@ -1,0 +1,14 @@
+# 1509 - Vaegoran
+# County Title
+title = c_vaegoran
+# Settlements
+max_settlements = 1
+
+
+b_vaegoran = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian_merku
+religion = denols

@@ -1,0 +1,23 @@
+# 543 - Taninford
+# County Title
+title = c_taninford
+# Settlements
+max_settlements = 1
+
+b_taninford = castle
+b_tanin = city
+b_tanintemple = temple
+
+# Misc
+culture = outer_islander
+religion = dragon_worship
+
+923.6.8={
+religion = white_witch
+}
+992.2.3={
+	culture = german
+}
+1023.5.9={
+	religion = aryan
+}

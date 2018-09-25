@@ -1,0 +1,14 @@
+# 1945 - Tarnisuki
+# County Title
+title = c_tarnisuki
+# Settlements
+max_settlements = 1
+
+
+b_tarnisuki = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

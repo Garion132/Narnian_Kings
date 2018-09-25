@@ -1,0 +1,7 @@
+986.6.9={
+	holder = 85775
+}
+993.6.17 = {
+	liege = e_kingitangahou
+	holder = 85800
+}

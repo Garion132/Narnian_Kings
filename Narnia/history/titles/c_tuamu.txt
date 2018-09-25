@@ -1,0 +1,6 @@
+1.1.1={
+	law = succ_primogeniture
+}
+750.1.1 = {
+	liege = d_doriath
+}

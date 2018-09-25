@@ -1,0 +1,14 @@
+# 2324 - Nolsthime
+# County Title
+title = c_nolsthime
+# Settlements
+max_settlements = 1
+
+
+b_nolsthime = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

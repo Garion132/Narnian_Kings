@@ -1,0 +1,14 @@
+# 651 - Amayier
+
+# County Title
+title = c_amayier
+# Settlements
+max_settlements = 1
+
+b_amayier = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = calormen
+religion = aslan

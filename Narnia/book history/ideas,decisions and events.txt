@@ -1,0 +1,137 @@
+events, decisions and mechanics outside of narnia ideas
+d = decisions
+e = events
+a = ambisions
+
+Dylis trial:
+	d Annex south shannan
+	a dominate Impara
+	a expand the border east
+	e the western coast is failing
+	e the northern republic is failing (shannan)
+	e the southern coast is failing
+	e the south-western lion (arthar of impara) ✔
+	d march on the old northern territories
+	d the faith of our ansestors
+	a expand the border north
+	every member of the ua dylis dynasty gets a claim on the empire and the dylis needs at least 50% of his vassals to be his dynasty
+	
+	
+Telmar:
+	d send aid to the caspians
+	a the true heirs of old telmar
+	e narnian contact
+	e koraly falls
+	a lord of all telmarines
+	
+	
+	
+Archenland:
+	e Archenland rises
+	a greater archenland ✔
+	d a new king of narnia
+	e the southern marches fall
+	e jadis demarns vassalization
+	e aslans last hope
+	
+Luna:
+
+
+
+Koraly:
+	
+	
+	
+Calormen:
+	e true agents of tash
+	d defect from a demon
+	e a free calormen?
+	d incur to the south
+	d seize the lone isles
+	a a true Tisroc ✔
+	a
+	
+	
+Achivements:(fluff name/requirements)
+	the prophacy forfilled/as peter win against jadis
+	the True Queen/win the winter rebellion as jadis
+	lone islands no longer/as the lone islands republic, controll the outer islands area
+	Tashs Tisroc/ control the entirety of the calormen empire as a calormen tash tashkan and have >15 martial and at least 5 male children
+	Tashlans true domain/ control all of k_narnia,k_archenland,e_calormen as a tashlan worshipper
+	no more Dylis/ Ua Dylis dynasty no longer exists
+	The Infanite Reich/ as a aryan german, controll the whole world
+	Eating the forbidden fruit/obtain and successfully eat from the sacared apple tree
+	Lone lion of gold/as a lanister control 20 gold mines
+	the Realm of the Telmarines/control all of k_old_telmar, e_telmar, e_sesh, k_narnia
+	
+
+
+Melliouna:
+	imperial vassals can be founded with a special CB (not empires)
+		Imperial vassals are mostly autonomus but are required to join defensive wars
+		can be integrated if the current vassal is incompatant
+	
+Korosmei:
+	split between two major kingdoms,can form korozmei through desision
+	
+Surval:
+	fast conquering, but vassals can break off after the death of a liege
+	
+	
+Eslian concortat:
+	every ruler of eslian religon gets event early in reign(2mms) 
+	either: 
+		Accept, all other rulers that have also signed get a call to arms against any outside agressor, -2 martial and cash demanded every 5 years
+		Decline, other eslian rulers get a punitive cb against you, you are unproteced from outside wars, free cb vs elsian rulers
+
+	lv0 concortat
+		prestige
+		
+	lv1 concortat
+		auto defensive call to arms
+		
+	lv2 concortat
+		as above
+		can call others into exsternal agressive war for prestige cost
+		
+	lv3 concortat
+		as above
+		can reform Eslia
+		
+	all rulers get a desision to reform Elisia which gives vassalistion event to dejure vassals
+		requires: 33% land
+		1000 Prestige-
+		signator
+		eloia religion
+		holds capital (give everyone claims on this?)
+		lv3 concortat
+
+	sieze the crown (gives k_eslia, gives old holder titular title if landed, -15 general opinion for 5 years drops concortat lv)
+		15% land
+		holds capital
+		eloia religion
+		200 prestige
+
+	suggest exspansions to the concortat(increases lv)
+		500 prestige
+		50% of signators have to agree
+
+		
+		
+third reich:
+	purchase panzers(industralising)
+		7500fp for 10
+	hire german doctor
+		250fp get a doctor with modern doctor trait
+	german ammunation
+		500fp for 50% combat modifier for 1 year
+		
+	send suppies
+		provence modier for 2 years for ~450 fp
+		
+	send jew
+		send a jew to hitler for fp based on the skill of the jew
+Underland:
+	high dev, isolationist stance?
+	
+	

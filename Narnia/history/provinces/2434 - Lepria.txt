@@ -1,0 +1,12 @@
+# 2434 - Lepria
+# County Title
+title = c_lepria
+# Settlements
+max_settlements = 3
+
+b_lepria = castle
+
+
+# Misc
+culture = telmarine
+religion = tellan

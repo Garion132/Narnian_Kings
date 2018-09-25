@@ -1,0 +1,12 @@
+800.5.9={
+	de_jure_liege = e_stary_sea
+}
+930.5.9={
+	de_jure_liege = ""
+}
+942.6.8={
+	holder = 97500
+}
+991.2.3 = {
+	holder = 85200
+}

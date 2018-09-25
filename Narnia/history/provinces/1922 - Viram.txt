@@ -1,0 +1,22 @@
+# 1922 - Viram
+# County Title
+title = c_viram
+# Settlements
+max_settlements = 4
+
+
+b_viram = castle
+b_kyotan = city
+b_anato = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi
+
+
+853.6.9={
+	b_viram = ca_keep_1
+	b_viram = ca_wall_1
+	b_viram = ca_militia_barracks_1
+	b_viram = ca_barracks_1
+}

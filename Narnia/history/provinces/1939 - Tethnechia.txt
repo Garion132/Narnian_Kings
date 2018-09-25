@@ -1,0 +1,14 @@
+# 1939 - Tethnechia
+# County Title
+title = c_tethnechia
+# Settlements
+max_settlements = 1
+
+
+b_tethnechia = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

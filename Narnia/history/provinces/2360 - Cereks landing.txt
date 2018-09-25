@@ -1,0 +1,14 @@
+# 2360 - Cereks landing
+# County Title
+title = c_cereks_landing
+# Settlements
+max_settlements = 3
+
+
+b_cereks_landing = castle
+b_bardstone = city
+b_cerektemple = temple
+
+# Misc
+culture = cerek
+religion = eline

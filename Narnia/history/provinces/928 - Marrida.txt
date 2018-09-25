@@ -1,0 +1,13 @@
+# 928 - Marrida
+# County Title
+title = c_marrida
+# Settlements
+max_settlements = 1
+
+b_marrida = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan

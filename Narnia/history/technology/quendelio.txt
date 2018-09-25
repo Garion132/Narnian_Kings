@@ -1,0 +1,24 @@
+#copied Telmar's tech levels for this, just to get all duchies in these files - tsf4
+#Ouer
+technology = {
+	titles = {	
+		d_acfor
+		d_ciloni
+		d_helimin
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	1000 = {
+		military = 1.4
+		economy = 1.5
+		culture = 1.5
+	}
+	2555 = {
+		military = 5.3
+		economy = 5.3
+		culture = 5.3
+	}
+}

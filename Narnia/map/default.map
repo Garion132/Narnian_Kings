@@ -1,0 +1,47 @@
+max_provinces = 2447
+definitions = "definition.csv"
+provinces = "provinces.bmp"
+positions = "positions.txt"
+terrain = "terrain.bmp"
+rivers = "rivers.bmp"
+terrain_definition = "terrain.txt"
+heightmap = "topology.bmp"
+tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+climate = "climate.txt"
+region = "island_region.txt"
+geographical_region = "geographical_region.txt"
+static = "static.txt"
+seasons = "seasons.txt"
+
+# Narnian Seas
+sea_zones = { 1 97 }
+sea_zones = { 98 155 }
+sea_zones = { 156 316 }
+
+ocean_region = {	# Sea
+	sea_zones = { 1 2 3}
+}
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+tree = { 3 4 7 10 }
+
+major_rivers = 
+{ 
+	156 157 158 159 160 	# Great North River
+	161 162 		# Frosty River
+	163 164 165 		# River Rush
+	166 167 168 169 170 171	# River Archen
+	172 154 173 174 175 176 177 153 # River Telmar
+	150 178 179 180 181 182 183 184 185 186 187 188 189 # River Narnia
+	190 191 192 # Winding Arrow
+	193 194 67 195 68 196 69 # River Ilkeen
+	197 198 199 200 201 # River Calavar
+	203 204 205 206 207 208 209 210 # River Calormen
+	211 212 213 214 215 216 217 218 219 220 221 222 223 224 146 # Snake River
+	225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 147 148 #River Jaminada
+
+}
+
+#externals = { 1464 1465 } # Paths to china

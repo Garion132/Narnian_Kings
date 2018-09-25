@@ -1,0 +1,13 @@
+# 530 - Pleiadea
+# County Title
+title = c_pleiadea
+# Settlements
+max_settlements = 1
+
+#b_nereidia = city
+b_pleiadea = castle
+#b_sandstone_sept = temple
+
+# Misc
+culture = outer_islander
+religion = aslan

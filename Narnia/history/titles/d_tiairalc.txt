@@ -1,0 +1,13 @@
+800.3.7 = {
+	liege = e_elexol_confederation
+	law = cognatic_succession
+}
+956.5.16={
+	holder = 115800
+}
+986.4.12={
+	holder = 115801
+}
+1006.7.25={
+	holder = 115802
+}

@@ -1,0 +1,13 @@
+# 407 - Eyrievale
+# County Title
+title = c_eyrievale
+# Settlements
+max_settlements = 1
+
+b_eyrievale = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = gryphon
+religion = aslan

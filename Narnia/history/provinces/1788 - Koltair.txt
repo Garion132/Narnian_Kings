@@ -1,0 +1,14 @@
+# 1788 - Koltair
+# County Title
+title = c_koltair
+# Settlements
+max_settlements = 3
+
+
+b_koltair = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = kelvrain

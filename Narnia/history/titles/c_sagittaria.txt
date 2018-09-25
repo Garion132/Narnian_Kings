@@ -1,0 +1,25 @@
+1.1.1={
+	liege = "k_narnia"
+}
+302.1.1={
+	liege = "e_narnia"
+}
+971.8.4={
+	holder= 60008
+}
+999.1.1={
+liege = "d_aslans_how"
+}
+1998.1.1={
+	liege = "d_sagittaria"
+	holder=0
+}
+2281.1.1={
+holder= 60003
+}
+2302.1.1={
+liege = "k_rebel_narnia"
+}
+2304.1.1={
+	liege = "e_narnia"
+}

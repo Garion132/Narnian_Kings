@@ -1,0 +1,18 @@
+# 358 - Shribble
+
+# County Title
+title = c_shribble
+# Settlements
+max_settlements = 1
+
+b_shribble = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan
+
+2006.1.1={
+culture = telmarine
+}

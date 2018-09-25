@@ -1,0 +1,14 @@
+# 1401 - Pravaris
+# County Title
+title = c_pravaris
+# Settlements
+max_settlements = 1
+
+
+b_pravaris = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian
+religion = jenunvir

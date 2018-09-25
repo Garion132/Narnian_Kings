@@ -1,0 +1,13 @@
+# 385 - Miner Downs
+# County Title
+title = c_miner_downs
+# Settlements
+max_settlements = 1
+
+b_miner_downs = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = faun
+religion = aslan

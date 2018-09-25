@@ -1,0 +1,14 @@
+# 1807 - Tian
+# County Title
+title = c_tian
+# Settlements
+max_settlements = 1
+
+
+b_tian = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = telvasrian
+religion = savra

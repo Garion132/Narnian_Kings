@@ -1,0 +1,9 @@
+1.1.1={
+	holder=0
+}
+800.1.1={
+	liege = d_venounght
+}
+936.1.1={
+	liege = d_uanentil
+}

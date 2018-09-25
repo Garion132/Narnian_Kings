@@ -1,0 +1,14 @@
+# 2270 - Kyria
+# County Title
+title = c_kyria
+# Settlements
+max_settlements = 1
+
+
+b_kyria = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = quende
+religion = quallis

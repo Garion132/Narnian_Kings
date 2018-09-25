@@ -1,0 +1,13 @@
+# 599 - Harpyden
+# County Title
+title = c_harpyden
+# Settlements
+max_settlements = 1
+
+b_harpyden = castle
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = black_dwarf
+religion = white_witch

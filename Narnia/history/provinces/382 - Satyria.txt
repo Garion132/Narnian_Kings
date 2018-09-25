@@ -1,0 +1,13 @@
+# 382 - Satyria
+# County Title
+title = c_satyria
+# Settlements
+max_settlements = 1
+
+b_satyria = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = faun
+religion = aslan

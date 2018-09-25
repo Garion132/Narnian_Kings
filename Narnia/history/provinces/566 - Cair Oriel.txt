@@ -1,0 +1,23 @@
+# 566 - Cair Oriel
+
+# County Title
+title = c_cair_oriel
+# Settlements
+max_settlements = 1
+
+b_cair_oriel = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = archen
+religion = aslan
+201.1.1={
+	b_cair_oriel = ca_keep_1
+	b_cair_oriel = ca_training_grounds_1
+	b_cair_oriel = ca_wall_1
+	b_cair_oriel = ca_wall_2
+	b_cair_oriel = ca_militia_barracks_1
+	b_cair_oriel = ca_barracks_1
+	b_cair_oriel = ca_town_1
+}

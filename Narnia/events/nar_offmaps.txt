@@ -1,0 +1,224 @@
+namespace = nar_OM
+#####################
+#events for offmap powers
+#####################
+character_event = {
+	id = nar_OM.1
+	offmap = only
+
+	has_dlc = "Jade Dragon"
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = { is_offmap_tag = offmap_germany }
+    
+	immediate = {
+		FROMFROM = {
+			set_offmap_flag = no_policy_news # Don't fire the News event in 'on_offmap_policy_changed'
+			random_list = {
+				100 = { # Consolidaing
+					modifier = {
+						factor = 1.5
+						has_status = germany_stable
+					}
+					modifier = {
+						factor = 5
+						has_policy = germany_consolidaing
+						NOT = { days_since_policy_change = 10950 } #30 years
+					}
+					set_policy = germany_consolidaing
+					log = "-------------------------------------"
+					log = "Germany Policy Logging:"
+					log = "Germany's new Policy is now CONSOLIDATING"
+					log = "-------------------------------------"
+				}
+				25 = { # Defensive
+					trigger = {
+						NOT = {
+							has_status = germany_stable
+						}
+					}
+					modifier = {
+						factor = 10
+						has_offmap_flag = germany_invaded
+					}
+					modifier = { # Hard times... (negative Status)
+						factor = 2
+						germany_is_suffering_trigger = yes
+					}
+					modifier = {
+						factor = 0.5
+						has_status = germany_stable
+					}
+					modifier = {
+						factor = 5
+						has_policy = germany_defensive
+						NOT = { days_since_policy_change = 10950 } #30 years
+					}
+					set_policy = germany_defensive
+					log = "-------------------------------------"
+					log = "German Policy Logging:"
+					log = "Germany's new Policy is now Defensive"
+					log = "-------------------------------------"
+				}
+				50 = { # Agressive
+					trigger = {
+						NOT = { has_offmap_flag = germany_badly_beaten_3 }
+						#NOT = { check_variable = { which = "global_china_change_to_expansionist_count" value = 6 } }
+					}
+					modifier = {
+						factor = 20
+						has_offmap_flag = germany_expansionist_trend
+					}
+					modifier = {
+						factor = 0.75
+						has_offmap_flag = china_badly_beaten_1
+					}
+					modifier = {
+						factor = 0.5
+						has_offmap_flag = china_badly_beaten_2
+					}
+					modifier = {
+						factor = 10
+						has_policy = germany_agressive
+						NOT = { days_since_policy_change = 14600 } #40 years
+					}
+					modifier = {
+						factor = 0.1
+						has_policy = germany_agressive
+						days_since_policy_change = 32850 #90 years
+					}
+					modifier = {
+						factor = 0.2
+						check_variable = { which = "global_china_change_to_expansionist_count" value = 3 }
+					}
+					if = {
+						limit = { NOT = { has_policy = germany_agressive } }
+						change_variable = { which = "global_china_change_to_expansionist_count" value = 1 }
+					}
+					set_policy = germany_agressive
+					log = "-------------------------------------"
+					log = "German Policy Logging:"
+					log = "Germany's new Policy is now Agressive"
+					log = "-------------------------------------"
+					clr_offmap_flag = germany_expansionist_trend
+				}
+				20 = { # Industrailsing
+					trigger = {
+						has_status = germany_stable
+					}
+					set_policy = germany_industrailsing
+					log = "-------------------------------------"
+					log = "German Policy Logging:"
+					log = "Germany's new Policy is now Industrailsing"
+					log = "-------------------------------------"
+				}
+				10 = { # Minimal Funding
+					trigger = {
+						OR = {
+							has_status = germany_falling_back
+							has_status = germany_invaded
+							has_status = germany_occupied
+							has_status = germany_closed
+						}
+					}
+					modifier = {
+						factor = 10
+						has_offmap_flag = germany_invaded
+					}
+					modifier = { # Hard times... (negative Status)
+						factor = 2
+						germany_is_suffering_trigger = yes
+					}
+					modifier = {
+						factor = 1.25
+						has_status = germany_falling_back
+					}
+					modifier = {
+						factor = 2.5
+						has_status = germany_invaded
+					}
+					modifier = {
+						factor = 4
+						has_status = germany_occupied
+					}
+					modifier = {
+						factor = 5
+						has_policy = germany_minimal_funding
+						NOT = { days_since_policy_change = 10950 } #30 years
+					}
+					set_policy = germany_minimal_funding
+					log = "-------------------------------------"
+					log = "German Policy Logging:"
+					log = "Germany's new Policy is now Minimal Funding"
+					log = "-------------------------------------"
+				}
+				5 = { #Closed Portal
+					trigger = {
+						OR = {
+							has_status = germany_falling_back
+							has_status = germany_invaded
+							has_status = germany_occupied
+							has_status = germany_closed
+						}
+					}
+					modifier = {
+						factor = 10
+						has_offmap_flag = germany_invaded
+					}
+					modifier = { # Hard times... (negative Status)
+						factor = 2
+						germany_is_suffering_trigger = yes
+					}
+					modifier = {
+						factor = 1.5
+						has_status = germany_falling_back
+					}
+					modifier = {
+						factor = 3
+						has_status = germany_invaded
+					}
+					modifier = {
+						factor = 5
+						has_status = germany_occupied
+					}
+					modifier = {
+						factor = 4000
+						has_status = germany_closed
+					}
+					modifier = {
+						factor = 5
+						has_policy = germany_minimal_funding
+						NOT = { days_since_policy_change = 10950 } #30 years
+					}
+					set_policy = germany_minimal_funding
+					log = "-------------------------------------"
+					log = "German Policy Logging:"
+					log = "Germany's is Closed"
+					log = "-------------------------------------"
+				}
+			}
+		}
+		
+		if = {
+			limit = { FROMFROM = { NOT = { has_offmap_flag = no_succession_news } } }
+			any_player = {
+				limit = {
+					has_offmap_news_enabled = FROMFROM
+					is_within_diplo_range = ROOT
+					religion = aryan
+				}
+				narrative_event = { id = JD.50001 }
+			}
+		}
+		
+		FROMFROM = {
+			clr_offmap_flag = no_policy_news
+			clr_offmap_flag = no_succession_news
+		}
+	}
+}
+
+
+

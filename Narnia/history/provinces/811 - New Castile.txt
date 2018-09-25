@@ -1,0 +1,13 @@
+# 811 - New Castile
+# County Title
+title = c_new_castile
+# Settlements
+max_settlements = 1
+
+b_new_castile = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

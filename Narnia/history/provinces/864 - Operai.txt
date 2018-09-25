@@ -1,0 +1,13 @@
+# 864 - Operai
+# County Title
+title = c_operai
+# Settlements
+max_settlements = 1
+
+b_operai = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tellan

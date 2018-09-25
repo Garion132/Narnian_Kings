@@ -1,0 +1,19 @@
+# 327 - Doorn
+
+# County Title
+title = c_doorn
+
+# Settlements
+max_settlements = 1
+
+b_narrowhaven = city
+b_governers_castle = castle
+#b_sandstone_sept = temple
+
+# Misc
+culture = lone_islander
+religion = aslan
+
+2306.12.19 = {
+capital=b_governers_castle
+}

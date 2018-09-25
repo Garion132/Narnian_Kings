@@ -1,0 +1,14 @@
+# 1907 - Wualin
+# County Title
+title = c_wualin
+# Settlements
+max_settlements = 1
+
+
+b_wualin = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi

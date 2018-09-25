@@ -1,0 +1,14 @@
+# 1224 - Yariua
+# County Title
+title = c_yariua
+# Settlements
+max_settlements = 1
+
+
+b_yariua = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

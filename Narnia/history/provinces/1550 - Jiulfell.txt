@@ -1,0 +1,14 @@
+# 1550 - Jiulfell
+# County Title
+title = c_jiulfell
+# Settlements
+max_settlements = 1
+
+
+b_jiulfell = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

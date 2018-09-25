@@ -1,0 +1,1346 @@
+#125001-130000
+125001 = {
+	name="Bérenge"	# 
+	dynasty=194
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	971.4.9 = {birth=yes}
+	1038.9.17={
+		death = {death_reason = death_natural}
+	}
+}
+
+125100 = {
+	name="Caesar"	# 
+	dynasty=141
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+	martial = 9
+	diplomacy = 11
+	stewardship = 8
+	intrigue = 10
+	learning = 9
+
+	#father=8012190
+	wealth = 2500
+
+	952.5.21 = {birth=yes}
+	1012.6.25={
+		death = {death_reason = death_natural}
+	}
+}
+125101 = {
+	name="Tibur"	# 
+	dynasty=141
+
+	religion="quallis"
+	culture="quende"
+	father = 125100
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	975.8.19 = {birth=yes}
+	1032.1.15={
+		death = {death_reason = death_natural}
+	}
+}
+125102 = {
+	name="Avevi"	# 
+	dynasty=141
+
+	religion="quallis"
+	culture="quende"
+	father = 125100
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	978.4.15 = {birth=yes}
+	1028.7.5={
+		death = {death_reason = death_natural}
+	}
+}
+
+125200 = {
+	name="Wenzel"	# 
+	dynasty=142
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	963.9.3 = {birth=yes}
+	1024.5.6={
+		death = {death_reason = death_natural}
+	}
+}
+
+125300 = {
+	name="Kaspar"	# 
+	dynasty=143
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	962.2.18 = {birth=yes}
+	1022.12.20={
+		death = {death_reason = death_natural}
+	}
+}
+
+125400 = {
+	name="Ælfgar"	# 
+	dynasty=149
+
+	religion="eline"
+	culture="cerek"
+	martial = 7
+	stewardship = 8
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	968.6.16 = {birth=yes}
+	1026.5.18={
+		death = {death_reason = death_natural}
+	}
+}
+
+125500 = {
+	name="Barak"	# 
+	dynasty=148
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+	martial = 12
+	diplomacy = 8
+	intrigue = 8
+
+	#father=8012190
+
+	970.10.9 = {birth=yes}
+	1039.4.27={
+		death = {death_reason = death_natural}
+	}
+}
+
+125600 = {
+	name="Leofwine"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	970.3.20 = {birth=yes}
+	10248.14={
+		death = {death_reason = death_natural}
+	}
+}
+
+125700 = {
+	name="Sigeric"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	962.5.11 = {birth=yes}
+	1039.4.27={
+		death = {death_reason = death_natural}
+	}
+}
+
+125800 = {
+	name="Ulf"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	969.2.17 = {birth=yes}
+	1029.8.13={
+		death = {death_reason = death_natural}
+	}
+}
+
+125900 = {
+	name="Wulfgeat"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	971.5.27 = {birth=yes}
+	1039.4.28={
+		death = {death_reason = death_natural}
+	}
+}
+
+125950 = {
+	name="leofhea"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	962.7.12 = {birth=yes}
+	1027.6.18={
+		death = {death_reason = death_natural}
+	}
+}
+
+126000 = {
+	name="Æthelmær"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	965.8.17 = {birth=yes}
+	1015.7.12={
+		death = {death_reason = death_natural}
+	}
+}
+126001 = {
+	name="Æthelmær"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	father=126000
+
+	998.4.27 = {birth=yes}
+	1041.4.28={
+		death = {death_reason = death_natural}
+	}
+}
+
+126050 = {
+	name="Gospatric"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	974.11.17 = {birth=yes}
+	1019.8.30={
+		death = {death_reason = death_natural}
+	}
+}
+126100 = {
+	name="Heanir"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	978.7.14 = {birth=yes}
+	1021.7.14={
+		death = {death_reason = death_natural}
+	}
+}
+
+126150 = {
+	name="Lambert"	# 
+	dynasty=145
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	father=126151
+
+	961.11.8 = {birth=yes}
+	1022.9.21={
+		death = {death_reason = death_natural}
+	}
+}
+126151 = {
+	name="Tunlir"	# 
+	dynasty=145
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	father=126152
+
+	937.5.17 = {birth=yes}
+	992.11.17={
+		death = {death_reason = death_natural}
+	}
+}
+126152 = {
+	name="Pyris"	# 
+	dynasty=145
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	father=126153
+
+	912.7.28 = {birth=yes}
+	963.8.15={
+		death = {death_reason = death_natural}
+	}
+}
+126153 = {
+	name="Pyris"	# 
+	dynasty=145
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	father=126154
+
+	891.8.14 = {birth=yes}
+	959.4.22={
+		death = {death_reason = death_natural}
+	}
+}
+126154 = {
+	name="Telair"	# 
+	dynasty=145
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	father=126155
+
+	868.4.25 = {birth=yes}
+	932.7.9={
+		death = {death_reason = death_natural}
+	}
+}
+126155 = {
+	name="Telair"	#The Telair
+	dynasty=145
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	842.4.9 = {birth=yes}
+	902.4.28={
+		death = {death_reason = death_natural}
+	}
+}
+
+
+
+
+126200 = {
+	name="Elberan"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	963.7.21 = {birth=yes}
+	1024.7.30={
+		death = {death_reason = death_natural}
+	}
+}
+126250 = {
+	name="Adolf"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	974.6.21 = {birth=yes}
+	1031.5.9={
+		death = {death_reason = death_natural}
+	}
+}
+
+126300 = {
+	name="Dieter"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	967.9.22 = {birth=yes}
+	1019.8.20={
+		death = {death_reason = death_natural}
+	}
+}
+
+126350 = {
+	name="Hugo"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	969.3.22 = {birth=yes}
+	1021.9.17={
+		death = {death_reason = death_natural}
+	}
+}
+
+126400 = {
+	name="Veigua"	# 
+	dynasty=144
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+	add_trait = "genius"
+
+	father=126402
+
+	967.6.26 = {birth=yes}
+	1026.7.21={
+		death = {death_reason = death_natural}
+	}
+}
+126401 = {
+	name="Viktor"	# 
+	dynasty=144
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+	add_trait = "genius"
+
+	father=126400
+
+	998.7.8 = {birth=yes}
+	1042.9.12={
+		death = {death_reason = death_natural}
+	}
+}
+126402 = {
+	name="Eberhard"	# 
+	dynasty=144
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+	add_trait = "genius"
+
+	#father=126400
+
+	942.8.12 = {birth=yes}
+	987.9.23={
+		death = {death_reason = death_natural}
+	}
+}
+
+126450 = {
+	name="Lambert"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	961.2.23 = {birth=yes}
+	1027.5.29={
+		death = {death_reason = death_natural}
+	}
+}
+
+126500 = {
+	name="Giselbert"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="reinor"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	968.4.9 = {birth=yes}
+	1031.6.12={
+		death = {death_reason = death_natural}
+	}
+}
+
+126550 = {
+	name="Eormenric"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	970.8.26 = {birth=yes}
+	1021.7.14={
+		death = {death_reason = death_natural}
+	}
+}
+126600 = {
+	name="Osweald"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	971.1.13 = {birth=yes}
+	1036.8.24={
+		death = {death_reason = death_natural}
+	}
+}
+126650 = {
+	name="Siweard"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	972.10.17 = {birth=yes}
+	1041.1.17={
+		death = {death_reason = death_natural}
+	}
+}
+126700 = {
+	name="Thoræd"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	973.5.30 = {birth=yes}
+	1032.4.21={
+		death = {death_reason = death_natural}
+	}
+}
+126750 = {
+	name="Æthelric"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	967.9.28 = {birth=yes}
+	1041.8.29={
+		death = {death_reason = death_natural}
+	}
+}
+
+126800 = {
+	name="Osulf"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	970.8.12 = {birth=yes}
+	1038.4.2={
+		death = {death_reason = death_natural}
+	}
+}
+
+126850 = {
+	name="Hildebert"	# 
+	dynasty=146
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	927.4.30 = {birth=yes}
+	984.6.23={
+		death = {death_reason = death_natural}
+	}
+}
+126851 = {
+	name="Centule"	# 
+	dynasty=146
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	father=126850
+
+	951.7.17 = {birth=yes}
+	1004.8.9={
+		death = {death_reason = death_natural}
+	}
+}
+126852 = {
+	name="Hildebert"	# 
+	dynasty=146
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	father=126851
+
+	973.5.19 = {birth=yes}
+	1035.9.7={
+		death = {death_reason = death_natural}
+	}
+}
+126853 = {
+	name="Lothaire"	# 
+	dynasty=146
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	father=126852
+
+	999.2.7 = {birth=yes}
+	1052.7.15={
+		death = {death_reason = death_natural}
+	}
+}
+126854 = {
+	name="Centual"	# 
+	dynasty=146
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	father=126851
+
+	974.8.22 = {birth=yes}
+	1037.2.9={
+		death = {death_reason = death_natural}
+	}
+}
+126855 = {
+	name="Ceali"	# 
+	dynasty=146
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	father=126851
+	female=yes
+
+	976.8.22 = {birth=yes}
+	1037.2.9={
+		death = {death_reason = death_natural}
+	}
+}
+
+126900 = {
+	name="Guy"	# 
+	dynasty=147
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	967.5.15 = {birth=yes}
+	1026.7.5={
+		death = {death_reason = death_natural}
+	}
+}
+
+127000 = {
+	name="Aener"	# 
+	dynasty=147
+
+	religion="quallis"
+	culture="vindi"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	945.7.21 = {birth=yes}
+	1026.7.5={
+		death = {death_reason = death_natural}
+	}
+}
+
+127100 = {
+	name="Brani"	# Tolos
+	dynasty=150
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	963.7.12 = {birth=yes}
+	1027.8.14={
+		death = {death_reason = death_natural}
+	}
+}
+
+127200 = {
+	name="Lucius"	# Diodesia
+	dynasty=151
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+	add_trait = "fair"
+
+	#father=8012190
+
+	971.3.22 = {birth=yes}
+	1041.7.12={
+		death = {death_reason = death_natural}
+	}
+}
+
+127300 = {
+	name="Maximn"	# Reme
+	dynasty=152
+
+	religion="quallis"
+	culture="vindi"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	942.9.17 = {birth=yes}
+	1021.8.4={
+		death = {death_reason = death_natural}
+	}
+}
+127301 = {
+	name="Flavia"	# Reme
+	dynasty=152
+
+	religion="quallis"
+	culture="vindi"
+
+	add_trait = "human_race"
+
+	father=127300
+
+	970.11.23 = {birth=yes}
+	1037.4.30={
+		death = {death_reason = death_natural}
+	}
+}
+
+127400 = {
+	name="Rena"	# Kyria
+	dynasty=153
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	968.8.19 = {birth=yes}
+	1034.9.16={
+		death = {death_reason = death_natural}
+	}
+}
+
+127500 = {
+	name="Koros"	# Veros
+	dynasty=154
+
+	religion="quallis"
+	culture="veriosian"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	956.9.21 = {birth=yes}
+	1008.7.22={
+		death = {death_reason = death_natural}
+	}
+}
+127501 = {
+	name="Gaius Oranui"	# Veros
+	dynasty=154
+
+	religion="quallis"
+	culture="veriosian"
+
+	add_trait = "human_race"
+
+	father=127500
+
+	975.7.21 = {birth=yes}
+	1026.11.27={
+		death = {death_reason = death_natural}
+	}
+}
+
+127600 = {
+	name="Romanus Kane"	# Synn
+	dynasty=155
+
+	religion="quallis"
+	culture="veriosian"
+
+	add_trait = "human_race"
+	add_trait = "quick"
+
+	#father=8012190
+
+	979.6.18 = {birth=yes}
+	1047.9.4={
+		death = {death_reason = death_natural}
+	}
+}
+
+127700 = {
+	name="Leontius"	# Niren, Establised the Provence
+	dynasty=156
+
+	religion="quallis"
+	culture="veriosian"
+
+	add_trait = "human_race"
+	add_trait = "strong"
+
+	#father=8012190
+
+	961.4.9 = {birth=yes}
+	1024.11.30={
+		death = {death_reason = death_natural}
+	}
+}
+
+127800 = {
+	name="Septimius"	# Pallyn
+	#dynasty=156
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	961.4.9 = {birth=yes}
+	1024.11.30={
+		death = {death_reason = death_natural}
+	}
+}
+
+127900 = {
+	name="Uhtræd"	# 
+	#dynasty=143
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	968.9.26 = {birth=yes}
+	1031.2.7={
+		death = {death_reason = death_natural}
+	}
+}
+
+127950 = {
+	name="Ælfwald"	# 
+	dynasty=168
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	959.6.17 = {birth=yes}
+	1009.6.3={
+		death = {death_reason = death_natural}
+	}
+}
+127951 = {
+	name="Swegn"	# 
+	dynasty=168
+
+	religion="eline"
+	culture="cerek"
+
+	add_trait = "human_race"
+
+	father=127950
+
+	981.5.26 = {birth=yes}
+	1025.11.26={
+		death = {death_reason = death_natural}
+	}
+}
+
+128000 = {
+	name="Julien"	# 
+	dynasty=184
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	father=128001
+
+	970.4.22 = {birth=yes}
+	1034.11.30={
+		death = {death_reason = death_natural}
+	}
+}
+128001 = {
+	name="Jaspert"	# 
+	dynasty=184
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	#father=8012190
+
+	947.6.14 = {birth=yes}
+	992.6.17={
+		death = {death_reason = death_natural}
+	}
+}
+
+128050 = {
+	name="Roubaud"	# 
+	dynasty=185
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	#father=128001
+
+	961.7.16 = {birth=yes}
+	1015.7.15={
+		death = {death_reason = death_natural}
+	}
+}
+128051 = {
+	name="Gilles"	# 
+	dynasty=185
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+
+	father=128050
+
+	982.8.18 = {birth=yes}
+	1041.9.6={
+		death = {death_reason = death_natural}
+	}
+}
+128052 = {
+	name="Arerose"	# 
+	dynasty=185
+
+	religion="eline"
+	culture="pelligdian"
+	
+	female = yes
+
+	add_trait = "human_race"
+
+	father=128050
+
+	984.1.30 = {birth=yes}
+	1043.8.14={
+		death = {death_reason = death_natural}
+	}
+}
+
+128100 = {
+	name="Gaucher"	# 
+	dynasty=186
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	add_trait = "brilliant_strategist"
+
+	#father=128001
+
+	965.12.23 = {birth=yes}
+	1017.8.20={
+		death = {death_reason = death_natural}
+	}
+}
+
+128200 = {
+	name="Léonard"	# 
+	dynasty=187
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	add_trait = "intricate_webweaver"
+	intrigue = 9
+
+	#father=128001
+
+	961.3.10 = {birth=yes}
+	1016.7.6={
+		death = {death_reason = death_natural}
+	}
+}
+128201 = {
+	name="Léonard"	# 
+	dynasty=187
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128200
+
+	986.4.17 = {birth=yes}
+	1035.8.19={
+		death = {death_reason = death_natural}
+	}
+}
+128202 = {
+	name="Eve"	# 
+	dynasty=187
+
+	religion="eline"
+	culture="pelligdian"
+	female=yes
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128200
+
+	987.9.23 = {birth=yes}
+	1042.7.21={
+		death = {death_reason = death_natural}
+	}
+}
+128203 = {
+	name="Agathae"	# 
+	dynasty=187
+
+	religion="eline"
+	culture="pelligdian"
+	female=yes
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128200
+
+	989.1.17 = {birth=yes}
+	1046.7.4={
+		death = {death_reason = death_natural}
+	}
+}
+
+128300 = {
+	name="Géraud"	# 
+	dynasty=188
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128302
+
+	969.1.19 = {birth=yes}
+	1010.4.7={
+		death = {death_reason = death_natural}
+	}
+}
+128301 = {
+	name="Jaspert"	# 
+	dynasty=188
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128302
+
+	970.6.24 = {birth=yes}
+	1015.9.8={
+		death = {death_reason = death_natural}
+	}
+}
+128302 = {
+	name="Gilles"	# 
+	dynasty=188
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	#father=128001
+
+	942.7.8 = {birth=yes}
+	986.5.4={
+		death = {death_reason = death_natural}
+	}
+}
+128303 = {
+	name="Lilia"	# 
+	dynasty=188
+
+	religion="eline"
+	culture="pelligdian"
+	female = yes
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128301
+
+	994.5.17 = {birth=yes}
+	1054.12.4={
+		death = {death_reason = death_natural}
+	}
+}
+128304 = {
+	name="Rogon"	# 
+	dynasty=188
+
+	religion="eline"
+	culture="pelligdian"
+	#female = yes
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128301
+
+	1001.9.4 = {birth=yes}
+	1069.7.15={
+		death = {death_reason = death_natural}
+	}
+}
+
+128400 = {
+	name="Robert"	# 
+	dynasty=191
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128401
+
+	978.6.23 = {birth=yes}
+	1021.7.24={
+		death = {death_reason = death_natural}
+	}
+}
+128401 = {
+	name="Orson"	# 
+	dynasty=191
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	#father=128401
+
+	946.9.27 = {birth=yes}
+	994.4.19={
+		death = {death_reason = death_natural}
+	}
+}
+128402 = {
+	name="Orson"	# 
+	dynasty=191
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	father=128400
+
+	997.5.14 = {birth=yes}
+	1051.7.24={
+		death = {death_reason = death_natural}
+	}
+}
+
+128500 = {
+	name="Hugues"	# 
+	dynasty=192
+
+	religion="eline"
+	culture="pelligdian"
+
+	add_trait = "human_race"
+	#add_trait = "intricate_webweaver"
+	#intrigue = 9
+
+	#father=128401
+
+	975.3.17 = {birth=yes}
+	1036.8.18={
+		death = {death_reason = death_natural}
+	}
+}

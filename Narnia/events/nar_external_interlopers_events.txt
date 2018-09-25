@@ -1,0 +1,531 @@
+namespace = nar_EXT
+character_event = {#a holocaust fleer
+	id = nar_EXT.1
+	title = "EVTNAMEnar_EXT.1"
+	desc = "EVTDESCnar_EXT.1"
+	#picture = GFX_evt_refugees
+	border = GFX_event_narrative_frame_war
+
+	trigger={
+		NOT = {
+			has_game_rule = {
+				name = external_adventures
+				value = off
+			}
+		}
+		year = 1005
+		NOR ={
+			religion_group = aryan
+			trait=cruel
+			trait=zealous
+		}
+		war=no
+	
+	
+	}
+	mean_time_to_happen = {
+		months = 120000
+		
+		modifier = {
+			factor = 0.9
+			trait = kind
+		}
+		modifier = {
+			factor = 1.2
+			OR={
+				religion = white_witch
+				religion = tash
+				religion = denols
+				religion = jenunvir
+				religion = lavurite
+			}
+		}
+	}
+	immediate={
+		random_list = {
+			35 = {# a jew
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ashkenazi
+				female = no
+				attributes = {
+					learning = 12
+				}
+				health = 6
+				fertility = 0.8
+				trait = foreign_child
+				trait = child_of_adam_or_eve
+			}
+			new_character = {
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				
+				remove_trait = mystic
+				remove_trait = socializer
+				remove_trait = gamer
+				remove_trait = hedonist
+				remove_trait = duelist
+				remove_trait = hunter
+				remove_trait = strategist
+				remove_trait = administrator
+				remove_trait = architect
+				remove_trait = gardener
+				remove_trait = schemer
+				remove_trait = impaler
+				remove_trait = seducer
+				remove_trait = seductress
+				remove_trait = theologian
+				remove_trait = scholar
+				
+				random_list = { # Flavor Randomization
+					35 = { 
+						# Nothing
+					}
+					15 = {
+						change_learning = 1
+					}
+					20 = {
+						add_trait = theologian
+					}
+					5 = {
+						add_trait = scholar
+					}
+					3 = {
+						add_trait = mystic
+					}
+					2 = {
+						add_trait = lunatic
+					}
+					10 = {
+						change_learning = 2
+					}
+					5 = {
+						change_learning = 4
+					}
+					5 = {
+						add_trait = shrewd
+					}
+				}
+				save_event_target_as = invited_character
+			}
+			}
+			23 = {#a jewish doctor
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ashkenazi
+				female = no
+				attributes = {
+					learning = 14
+				}
+				health = 6
+				fertility = 0.8
+				trait = foreign_child
+				trait = modern_doctor
+				trait = physician
+				trait = child_of_adam_or_eve
+			}
+			new_character = {
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				
+				remove_trait = mystic
+				remove_trait = socializer
+				remove_trait = gamer
+				remove_trait = hedonist
+				remove_trait = duelist
+				remove_trait = hunter
+				remove_trait = strategist
+				remove_trait = administrator
+				remove_trait = architect
+				remove_trait = gardener
+				remove_trait = schemer
+				remove_trait = impaler
+				remove_trait = seducer
+				remove_trait = seductress
+				remove_trait = theologian
+				remove_trait = scholar
+				
+				random_list = { # Flavor Randomization
+					55 = { 
+						# Nothing
+					}
+					15 = {
+						change_learning = 2
+					}
+					5 = {
+						add_trait = scholar
+					}
+					3 = {
+						add_trait = mystic
+					}
+					2 = {
+						add_trait = lunatic
+					}
+					10 = {
+						change_learning = 4
+					}
+					5 = {
+						change_learning = 6
+					}
+					5 = {
+						add_trait = shrewd
+					}
+				}
+				save_event_target_as = invited_character
+			}
+			}
+			22 = {# Romany
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = romanian
+				female = no
+				attributes = {
+					learning = 6
+				}
+				health = 6
+				fertility = 0.8
+				trait = foreign_child
+				trait = child_of_adam_or_eve
+			}
+			new_character = {
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				
+				remove_trait = mystic
+				remove_trait = socializer
+				remove_trait = gamer
+				remove_trait = hedonist
+				remove_trait = duelist
+				remove_trait = hunter
+				remove_trait = strategist
+				remove_trait = administrator
+				remove_trait = architect
+				remove_trait = gardener
+				remove_trait = schemer
+				remove_trait = impaler
+				remove_trait = seducer
+				remove_trait = seductress
+				remove_trait = theologian
+				remove_trait = scholar
+				
+				random_list = { # Flavor Randomization
+					58 = { 
+						# Nothing
+					}
+					15 = {
+						change_learning = 2
+					}
+					5 = {
+						add_artifact = earth_pistol_german
+					}
+					2 = {
+						add_artifact = earth_rifle_german
+					}
+					10 = {
+						change_learning = 4
+					}
+					5 = {
+						change_stewardship = 3
+					}
+					5 = {
+						add_trait = shrewd
+					}
+				}
+				save_event_target_as = invited_character
+			}
+			}
+			7 = {# Homosexual merchant (german)
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = german
+				female = no
+				attributes = {
+					stewardship = 8
+				}
+				health = 6
+				fertility = 0.8
+				trait = foreign_child
+				trait = homosexual
+				trait = administrator
+				trait = child_of_adam_or_eve
+			}
+			new_character = {
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				
+				remove_trait = mystic
+				remove_trait = socializer
+				remove_trait = gamer
+				remove_trait = hedonist
+				remove_trait = duelist
+				remove_trait = hunter
+				remove_trait = strategist
+				remove_trait = architect
+				remove_trait = gardener
+				remove_trait = schemer
+				remove_trait = impaler
+				remove_trait = seducer
+				remove_trait = seductress
+				remove_trait = theologian
+				remove_trait = scholar
+				
+				random_list = { # Flavor Randomization
+					58 = { 
+						# Nothing
+					}
+					15 = {
+						change_stewardship = 1
+					}
+					5 = {
+						add_artifact = earth_pistol_german
+					}
+					2 = {
+						add_artifact = earth_rifle_german
+					}
+					10 = {
+						change_stewardship = 2
+					}
+					5 = {
+						change_stewardship = 3
+					}
+					5 = {
+						add_trait = shrewd
+					}
+				}
+				save_event_target_as = invited_character
+			}
+			}
+			7 = {# Homosexual merchant (polish)
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = polish
+				female = no
+				attributes = {
+					stewardship = 8
+				}
+				health = 6
+				#fertility = 0.8
+				trait = foreign_child
+				trait = homosexual
+				trait = administrator
+				trait = child_of_adam_or_eve
+			}
+			new_character = {
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				
+				remove_trait = mystic
+				remove_trait = socializer
+				remove_trait = gamer
+				remove_trait = hedonist
+				remove_trait = duelist
+				remove_trait = hunter
+				remove_trait = strategist
+				remove_trait = architect
+				remove_trait = gardener
+				remove_trait = schemer
+				remove_trait = impaler
+				remove_trait = seducer
+				remove_trait = seductress
+				remove_trait = theologian
+				remove_trait = scholar
+				
+				random_list = { # Flavor Randomization
+					58 = { 
+						# Nothing
+					}
+					15 = {
+						change_stewardship = 1
+					}
+					5 = {
+						add_artifact = earth_pistol_german
+					}
+					2 = {
+						add_artifact = earth_rifle_german
+					}
+					10 = {
+						change_stewardship = 2
+					}
+					5 = {
+						change_stewardship = 3
+					}
+					5 = {
+						add_trait = shrewd
+					}
+				}
+				save_event_target_as = invited_character
+			}
+			}
+			4 = {# Homosexual minor general (german)
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = german
+				female = no
+				attributes = {
+					martial = 9
+				}
+				health = 6
+				#fertility = 0.8
+				trait = foreign_child
+				trait = homosexual
+				trait = modern_strategist
+				trait = child_of_adam_or_eve
+			}
+			new_character = {
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				
+				remove_trait = mystic
+				remove_trait = socializer
+				remove_trait = gamer
+				remove_trait = hedonist
+				remove_trait = duelist
+				remove_trait = hunter
+				remove_trait = strategist
+				remove_trait = architect
+				remove_trait = gardener
+				remove_trait = schemer
+				remove_trait = impaler
+				remove_trait = seducer
+				remove_trait = seductress
+				remove_trait = theologian
+				remove_trait = scholar
+				
+				random_list = { # Flavor Randomization
+					54 = { 
+						# Nothing
+					}
+					17 = {
+						change_martial = 1
+					}
+					7 = {
+						add_artifact = earth_pistol_german
+					}
+					2 = {
+						add_artifact = earth_rifle_german
+					}
+					10 = {
+						change_martial = 2
+					}
+					5 = {
+						change_martial = 3
+					}
+					5 = {
+						add_trait = shrewd
+					}
+				}
+				save_event_target_as = invited_character
+			}
+			}
+			2 = {# Homosexual major general (german)
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = german
+				female = no
+				attributes = {
+					martial = 10
+					stewardship = 9
+				}
+				health = 6
+				#fertility = 0.8
+				trait = foreign_child
+				trait = homosexual
+				trait = modern_strategist
+				trait = brilliant_strategist
+				trait = organizer
+				trait = heavy_infantry_leader
+				trait = child_of_adam_or_eve
+			}
+			new_character = {
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				
+				remove_trait = mystic
+				remove_trait = socializer
+				remove_trait = gamer
+				remove_trait = hedonist
+				remove_trait = duelist
+				remove_trait = hunter
+				remove_trait = strategist
+				remove_trait = architect
+				remove_trait = gardener
+				remove_trait = schemer
+				remove_trait = impaler
+				remove_trait = seducer
+				remove_trait = seductress
+				remove_trait = theologian
+				remove_trait = scholar
+				
+				random_list = { # Flavor Randomization
+					50 = { 
+						# Nothing
+					}
+					17 = {
+						change_martial = 2
+					}
+					9 = {
+						add_artifact = earth_pistol_german
+					}
+					4 = {
+						add_artifact = earth_rifle_german
+					}
+					10 = {
+						change_martial = 4
+					}
+					5 = {
+						change_martial = 6
+					}
+					5 = {
+						add_trait = shrewd
+					}
+				}
+				save_event_target_as = invited_character
+			}
+			}
+		}
+	}
+	
+	option = {
+		name = nar_EXT.1.a
+		event_target:invited_character = {
+			opinion = {
+				who = ROOT
+				modifier = opinion_friend
+				years = 900
+			}
+		}
+	}
+	option = {
+		name = nar_EXT.1.b
+		custom_tooltip={
+		name = invitedCharacterLeavesCourt
+		event_target:invited_character = {
+			death = {death_reason=death_vanished}
+			any_artifact = {
+				destroy_artifact
+			}
+		}
+		}
+	}
+}

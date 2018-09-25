@@ -1,0 +1,14 @@
+# 1794 - Parre
+# County Title
+title = c_parre
+# Settlements
+max_settlements = 3
+
+
+b_parre = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = mellounian
+religion = kelvrain

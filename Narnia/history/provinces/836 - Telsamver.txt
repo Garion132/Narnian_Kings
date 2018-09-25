@@ -1,0 +1,13 @@
+# 836 - Telsamver
+# County Title
+title = c_telsamver
+# Settlements
+max_settlements = 1
+
+b_telsamver = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tashlan

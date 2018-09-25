@@ -1,0 +1,14 @@
+# 1122 - Magcabon
+# County Title
+title = c_magcabon
+# Settlements
+max_settlements = 1
+
+
+b_magcabon = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

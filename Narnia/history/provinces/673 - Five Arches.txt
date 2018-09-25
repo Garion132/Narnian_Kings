@@ -1,0 +1,14 @@
+# 673 - Five Arches
+
+# County Title
+title = c_five_arches
+# Settlements
+max_settlements = 1
+
+b_five_arches = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,16 @@
+# 1330 - Old Dylis
+# County Title
+title = c_old_dylis
+# Settlements
+max_settlements = 6
+
+
+b_old_dylis = castle
+#b_shannan_city = city
+b_high_temple_of_dylis = temple
+b_dylis_city = city
+b_cenlic_hold = castle
+
+# Misc
+culture = irish
+religion = celtic

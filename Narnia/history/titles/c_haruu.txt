@@ -1,0 +1,12 @@
+800.1.1={
+	liege = k_hokubukyowakoku
+}
+930.6.9={
+	liege = d_haruu
+}
+978.3.6={
+	holder = 96601
+}
+999.6.12={
+	holder = 96600
+}

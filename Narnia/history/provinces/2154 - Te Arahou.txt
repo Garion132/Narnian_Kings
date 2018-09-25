@@ -1,0 +1,20 @@
+# 2154 - Te Arahou
+# County Title
+title = c_te_arahou
+# Settlements
+max_settlements = 1
+
+
+b_te_arahou = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+religion = celtic
+culture = irish
+996.6.9={
+	culture = kingiongaiwi
+}
+1023.5.9={
+	religion = purakau_ao_kohatu
+}

@@ -1,0 +1,14 @@
+# 1763 - Elincarn
+# County Title
+title = c_elincarn
+# Settlements
+max_settlements = 1
+
+
+b_elincarn = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = jelvar
+religion = tarutarin

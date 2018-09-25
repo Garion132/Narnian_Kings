@@ -1,0 +1,15 @@
+# 1800 - Narane
+# County Title
+title = c_narane
+# Settlements
+max_settlements = 5
+
+
+b_narane = castle
+b_toranine = city
+b_jelorauia = city
+#b_tolsmin = temple
+
+# Misc
+culture = callendeen
+religion = savra

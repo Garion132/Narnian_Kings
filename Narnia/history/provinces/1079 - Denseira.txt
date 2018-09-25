@@ -1,0 +1,14 @@
+# 1079 - Denseira
+# County Title
+title = c_denseira
+# Settlements
+max_settlements = 2
+
+
+b_denseira = castle
+b_seiratun = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

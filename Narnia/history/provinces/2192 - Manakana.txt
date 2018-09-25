@@ -1,0 +1,20 @@
+# 2192 - Manakana
+# County Title
+title = c_manakana
+# Settlements
+max_settlements = 1
+
+
+b_manakana = castle
+b_houmanukau = city
+b_huhana = temple
+
+# Misc
+religion = caitliceann
+culture = irish
+990.1.1={
+	b_manakana = ca_keep_1
+	b_manakana = ca_wall_1
+	culture = kingiongaiwi
+	religion = purakau_ao_kohatu
+}

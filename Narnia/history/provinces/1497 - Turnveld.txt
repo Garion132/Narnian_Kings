@@ -1,0 +1,14 @@
+# 1497 - Turnveld
+# County Title
+title = c_turnveld
+# Settlements
+max_settlements = 1
+
+
+b_turnveld = tribal
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = uyirian_merku
+religion = denols

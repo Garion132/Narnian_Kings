@@ -1,0 +1,20 @@
+# 1350 - Felunister
+# County Title
+title = c_felunister
+# Settlements
+max_settlements = 1
+
+
+b_felunister = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic
+
+
+850.1.1={
+	b_felunister = ca_keep_1
+	b_felunister = ca_militia_barracks_1
+}

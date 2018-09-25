@@ -1,0 +1,14 @@
+# 1327 - Keo Kilnver
+# County Title
+title = c_keo_kilnver
+# Settlements
+max_settlements = 1
+
+
+b_keo_kilnver = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = caitliceann

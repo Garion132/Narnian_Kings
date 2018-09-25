@@ -1,0 +1,14 @@
+# 2346 - Conline Hills
+# County Title
+title = c_conline_hills
+# Settlements
+max_settlements = 1
+
+
+b_conline_hills = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

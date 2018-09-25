@@ -1,0 +1,19 @@
+800.1.1={
+	liege = k_langvest
+}
+930.6.9={
+	holder = 97705
+	liege = d_new_falkreath
+}
+952.4.23={
+	holder = 97704
+}
+978.6.17 = {
+	holder = 97700
+}
+1009.5.18 = {
+	holder = 97701
+}
+1025.8.23 = {
+	holder = 97702
+}

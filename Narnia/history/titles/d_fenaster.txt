@@ -1,0 +1,9 @@
+1.1.1={
+	holder=0
+}
+625.4.12={
+	liege = "k_tirdhreach"
+}
+978.6.14={
+	holder = 83200
+}

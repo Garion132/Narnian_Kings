@@ -1,0 +1,17 @@
+# 500 - Ettinmearns
+# County Title
+title = c_ettinmearns
+# Settlements
+max_settlements = 1
+
+b_ettinmearns = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch
+
+2106.1.1={
+culture = telmarine
+}

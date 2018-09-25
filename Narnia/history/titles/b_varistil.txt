@@ -1,0 +1,7 @@
+1.1.1={
+	holding_dynasty = 101
+	liege="d_draconium"
+}
+990.7.22={
+	holder = 71600
+}

@@ -1,0 +1,15 @@
+# 319 - Ramandus Island
+
+# County Title
+title = c_ramandus_island
+
+# Settlements
+max_settlements = 1
+
+b_ramandus_island = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = star
+religion = aslan

@@ -1,0 +1,13 @@
+# 482 - Giants Road
+# County Title
+title = c_giants_road
+# Settlements
+max_settlements = 1
+
+b_giants_road = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch

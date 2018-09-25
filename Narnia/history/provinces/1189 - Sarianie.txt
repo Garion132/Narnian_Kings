@@ -1,0 +1,14 @@
+# 1189 - Sarianie
+# County Title
+title = c_sarianie
+# Settlements
+max_settlements = 1
+
+
+b_sarianie = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

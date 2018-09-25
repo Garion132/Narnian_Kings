@@ -1,0 +1,13 @@
+# 442 - Cilfarch
+# County Title
+title = c_cilfarch
+# Settlements
+max_settlements = 4
+
+b_cilfarch = castle
+b_lower_cilfarch = city
+b_cilftown = temple
+
+# Misc
+culture = narnian
+religion = aslan

@@ -1,0 +1,20 @@
+800.5.9={
+	de_jure_liege = e_stary_sea
+}
+921.3.18={
+	holder = 96004
+	de_jure_liege = e_yuhniochi
+}
+936.7.17 = {
+	holder = 96003
+}
+976.3.17 = {
+	holder = 96002
+}
+990.6.27={
+	holder = 96000
+}
+1021.5.18={
+	holder = 96001
+}
+

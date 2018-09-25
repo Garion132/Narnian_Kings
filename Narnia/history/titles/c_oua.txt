@@ -1,0 +1,9 @@
+800.1.1={
+	liege = k_hokubukyowakoku
+}
+930.6.9={
+	liege = k_nihou
+}
+993.6.6={
+	holder = 96400
+}

@@ -1,0 +1,20 @@
+# 2185 - Takauanga
+# County Title
+title = c_takauanga
+# Settlements
+max_settlements = 1
+
+
+b_takauanga = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi
+996.6.9={
+	culture = kingiongaiwi
+}
+1012.6.9={
+	religion = purakau_ao_kohatu
+}

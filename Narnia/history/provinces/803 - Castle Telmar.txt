@@ -1,0 +1,21 @@
+# 803 - Castle Telmar
+# County Title
+title = c_castle_telmar
+# Settlements
+max_settlements = 3
+
+b_castle_telmar = castle
+
+
+# Misc
+culture = telmarine
+religion = tellan
+500.1.1={
+	b_castle_telmar = ca_town_1
+	b_castle_telmar = ca_castle_telmar
+	b_castle_telmar = ca_wall_q_1
+	b_castle_telmar = ca_wall_1
+	b_castle_telmar = ca_barracks_1
+	b_city_telmar = city
+	b_temple_of_telmar  = temple
+}

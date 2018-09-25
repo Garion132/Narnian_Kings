@@ -1,0 +1,15 @@
+# 334 - Orrom
+
+# County Title
+title = c_orrom
+
+# Settlements
+max_settlements = 1
+
+b_orrom = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = seven_islander
+religion = aslan

@@ -1,0 +1,14 @@
+# 2425 - Finera
+# County Title
+title = c_finera
+# Settlements
+max_settlements = 1
+
+
+b_finera = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = vindi
+religion = quallis

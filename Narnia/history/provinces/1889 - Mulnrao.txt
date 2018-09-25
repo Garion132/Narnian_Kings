@@ -1,0 +1,14 @@
+# 1889 - Mulnrao
+# County Title
+title = c_mulnrao
+# Settlements
+max_settlements = 1
+
+
+b_mulnrao = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = culture_arandorian
+religion = kelvrain

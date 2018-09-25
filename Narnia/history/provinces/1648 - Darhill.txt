@@ -1,0 +1,14 @@
+# 1648 - Darhill
+# County Title
+title = c_darhill
+# Settlements
+max_settlements = 1
+
+
+b_darhill = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

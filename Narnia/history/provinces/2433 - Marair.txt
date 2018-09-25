@@ -1,0 +1,12 @@
+# 2433 - Marair
+# County Title
+title = c_marair
+# Settlements
+max_settlements = 3
+
+b_marair = castle
+
+
+# Misc
+culture = telmarine
+religion = tellan

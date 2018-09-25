@@ -1,0 +1,13 @@
+# 896 - Herias
+# County Title
+title = c_herias
+# Settlements
+max_settlements = 1
+
+b_herias = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tashlan

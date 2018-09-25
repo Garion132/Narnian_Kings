@@ -1,0 +1,20 @@
+# 878 - Peoria
+# County Title
+title = c_peoria
+# Settlements
+max_settlements = 1
+
+b_peoria = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = koramarine
+religion = tellan
+
+603.1.1={
+culture = telmarine
+}
+1523.6.4={
+culture = koramarine
+}

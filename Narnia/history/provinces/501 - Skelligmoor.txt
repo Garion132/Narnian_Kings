@@ -1,0 +1,17 @@
+# 501 - Skelligmoor
+# County Title
+title = c_skelligmoor
+# Settlements
+max_settlements = 1
+
+b_skelligmoor = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch
+
+2108.1.1={
+culture = telmarine
+}

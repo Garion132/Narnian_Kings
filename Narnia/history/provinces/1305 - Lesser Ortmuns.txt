@@ -1,0 +1,14 @@
+# 1305 - Lesser Ortmuns
+# County Title
+title = c_lesser_ortmuns
+# Settlements
+max_settlements = 1
+
+
+b_lesser_ortmuns = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

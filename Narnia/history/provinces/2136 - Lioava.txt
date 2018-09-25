@@ -1,0 +1,20 @@
+# 2136 - Lioava
+# County Title
+title = c_lioava
+# Settlements
+max_settlements = 1
+
+
+b_lioava = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nishonaru
+religion = shinoi
+996.6.9={
+	culture = kingiongaiwi
+}
+1012.6.9={
+	religion = purakau_ao_kohatu
+}

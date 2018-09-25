@@ -1,0 +1,14 @@
+# 2075 - Olena
+# County Title
+title = c_olena
+# Settlements
+max_settlements = 1
+
+
+b_olena = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

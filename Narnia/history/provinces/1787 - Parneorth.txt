@@ -1,0 +1,14 @@
+# 1787 - Parneorth
+# County Title
+title = c_parneorth
+# Settlements
+max_settlements = 5
+
+
+b_parneorth = castle
+b_huliras = city
+b_palensra = temple
+
+# Misc
+culture = mellounian
+religion = mellounian_law

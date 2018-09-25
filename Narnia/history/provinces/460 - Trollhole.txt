@@ -1,0 +1,13 @@
+# 460 - Trollhole
+# County Title
+title = c_trollhole
+# Settlements
+max_settlements = 1
+
+b_trollhole = castle
+#b_mushroom_caverns = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = black_dwarf
+religion = white_witch

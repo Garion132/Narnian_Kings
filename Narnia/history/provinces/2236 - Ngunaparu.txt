@@ -1,0 +1,20 @@
+# 2236 - Ngunaparu
+# County Title
+title = c_ngunaparu
+# Settlements
+max_settlements = 1
+
+
+b_ngunaparu = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+religion = lavurite
+culture = uyirimerku
+996.6.9={
+	culture = tangatawhetu
+}
+1023.5.9={
+	religion = purakau_ao_kohatu
+}

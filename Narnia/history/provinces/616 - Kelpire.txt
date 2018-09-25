@@ -1,0 +1,13 @@
+# 616 - Kelpire
+# County Title
+title = c_kelpire
+# Settlements
+max_settlements = 1
+
+b_kelpire = tribal
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = vyric
+religion = white_witch

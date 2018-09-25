@@ -1,0 +1,13 @@
+# 720 - Zalindreh Bay
+# County Title
+title = c_zalindreh_bay
+# Settlements
+max_settlements = 2
+
+b_zalindreh_bay = castle
+b_zalintash = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,14 @@
+# 2287 - Saelo
+# County Title
+title = c_saelo
+# Settlements
+max_settlements = 1
+
+
+b_saelo = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = vindi
+religion = quallis

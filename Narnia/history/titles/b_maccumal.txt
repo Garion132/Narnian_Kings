@@ -1,0 +1,7 @@
+1.1.1={
+	holding_dynasty = 60
+	liege="k_shannan"
+}
+990.2.4={
+	holder=80000
+}

@@ -1,0 +1,123 @@
+Mellounian_road = {
+	wealth = 230	# Total base wealth of silk route
+	
+	trade_post_display_trigger = {
+		#OR = {
+			
+			#province_id = 1330
+			#province_id = 662
+			#province_id = 666
+			#province_id = 547
+			#province_id = 739
+			#province_id = 327
+			#province_id = 668
+			#province_id = 337
+		#}
+	}
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.15
+		city_tax_modifier = 0.15
+		temple_tax_modifier = 0.15
+		trade_route_value = 1.5
+		local_movement_speed = 0.20
+		tech_growth_modifier = 0.20
+		icon = 4
+	}
+	start = {				# Start provinces of trade route
+		1769 # Mellounia
+		1636 # Denimbar
+		#662 # Tashbaan (temp)
+	}
+	#Mellounia-Axol
+	path = {	#
+		1769 1771 1785 1775 1938 1937 1942
+	}
+	#Axol - Zalendreh
+	path = {	#
+		1942 1940 1943 1961 1790 1967 1884 1877 1878 1876 743 3 732 66 719 66 65 64 666
+	}
+	#Mellounia internal
+	path = {	#
+		1769 1770 1802 1801 1800 1812 1811 1809 1837
+	}
+	# Into Korozmei
+	path = {	#
+		1837 1836 2062 2061 2060 1375 1374
+	}
+	# Mellounia-Mialouz
+	path = {	#
+		1837 1836 1833 1830 1828 774 773 772 739
+	}
+	#South-Sjerne
+	path = {	#
+		1636 258 257 256 1653 1648 1646 1637 1638 1639 7 1524
+	}
+	# Northern Korozmei route
+	path = {	# 
+		1374 1358 1359 1369 1371 1394 1395 1396 1057 1055 1054 1051 1049 1047 1038
+	}
+	# Riunea-Foreshia
+	path = {	# 
+		1038 147 230 229 931 228 937
+	}
+	# Foreshia-Koraly
+	path = {	# 
+		937 911 909 870 868
+	}
+	# Foreshia-Shannan
+	path = {	# 
+		937 244 245 966 246 946 247 949 248 960 249 250 985 986 251 990 252 253 254 5 1058
+	}
+	# Nova Petersburg-Fernasburg
+	path = {	# 
+		1374 1358 1360 1362 1364 1367 1383 1384 1386
+	}
+	# Fernasburg-Stjerne route
+	path = {	# 
+		1386 1388 1487 1488 1489 6 1524
+	}
+	# Stjerne-Wilnfords
+	path = {	# 
+		1524 8 1495 1496 1459 1462 241 1451 241 1464 240 1448 238 
+	}
+	# Wilnfords-Riunea
+	path = {	# 
+		238 1447 236 1484 1482 1480 234 233 148 1431 148 232 231 1038
+	}
+	# Wilnfords-Old Dylis
+	path = {	# 
+		238 1447 236 1484 1482 1480 1510 1508 1509 1515 1516 1352 1351 1339 1337 1317 1333 1331 1330
+	}
+	# Koraly-Telmar
+	path = {	# 
+		868 869 874 876 878 867 864 863 854 853 838 839 835 834 822 823 805 803
+	}
+	# Ilkeen river route
+	path = {	# 
+		 739 742 740 735 682 679 678 676 677 662
+	}
+	# Azimbalda-Kalorius route
+	path = {	# 
+		739 755 703 704 709 708 711 714 716 720 719 66 65 64 666
+	}
+	# Tashbaan-Anvard
+	path = {	# 
+		662 661 660 553 549 548 547
+	}
+	# Tashbaan-Kalorius
+	path = {	# 
+		662 663 664 665 666
+	}
+	# Kalorius-Lone islands
+	path = {	# 
+		666 64 63 62 327 61 668 328 329 337
+	}
+	# Anvard-rushpass-Cair Paravel
+	path = {	# 
+		547 551 574 575 383 372 373 374 344 339 338 337
+	}
+	# Anvard-Narnia pass-Cair Paravel
+	path = {	# 
+		547 551 552 554 555 556 563 564 565 568 569 349 348 343 340 338 337
+	}
+}

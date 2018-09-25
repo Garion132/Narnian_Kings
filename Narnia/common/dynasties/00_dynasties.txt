@@ -1,0 +1,1302 @@
+1={
+	name="of Narnia"
+	culture="narnian"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 0
+			emblem = 0
+			color = 3
+			color = 11
+			color = 11
+		}
+	}
+	used_for_random=no
+}
+2={
+	name="of Charn"
+	culture="charn"
+	religion="white_witch"
+	used_for_random=no
+}
+3={
+	name="Pevensie"
+	culture="english"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 0
+			emblem = 1
+			color = 7
+			color = 7
+			color = 7
+		}
+	}
+	used_for_random=no
+}
+4={
+	name="de Telmar"
+	culture="telmarine"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 8
+			emblem = 0
+			color = 5
+			color = 8
+			color = 8
+		}
+	}
+	used_for_random=no
+}
+5={
+	name="Narnia"
+	culture="narnian"
+	used_for_random=yes
+}
+6={
+	name="de Rushford"
+	culture="telmarine"
+	used_for_random=no
+}
+7={
+	name="Tashkan"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	culture="calormen"
+	used_for_random=no
+}
+8={
+	name="Bullhorn"
+	culture="minotaur"
+	used_for_random=no
+}
+9={
+	name="Ettinsrock"
+	culture="ettins"
+}
+10={
+	name="Harfang"
+	culture="harfang_giant"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random=no
+}
+11={
+	name="Ettinsenarm"
+	culture="ettins"
+}
+12={
+	name="Skygazer"
+	culture="centaur"
+}
+13={
+	name="Grum"
+	culture="lone_islander"
+}
+14={
+	name="Telgalma"
+	culture="telmarine"
+}
+15={
+	name="Ava"
+	culture="lone_islander"
+}
+16={
+	name="Deliur"
+	culture="lone_islander"
+}
+17={
+	name="Juelis"
+	culture="lone_islander"
+}
+18={
+	name="Tuelaio"
+	culture="lone_islander"
+}
+20={
+	name="Terebinth"
+	culture="terebinthian"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random=no
+}
+31={
+	name="Ironaxe"
+	culture_group="dwarf"
+}
+32={
+	name="Coalhammer"
+	culture_group="dwarf"
+}
+33={
+	name="Steelpick"
+	culture_group="dwarf"
+}
+34={
+	name="Xexsares"
+	culture_group="calormen"
+}
+35={
+	name="Kollasha"
+	culture_group="calormen"
+}
+36={
+	name="Dagash"
+	culture_group="calormen"
+}
+37={
+	name="Kaloresa"
+	culture_group="calormen"
+}
+38={
+	name="Uyisla"
+	culture_group="calormen"
+}
+39={
+	name="Weszash"
+	culture_group="calormen"
+}
+40={
+	name="Azim"
+	culture_group="calormen"
+}
+41={
+	name="Yuilizash"
+	culture_group="calormen"
+}
+42={
+	name="Ilyuiliza"
+	culture_group="calormen"
+}
+43={
+	name="Salzlia"
+	culture_group="calormen"
+}
+44={
+	name="Alash"
+	culture="calormen"
+}
+45={
+	name="Jalish"
+	culture="calormen"
+}
+46={
+	name="Zalin"
+	culture="calormen"
+}
+47={
+	name="Telzim"
+	culture="calormen"
+}
+50={
+	name="De Koraly"
+	culture="koramarine"
+	used_for_random=no
+}
+51={
+	name="Desha"
+	culture="teldesteira"
+}
+52={
+	name="Shesh"
+	culture="teldesteira"
+}
+53={
+	name="Riuneal"
+	culture="koramarine"
+}
+60={
+	name="MacCumal"
+	culture="irish"
+}
+61={
+	name="Luna"
+	culture="irish"
+}
+62={
+	name="Ua Conought"
+	culture="irish"
+}
+63={
+	name="Ua Iresa"
+	culture="irish"
+}
+64={
+	name="Ua Eire"
+	culture="irish"
+}
+65={
+	name="MacSemtial"
+	culture="irish"
+}
+67 = {
+	name = "Uan Leoira"
+	culture = "irish"
+}
+68 = {
+	name = "Macarthurian"
+	culture = "irish"
+}
+70={
+	name="Ioepea"
+	culture="koramarine"
+}
+71={
+	name="Liwian"
+	culture="koramarine"
+}
+72={
+	name="Werasan"
+	culture="koramarine"
+}
+73={
+	name="Farcis"
+	culture="telmarine"
+}
+74={
+	name="De Holarin"
+	culture="telmarine"
+}
+75={
+	name="Ve Cadis"
+	culture="telmarine"
+}
+80={
+	name="Buffin"
+	culture="narnian"
+}
+81={
+	name="Sliverrune"
+	culture="black_dwarf"
+}
+82={
+	name="Deran"
+	culture="calormen"
+}
+83={
+	name="Goldchain"
+	culture="black_dwarf"
+}
+84={
+	name="Coalforged"
+	culture="black_dwarf"
+}
+85={
+	name="Kerialan"
+	culture="koramarine"
+}
+86={
+	name="Willows"
+	culture="archen"
+}
+87={
+	name="Tarkaan"
+	culture="calormen"
+	used_for_random=no
+}
+88={
+	name="Oakmen"
+	culture="seven_islander"
+	coat_of_arms = {
+		template = 2
+		layer = {
+			texture = 2
+			texture_internal = 0
+			emblem = 0
+			color = 11
+			color = 8
+			color = 4
+		}
+		layer = {
+			texture = 2
+			texture_internal = 0
+			emblem = 0
+			color = 11
+			color = 1
+			color = 1
+		}
+	}
+	used_for_random=no
+}
+89={
+	name="Soltuil"
+	culture="outer_islander"
+	used_for_random=no
+}
+90={
+	name="Armarn"
+	culture="outer_islander"
+	used_for_random=no
+}
+92={
+	name="Colmanson"
+	culture="outer_islander"
+}
+91={
+	name="Karling"
+	culture="frankish"
+	used_for_random=no
+}
+93={
+	name="Ralian"
+	religion_group = "celtic"
+}
+94={
+	name="Kerriun"
+}
+95={
+	name="Von Stattan"
+	religion_group = "aryan"
+}
+96={
+	name="Kerriun"
+	religion_group = "aslan"
+}
+99={
+	name="Hitler"
+	religion = aryan
+}
+100 = {#Dylis Tiral
+	name = "Ua Dylis"
+	culture = "irish"
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 4
+			emblem = 0
+			color = 3
+			color = 11
+			color = 11
+		}
+	}
+}
+101={
+	name="Varistil"
+	religion_group = "dragon_worship"
+}
+102={
+	name="Malkath"
+	religion_group = "pamyatrossii"
+}
+103={
+	name="af Stjerne"
+	religion_group = "pamyatrossii"
+	culture = nord
+}
+104={
+	name="af Himmelen"
+	religion_group = "pamyatrossii"
+	culture = nord
+}
+105={
+	name="Renlin"
+	religion_group = "pamyatrossii"
+	culture = nord
+}
+106={
+	name="Tulveash"
+	culture="calormen"
+}
+107={
+	name="Selfords"
+	culture="calormen"
+}
+108={
+	name="Culraan"
+	culture="scottish"
+	religion_group = "tash"
+}
+109={
+	name="Seltonas"
+	culture="calormen"
+}
+110={
+	name="Tetihish"
+	culture="calormen"
+}
+111={
+	name="Makodin"
+	culture="lone_islander"
+}
+112={
+	name="Salanvin"
+	culture="lone_islander"
+}
+113={
+	name="Mizrana"
+	culture="calormen"
+}
+114={
+	name="Dartum"
+	#culture="calormen"
+}
+115={
+	name="Vægor"
+	culture="uyirian_merku"
+}
+116={
+	name="Annarth"
+	culture="culture_ienorian"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 9
+			emblem = 0
+			color = 5
+			color = 1
+			color = 1
+		}
+	}
+}
+117={
+	name="Laninster"
+	#religion_group = "mellounian_law"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 7
+			emblem = 0
+			color = 3
+			color = 11
+			color = 11
+		}
+	}
+	used_for_random=no
+}
+118={
+	name="Rulan"
+	culture="esliterman"
+}
+119={
+	name="Oldvine"
+	culture="esliterman"
+}
+120={
+	name="Goldwall"
+	culture="esliterman"
+}
+121={
+	name="Reacha"
+	culture="esliterman"
+}
+122={
+	name="Tarls"
+	culture="esliterman"
+}
+123={
+	name="Charnel"
+	culture="esliterman"
+}
+124={
+	name="Torna"
+	culture="esliterman"
+}
+125={
+	name="Verik"
+	culture="esliterman"
+}
+126={
+	name="Oltarn"
+	culture="esliterman"
+}
+127={
+	name="Koliran"
+	culture="esliterman"
+}
+128={
+	name="Julirau"
+	culture="esliterman"
+}
+129={
+	name="Greyclaw"
+	culture="esliterman"
+}
+130={
+	name="Tainholer"
+	culture="esliterman"
+}
+131={
+	name="Nirua"
+	culture="esliterman"
+	coat_of_arms = {
+		template = 1
+		layer = {
+			texture = 10
+			texture_internal = 24
+			emblem = 0
+			color = 1
+			color = 14
+			color = 14
+		}
+		layer = {
+			texture = 14
+			texture_internal = 6
+			emblem = 0
+			color = 5
+			color = 14
+			color = 14
+		}
+	}
+}
+132={
+	name="Dinan"
+	culture="esliterman"
+}
+133={
+	name="Folder"
+	culture="esliterman"
+}
+134={
+	name="Andana"
+	culture="kingiongaiwi"
+}
+135={
+	name="Taninan"
+	culture="esliterman"
+}
+136={
+	name="Ironmade"
+	culture="black_dwarf"
+}
+137={
+	name="Badapple"
+	culture="vyric"
+	random = no
+}
+138={
+	name="Chionia"
+	culture="chionmen"
+}
+139={
+	name="Riphin"
+	culture="chionmen"
+}
+140={
+	name="Faena"
+	culture="chionmen"
+}
+141={
+	name="Ellyra"
+	culture="chionmen"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 34
+			emblem = 0
+			color = 5
+			color = 3
+			color = 1
+		}
+	}
+	random = no
+}
+142={
+	name="Greeneye"
+	culture="reinor"
+}
+143={
+	name="Larnia"
+	culture="reinor"
+}
+144={
+	name="Hartmann"
+	culture="reinor"
+}
+145={
+	name="Telair"
+	culture="reinor"
+}
+146={
+	name="Minas"
+	culture="pelligdian"
+}
+147={
+	name="Synn"
+	culture="pelligdian"
+}
+148={
+	name="Wensa"
+	culture="cerek"
+}
+149={
+	name="Belak"
+	culture="cerek"
+}
+150={
+	name="Talio"
+}
+151={
+	name="Dios"
+}
+152={
+	name="Reme"
+}
+153={
+	name="Kirene"
+}
+154={
+	name="Varna"
+}
+155={
+	name="Tanilion"
+}
+156={
+	name="Millersfound"
+}
+157={
+	name="Vurlios"
+}
+158={
+	name="Nena"
+}
+159={
+	name="De Iasesh"
+}
+160={
+	name="De Iashan"
+}
+161={
+	name="Menia"
+}
+162={
+	name="Polan"
+	culture="esliterman"
+}
+163={
+	name="Varden"
+}
+164={
+	name="Darraden"
+}
+165={
+	name="Culron"
+	culture="esliterman"
+}
+166={
+	name="Zunrei"
+	culture="esliterman"
+}
+167={
+	name="Of Busren"
+	culture="esliterman"
+}
+168={
+	name="Karrocks"
+}
+169={
+	name="Kathin"
+}
+170={
+	name="Falken"
+}
+171={
+	name="af Olkush"
+}
+172={
+	name="Amos"
+}
+173={
+	name="Avanster"
+	culture="irish"
+	random = no
+}
+174={
+	name="Avr"
+	culture="irish"
+	random = no
+}
+175={
+	name="Ua Leins"
+	culture="irish"
+	random = no
+}
+176={
+	name="Barrs"
+	culture="irish"
+	random = no
+}
+177={
+	name="Farsight"
+	culture="irish"
+}
+178={
+	name="Faetoughed"
+	culture="irish"
+}
+179={
+	name="Ua Guinevera"
+	culture="irish"
+	random = no
+}
+180={
+	name="Osters"
+	culture="irish"
+	random = no
+}
+181={
+	name="Finnchú"
+	culture="irish"
+	random = no
+}
+182={
+	name="Kori"
+	random = no
+}
+183={
+	name="Bara"
+	random = no
+}
+184={
+	name="Helin"
+	random = no
+}
+185={
+	name="Badwolves"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 2
+			emblem = 0
+			color = 6
+			color = 15
+			color = 15
+		}
+	}
+	random = no
+}
+186={
+	name="Chol"
+	random = no
+}
+187={
+	name="Tain"
+	random = no
+}
+188={
+	name="Oom Farer"
+	random = no
+}
+189={
+	name="Promord"
+	random = no
+}
+190={
+	name="Cathles"
+	random = no
+}
+191={
+	name="Stormrock"
+	random = no
+}
+192={
+	name="Millers"
+	random = no
+}
+193={
+	name="Starlk"
+	random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 2
+			emblem = 0
+			color = 5
+			color = 1
+			color = 1
+		}
+	}
+}
+194={
+	name="Ouere"
+	random = no
+}
+195={
+	name="Tolmans"
+	random = no
+}
+196={
+	name="Felun"
+	random = no
+}
+197={
+	name="Kourn"
+	random = no
+}
+198={
+	name="Greengloved"
+	random = no
+}
+199={
+	name="Tarsand"
+	random = no
+}
+200={
+	name="Ua macColin"
+	random = no
+}
+201={
+	name="Peridan"
+	random = no
+}
+202={
+	name="Oreadia"
+	random = no
+}
+203={
+	name="Calennor"
+	random = no
+}
+204={
+	name="Slivercoat"
+	random = no
+}
+205={
+	name="Fleethoof"
+	random = no
+}
+206={
+	name="Cloudrunner"
+	random = no
+}
+500={
+	name="Lori"
+	religion_group = "siniia"
+}
+501={
+	name="Korna"
+	religion_group = "siniia"
+}
+502={
+	name="Ochion"
+	religion_group = "siniia"
+}
+503={
+	name="Nobuto"
+	religion_group = "siniia"
+}
+504={
+	name="Naaka"
+	religion_group = "siniia"
+}
+505={
+	name="Oda"
+	religion_group = "siniia"
+}
+506={
+	name="Kilda"
+	religion_group = "siniia"
+}
+507={
+	name="Varilt"
+	religion_group = "siniia"
+}
+508={
+	name="Yosh"
+	religion_group = "siniia"
+}
+509={
+	name="Muneda"
+	religion_group = "siniia"
+}
+510={
+	name="Natao"
+	religion_group = "siniia"
+}
+1000={
+	name="O'Connell"
+	religion_group = "celtic"
+}
+1001={
+	name="O'Reily"
+	religion_group = "celtic"
+}
+1002={
+	name="Ua Lendith"
+	religion_group = "celtic"
+}
+1003={
+	name="Athlme"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 3
+			emblem = 0
+			color = 3
+			color = 11
+			color = 11
+		}
+	}
+	used_for_random=no
+}
+1004={
+	name="Koldenvar"
+	religion_group = "pamyatrossii"
+}
+1005={
+	name="Sergin"
+	religion_group = "pamyatrossii"
+}
+1006={
+	name="Tenveris"
+	religion_group = "pamyatrossii"
+}
+1007={
+	name="Windlem"
+	religion_group = "pamyatrossii"
+}
+1008={
+	name="Carlsson"
+	religion_group = "pamyatrossii"
+}
+1009={
+	name="Tarek"
+	religion_group = "pamyatrossii"
+}
+1010={
+	name="Koromult"
+	religion_group = "pamyatrossii"
+}
+1011={
+	name="Kolen"
+	religion_group = "pamyatrossii"
+}
+1012={
+	name="Fernvse"
+	religion_group = "pamyatrossii"
+}
+1013={
+	name="Ilioz"
+	religion_group = "pamyatrossii"
+}
+1014={
+	name="Tiraan"
+	religion_group = "pamyatrossii"
+}
+1015={
+	name="Valarin"
+	religion_group = "viirenscari"
+}
+1016={
+	name="Saris"
+	religion_group = "savra"
+}
+1017={
+	name="Tulvaim"
+	religion_group = "mellounian_law"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 8
+			emblem = 0
+			color = 3
+			color = 11
+			color = 11
+		}
+	}
+}
+1018={
+	name="Xaen"
+	religion_group = "mellounian_law"
+}
+1019={
+	name="Karne"
+	#religion_group = "mellounian_law"
+}
+1020={
+	name="Enil"
+	#religion_group = "mellounian_law"
+}
+
+1021={
+	name="Eldain"
+	religion = "eru"
+}
+1022={
+	name="Oralu"
+	religion = "eru"
+}
+1023={
+	name="Liene"
+	random = no
+}
+1024={
+	name="Tiven"
+	#religion_group = "mellounian_law"
+}
+1025={
+	name="Shala"
+	#religion_group = "mellounian_law"
+}
+1026={
+	name="Teluio"
+	#religion_group = "mellounian_law"
+}
+1027={
+	name="Calcran"
+	#religion_group = "mellounian_law"
+}
+1028={
+	name="Turasen"
+	#religion_group = "mellounian_law"
+}
+1029={
+	name="Gravin"
+	#religion_group = "mellounian_law"
+}
+1030={
+	name="Caira"
+	#religion_group = "mellounian_law"
+}
+1031={
+	name="Toilir"
+	#religion_group = "mellounian_law"
+}
+1032={
+	name="Litare"
+	#religion_group = "mellounian_law"
+}
+1033={
+	name="Tesmonsa"
+	#religion_group = "mellounian_law"
+}
+1034={
+	name="Opan"
+	#religion_group = "mellounian_law"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 5
+			color = 5
+		}
+	}
+}
+1035={
+	name="Lichana"
+	#religion_group = "mellounian_law"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 5
+			emblem = 0
+			color = 3
+			color = 11
+			color = 11
+		}
+	}
+	used_for_random=no
+	
+}
+1036={
+	name="Pallentine"
+	#religion_group = "mellounian_law"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 6
+			emblem = 0
+			color = 3
+			color = 11
+			color = 11
+		}
+	}
+	used_for_random=no
+}
+1037={
+	name="Axoclia"
+	#religion_group = "mellounian_law"
+	random = yes
+}
+1038={
+	name="Carina"
+	#religion_group = "mellounian_law"
+}
+
+1039={
+	name="Elliaon"
+	#religion_group = "mellounian_law"
+}
+1040={
+	name="Ilaba"
+	#religion_group = "mellounian_law"
+}
+1041={
+	name="Wuiyen"
+	#religion_group = "mellounian_law"
+}
+1042={
+	name="Redwind"
+	#religion_group = "mellounian_law"
+}
+1043={
+	name="Overhill"
+	#religion_group = "mellounian_law"
+}
+1044={
+	name="Kolta"
+	religion_group = "siniia"
+}
+1045={
+	name="Tolna"
+	religion_group = "siniia"
+}
+1046={
+	name="Naomasa"
+	religion_group = "siniia"
+}
+1047={
+	name="Kana"
+	religion_group = "siniia"
+}
+1048={
+	name="Suke"
+	religion_group = "siniia"
+}
+1049={
+	name="Mima"
+	#religion_group = "mellounian_law"
+}
+1050={
+	name="Dylin"
+	#religion_group = "mellounian_law"
+	culture = irish
+	random = no
+}
+1051={
+	name="Ua Holymound"
+	#religion_group = "mellounian_law"
+	culture = irish
+	random = no
+}
+1052={
+	name="Ua Quartzmine"
+	#religion_group = "mellounian_law"
+	culture = irish
+	random = no
+}
+1053={
+	name="Ua Highpare"
+	#religion_group = "mellounian_law"
+	culture = irish
+	random = no
+}
+1054={
+	name="Ua Lowmond"
+	#religion_group = "mellounian_law"
+	culture = irish
+	random = no
+}
+1055={
+	name="Ua Goodwater"
+	#religion_group = "mellounian_law"
+	culture = irish
+	random = no
+}
+1056={
+	name="Awa"
+	#religion_group = "mellounian_law"
+	culture = nihonaru
+	random = no
+}
+1057={
+	name="Lovian"
+	#religion_group = "mellounian_law"
+	culture = nihonaru
+	random = no
+}
+1058={
+	name="Arna"
+	#religion_group = "mellounian_law"
+	culture = nihonaru
+	random = no
+}
+1059={
+	name="Rivin"
+	#religion_group = "mellounian_law"
+	culture = irish
+	random = no
+}
+1060={
+	name="Kurai"
+	#religion_group = "mellounian_law"
+	culture = nihonaru
+	random = no
+}
+1061={
+	name="Karite"
+	#religion_group = "mellounian_law"
+	culture = uyirian
+	random = no
+}
+1062={
+	name="Raruna"
+	#religion_group = "mellounian_law"
+	culture = nihonaru
+	random = no
+}
+1063={
+	name="Sina"
+	#religion_group = "mellounian_law"
+	culture = nihonaru
+}
+1064={
+	name="Nilkroc"
+	#religion_group = "mellounian_law"
+}
+1065={
+	name="Zuria"
+	#religion_group = "mellounian_law"
+}
+1066={
+	name="Varian"
+	#religion_group = "mellounian_law"
+}
+1067={
+	name="Ozonia"
+	#religion_group = "mellounian_law"
+}

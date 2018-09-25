@@ -1,0 +1,697 @@
+#archenlnad rulers 2000-2200
+#non-cannon
+2000 = {
+	name="Cole" #1st king of Archenland
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=1007
+	194.2.1={
+		birth="194.2.1"
+		wealth=600
+	}
+	256.6.4={
+		death="256.6.4"
+	}
+}
+2001 = {
+	name="Cole" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2000
+	220.2.1={
+		birth="220.2.1"
+	}
+	302.6.4={
+		death="302.6.4"
+	}
+}
+2002 = {
+	name="Frank" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2001
+	240.2.1={
+		birth="240.2.1"
+	}
+	321.6.1={
+		death="321.6.1"
+	}
+}
+2003 = {
+	name="Col" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2002
+	281.2.1={
+		birth="281.2.1"
+	}
+	348.6.4={
+		death="348.6.4"
+	}
+}
+2004 = {
+	name="Col" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2003
+	299.8.1={
+		birth="299.8.1"
+	}
+	386.6.4={
+		death="386.6.4"
+	}
+}
+2005 = {
+	name="Frank" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	father=2004
+	add_trait="child_of_adam_or_eve"
+	323.8.1={
+		birth="323.8.1"
+	}
+	390.7.14={
+		death="390.7.14"
+	}
+}
+2006 = {
+	name="Frank" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2004
+	347.8.1={
+		birth="347.8.1"
+	}
+	399.6.15={
+		death="399.6.15"
+	}
+}
+#cannon
+2011 = {
+	name="Olvin" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	father=2006
+	add_trait="child_of_adam_or_eve"
+	384.1.8={
+		birth="384.1.8"
+	}
+	407.6.10={add_spouse=2012}
+	425.2.20={
+		death="425.2.20"
+	}
+}
+2012 = {
+	name="Liln" #
+	religion="aslan"
+	culture="archen"
+	female=yes
+	387.7.1={
+		birth="387.7.1"
+	}
+	423.4.3={
+		death="423.4.3"
+	}
+}
+#non-cannon
+2013 = {
+	name="James" # unknown Period, placeholder "line of" characture (for now?)
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2011
+	mother=2012
+	408.8.1={
+		birth="408.8.1"
+	}
+	485.12.4={
+		death="989.12.4"
+	}
+}
+2014 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2013
+	#mother=2012
+	431.4.25={
+		birth="431.4.25"
+	}
+	502.5.27={
+		death="502.5.27"
+	}
+}
+2015 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2014
+	#mother=2012
+	460.2.17={
+		birth="460.2.17"
+	}
+	542.7.29={
+		death="542.7.29"
+	}
+}
+2016 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2015
+	#mother=2012
+	485.6.24={
+		birth="485.6.24"
+	}
+	563.11.17={
+		death="563.11.17"
+	}
+}
+2017 = {
+	name="Cole" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2016
+	#mother=2012
+	502.3.18={
+		birth="502.3.18"
+	}
+	595.8.25={
+		death="595.8.25"
+	}
+}
+2018 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2017
+	#mother=2012
+	535.2.11={
+		birth="535.2.11"
+	}
+	610.3.14={
+		death="610.3.14"
+	}
+}
+2019 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2018
+	#mother=2012
+	559.6.29={
+		birth="559.6.29"
+	}
+	642.5.9={
+		death="642.5.9"
+	}
+}
+2020 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2019
+	#mother=2012
+	585.2.14={
+		birth="585.2.14"
+	}
+	651.4.21={
+		death="651.4.21"
+	}
+}
+2021 = {
+	name="Frank" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2020
+	#mother=2012
+	608.6.12={
+		birth="585.2.14"
+	}
+	654.9.14={
+		death="654.9.14"
+	}
+}
+2022 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2021
+	#mother=2012
+	630.2.27={
+		birth="630.2.27"
+	}
+	696.12.21={
+		death="696.12.21"
+	}
+}
+2023 = {
+	name="Cor" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2022
+	#mother=2012
+	652.4.14={
+		birth="652.4.14"
+	}
+	714.5.28={
+		death="714.5.28"
+	}
+}
+2024 = {
+	name="Daverin" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2023
+	#mother=2012
+	681.2.4={
+		birth="681.2.4"
+	}
+	743.8.12={
+		death="743.8.12"
+	}
+}
+2025 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2024
+	#mother=2012
+	705.3.7={
+		birth=yes
+	}
+	764.4.23={
+		death=yes
+	}
+}
+2026 = {
+	name="Cavarn" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2025
+	#mother=2012
+	722.4.21={
+		birth=yes
+	}
+	789.9.13={
+		death=yes
+	}
+}
+2027 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2026
+	#mother=2012
+	751.8.19={
+		birth=yes
+	}
+	814.5.21={
+		death=yes
+	}
+}
+2028 = {
+	name="Cavarn" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2027
+	#mother=2012
+	779.3.18={
+		birth=yes
+	}
+	854.2.15={
+		death=yes
+	}
+}
+2029 = {
+	name="Cavarn" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2028
+	#mother=2012
+	799.8.11={
+		birth=yes
+	}
+	863.4.8={
+		death=yes
+	}
+}
+2030 = {
+	name="Illasid" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2029
+	#mother=2012
+	823.4.22={
+		birth=yes
+	}
+	889.3.17={
+		death=yes
+	}
+}
+2031 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2030
+	#mother=2012
+	851.5.11={
+		birth=yes
+	}
+	910.10.30={
+		death=yes
+	}
+}
+2032 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2031
+	#mother=2012
+	878.9.20={
+		birth=yes
+	}
+	941.3.24={
+		death=yes
+	}
+}
+2033 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2032
+	#mother=2012
+	899.2.10={
+		birth=yes
+	}
+	978.2.28={
+		death=yes
+	}
+}
+2034 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2033
+	#mother=2012
+	923.6.25={
+		birth=yes
+	}
+	989.12.4={
+		death=yes
+	}
+}
+2035 = {
+	name="James" # unknown Period, 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	add_trait="child_of_adam_or_eve"
+	father=2034
+	#mother=2012
+	946.9.14={
+		birth = yes
+	}
+	980.11.23={
+		death = yes
+	}
+}
+2036 = {
+	name="Swanwhite" # 
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	female = yes
+	add_trait="child_of_adam_or_eve"
+	father=2034
+	#mother=2012
+	943.6.14={
+		birth = yes
+	}
+	994.7.24={
+		death = yes
+	}
+}
+2037 = {
+	name="James" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	father=2035
+	add_trait="child_of_adam_or_eve"
+	975.8.29={
+		birth=yes
+	}
+	1054.2.8={
+		death=yes
+	}
+}
+#cannon
+2100 = {
+name="Lune" #
+	dynasty=1
+	dna = bjlfkegcabf
+	religion="aslan"
+	culture="archen"
+	father=2035
+	martial=12
+	stewardship=11
+	add_trait="child_of_adam_or_eve"
+	add_trait="diligent"
+	974.1.8={
+		birth="974.1.8"
+		wealth=400
+	}
+	991.6.8={
+		add_spouse = 70171
+		add_trait = "humble"
+	}
+	999.4.17={
+		add_trait="celibate"
+	}
+	1020.4.4={
+		death="1020.4.4"
+	}
+}
+2101 = {
+name = "Cor" #
+	dynasty = 1
+	religion = "aslan"
+	culture = "archen"
+	father = 2100
+	mother = 70171
+	add_trait = "twin"
+	add_trait = "child_of_adam_or_eve"
+	add_trait="lost_from_birth"
+	999.4.17 = {
+		birth = "999.4.17"
+	}
+	999.12.30 = { effect={ add_betrothal = 2103 } }
+	1012.5.6 = { 
+		effect={ add_friend = 2103 } 
+		remove_trait = "lost_from_birth"
+	}
+	1019.6.10 = { add_spouse = 2103 }
+	1050.12.1 = {
+		death = "1050.12.1"
+	}
+}
+2102 = {
+name="Corin" #
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	father = 2100
+	mother = 70171
+	add_trait="twin"
+	add_trait="child_of_adam_or_eve"
+	999.4.17={
+		birth="999.4.17"
+	}
+	1046.9.29={
+		death="1046.9.29"
+	}
+}
+2103 = {
+name="Aravis" #see calormen
+	religion="aslan"
+	culture="calormen"
+	dynasty=7
+	female=yes
+	father=40105
+	999.12.29={
+		birth="999.12.29"
+		employer=2100
+		effect={add_friend=2101}
+	}
+	1049.2.20={
+		death="1049.2.20"
+	}
+}
+2104 = {
+name="Ram" #"the great"
+	dynasty=1
+	religion="aslan"
+	culture="archen"
+	father = 2101
+	mother = 2103
+	add_trait="child_of_adam_or_eve"
+	1021.1.8={
+		birth="1021.1.8"
+	}
+	1051.2.4={give_nickname = "nick_the_great"}
+	1078.4.21={
+		death="1078.4.21"
+	}
+}
+#archenland 2200-4000
+2200 = {
+name="Eric" 
+	dynasty=86
+	religion="aslan"
+	culture="archen"
+	#father = 2101
+	#mother = 2103
+	#add_trait="child_of_adam_or_eve"
+	971.3.14={
+		birth="971.3.14"
+	}
+	1051.4.14={
+		death="1051.4.14"
+	}
+}
+2300 = {
+name="Sedric" 
+	dynasty=87
+	religion="aslan"
+	culture="archen"
+	#father = 2101
+	#mother = 2103
+	#add_trait="child_of_adam_or_eve"
+	971.3.14={
+		birth="971.3.14"
+	}
+	1051.4.14={
+		death="1051.4.14"
+	}
+}
+2400 = {
+name="Arran" 
+	dynasty=202
+	religion="aslan"
+	culture="archen"
+	#father = 2101
+	#mother = 2103
+	#add_trait="child_of_adam_or_eve"
+	947.3.21={
+		birth=yes
+	}
+	1016.4.14={
+		death=yes
+	}
+}
+2401 = {
+name="Darrin" 
+	dynasty=202
+	religion="aslan"
+	culture="archen"
+	father = 2400
+	#mother = 2103
+	#add_trait="child_of_adam_or_eve"
+	add_trait = "twin"
+	963.6.17={
+		birth=yes
+	}
+	1051.4.14={
+		death=yes
+	}
+}
+2402 = {
+name="Dar" 
+	dynasty=202
+	religion="aslan"
+	culture="archen"
+	father = 2400
+	#mother = 2103
+	#add_trait="child_of_adam_or_eve"
+	add_trait = "twin"
+	963.6.17={
+		birth=yes
+	}
+	1051.4.14={
+		death=yes
+	}
+}
+2450 = {
+	name="Shar" 
+	dynasty=203
+	religion="aslan"
+	culture="archen"
+	#father = 2101
+	#mother = 2103
+	#add_trait="child_of_adam_or_eve"
+	964.5.6={
+		birth=yes
+	}
+	1021.7.23={
+		death=yes
+	}
+}
+

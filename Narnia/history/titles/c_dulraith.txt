@@ -1,0 +1,6 @@
+880.1.1={
+	liege=k_ienor
+}
+1008.6.9={
+	liege = k_hokubukyowakoku
+}

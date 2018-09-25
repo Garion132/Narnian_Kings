@@ -1,0 +1,6 @@
+900.6.6={
+	liege = d_lourunga
+}
+996.9.17 = {
+	liege = k_dfyrid #Failed attack by the kingitangahou
+}

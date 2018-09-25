@@ -1,0 +1,19 @@
+# 339 - Helendale
+
+# County Title
+title = c_helendale
+
+# Settlements
+max_settlements = 1
+
+b_helendale = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = narnian
+religion = aslan
+
+2001.1.1={
+culture = telmarine
+}

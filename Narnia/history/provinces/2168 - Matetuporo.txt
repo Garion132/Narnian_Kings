@@ -1,0 +1,14 @@
+# 2168 - Matetuporo
+# County Title
+title = c_matetuporo
+# Settlements
+max_settlements = 1
+
+
+b_matetuporo = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = irish
+religion = caitliceann

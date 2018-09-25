@@ -1,0 +1,14 @@
+# 2415 - Vulventium
+# County Title
+title = c_vulventium
+# Settlements
+max_settlements = 1
+
+
+b_vulventium = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = vindi
+religion = quallis

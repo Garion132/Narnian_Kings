@@ -1,0 +1,43 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_society_portrait_ring_monastic_order_aslans_pure"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_order_aslans_pure.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_portrait_ring_small_monastic_order_aslans_pure"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_small_order_aslans_pure.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aslans_pure_ranks"
+		texturefile = "gfx\\interface\\societies\\rank_icons_aslans_pure.dds"
+		noOfFrames = 5
+	}
+	
+	spriteType = {
+		name = "GFX_aslans_pure_ranks_highlight"
+		texturefile = "gfx\\interface\\societies\\rank_icons_aslans_pure_highlight.dds"
+		noOfFrames = 5
+	}
+	
+	spriteType = {
+		name = "GFX_aslans_pure_ranks_locked"
+		texturefile = "gfx\\interface\\societies\\rank_icons_aslans_pure_locked.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_icon_small_monastic_order_aslans_pure"
+		texturefile = "gfx\\interface\\societies\\symbol_small_monastic_order_aslans_pure.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_society_main_background_monastic_order_aslans_pure"
+		texturefile = "gfx\\interface\\societies\\society_bg_aslans_pure.dds"
+	}
+	spriteType = {
+		name = "GFX_society_currency_order_aslans_pure"
+		texturefile = "gfx\\interface\\societies\\society_currency_order_aslans_pure.dds"
+	}
+}

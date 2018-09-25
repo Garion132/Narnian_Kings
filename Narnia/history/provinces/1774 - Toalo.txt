@@ -1,0 +1,14 @@
+# 1774 - Toalo
+# County Title
+title = c_toalo
+# Settlements
+max_settlements = 1
+
+
+b_toalo = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = jelvar
+religion = mellounian_law

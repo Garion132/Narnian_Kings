@@ -1,0 +1,13 @@
+# 989 - Ua Selesh
+# County Title
+title = c_ua_selesh
+# Settlements
+max_settlements = 1
+
+b_ua_selesh = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

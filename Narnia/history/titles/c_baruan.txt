@@ -1,0 +1,9 @@
+800.1.1={
+	liege = k_langvest
+}
+930.1.1={
+	liege = d_aroda
+}
+983.8.4={
+	holder = 98050
+}

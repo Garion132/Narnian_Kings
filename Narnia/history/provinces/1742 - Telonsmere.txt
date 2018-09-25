@@ -1,0 +1,14 @@
+# 1742 - Telonsmere
+# County Title
+title = c_telonsmere
+# Settlements
+max_settlements = 1
+
+
+b_telonsmere = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = alzuashonaru
+religion = shinoi

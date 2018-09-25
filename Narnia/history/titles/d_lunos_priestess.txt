@@ -1,0 +1,24 @@
+1.1.1={
+	holder=0
+}
+500.2.20={
+	law = succ_primogeniture
+	law = crown_authority_2
+	law = enatic_succession
+	effect = {
+		#make Lunos castle the capital
+		b_lunos = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+987.4.12={
+	holder=81000
+}

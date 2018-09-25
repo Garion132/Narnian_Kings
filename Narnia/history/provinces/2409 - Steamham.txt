@@ -1,0 +1,14 @@
+# 2409 - Steamham
+# County Title
+title = c_steamham
+# Settlements
+max_settlements = 1
+
+
+b_steamham = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = veriosian
+religion = quallis

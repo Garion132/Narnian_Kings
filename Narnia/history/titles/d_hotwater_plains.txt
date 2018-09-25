@@ -1,0 +1,6 @@
+#859.3.5={
+#	liege = d_hotwater_plains
+#}
+994.5.8={
+	holder = 125600
+}

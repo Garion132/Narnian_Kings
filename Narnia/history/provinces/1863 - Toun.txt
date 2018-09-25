@@ -1,0 +1,14 @@
+# 1863 - Toun
+# County Title
+title = c_toun
+# Settlements
+max_settlements = 1
+
+
+b_toun = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = calormen
+religion = southern_calormen_cults

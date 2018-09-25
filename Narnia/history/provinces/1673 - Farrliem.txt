@@ -1,0 +1,14 @@
+# 1673 - Farrliem
+# County Title
+title = c_farrliem
+# Settlements
+max_settlements = 1
+
+
+b_farrliem = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

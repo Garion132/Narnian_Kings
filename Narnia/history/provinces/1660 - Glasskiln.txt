@@ -1,0 +1,14 @@
+# 1660 - Glasskiln
+# County Title
+title = c_glasskiln
+# Settlements
+max_settlements = 1
+
+
+b_glasskiln = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = nord
+religion = pamyatrossii

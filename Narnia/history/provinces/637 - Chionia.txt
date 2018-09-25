@@ -1,0 +1,13 @@
+# 637 - Chionia
+# County Title
+title = c_chionia
+# Settlements
+max_settlements = 1
+
+b_chionia = city
+#b_temple_of_charn = city
+#b_witch_temple = temple
+
+# Misc
+culture = chionmen
+religion = white_witch

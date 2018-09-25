@@ -1,0 +1,13 @@
+# 519 - Giantknolls
+# County Title
+title = c_giantknolls
+# Settlements
+max_settlements = 1
+
+b_giantknolls = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = ettins
+religion = white_witch

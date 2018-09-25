@@ -1,0 +1,14 @@
+# 2038 - Pyrrena
+# County Title
+title = c_pyrrena
+# Settlements
+max_settlements = 1
+
+
+b_pyrrena = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = valii
+religion = viirenscari

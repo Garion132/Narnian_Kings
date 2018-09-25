@@ -1,0 +1,13 @@
+# 451 - Spritegrove
+# County Title
+title = c_spritegrove
+# Settlements
+max_settlements = 1
+
+b_spritegrove = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = red_dwarf
+religion = aslan

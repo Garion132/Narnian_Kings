@@ -1,0 +1,14 @@
+# 2030 - Whitewood
+# County Title
+title = c_whitewood
+# Settlements
+max_settlements = 1
+
+
+b_whitewood = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = esliterman
+religion = eloia

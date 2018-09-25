@@ -1,0 +1,10 @@
+900.6.6={
+	#liege = d_hoporunga
+}
+968.5.28={
+	holder = 85975
+}
+992.8.13 = {
+	liege = e_kingitangahou
+	holder = 86000
+}

@@ -1,0 +1,13 @@
+# 477 - Giants Bridge
+# County Title
+title = c_giants_bridge
+# Settlements
+max_settlements = 1
+
+b_giants_bridge = castle
+#b_shadysands = city
+#b_sandstone_sept = temple
+
+# Misc
+culture = harfang_giant
+religion = white_witch

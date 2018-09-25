@@ -1,0 +1,449 @@
+decisions = {
+
+	form_narnian_state  = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			is_playable = yes
+			independent = yes
+			religion_group = narnian
+			AND = {
+				k_narnia = { has_holder = no }
+				e_narnia = { has_holder = no }
+			}
+		}
+		allow = {
+			wealth = 200
+			war = no
+			prisoner = no
+			in_command = no
+			age = 16
+			AND = {##controls major centers
+				completely_controls = c_cair_paravel
+				OR={
+					completely_controls = d_beruna
+					any_independent_ruler = {
+						AND = {
+							completely_controls = d_beruna
+							pays_tribute_to = ROOT
+						}
+					}
+				}
+				OR={
+					completely_controls = d_galma
+					any_independent_ruler = {
+						AND = {
+							completely_controls = d_galma
+							pays_tribute_to = ROOT
+						}
+					}
+				}
+				OR={
+					completely_controls = c_aslans_how
+					any_independent_ruler = {
+						AND = {
+							completely_controls = c_aslans_how
+							pays_tribute_to = ROOT
+						}
+					}
+				}
+			}
+			OR = {#has the right
+				prestige = 500
+				AND = {
+					prestige = 150
+					trait = child_of_adam_or_eve
+					religion = aslan
+					c_cair_paravel = {religion = aslan}
+					c_aslans_how = {religion = aslan}
+				}
+				AND = {
+					prestige = 250
+					trait = line_of_charn
+					religion = white_witch
+					c_cair_paravel = {religion = white_witch}
+					c_aslans_how = {religion = white_witch}
+				}
+			}
+		}
+		effect = {
+			wealth = -200
+			prestige = 100
+			character_event = { id = NARCR.5 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	call_narnian_sphere_to_arms = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			is_playable = yes
+			independent = yes
+			religion_group = narnian
+			has_landed_title = k_rebel_narnia
+			NOT = { has_character_flag = called_narnian_sphere_to_arms }
+		}
+		allow = {
+			war = yes
+			prisoner = no
+			wealth = 200
+		}
+		effect = {
+			wealth = -200
+			set_character_flag = called_narnian_sphere_to_arms
+			character_event = { id = winter_reb.49 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_korozmei  = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			k_korozmei = {has_holder = no}
+			religion = pamyatrossii
+			culture = muzhchinzmei
+		}
+		allow = {
+			wealth = 200
+			war = no
+			prisoner = no
+			in_command = no
+			age = 16
+			OR={
+				AND={
+					has_landed_title = k_kariavith
+					has_landed_title = k_serinogvord
+				}
+				AND={
+					OR = {
+						has_landed_title = k_kariavith
+						has_landed_title = k_serinogvord
+					}
+					custom_tooltip = {
+					text = "Controls at least 45% of Korozmei"
+					calc_true_if = {
+						amount = 17
+						c_nova_petersburg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_solvics ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_sarvenastan ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_raevics ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_deceras ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_fernv ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_fenisburg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_fernasburg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_nova_arkhangelsk ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_uiralos ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_solkenit ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_lenvist ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_letchengrad ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_periasnburg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_uiralos ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_kregensvern ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_kallensburg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_kolursban ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_lenenbarit ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_taraenburg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_kilenberg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_denvargite ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_renninburg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_zemingrad ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_colsavict ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_zemit ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_ilioza ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_kreulinburg ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_senveniz ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_jenkariz ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_zenius ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_olizengrad ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_helagorod ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_stenenvisk ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_talesenlsk ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_solenzmei ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_stolangrad ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_kolztmere ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+						c_uilazilk ={
+							OR = {
+								holder = ROOT
+								de_facto_liege = ROOT
+								holder = {suzerain = ROOT}
+							}
+						}
+					}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			wealth = -200
+			prestige = 200
+			k_korozmei={
+				grant_title_no_opinion = ROOT
+			}
+			if = {
+				limit = {
+					has_landed_title = k_serinogvord
+				}
+				k_serinogvord ={
+					unsafe_destroy_landed_title = THIS
+				}
+			}
+			if = {
+				limit = {
+					has_landed_title = k_kariavith
+				}
+				k_kariavith ={
+					unsafe_destroy_landed_title = THIS
+				}
+			}
+			any_independent_ruler = {
+				limit = {
+					ai = no
+					NOT = { character = ROOT }
+				}
+				narrative_event = { id = WRWE.16 } # Notify players of this 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

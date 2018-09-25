@@ -1,0 +1,14 @@
+# 1944 - Tarchurku
+# County Title
+title = c_tarchurku
+# Settlements
+max_settlements = 1
+
+
+b_tarchurku = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = axol
+religion = tarutarin

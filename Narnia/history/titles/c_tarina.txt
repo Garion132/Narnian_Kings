@@ -1,0 +1,25 @@
+1.1.1={
+	holder=0
+}
+800.1.1={
+	liege = d_nenival
+}
+853.6.9={
+	holder = 81350
+}
+895.7.5={
+	holder = 81351
+}
+912.6.8={
+	liege = d_loghlanough
+	holder = 81303
+}
+956.8.16={
+	holder = 81302
+}
+978.6.7={
+	holder = 81301
+}
+989.9.27={
+	holder=81300
+}

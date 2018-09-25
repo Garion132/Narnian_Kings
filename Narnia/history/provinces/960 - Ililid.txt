@@ -1,0 +1,13 @@
+# 960 - Ililid
+# County Title
+title = c_ililid
+# Settlements
+max_settlements = 1
+
+b_ililid = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

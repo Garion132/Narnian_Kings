@@ -1,0 +1,13 @@
+# 833 - Telsan
+# County Title
+title = c_telsan
+# Settlements
+max_settlements = 1
+
+b_telsan = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tashlan

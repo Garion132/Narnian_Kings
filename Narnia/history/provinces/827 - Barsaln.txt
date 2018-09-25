@@ -1,0 +1,13 @@
+# 827 - Barsaln
+# County Title
+title = c_barsaln
+# Settlements
+max_settlements = 1
+
+b_barsaln = castle
+#b_lower_ilkeen = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = telmarine
+religion = tashlan

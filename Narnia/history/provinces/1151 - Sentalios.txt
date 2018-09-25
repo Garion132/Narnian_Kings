@@ -1,0 +1,14 @@
+# 1151 - Sentalios
+# County Title
+title = c_sentalios
+# Settlements
+max_settlements = 1
+
+
+b_sentalios = castle
+#b_shannan_city = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = irish
+religion = celtic

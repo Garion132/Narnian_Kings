@@ -1,0 +1,14 @@
+# 669 - Spur of Calore
+
+# County Title
+title = c_spur_of_calore
+# Settlements
+max_settlements = 3
+
+b_spur_of_calore = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

@@ -1,0 +1,14 @@
+# 1761 - Ryta
+# County Title
+title = c_ryta
+# Settlements
+max_settlements = 1
+
+
+b_ryta = castle
+#b_malenkith = city
+#b_tolsmin = temple
+
+# Misc
+culture = sulvarian
+religion = savra

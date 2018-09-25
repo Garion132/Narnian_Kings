@@ -1,0 +1,14 @@
+# 2334 - Telairs Mound
+# County Title
+title = c_telairs_mound
+# Settlements
+max_settlements = 2
+
+
+b_telairs_mound = castle
+b_telairs_stone = temple
+#b_tolsmin = temple
+
+# Misc
+culture = reinor
+religion = eline

@@ -1,0 +1,14 @@
+# 674 - calorach
+
+# County Title
+title = c_calorarch
+# Settlements
+max_settlements = 1
+
+b_calorarch = castle
+#b_shadysands = city
+#b_high_temple_of_tash = temple
+
+# Misc
+culture = calormen
+religion = tash

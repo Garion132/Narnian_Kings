@@ -1,0 +1,14 @@
+800.1.1={
+	liege = k_hokubukyowakoku
+}
+930.6.9={
+	liege = k_loiva
+}
+973.9.15={
+	holder = 97400
+}
+993.3.27 = {
+	#liege = e_kingitangahou
+	liege = k_iwiwhao
+	holder = 86100
+}

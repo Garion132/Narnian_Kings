@@ -1,0 +1,17 @@
+#800.1.1={
+#	liege="e_axoleca"
+#}
+915.1.1={
+	set_tribute_suzerain = { who = e_axoleca type = imperial_automonous_vassal}
+}
+974.10.24={
+	holder = 115300
+}
+1014.12.4 = {
+	holder = 115301
+}
+1093.8.12={
+	#holder=0
+	clear_tribute_suzerain = e_axoleca
+	liege = e_axoleca
+}
