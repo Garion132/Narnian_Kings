@@ -1,9 +1,11 @@
 800.1.1={
 	liege = k_langvest
 }
-930.1.1={
+880.1.1={holder=96201} #Hisatane[1068]
+930.6.9={
 	liege = k_nihou
 }
+930.12.20={holder=96202} #Ujimichi[1068]
 993.6.6={
 	holder = 96200
 }

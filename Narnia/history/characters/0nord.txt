@@ -628,20 +628,41 @@
 
 96200 = {
 	name = "Iori" #
-	#dynasty = 1036
+	dynasty = 1068
 	religion = "shinoi"
 	culture = "nishonaru"
-	#father = 80600
-	#mother = 80201
-	stewardship = 8
-	#add_trait = "mastermind_theologian"
-	#wealth = 1760
 	978.7.30={
 		birth=yes
 	}
 	1024.9.14={
 		death=yes
 	}
+}
+96201={
+	name=Hisatane
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	875.11.12={ birth=yes }
+	930.12.20={ death=yes }
+}
+96202={
+	name=Ujimichi
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi 
+	father=96201	#Hisatane
+	904.6.24={ birth=yes }
+	959.1.18={ death=yes }
+}
+96203={
+	name=Nariyoshi
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi 
+	father=96202	#Ujimichi
+	932.9.3={ birth=yes }
+	999.9.30={ death=yes }
 }
 
 96300 = {
