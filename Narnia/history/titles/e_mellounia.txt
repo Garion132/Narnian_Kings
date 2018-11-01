@@ -10,6 +10,9 @@
 	law = war_voting_power_1
 	law = centralization_0
 }
+937.6.28={
+	holder = 110102
+}
 956.7.24={
 	holder = 110101
 }

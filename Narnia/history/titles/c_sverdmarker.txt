@@ -1,3 +1,6 @@
-859.3.5={
+800.1.1={
+	liege = k_svenhadr
+}
+930.6.9={
 	liege = k_ostimlod
 }

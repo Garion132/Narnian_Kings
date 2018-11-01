@@ -896,6 +896,37 @@
 	name="Cloudrunner"
 	random = no
 }
+207={
+	name="Blacksword"
+	random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 2
+			emblem = 0
+			color = 5
+			color = 10
+			color = 10
+		}
+	}
+}
+208={
+	name="Oluim"
+	random = no
+}
+209={
+	name="Fljot"
+	random = no
+}
+210={
+	name="Uliin"
+	random = no
+}
+211={
+	name="Østim"
+	random = no
+}
 500={
 	name="Lori"
 	religion_group = "siniia"

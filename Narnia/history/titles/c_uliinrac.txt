@@ -1,6 +1,24 @@
-800.1.1={
-	liege = k_svenhadr
+859.3.5={
+	liege = d_uliinrac
 }
-930.6.9={
-	liege = k_ostimlod
+878.9.4={
+	holder = 98450
+}
+905.7.6={
+	holder = 98451
+}
+947.8.23={
+	holder = 98452
+}
+968.11.5={
+	holder = 98453
+}
+994.2.17={
+	holder = 98454
+}
+1013.5.9={
+	holder = 98455
+}
+1038.7.15={
+	holder = 98456
 }

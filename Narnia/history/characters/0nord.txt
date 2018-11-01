@@ -12,6 +12,9 @@
 	973.9.21={
 		birth="973.9.21"
 	}
+	991.3.6={
+		add_spouse = 98115
+	}
 	1068.9.30={
 		death="1035.2.10"
 	}
@@ -202,16 +205,76 @@
 
 95400 = {
 	name = "Farros" #
-	#dynasty = 105
+	dynasty = 211
 	religion = "pamyatrossii"
 	culture = "nord"
-	#father = 80600
+	father = 95401
 	#mother = 80201
 	wealth = 570
 	981.6.22={
 		birth=yes
 	}
 	1054.5.24={
+		death=yes
+	}
+}
+95401 = {
+	name = "Asbjorn" #
+	dynasty = 211
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 95402
+	#mother = 80201
+	#wealth = 570
+	957.9.14={
+		birth=yes
+	}
+	995.6.8={
+		death=yes
+	}
+}
+95402 = {
+	name = "Fraki" #
+	dynasty = 211
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 95403
+	#mother = 80201
+	#wealth = 570
+	921.4.25={
+		birth=yes
+	}
+	969.5.12={
+		death=yes
+	}
+}
+95403 = {
+	name = "Farros" #
+	dynasty = 211
+	religion = "divine_cult"
+	culture = "nord"
+	father = 95404
+	#mother = 80201
+	#wealth = 570
+	897.6.10={
+		birth=yes
+	}
+	941.6.22={
+		death=yes
+	}
+}
+95404 = {
+	name = "Farros" #
+	dynasty = 211
+	religion = "divine_cult"
+	culture = "nord"
+	#father = 80600
+	#mother = 80201
+	#wealth = 570
+	864.9.26={
+		birth=yes
+	}
+	923.7.8={
 		death=yes
 	}
 }
@@ -231,6 +294,79 @@
 		birth=yes
 	}
 	1024.8.13={
+		death=yes
+	}
+}
+95501 = {
+	name = "Kyr" #
+	#dynasty = 105
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	#father = 80600
+	#mother = 80201
+	learning = 13
+	add_trait = "mastermind_theologian"
+	wealth = 570
+	912.6.18={
+		birth=yes
+	}
+	982.6.9={
+		death=yes
+	}
+}
+95502 = {
+	name = "Kyr" #
+	#dynasty = 105
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	#father = 80600
+	#mother = 80201
+	learning = 13
+	add_trait = "mastermind_theologian"
+	wealth = 570
+	902.5.9={
+		birth=yes
+	}
+	971.7.16={
+		death=yes
+	}
+}
+95503 = {
+	name = "Sinmar" #
+	#dynasty = 105
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	#father = 80600
+	#mother = 80201
+	learning = 10
+	wealth = 570
+	887.4.6={
+		birth=yes
+	}
+	956.2.3={
+		death=yes
+	}
+}
+95504 = {
+	name = "Rassivich" #the elder
+	#dynasty = 105
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 80600
+	#mother = 80201
+	learning = 18
+	diplomacy = 19
+	wealth = 570
+	give_nickname = "nick_the_elder"
+	add_trait = "mastermind_theologian"
+	add_trait = "genius"
+	add_trait = "kind"
+	add_trait = "mastermind_theologian"
+	health = 12.31
+	846.8.29={
+		birth=yes
+	}
+	941.6.7={
 		death=yes
 	}
 }
@@ -631,6 +767,7 @@
 	dynasty = 1068
 	religion = "shinoi"
 	culture = "nishonaru"
+	stewardship = 8
 	978.7.30={
 		birth=yes
 	}
@@ -639,7 +776,7 @@
 	}
 }
 96201={
-	name=Hisatane
+	name="Hisatane"
 	dynasty=1068
 	culture=nishonaru 
 	religion=shinoi
@@ -647,7 +784,7 @@
 	930.12.20={ death=yes }
 }
 96202={
-	name=Ujimichi
+	name="Ujimichi"
 	dynasty=1068
 	culture=nishonaru 
 	religion=shinoi 
@@ -656,7 +793,7 @@
 	959.1.18={ death=yes }
 }
 96203={
-	name=Nariyoshi
+	name="Nariyoshi"
 	dynasty=1068
 	culture=nishonaru 
 	religion=shinoi 
@@ -911,6 +1048,9 @@
 	#wealth = 570
 	968.1.6={
 		birth=yes
+	}
+	990.2.3={
+		add_spouse = 98113
 	}
 	1031.4.9={
 		death=yes
@@ -1446,6 +1586,717 @@
 		birth=yes
 	}
 	1020.7.29={
+		death=yes
+	}
+}
+
+98100 = {
+	name = "Orgnar" #
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98101
+	mother = 98114
+	#wealth = 1700
+	975.7.1={
+		birth=yes
+	}
+	1038.10.18={
+		death=yes
+	}
+}
+98101 = {
+	name = "Skrulnar" #
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98106
+	mother = 98112
+	#wealth = 1700
+	948.6.30={
+		birth=yes
+	}
+	971.3.9={
+		add_spouse=98114
+	}
+	1013.8.17={
+		death=yes
+	}
+}
+98102 = {
+	name = "Harrald" #the elder
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98100
+	#mother = 80201
+	#wealth = 1700
+	998.3.18={
+		birth=yes
+	}
+	1074.8.17={
+		death=yes
+	}
+}
+98103 = {
+	name = "Savard" #
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98102
+	#mother = 80201
+	#wealth = 1700
+	1020.6.4={
+		birth=yes
+	}
+	1064.8.17={
+		death={death_reason = death_battle}
+	}
+}
+98104 = {
+	name = "Harrald" #the younger
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98103
+	#mother = 80201
+	#wealth = 1700
+	1048.3.18={
+		birth=yes
+	}
+	1100.12.27={
+		death=yes
+	}
+}
+98105 = {
+	name = "Oluman" #
+	dynasty = 207
+	religion = "divine_cult"
+	culture = "nord"
+	#father = 97901
+	#mother = 80201
+	#wealth = 1700
+	902.5.17={
+		birth=yes
+	}
+	946.8.21={
+		death=yes
+	}
+}
+98106 = {
+	name = "Oluman" #
+	dynasty = 207
+	religion = "divine_cult"
+	culture = "nord"
+	father = 98105
+	#mother = 80201
+	#wealth = 1700
+	927.5.17={
+		birth=yes
+	}
+	949.7.8={
+		add_spouse = 98112
+	}
+	987.8.17={
+		death=yes
+	}
+}
+98107 = {
+	name = "Afnar" #madman deposed by son
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98106
+	#mother = 80201
+	#wealth = 1700
+	949.2.17={
+		birth=yes
+	}
+	989.2.3={
+		add_trait="lunatic"
+	}
+	989.10.12={
+		death={death_reason=death_execution_beheading killer = 98108}
+	}
+}
+98108 = {
+	name = "Afnar" #2nd, ambitious but loyal
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98107
+	#mother = 98112
+	#wealth = 1700
+	add_trait = "ambitious"
+	968.6.19={
+		birth=yes
+	}
+	989.10.12={
+		add_trait = "kinslayer"
+	}
+	1001.6.18={
+		death=yes
+	}
+}
+98109 = {
+	name = "Kinar" #maimed by her grandfather
+	dynasty = 207
+	female = yes
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98108
+	#mother = 80201
+	#wealth = 1700
+	add_trait = "fair"
+	986.2.17={
+		birth=yes
+	}
+	989.8.18={
+		add_trait = "scarred"
+		remove_trait = "fair"
+	}
+	1038.2.14={
+		death=yes
+	}
+}
+98110 = {
+	name = "Aarmand" #
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98108
+	#mother = 80201
+	#wealth = 1700
+	989.12.23={
+		birth=yes
+	}
+	1036.7.25={
+		death=yes
+	}
+}
+98111 = {
+	name = "Fainar" #
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98106
+	#mother = 80201
+	#wealth = 1700
+	950.6.21={
+		birth=yes
+	}
+	986.4.23={
+		death=yes
+	}
+}
+98112 = {
+	name = "Anine" #oluman 2 blackswords wife
+	female=yes
+	#dynasty = 207
+	religion = "divine_cult"
+	culture = "nord"
+	#father = 98105
+	#mother = 80201
+	#wealth = 1700
+	928.6.24={
+		birth=yes
+	}
+	989.6.24={
+		death=yes
+	}
+}
+98113 = {
+	name = "Seria" #
+	female = yes
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98111
+	#mother = 80201
+	#wealth = 1700
+	972.8.14={
+		birth=yes
+	}
+	1021.4.30={
+		death=yes
+	}
+}
+98114 = {
+	name = "Esvera" #oluman 2 blackswords wife
+	female=yes
+	#dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	#father = 98105
+	#mother = 80201
+	#wealth = 1700
+	950.3.14={
+		birth=yes
+	}
+	1011.7.14={
+		death=yes
+	}
+}
+98115 = {
+	name = "Elina" #
+	dynasty = 207
+	female = yes
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98101
+	mother = 98114
+	#wealth = 1700
+	add_trait = "twin"
+	976.8.9={
+		birth=yes
+	}
+	1034.9.24={
+		death=yes
+	}
+}
+98116 = {
+	name = "Roberick" #
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98101
+	mother = 98114
+	#wealth = 1700
+	add_trait = "twin"
+	976.8.9={
+		birth=yes
+	}
+	1036.12.4={
+		death=yes
+	}
+}
+98117 = {
+	name = "Hasakan" #
+	dynasty = 207
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98101
+	mother = 98114
+	#wealth = 1700
+	978.2.4={
+		birth=yes
+	}
+	1038.10.16={
+		death=yes
+	}
+}
+98118 = {
+	name = "Anena" #
+	dynasty = 207
+	female = yes
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98101
+	mother = 98114
+	#wealth = 1700
+	999.6.23={
+		birth=yes
+	}
+	1068.9.21={
+		death=yes
+	}
+}
+98119 = {
+	name = "Reylian" #
+	dynasty = 207
+	female = yes
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98101
+	mother = 98114
+	#wealth = 1700
+	980.12.6={
+		birth=yes
+	}
+	1046.8.17={
+		death=yes
+	}
+}
+
+98200 = {
+	name = "Jirn" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	#father = 98101
+	#mother = 98114
+	#wealth = 1700
+	927.6.3={
+		birth=yes
+	}
+	1002.6.27={
+		death=yes
+	}
+}
+98201 = {
+	name = "Avenar" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 98200
+	#mother = 98114
+	#wealth = 1700
+	add_claim = c_whiteart
+	add_trait = "mastermind_theologian"
+	add_trait = "quick"
+	971.9.6={
+		birth=yes
+	}
+	1002.6.27={
+		death=yes
+	}
+}
+
+98300 = {
+	name = "Bjalf" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=208
+	#father = 98101
+	#mother = 98114
+	#wealth = 1700
+	846.5.13={
+		birth=yes
+	}
+	902.6.7={
+		death=yes
+	}
+}
+98301 = {
+	name = "Bordavin" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=208
+	father = 98300
+	#mother = 98114
+	#wealth = 1700
+	869.6.29={
+		birth=yes
+	}
+	912.11.4={
+		death=yes
+	}
+}
+98302 = {
+	name = "Rogus" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=208
+	father = 98301
+	#mother = 98114
+	#wealth = 1700
+	890.3.17={
+		birth=yes
+	}
+	953.4.24={
+		death=yes
+	}
+}
+98303 = {
+	name = "Rogus" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=208
+	father = 98302
+	#mother = 98114
+	#wealth = 1700
+	932.4.3={
+		birth=yes
+	}
+	999.1.6={
+		death=yes
+	}
+}
+98304 = {
+	name = "Joric" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=208
+	father = 98303
+	#mother = 98114
+	#wealth = 1700
+	967.6.24={
+		birth=yes
+	}
+	1022.8.7={
+		death=yes
+	}
+}
+98305 = {
+	name = "Germund" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=208
+	father = 98304
+	#mother = 98114
+	#wealth = 1700
+	992.7.36={
+		birth=yes
+	}
+	1058.9.13={
+		death=yes
+	}
+}
+
+98400 = {
+	name = "Fljont" #1st king of Fljont
+	religion = "divine_cult"
+	culture = "nord"
+	dynasty=209
+	#father = 98101
+	#mother = 98114
+	#wealth = 1700
+	782.6.3={
+		birth=yes
+	}
+	825.4.12={
+		death={death_natural=death_battle}
+	}
+}
+98401 = {
+	name = "Fljont" #2nd king of Fljont
+	religion = "divine_cult"
+	culture = "nord"
+	dynasty=209
+	father = 98400
+	#mother = 98114
+	#wealth = 1700
+	803.7.21={
+		birth=yes
+	}
+	853.1.7={
+		death={death_natural=death_battle}
+	}
+}
+98402 = {
+	name = "Fljont" #3rd king of Fljont
+	religion = "divine_cult"
+	culture = "nord"
+	dynasty=209
+	father = 98401
+	#mother = 98114
+	#wealth = 1700
+	824.4.3={
+		birth=yes
+	}
+	871.6.16={
+		death={death_natural=death_battle}
+	}
+}
+98403 = {
+	name = "Fljont" #4th king of Fljont
+	religion = "divine_cult"
+	culture = "nord"
+	dynasty=209
+	father = 98402
+	#mother = 98114
+	#wealth = 1700
+	842.11.8={
+		birth=yes
+	}
+	875.6.16={
+		death={death_natural=death_battle}
+	}
+}
+98404 = {
+	name = "Fljont" #5th king of Fljont/the Old
+	religion = "divine_cult"
+	culture = "nord"
+	dynasty=209
+	father = 98403
+	#mother = 98114
+	#wealth = 1700
+	860.6.1={
+		birth=yes
+	}
+	912.6.16={
+		death={death_natural=death_battle}
+	}
+}
+98405 = {
+	name = "Carenoa" #6th king of Fljont, 
+	religion = "divine_cult"
+	culture = "nord"
+	dynasty=209
+	father = 98404
+	#mother = 98114
+	#wealth = 1700
+	888.7.4={
+		birth=yes
+	}
+	903.4.8={
+		religion = "pamyatrossii"
+	}
+	921.1.8={
+		death={death_natural=death_battle}
+	}
+}
+98406 = {
+	name = "Carenoa" #last king of Fljont, died vs ostimlod
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=209
+	father = 98405
+	#mother = 98114
+	#wealth = 1700
+	906.4.15={
+		birth=yes
+	}
+	957.6.3={
+		death={death_natural=death_battle}
+	}
+}
+98407 = {
+	name = "Avara" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=209
+	father = 98406
+	#mother = 98114
+	#wealth = 1700
+	934.9.26={
+		birth=yes
+	}
+	996.11.24={
+		death=yes
+	}
+}
+98408 = {
+	name = "Gulnurm" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=209
+	father = 98407
+	#mother = 98114
+	#wealth = 1700
+	959.2.7={
+		birth=yes
+	}
+	1020.6.13={
+		death=yes
+	}
+}
+98409 = {
+	name = "Fljont" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=209
+	father = 98408
+	#mother = 98114
+	#wealth = 1700
+	981.10.14={
+		birth=yes
+	}
+	1046.1.30={
+		death=yes
+	}
+}
+
+98450 = {
+	name = "Avulstein" #
+	religion = "divine_cult"
+	culture = "nord"
+	dynasty=210
+	#father = 98101
+	#mother = 98114
+	#wealth = 1700
+	853.4.9={
+		birth=yes
+	}
+	905.7.6={
+		death=yes
+	}
+}
+98451 = {
+	name = "Olav" #
+	religion = "divine_cult"
+	culture = "nord"
+	dynasty=210
+	father = 98450
+	#mother = 98114
+	#wealth = 1700
+	881.6.18={
+		birth=yes
+	}
+	947.8.23={
+		death=yes
+	}
+}
+98452 = {
+	name = "Avulstein" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=210
+	father = 98451
+	#mother = 98114
+	#wealth = 1700
+	906.7.21={
+		birth=yes
+	}
+	968.11.5={
+		death=yes
+	}
+}
+98453 = {
+	name = "Avulstein" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=210
+	father = 98452
+	#mother = 98114
+	#wealth = 1700
+	932.8.14={
+		birth=yes
+	}
+	994.2.17={
+		death=yes
+	}
+}
+98454 = {
+	name = "Kjar" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=210
+	father = 98453
+	#mother = 98114
+	#wealth = 1700
+	958.10.27={
+		birth=yes
+	}
+	1013.5.9={
+		death=yes
+	}
+}
+98455 = {
+	name = "Avulstein" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=210
+	father = 98454
+	#mother = 98114
+	#wealth = 1700
+	982.4.18={
+		birth=yes
+	}
+	1038.7.15={
+		death=yes
+	}
+}
+98456 = {
+	name = "Sorkvild" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=210
+	father = 98455
+	#mother = 98114
+	#wealth = 1700
+	1008.9.24={
+		birth=yes
+	}
+	1067.4.30={
 		death=yes
 	}
 }

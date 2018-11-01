@@ -775,6 +775,10 @@ k_haridain = {
 				color2={ 255 255 255 }
 				
 				b_whitesart ={}
+				b_whitehaven ={}
+				b_sarten_city ={}
+				b_arthill_temple ={}
+				b_handhollow = {}
 			}
 		}
 		d_aarnta = {
@@ -786,6 +790,11 @@ k_haridain = {
 				color2={ 255 255 255 }
 				
 				b_aarntium ={}
+				b_aarntium_hills ={}
+				b_aarntim_sol={}
+				b_savheart_holme={}
+				b_aarant={}
+				b_aarnima={}
 			}
 			c_gulverast = {
 				color={ 145 170 225 }
@@ -1641,6 +1650,14 @@ k_palentir ={
 	title_female = "Executor"
 	short_name = yes
 	monthly_income = 24
+}
+k_fljont ={
+	color={ 175 56 120 }
+	color2={ 255 255 255 }
+	
+	capital = 1576
+	
+	culture_ienorian = "Azenmar"
 }
 
 e_surval = {

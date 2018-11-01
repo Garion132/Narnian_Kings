@@ -1,6 +1,9 @@
 1.1.1={
 	#law = succ_primogeniture
 }
+800.1.1={
+	liege = k_langvest
+}
 900.6.9={
 	liege = d_new_falkreath
 }

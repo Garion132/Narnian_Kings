@@ -1,5 +1,5 @@
 806.9.1={
-	liege = k_fljont
+	#liege = k_fljont
 	holder = 98400
 }
 825.4.12={
@@ -21,12 +21,5 @@
 	holder = 98406
 }
 957.6.3={
-	holder = 98407
-	liege = k_ostimlod
-}
-996.11.24={
-	holder = 98408
-}
-1020.6.13={
-	holder = 98409
+	holder = 0
 }

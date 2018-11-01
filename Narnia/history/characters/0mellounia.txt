@@ -108,7 +108,7 @@
 	dynasty = 1017
 	religion = "mellounian_law"
 	culture = "mellounian"
-	#father = 110100
+	father = 110105
 	#mother = 80201
 	#wealth = 1000
 	897.8.14={
@@ -144,6 +144,21 @@
 		birth=yes
 	}
 	1043.9.12={
+		death=yes
+	}
+}
+110105 = {
+	name = "Anicius" #
+	dynasty = 1017
+	religion = "mellounian_law"
+	culture = "mellounian"
+	#father = 110100
+	#mother = 80201
+	#wealth = 1000
+	862.4.3={
+		birth=yes
+	}
+	913.4.17={
 		death=yes
 	}
 }

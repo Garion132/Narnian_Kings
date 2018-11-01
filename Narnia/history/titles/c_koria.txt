@@ -1,7 +1,10 @@
 800.1.1={
 	liege = k_langvest
 }
-930.1.1={
+920.6.8={
+	liege = k_nihou
+}
+943.1.1={
 	liege = d_aroda
 }
 992.6.7={

@@ -1,3 +1,6 @@
 859.3.5={
 	liege = k_ostimlod
 }
+954.8.7={
+	holder = 98200
+}

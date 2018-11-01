@@ -1,3 +1,6 @@
-859.3.5={
+806.9.1={
+	liege = k_fljont
+}
+957.6.3={
 	liege = k_ostimlod
 }
