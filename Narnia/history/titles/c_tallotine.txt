@@ -1,14 +1,19 @@
 800.1.1={
 	liege = k_langvest
 }
-919.1.1={holder=96201} #Hisatane[1068]
+919.1.1={holder=96201} #Hisatane
 921.3.18={
 	liege = k_nihou
 }
-930.12.20={holder=96202} #Ujimichi[1068]
-959.1.18={
-	holder=96203
-}
-999.9.30={
-	holder = 96200
-}
+930.12.20={holder=96202} #Ujimichi
+959.1.18={holder=96203} #Nariyoshi
+999.9.30={holder=96204} #Suehiro
+1019.1.16={holder=96200} #Iori
+1024.9.14={holder=96205} #Nobuyoshi
+1061.3.5={holder=96206} #Katsunaga
+1093.6.5={holder=96207} #Morinari
+1129.7.19={holder=96208} #Takaaki
+1140.1.23={holder=96209} #Naoyasu
+1148.3.10={holder=96210} #Masatoyo
+1182.7.17={holder=96211} #Masatsugu
+1217.6.10={holder=96212} #Hiro

@@ -767,7 +767,7 @@
 	dynasty = 1068
 	religion = "shinoi"
 	culture = "nishonaru"
-	stewardship = 8
+	father=96204 # Suehiro
 	978.7.30={
 		birth=yes
 	}
@@ -800,6 +800,87 @@
 	father=96202	#Ujimichi
 	932.9.3={ birth=yes }
 	999.9.30={ death=yes }
+}
+96204={
+	name="Suehiro"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96203	#Nariyoshi
+	954.2.10={ birth=yes }
+	1019.1.16={ death=yes }
+}
+96205={
+	name="Nobuyoshi"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96200	#Iori
+	1005.10.10={ birth=yes }
+	1061.3.5={ death=yes }
+}
+96206={
+	name="Katsunaga"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96205	#Nobuyoshi
+	1033.1.13={ birth=yes }
+	1093.6.5={ death=yes }
+}
+96207={
+	name="Morinari"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96206	#Katsunaga
+	1063.2.14={ birth=yes }
+	1129.7.19={ death=yes }
+}
+96208={
+	name="Takaaki"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96207	#Morinari
+	1085.9.16={ birth=yes }
+	1140.1.23={ death=yes }
+}
+96209={
+	name="Naoyasu"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96208	#Takaaki
+	1107.7.16={ birth=yes }
+	1148.3.10={ death=yes }
+}
+96210={
+	name="Masatoyo"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96209	#Naoyasu
+	1127.2.24={ birth=yes }
+	1182.7.17={ death=yes }
+}
+96211={
+	name="Masatsugu"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96210	#Masatoyo
+	1150.4.12={ birth=yes }
+	1217.6.10={ death=yes }
+}
+96212={
+	name="Hiro"
+	dynasty=1068
+	culture=nishonaru 
+	religion=shinoi
+	father=96211	#Masatsugu
+	1174.4.3={ birth=yes }
+	1214.7.4={ death=yes }
 }
 
 96300 = {
