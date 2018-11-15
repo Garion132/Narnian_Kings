@@ -2,7 +2,7 @@
 60000 = {
 	name="Tumnus" #everyone knows who this is
 	#dynasty=1
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="faun"
 	add_trait="faun"
@@ -344,7 +344,7 @@
 60200 = {
 	name="Tumon" #
 	#dynasty=1
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="faun"
 	add_trait="faun"
@@ -385,7 +385,7 @@
 60400 = {
 	name="Sulmer" #
 	#dynasty=1
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="faun"
 	add_trait="faun"
@@ -424,7 +424,7 @@
 60600 = {
 	name="Kulden" #
 	#dynasty=1
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="faun"
 	add_trait="faun"
@@ -443,9 +443,9 @@
 60650 = {
 	name="Ardon" #
 	#dynasty=1
-	#historical=yes
+	##historical = yes
 	religion="aslan"
-	culture="Centaur"
+	culture="centaur"
 	#add_trait="centaur"
 	967.8.17={
 		birth=yes
@@ -460,7 +460,7 @@
 60700 = {
 	name="Rodre" #
 	dynasty=201
-	#historical=yes
+	##historical = yes
 	religion="aslan"
 	culture="narnian"
 	add_trait="human_race"
@@ -481,7 +481,7 @@
 60701 = {
 	name="Tarrin" #
 	dynasty=201
-	#historical=yes
+	##historical = yes
 	religion="aslan"
 	culture="narnian"
 	father = 60700
@@ -507,7 +507,7 @@
 60702 = {
 	name="Marcella" #
 	#dynasty=201
-	#historical=yes
+	##historical = yes
 	female = yes
 	religion="aslan"
 	culture="narnian"
@@ -529,7 +529,7 @@
 60703 = {
 	name="Raisa" #
 	dynasty=201
-	#historical=yes
+	##historical = yes
 	religion="aslan"
 	culture="narnian"
 	father = 60700
@@ -664,6 +664,7 @@
     name="Greymight"
     religion="aslan"
     culture="centaur"
+	female = yes
     950.6.16={
         birth=yes
     }

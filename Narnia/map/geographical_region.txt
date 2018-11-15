@@ -133,7 +133,7 @@ region_calore = {
 }
 region_south_calore = {
 	duchies = {
-		d_dasash d_veliustash d_xesarium d_xerex d_tahvelia d_upper_kollash d_lower_kollash d_mezalisa
+		d_dasash d_veliustash d_xesarium d_xerex d_tahvelia d_upper_kollash d_lower_kollash  
 		d_zelisa d_mezreel d_sudcalvar d_selousbaan d_azimbalda d_tashdreh d_eusabaan d_salzosa d_zalindreh
 		d_soutash d_mezealisa
 	}
@@ -146,9 +146,9 @@ world_caloremen = {
 region_surval = {
 	duchies = {
 		d_vurntenvium d_skrellvern d_pravaris d_ulionais d_tolvenlsk d_fertasii d_tel_rendiasim d_shenddengard
-		d_stonehaven d_illinea d_oltenmark d_lowvern d_oltington d_oriltverld d_peranis d_tollingsford d_oltenton
-		d_oriltford d_renindyium d_wytemor d_perevantium d_wilnfords d_illosan_hold d_vilstalium d_varinmans_hold
-		d_hilusrua d_oltsven d_wilcanster d_ryiavith d_hilusura d_tilond d_tilderrend d_svengorod d_pellsgrove
+		d_stonehaven d_illinea d_oltenmark d_lowvern d_oltington d_oriltverld d_peranis d_tollingsford  
+		  d_renindyium d_wytemor d_perevantium d_wilnfords d_illosan_hold d_vilstalium d_varinmans_hold
+		  d_oltsven d_wilcanster d_ryiavith d_hilusura d_tilond d_tilderrend d_svengorod d_pellsgrove
 		d_kolsnfell d_rosenford d_sulvaris d_conton d_levnim d_archesten d_vendium d_turnveld d_vaegoran d_olinme
 		d_bulguar d_plunenven d_jinern d_ulenvin d_yuiar d_pangamatere d_marngata d_rarana d_pahukiuki
 	}
@@ -218,10 +218,10 @@ region_snake_river = {
 region_mellounian_plains = {
 	duchies = {
 		d_koltude d_vainin d_vachis d_zaien d_vairsdeep d_kaira d_tolain d_drailing d_marsana
-		d_calavaer d_ziore d_xeoa d_iros d_jei d_slrten d_nopl d_aquntae d_gulrus d_tolnse
+		d_calavaer d_ziore d_xeoa d_iros d_jei d_nopl d_aquntae d_gulrus d_tolnse
 		d_jelvar d_hathian d_linvar d_littare d_vurea d_mellounia d_keanxe d_solvene d_turain
 		d_surtvain d_gaolin d_waunare d_calorn d_velsaash d_callensta d_alnque d_viera d_veirain
-		d_tinna d_aelndic d_ramocla d_tarate d_serrindor d_xaria d_oplina d_adisa d_krulain d_salrten
+		d_tinna d_ramocla d_tarate d_serrindor d_xaria d_oplina d_adisa d_krulain d_salrten
 		d_eastern_jelvir d_licenotec d_tarchurku
 	}
 }
@@ -285,7 +285,7 @@ region_valuna = {
 region_eslia = {
 	duchies = {
 		d_selcun d_lopiar d_rulailn d_belsana d_narwind d_reachvell d_tarnea d_goldfang
-		d_carnsholme d_wytraburned d_kourn d_miliro d_puliran d_laninsstier d_cliroin
+		d_carnsholme d_kourn d_miliro d_puliran d_laninsstier d_cliroin
 		d_erlias d_goldwall d_bluevine d_molira d_nillium d_garlinmine d_ryene d_xuras
 	}
 }

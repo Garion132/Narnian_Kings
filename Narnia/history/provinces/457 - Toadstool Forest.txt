@@ -2,7 +2,7 @@
 # County Title
 title = c_toadstool_forest
 # Settlements
-max_settlements = 1
+max_settlements = 2
 
 b_toadstool_forest = castle
 b_toadstool_heights = city

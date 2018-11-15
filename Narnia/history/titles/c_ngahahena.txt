@@ -9,4 +9,5 @@
 }
 991.5.12 = {
 	liege = k_whenuaongamaunga
+	holder = 87150
 }

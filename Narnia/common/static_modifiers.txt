@@ -189,50 +189,57 @@ looted_modifier = {
 }
 
 maintaining_mercenary_band = {
-	levy_size = -0.3
-	levy_reinforce_rate = -0.10	max_manpower_mult = -0.1
+	levy_size = -0.025
+	levy_reinforce_rate = -0.10
+	max_manpower_mult = -0.1
 	manpower_growth = -0.1
 	icon = 31
 }
 
 maintaining_mercenary_band_2 = {
-	levy_size = -0.4
-	levy_reinforce_rate = -0.20	max_manpower_mult = -0.1
+	levy_size = -0.05
+	levy_reinforce_rate = -0.20
+	max_manpower_mult = -0.1
 	manpower_growth = -0.1
 	icon = 31
 }
 
 maintaining_mercenary_band_3 = {
-	levy_size = -0.5
-	levy_reinforce_rate = -0.3	max_manpower_mult = -0.1
+	levy_size = -0.075
+	levy_reinforce_rate = -0.3
+	max_manpower_mult = -0.1
 	manpower_growth = -0.1
 	icon = 31
 }
 
 maintaining_mercenary_band_4 = {
-	levy_size = -0.6
-	levy_reinforce_rate = -0.	max_manpower_mult = -0.1
+	levy_size = -0.1
+	levy_reinforce_rate = -0.40
+	max_manpower_mult = -0.1
 	manpower_growth = -0.1
 	icon = 31
 }
 
 maintaining_mercenary_band_5 = {
-	levy_size = -0.7
-	levy_reinforce_rate = -0.50	max_manpower_mult = -0.1
+	levy_size = -0.125
+	levy_reinforce_rate = -0.50
+	max_manpower_mult = -0.1
 	manpower_growth = -0.1
 	icon = 31
 }
 
 maintaining_mercenary_band_6 = {
-	levy_size = -0.8
-	levy_reinforce_rate = -0.60	max_manpower_mult = -0.1
+	levy_size = -0.15
+	levy_reinforce_rate = -0.60
+	max_manpower_mult = -0.1
 	manpower_growth = -0.1
 	icon = 31
 }
 
 maintaining_mercenary_band_7 = {
-	levy_size = -0.9
-	levy_reinforce_rate = -0.	max_manpower_mult = -0.1
+	levy_size = -0.175
+	levy_reinforce_rate = -0.
+	max_manpower_mult = -0.1
 	manpower_growth = -0.1
 	icon = 31
 }
@@ -386,6 +393,9 @@ defenderbonus_jungle = {
 	horse_archers_offensive = -0.15
 }
 
+personally_leading_troops = {
+	land_morale = 0.1
+}
 ##########################################################################
 # Attribute Mods: Multiplied by the value (including councillor and spouse additions)
 ##########################################################################
@@ -503,9 +513,9 @@ family_palace = {
 tribal = {
 	tax_income = 0.5
 	fort_level = 1
-	light_infantry = 250
+	light_infantry = 100
 	heavy_infantry = 5
-	archers = 50
+	archers = 20
 	levy_reinforce_rate = 1.5
 	land_organisation = 0.2
 	build_cost_modifier = 25 # cost per empty holding slot
@@ -640,11 +650,11 @@ age_adult = {
 
 # 50-69
 age_old = {
-}
+	combat_rating = -15}
 
 # 70+
 age_very_old = {
-}
+	combat_rating = -35}
 
 absolute_monarcy_modifier = {
 	levy_size = -0.65

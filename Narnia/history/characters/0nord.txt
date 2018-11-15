@@ -2381,3 +2381,19 @@
 		death=yes
 	}
 }
+
+98500 = {
+	name = "Sarmane" #
+	religion = "pamyatrossii"
+	culture = "nord"
+	dynasty=210
+	#father = 98101
+	#mother = 98114
+	#wealth = 1700
+	964.2.4={
+		birth=yes
+	}
+	1021.4.18={
+		death=yes
+	}
+}

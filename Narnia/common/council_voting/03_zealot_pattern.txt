@@ -100,6 +100,9 @@ zealot_pattern_for = {
 	war_voting_power_1 = { always = yes }
 	succession_voting_power_0 = { always = no }
 	succession_voting_power_1 = { always = yes }
+	vassal_wars_law_0 = { always = yes }
+	vassal_wars_law_1 = { always = no }
+	vassal_wars_law_2 = { always = no }
 	
 	# ROOT - Voter, FROM - Actor, FROMFROM - Recipient, FROMFROMFROM - Revoked title.
 	revoke_title_interaction = { 
@@ -379,34 +382,69 @@ zealot_pattern_for = {
 	
 	tribal_organization_0 = {
 		OR = {
-			is_reformed_religion = no
+			AND = {
+				religion_group = pagan_group
+				is_reformed_religion = no
+			}
 			is_tribal = yes
 		}
 	}
 	tribal_organization_1 = { 
 		OR = { 
 			FROMFROM = { has_law = tribal_organization_2 } 
-			is_reformed_religion = yes
+			custom_tooltip = {
+				text = TT_NOT_UNREFORMED_PAGAN
+				hidden_tooltip = {
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
+				}
+			}
 			is_tribal = no
 		}
 	}
 	tribal_organization_2 = { 
 		OR = { 
 			FROMFROM = { has_law = tribal_organization_3 } 
-			is_reformed_religion = yes
+			custom_tooltip = {
+				text = TT_NOT_UNREFORMED_PAGAN
+				hidden_tooltip = {
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
+				}
+			}
 			is_tribal = no
 		}
 	}
 	tribal_organization_3 = { 
 		OR = { 
 			FROMFROM = { has_law = tribal_organization_4 } 
-			is_reformed_religion = yes
+			custom_tooltip = {
+				text = TT_NOT_UNREFORMED_PAGAN
+				hidden_tooltip = {
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
+				}
+			}
 			is_tribal = no
 		}
 	}
 	tribal_organization_4 = {
 		OR = {
-			is_reformed_religion = yes
+			custom_tooltip = {
+				text = TT_NOT_UNREFORMED_PAGAN
+				hidden_tooltip = {
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
+				}
+			}
 			is_tribal = no
 		}
 	}
@@ -523,6 +561,10 @@ zealot_pattern_against = {
 	war_voting_power_1 = { always = no }
 	succession_voting_power_0 = { always = yes }
 	succession_voting_power_1 = { always = no }
+	
+	vassal_wars_law_0 = { always = no }
+	vassal_wars_law_1 = { always = yes }
+	vassal_wars_law_2 = { always = yes }
 	
 	centralization_0 = { always = no }
 	centralization_1 = { always = no }
@@ -701,34 +743,69 @@ zealot_pattern_against = {
 	
 	tribal_organization_0 = {
 		NOR = {
-			is_reformed_religion = no
+			AND = {
+				religion_group = pagan_group
+				is_reformed_religion = no
+			}
 			is_tribal = yes
 		}
 	}
 	tribal_organization_1 = { 
 		NOR = { 
 			FROMFROM = { has_law = tribal_organization_2 } 
-			is_reformed_religion = yes
+			custom_tooltip = {
+				text = TT_NOT_UNREFORMED_PAGAN
+				hidden_tooltip = {
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
+				}
+			}
 			is_tribal = no
 		}
 	}
 	tribal_organization_2 = { 
 		NOR = { 
 			FROMFROM = { has_law = tribal_organization_3 } 
-			is_reformed_religion = yes
+			custom_tooltip = {
+				text = TT_NOT_UNREFORMED_PAGAN
+				hidden_tooltip = {
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
+				}
+			}
 			is_tribal = no
 		}
 	}
 	tribal_organization_3 = { 
 		NOR = { 
 			FROMFROM = { has_law = tribal_organization_4 } 
-			is_reformed_religion = yes
+			custom_tooltip = {
+				text = TT_NOT_UNREFORMED_PAGAN
+				hidden_tooltip = {
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
+				}
+			}
 			is_tribal = no
 		}
 	}
 	tribal_organization_4 = { 
 		NOR = {
-			is_reformed_religion = yes
+			custom_tooltip = {
+				text = TT_NOT_UNREFORMED_PAGAN
+				hidden_tooltip = {
+					OR = {
+						NOT = { religion_group = pagan_group }
+						is_reformed_religion = yes
+					}
+				}
+			}
 			is_tribal = no
 		}
 	}

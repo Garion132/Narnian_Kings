@@ -29,6 +29,10 @@ religion = aslan
 	b_cair_paravel = ca_town_1
 	b_cair_paravel = ca_town_2
 	b_cair_paravel = ca_cair_paravel
+	b_cair_paravel = ca_wall_q_1
+	b_cair_paravel = ca_wall_q_2
+	b_cair_paravel = ca_wall_q_3
+	b_cair_paravel = ca_wall_q_4
 	b_cair_paravel = ca_wall_q_5
 }
 2000.1.1={

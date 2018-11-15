@@ -8,6 +8,9 @@
 	holder = 0
 	liege = ""
 }
+984.8.24={
+	holder = 98500
+}
 990.3.5={
 	liege = k_sorsverd
 }

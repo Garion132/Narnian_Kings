@@ -596,7 +596,7 @@
 137={
 	name="Badapple"
 	culture="vyric"
-	random = no
+	used_for_random = no
 }
 138={
 	name="Chionia"
@@ -624,7 +624,7 @@
 			color = 1
 		}
 	}
-	random = no
+	used_for_random = no
 }
 142={
 	name="Greeneye"
@@ -734,22 +734,22 @@
 173={
 	name="Avanster"
 	culture="irish"
-	random = no
+	used_for_random = no
 }
 174={
 	name="Avr"
 	culture="irish"
-	random = no
+	used_for_random = no
 }
 175={
 	name="Ua Leins"
 	culture="irish"
-	random = no
+	used_for_random = no
 }
 176={
 	name="Barrs"
 	culture="irish"
-	random = no
+	used_for_random = no
 }
 177={
 	name="Farsight"
@@ -762,29 +762,29 @@
 179={
 	name="Ua Guinevera"
 	culture="irish"
-	random = no
+	used_for_random = no
 }
 180={
 	name="Osters"
 	culture="irish"
-	random = no
+	used_for_random = no
 }
 181={
 	name="Finnchú"
 	culture="irish"
-	random = no
+	used_for_random = no
 }
 182={
 	name="Kori"
-	random = no
+	used_for_random = no
 }
 183={
 	name="Bara"
-	random = no
+	used_for_random = no
 }
 184={
 	name="Helin"
-	random = no
+	used_for_random = no
 }
 185={
 	name="Badwolves"
@@ -799,39 +799,39 @@
 			color = 15
 		}
 	}
-	random = no
+	used_for_random = no
 }
 186={
 	name="Chol"
-	random = no
+	used_for_random = no
 }
 187={
 	name="Tain"
-	random = no
+	used_for_random = no
 }
 188={
 	name="Oom Farer"
-	random = no
+	used_for_random = no
 }
 189={
 	name="Promord"
-	random = no
+	used_for_random = no
 }
 190={
 	name="Cathles"
-	random = no
+	used_for_random = no
 }
 191={
 	name="Stormrock"
-	random = no
+	used_for_random = no
 }
 192={
 	name="Millers"
-	random = no
+	used_for_random = no
 }
 193={
 	name="Starlk"
-	random = no
+	used_for_random = no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -846,59 +846,59 @@
 }
 194={
 	name="Ouere"
-	random = no
+	used_for_random = no
 }
 195={
 	name="Tolmans"
-	random = no
+	used_for_random = no
 }
 196={
 	name="Felun"
-	random = no
+	used_for_random = no
 }
 197={
 	name="Kourn"
-	random = no
+	used_for_random = no
 }
 198={
 	name="Greengloved"
-	random = no
+	used_for_random = no
 }
 199={
 	name="Tarsand"
-	random = no
+	used_for_random = no
 }
 200={
 	name="Ua macColin"
-	random = no
+	used_for_random = no
 }
 201={
 	name="Peridan"
-	random = no
+	used_for_random = no
 }
 202={
 	name="Oreadia"
-	random = no
+	used_for_random = no
 }
 203={
 	name="Calennor"
-	random = no
+	used_for_random = no
 }
 204={
 	name="Slivercoat"
-	random = no
+	used_for_random = no
 }
 205={
 	name="Fleethoof"
-	random = no
+	used_for_random = no
 }
 206={
 	name="Cloudrunner"
-	random = no
+	used_for_random = no
 }
 207={
 	name="Blacksword"
-	random = no
+	used_for_random = no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -913,19 +913,23 @@
 }
 208={
 	name="Oluim"
-	random = no
+	used_for_random = no
 }
 209={
 	name="Fljot"
-	random = no
+	used_for_random = no
 }
 210={
 	name="Uliin"
-	random = no
+	used_for_random = no
 }
 211={
 	name="Østim"
-	random = no
+	used_for_random = no
+}
+212={
+	name="Annene"
+	used_for_random = no
 }
 500={
 	name="Lori"
@@ -1088,7 +1092,7 @@
 }
 1023={
 	name="Liene"
-	random = no
+	used_for_random = no
 }
 1024={
 	name="Tiven"
@@ -1181,7 +1185,7 @@
 1037={
 	name="Axoclia"
 	#religion_group = "mellounian_law"
-	random = yes
+	used_for_random = yes
 }
 1038={
 	name="Carina"
@@ -1236,79 +1240,79 @@
 	name="Dylin"
 	#religion_group = "mellounian_law"
 	culture = irish
-	random = no
+	used_for_random = no
 }
 1051={
 	name="Ua Holymound"
 	#religion_group = "mellounian_law"
 	culture = irish
-	random = no
+	used_for_random = no
 }
 1052={
 	name="Ua Quartzmine"
 	#religion_group = "mellounian_law"
 	culture = irish
-	random = no
+	used_for_random = no
 }
 1053={
 	name="Ua Highpare"
 	#religion_group = "mellounian_law"
 	culture = irish
-	random = no
+	used_for_random = no
 }
 1054={
 	name="Ua Lowmond"
 	#religion_group = "mellounian_law"
 	culture = irish
-	random = no
+	used_for_random = no
 }
 1055={
 	name="Ua Goodwater"
 	#religion_group = "mellounian_law"
 	culture = irish
-	random = no
+	used_for_random = no
 }
 1056={
 	name="Awa"
 	#religion_group = "mellounian_law"
 	culture = nihonaru
-	random = no
+	used_for_random = no
 }
 1057={
 	name="Lovian"
 	#religion_group = "mellounian_law"
 	culture = nihonaru
-	random = no
+	used_for_random = no
 }
 1058={
 	name="Arna"
 	#religion_group = "mellounian_law"
 	culture = nihonaru
-	random = no
+	used_for_random = no
 }
 1059={
 	name="Rivin"
 	#religion_group = "mellounian_law"
 	culture = irish
-	random = no
+	used_for_random = no
 }
 1060={
 	name="Kurai"
 	#religion_group = "mellounian_law"
 	culture = nihonaru
-	random = no
+	used_for_random = no
 }
 1061={
 	name="Karite"
 	#religion_group = "mellounian_law"
 	culture = uyirian
-	random = no
+	used_for_random = no
 }
 1062={
 	name="Raruna"
 	#religion_group = "mellounian_law"
 	culture = nihonaru
-	random = no
+	used_for_random = no
 }
 1063={
 	name="Sina"

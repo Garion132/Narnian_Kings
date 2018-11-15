@@ -81,12 +81,7 @@ character_event = { #Members of the Ua Dylis get claims on the dylis tiral based
 	hide_window = yes
 	
 	trigger = {
-		OR = {
-			trait = dylis_dynasty_uar
-			trait = dylis_dynasty_aldomar
-			trait = dylis_dynasty_murtagh
-			trait = dylis_dynasty_erinin
-		}
+		any_owned_bloodline={ bloodline = trasnialian }
 		NOR = {
 			has_strong_claim = e_dylis_tiral
 			has_landed_title = e_dylis_tiral
@@ -96,73 +91,73 @@ character_event = { #Members of the Ua Dylis get claims on the dylis tiral based
 	}
 	
 	immediate = { #claim given
-		if = {
-		limit = {
-			any_independent_ruler = {
-				limit = {
-					any_title = {
-						limit = {title=e_dylis_tiral}
+		else_if = {
+			limit = {
+				any_independent_ruler = {
+					limit = {
+						any_title = {
+							limit = {title=e_dylis_tiral}
+						}
+						true_religion = celtic
+						dynasty = 100
+						any_owned_bloodline={ bloodline = line_of_uar }
 					}
-					true_religion = celtic
-					dynasty = 100
-					trait = dylis_dynasty_uar
 				}
+				any_owned_bloodline={ bloodline = line_of_uar }
 			}
-			trait = dylis_dynasty_uar
+			add_claim = e_dylis_tiral
+			add_claim = c_old_dylis
 		}
-		add_claim = e_dylis_tiral
-		add_claim = c_old_dylis
-		}
-		if = {
-		limit = {
-			any_independent_ruler = {
-				limit = {
-					any_title = {
-						limit = {title=e_dylis_tiral}
+		else_if = {
+			limit = {
+				any_independent_ruler = {
+					limit = {
+						any_title = {
+							limit = {title=e_dylis_tiral}
+						}
+						true_religion = celtic
+						dynasty = 100
+						any_owned_bloodline={ bloodline = line_of_aldomar }
 					}
-					true_religion = celtic
-					dynasty = 100
-					trait = dylis_dynasty_aldomar
 				}
+				any_owned_bloodline={ bloodline = line_of_aldomar }
 			}
-			trait = dylis_dynasty_aldomar
+			add_claim = e_dylis_tiral
+			add_claim = c_old_dylis
 		}
-		add_claim = e_dylis_tiral
-		add_claim = c_old_dylis
-		}
-		if = {
-		limit = {
-			any_independent_ruler = {
-				limit = {
-					any_title = {
-						limit = {title=e_dylis_tiral}
+		else_if = {
+			limit = {
+				any_independent_ruler = {
+					limit = {
+						any_title = {
+							limit = {title=e_dylis_tiral}
+						}
+						true_religion = celtic
+						dynasty = 100
+						any_owned_bloodline={ bloodline = line_of_murtagh }
 					}
-					true_religion = celtic
-					dynasty = 100
-					trait = dylis_dynasty_murtagh
 				}
+				any_owned_bloodline={ bloodline = line_of_murtagh }
 			}
-			trait = dylis_dynasty_murtagh
+			add_claim = e_dylis_tiral
+			add_claim = c_old_dylis
 		}
-		add_claim = e_dylis_tiral
-		add_claim = c_old_dylis
-		}
-		if = {
-		limit = {
-			any_independent_ruler = {
-				limit = {
-					any_title = {
-						limit = {title=e_dylis_tiral}
+		else_if = {
+			limit = {
+				any_independent_ruler = {
+					limit = {
+						any_title = {
+							limit = {title=e_dylis_tiral}
+						}
+						true_religion = celtic
+						dynasty = 100
+						any_owned_bloodline={ bloodline = line_of_erinin }
 					}
-					true_religion = celtic
-					dynasty = 100
-					trait = dylis_dynasty_erinin
 				}
+				any_owned_bloodline={ bloodline = line_of_erinin }
 			}
-			trait = dylis_dynasty_erinin
-		}
-		add_claim = e_dylis_tiral
-		add_claim = c_old_dylis
+			add_claim = e_dylis_tiral
+			add_claim = c_old_dylis
 		}
 		else = {
 			add_weak_claim = e_dylis_tiral

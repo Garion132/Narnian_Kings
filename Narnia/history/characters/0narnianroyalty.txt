@@ -8,7 +8,9 @@
 	3.1.2={
 		birth="3.1.2"
 		add_trait="foreign_child"
-		add_trait="child_of_adam_or_eve"
+		create_bloodline = {
+			type = son_of_adam
+		}
 	}
 	20.1.1={add_spouse=1001}
 	50.1.2={
@@ -162,7 +164,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1010
 	add_trait = "fair"
 	female = yes
@@ -179,7 +181,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1010
 	264.2.1 = {
 		birth = "264.2.1"
@@ -205,7 +207,7 @@
 	add_trait = "kind"
 	add_trait = "just"
 	add_trait = "foreign_child"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	disallow_random_traits = yes
 	987.2.1 = {
 		birth = yes
@@ -246,7 +248,7 @@
 	religion = "aslan"
 	culture = "english"
 	add_trait = "foreign_child"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	add_trait = "modern_marrage_mindset"
 	father = 1018
 	mother = 1019
@@ -267,7 +269,7 @@
 	father = 1018
 	mother = 1019
 	add_trait = "foreign_child"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	990.2.1 = {
 		birth = "990.2.1"
 		wealth = 250
@@ -290,7 +292,7 @@
 	religion = "aslan"
 	culture = "english"
 	add_trait = "foreign_child"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	add_trait = "modern_marrage_mindset"
 	female = yes
 	father = 1018
@@ -308,9 +310,12 @@
 	dynasty = 3
 	religion = "aslan"
 	culture = "english"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	960.2.1 = {
 		birth = "960.2.1"
+		create_bloodline = {
+			type = son_of_adam
+		}
 	}
 	979.2.1 = {add_spouse = 1019
 	}
@@ -322,7 +327,7 @@
 	female = yes
 	religion = "aslan"
 	culture = "english"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	962.2.1 = {
 		birth = "962.2.1"
 	}
@@ -336,7 +341,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1012
 	310.9.12 = {
 		birth = yes
@@ -350,7 +355,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1020
 	353.9.3 = {
 		birth = yes
@@ -364,7 +369,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1021
 	386.12.9 = {
 		birth = yes
@@ -378,7 +383,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1022
 	403.9.17 = {
 		birth = yes
@@ -392,7 +397,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1023
 	438.4.30 = {
 		birth = yes
@@ -406,7 +411,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1024
 	460.9.18 = {
 		birth = yes
@@ -420,7 +425,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1025
 	486.7.22 = {
 		birth = yes
@@ -434,7 +439,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1026
 	517.2.10 = {
 		birth = yes
@@ -448,7 +453,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1027
 	542.7.24 = {
 		birth = yes
@@ -462,7 +467,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1028
 	568.5.18 = {
 		birth = yes
@@ -476,7 +481,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1029
 	592.4.22 = {
 		birth = yes
@@ -490,7 +495,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1030
 	616.11.5 = {
 		birth = yes
@@ -504,7 +509,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1031
 	642.5.16 = {
 		birth = yes
@@ -518,7 +523,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1032
 	671.9.23 = {
 		birth = yes
@@ -532,7 +537,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1033
 	702.6.11 = {
 		birth = yes
@@ -546,7 +551,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1034
 	724.2.24 = {
 		birth = yes
@@ -560,7 +565,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1035
 	750.9.13 = {
 		birth = yes
@@ -574,7 +579,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1036
 	775.4.25 = {
 		birth = yes
@@ -588,7 +593,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	add_trait = "twin"
 	father = 1037
 	803.9.16 = {
@@ -603,7 +608,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	add_trait = "twin"
 	father = 1037
 	803.9.16 = {
@@ -820,7 +825,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1038
 	853.4.17 = {
 		birth = yes
@@ -836,7 +841,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1013
 	879.4.17 = {
 		birth = yes
@@ -852,7 +857,7 @@
 	dynasty = 1
 	religion = "aslan"
 	culture = "narnian"
-	add_trait = "child_of_adam_or_eve"
+	#add_trait = "child_of_adam_or_eve"
 	father = 1013
 	881.4.17 = {
 		birth = yes

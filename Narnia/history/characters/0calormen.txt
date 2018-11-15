@@ -1973,8 +1973,8 @@ name="Altash"
 	dynasty=7
 	father = 40106
 	mother = 42900
-	983.11.30={
-		birth="983.11.30"
+	983.4.30={
+		birth="983.4.30"
 	}
 	1055.10.5={
 		death={death_reason = death_natural}
@@ -2729,7 +2729,7 @@ name = "Kitsmenna"
 	#dynasty = 106
 	father = 41700
 	#mother = 40300
-	976..22 = {
+	976.7.22 = {
 		birth = yes
 	}
 	1056.7.14 = {

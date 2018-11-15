@@ -2,7 +2,7 @@
 70000 = {
 	name="Gumpas" #only one of two cannon characters
 	dynasty=13
-	historical=yes
+	#historical = yes
 	father=70002
 	religion="aslan"
 	culture="lone_islander"
@@ -20,7 +20,7 @@
 70001 = {
 	name="Bern" #only one of two cannon characters, from Telmarine Narnia
 	#dynasty=1 
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="telmarine"
 	wealth = 341
@@ -43,7 +43,7 @@
 70002 = {
 	name="Grim" #
 	dynasty=13
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="lone_islander"
 	wealth = 1500
@@ -59,7 +59,7 @@
 70003 = {
 	name="Gumpas" #
 	dynasty=13
-	historical=yes
+	#historical = yes
 	father=70000
 	religion="aslan"
 	culture="lone_islander"
@@ -75,7 +75,7 @@
 70010 = {
 	name="Arvan" #
 	dynasty=15
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="lone_islander"
 	father=70011
@@ -92,7 +92,7 @@
 70011 = {
 	name="Avario" #
 	dynasty=15
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="lone_islander"
 	wealth = 1000
@@ -109,7 +109,7 @@
 70012 = {
 	name="Avario" #
 	dynasty=15
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="lone_islander"
 	wealth = 1000
@@ -125,7 +125,7 @@
 70020 = {
 	name="Deluir" #
 	dynasty=16
-	historical=yes
+	#historical = yes
 	religion="aslan"
 	culture="lone_islander"
 	wealth = 1000
@@ -141,7 +141,7 @@
 70021 = {
 	name="Delyr" #
 	dynasty=16
-	historical=yes
+	#historical = yes
 	father=70020
 	religion="aslan"
 	culture="lone_islander"
@@ -158,7 +158,7 @@
 70022 = {
 	name="Deliore" #
 	dynasty=16
-	historical=yes
+	#historical = yes
 	father=70021
 	religion="aslan"
 	culture="lone_islander"
@@ -175,7 +175,7 @@
 70023 = {
 	name="Delyta" #
 	dynasty=16
-	historical=yes
+	#historical = yes
 	father=70022
 	religion="aslan"
 	culture="lone_islander"
@@ -190,7 +190,7 @@
 70102 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	#father = 70101
 	religion = "aslan"
 	culture = "terebinthian"
@@ -205,7 +205,7 @@
 70103 = {
 	name = "Frank" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70102
 	religion = "aslan"
 	culture = "terebinthian"
@@ -220,7 +220,7 @@
 70104 = {
 	name = "Walter" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70103
 	religion = "aslan"
 	culture = "terebinthian"
@@ -235,7 +235,7 @@
 70105 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70104
 	religion = "aslan"
 	culture = "terebinthian"
@@ -250,7 +250,7 @@
 70106 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70105
 	religion="aslan"
 	culture="terebinthian"
@@ -265,7 +265,7 @@
 70107 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70106
 	religion="aslan"
 	culture="terebinthian"
@@ -280,7 +280,7 @@
 70108 = {
 	name="Frank" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70107
 	religion="aslan"
 	culture="terebinthian"
@@ -298,7 +298,7 @@
 70109 = {
 	name="Eric" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70108
 	mother = 40153
 	religion="aslan"
@@ -314,7 +314,7 @@
 70110 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70109
 	religion="aslan"
 	culture="terebinthian"
@@ -329,7 +329,7 @@
 70111 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70110
 	religion="aslan"
 	culture="terebinthian"
@@ -344,7 +344,7 @@
 70112 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70111
 	religion="aslan"
 	culture="terebinthian"
@@ -359,7 +359,7 @@
 70113 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70112
 	religion="aslan"
 	culture="terebinthian"
@@ -374,7 +374,7 @@
 70114 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70113
 	religion="aslan"
 	culture="terebinthian"
@@ -389,7 +389,7 @@
 70115 = {
 	name="Eric" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70114
 	religion="aslan"
 	culture="terebinthian"
@@ -404,7 +404,7 @@
 70116 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70115
 	religion="aslan"
 	culture="terebinthian"
@@ -419,7 +419,7 @@
 70117 = {
 	name="Frank" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70116
 	religion="aslan"
 	culture="terebinthian"
@@ -434,7 +434,7 @@
 70118 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70117
 	religion="aslan"
 	culture="terebinthian"
@@ -449,7 +449,7 @@
 70119 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70118
 	religion="aslan"
 	culture="terebinthian"
@@ -464,7 +464,7 @@
 70120 = {
 	name="Henry" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70119
 	religion="aslan"
 	culture="terebinthian"
@@ -479,7 +479,7 @@
 70121 = {
 	name="Walter" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70120
 	religion="aslan"
 	culture="terebinthian"
@@ -494,7 +494,7 @@
 70122 = {
 	name="Walder" #
 	dynasty=20
-	historical=yes
+	#historical = yes
 	father=70121
 	religion="aslan"
 	culture="terebinthian"
@@ -509,7 +509,7 @@
 70123 = {
 	name = "Eador" #the ageless?
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70122
 	religion = "aslan"
 	culture = "terebinthian"
@@ -533,7 +533,7 @@
 70124 = {
 	name = "Eador" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70123
 	religion = "aslan"
 	culture = "terebinthian"
@@ -548,7 +548,7 @@
 70125 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70124
 	religion = "aslan"
 	culture = "terebinthian"
@@ -563,7 +563,7 @@
 70126 = {
 	name = "Edith" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70125
 	female = yes
 	religion = "aslan"
@@ -579,7 +579,7 @@
 70127 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70125
 	religion = "aslan"
 	culture = "terebinthian"
@@ -594,7 +594,7 @@
 70128 = {
 	name = "Frank" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70127
 	religion = "aslan"
 	culture = "terebinthian"
@@ -609,7 +609,7 @@
 70129 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70127
 	religion = "aslan"
 	culture = "terebinthian"
@@ -624,7 +624,7 @@
 70130 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70129
 	religion = "aslan"
 	culture = "terebinthian"
@@ -639,7 +639,7 @@
 70131 = {
 	name = "Walter" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70130
 	religion = "aslan"
 	culture = "terebinthian"
@@ -654,7 +654,7 @@
 70132 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70131
 	religion = "aslan"
 	culture = "terebinthian"
@@ -669,7 +669,7 @@
 70133 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70132
 	religion = "aslan"
 	culture = "terebinthian"
@@ -684,7 +684,7 @@
 70134 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70133
 	religion = "aslan"
 	culture = "terebinthian"
@@ -699,7 +699,7 @@
 70135 = {
 	name = "Salzavar" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70134
 	religion = "aslan"
 	culture = "terebinthian"
@@ -723,7 +723,7 @@
 70136 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70135
 	religion = "aslan"
 	culture = "terebinthian"
@@ -738,7 +738,7 @@
 70137 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70136
 	religion = "aslan"
 	culture = "terebinthian"
@@ -753,7 +753,7 @@
 70138 = {
 	name = "Walter" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70137
 	religion = "aslan"
 	culture = "terebinthian"
@@ -768,7 +768,7 @@
 70139 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70138
 	religion = "aslan"
 	culture = "terebinthian"
@@ -783,7 +783,7 @@
 70140 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70139
 	religion = "aslan"
 	culture = "terebinthian"
@@ -798,7 +798,7 @@
 70141 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70140
 	religion = "aslan"
 	culture = "terebinthian"
@@ -813,7 +813,7 @@
 70142 = {
 	name = "Eador" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70141
 	religion = "aslan"
 	culture = "terebinthian"
@@ -828,7 +828,7 @@
 70143 = {
 	name = "Eador" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70142
 	religion = "aslan"
 	culture = "terebinthian"
@@ -843,7 +843,7 @@
 70144 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70143
 	religion = "aslan"
 	culture = "terebinthian"
@@ -858,7 +858,7 @@
 70145 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70144
 	religion = "aslan"
 	culture = "terebinthian"
@@ -873,7 +873,7 @@
 70146 = {
 	name = "Henry" #the young
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70145
 	religion = "aslan"
 	culture = "terebinthian"
@@ -888,7 +888,7 @@
 70147 = {
 	name = "Walter" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70146
 	religion = "aslan"
 	culture = "terebinthian"
@@ -903,7 +903,7 @@
 70148 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70147
 	religion = "aslan"
 	culture = "terebinthian"
@@ -919,7 +919,7 @@
 70149 = {
 	name = "Frank" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70147
 	religion = "aslan"
 	culture = "terebinthian"
@@ -935,7 +935,7 @@
 70150 = {
 	name = "Frank" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70149
 	religion = "aslan"
 	culture = "terebinthian"
@@ -950,7 +950,7 @@
 70151 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70150
 	religion = "aslan"
 	culture = "terebinthian"
@@ -965,7 +965,7 @@
 70152 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70151
 	religion = "aslan"
 	culture = "terebinthian"
@@ -980,7 +980,7 @@
 70153 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70152
 	religion = "aslan"
 	culture = "terebinthian"
@@ -995,7 +995,7 @@
 70154 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70153
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1010,7 +1010,7 @@
 70155 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70154
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1025,7 +1025,7 @@
 70156 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70155
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1040,7 +1040,7 @@
 70157 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70156
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1055,7 +1055,7 @@
 70158 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70157
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1070,7 +1070,7 @@
 70159 = {
 	name = "Frank" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70158
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1085,7 +1085,7 @@
 70160 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70159
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1100,7 +1100,7 @@
 70161 = {
 	name = "Frank" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70160
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1115,7 +1115,7 @@
 70162 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70161
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1130,7 +1130,7 @@
 70163 = {
 	name = "Henry" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70162
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1145,7 +1145,7 @@
 70164 = {
 	name = "Alica" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	female = yes
 	father = 70162
 	religion = "aslan"
@@ -1160,7 +1160,7 @@
 70165 = {
 	name = "James" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70162
 	religion = "aslan"
 	culture = "terebinthian"
@@ -1174,7 +1174,7 @@
 70170 = {
 	name = "Eilinor" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70108
 	mother = 40153
 	female = yes
@@ -1191,7 +1191,7 @@
 70171 = {
 	name = "Alicia" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70109
 	female = yes
 	religion = "aslan"
@@ -1207,7 +1207,7 @@
 70172 = {
 	name = "Lilly" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70109
 	female = yes
 	religion = "aslan"
@@ -1223,7 +1223,7 @@
 70173 = {
 	name = "Salva" #
 	dynasty = 20
-	historical = yes
+	#historical = yes
 	father = 70109
 	religion = "aslan"
 	culture = "terebinthian"

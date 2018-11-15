@@ -5,8 +5,11 @@
 	holder = 101606
 }
 930.6.9={
-	holder = 0
+	holder = 101608
 	liege = k_raruna
+}
+970.8.14={
+	holder = 101609
 }
 991.5.12 = {
 	liege = k_whenuaongamaunga

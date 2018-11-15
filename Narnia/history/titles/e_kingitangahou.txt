@@ -10,6 +10,6 @@
 	reset_adjective = yes
 	set_global_flag = rise_of_the_kingitanga
 }
-1025.8.24 = {o
+1025.8.24 = {
 	holder = 85001
 }

@@ -430,6 +430,40 @@
 		}
 	}
 }
+101608 = {
+	name = "Allauwe" #
+	dynasty = 212
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	#father = 101606
+	mother = 101606
+	add_trait="ilvitar_human_race"
+	901.4.26={
+		birth=yes
+	}
+	970.8.14={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+101609 = {
+	name = "Kanith" #
+	dynasty = 212
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	father = 101608
+	#mother = 101606
+	add_trait="ilvitar_human_race"
+	934.8.14={
+		birth=yes
+	}
+	1002.10.27={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
 
 101700 = {
 	name = "Hanmir" #
@@ -457,7 +491,7 @@
 	958.6.15={
 		birth=yes
 	}
-	993.6.27={
+	1001.6.27={
 		death=yes
 	}
 }

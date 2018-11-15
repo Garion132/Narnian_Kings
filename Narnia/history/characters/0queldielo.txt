@@ -158,7 +158,7 @@
 	#father=8012190
 
 	970.3.20 = {birth=yes}
-	10248.14={
+	1024.8.14={
 		death = {death_reason = death_natural}
 	}
 }

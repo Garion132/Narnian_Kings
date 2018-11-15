@@ -238,7 +238,7 @@
 }
 30011 = {
 	name="Miraz" #The Plotter
-	historical=yes
+	#historical = yes
 	dynasty=4
 	religion="tellan"
 	culture="telmarine"
@@ -279,7 +279,7 @@
 	dynasty=4
 	religion="aslan"
 	culture="telmarine"
-	historical=yes
+	#historical = yes
 	father=30009
 	mother=30010
 	diplomacy=12
@@ -329,7 +329,7 @@
 	culture="star"
 	add_trait = "star"
 	father=1210 #Ramandu
-	historical=yes
+	#historical = yes
 	female=yes
 	2287.2.1={
 		birth="2287.2.1"
@@ -357,7 +357,7 @@
 	dynasty=4
 	religion="tellan"
 	culture="telmarine"
-	historical=yes
+	#historical = yes
 	father=30011
 	mother=30201
 	2301.5.5={

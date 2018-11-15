@@ -19,6 +19,7 @@ character_event = {
 				holder_scope = { dynasty = 2 }
 				holder_scope = { dynasty = 3 }
 				holder_scope = { trait = child_of_adam_or_eve }
+				holder_scope = { any_owned_bloodline={ bloodline = son_of_adam } }
 			}
 		}
 	}
