@@ -1339,3 +1339,7 @@
 	name="Tyuotine"
 	culture = nishonaru
 }
+1069={
+	name="Lopxo"
+	culture = nishonaru
+}

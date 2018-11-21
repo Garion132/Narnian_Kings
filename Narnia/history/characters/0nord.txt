@@ -884,21 +884,61 @@
 }
 
 96300 = {
-	name = "Naotaka" #
-	#dynasty = 1036
+	name = "Naotaka"
+	dynasty = 1069
 	religion = "shinoi"
 	culture = "nishonaru"
-	#father = 80600
-	#mother = 80201
-	stewardship = 8
-	#add_trait = "mastermind_theologian"
-	#wealth = 1760
+	father=96304	#Tanehide
 	979.2.4={
 		birth=yes
 	}
 	1014.8.30={
 		death=yes
 	}
+}
+96301={
+	name=Yukimura
+	dynasty=1069
+	culture=nishonaru 
+	religion=shinoi
+	875.11.2={ birth=yes }
+	949.8.28={ death=yes }
+}
+96302={
+	name=Tsunatatsu
+	dynasty=1069
+	culture=nishonaru 
+	religion=shinoi
+	father=96301	#Yukimura
+	897.9.15={ birth=yes }
+	939.5.31={ death=yes }
+}
+96303={
+	name=Ryuji
+	dynasty=1069
+	culture=nishonaru 
+	religion=shinoi
+	father=96302	#Tsunatatsu
+	927.11.19={ birth=yes }
+	983.5.26={ death=yes }
+}
+96304={
+	name=Tanehide
+	dynasty=1069
+	culture=nishonaru 
+	religion=shinoi
+	father=96303	#Ryuji
+	952.7.21={ birth=yes }
+	999.8.23={ death=yes }
+}
+96305={
+	name=Narikuni
+	dynasty=1069
+	culture=nishonaru 
+	religion=shinoi
+	father=96300	#Naotaka
+	975.4.22={ birth=yes }
+	1043.10.26={ death=yes }
 }
 
 96400 = {

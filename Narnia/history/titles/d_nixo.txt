@@ -1,9 +1,13 @@
 800.1.1={
 	liege = k_hokubukyowakoku
 }
+919.1.1={holder=96301} #Yukimura
 930.6.9={
 	liege = k_nihou
 }
+949.08.28={holder=96303} #Ryuji
+983.05.26={holder=96304} #Tanehide
 993.6.6={
 	holder = 96300
 }
+1014.08.30={holder=96305} #Narikuni
