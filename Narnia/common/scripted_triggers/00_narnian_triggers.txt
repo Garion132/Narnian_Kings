@@ -48,7 +48,7 @@ provence_has_gold_mines = {
 			title = b_hutiash
 			title = b_lughis
 			title = b_adisa
-			title = b_terebinthia_outskirta
+			title = b_terebinthia_outskirts
 		}
 	}
 }
@@ -66,7 +66,6 @@ provence_has_sliver_mines = {
 			title = b_xaebaldas
 			title = b_goblinton
 			title = b_nixia
-			title = b_conolfuffs
 			title = b_draconhols
 			title = b_asteria
 			title = b_zaland

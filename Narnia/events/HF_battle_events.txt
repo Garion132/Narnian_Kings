@@ -5896,59 +5896,6 @@ character_event = {
 	}
 }
 
-character_event = {
-	id = HFP.30200
-	desc = HFP_DESC_30200
-	title = the_battle_at_location
-	picture = GFX_evt_battle
-	border = GFX_event_normal_frame_war
-	hide_from = yes
-
-	is_triggered_only = yes
-	
-	trigger = {
-		event_target:battlefield_location = {
-			OR = {
-				region = world_africa_west
-				region = world_africa_central
-				region = world_africa_east
-			}
-			OR = {
-				borders_major_river = yes
-				borders_lake = yes
-				# Provinces on the Nile
-				province_id = 802
-				province_id = 799
-				province_id = 798
-				province_id = 789
-				province_id = 797
-				province_id = 796
-				province_id = 800
-				province_id = 795
-				province_id = 791
-				province_id = 794
-				province_id = 1282
-				province_id = 1322
-				province_id = 793
-				province_id = 1326
-				province_id = 1334
-				province_id = 1335
-				province_id = 880
-				province_id = 879
-			}
-		}
-	}
-	
-	
-	option = {
-		name = EVTOPTA_HFP_30200
-		death = {
-			death_reason = death_crocodile
-		}
-	}
-}
-
-
 #### Special Events from Duel/Battle Experience #####
 
 character_event = { # Chance for Duelist

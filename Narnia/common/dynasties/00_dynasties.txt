@@ -975,6 +975,46 @@
 	name="Natao"
 	religion_group = "siniia"
 }
+511={
+	name="Ilarin"
+	used_for_random=no
+}
+512={
+	name="Vuner"
+	used_for_random=no
+}
+513={
+	name="Arniera"
+	used_for_random=no
+}
+514={
+	name="Lari"
+	used_for_random=no
+}
+515={
+	name="Raudan"
+	used_for_random=no
+}
+516={
+	name="Olina"
+	used_for_random=no
+}
+517={
+	name="Eliconyuè"
+	used_for_random=no
+}
+518={
+	name="Valune"
+	used_for_random=no
+}
+519={
+	name="Kiran"
+	used_for_random=no
+}
+551={
+	name="Senir"
+	used_for_random=no
+}
 1000={
 	name="O'Connell"
 	religion_group = "celtic"

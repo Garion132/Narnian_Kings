@@ -977,10 +977,6 @@ character_event = {
 					OR = {
 						AND = {
 							port = yes
-							ROOT = {
-								NOT = { culture_group = altaic }
-								NOT = { culture = hungarian }
-							}
 							NOT = {
 								distance = {
 									who = ROOT
@@ -992,14 +988,6 @@ character_event = {
 							owner = {
 								same_realm = ROOT
 							}
-						}
-					}
-					NOT = {
-						region = world_europe_north
-					}
-					NOT = {
-						duchy = {
-							title = d_bjarmia
 						}
 					}
 				}
@@ -1016,10 +1004,6 @@ character_event = {
 					OR = {
 						AND = {
 							port = yes
-							ROOT = {
-								NOT = { culture_group = altaic }
-								NOT = { culture = hungarian }
-							}
 							NOT = {
 								distance = {
 									who = ROOT
@@ -1031,14 +1015,6 @@ character_event = {
 							owner = {
 								same_realm = ROOT
 							}
-						}
-					}
-					NOT = {
-						region = world_europe_north
-					}
-					NOT = {
-						duchy = {
-							title = d_bjarmia
 						}
 					}
 				}
@@ -1131,23 +1107,11 @@ character_event = {
 				OR = {
 					AND = {
 						port = yes
-						ROOT = {
-							NOT = { culture_group = altaic }
-							NOT = { culture = hungarian }
-						}
 					}
 					any_neighbor_province = {
 						owner = {
 							same_realm = ROOT
 						}
-					}
-				}
-				NOT = {
-					region = world_europe_north
-				}
-				NOT = {
-					duchy = {
-						title = d_bjarmia
 					}
 				}
 			}
@@ -1187,23 +1151,11 @@ character_event = {
 							OR = {
 								AND = {
 									port = yes
-									ROOT = {
-										NOT = { culture_group = altaic }
-										NOT = { culture = hungarian }
-									}
 								}
 								any_neighbor_province = {
 									owner = {
 										same_realm = ROOT
 									}
-								}
-							}
-							NOT = {
-								region = world_europe_north
-							}
-							NOT = {
-								duchy = {
-									title = d_bjarmia
 								}
 							}
 						}
@@ -1223,23 +1175,11 @@ character_event = {
 							OR = {
 								AND = {
 									port = yes
-									ROOT = {
-										NOT = { culture_group = altaic }
-										NOT = { culture = hungarian }
-									}
 								}
 								any_neighbor_province = {
 									owner = {
 										same_realm = ROOT
 									}
-								}
-							}
-							NOT = {
-								region = world_europe_north
-							}
-							NOT = {
-								duchy = {
-									title = d_bjarmia
 								}
 							}
 						}

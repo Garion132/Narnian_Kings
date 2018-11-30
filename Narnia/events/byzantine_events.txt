@@ -1182,15 +1182,6 @@ character_event = {
 	trigger = {
 		has_dlc = "Legacy of Rome"
 		in_command = no
-		NOT = { religion_group = indian_group }
-		capital_scope = {
-			NOT = { region = world_india }
-		}
-		location = {
-			county = {
-				NOT = { region = world_india }
-			}
-		}
 		NOT = { is_inaccessible_trigger = yes }
 	}
 	

@@ -105,6 +105,10 @@ nar_EXT.1.a;He is welcome here;;;;;;;;;;;;;x
 nar_EXT.1.b;We will not allow his type here;;;;;;;;;;;;;x
 call_narnian_sphere_to_arms;Call Narnian Sphere to Arms;;;;;;;;;;;;;x
 call_narnian_sphere_to_arms_desc;Send a missive to the other Aslan and Aslan sympathetic Rulers requesting aid;;;;;;;;;;;;;x
-
+nar_culture.1;Rise of the Imparan Irish;;;;;;;;;;;;;x
+nar_culture.2;Rise of the Riphean Irish;;;;;;;;;;;;;x
+nar_culture.3;Rise of the Tirdhman Irish;;;;;;;;;;;;;x
+nar_culture.4;Rise of the Dylistine Irish;;;;;;;;;;;;;x
+nar_culture.5;Rise of the Shannen Irish;;;;;;;;;;;;;x
 
 

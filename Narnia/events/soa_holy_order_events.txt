@@ -647,14 +647,6 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			OR = {
-				region = world_persia
-				region = world_middle_east
-				region = world_asia_minor
-				region = world_africa_north
-				region = world_europe_south
-				region = world_europe_west
-			}
 		}
 		
 		has_dlc = "Sons of Abraham"
@@ -699,14 +691,6 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				has_empty_holding = yes
-				OR = {
-					region = world_persia
-					region = world_middle_east
-					region = world_asia_minor
-					region = world_africa_north
-					region = world_europe_south
-					region = world_europe_west
-				}
 			}
 			province_event = {
 				id = SoA.1051
@@ -1210,13 +1194,6 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			OR = {
-				region = world_persia
-				region = world_middle_east
-				region = world_asia_minor
-				region = world_india_rajastan
-				region = world_africa_north
-			}
 		}
 		
 		has_dlc = "Sons of Abraham"
@@ -1269,13 +1246,6 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				has_empty_holding = yes
-				OR = {
-					region = world_persia
-					region = world_middle_east
-					region = world_asia_minor
-					region = world_india_rajastan
-					region = world_africa_north
-				}
 			}
 			province_event = {
 				id = SoA.1151
@@ -2572,10 +2542,6 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			OR = {
-				region = world_europe_east
-				region = world_steppe
-			}
 		}
 		
 		has_dlc = "Sons of Abraham"
@@ -2628,10 +2594,6 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				has_empty_holding = yes
-				OR = {
-					region = world_europe_east
-					region = world_steppe
-				}
 			}
 			province_event = {
 				id = SoA.1351
@@ -4004,19 +3966,6 @@ letter_event = {
 				factor = 0
 				has_character_modifier = expelled_d_jomsvikings
 			}
-			modifier = {
-				factor = 0.01
-				FROMFROM = {
-					region = world_europe_north
-				}
-			}
-		}
-		
-		hidden_tooltip = {
-			FROMFROM = {
-				province_event = { id = SoA.1554 }
-			}
-			remove_character_modifier = expelled_d_jomsvikings
 		}
 		
 		piety = 200
@@ -10783,96 +10732,6 @@ letter_event = {
 	}
 }
 
-# The Grand Master humbly requests the right to build a castle in your demesne
-character_event = {
-	id = SoA.2650
-	hide_window = yes
-	
-	min_age = 16
-	only_playable = yes
-	religion_group = christian
-	
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = cathar
-			religion = fraticelli
-			religion = waldensian
-			religion = lollard
-		}
-		is_heretic = no
-		
-		d_knights_santiago = {
-			holder_scope = {
-				wealth = 300
-				NOT = {
-					realm_size = 10
-				}
-			}
-		}
-		
-		any_demesne_province = {
-			has_empty_holding = yes
-			region = world_europe_west_iberia
-		}
-		
-		has_dlc = "Sons of Abraham"
-		NOT = { has_character_modifier = expelled_d_knights_santiago }
-		NOT = {
-			any_liege = {
-				has_character_modifier = expelled_d_knights_santiago
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-		modifier = {
-			factor = 0.5
-			d_knights_santiago = {
-				holder_scope = {
-					NOT = { demesne_size = 1 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			d_knights_santiago = {
-				holder_scope = {
-					NOT = { demesne_size = 2 }
-				}
-			}
-		}
-		modifier = {
-			factor = 2.0
-			d_knights_santiago = {
-				holder_scope = {
-					num_of_count_titles = 1
-				}
-			}
-		}
-		modifier = {
-			factor = 2.0
-			d_knights_santiago = {
-				holder_scope = {
-					realm_size = 5
-				}
-			}
-		}
-	}
-	
-	immediate = {
-		random_demesne_province = {
-			limit = {
-				has_empty_holding = yes
-			}
-			province_event = {
-				id = SoA.2651
-			}
-		}
-	}
-}
-
 province_event = {
 	id = SoA.2651
 	hide_window = yes
@@ -11449,96 +11308,6 @@ letter_event = {
 	}
 }
 
-# The Grand Master humbly requests the right to build a castle in your demesne
-character_event = {
-	id = SoA.2750
-	hide_window = yes
-	
-	min_age = 16
-	only_playable = yes
-	religion_group = christian
-	
-	trigger = {
-		OR = {
-			religion = catholic
-			religion = cathar
-			religion = fraticelli
-			religion = waldensian
-			religion = lollard
-		}
-		is_heretic = no
-		
-		d_knights_calatrava = {
-			holder_scope = {
-				wealth = 300
-				NOT = {
-					realm_size = 10
-				}
-			}
-		}
-		
-		any_demesne_province = {
-			has_empty_holding = yes
-			region = world_europe_west_iberia
-		}
-		
-		has_dlc = "Sons of Abraham"
-		NOT = { has_character_modifier = expelled_d_knights_calatrava }
-		NOT = {
-			any_liege = {
-				has_character_modifier = expelled_d_knights_calatrava
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-		modifier = {
-			factor = 0.5
-			d_knights_calatrava = {
-				holder_scope = {
-					NOT = { demesne_size = 1 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			d_knights_calatrava = {
-				holder_scope = {
-					NOT = { demesne_size = 2 }
-				}
-			}
-		}
-		modifier = {
-			factor = 2.0
-			d_knights_calatrava = {
-				holder_scope = {
-					num_of_count_titles = 1
-				}
-			}
-		}
-		modifier = {
-			factor = 2.0
-			d_knights_calatrava = {
-				holder_scope = {
-					realm_size = 5
-				}
-			}
-		}
-	}
-	
-	immediate = {
-		random_demesne_province = {
-			limit = {
-				has_empty_holding = yes
-			}
-			province_event = {
-				id = SoA.2751
-			}
-		}
-	}
-}
-
 province_event = {
 	id = SoA.2751
 	hide_window = yes
@@ -12103,100 +11872,6 @@ letter_event = {
 	
 	option = {
 		name = EXCELLENT
-	}
-}
-
-# The Grand Master humbly requests the right to build a castle in your demesne
-character_event = {
-	id = SoA.2850
-	hide_window = yes
-	
-	min_age = 16
-	only_playable = yes
-	religion_group = christian
-	
-	trigger = {
-		OR = {
-			religion = nestorian
-			religion = messalian
-		}
-		
-		is_heretic = no
-		
-		d_saint_addai = {
-			holder_scope = {
-				wealth = 300
-				NOT = {
-					realm_size = 10
-				}
-			}
-		}
-		
-		any_demesne_province = {
-			has_empty_holding = yes
-			OR = {
-				region = world_persia
-				region = world_middle_east
-				region = world_asia_minor
-				region = world_india_rajastan
-				region = world_africa_north
-			}
-		}
-		
-		has_dlc = "Sons of Abraham"
-		NOT = { has_character_modifier = expelled_d_saint_addai }
-		NOT = {
-			any_liege = {
-				has_character_modifier = expelled_d_saint_addai
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-		modifier = {
-			factor = 0.5
-			d_saint_addai = {
-				holder_scope = {
-					NOT = { demesne_size = 1 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			d_saint_addai = {
-				holder_scope = {
-					NOT = { demesne_size = 2 }
-				}
-			}
-		}
-		modifier = {
-			factor = 2.0
-			d_saint_addai = {
-				holder_scope = {
-					num_of_count_titles = 1
-				}
-			}
-		}
-		modifier = {
-			factor = 2.0
-			d_saint_addai = {
-				holder_scope = {
-					realm_size = 5
-				}
-			}
-		}
-	}
-	
-	immediate = {
-		random_demesne_province = {
-			limit = {
-				has_empty_holding = yes
-			}
-			province_event = {
-				id = SoA.2851
-			}
-		}
 	}
 }
 

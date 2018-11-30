@@ -216,9 +216,11 @@ feudal_governments = {
 					}
 				}
 			}
-			NOR = { 
-				religion = celtic 
-				religion = lunos 
+			NOT = { 
+				religion = celtic
+			}
+			NOT={
+				religion = lunos
 			}
 			is_patrician = no
 		}

@@ -1150,7 +1150,7 @@
 
 	father=120800
 
-	976.6.5 = {birth=yes}
+	974.6.5 = {birth=yes}
 	1039.2.8={
 		death = {death_reason = death_natural}
 	}

@@ -932,6 +932,287 @@ nedic = { # A group of warriors from atmora
 
 		#modifier = default_culture_modifier
 	}
+
+	ostimord = { # nord melting pot in the south
+		graphical_cultures = { norsegfx germangfx }
+		
+		color = { 0.03 0.075 0.22 }
+		
+		male_names = {
+			Abbard Agnorith Uhtred_Uhtred Osbert_Osbert Adding Aenar Agning Alfhedil Allding Alof Alvring Andrelheim Areas
+			Arnskar Audmund Balfring Barirrid Baslod Bathmar Bato Bedraflod Bedrir Bjadmund Jorunn_Jorunn
+			Bormir Botrir Brandr Briring Bronrod Brurid Batou Bryngrim Brynjolfr Cristus Daglin Rodistyr_Rodistair
+			Dathman Dryngheid Eifid Ennbjof Ergnir Erling Erich_Ericus Fanar Fjol Fjorgeir Fjori Fjorkvar
+			Fjorrod Forstaag Fraki Frald Frik Garding Geilir Godrod Gogrek Graring Gudling Haakon_Hakon Thian
+			Haening Haesmar Hagrad Hakar Hallvaror Halof Hamlof Hamvir Hefadmir Heifnir Olmgerd Theodistyr_Theodistair
+			Herd Higil Hirnir Hisin Hjoldir Hjrondir Hlar Hloggar Hlora Hlormar Hodlismod Hoki Hoag 
+			Holmar Honthjolf Horstar Hrargal Hrisskar Hroldar Hrondar Hrundi Hulgarth Hurg Gauldur Geirmund
+			Hurnfing Hurolf Hylf Idlami Ingmar Itar Jolgeir Kjeld Knurguri Korst Kunthar Lassnr
+			Lorod Maering Mendel Norring Odmi Onmi Ormvard Pelf Radd Raflod Rakoslod Haknir Warhaft
+			Reinhardt Rigmor Roggvar Rolf Saetring Sarnir Sattir Savard Sifknir Sigvatr Sittar Wulfharth
+			Sjarnfid Sjoring Sjorvar Skjoldr Snadir Snedbrir Snorri Sold Sor Sorkvild Star Svog
+			Tharsten Thongar Thormoor Throknolf Thrud Thurek Toralf Tymvaul Ulfe Urfing Mordistyr_Mordistair
+			Valgeir Valund Velfred Vigunn Virgerd Vongvild Yngling Haki Tobias Agarmir Agnar Algot
+			Beirir Bittneld Bjalfi Burd Carsten Eitar Erich Fafnir Fjotreid Gromm Edwistyr_Edwistair
+			Gukimir Gunder Gundlar Hafid Hans Havilstein Heinrich_Ericus Henrik_Ericus Hil Hjar Hlofgar
+			Holger Honmund Horkvir Hridi Hrol Irroke Iver Jayred Jesper Jofnhild Jollring Jorck
+			Jorundr Kalthar Keld Larthjar Logvaar Lorkmir Lynch Manheim Mogens Nels Newheim
+			Olav_Olav Olfand Ongar Orgnolf Ortis Regner_Ragnarus Reistr Rolgarel Roliand Snar Sten Storn
+			Styrbjorn Tolgan Torbal Tove Vrage Valdemar Vidkun Vigge Wilhelm_Augustus Ivar Peristyr_Peristair
+			Adalvald Addvar Addvild Agmaer Alding Aldis Alfarinn Alvor Andurs Angrenor Angvild
+			Argis Arnbjorn Arngeir Arrald Asbjorn Asgeir Aslfur Assur Atar Avulstein Roberick_Robertus
+			Badnir Balbus Balgruuf Balimund Barknar Beirand Belrand Benkum Benor Bersi Bjorlam
+			Bolgeir Bolli Bolund Borgny Borri Borvir Bottar Briehl Brill Brond Brunwulf_Lupus Brynjolf
+			Bulfrek Calder Christer Dagur Dengeir Drahff Drennen Eimar Einarth Elgrim Embry Engar
+			Eorlund Erik_Ericus Derek_Ericus Erikur_Ericus Erlendr Esbern Falk Farengar_Farengar Farkas Felldir Fenrig Flinjar Frodnar
+			Frofnir Froki Frorkmar Frothar Fultheim Galmar Garthar Leofric Geirlund Gestur Gissur
+			Gjak Gjuk Gloth Golldir Gonnar Gorm Gort Gralnach Gregor_Gregorius Grimvar Grisvar Grunding Hanse
+			Gunjar Gunmar Gunnar Guthrum Hadring Hadvar Hafnar Hakon_Hakon Haming Hargar Harkon_Hakon Haskill_Hakon Harlaug
+			Harrald_Harold Heddic Heimskr Heimvar Helvard Hemming Thorkild Thoriz Hern Hewnon Hjornskar
+			Hjorunn_Jorunn Hod Hofgrir Hogni Holgeir Horgeir Horik Horm Hrein Hroar Hroggar Hroldan
+			Hrollod Hrolmir Hrongar Hunroor Idolaf Igmund Irlof Irnskar Istar Jenssen Jervar Gondistyr_Gondistair
+			Jod Jofthor Jolf Jon_Jon Jorgen_Jon Jorg_Jon Joric Jorleif Jorn_Jon Jurgen Kai Karl Kibell Kjar
+			Kleppr Klimmek Knjakr Knud Kodlak Kodrir Korir Kottir Kraldar Kust Kyr Lars Bedistyr_Bedastair
+			Leifur Leigelf Lemkil Llewellyn Lod Lodi Lodvar Logrof Lokil Lokir Lond Lorenz Dunistyr_Dunistair
+			Lortheim Lund Lynoit Markus_Marcurius Mathies Maul Mikael_Mikael Molgrom Mralki Narfi Nelkir Niels
+			Nikulas Nils Odar Odfel Oengul Ogmund Olaf_Olav Olfrid Ollrod Onmund Orgnar Orthjolf Harald_Harold
+			Pactur Raerek Ragnar_Ragnarus Ralof Ranmir Rargal Reves Rhorlak Rigel Rissing Roggi Roggvir
+			Rolff Rorik Rorlund Rundi Rustleif Sabjorn Saerlund Sibbi Siddgeir Sifnar Sigaar Andistyr_Andistair
+			Sigar Sigurd Sild Sinding Sinmir Sirgar Skaggi Skald Skavnir Skeggr Skjor Skuli Alistyr_Alistair
+			Skulnar Skulvar Snilf Snilling Snorreid Solaf Sond Stalf Steirod Stenvar Stig Styrr Arnod_Arnaud
+			Sulvar Sven Talsgar Thadgeir Thaer Thjollod Thonar Thongvor Thonjolf Thonnir Thorald Baldur_Baldur
+			Thorek Thoring Thorygg_Thorig Throgar Thrynn Tolan Tolfdir Torbjorn Torkild Torolf Torsten Gellir
+			Torvar Torygg Trilf Tsun Tulvur Ulfberth Ulfgar Ulfr Ulfric Unmid Vald Valdar Valdimar
+			Valdr Vanik Vekel Verner Vidgrod Viding Vidrald Vignar Vilkas Vilod Vipir Virkmund Mantiarco_Marcurius
+			Volk Vorstag Vulwulf_Lupus Steapa Wilmuth_Augustus Wulfgar Wuunferth Yngvar Yrsarald Ysgramor Einarr Jeek
+			Ylgar Yngol Arkming Khosey Kieran Kjoric Shalidor Aegrothius Asgrim Julgen Ysmir Ynir Finn Hadrik Halund Hardin
+			Heidmir Helgreir Hrothmund Mikhael_Mikael Olfor Thorig_Thorig Eslaf Reven Wulfmare Thromgar Tharstan Swyk Stern
+			Rolard Belharza_Belharza Welleg Logrolf Svartr Jomarr Agristyr_Agristair Alabistyr_Alabistair Tristastyr_Trististair
+		}
+		female_names = {
+			Aeta Aldi Anja Aumsi Barri Bergljot Brasteir Eigma Eiruki Ekkhi Erna Fryfnhild Freydis
+			Fryssa Greidil Grerid Haema Heddvild Helga Hidar Hjorta Holmgeira Horski Hreirek Hroa
+			Hrordis Hyring Igna Ilfhild Imsin Ingokning Jolding Kar Kili Kjolver Kolfinna Lisaa
+			Merta Mette Olfeigr Ondi Rangela Ringvild Risi Rostlogi Siri Sottilde Svenja Macalla
+			Thalestris Thunmund Ulfrun Ursine Val Ygfa Abelone Adisla Aela Aeri Agna Agni Agnis
+			Alea Alfhild Alva Alvide Anekke Angi Anise Anska Argi Ari Asta Astrid Beitild Bergritte
+			Betrid Birna Bjartur Bodil Bolfrida Wibke Boti Breya Brina Britte Bryling Dagny Danica Dorthe
+			Drifa Edith Eirid Eisa Elda Elisif_Isabel Erdi Eris Evette Eydis Faida Fastred Fjori Fjola
+			Fjotra Frabbi Fralia Freir Frida Fridrika Fruki Fura Gerda Gerdur Gisli Gormlaith Grelka
+			Grelod Greta Grete Grosta Gwendolyn Haelga Hafjorg Hamal Haran Hefid Helgi Helgird Thyra
+			Hermir Hert Hestla Hilde Hillevi Hoddreid Hrefna Hroki Huki Hulda Iddra Idgrod Illdi
+			Inge Ingjard Ingrid Ingun Iona Irgnir Jala Jora Jordis Karita Katla Lailla Lami Liesl
+			Lillith Lisbet Lydia Lynly Margret Matlara Maven Memna Merilis Minette Mjoll Narri Brida
+			Nilsine Njada Nura Olava Olda Olfina Oriella Orla Rikke Ruki Runa Serana Sigrid Silda
+			Sissel Sofie Sonir Sorli Susanna Svana Svari Hild Nurnhilde Swanhvir Sylgja Tekla Temba Thaena 
+			Tilde Tilma Tormir Tova Una Uthgerd Valerica_Valeria Vori Ysolda_Isabel Agata Agnete Alga Edla Else
+			Emfrid Eyja Hjolfrodi Jensine Kirsten Maeva Malene Margarte Maren Merete Gisela Petrine
+			Rigmor Rona Signy Skjorta Sonje Ulrika Vigdis Mabjaarn Threki Jolethe Kintyra Mildrith
+			Agneta Reylia Ellya Frilgeth Hela Karoline Drusba Samar Clarisse Throna Leidela
+		}
+
+		from_dynasty_prefix = "af "
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 20
+		father_name_chance = 20
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 20
+
+		#modifier = default_culture_modifier
+	}
+
+	hardanian = { # nord melting pot in the north
+		graphical_cultures = { norsegfx germangfx }
+		
+		color = { 0.02 0.22 0.39 }
+		
+		male_names = {
+			Abbard Agnorith Uhtred_Uhtred Osbert_Osbert Adding Aenar Agning Alfhedil Allding Alof Alvring Andrelheim Areas
+			Arnskar Audmund Balfring Barirrid Baslod Bathmar Bato Bedraflod Bedrir Bjadmund Jorunn_Jorunn
+			Bormir Botrir Brandr Briring Bronrod Brurid Batou Bryngrim Brynjolfr Cristus Daglin Rodistyr_Rodistair
+			Dathman Dryngheid Eifid Ennbjof Ergnir Erling Erich_Ericus Fanar Fjol Fjorgeir Fjori Fjorkvar
+			Fjorrod Forstaag Fraki Frald Frik Garding Geilir Godrod Gogrek Graring Gudling Haakon_Hakon Thian
+			Haening Haesmar Hagrad Hakar Hallvaror Halof Hamlof Hamvir Hefadmir Heifnir Olmgerd Theodistyr_Theodistair
+			Herd Higil Hirnir Hisin Hjoldir Hjrondir Hlar Hloggar Hlora Hlormar Hodlismod Hoki Hoag 
+			Holmar Honthjolf Horstar Hrargal Hrisskar Hroldar Hrondar Hrundi Hulgarth Hurg Gauldur Geirmund
+			Hurnfing Hurolf Hylf Idlami Ingmar Itar Jolgeir Kjeld Knurguri Korst Kunthar Lassnr
+			Lorod Maering Mendel Norring Odmi Onmi Ormvard Pelf Radd Raflod Rakoslod Haknir Warhaft
+			Reinhardt Rigmor Roggvar Rolf Saetring Sarnir Sattir Savard Sifknir Sigvatr Sittar Wulfharth
+			Sjarnfid Sjoring Sjorvar Skjoldr Snadir Snedbrir Snorri Sold Sor Sorkvild Star Svog
+			Tharsten Thongar Thormoor Throknolf Thrud Thurek Toralf Tymvaul Ulfe Urfing Mordistyr_Mordistair
+			Valgeir Valund Velfred Vigunn Virgerd Vongvild Yngling Haki Tobias Agarmir Agnar Algot
+			Beirir Bittneld Bjalfi Burd Carsten Eitar Erich Fafnir Fjotreid Gromm Edwistyr_Edwistair
+			Gukimir Gunder Gundlar Hafid Hans Havilstein Heinrich_Ericus Henrik_Ericus Hil Hjar Hlofgar
+			Holger Honmund Horkvir Hridi Hrol Irroke Iver Jayred Jesper Jofnhild Jollring Jorck
+			Jorundr Kalthar Keld Larthjar Logvaar Lorkmir Lynch Manheim Mogens Nels Newheim
+			Olav_Olav Olfand Ongar Orgnolf Ortis Regner_Ragnarus Reistr Rolgarel Roliand Snar Sten Storn
+			Styrbjorn Tolgan Torbal Tove Vrage Valdemar Vidkun Vigge Wilhelm_Augustus Ivar Peristyr_Peristair
+			Adalvald Addvar Addvild Agmaer Alding Aldis Alfarinn Alvor Andurs Angrenor Angvild
+			Argis Arnbjorn Arngeir Arrald Asbjorn Asgeir Aslfur Assur Atar Avulstein Roberick_Robertus
+			Badnir Balbus Balgruuf Balimund Barknar Beirand Belrand Benkum Benor Bersi Bjorlam
+			Bolgeir Bolli Bolund Borgny Borri Borvir Bottar Briehl Brill Brond Brunwulf_Lupus Brynjolf
+			Bulfrek Calder Christer Dagur Dengeir Drahff Drennen Eimar Einarth Elgrim Embry Engar
+			Eorlund Erik_Ericus Derek_Ericus Erikur_Ericus Erlendr Esbern Falk Farengar_Farengar Farkas Felldir Fenrig Flinjar Frodnar
+			Frofnir Froki Frorkmar Frothar Fultheim Galmar Garthar Leofric Geirlund Gestur Gissur
+			Gjak Gjuk Gloth Golldir Gonnar Gorm Gort Gralnach Gregor_Gregorius Grimvar Grisvar Grunding Hanse
+			Gunjar Gunmar Gunnar Guthrum Hadring Hadvar Hafnar Hakon_Hakon Haming Hargar Harkon_Hakon Haskill_Hakon Harlaug
+			Harrald_Harold Heddic Heimskr Heimvar Helvard Hemming Thorkild Thoriz Hern Hewnon Hjornskar
+			Hjorunn_Jorunn Hod Hofgrir Hogni Holgeir Horgeir Horik Horm Hrein Hroar Hroggar Hroldan
+			Hrollod Hrolmir Hrongar Hunroor Idolaf Igmund Irlof Irnskar Istar Jenssen Jervar Gondistyr_Gondistair
+			Jod Jofthor Jolf Jon_Jon Jorgen_Jon Jorg_Jon Joric Jorleif Jorn_Jon Jurgen Kai Karl Kibell Kjar
+			Kleppr Klimmek Knjakr Knud Kodlak Kodrir Korir Kottir Kraldar Kust Kyr Lars Bedistyr_Bedastair
+			Leifur Leigelf Lemkil Llewellyn Lod Lodi Lodvar Logrof Lokil Lokir Lond Lorenz Dunistyr_Dunistair
+			Lortheim Lund Lynoit Markus_Marcurius Mathies Maul Mikael_Mikael Molgrom Mralki Narfi Nelkir Niels
+			Nikulas Nils Odar Odfel Oengul Ogmund Olaf_Olav Olfrid Ollrod Onmund Orgnar Orthjolf Harald_Harold
+			Pactur Raerek Ragnar_Ragnarus Ralof Ranmir Rargal Reves Rhorlak Rigel Rissing Roggi Roggvir
+			Rolff Rorik Rorlund Rundi Rustleif Sabjorn Saerlund Sibbi Siddgeir Sifnar Sigaar Andistyr_Andistair
+			Sigar Sigurd Sild Sinding Sinmir Sirgar Skaggi Skald Skavnir Skeggr Skjor Skuli Alistyr_Alistair
+			Skulnar Skulvar Snilf Snilling Snorreid Solaf Sond Stalf Steirod Stenvar Stig Styrr Arnod_Arnaud
+			Sulvar Sven Talsgar Thadgeir Thaer Thjollod Thonar Thongvor Thonjolf Thonnir Thorald Baldur_Baldur
+			Thorek Thoring Thorygg_Thorig Throgar Thrynn Tolan Tolfdir Torbjorn Torkild Torolf Torsten Gellir
+			Torvar Torygg Trilf Tsun Tulvur Ulfberth Ulfgar Ulfr Ulfric Unmid Vald Valdar Valdimar
+			Valdr Vanik Vekel Verner Vidgrod Viding Vidrald Vignar Vilkas Vilod Vipir Virkmund Mantiarco_Marcurius
+			Volk Vorstag Vulwulf_Lupus Steapa Wilmuth_Augustus Wulfgar Wuunferth Yngvar Yrsarald Ysgramor Einarr Jeek
+			Ylgar Yngol Arkming Khosey Kieran Kjoric Shalidor Aegrothius Asgrim Julgen Ysmir Ynir Finn Hadrik Halund Hardin
+			Heidmir Helgreir Hrothmund Mikhael_Mikael Olfor Thorig_Thorig Eslaf Reven Wulfmare Thromgar Tharstan Swyk Stern
+			Rolard Belharza_Belharza Welleg Logrolf Svartr Jomarr Agristyr_Agristair Alabistyr_Alabistair Tristastyr_Trististair
+		}
+		female_names = {
+			Aeta Aldi Anja Aumsi Barri Bergljot Brasteir Eigma Eiruki Ekkhi Erna Fryfnhild Freydis
+			Fryssa Greidil Grerid Haema Heddvild Helga Hidar Hjorta Holmgeira Horski Hreirek Hroa
+			Hrordis Hyring Igna Ilfhild Imsin Ingokning Jolding Kar Kili Kjolver Kolfinna Lisaa
+			Merta Mette Olfeigr Ondi Rangela Ringvild Risi Rostlogi Siri Sottilde Svenja Macalla
+			Thalestris Thunmund Ulfrun Ursine Val Ygfa Abelone Adisla Aela Aeri Agna Agni Agnis
+			Alea Alfhild Alva Alvide Anekke Angi Anise Anska Argi Ari Asta Astrid Beitild Bergritte
+			Betrid Birna Bjartur Bodil Bolfrida Wibke Boti Breya Brina Britte Bryling Dagny Danica Dorthe
+			Drifa Edith Eirid Eisa Elda Elisif_Isabel Erdi Eris Evette Eydis Faida Fastred Fjori Fjola
+			Fjotra Frabbi Fralia Freir Frida Fridrika Fruki Fura Gerda Gerdur Gisli Gormlaith Grelka
+			Grelod Greta Grete Grosta Gwendolyn Haelga Hafjorg Hamal Haran Hefid Helgi Helgird Thyra
+			Hermir Hert Hestla Hilde Hillevi Hoddreid Hrefna Hroki Huki Hulda Iddra Idgrod Illdi
+			Inge Ingjard Ingrid Ingun Iona Irgnir Jala Jora Jordis Karita Katla Lailla Lami Liesl
+			Lillith Lisbet Lydia Lynly Margret Matlara Maven Memna Merilis Minette Mjoll Narri Brida
+			Nilsine Njada Nura Olava Olda Olfina Oriella Orla Rikke Ruki Runa Serana Sigrid Silda
+			Sissel Sofie Sonir Sorli Susanna Svana Svari Hild Nurnhilde Swanhvir Sylgja Tekla Temba Thaena 
+			Tilde Tilma Tormir Tova Una Uthgerd Valerica_Valeria Vori Ysolda_Isabel Agata Agnete Alga Edla Else
+			Emfrid Eyja Hjolfrodi Jensine Kirsten Maeva Malene Margarte Maren Merete Gisela Petrine
+			Rigmor Rona Signy Skjorta Sonje Ulrika Vigdis Mabjaarn Threki Jolethe Kintyra Mildrith
+			Agneta Reylia Ellya Frilgeth Hela Karoline Drusba Samar Clarisse Throna Leidela
+		}
+
+		from_dynasty_prefix = "af "
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 20
+		father_name_chance = 20
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 20
+
+		#modifier = default_culture_modifier
+	}
+	
+	sorverian = { # nord melting pot in the west
+		graphical_cultures = { norsegfx germangfx }
+		
+		color = { 0.09 0.24 0.38 }
+		
+		male_names = {
+			Abbard Agnorith Uhtred_Uhtred Osbert_Osbert Adding Aenar Agning Alfhedil Allding Alof Alvring Andrelheim Areas
+			Arnskar Audmund Balfring Barirrid Baslod Bathmar Bato Bedraflod Bedrir Bjadmund Jorunn_Jorunn
+			Bormir Botrir Brandr Briring Bronrod Brurid Batou Bryngrim Brynjolfr Cristus Daglin Rodistyr_Rodistair
+			Dathman Dryngheid Eifid Ennbjof Ergnir Erling Erich_Ericus Fanar Fjol Fjorgeir Fjori Fjorkvar
+			Fjorrod Forstaag Fraki Frald Frik Garding Geilir Godrod Gogrek Graring Gudling Haakon_Hakon Thian
+			Haening Haesmar Hagrad Hakar Hallvaror Halof Hamlof Hamvir Hefadmir Heifnir Olmgerd Theodistyr_Theodistair
+			Herd Higil Hirnir Hisin Hjoldir Hjrondir Hlar Hloggar Hlora Hlormar Hodlismod Hoki Hoag 
+			Holmar Honthjolf Horstar Hrargal Hrisskar Hroldar Hrondar Hrundi Hulgarth Hurg Gauldur Geirmund
+			Hurnfing Hurolf Hylf Idlami Ingmar Itar Jolgeir Kjeld Knurguri Korst Kunthar Lassnr
+			Lorod Maering Mendel Norring Odmi Onmi Ormvard Pelf Radd Raflod Rakoslod Haknir Warhaft
+			Reinhardt Rigmor Roggvar Rolf Saetring Sarnir Sattir Savard Sifknir Sigvatr Sittar Wulfharth
+			Sjarnfid Sjoring Sjorvar Skjoldr Snadir Snedbrir Snorri Sold Sor Sorkvild Star Svog
+			Tharsten Thongar Thormoor Throknolf Thrud Thurek Toralf Tymvaul Ulfe Urfing Mordistyr_Mordistair
+			Valgeir Valund Velfred Vigunn Virgerd Vongvild Yngling Haki Tobias Agarmir Agnar Algot
+			Beirir Bittneld Bjalfi Burd Carsten Eitar Erich Fafnir Fjotreid Gromm Edwistyr_Edwistair
+			Gukimir Gunder Gundlar Hafid Hans Havilstein Heinrich_Ericus Henrik_Ericus Hil Hjar Hlofgar
+			Holger Honmund Horkvir Hridi Hrol Irroke Iver Jayred Jesper Jofnhild Jollring Jorck
+			Jorundr Kalthar Keld Larthjar Logvaar Lorkmir Lynch Manheim Mogens Nels Newheim
+			Olav_Olav Olfand Ongar Orgnolf Ortis Regner_Ragnarus Reistr Rolgarel Roliand Snar Sten Storn
+			Styrbjorn Tolgan Torbal Tove Vrage Valdemar Vidkun Vigge Wilhelm_Augustus Ivar Peristyr_Peristair
+			Adalvald Addvar Addvild Agmaer Alding Aldis Alfarinn Alvor Andurs Angrenor Angvild
+			Argis Arnbjorn Arngeir Arrald Asbjorn Asgeir Aslfur Assur Atar Avulstein Roberick_Robertus
+			Badnir Balbus Balgruuf Balimund Barknar Beirand Belrand Benkum Benor Bersi Bjorlam
+			Bolgeir Bolli Bolund Borgny Borri Borvir Bottar Briehl Brill Brond Brunwulf_Lupus Brynjolf
+			Bulfrek Calder Christer Dagur Dengeir Drahff Drennen Eimar Einarth Elgrim Embry Engar
+			Eorlund Erik_Ericus Derek_Ericus Erikur_Ericus Erlendr Esbern Falk Farengar_Farengar Farkas Felldir Fenrig Flinjar Frodnar
+			Frofnir Froki Frorkmar Frothar Fultheim Galmar Garthar Leofric Geirlund Gestur Gissur
+			Gjak Gjuk Gloth Golldir Gonnar Gorm Gort Gralnach Gregor_Gregorius Grimvar Grisvar Grunding Hanse
+			Gunjar Gunmar Gunnar Guthrum Hadring Hadvar Hafnar Hakon_Hakon Haming Hargar Harkon_Hakon Haskill_Hakon Harlaug
+			Harrald_Harold Heddic Heimskr Heimvar Helvard Hemming Thorkild Thoriz Hern Hewnon Hjornskar
+			Hjorunn_Jorunn Hod Hofgrir Hogni Holgeir Horgeir Horik Horm Hrein Hroar Hroggar Hroldan
+			Hrollod Hrolmir Hrongar Hunroor Idolaf Igmund Irlof Irnskar Istar Jenssen Jervar Gondistyr_Gondistair
+			Jod Jofthor Jolf Jon_Jon Jorgen_Jon Jorg_Jon Joric Jorleif Jorn_Jon Jurgen Kai Karl Kibell Kjar
+			Kleppr Klimmek Knjakr Knud Kodlak Kodrir Korir Kottir Kraldar Kust Kyr Lars Bedistyr_Bedastair
+			Leifur Leigelf Lemkil Llewellyn Lod Lodi Lodvar Logrof Lokil Lokir Lond Lorenz Dunistyr_Dunistair
+			Lortheim Lund Lynoit Markus_Marcurius Mathies Maul Mikael_Mikael Molgrom Mralki Narfi Nelkir Niels
+			Nikulas Nils Odar Odfel Oengul Ogmund Olaf_Olav Olfrid Ollrod Onmund Orgnar Orthjolf Harald_Harold
+			Pactur Raerek Ragnar_Ragnarus Ralof Ranmir Rargal Reves Rhorlak Rigel Rissing Roggi Roggvir
+			Rolff Rorik Rorlund Rundi Rustleif Sabjorn Saerlund Sibbi Siddgeir Sifnar Sigaar Andistyr_Andistair
+			Sigar Sigurd Sild Sinding Sinmir Sirgar Skaggi Skald Skavnir Skeggr Skjor Skuli Alistyr_Alistair
+			Skulnar Skulvar Snilf Snilling Snorreid Solaf Sond Stalf Steirod Stenvar Stig Styrr Arnod_Arnaud
+			Sulvar Sven Talsgar Thadgeir Thaer Thjollod Thonar Thongvor Thonjolf Thonnir Thorald Baldur_Baldur
+			Thorek Thoring Thorygg_Thorig Throgar Thrynn Tolan Tolfdir Torbjorn Torkild Torolf Torsten Gellir
+			Torvar Torygg Trilf Tsun Tulvur Ulfberth Ulfgar Ulfr Ulfric Unmid Vald Valdar Valdimar
+			Valdr Vanik Vekel Verner Vidgrod Viding Vidrald Vignar Vilkas Vilod Vipir Virkmund Mantiarco_Marcurius
+			Volk Vorstag Vulwulf_Lupus Steapa Wilmuth_Augustus Wulfgar Wuunferth Yngvar Yrsarald Ysgramor Einarr Jeek
+			Ylgar Yngol Arkming Khosey Kieran Kjoric Shalidor Aegrothius Asgrim Julgen Ysmir Ynir Finn Hadrik Halund Hardin
+			Heidmir Helgreir Hrothmund Mikhael_Mikael Olfor Thorig_Thorig Eslaf Reven Wulfmare Thromgar Tharstan Swyk Stern
+			Rolard Belharza_Belharza Welleg Logrolf Svartr Jomarr Agristyr_Agristair Alabistyr_Alabistair Tristastyr_Trististair
+		}
+		female_names = {
+			Aeta Aldi Anja Aumsi Barri Bergljot Brasteir Eigma Eiruki Ekkhi Erna Fryfnhild Freydis
+			Fryssa Greidil Grerid Haema Heddvild Helga Hidar Hjorta Holmgeira Horski Hreirek Hroa
+			Hrordis Hyring Igna Ilfhild Imsin Ingokning Jolding Kar Kili Kjolver Kolfinna Lisaa
+			Merta Mette Olfeigr Ondi Rangela Ringvild Risi Rostlogi Siri Sottilde Svenja Macalla
+			Thalestris Thunmund Ulfrun Ursine Val Ygfa Abelone Adisla Aela Aeri Agna Agni Agnis
+			Alea Alfhild Alva Alvide Anekke Angi Anise Anska Argi Ari Asta Astrid Beitild Bergritte
+			Betrid Birna Bjartur Bodil Bolfrida Wibke Boti Breya Brina Britte Bryling Dagny Danica Dorthe
+			Drifa Edith Eirid Eisa Elda Elisif_Isabel Erdi Eris Evette Eydis Faida Fastred Fjori Fjola
+			Fjotra Frabbi Fralia Freir Frida Fridrika Fruki Fura Gerda Gerdur Gisli Gormlaith Grelka
+			Grelod Greta Grete Grosta Gwendolyn Haelga Hafjorg Hamal Haran Hefid Helgi Helgird Thyra
+			Hermir Hert Hestla Hilde Hillevi Hoddreid Hrefna Hroki Huki Hulda Iddra Idgrod Illdi
+			Inge Ingjard Ingrid Ingun Iona Irgnir Jala Jora Jordis Karita Katla Lailla Lami Liesl
+			Lillith Lisbet Lydia Lynly Margret Matlara Maven Memna Merilis Minette Mjoll Narri Brida
+			Nilsine Njada Nura Olava Olda Olfina Oriella Orla Rikke Ruki Runa Serana Sigrid Silda
+			Sissel Sofie Sonir Sorli Susanna Svana Svari Hild Nurnhilde Swanhvir Sylgja Tekla Temba Thaena 
+			Tilde Tilma Tormir Tova Una Uthgerd Valerica_Valeria Vori Ysolda_Isabel Agata Agnete Alga Edla Else
+			Emfrid Eyja Hjolfrodi Jensine Kirsten Maeva Malene Margarte Maren Merete Gisela Petrine
+			Rigmor Rona Signy Skjorta Sonje Ulrika Vigdis Mabjaarn Threki Jolethe Kintyra Mildrith
+			Agneta Reylia Ellya Frilgeth Hela Karoline Drusba Samar Clarisse Throna Leidela
+		}
+
+		from_dynasty_prefix = "af "
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 20
+		father_name_chance = 20
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 20
+
+		#modifier = default_culture_modifier
+	}
+	
+	
 }
 
 

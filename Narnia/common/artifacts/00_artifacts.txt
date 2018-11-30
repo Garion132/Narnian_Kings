@@ -149,7 +149,7 @@ exscalibur = {
 	castle_opinion = 8
 	active = {
 		is_adult = yes
-		religion_group = celtic
+		religion_group = celtic_group
 	}
 	flags = { combat_weapon sword }
 	stacking = no

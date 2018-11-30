@@ -576,14 +576,6 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		
-		OR = {
-			location = {
-				region = world_europe_west
-			}
-			location = {
-				region = world_europe_south
-			}
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -642,12 +634,6 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		
-		location = {
-			OR = {
-				region = world_europe_west
-				region = world_europe_south
-			}
-		}
 	}
 	
 	mean_time_to_happen = {

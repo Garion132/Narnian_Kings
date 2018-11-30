@@ -157,17 +157,13 @@ laninster_artifacts = {
 		value = 0
 		additive_modifier = {
 			value = 120
-			AND = {
-				has_landed_title = k_eslia
-				dynasty = 117
-			}
+			has_landed_title = k_eslia
+			dynasty = 117
 		}
 		additive_modifier = {
 			value = 111
-			AND = {
-				has_landed_title = c_new_casterly_rock
-				dynasty = 117
-			}
+			has_landed_title = c_new_casterly_rock
+			dynasty = 117
 		}
 		additive_modifier = {
 			value = 10

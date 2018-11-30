@@ -1,0 +1,416 @@
+namespace = nar_culture
+character_event = { #Impara
+	id = nar_culture.1
+	desc = "EVTDESCnar_culture1"
+	
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = irish
+	
+	trigger = {
+		year = 1100
+		any_demesne_province = {
+			region = world_greater_impara
+			culture = irish
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTAnar_culture.1"
+		culture = imparan
+		random_demesne_province = {
+			limit = {
+				region = world_greater_impara
+				culture = irish
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = imparan
+		}
+	}
+}
+
+character_event = { #Caitli irish change into Riphean
+	id = nar_culture.2
+	desc = "EVTDESCnar_culture2"
+	
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = irish
+	
+	trigger = {
+		year = 1100
+		any_demesne_province = {
+			region = region_caitli_plains
+			culture = irish
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTAnar_culture.2"
+		culture = riphan
+		random_demesne_province = {
+			limit = {
+				region = region_caitli_plains
+				culture = irish
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = riphan
+		}
+	}
+}
+
+character_event = { #Bay of the moon irish into Tirdhman
+	id = nar_culture.3
+	desc = "EVTDESCnar_culture3"
+	
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = irish
+	
+	trigger = {
+		year = 1100
+		any_demesne_province = {
+			region = region_coast_of_the_moon
+			NOT = {
+				region = region_shannan
+			}
+			culture = irish
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTAnar_culture.3"
+		culture = tirdhman
+		random_demesne_province = {
+			limit = {
+				region = region_coast_of_the_moon
+				NOT = {
+					region = region_shannan
+				}
+				culture = irish
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = tirdhman
+		}
+	}
+}
+
+character_event = { #dylis irish into Dyslitine
+	id = nar_culture.4
+	desc = "EVTDESCnar_culture4"
+	
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = irish
+	
+	trigger = {
+		year = 1100
+		any_demesne_province = {
+			region = world_dylis
+			NOT = {
+				region = region_shannan
+			}
+			culture = irish
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTAnar_culture.4"
+		culture = dylistine
+		random_demesne_province = {
+			limit = {
+				region = world_dylis
+				NOT = {
+					region = region_shannan
+				}
+				culture = irish
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = dylistine
+		}
+	}
+}
+character_event = { #Shannan irish into Shannen
+	id = nar_culture.5
+	desc = "EVTDESCnar_culture5"
+	
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = irish
+	
+	trigger = {
+		year = 1100
+		any_demesne_province = {
+			region = region_shannan
+			culture = irish
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTAnar_culture.5"
+		culture = Shannen
+		random_demesne_province = {
+			limit = {
+				region = region_shannan
+				culture = irish
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = Shannen
+		}
+	}
+}

@@ -91,7 +91,14 @@ nick_the_strange = {}
 nick_wolfsbane = {}
 nick_the_father_of_axol = {}
 nick_the_undying = {}
-nick_the_repubican = {}#founder of republics
+nick_the_republican = {}#founder of republics
+nick_the_culture_marauder={}
+nick_the_bane_of_realmname={}
+nick_the_despoiler={}
+nick_the_eastern_wind={}
+nick_the_scourge_of_god={}
+nick_the_slayer_of_culture={}
+
 
 #Warrior Lodge
 nick_the_great_beast = {}

@@ -1585,7 +1585,7 @@
 	902.3.26={
 		birth="902.3.26"
 	}
-	969.6.3{
+	969.6.3={
 		death={
 			death_reason = death_natural
 		}
@@ -1604,7 +1604,7 @@
 	938.9.4={
 		birth="938.9.4"
 	}
-	1002.3.8{
+	1002.3.8={
 		death={
 			death_reason = death_natural
 		}
@@ -1623,7 +1623,7 @@
 	961.4.18={
 		birth="961.4.18"
 	}
-	1016.9.12{
+	1016.9.12={
 		death={
 			death_reason = death_battle
 		}

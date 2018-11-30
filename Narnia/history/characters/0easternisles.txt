@@ -8,8 +8,8 @@
 	culture="lone_islander"
 	wealth = 1500
 	add_trait = "cruel"
-	2269.4.18={
-		birth="2269.4.18"
+	2262.4.18={
+		birth="2262.4.18"
 	}
 	2306.12.19={
 	}
@@ -500,7 +500,7 @@
 	culture="terebinthian"
 	wealth = 2000
 	1280.9.17={
-		birth="1262.9.17"
+		birth="1280.9.17"
 	}
 	1346.2.5={
 		death="1346.2.5"
@@ -539,7 +539,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1340.4.5 = {
-		birth = "1319.4.5"
+		birth = "1340.4.5"
 	}
 	1397.9.5 = {
 		death = "1397.9.5"
@@ -570,7 +570,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1397.9.15 = {
-		birth = "1368.9.15"
+		birth = "1397.9.15"
 	}
 	1467.6.21 = {
 		death = "1467.6.21"
@@ -585,7 +585,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1399.3.27 = {
-		birth = "1368.3.27"
+		birth = "1399.3.27"
 	}
 	1461.5.30 = {
 		death = "1461.5.30"
@@ -600,7 +600,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1428.6.18 = {
-		birth = "1428.6.48"
+		birth = "1428.6.18"
 	}
 	1462.4.2 = {
 		death = "1462.4.2"
@@ -675,7 +675,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1530.5.10 = {
-		birth = "1506.5.10"
+		birth = "1530.5.10"
 	}
 	1598.8.13 = {
 		death = "1598.8.13"
@@ -717,7 +717,7 @@
 		birth = "1579.11.16"
 	}
 	1642.12.9 = {
-		death = "1642.12.6"
+		death = "1642.12.9"
 	}
 }
 70136 = {
@@ -744,7 +744,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1631.2.21 = {
-		birth = "1603.2.21"
+		birth = yes
 	}
 	1699.12.31 = {
 		death = "1699.12.31"
@@ -774,7 +774,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1682.5.25 = {
-		birth = "1659.5.25"
+		birth = yes
 	}
 	1760.9.17 = {
 		death = "1760.9.17"
@@ -909,7 +909,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1925.9.2 = {
-		birth = "1920.9.2"
+		birth = "1925.9.2"
 		add_trait = "twin"
 	}
 	2001.11.9 = {
@@ -925,7 +925,7 @@
 	culture = "terebinthian"
 	wealth = 2000
 	1925.9.2 = {
-		birth = "1920.9.2"
+		birth = "1925.9.2"
 		add_trait = "twin"
 	}
 	2001.11.9 = {
@@ -1139,7 +1139,7 @@
 		birth = "2280.4.6"
 	}
 	2352.1.27 = {
-		death = "2353.1.27"
+		death = "2352.1.27"
 	}
 }
 70164 = {
@@ -1404,7 +1404,7 @@
 	972.12.22 = {
 		birth = "972.12.22"
 	}
-	990.3.8={
+	997.3.8={
 		add_spouse=40165
 	}
 	1055.7.30 = {
@@ -1607,7 +1607,7 @@
 	932.3.15 = {
 		birth = yes
 	}
-	959.12.19 = {
+	959.8.19 = {
 		add_spouse = 2036
 	}
 	989.9.5 = {

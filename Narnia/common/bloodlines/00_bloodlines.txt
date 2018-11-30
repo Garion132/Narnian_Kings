@@ -11,6 +11,7 @@ trasnialian = {
 	combat_rating = 2
 	monthly_character_prestige = 0.2
 	allow_bastards = yes
+	inheritance = patrilineal
 	picture = GFX_bloodlines_symbol_lion
 	flags = { historical_bloodline }
 }
@@ -35,6 +36,15 @@ line_of_murtagh = {
 }
 line_of_erinin = {
 	intrigue = 1
+	allow_bastards = no
+	inheritance = patrilineal
+	flags = { historical_bloodline }
+}
+
+caspian = {
+	combat_rating = 5
+	vassal_opinion = 5
+	monthly_character_prestige = 0.25
 	allow_bastards = no
 	inheritance = patrilineal
 	flags = { historical_bloodline }

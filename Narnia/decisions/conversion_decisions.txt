@@ -395,15 +395,6 @@ targetted_decisions = {
 			independent = yes
 			controls_religion = no
 			is_heretic = yes
-			NOT = {
-				AND = {
-					has_dlc = "Charlemagne"
-					has_landed_title = e_byzantium  # May instead renounce iconoclasm
-					has_landed_title = c_byzantion
-					religion = iconoclast
-					is_heresy_of = orthodox
-				}
-			}
 		}
 		allow = {
 			NOT = { trait = zealous }
@@ -447,13 +438,9 @@ targetted_decisions = {
 			is_playable = yes
 			is_heretic = yes
 			OR = {
-				religion = norse_pagan
-				religion = finnish_pagan
-				religion = baltic_pagan
-				religion = tengri_pagan
-				religion = slavic_pagan
-				religion = aztec
-				religion = west_african_pagan
+				religion = denols
+				religion = lavurite
+				religion = jenunvir
 			}
 		}
 		allow = {
@@ -462,34 +449,7 @@ targetted_decisions = {
 		}
 		effect = {
 			piety = -50
-			if = {
-				limit = { religion = norse_pagan }
-				religion = norse_pagan_reformed
-			}
-			if = {
-				limit = { religion = finnish_pagan }
-				religion = finnish_pagan_reformed
-			}
-			if = {
-				limit = { religion = baltic_pagan }
-				religion = baltic_pagan_reformed
-			}
-			if = {
-				limit = { religion = tengri_pagan }
-				religion = tengri_pagan_reformed
-			}
-			if = {
-				limit = { religion = slavic_pagan }
-				religion = slavic_pagan_reformed
-			}
-			if = {
-				limit = { religion = aztec }
-				religion = aztec_reformed
-			}
-			if = {
-				limit = { religion = west_african_pagan }
-				religion = west_african_pagan_reformed
-			}
+			religion = surval_reformed
 			
 			hidden_tooltip = {
 				any_courtier = {
@@ -587,13 +547,6 @@ targetted_decisions = {
 					character = FROM
 				}
 			}
-			OR = {
-				religion_group = christian
-				religion_group = muslim
-				religion_group = zoroastrian_group
-				religion_group = jewish_group
-				religion_group = indian_group
-			}
 			is_alive = yes
 		}
 		
@@ -628,90 +581,7 @@ targetted_decisions = {
 				}		
 			
 				religion = ROOT
-				
-				#When spouse is Hindu
-				if = {
-					limit = {
-						ROOT = {
-							trait = shaivist_hindu
-						}
-					}
-					add_trait = shaivist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = vaishnavist_hindu
-						}
-					}
-					add_trait = vaishnavist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = shaktist_hindu
-						}
-					}
-					add_trait = shaktist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = smartist_hindu
-						}
-					}
-					add_trait = smartist_hindu
-				}
-				
-				#When spouse is Buddhist
-				if = {
-					limit = {
-						ROOT = {
-							trait = mahayana_buddhist
-						}
-					}
-					add_trait = mahayana_buddhist
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = vajrayana_buddhist
-						}
-					}
-					add_trait = vajrayana_buddhist
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = theravada_buddhist
-						}
-					}
-					add_trait = theravada_buddhist
-				}
-				
-				#When spouse is Jain
-				if = {
-					limit = {
-						ROOT = {
-							trait = digambara_jain
-						}
-					}
-					add_trait = digambara_jain
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = svetambara_jain
-						}
-					}
-					add_trait = svetambara_jain
-				}
-				
-				hidden_tooltip = {
-					religion_authority = {
-						modifier = ruler_converted_to
-					}
-				}
+			
 				piety = 200
 			}
 		}
@@ -809,31 +679,6 @@ decisions = {
 				if = {
 					limit = { religion_group = pagan_group }
 					add_trait = sympathy_pagans
-				}
-				
-				if = {
-					limit = { religion_group = zoroastrian_group }
-					add_trait = sympathy_zoroastrianism
-				}
-				
-				if = {
-					limit = { religion_group = christian }
-					add_trait = sympathy_christendom
-				}
-				
-				if = {
-					limit = { religion_group = muslim }
-					add_trait = sympathy_islam
-				}
-				
-				if = {
-					limit = { religion_group = jewish_group }
-					add_trait = sympathy_judaism
-				}
-				
-				if = {
-					limit = { religion_group = indian_group }
-					add_trait = sympathy_indian
 				}
 			}
 			

@@ -2958,60 +2958,16 @@ character_event = {
     	location = {
     		save_event_target_as = current_location
     	}
-    	if = {
-    		limit = {
-    			event_target:current_location = {
-    				region = world_africa
-    			}
-    		}
-    		set_character_flag = miaphysite_group
-    	}
-    	else_if = {
-    		limit = {
-    			event_target:current_location = {
-    				OR = {
-    					region = world_steppe
-    					region = world_india
-    					region = world_persia
-    					region = world_middle_east
-    					region = world_himalayas
-    				}
-    			}
-    		}
-    		set_character_flag = nestorian_group
-    	}
-    	else = {
-    		set_character_flag = root_group
-    	}
+    	set_character_flag = root_group
     }
 
     option = {      
         name = EVTOPTA_HFP_42208
         trigger = {
-        	OR = {
-        		AND = {
-        			has_character_flag = miaphysite_group
-        			NOT = {
-        				event_target:current_location = {
-        					religion = miaphysite
-        				}
-        			}
-        		}
-        		AND = {
-        			has_character_flag = nestorian_group
-        			NOT = {
-        				event_target:current_location = {
-        					religion = nestorian
-        				}
-        			}
-        		}
-        		AND = {
-        			has_character_flag = root_group
-        			NOT = {
-        				event_target:current_location = {
-        					religion = ROOT
-        				}
-        			}
+        	has_character_flag = root_group
+        	NOT = {
+        		event_target:current_location = {
+        			religion = ROOT
         		}
         	}
         }
@@ -4883,48 +4839,6 @@ province_event = {
 	after = {
 		clr_global_flag = catholic_shepherds_crusade
 		clr_global_flag = fraticelli_shepherds_crusade
-	}
-}
-
-# The Pope angry for losing a Crusade
-character_event = {
-	id = HFP.42303
-	hide_window = yes
-	is_triggered_only = yes
-	has_dlc = "Sons of Abraham"
-
-	trigger = {
-		any_province = {
-			OR = {
-				region = world_europe_west_germania
-				region = world_europe_west_francia
-				region = world_europe_west_iberia
-				region = world_europe_south	
-			}
-			religion = ROOT
-		}
-	}
-
-	immediate = {
-		random_province = {
-			limit = {
-				OR = {
-					region = world_europe_west_germania
-					region = world_europe_west_francia
-					region = world_europe_west_iberia
-					region = world_europe_south
-				}
-				religion = ROOT
-			}
-			set_province_flag = shepherds_crusade_originator
-			province_event = { id = HFP.42304 }
-		}
-		any_playable_ruler = {
-			limit = {
-				religion = ROOT
-			}
-			narrative_event = { id = HFP.42305 }
-		}
 	}
 }
 

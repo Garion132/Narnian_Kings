@@ -275,9 +275,6 @@ narrative_event = {
 		any_playable_ruler = {
 			limit = {
 				ai = no
-				capital_scope = {
-					NOT = { region = world_india }
-				}
 			}
 			character_event = { id = CM.10020 }  # Chronicle
 		}

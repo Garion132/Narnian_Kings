@@ -185,14 +185,6 @@ execution_method = {
 		}
 	}
 	trigger = {
-		FROM = {
-			capital_scope = {
-				NOR = {
-					region = world_india
-					region = world_africa
-				}
-			}
-		}
 	}
 }
 
@@ -214,11 +206,6 @@ execution_method = {
 		}
 	}
 	trigger = {
-		FROM = {
-			capital_scope = {
-				region = world_africa
-			}
-		}
 	}
 }
 
@@ -250,8 +237,6 @@ execution_method = {
 			OR = {
 				trait = cruel
 				trait = wroth
- 				religion = aztec
-	 			religion = aztec_reformed
 			}
 			NOT = { is_nomadic = yes }
 		}
@@ -265,16 +250,8 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			AND = {
-				capital_scope = {
-					OR = {
-	 					region = world_europe			
-	 					region = world_india
-	 				}
-				}
 				trait = cruel
 				NOT = { is_nomadic = yes }
-			}
 		}
 	}
 }
@@ -359,10 +336,6 @@ execution_method = {
 	trigger = {
 		FROM = {
 			NOT = { is_nomadic = yes }
-			NOR = {
-				religion = aztec
-	 			religion = aztec_reformed
-			}
 		}
 	}
 }
@@ -436,10 +409,6 @@ execution_method = {
 					trait = hedonist
 					trait = drunkard
 				}
-				NOR = {
-					religion = aztec
-					religion = aztec_reformed
-				}
 			}
 			is_lowborn = no
 		}
@@ -503,11 +472,6 @@ execution_method = {
 		}
 	}
 	trigger = {
-		FROM = {
-			capital_scope = {
-				region = world_india
-			}
-		}
 	}
 }
 
@@ -530,16 +494,6 @@ execution_method = {
 		}
 	}
 	trigger = {
-		FROM = {
-			capital_scope = {
-				OR = {
-					region = world_india
-					region = world_persia
-					region = world_africa_east
-					region = world_middle_east_arabia
-				}
-			}
-		}
 	}
 }
 
@@ -550,14 +504,9 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			AND = {
-				OR = {
-					trait = cruel
-					trait = wroth
-				}
-				capital_scope = {
-					region = world_india
-				}
+			OR = {
+				trait = cruel
+				trait = wroth
 			}
 		}
 	}
@@ -585,14 +534,6 @@ execution_method = {
 		}
 	}
 	trigger = {
-		FROM = {
-			OR = {
-				religion = aztec
-				religion = aztec_reformed
-				religion_group = christian
-				religion_group = muslim
-			}
-		}
 	}
 }
 
@@ -602,46 +543,6 @@ execution_method = {
 		factor = 200
 	}
 	trigger = {
-		FROM = {
-			AND = {
-				OR = {
-					culture = persian
-					religion_group = muslim
-				}
-				NOT = { religion_group = christian }
-			}
-		}
-	}
-}
-
-execution_method = {
-	death = death_execution_blood_eagle
-	weight_multiplier = {
-		factor = 200
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = cruel
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = wroth
-			}
-		}
-		modifier = {
-			factor = 5
-			is_rival = FROM
-		}
-	}
-	trigger = {
-		FROM = {
-			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			}
-		}
 	}
 }
 
@@ -738,7 +639,7 @@ execution_method = {
 		FROM = {
 			trait = cruel
 			capital_scope = {
-				region = world_europe
+				region = world_dylis
 			}
 			NOR = {
 				is_nomadic = yes
@@ -768,7 +669,7 @@ execution_method = {
 	trigger = {
 		FROM = {
 			capital_scope = {
-				region = world_europe
+				region = world_dylis
 			}
 		}
 	}

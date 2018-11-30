@@ -93,7 +93,7 @@ region_old_telmar = {
 }
 world_telmarine = {
 	regions = {
-	region_telmar region_old_telmar region_koralis region_koraly region_sesh region_riunea
+	region_telmar region_old_telmar region_koraly region_sesh region_riunea
 	}
 }
 region_shannan = {
