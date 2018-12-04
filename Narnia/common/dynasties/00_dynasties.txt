@@ -1383,3 +1383,6 @@
 	name="Lopxo"
 	culture = nishonaru
 }
+1070={
+	name="Elichtan"
+}

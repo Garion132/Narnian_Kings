@@ -505,7 +505,7 @@ on_yearly_pulse = {
 
 		health = {
 			delay = 15
-			25000 = 0
+			250000 = 0
 			
 			15 = 6000 # Syphilitic
 			12 = 6001 # Remove Syphilitic
@@ -1143,7 +1143,7 @@ on_focus_pulse = {
 #on combat pulse
 on_combat_pulse = {
 	random_events = {
-		2750 = 0
+		9000 = 0
 		500 = HFP.11000 #tombola for battle events
 
 	}

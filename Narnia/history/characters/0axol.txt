@@ -528,7 +528,7 @@
 
 115900 = {
 	name = "Tecthco" #
-	dynasty = 1069
+	dynasty = 1070
 	religion = "eline"
 	culture = "elexol"
 	#father = 80600
@@ -542,7 +542,7 @@
 }
 115901 = {
 	name = "Maxtalla" #
-	dynasty = 1069
+	dynasty = 1070
 	religion = "eline"
 	culture = "elexol"
 	father = 115900
@@ -556,7 +556,7 @@
 }
 115902 = {
 	name = "Telarn" #
-	dynasty = 1069
+	dynasty = 1070
 	religion = "eline"
 	culture = "elexol"
 	father = 115901

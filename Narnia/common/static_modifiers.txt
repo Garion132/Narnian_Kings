@@ -622,7 +622,7 @@ valii_culture_modifier = {
 	light_cavalry_defensive = 1.5
 	archers = 25
 
-	land_morale = 0.50
+	land_morale = 2.50
 	levy_size = -0.30
 	levy_reinforce_rate = -0.50
 	

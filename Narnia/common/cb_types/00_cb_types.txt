@@ -5625,22 +5625,14 @@ religious = {
 	
 	can_use_gui = {
 		ROOT = {
-			OR = {
-				NOT = { religion = buddhist }
-				piety = 250
-			}
+			piety = 250
 		}
 	}
 	
 	on_add = {
 		ROOT = {
 			show_scope_change = no
-			if = {
-				limit = {
-					religion = buddhist
-				}
-				piety = -250
-			}
+			piety = -250
 		}
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 	}
@@ -5650,53 +5642,11 @@ religious = {
 			is_nomadic = no
 			NOT = { religion_group = pagan_group }
 			NOT = { pacifist = yes }
-			NOT = { religion = taoist }
-			NAND = {
-				OR = {
-					has_landed_title = k_teutonic_state
-					has_landed_title = d_teutonic_order
-				}
-				has_global_flag = northern_crusades_active
-			}
-			NOR = {
-				has_character_flag = currently_reconquering_iberia
-				reconquista_check_trigger = yes
-			}
-			OR = {
-				NOT = { religion = hindu }
-				FROM = { NOT = { has_dharmic_religion_trigger = yes } }
-				AND = {
-					religion_group = FROM
-					FROM = {
-						has_character_modifier = known_satanist
-					}
-					NOT = {
-						has_character_modifier = known_satanist
-					}
-				}
-			}
 			NOT = { same_realm = FROM }
 			OR = {
 				NOT = { religion_group = FROM }
 				is_heresy_of = FROM
 				is_parent_religion = FROM
-				AND = {
-					has_dharmic_religion_trigger = yes
-					FROM = { religion = taoist }
-				}
-				AND = {
-					religion_group = muslim
-					NOT = { religion = FROM }
-					FROM = {
-						NOT = { 
-							any_current_enemy = {
-								NOT = {
-									religion_group = muslim
-								}
-							}
-						}
-					}
-				}
 				AND = {
 					religion_group = FROM
 					FROM = {
@@ -5762,22 +5712,6 @@ religious = {
 							}
 							AND = {
 								is_land = no
-								OR = {
-									ROOT = { religion_group = muslim }
-									FROM = { religion_group = muslim }
-									AND = {
-										ROOT = { religion_group = pagan_group }
-										has_global_flag = pagan_ghws_unlocked
-									}
-									AND = {
-										ROOT = { religion_group = christian }
-										has_global_flag = christian_crusades_unlocked
-									}
-									AND = {
-										ROOT = { religion_group = muslim }
-										has_global_flag = muslim_jihads_unlocked
-									}
-								}
 								any_neighbor_province = {
 									OR = {
 										AND = {
@@ -5820,10 +5754,6 @@ religious = {
 				is_heresy_of = FROM
 				is_parent_religion = FROM
 				AND = {
-					has_dharmic_religion_trigger = yes
-					FROM = { religion = taoist }
-				}
-				AND = {
 					religion_group = FROM
 					FROM = {
 						has_character_modifier = known_satanist
@@ -5833,10 +5763,6 @@ religious = {
 							has_character_modifier = known_satanist
 						}
 					}
-				}
-				AND = {
-					religion_group = muslim
-					NOT = { religion = FROM }
 				}
 			}
 			top_liege = {
@@ -6109,24 +6035,6 @@ religious = {
 	ai_will_do = { 
 		factor = 1
 		
-		modifier = { #Focus on Coronation first.
-			factor = 0.1
-			has_dlc = "Holy Fury"
-			ROOT = {
-				is_feudal = yes
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
-				NOR = {
-					trait = crowned_by_priest
-					trait = crowned_by_bishop
-					trait = crowned_by_pope
-					trait = crowned_by_myself
-				}
-			}
-		}
-		
 		modifier = {
 			factor = 0
 			FROM = {
@@ -6170,66 +6078,6 @@ religious = {
 			}
 		}
 		
-		# Try to guide the Hordes in the right direction
-		modifier = {
-			factor = 0.1
-			ROOT = {
-				OR = {
-					dynasty = 613 # Seljuks
-					dynasty = 800 # Timurids
-					primary_title = { title = e_il-khanate }
-				}
-			}
-			OR = {
-				empire = {
-					NOT = {
-						OR = {
-							title = e_persia
-							title = e_byzantium
-							title = e_arabia
-						}
-					}
-				}
-				FROM = {
-					primary_title = { title = e_golden_horde }
-					NOT = { year = 1300 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			ROOT = {
-				primary_title = { title = e_golden_horde }
-			}
-			OR = {
-				empire = {
-					OR = {
-						title = e_persia
-						title = e_byzantium
-						title = e_arabia
-					}
-				}
-				FROM = {
-					primary_title = { title = e_il-khanate }
-					NOT = { year = 1300 }
-				}
-			}
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				culture = persian
-				culture = baloch
-				culture = afghan
-				culture = turkish
-			}
-			empire = {
-				OR = {
-					title = e_persia
-					title = e_rajastan
-				}
-			}
-		}
 	}
 }
 
@@ -11774,24 +11622,6 @@ pagan_holy_war = {
 			factor = 0.9 # Prefer using CB's without on_add costs
 		}
 		
-		modifier = {
-			factor = 0.1
-			ROOT = {
-				culture = hungarian
-				primary_title = {
-					OR = {
-						title = k_hungary
-						title = e_carpathia
-					}
-				}
-			}
-			empire = {
-				OR = {
-					title = e_tartaria
-					title = e_russia
-				}
-			}
-		}
 	}
 }
 
@@ -14252,46 +14082,7 @@ buddhist_holy_war = {
 	sort_priority = 800
 	
 	can_use = {
-		ROOT = {
-			religion = buddhist
-			NOT = { same_realm = FROM }
-			OR = {
-				NOT = { religion_group = FROM }
-				FROM = { religion = taoist }
-				AND = {
-					religion_group = FROM
-					FROM = {
-						has_character_modifier = known_satanist
-					}
-					NOT = {
-						has_character_modifier = known_satanist
-					}
-				}
-			}
-			top_liege = {
-				religion_group = ROOT
-				OR = {
-					NOT = { religion = FROM }
-					FROM = { religion = taoist }
-					AND = {
-						religion_group = FROM
-						FROM = {
-							has_character_modifier = known_satanist
-						}
-						NOT = {
-							has_character_modifier = known_satanist
-						}
-						ROOT = {
-							NOT = {
-								has_character_modifier = known_satanist
-							}
-						}
-					}
-				}
-			}
-			mercenary = no
-			is_nomadic = no
-		}
+		always = no
 	}
 	
 	can_use_title = {
@@ -15847,23 +15638,6 @@ tributary_cb = {
 	ai_will_do = {
 		factor = 1
 		
-		modifier = { #Focus on Coronation first.
-			factor = 0.1
-			has_dlc = "Holy Fury"
-			ROOT = {
-				is_feudal = yes
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
-				NOR = {
-					trait = crowned_by_priest
-					trait = crowned_by_bishop
-					trait = crowned_by_pope
-					trait = crowned_by_myself
-				}
-			}
-		}
 		modifier = {
 			factor = 0.1 # Low prio CB
 		}
