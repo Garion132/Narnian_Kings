@@ -1,6 +1,18 @@
 800.1.1={
 	liege = k_karkengoru
 }
+897.4.2={
+	holder = 102005
+}
+922.3.5={
+	holder = 102000
+}
 930.1.1={
 	liege = k_whenuaongamaunga
+}
+1001.5.25={
+	holder = 102001
+}
+1014.6.19={
+	holder = 102002
 }

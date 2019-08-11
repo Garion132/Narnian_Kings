@@ -1,3 +1,6 @@
 800.5.9={
 	liege = k_hokubukyowakoku
 }
+930.9.2={
+	liege = d_konayowa
+}

@@ -58,6 +58,8 @@ character_event = {
 			culture_group = culture_group_nihonaru
 			culture_group="culture_group_numenorean"
 			culture_group="valii"
+			culture_group="northern_giant"
+			culture="narnian_giant"
 		}
 		NOR={
 			trait="human_race"
@@ -68,7 +70,7 @@ character_event = {
 			trait="valuia_dynasty_minor"
 			trait="giant_race"
 		}
-		NOT = {ai = no}
+		ai = yes
 	}
 	
 	mean_time_to_happen = {
@@ -85,16 +87,16 @@ character_event = {
 		trigger={culture_group="dwarf"}
 		add_trait="dwarf_culture"
 	}
-	#option = {
-	#	name = "EVTOPTC200013"
-	#	trigger={
-	#		OR={
-	#			culture_group="northern_giant"
-	#			culture="narnian_giant"
-	#		}
-	#	}
-	#	add_trait="giant_race"
-	#}
+	option = {
+		name = "EVTOPTF200013"
+		trigger={
+			OR={
+				culture_group="northern_giant"
+				culture="narnian_giant"
+			}
+		}
+		add_trait="giant_race"
+	}
 	option = {
 		name = "EVTOPTC200013"
 		trigger={
@@ -108,7 +110,7 @@ character_event = {
 				culture = seven_islander
 				culture = lone_islander
 				culture = german
-				culture = irish
+				culture_group = celtic
 				culture_group = narniyan_tamisl
 				culture_group = nedic
 				culture_group = maori

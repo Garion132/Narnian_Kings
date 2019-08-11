@@ -10,8 +10,11 @@ b_monano = castle
 #b_tolsmin = temple
 
 # Misc
-religion = shinoi
-culture = nishonaru
+religion = eru
+culture = culture_ienorian
+931.1.1={
+	religion = shinoi
+}
 996.6.9={
 	culture = tangatawhetu
 }

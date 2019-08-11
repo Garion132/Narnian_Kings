@@ -137,6 +137,19 @@
 	954.7.18 = {
 		birth = "954.7.18"
 	}
+	999.12.24 = {
+          raise_levies = {
+               location = 359 # "riding" to the aid of peter
+               force_mult = 1.0
+          }
+	}
+	1000.2.5 = {
+          raise_levies = {
+			dismiss = yes
+               location = 359 # the army dispearses
+               force_mult = 1.0
+          }
+	}
 	1022.8.17 = {
 		death = "1022.8.17"
 	}
@@ -375,8 +388,21 @@
 	980.7.29={
 		birth="980.7.29"
 	}
+	999.12.24 = {
+          raise_levies = {
+               location = 359 # "riding" to the aid of peter
+               force_mult = 1.0
+          }
+	}
 	999.12.19={
 		effect={add_friend=1014}
+	}
+	1000.2.5 = {
+          raise_levies = {
+			dismiss = yes
+               location = 359 # the army dispearses
+               force_mult = 1.0
+          }
 	}
 	1024.2.10={
 		death="1024.2.10"
@@ -414,8 +440,21 @@
 	979.6.13={
 		birth=yes
 	}
+	999.12.24 = {
+          raise_levies = {
+               location = 359 # "riding" to the aid of peter
+               force_mult = 1.0
+          }
+	}
 	999.12.19={
 		effect={add_friend=1014}
+	}
+	1000.2.5 = {
+          raise_levies = {
+			dismiss = yes
+               location = 359 # the army dispearses
+               force_mult = 1.0
+          }
 	}
 	1036.9.22={
 		death={death_reason=death_battle}

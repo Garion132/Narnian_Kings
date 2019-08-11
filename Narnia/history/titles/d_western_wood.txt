@@ -8,7 +8,9 @@
 	holder = 60300
 }
 999.1.1={
+	holder = 0
 	liege = "k_rebel_narnia"
+	holder = 60300
 }
 1000.2.5={
 	liege = "e_narnia"

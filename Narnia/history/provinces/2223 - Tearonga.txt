@@ -10,8 +10,12 @@ b_tearonga = castle
 #b_tolsmin = temple
 
 # Misc
-religion = shinoi
-culture = nishonaru
+culture = culture_ienorian
+religion = eru
+931.1.1={
+	culture = nishonaru
+	religion = shinoi
+}
 996.6.9={
 	culture = tangatawhetu
 }

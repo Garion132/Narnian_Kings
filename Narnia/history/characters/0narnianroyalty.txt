@@ -222,7 +222,7 @@
 	999.12.24 = {
           raise_levies = {
                location = 359 # Peter is given troops from aslan
-               force_mult = 2.2
+               force_mult = 1.6
           }
 		  piety = 250
 		  effect= {add_friend = 60008}
@@ -234,7 +234,7 @@
           raise_levies = {
 			dismiss = yes
                location = 359 # the army dispearses
-               force_mult = 2.2
+               force_mult = 1.6
           }
 	}
 	1000.2.5 = {give_nickname = "nick_the_magnificent"}#is crowned High King

@@ -10,10 +10,10 @@ b_powhanana = castle
 #b_tolsmin = temple
 
 # Misc
-religion = shinoi
-culture = nishonaru
-996.6.9={
-	culture = tangatawhetu
+religion = eru
+culture = culture_ienorian
+931.1.1={
+	religion = shinoi
 }
 1023.5.9={
 	religion = purakau_ao_kohatu

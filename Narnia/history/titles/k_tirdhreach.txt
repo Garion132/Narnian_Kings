@@ -4,19 +4,6 @@
 500.2.20={
 	law = succ_primogeniture
 	law = crown_authority_2
-	effect = {
-		#make Vernuoght the capital
-		b_vernuoght = {
-			ROOT = {
-				holder_scope = {
-					if = {
-						limit = { has_landed_title = PREVPREV }
-						capital = PREVPREV
-					}
-				}
-			}	
-		}	
-	}
 }
 847.3.8={
 	holder = 80507
@@ -32,7 +19,7 @@
 }
 946.7.18={
 	holder = 80503
-}
+} 
 967.9.30={
 	holder = 80502
 }

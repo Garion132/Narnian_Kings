@@ -1,6 +1,15 @@
 850.3.18 = {
 	liege = k_ripena
 }
+895.4.19={
+	holder = 85553
+}
+919.8.26={
+	holder = 85552
+}
+932.11.17={
+	holder = 85551
+}
 951.6.2={
 	#liege = k_holyside
 	holder = 85550

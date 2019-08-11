@@ -2823,6 +2823,7 @@ k_whenuaongamaunga ={
 	color2={ 255 86 71 }
 	
 	nishonaru = Kurai
+	culture_ienorian = Kurak
 		
 	d_ohekuha = {
 		color={ 117 237 247 }
@@ -2877,6 +2878,7 @@ k_whenuaongamaunga ={
 		c_powhanana = {
 			color={ 117 247 250 }
 			color2={ 255 255 255 }
+			culture_ienorian = "Pordain"
 		
 			b_powhanana ={}
 		}
@@ -3232,6 +3234,8 @@ e_yuhniochi = {
 	k_ienor={
 		color={ 92 186 76 }
 		color2={ 255 86 71 }
+		
+		nishonaru = Ieriki
 			
 		d_ienor = {
 			color={ 97 137 47 }
@@ -3400,8 +3404,8 @@ e_yuhniochi = {
 		color={ 196 196 0 }
 		color2={ 255 86 71 }
 			
-		nishonaru = Yuhniochi
-		culture_ienorian = "Ninor"
+		nishonaru = "Yuhniochi"
+		culture_ienorian = "Nianor"
 		
 		capital = 1909
 			
@@ -3594,7 +3598,7 @@ e_yuhniochi = {
 		color={ 138 193 163 }
 		color2={ 255 86 71 }
 			
-		#culture_ienorian = Aipioranië	
+		culture_ienorian = "Olinaine"
 			
 		d_curilu = {
 			color={ 97 107 97 }

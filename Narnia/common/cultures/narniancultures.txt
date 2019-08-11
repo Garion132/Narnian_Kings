@@ -1979,7 +1979,7 @@ axolenta = {
 westorosii_group = {
 	graphical_cultures = { westerngfx } # buildings, portraits, units
 	
-	weosterman = {
+	weosterman = { #westermen who followed tommen lanister east
 		graphical_cultures = { normangfx } # units
 		
 		color = { 0.6 0 0 }
@@ -2040,7 +2040,7 @@ westorosii_group = {
 		
 		modifier = default_culture_modifier
 	}
-	esliterman = {
+	esliterman = { #melting pot of the two westorosi cultures and the native dryads
 		graphical_cultures = { normangfx } # units
 		
 		color = { 0.75 0.1 0.1 }
@@ -2101,7 +2101,7 @@ westorosii_group = {
 		
 		modifier = default_culture_modifier
 	}
-	neorndman = {
+	neorndman = { #northmen who followed bradon stark west
 		graphical_cultures = { saxongfx } # portraits
 		
 		color = { 0.95 0.95 0.95 }
@@ -2345,6 +2345,49 @@ polypontian = {
 		graphical_cultures = { southerngfx occitangfx }
 		
 		color = { 0.51 0.5 0.1 }
+		
+		used_for_random = no
+
+		male_names = {
+			Aemilian Aemilius Aetius Albinus Alexander_Alexander Anastasius_Anastasius Anicius Annius Antoninus Antonius_Antonius Arcadius Aurelian Aurelius
+			Avitus Belisarius_Belisarius Britannicus Caecilius Caesar_Caesar Carinus Carus Cassius Claudius Clementius Constans_Constans Constantine_Constantine
+			Constantius_Constantius Cornelius Crassus Decimus Decius Diocletian Domitian Domitius Drusus Ennodius Fabianus Fabius Faustus Felix Flavianus Florian
+			Gaius Galerius Gallienus Gallus Germanus_Germanus Gordian Gracchus Gratian Hadrian_Adrian Herculius_Heracles Honorius Joannes_John Jovian
+			Julian_Julian Julius Julius-Caesar Junius Justin_Justin Justinian_Justinian Leo_Leo Leontius_Leontius Liberius Licinius Lucius Magnus_Magnus Marcellinus
+			Marcellus Marcian Marcus_Marcus Marinus Marius Martinus Maximian Maximinus Maximus_Maximus Nepotian Nerva Numerian Octavianus Octavius Otho
+			Paulinus Paulus_Paul Petronius Philip_Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus_Roman Romulus Rufinus Rutilius Sabinianus
+			Saturninus Sempronius Septimius Sergius_Sergius Severinus Severus Sextus Symmachus_Symmachus Tacitus Theodosius_Theodosios Tiberius_Tiberius
+			Titius Titus Trajan_Trajan Urbanus Valens Valentinian Valerian Valerius_Valerius Venantius Vespasian Victor Victorinus Vigilius Vitalianus Volusianus
+		}
+		female_names = {
+			Aelia Agrippina Antonia_Antonia Antonina Aquilia Aurelia Caecilia Caesaris Candida Cassia Claudia_Claudia Clementia Constantia_Constantia
+			Constantina_Constantina Cornelia Crispina Dominica Domitiana Domna Domnina Drusilla Fausta Faustina Flacilla Flavia Fortunata Frontina Gaia Galeria
+			Gordiana Hadriana_Adriana Helvia Hilara Honoria Hortensia Julia_Julia Juliana_Juliana Junia Justa Justina_Justina Justiniana Licinia Livia Livilla Lucilla
+			Magnia Magnilla Marcella Marcia_Marcia Marciana Marina Martina_Martina Matrona Maxima Maximiana Messalina Minervina Minucia Modia Mustela
+			Octavia Palatina Paula_Paula Paulina_Paulina Petronella Petronia_Petronia Placidia Plautia Plautilla Pompeia Poppaea Praeiecta Publia Pulcheria_Pulcheria
+			Rusticiana Sabina Sallustia Salonina Salvianella Scantilla Serena Sergia Severa Severina Silvia Spadusa Sulpicia Tarsilla Titiana Ulpia Valeria_Valeria
+			Verina Victoria Vigilantia Viviana_Viviana
+		}
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	acoloan = {
+		graphical_cultures = { southerngfx occitangfx }
+		
+		color = { 0.54 0.53 0.1 }
 		
 		used_for_random = no
 

@@ -342,7 +342,8 @@
 		birth=yes
 	}
 	946.7.24={#rebellion of Caner
-		death=yes
+		death={death_reason = death_execution_disembowelment 
+		killer = 110102}
 	}
 }
 110804 = {
@@ -350,7 +351,7 @@
 	dynasty = 1023
 	religion = "kelvrain"
 	culture = "telvasrian"
-	#father = 80600
+	father = 110805
 	#mother = 80201
 	wealth = 300
 	add_trait = "proud"
@@ -359,6 +360,23 @@
 		birth=yes
 	}
 	946.7.24={#rebellion of Caner
+		death={death_reason = death_execution_disembowelment 
+		killer = 110102}
+	}
+}
+110805 = {
+	name = "Aner" 
+	dynasty = 1023
+	religion = "kelvrain"
+	culture = "telvasrian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	add_trait = "kind"
+	866.8.13={
+		birth=yes
+	}
+	912.5.9={#
 		death=yes
 	}
 }

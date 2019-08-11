@@ -3,6 +3,7 @@
 }
 930.6.9={
 	liege = k_loiva
+	holder = 97401
 }
 973.9.15={
 	holder = 97400

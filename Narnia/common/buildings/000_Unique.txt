@@ -310,19 +310,6 @@ castle = {
 		fort_level = 3
 		extra_tech_building_start = 1.0
 	}
-	ca_ironrock_hold = {
-		desc = ca_ironrock_fortress_desc	
-		potential = {
-			FROMFROM = { title = b_ironrock_fortress }
-			year>821
-		}
-		ai_creation_factor = 110
-		gold_cost = 1700
-		build_time = 1420
-		fort_level = 25
-		garrison_size = 10
-		extra_tech_building_start = 0.0
-	}
 	ca_jadewall = {
 		desc = ca_jadewall_desc	
 		potential = {
@@ -335,6 +322,7 @@ castle = {
 		ai_creation_factor = 110
 		gold_cost = 1700
 		build_time = 1420
+		garrison_size = 0.1
 		fort_level = 6
 		extra_tech_building_start = 0.0
 	}

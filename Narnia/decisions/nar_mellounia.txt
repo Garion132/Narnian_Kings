@@ -12,6 +12,7 @@ decisions = {
 				has_landed_title = e_mellounia
 				is_tributary = yes
 			}
+			e_mellounia = {exists = yes}
 		}
 		allow = {
 			war = no

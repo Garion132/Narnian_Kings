@@ -10,8 +10,12 @@ b_ngahahena = castle
 #b_tolsmin = temple
 
 # Misc
-religion = lavurite
-culture = uyirimerku
+culture = culture_ienorian
+religion = eru
+931.1.1={
+	religion = lavurite
+	culture = uyirian_merku
+}
 996.6.9={
 	culture = tangatawhetu
 }

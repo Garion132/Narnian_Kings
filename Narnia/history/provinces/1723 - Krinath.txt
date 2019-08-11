@@ -11,4 +11,7 @@ b_krinath = castle
 
 # Misc
 culture = culture_ienorian
-religion = pamyatrossii
+religion = eru
+913.1.1={
+	religion = pamyatrossii
+}

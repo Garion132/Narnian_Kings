@@ -34,6 +34,7 @@
 	wealth = 2500
 
 	952.5.21 = {birth=yes}
+	976.2.3={add_spouse = 128605}
 	1012.6.25={
 		death = {death_reason = death_natural}
 	}
@@ -45,6 +46,7 @@
 	religion="quallis"
 	culture="quende"
 	father = 125100
+	mother = 128605
 
 	add_trait = "human_race"
 
@@ -62,6 +64,7 @@
 	religion="quallis"
 	culture="quende"
 	father = 125100
+	mother = 128605
 
 	add_trait = "human_race"
 
@@ -1341,6 +1344,124 @@
 
 	975.3.17 = {birth=yes}
 	1036.8.18={
+		death = {death_reason = death_natural}
+	}
+}
+
+128600 = {
+	name="Colad"	# 
+	dynasty=215
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	#father=8012190
+	wealth = 1900
+
+	912.8.9 = {birth=yes}
+	986.4.12={
+		death = {death_reason = death_natural}
+	}
+}
+128601 = {
+	name="Salisman"	# 
+	dynasty=215
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	father=128600	
+
+	936.12.30 = {birth=yes}
+	986.4.12={wealth = 1900}
+	1001.3.4={
+		death = {death_reason = death_natural}
+	}
+}
+128602 = {
+	name="Liain"	# 
+	dynasty=215
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	father=128600	
+
+	938.9.3 = {birth=yes}
+	993.7.12={
+		death = {death_reason = death_natural}
+	}
+}
+128603 = {
+	name="Calendor"	# 
+	dynasty=215
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	father=128601	
+
+	951.5.19 = {birth=yes}
+	1001.3.4={wealth = 1900}
+	1007.1.27={
+		death = {death_reason = death_natural}
+	}
+}
+128604 = {
+	name="Eran"	# 
+	dynasty=215
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	father=128603	
+
+	979.6.20 = {birth=yes}
+	1007.1.27={wealth = 1900}
+	1034.8.6={
+		death = {death_reason = death_natural}
+	}
+}
+128605 = {
+	name="Ilea"	# 
+	dynasty=215
+	female = yes
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	father=128601	
+
+	953.4.29 = {birth=yes}
+	1009.3.5={
+		death = {death_reason = death_natural}
+	}
+}
+128606 = {
+	name="Kindum"	# 
+	dynasty=215
+
+	religion="quallis"
+	culture="quende"
+
+	add_trait = "human_race"
+
+	father=128601	
+
+	954.11.8 = {birth=yes}
+	1011.8.4={
 		death = {death_reason = death_natural}
 	}
 }

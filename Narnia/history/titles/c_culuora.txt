@@ -1,5 +1,5 @@
-800.1.1={
-	liege = k_hokubukyowakoku
+834.10.14={
+	liege = k_tarna
 }
 930.6.9={
 	liege = d_haruu

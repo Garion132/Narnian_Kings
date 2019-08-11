@@ -12,3 +12,16 @@ b_ostid = temple
 # Misc
 culture = cerek
 religion = eline
+
+754.1.1 = {
+	build_wonder = wonder_ironrock_fortress
+	set_wonder_stage = 1
+}
+801.1.1 = {
+	build_wonder = wonder_ironrock_fortress
+	set_wonder_stage = 2
+}
+821.1.1 = {
+	build_wonder = wonder_ironrock_fortress
+	set_wonder_stage = 3
+}

@@ -10,8 +10,11 @@ b_pauhana = castle
 #b_tolsmin = temple
 
 # Misc
-religion = celtic
+religion = caitliceann
 culture = irish
+940.6.7={
+	religion = celtic
+}
 996.6.9={
 	culture = kingiongaiwi
 }

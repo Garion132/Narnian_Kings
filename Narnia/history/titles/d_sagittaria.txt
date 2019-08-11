@@ -8,7 +8,12 @@
 	holder= 60008
 }
 999.1.1={
-liege = "k_rebel_narnia"
+	holder= 0
+	liege = "k_rebel_narnia"
+	holder= 60008
+}
+1001.1.1={
+	liege = "e_narnia"
 }
 1022.8.17={
 	holder= 60009

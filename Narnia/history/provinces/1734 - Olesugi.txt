@@ -10,5 +10,9 @@ b_olesugi = castle
 #b_tolsmin = temple
 
 # Misc
-culture = alzuashonaru
-religion = shinoi
+culture = culture_ienorian
+religion = eru
+931.1.1={
+	culture = alzuashonaru
+	religion = shinoi
+}

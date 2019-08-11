@@ -10,5 +10,5 @@ b_sarna = castle
 #b_tolsmin = temple
 
 # Misc
-culture = quende
+culture = vindi
 religion = quallis

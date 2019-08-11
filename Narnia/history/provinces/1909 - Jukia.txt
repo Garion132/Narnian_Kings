@@ -11,5 +11,9 @@ b_nurio = temple
 b_juru = castle
 
 # Misc
-culture = nishonaru
-religion = shinoi
+culture = culture_ienorian
+religion = eru
+930.1.1={
+	culture = nishonaru
+	religion = shinoi
+}

@@ -8,6 +8,9 @@
 	liege = "k_rebel_narnia"
 	holder = 60500
 }
+1001.1.1={
+	liege = "e_narnia"
+}
 1998.1.1={
 	liege = "k_narnia"
 	holder=0

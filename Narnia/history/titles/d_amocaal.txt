@@ -1,8 +1,17 @@
 1.1.1={
 	#law = succ_primogeniture
 }
-898.2.9={
+800.1.1={
+	liege = k_langvest
+}
+863.2.8={
+	holder = 97905
+}
+897.12.5={
 	holder = 97904
+}
+926.8.21={
+	liege = ""
 }
 941.3.27 = {
 	holder = 97903

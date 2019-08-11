@@ -10,5 +10,9 @@ b_yulura = city
 b_narman = temple
 
 # Misc
-culture = nishonaru
-religion = shinoi
+culture = culture_ienorian
+religion = eru
+931.1.1={
+	culture = nishonaru
+	religion = shinoi
+}

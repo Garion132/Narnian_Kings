@@ -373,7 +373,7 @@
 	religion_group = "celtic"
 }
 94={
-	name="Kerriun"
+	name="Karrium"
 }
 95={
 	name="Von Stattan"
@@ -931,6 +931,22 @@
 	name="Annene"
 	used_for_random = no
 }
+213={
+	name="Mahano"
+	used_for_random = no
+}
+214={
+	name="Boren"
+	used_for_random = no
+}
+215={
+	name="Avaventium"
+	used_for_random = no
+}
+216={
+	name="Ua Iren"
+	used_for_random = no
+}
 500={
 	name="Lori"
 	religion_group = "siniia"
@@ -1013,6 +1029,10 @@
 }
 551={
 	name="Senir"
+	used_for_random=no
+}
+552={
+	name="Tarna"
 	used_for_random=no
 }
 1000={
@@ -1385,4 +1405,7 @@
 }
 1070={
 	name="Elichtan"
+}
+1071={
+	name="Tyuosugi"
 }

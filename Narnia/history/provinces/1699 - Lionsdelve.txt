@@ -10,5 +10,11 @@ b_lionsdelve = tribal
 #b_high_temple_of_tash = temple
 
 # Misc
-culture = uyirian
-religion = shinoi
+culture = culture_ienorian
+religion = eru
+928.6.7={
+	culture = uyirian
+}
+931.1.1={
+	religion = shinoi
+}

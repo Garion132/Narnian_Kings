@@ -1196,6 +1196,10 @@ e_mellounia = {
 				
 				b_caira = {
 				}
+				b_tulcaira = {
+				}
+				b_encair = {
+				}
 			}
 			c_quiria = {
 				color={ 212 150 245 }

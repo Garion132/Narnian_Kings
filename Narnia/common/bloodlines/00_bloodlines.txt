@@ -13,32 +13,32 @@ trasnialian = {
 	allow_bastards = yes
 	inheritance = patrilineal
 	picture = GFX_bloodlines_symbol_lion
-	flags = { historical_bloodline }
+	flags = { historical_bloodline bloodline_trasnialian }
 }
 line_of_uar = {
 	stewardship = 1
 	allow_bastards = no
 	inheritance = patrilineal
-	flags = { historical_bloodline }
+	flags = { historical_bloodline bloodline_Uar }
 }
 line_of_aldomar = {
 	diplomacy = 1
 	allow_bastards = no
 	inheritance = patrilineal
-	flags = { historical_bloodline }
+	flags = { historical_bloodline bloodline_Aldomar }
 }
 line_of_murtagh = {
 	combat_rating = 3
 	martial = 1
 	allow_bastards = no
 	inheritance = patrilineal
-	flags = { historical_bloodline }
+	flags = { historical_bloodline bloodline_Murtagh }
 }
 line_of_erinin = {
 	intrigue = 1
 	allow_bastards = no
 	inheritance = patrilineal
-	flags = { historical_bloodline }
+	flags = { historical_bloodline bloodline_Erinin }
 }
 
 caspian = {

@@ -1,3 +1,6 @@
-900.6.6={
+876.6.6={
+	liege = d_hoporunga
+}
+912.6.6={
 	liege = d_lourunga
 }

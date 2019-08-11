@@ -11,5 +11,9 @@ b_taouras = city
 #b_tolsmin = temple
 
 # Misc
-culture = nishonaru
-religion = shinoi
+culture = culture_ienorian
+religion = eru
+931.1.1={
+	culture = nishonaru
+	religion = shinoi
+}

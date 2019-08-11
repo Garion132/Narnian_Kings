@@ -11,7 +11,7 @@ b_pangamatere = tribal
 
 # Misc
 religion = lavurite
-culture = uyirimerku
+culture = uyirian_merku
 996.6.9={
 	culture = tangatawhetu
 }

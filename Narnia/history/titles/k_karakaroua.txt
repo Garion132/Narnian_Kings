@@ -3,6 +3,15 @@
 	name = "Holyside"
 	adjective = "Holysidian"
 }
+889.3.4={
+	holder = 85504
+}
+901.10.30={
+	holder = 85503
+}
+924.9.8={
+	holder = 85502
+}
 932.9.8={
 	holder = 85501
 }

@@ -2,5 +2,8 @@
 	holder=0
 }
 700.1.1={
+	liege = d_rivinith
+}
+915.3.6={
 	liege = k_dfyrid
 }

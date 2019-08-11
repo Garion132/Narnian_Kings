@@ -10,5 +10,9 @@ b_conton = tribal
 #b_high_temple_of_tash = temple
 
 # Misc
-culture = uyirian
-religion = lavurite
+culture = culture_ienorian
+religion = eru
+928.6.7={
+	culture = uyirian
+	religion = lavurite
+}

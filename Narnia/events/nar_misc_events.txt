@@ -81,29 +81,27 @@ character_event = { #Members of the Ua Dylis get claims on the dylis tiral based
 	hide_window = yes
 	
 	trigger = {
-		any_owned_bloodline={ bloodline = trasnialian }
+		any_owned_bloodline={ has_bloodline_flag = bloodline_trasnialian }
 		NOR = {
 			has_strong_claim = e_dylis_tiral
 			has_landed_title = e_dylis_tiral
-			#has_weak_claim = e_dylis_tiral
+			has_weak_claim = e_dylis_tiral
 		}
-		dynasty = 100
 	}
 	
 	immediate = { #claim given
-		else_if = {
+		#name = EVTOPTAnar_misc.5
+		if = {
 			limit = {
 				any_independent_ruler = {
 					limit = {
-						any_title = {
-							limit = {title=e_dylis_tiral}
-						}
-						true_religion = celtic
-						dynasty = 100
-						any_owned_bloodline={ bloodline = line_of_uar }
+						has_landed_title =e_dylis_tiral
 					}
+					true_religion = celtic
+					dynasty = 100
+					any_owned_bloodline={ has_bloodline_flag = bloodline_Uar }
 				}
-				any_owned_bloodline={ bloodline = line_of_uar }
+				any_owned_bloodline={ has_bloodline_flag = bloodline_Uar }
 			}
 			add_claim = e_dylis_tiral
 			add_claim = c_old_dylis
@@ -112,15 +110,13 @@ character_event = { #Members of the Ua Dylis get claims on the dylis tiral based
 			limit = {
 				any_independent_ruler = {
 					limit = {
-						any_title = {
-							limit = {title=e_dylis_tiral}
-						}
-						true_religion = celtic
-						dynasty = 100
-						any_owned_bloodline={ bloodline = line_of_aldomar }
+						has_landed_title =e_dylis_tiral
 					}
+					true_religion = celtic
+					dynasty = 100
+					any_owned_bloodline={ has_bloodline_flag = bloodline_Aldomar }
 				}
-				any_owned_bloodline={ bloodline = line_of_aldomar }
+				any_owned_bloodline={ has_bloodline_flag = bloodline_Aldomar }
 			}
 			add_claim = e_dylis_tiral
 			add_claim = c_old_dylis
@@ -129,15 +125,13 @@ character_event = { #Members of the Ua Dylis get claims on the dylis tiral based
 			limit = {
 				any_independent_ruler = {
 					limit = {
-						any_title = {
-							limit = {title=e_dylis_tiral}
-						}
-						true_religion = celtic
-						dynasty = 100
-						any_owned_bloodline={ bloodline = line_of_murtagh }
+						has_landed_title =e_dylis_tiral
 					}
+					true_religion = celtic
+					dynasty = 100
+					any_owned_bloodline={ has_bloodline_flag = bloodline_Murtagh }
 				}
-				any_owned_bloodline={ bloodline = line_of_murtagh }
+				any_owned_bloodline={ has_bloodline_flag = bloodline_Murtagh }
 			}
 			add_claim = e_dylis_tiral
 			add_claim = c_old_dylis
@@ -146,15 +140,13 @@ character_event = { #Members of the Ua Dylis get claims on the dylis tiral based
 			limit = {
 				any_independent_ruler = {
 					limit = {
-						any_title = {
-							limit = {title=e_dylis_tiral}
-						}
-						true_religion = celtic
-						dynasty = 100
-						any_owned_bloodline={ bloodline = line_of_erinin }
+						has_landed_title = e_dylis_tiral
 					}
+					true_religion = celtic
+					dynasty = 100
+					any_owned_bloodline={ has_bloodline_flag = bloodline_Erinin }
 				}
-				any_owned_bloodline={ bloodline = line_of_erinin }
+				any_owned_bloodline={ has_bloodline_flag = bloodline_Erinin }
 			}
 			add_claim = e_dylis_tiral
 			add_claim = c_old_dylis

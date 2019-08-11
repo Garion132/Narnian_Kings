@@ -8,10 +8,9 @@
 	holder= 60008
 }
 999.1.1={
-liege = "d_aslans_how"
+	liege = "d_sagittaria"
 }
 1998.1.1={
-	liege = "d_sagittaria"
 	holder=0
 }
 2281.1.1={

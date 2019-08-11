@@ -1,6 +1,9 @@
 1.1.1={
 	holder=0
 }
-700.1.1={
+850.1.2={
+	liege = d_lourunga
+}
+921.4.20={
 	liege = k_dfyrid
 }

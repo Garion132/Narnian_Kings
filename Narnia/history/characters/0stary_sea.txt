@@ -603,6 +603,9 @@
 	962.9.17={
 		birth=yes
 	}
+	982.3.6={
+		add_spouse = 98603
+	}
 	1021.5.18={
 		death=yes
 	}
@@ -613,7 +616,7 @@
 	religion = "shinoi"
 	culture = "nishonaru"
 	father = 96000
-	#mother = 80201
+	mother = 98603
 	#stewardship = 8
 	#add_trait = "mastermind_theologian"
 	#wealth = 1760
@@ -1143,7 +1146,7 @@
 	dynasty = 163
 	religion = "pamyatrossii"
 	culture = "nord"
-	#father = 80600
+	father = 97103
 	#mother = 80201
 	#learning = 12
 	#stewardship = 8
@@ -1195,13 +1198,92 @@
 		death=yes
 	}
 }
+97103 = {
+	name = "Aralorn" #
+	dynasty = 163
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 97104
+	#mother = 80201
+	#learning = 12
+	#stewardship = 8
+	#add_trait = "mastermind_theologian"
+	#wealth = 570
+	917.5.19={
+		birth=yes
+	}
+	960.9.8={
+		death = {death_reason = death_battle}
+	}
+}
+97104 = {
+	name = "Carron" #
+	dynasty = 163
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 97105
+	mother = 97106
+	#learning = 12
+	#stewardship = 8
+	#add_trait = "mastermind_theologian"
+	#wealth = 570
+	893.4.20={
+		birth=yes
+	}
+	931.5.22={
+		death = yes
+	}
+}
+97105 = {
+	name = "Demarn" #
+	dynasty = 163
+	religion = "pamyatrossii"
+	culture = "nord"
+	#father = 80600
+	#mother = 80201
+	#learning = 12
+	#stewardship = 8
+	#add_trait = "mastermind_theologian"
+	#wealth = 570
+	868.3.18={
+		birth=yes
+	}
+	892.1.28={
+		add_spouse = 97106
+	}
+	913.4.9={
+		death = yes
+	}
+}
+97106 = {
+	name = "Aliina" #
+	#dynasty = 163
+	religion = "divine_cult"
+	culture = "culture_ienorian"
+	female = yes
+	#father = 80600
+	#mother = 80201
+	#learning = 12
+	#stewardship = 8
+	#add_trait = "mastermind_theologian"
+	#wealth = 570
+	869.11.31={
+		birth=yes
+	}
+	918.5.9={
+		add_trait = female_infertility
+	}
+	934.8.14={
+		death = yes
+	}
+}
 
 97200 = {
 	name = "Durad" #
 	dynasty = 164
 	religion = "pamyatrossii"
 	culture = "nord"
-	#father = 80600
+	father = 97204
 	#mother = 80201
 	#learning = 12
 	#stewardship = 8
@@ -1268,13 +1350,49 @@
 		death=yes
 	}
 }
+97204 = {
+	name = "Darrad" #
+	dynasty = 164
+	religion = "pamyatrossii"
+	culture = "nord"
+	father = 97205
+	#mother = 80201
+	#learning = 12
+	#stewardship = 8
+	#add_trait = "mastermind_theologian"
+	#wealth = 570
+	898.6.28={
+		birth=yes
+	}
+	950.3.16={
+		death=yes
+	}
+}
+97205 = {
+	name = "Darrad" #
+	dynasty = 164
+	religion = "pamyatrossii"
+	culture = "nord"
+	#father = 80600
+	#mother = 80201
+	#learning = 12
+	#stewardship = 8
+	#add_trait = "mastermind_theologian"
+	#wealth = 570
+	863.11.14={
+		birth=yes
+	}
+	913.7.26={
+		death=yes
+	}
+}
 
 97300 = {
 	name = "Kario Medea" #last king of Awa
 	dynasty = 1056
 	religion = "shinoi"
 	culture = "nishonaru"
-	#father = 96901
+	father = 97301
 	#mother = 80201
 	#stewardship = 8
 	#add_trait = "mastermind_theologian"
@@ -1289,13 +1407,47 @@
 		death=yes
 	}
 }
+97301 = {
+	name = "Kahari" #
+	dynasty = 1056
+	religion = "shinoi"
+	culture = "nishonaru"
+	father = 97302
+	#mother = 80201
+	#stewardship = 8
+	#add_trait = "mastermind_theologian"
+	#wealth = 1760
+	941.7.19={
+		birth=yes
+	}
+	986.9.12={
+		death=yes
+	}
+}
+97302 = {
+	name = "Enara" #
+	dynasty = 1056
+	religion = "shinoi"
+	culture = "nishonaru"
+	#father = 96901
+	#mother = 80201
+	#stewardship = 8
+	#add_trait = "mastermind_theologian"
+	#wealth = 1760
+	918.4.6={
+		birth=yes
+	}
+	961.8.30={
+		death=yes
+	}
+}
 
 97400 = {
 	name = "Arinobu" #last king of Loiva
 	dynasty = 1057
 	religion = "shinoi"
 	culture = "nishonaru"
-	#father = 96901
+	father = 97401
 	#mother = 80201
 	#stewardship = 8
 	#add_trait = "mastermind_theologian"
@@ -1308,6 +1460,24 @@
 			death_reason = death_execution_beheading
 			killer = 85000
 		}
+	}
+}
+97401 = {
+	name = "Niro" #
+	dynasty = 1057
+	religion = "shinoi"
+	culture = "nishonaru"
+	#father = 96901
+	#mother = 80201
+	#stewardship = 8
+	martial = 15
+	add_trait = "brilliant_strategist"
+	#wealth = 1760
+	912.7.6={
+		birth=yes
+	}
+	973.9.15={
+		death= yes
 	}
 }
 97450 = {
@@ -1666,13 +1836,28 @@
 	dynasty = 172
 	religion = "pamyatrossii"
 	culture = "nord"
-	#father = 97703
+	father = 97905
 	#mother = 80201
 	#wealth = 1700
 	872.6.18={
 		birth=yes
 	}
 	941.3.27={
+		death=yes
+	}
+}
+97905 = {
+	name = "Vannian" #
+	dynasty = 172
+	religion = "pamyatrossii"
+	culture = "nord"
+	#father = 97703
+	#mother = 80201
+	#wealth = 1700
+	834.7.3={
+		birth=yes
+	}
+	897.12.5={
 		death=yes
 	}
 }
@@ -1794,7 +1979,7 @@
 	dynasty = 207
 	religion = "divine_cult"
 	culture = "nord"
-	#father = 97901
+	father = 98120
 	#mother = 80201
 	#wealth = 1700
 	902.5.17={
@@ -2035,6 +2220,21 @@
 		birth=yes
 	}
 	1046.8.17={
+		death=yes
+	}
+}
+98120 = {
+	name = "Alderman" #
+	dynasty = 207
+	religion = "divine_cult"
+	culture = "nord"
+	#father = 97901
+	#mother = 80201
+	#wealth = 1700
+	875.7.3={
+		birth=yes
+	}
+	922.6.16={
 		death=yes
 	}
 }
@@ -2434,6 +2634,83 @@
 		birth=yes
 	}
 	1021.4.18={
+		death=yes
+	}
+}
+
+98600 = {
+	name = "Monzae" #
+	religion = "shinoi"
+	culture = "nishonaru"
+	dynasty=1071
+	father = 98604
+	#mother = 98114
+	#wealth = 1700
+	938.9.8={
+		birth=yes
+	}
+	986.6.9={
+		death=yes
+	}
+}
+98601 = {
+	name = "Takamasu" #
+	religion = "shinoi"
+	culture = "nishonaru"
+	dynasty=1071
+	father = 98600
+	#mother = 98114
+	#wealth = 1700
+	963.11.9={
+		birth=yes
+	}
+	1021.8.30={
+		death=yes
+	}
+}
+98602 = {
+	name = "Masahisa" #
+	religion = "shinoi"
+	culture = "nishonaru"
+	dynasty=1071
+	father = 98600
+	#mother = 98114
+	#wealth = 1700
+	965.1.16={
+		birth=yes
+	}
+	1018.6.23={
+		death=yes
+	}
+}
+98603 = {
+	name = "Toku" #
+	religion = "shinoi"
+	culture = "nishonaru"
+	female=yes
+	dynasty=1071
+	father = 98600
+	#mother = 98114
+	#wealth = 1700
+	969.6.24={
+		birth=yes
+	}
+	1018.6.23={
+		death=yes
+	}
+}
+98604 = {
+	name = "Aritan" #
+	religion = "shinoi"
+	culture = "nishonaru"
+	dynasty=1071
+	#father = 98101
+	#mother = 98114
+	#wealth = 1700
+	912.4.17={
+		birth=yes
+	}
+	967.6.9={
 		death=yes
 	}
 }

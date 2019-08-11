@@ -1,6 +1,9 @@
 859.3.5={
 	liege = d_tenvimdun
 }
+896.8.26={
+	holder = 98120
+}
 922.6.16={
 	holder = 98105
 }

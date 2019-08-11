@@ -1,8 +1,11 @@
-859.3.5={
-	liege = k_ostimlod
+896.8.26={
+	holder = 98120
 }
 922.6.16={
 	holder = 98105
+}
+924.1.2={
+	liege = k_ostimlod
 }
 946.8.21={
 	holder = 98106

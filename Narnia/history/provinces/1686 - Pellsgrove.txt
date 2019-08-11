@@ -10,5 +10,9 @@ b_pellsgrove = tribal
 
 
 # Misc
-culture = uyirian
-religion = lavurite
+culture = culture_ienorian
+religion = eru
+928.6.7={
+	culture = uyirian
+	religion = lavurite
+}

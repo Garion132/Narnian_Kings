@@ -350,7 +350,7 @@
 	dynasty = 116
 	religion = "eru"
 	culture = "culture_ienorian"
-	#father = 80600
+	father = 101610
 	#mother = 80201
 	add_trait="ilvitar_human_race"
 	752.8.9={
@@ -464,6 +464,21 @@
 		}
 	}
 }
+101610 = {
+	name = "Narith" #The Great
+	dynasty = 116
+	religion = "eru"
+	culture = "culture_ienorian"
+	#father = 80600
+	#mother = 80201
+	add_trait="ilvitar_human_race"
+	698.8.9={
+		birth=yes
+	}
+	800.6.9={
+		death=yes
+	}
+}
 
 101700 = {
 	name = "Hanmir" #
@@ -511,3 +526,132 @@
 		death=yes
 	}
 }
+
+102000 = {
+	name = "Andvír" #
+	dynasty = 213
+	religion = "eru"
+	culture = "culture_ienorian"
+	father = 102005
+	mother = 102006
+	add_trait="ilvitar_human_race"
+	902.4.17={
+		birth=yes
+	}
+	928.4.8={
+		add_spouse = 102003
+	}
+	931.2.6={
+		religion = "shinoi"
+	}
+	1001.5.25={
+		death=yes
+	}
+}
+102001 = {
+	name = "Turendur" #
+	dynasty = 213
+	religion = "shinoi"
+	culture = "culture_ienorian"
+	father = 102000
+	mother = 102003
+	add_trait="ilvitar_human_race"
+	935.8.9={
+		birth=yes
+	}
+	964.5.12={
+		add_spouse = 102003
+	}
+	998.2.5={
+		religion = "purakau_ao_kohatu"
+	}
+	1014.6.19={
+		death=yes
+	}
+}
+102002 = {
+	name = "Eärendil" #
+	dynasty = 213
+	religion = "shinoi"
+	culture = "culture_ienorian"
+	father = 102001
+	mother = 102004
+	add_trait="ilvitar_human_race"
+	969.4.14={
+		birth=yes
+	}
+	998.2.5={
+		religion = "purakau_ao_kohatu"
+	}
+	1093.7.26={
+		death=yes
+	}
+}
+102003 = {
+	name = "Aerin" #
+	#dynasty = 116
+	female = yes
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	#father = 80600
+	#mother = 80201
+	add_trait="ilvitar_human_race"
+	903.2.7={
+		birth=yes
+	}
+	997.3.27={
+		death=yes
+	}
+}
+102004 = {
+	name = "Númeniel" #
+	#dynasty = 116
+	female = yes
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	#father = 80600
+	#mother = 80201
+	add_trait="ilvitar_human_race"
+	929.11.25={
+		birth=yes
+	}
+	1028.9.14={
+		death=yes
+	}
+}
+102005 = {
+	name = "Eärendil" #
+	dynasty = 213
+	religion = "eru"
+	culture = "culture_ienorian"
+	#father = 80600
+	#mother = 80201
+	add_trait="ilvitar_human_race"
+	874.10.23={
+		birth=yes
+	}
+	897.9.12={
+		add_spouse = 102006
+	}
+	922.3.5={
+		death = {death_reason = death_execution_beheading killer = 101606}
+	}
+}
+102006 = {
+	name = "Ainarauta" #
+	#dynasty = 116
+	female = yes
+	religion = "eru"
+	culture = "culture_ienorian"
+	#father = 80600
+	#mother = 80201
+	add_trait="ilvitar_human_race"
+	879.6.1={
+		birth=yes
+	}
+	964.8.22={
+		death=yes
+	}
+}
+
+

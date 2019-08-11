@@ -10,8 +10,12 @@ b_gaohana = castle
 #b_tolsmin = temple
 
 # Misc
-culture = nishonaru
-religion = shinoi
+culture = irish
+religion = celtic
+931.1.1={
+	culture = nishonaru
+	religion = shinoi
+}
 996.6.9={
 	culture = kingiongaiwi
 }

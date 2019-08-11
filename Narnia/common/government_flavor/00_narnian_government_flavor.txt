@@ -54,6 +54,15 @@ government_flavor = {
 	}	
 }
 government_flavor = {
+	name = gov_bureaucracy
+	graphics = GFX_evt_powerful_ruler
+	priority = 4
+	trigger = {
+		government = bureaucracy_government
+		NOT = { has_law = succ_feudal_elective }
+	}	
+}
+government_flavor = {
 	name = gov_narnian_anarchy
 	graphics = GFX_evt_beheading
 	priority = 4

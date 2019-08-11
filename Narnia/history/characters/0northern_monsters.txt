@@ -834,6 +834,69 @@
 		death=yes
 	}
 }
+53550={
+	name="Canmarn" #
+	dynasty=214
+	religion="white_witch"
+	culture="chionmen"
+	#father=52107
+	#trait="vyric"
+	942.8.3={
+		birth=yes
+	}
+	966.1.5={
+		add_spouse = 53553
+	}
+	1005.9.6={
+		death=yes
+	}
+}
+53551={
+	name="Canmarn" #
+	dynasty=214
+	religion="white_witch"
+	culture="chionmen"
+	father=53550
+	mother = 53553
+	#trait="vyric"
+	967.4.21={
+		birth=yes
+	}
+	1051.9.19={
+		death=yes
+	}
+}
+53552={
+	name="Ardorn" #
+	dynasty=214
+	religion="white_witch"
+	culture="chionmen"
+	father=53550
+	mother = 53553
+	#trait="vyric"
+	969.3.5={
+		birth=yes
+	}
+	1048.11.29={
+		death=yes
+	}
+}
+53553={
+	name="Aernis" #
+	#dynasty=214
+	female = yes
+	religion="white_witch"
+	culture="chionmen"
+	#father=53550
+	#trait="vyric"
+	948.9.23={
+		birth=yes
+	}
+	1014.4.30={
+		death=yes
+	}
+}
+
 
 53600={
 	name="Ralph" #
@@ -949,6 +1012,8 @@
 		death=yes
 	}
 }
+
+
 #dwarves(black)
 #other
 54001={

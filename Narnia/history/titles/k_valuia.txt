@@ -1,7 +1,8 @@
 700.1.1={
 	law = succ_primogeniture
+	law = agnatic_succession
 }
-923.8.17 = {
+895.8.17 = {
 	holder = 105001
 }
 1001.6.1={

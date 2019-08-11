@@ -1,8 +1,10 @@
 800.1.1={
-	liege = k_langvest
-}
-930.6.9={
 	liege = d_amocaal
+}
+863.2.8={
+	holder = 97905
+}
+897.12.5={
 	holder = 97904
 }
 941.3.27 = {

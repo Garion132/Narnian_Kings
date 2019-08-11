@@ -10,5 +10,5 @@ b_tolos = castle
 #b_tolsmin = temple
 
 # Misc
-culture = quende
+culture = acoloan
 religion = quallis

@@ -10,5 +10,9 @@ b_okalval = city
 b_shana = temple
 
 # Misc
-culture = alzuashonaru
-religion = shinoi
+culture = culture_ienorian
+religion = eru
+931.1.1={
+	culture = alzuashonaru
+	religion = shinoi
+}

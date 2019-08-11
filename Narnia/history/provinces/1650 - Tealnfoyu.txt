@@ -10,5 +10,9 @@ b_tealnfoyu = castle
 #b_tolsmin = temple
 
 # Misc
-culture = alzuashonaru
-religion = pamyatrossii
+culture = culture_ienorian
+religion = eru
+931.1.1={
+	culture = alzuashonaru
+	religion = pamyatrossii
+}

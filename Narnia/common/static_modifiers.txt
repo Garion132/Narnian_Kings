@@ -582,7 +582,7 @@ giant_modifier = {
 	land_organisation = 1.0
 
 	land_morale = 1.25
-	levy_size = -0.65
+	levy_size = -0.72
 	levy_reinforce_rate = -0.95
 	
 	horse_archers = -1000
