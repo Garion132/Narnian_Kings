@@ -947,6 +947,14 @@
 	name="Ua Iren"
 	used_for_random = no
 }
+217={
+	name="Amunimas"
+	used_for_random = no
+}
+218={
+	name="Kinorn"
+	used_for_random = no
+}
 500={
 	name="Lori"
 	religion_group = "siniia"
@@ -1033,6 +1041,10 @@
 }
 552={
 	name="Tarna"
+	used_for_random=no
+}
+553={
+	name="Laithrea"
 	used_for_random=no
 }
 1000={

@@ -1,6 +1,6 @@
 880.1.1={
-	liege=k_ienor
+	liege=d_dulraith
 }
-1008.6.9={
-	liege = k_hokubukyowakoku
+912.6.12={
+	holder = 102200
 }

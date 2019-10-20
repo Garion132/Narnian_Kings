@@ -6524,3 +6524,58 @@
 		}
 	}
 }
+
+87300 = {
+	name = "Fiachnae" #
+	dynasty = 553
+	religion = "celtic"
+	culture = "irish"
+	#father = 87201
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	872.9.17={
+		birth=yes
+	}
+	944.7.19={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87301 = {
+	name = "Cailte" #
+	dynasty = 553
+	religion = "celtic"
+	culture = "irish"
+	father = 87300
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	896.11.2={
+		birth=yes
+	}
+	968.6.23={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87302 = {
+	name = "Muirguis" #
+	dynasty = 553
+	religion = "celtic"
+	culture = "irish"
+	father = 87301
+	#mother = 8730
+	#wealth = 340
+	#prestige = 600
+	924.2.7={
+		birth=yes
+	}
+	1001.2.14={
+		death={
+			death_reason = death_natural
+		}
+	}
+}

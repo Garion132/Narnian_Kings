@@ -1,6 +1,10 @@
 880.1.1={
-	liege=k_ienor
+	liege=d_amunimas
+	holder = 102102
 }
-1008.6.9={
-	liege = k_hokubukyowakoku
+973.6.9={
+	holder = 102100
+}
+1049.4.16={
+	holder = 102101
 }

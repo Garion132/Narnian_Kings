@@ -285,7 +285,7 @@ region_valuna = {
 region_eslia = {
 	duchies = {
 		d_selcun d_lopiar d_rulailn d_belsana d_narwind d_reachvell d_tarnea d_goldfang
-		d_carnsholme d_kourn d_miliro d_puliran d_laninsstier d_cliroin
+		d_carnsholme d_kourn d_miliro d_puliran d_laninsstier d_cliroin d_wytreaburned
 		d_erlias d_goldwall d_bluevine d_molira d_nillium d_garlinmine d_ryene d_xuras
 	}
 }
@@ -307,6 +307,80 @@ region_western_quellio = {
 		d_salchan d_gult d_neuri d_synn d_acfor d_minas_velda d_telair d_crennor d_salent
 		d_sanica d_vesine d_tain d_ciloni d_helimin d_cape_of_aedrs d_stormrock_reach
 		d_the_towers d_olbols d_loxoa d_nolsthime d_bridge_islands
+	}
+}
+region_eastern_quellio = {
+	duchies = {
+		d_uia d_quenim d_daner d_aevium d_tylron d_kyria d_vedia d_narboue d_ellyra
+		d_pallyn d_krienm d_tolos d_turnnium d_acteium d_constanium d_diodesia d_ulmium
+		d_eperine d_reme d_cvini
+	}
+}
+
+world_quellio = {
+	regions = {
+	region_eastern_quellio region_western_quellio
+	}
+}
+
+world_axol = {
+	regions = {
+	region_eslia region_obun_coast region_elexol_coast
+	}
+}
+
+region_dwarven_plains = {
+	duchies = {
+		d_lower_snakeford d_cruelwoods d_upper_snakeford d_coldplains
+		d_new_charn d_witchcastle
+	}
+}
+
+region_iced_hills = {
+	duchies = {
+		d_boreia d_riphea d_arimaspia d_chionia d_imparia d_alkonosta
+	}
+}
+
+region_nixian_coast = {
+	duchies = {
+		d_medusia d_nokkenorst d_nixia d_normark d_vampyria d_vertorony
+	}
+}
+
+region_seven_islands = {
+	duchies = {
+		d_southern_isles d_northern_isles
+	}
+}
+
+region_wyverinium = {
+	duchies = {
+		d_revenhold d_cetusius d_wyrm d_pyroaeium d_draconium
+	}
+}
+
+region_asteria = {
+	duchies = {
+		d_asteria d_nereidia
+	}
+}
+
+world_outer_islands = {
+	regions = {
+	region_asteria region_wyverinium region_seven_islands
+	}
+}
+
+region_far_outer_islands = {
+	duchies = {
+		d_nephelisa d_tethia d_ramandus_island
+	}
+}
+
+world_far_north = {
+	regions = {
+	region_nixian_coast region_iced_hills region_dwarven_plains region_ettinsmoor region_far_northern_giants
 	}
 }
 

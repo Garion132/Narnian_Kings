@@ -22,7 +22,7 @@ region_draconium = {
 	provinces = { 533 534 }
 }
 
-region_wyverinium` = {
+region_wyverinium = {
 	provinces = { 
 		535 536 537 538 539 540 541 542 543
 	}

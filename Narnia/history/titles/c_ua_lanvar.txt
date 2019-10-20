@@ -1,6 +1,15 @@
 1.1.1={
 	holder=0
 }
-700.1.1={
-	liege = k_dfyrid
+800.2.14={
+	liege = d_laithreain
+}
+895.4.17={
+	holder = 87300
+}
+944.7.19={
+	holder = 87301
+}
+968.6.23={
+	holder = 87302
 }
