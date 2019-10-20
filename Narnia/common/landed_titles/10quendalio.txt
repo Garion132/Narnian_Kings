@@ -1353,7 +1353,7 @@ e_quendelio = {
 			}
 		}
 		d_kyria = {
-			color={ 130 50 40 }
+			color={ 87 234 242 }
 			color2={ 255 255 255 }
 			
 			c_divei = {
@@ -1392,7 +1392,7 @@ e_quendelio = {
 		#capital=514
 
 		d_tylron = {
-			color={ 130 50 40 }
+			color={ 202 208 122 }
 			color2={ 255 255 255 }
 			
 			c_tolsii = {
@@ -1418,7 +1418,7 @@ e_quendelio = {
 			}
 		}
 		d_daner = {
-			color={ 130 50 40 }
+			color={ 96 101 242 }
 			color2={ 255 255 255 }
 			
 			c_luranil = {
@@ -1444,7 +1444,7 @@ e_quendelio = {
 			}
 		}
 		d_aevium = {
-			color={ 130 50 40 }
+			color={ 195 211 105 }
 			color2={ 255 255 255 }
 			
 			c_aevium = {
@@ -1480,7 +1480,7 @@ e_quendelio = {
 			}
 		}
 		d_quenim = {
-			color={ 130 50 40 }
+			color={ 173 188 88 }
 			color2={ 255 255 255 }
 			
 			c_erilo = {
@@ -1519,7 +1519,7 @@ e_quendelio = {
 		#capital=514
 		
 		d_cvini = {
-			color={ 130 50 40 }
+			color={ 77 222 82 }
 			color2={ 255 255 255 }
 			
 			c_cvini = {
@@ -1543,11 +1543,6 @@ e_quendelio = {
 				b_saelo = {
 				}
 			}
-		}
-		d_diodesia = {
-			color={ 130 50 40 }
-			color2={ 255 255 255 }
-			
 			c_vulventium = {
 				color={ 127 51 38 }
 				color2={ 255 255 255 }
@@ -1555,6 +1550,11 @@ e_quendelio = {
 				b_vulventium = {
 				}
 			}
+		}
+		d_diodesia = {
+			color={ 226 226 72 }
+			color2={ 255 255 255 }
+			
 			c_crana = {
 				color={ 125 52 42 }
 				color2={ 255 255 255 }
@@ -1585,7 +1585,7 @@ e_quendelio = {
 			}
 		}
 		d_eperine = {
-			color={ 130 50 40 }
+			color={ 105 208 112 }
 			color2={ 255 255 255 }
 			
 			c_enahana = {
@@ -1611,7 +1611,7 @@ e_quendelio = {
 			}
 		}
 		d_reme = {
-			color={ 130 50 40 }
+			color={ 78 93 129 }
 			color2={ 255 255 255 }
 			
 			c_calinium = {
@@ -1637,7 +1637,7 @@ e_quendelio = {
 			}
 		}
 		d_ulmium = {
-			color={ 130 50 40 }
+			color={ 82 121 163 }
 			color2={ 255 255 255 }
 			
 			c_ulmium = {
@@ -1669,7 +1669,7 @@ e_quendelio = {
 		#capital=514
 
 		d_acteium = {
-			color={ 130 50 40 }
+			color={ 235 74 85 }
 			color2={ 255 255 255 }
 			
 			c_gallia = {
@@ -1695,7 +1695,7 @@ e_quendelio = {
 			}
 		}
 		d_turnnium = {
-			color={ 130 50 40 }
+			color={ 255 94 99 }
 			color2={ 255 255 255 }
 			
 			c_carnem = {
@@ -1721,7 +1721,7 @@ e_quendelio = {
 			}
 		}
 		d_tolos = {
-			color={ 130 50 40 }
+			color={ 188 77 127 }
 			color2={ 255 255 255 }
 			
 			c_maedia = {
@@ -1747,7 +1747,7 @@ e_quendelio = {
 			}
 		}
 		d_constanium = {
-			color={ 130 50 40 }
+			color={ 146 102 113 }
 			color2={ 255 255 255 }
 			
 			c_canaine = {

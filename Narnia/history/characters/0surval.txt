@@ -654,4 +654,63 @@
 	}
 }
 
+102100 = {
+	name = "Aldamir" #
+	dynasty = 217
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	father = 102102
+	add_trait="ilvitar_human_race"
+	942.8.30={
+		birth=yes
+	}
+	1049.4.16={
+		death=yes
+	}
+}
+102101 = {
+	name = "Haldan" #
+	dynasty = 217
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	father = 102100
+	add_trait="ilvitar_human_race"
+	979.11.6={
+		birth=yes
+	}
+	1035.4.8={
+		religion = "shinoi"
+	}
+	1084.6.23={
+		death=yes
+	}
+}
+102102 = {
+	name = "Azarnarâ" #
+	dynasty = 217
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	father = 102102
+	add_trait="ilvitar_human_race"
+	853.7.19={
+		birth=yes
+	}
+	973.6.9={
+		death=yes
+	}
+}
 
+102200 = {
+	name = "Dulraith" #
+	dynasty = 218
+	religion = "pamyatrossii"
+	culture = "culture_ienorian"
+	#father = 102102
+	add_trait="ilvitar_human_race"
+	876.8.14={
+		birth=yes
+	}
+	1009.2.23={
+		death=yes
+	}
+}
