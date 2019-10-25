@@ -5,6 +5,26 @@ technology = {
 		d_acfor
 		d_ciloni
 		d_helimin
+		d_acteium
+		d_aevium
+		d_constanium
+		d_cvini
+		d_daner
+		d_diodesia
+		d_ellyra
+		d_eperine
+		d_krienm
+		d_kyria
+		d_narboue
+		d_pallyn
+		d_quenim
+		d_reme
+		d_tolos
+		d_totarne
+		d_turnnium
+		d_tylron
+		d_ulmium
+		d_vedia
 	}
 	400 = {
 		military = 0.1

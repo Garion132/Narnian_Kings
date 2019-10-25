@@ -9,7 +9,6 @@ technology = {
 		d_fernv
 		d_fernasburg
 		d_zenius
-		d_arkhangelsk
 		d_kregensburg
 		d_koltenite
 		d_ralenvict
@@ -168,7 +167,6 @@ technology = {
 }
 technology = {
 	titles = {	
-		d_olisiso
 		d_malenkith
 		d_sveagard
 		d_kolvarfell
@@ -210,7 +208,7 @@ technology = {
 }
 technology = {
 	titles = {	
-		c_tilsven
+		d_olisiso
 	}
 	400 = {
 		military = 0.1

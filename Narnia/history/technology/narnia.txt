@@ -3,7 +3,6 @@ technology = {
 	titles = {
 		d_beruna
 		d_galma
-		d_cair_paravel
 		d_archenbay
 		d_ettinsgard
 		d_the_marsh
@@ -48,7 +47,6 @@ technology = {
 		d_ankiun
 		d_south_archen
 		d_willoughby
-		d_arched_bays
 	}
 	400 = {
 		military = 0.1
@@ -69,11 +67,9 @@ technology = {
 		d_aslans_country #added just so game doesnt throw an error
 		d_southern_isles
 		d_northern_isles
-		c_doorn
 		d_ramandus_island
-		c_cair_paravel
+		d_cair_paravel
 		d_shannan
-		c_leoira
 		d_wyrm
 		d_cetusius
 		d_revenhold

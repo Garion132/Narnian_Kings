@@ -15,17 +15,13 @@ technology = {
 		d_oplina
 		d_viera
 		d_tinna
-		d_aelndic
 		d_ramocla
 		d_tarate
 		d_serrindor
 		d_veirain
 		d_xeoa
 		d_ziore
-		d_calavaer
-		d_marsana
 		d_salrten
-		
 	}
 	200 = {
 		military = 0.1
@@ -55,8 +51,6 @@ technology = {
 }
 technology = {
 	titles = {
-		d_jelvar
-		d_hathian
 		d_linvar
 		d_xaria
 		d_littare
@@ -80,8 +74,6 @@ technology = {
 		d_tolnse
 		d_aquntae
 		d_gulrus
-		d_solvene
-		d_keanxe
 	}
 	200 = {
 		military = 0.1

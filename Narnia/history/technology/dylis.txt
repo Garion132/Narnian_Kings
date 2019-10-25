@@ -67,13 +67,11 @@ technology = {
 		d_ildrogigen
 		d_old_dylis
 		d_vellaster
-		d_moysenford
 		d_duhaluo
 		d_rolffe
 		d_patrick_downs
 		d_rilen
 		d_molurin
-		d_folffe
 		d_keldalry
 		d_algolton
 		d_kilbunserby
@@ -83,7 +81,6 @@ technology = {
 		d_tyrawlny
 		d_ilithia
 		d_galton
-		d_kilbunserby
 		d_celivin
 		d_aghor
 		d_comanought
@@ -92,7 +89,6 @@ technology = {
 		d_achilloby
 		d_gillverny
 		d_denbraken
-		
 	}
 	500 = {
 		military = 0.1
@@ -152,7 +148,6 @@ technology = {
 		d_marngata
 		d_pangamatere
 		d_rarana
-		d_pahukiuki
 		d_dfyrid
 		d_sepinarin
 		d_laithreain

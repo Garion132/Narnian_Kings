@@ -60,7 +60,6 @@ technology = {
 		d_salzosa
 		d_sudcalvar
 		d_xerex
-		d_xesarium
 		d_selousbaan
 		d_gaolin
 		d_surtvain
@@ -87,7 +86,7 @@ technology = {
 }
 technology = {
 	titles = {
-		c_xesare
+		d_xesarium
 	}
 	400 = {
 		military = 0.1
