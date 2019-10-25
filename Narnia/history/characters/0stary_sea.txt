@@ -2259,7 +2259,7 @@
 	father = 98200
 	#mother = 98114
 	#wealth = 1700
-	add_claim = c_whiteart
+	add_claim = c_whitesart
 	add_trait = "mastermind_theologian"
 	add_trait = "quick"
 	971.9.6={

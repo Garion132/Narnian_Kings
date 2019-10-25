@@ -30,7 +30,7 @@
 	}
 	981.5.3={
 	employer=1900
-	give_job_title=commander
+	give_job_title=job_marshal
 	}
 	1001.5.1={
 		death="1001.5.1"
@@ -1036,7 +1036,7 @@
 	}
 	981.5.3={
 		employer=1900
-		give_job_title=spymaster
+		give_job_title=job_spymaster
 	}
 	999.12.27={
 		death={

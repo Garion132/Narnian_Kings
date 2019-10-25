@@ -703,7 +703,7 @@
 	father = 70134
 	religion = "aslan"
 	culture = "terebinthian"
-	random_traits = no
+	disallow_random_traits = yes
 	add_trait = "elusive_shadow"
 	add_trait = "kind"
 	add_trait = "just"
@@ -1263,8 +1263,6 @@
 	988.4.12 = {
 		birth = yes
 	}
-	1000.12.19 = {
-	}
 	1046.7.18 = {
 		death = yes
 	}
@@ -1278,8 +1276,8 @@
 	wealth = 2000
 	martial = 7
 	diplomacy = 6
-	967.6.31 = {
-		birth = "967.6.31"
+	967.6.30 = {
+		birth = "967.6.30"
 	}
 	993.10.30 = {
 		add_spouse = 70170

@@ -9,11 +9,10 @@
 	add_trait="kind"
 	add_trait="craven"
 	add_trait="honest"
-	add_trait="honest"
 	learning=15
 	diplomacy=19
 	939.4.21={
-		birth="969.4.21"
+		birth="939.4.21"
 	}
 	999.12.19={
 	effect={add_friend=1017}
@@ -23,17 +22,17 @@
 		death="1036.4.9"
 	}
 }
-60001 = {
-	name="mr. Beaver"
-	culture="narnian"
-	add_trait="beaver"
+#60001 = {
+#	name="mr. Beaver"
+#	culture="narnian"
+#	add_trait="beaver"
 }
-60002 = {
-	name="ms. Beaver"
-	female=yes
-	culture="narnian"
-	add_trait="beaver"
-}
+#60002 = {
+#	name="ms. Beaver"
+#	female=yes
+#	culture="narnian"
+#	add_trait="beaver"
+#}
 60003 = {
 	name="Glenstorm" 
 	dynasty=12
@@ -86,7 +85,7 @@
 		birth="2281.4.21"
 	}
 	2351.4.9={
-		death="1036.4.9"
+		death="2351.4.9"
 	}
 }
 60006 = {
@@ -100,7 +99,7 @@
 		birth="2282.4.21"
 	}
 	2364.4.9={
-		death="1036.4.9"
+		death="2364.4.9"
 	}
 }
 60007 = {
@@ -183,7 +182,7 @@
 		birth = "1022.2.27"
 	}
 	1102.8.1 = {
-		death = "1082.8.1"
+		death = "1102.8.1"
 	}
 }
 60120 = {
@@ -335,7 +334,7 @@
 		birth="999.12.22"
 	}
 	1321.9.3={
-		death="1423.10.26"
+		death="1321.9.3"
 	}
 }
 60150 = {
@@ -388,14 +387,14 @@
 	980.7.29={
 		birth="980.7.29"
 	}
+	999.12.19={
+		effect={add_friend=1014}
+	}
 	999.12.24 = {
           raise_levies = {
                location = 359 # "riding" to the aid of peter
                force_mult = 1.0
           }
-	}
-	999.12.19={
-		effect={add_friend=1014}
 	}
 	1000.2.5 = {
           raise_levies = {
@@ -434,20 +433,20 @@
 	add_trait="strong"
 	add_trait="zealous"
 	add_trait="cavalry_leader"
-	add_trait="impailer"
+	add_trait="impaler"
 	add_trait="brilliant_strategist"
 	martial=13
 	979.6.13={
 		birth=yes
+	}
+	999.12.19={
+		effect={add_friend=1014}
 	}
 	999.12.24 = {
           raise_levies = {
                location = 359 # "riding" to the aid of peter
                force_mult = 1.0
           }
-	}
-	999.12.19={
-		effect={add_friend=1014}
 	}
 	1000.2.5 = {
           raise_levies = {
@@ -506,7 +505,7 @@
 	add_trait="brave"
 	add_trait="skilled_tactician"
 	add_trait="proud"
-	add_trait="gregorious"
+	add_trait="gregarious"
 	966.11.26={
 		birth=yes
 	}
@@ -635,7 +634,7 @@
     915.3.15={
         birth=yes
 	}
-    930.7.34={
+    930.7.3={
 		add_spouse=60801
     }
 	1072.3.27={

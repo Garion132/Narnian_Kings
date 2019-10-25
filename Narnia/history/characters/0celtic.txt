@@ -3242,7 +3242,7 @@
 	902.7.28={
 		birth=yes
 	}
-	959.4.31={
+	959.4.30={
 		death={
 			death_reason = death_murder_unknown
 		}
@@ -5607,7 +5607,7 @@
 	dynasty = 175
 	religion = "celtic"
 	culture = "irish"
-	father = 85352
+	father = 86352
 	#mother = 82139
 	#wealth = 340
 	#prestige = 600
@@ -6423,7 +6423,7 @@
 	978.12.11={
 		birth=yes
 	}
-	1032.4.22-={
+	1032.4.22={
 		death={
 			death_reason = death_natural
 		}

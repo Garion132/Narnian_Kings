@@ -1541,8 +1541,8 @@ name="Shashan"
 	dynasty=7
 	father = 40107
 	employer = 40106
-	990.2.32={
-		birth="990.2.32"
+	990.2.3={
+		birth="990.2.3"
 	}
 	1058.4.7={
 		death="1058.4.7"
@@ -1555,7 +1555,7 @@ name="Aranseah"
 	dynasty=7
 	father = 40107
 	employer = 40106
-	990.2.30={
+	990.2.3={
 		birth=yes
 	}
 	1058.4.7={
@@ -2605,7 +2605,7 @@ name="Melultat"
 	stewardship = 10
 	martial = 8
 	piety = 200
-	money = 847
+	wealth = 847
 	978.8.27={
 		birth="978.8.27"
 	}

@@ -1797,7 +1797,7 @@
 	add_trait = human_race
 
 	991.3.20 = {birth=yes}
-	1059.2.30 = {
+	1059.2.29 = {
 		death = {death_reason = death_natural}
 	}
 }
