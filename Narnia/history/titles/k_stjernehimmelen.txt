@@ -1,5 +1,6 @@
 1.1.1={
 	#law = succ_gavelkind
+}
 820.6.9 = {
 	effect={
 	b_stjerne = {

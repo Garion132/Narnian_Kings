@@ -5,6 +5,6 @@
 	holder=52900
 	liege = "d_deepdelve"
 }
-1000.1.4{
+1000.1.4={
 	holder=52901
 }

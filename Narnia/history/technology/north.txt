@@ -33,7 +33,7 @@ technology = {
 		economy = 0.1
 		culture = 0.1
 	}
-	1000.1.1={
+	1000 ={
 		military = 0.4
 		economy = 0.4
 		culture = 0.4

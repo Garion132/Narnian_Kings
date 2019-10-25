@@ -18457,7 +18457,6 @@ learning=4
 trait="flamboyant_schemer"
 trait="scholar"
 trait="ambitious"
-trait="ambitious"
 father=105877
 mother=105882
 968.4.22={birth=yes}

@@ -83,7 +83,7 @@ technology = {
 		d_tyrawlny
 		d_ilithia
 		d_galton
-		d_kildunserby
+		d_kilbunserby
 		d_celivin
 		d_aghor
 		d_comanought

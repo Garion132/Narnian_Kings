@@ -95,7 +95,6 @@ technology = {
 		d_varinmans_hold
 		d_renindyium
 		d_wytemor
-		d_wilcanster
 		d_perevantium
 		d_wilnfords
 		d_illosan_hold
@@ -198,7 +197,7 @@ technology = {
 		economy = 0.1
 		culture = 0.1
 	}
-	1000.1.1={
+	1000 ={
 		military = 0.9
 		economy = 0.9
 		culture = 0.9
