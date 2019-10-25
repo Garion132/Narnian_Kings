@@ -690,7 +690,7 @@
 	dynasty = 217
 	religion = "pamyatrossii"
 	culture = "culture_ienorian"
-	father = 102102
+	# father = 102102
 	add_trait="ilvitar_human_race"
 	853.7.19={
 		birth=yes

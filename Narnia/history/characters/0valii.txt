@@ -28810,7 +28810,7 @@ trait="skilled_tactician"
 trait="lustful"
 add_trait="valuia_dynasty"
 father=106378
-mother=106381
+mother=106379
 1224.10.1={birth=yes}
 1346.11.14={death=yes}
 }

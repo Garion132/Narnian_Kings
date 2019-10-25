@@ -939,7 +939,6 @@
 	dynasty=1069
 	culture=nishonaru 
 	religion=shinoi
-	father=96300	#Naotaka
 	975.4.22={ birth=yes }
 	1043.10.26={ death=yes }
 }
@@ -1700,7 +1699,7 @@
 	dynasty = 171
 	religion = "pamyatrossii"
 	culture = "nord"
-	father = 97703
+	father = 97803
 	#mother = 80201
 	#wealth = 1700
 	944.6.17={
@@ -1715,7 +1714,7 @@
 	dynasty = 171
 	religion = "pamyatrossii"
 	culture = "nord"
-	father = 97800
+	father = 97802
 	#mother = 80201
 	#wealth = 1700
 	963.7.20={
@@ -1760,7 +1759,7 @@
 	dynasty = 171
 	religion = "pamyatrossii"
 	culture = "nord"
-	father = 97803
+	# father = 97803
 	#mother = 80201
 	#wealth = 1700
 	886.5.24={
@@ -1821,7 +1820,7 @@
 	dynasty = 172
 	religion = "pamyatrossii"
 	culture = "nord"
-	father = 97704
+	father = 97904
 	#mother = 80201
 	#wealth = 1700
 	901.3.18={

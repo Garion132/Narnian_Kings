@@ -87,7 +87,7 @@ castle = {
 			FROMFROM = { 
 				title = b_castle_caspian
 			}
-			year>2120
+			year > 2120
 			
 		}
 		light_infantry = 100
@@ -107,7 +107,7 @@ castle = {
 			FROMFROM = { 
 				title = b_castle_telmar
 			}
-			year>800
+			year > 800
 		}
 		light_infantry = 100
 		heavy_infantry = 100
@@ -124,7 +124,7 @@ castle = {
 		desc = ca_terebinthia_desc	
 		potential = {
 			FROMFROM = { title = b_terebinthia }
-			year>641
+			year > 641
 		}
 		galleys = 25
 		light_infantry = 500
@@ -141,7 +141,7 @@ castle = {
 		upgrades_from = ca_terebinthia_city
 		potential = {
 			FROMFROM = { title = b_terebinthia }
-			year>1682
+			year > 1682
 		}
 		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
 		galleys = 25
@@ -160,7 +160,7 @@ castle = {
 		desc = ca_terebinthia_desc	
 		potential = {
 			FROMFROM = { title = b_terebinthia }
-			year>821
+			year > 821
 		}
 		heavy_infantry = 150
 		archers = 300
@@ -317,7 +317,7 @@ castle = {
 				FROMFROM = { title = b_jadedwall }
 				FROMFROM = { title = b_ortfort }
 			}
-			year>821
+			year > 821
 		}
 		ai_creation_factor = 110
 		gold_cost = 1700
