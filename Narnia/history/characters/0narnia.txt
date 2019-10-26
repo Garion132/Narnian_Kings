@@ -26,7 +26,7 @@
 #	name="mr. Beaver"
 #	culture="narnian"
 #	add_trait="beaver"
-}
+#}
 #60002 = {
 #	name="ms. Beaver"
 #	female=yes

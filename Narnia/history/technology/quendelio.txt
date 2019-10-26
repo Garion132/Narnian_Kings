@@ -25,6 +25,40 @@ technology = {
 		d_tylron
 		d_ulmium
 		d_vedia
+		d_aesirs
+		d_caenir
+		d_cape_of_aedrs
+		d_cereksword
+		d_crennor
+		d_daener
+		d_enara
+		d_gaven
+		d_gult
+		d_hotwater_plains
+		d_ironfall
+		d_jademines
+		d_loxoa
+		d_lyju
+		d_menia
+		d_minas_velda
+		d_neuri
+		d_nolsthime
+		d_olbols
+		d_reanor
+		d_salchan
+		d_salent
+		d_salina
+		d_sanica
+		d_stormrock_reach
+		d_synn
+		d_tain
+		d_telair
+		d_the_towers
+		d_uia
+		d_verak
+		d_vesine
+		d_yark
+		d_zaenr
 	}
 	400 = {
 		military = 0.1

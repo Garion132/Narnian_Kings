@@ -65,6 +65,7 @@ technology = {
 		d_lone_islands
 		d_terebinthia
 		d_aslans_country #added just so game doesnt throw an error
+		d_underland
 		d_southern_isles
 		d_northern_isles
 		d_ramandus_island

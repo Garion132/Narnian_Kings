@@ -4,6 +4,9 @@ technology = {
 		d_lower_snakeford
 		d_upper_snakeford
 		d_cruelwoods
+		d_westmine
+		d_wolfswood
+		d_lycanian
 	}
 	400 = {
 		military = 0.1

@@ -95,6 +95,8 @@ technology = {
 		d_telmarine_heartlands
 		d_koraly
 		d_riuena
+		d_tellian_colonies
+		d_old_telmar
 	}
 	400 = {
 		military = 0.1
