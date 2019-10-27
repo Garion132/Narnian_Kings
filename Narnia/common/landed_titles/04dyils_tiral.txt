@@ -28,14 +28,13 @@ e_dylis_tiral = {
 			c_shannan = {
 				color={ 255 178 56 }
 				color2={ 255 255 255 }
-				
-				holy_site = celtic
 					
 				b_shannan_city = {
 				}
 				b_castle_of_shannan = {
 				}
 				b_shrine_of_shannan = {
+					holy_site = celtic
 				}
 				b_salannan = {
 				}
@@ -1321,12 +1320,11 @@ e_dylis_tiral = {
 			c_old_dylis = {
 				color={ 131 200 159 }
 				color2={ 255 255 255 }
-				
-				holy_site = celtic
 					
 				b_old_dylis = {
 				}
 				b_high_temple_of_dylis = {
+					holy_site = celtic
 				}
 				b_dylis_city = {
 				}
@@ -1581,14 +1579,13 @@ e_bay_of_the_moon = {
 			c_lunos = {
 				color={ 57 16 124 }
 				color2={ 255 255 255 }
-				
-				holy_site = celtic
 					
 				b_lunos = {
 				}
 				b_mon_tresa = {
 				}
 				b_high_temple_of_luna = {
+					holy_site = celtic
 				}
 				b_araluoa = {
 				}
@@ -2159,12 +2156,11 @@ e_bay_of_the_moon = {
 			c_finough = {
 				color={ 180 222 160 }
 				color2={ 255 255 255 }
-				
-				holy_site = celtic
 					
 				b_finough = {
 				}
 				b_temple_of_danu = {
+					holy_site = celtic
 				}
 			}
 			c_koulash = {

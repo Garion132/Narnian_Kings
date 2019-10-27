@@ -15,6 +15,30 @@ k_karakaroua_maori={
 	color={ 47 81 183 }
 	color2={ 101 181 165 }
 }
+d_telmar_coa = {
+	color={ 71 168 167 }
+	color2={ 219 43 43 }
+}
+d_telmar_coa_2 = {
+	color={ 71 168 167 }
+	color2={ 219 43 43 }
+}
+d_telmar_coa_3 = {
+	color={ 71 168 167 }
+	color2={ 219 43 43 }
+}
+d_telmar_coa_4 = {
+	color={ 71 168 167 }
+	color2={ 219 43 43 }
+}
+d_telmar_coa_5 = {
+	color={ 71 168 167 }
+	color2={ 219 43 43 }
+}
+d_redwell = {
+	color={ 122 96 41 }
+	color2={ 219 43 43 }
+}
 k_holyside={
 	color={ 47 81 183 }
 	color2={ 101 181 165 }

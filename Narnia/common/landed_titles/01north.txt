@@ -497,12 +497,11 @@ e_charn = {
 			c_new_charn={
 				color={ 140 18 140 }
 				color2={ 200 200 205 }
-				
-				holy_site = white_witch
 
 				b_new_charn={
 				}
 				b_temple_of_charn={
+					holy_site = white_witch
 				}
 			}
 			c_yagahexe={
@@ -534,12 +533,11 @@ e_charn = {
 			c_witchcastle={
 				color={ 143 78 145 }
 				color2={ 200 200 205 }
-				
-				holy_site = white_witch
 
 				b_witchcastle={
 				}
 				b_witch_temple={
+					holy_site = white_witch
 				}
 			}
 			c_lycanturf={

@@ -207,7 +207,6 @@ k_wyverinium = {
 	color2={ 200 0 0 }
 
 	capital = 531 # Asteria
-	
 	d_wyrm = {
 		color={ 170 40 45 }
 		color2={ 255 255 255 }
@@ -260,14 +259,13 @@ k_wyverinium = {
 		c_dragonbeach = {
 			color={ 177 39 41 }
 			color2={ 255 255 255 }
-			
-			holy_site = dragon_worship
 	
 			b_dragonbeach = {
 			}
 			b_dragoncove = {
 			}
 			b_dragonium = {
+				holy_site = dragon_worship
 			}
 		}
 	}
@@ -280,8 +278,6 @@ k_wyverinium = {
 		c_cetusia = {
 			color={ 174 50 53 }
 			color2={ 255 255 255 }
-			
-			holy_site = white_witch
 	
 			b_cetusia = {
 			}
@@ -290,6 +286,7 @@ k_wyverinium = {
 			b_cetusium = {
 			}
 			b_cetusta = {
+				holy_site = white_witch
 			}
 		}
 		c_nagazmey = {
@@ -318,9 +315,6 @@ k_wyverinium = {
 		c_revenhold = {
 			color={ 152 52 52 }
 			color2={ 255 255 255 }
-			
-			holy_site = aryan
-			holy_site = dragon_worship
 	
 			b_revenhold = {
 			}
@@ -329,6 +323,8 @@ k_wyverinium = {
 			b_revenoutford = {
 			}
 			b_temple_of_goring = {
+				holy_site = aryan
+				holy_site = dragon_worship
 			}
 		}
 		c_taninford = {
@@ -352,8 +348,6 @@ k_wyverinium = {
 		c_pyroaeium = {
 			color={ 178 40 43 }
 			color2={ 255 255 255 }
-			
-			holy_site = dragon_worship #tsf4
 	
 			b_pyroaeium = {
 			}
@@ -386,8 +380,6 @@ k_wyverinium = {
 		c_draxuvia = {
 			color={ 120 64 68 }
 			color2={ 255 255 255 }
-			
-			holy_site = aryan #tsf placeholder
 	
 			b_draxuvia = {
 			}

@@ -1,0 +1,11 @@
+20.1.1={
+	holder=0
+	active = no
+}
+1998.1.1={
+	active = yes
+	liege = "k_narnia"
+}
+2289.5.21={
+	holder = 30400
+}

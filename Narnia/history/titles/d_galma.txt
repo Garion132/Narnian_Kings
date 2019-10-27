@@ -7,6 +7,9 @@
 1998.1.1={
 	liege = "k_narnia"
 }
+1998.5.1={
+	effect = { set_coa = d_telmar_coa_4 }
+}
 2214.9.30={
 	holder=30200
 }

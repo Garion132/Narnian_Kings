@@ -46,9 +46,8 @@ e_narnia = {
 				color={ 100 20 2 }
 				color2={ 255 255 255 }
 				
-				holy_site = aslan
-				
 				b_cair_paravel = {
+					holy_site = aslan
 				}
 				b_cair_paravel_on_sea = {
 				}
@@ -87,8 +86,6 @@ e_narnia = {
 				color={ 127 30 2 }
 				color2={ 255 255 255 }
 				
-				holy_site = pagan #tsf4
-				
 				b_frankport = {
 				}
 			}
@@ -123,8 +120,6 @@ e_narnia = {
 			c_marshwood = {
 				color={ 127 30 2 }
 				color2={ 255 255 255 }
-				
-				holy_site = pagan #tsf4
 				
 				b_marshwood = {
 				}
@@ -168,8 +163,6 @@ e_narnia = {
 				color={ 7 230 2 }
 				color2={ 255 255 255 }
 				
-				holy_site = pagan #tsf4
-				
 				b_rushwood = {
 				}
 			}
@@ -212,8 +205,6 @@ e_narnia = {
 				color={ 100 220 2 }
 				color2={ 255 255 255 }
 				
-				holy_site = pagan #tsf4
-				
 				b_marshlands = {
 				}
 			}
@@ -255,8 +246,6 @@ e_narnia = {
 			c_houndsglade = {
 				color={ 147 215 2 }
 				color2={ 255 255 255 }
-				
-				holy_site = pagan #tsf4
 				
 				b_houndsglade = {
 				}
@@ -386,13 +375,12 @@ e_narnia = {
 				color={ 127 230 2 }
 				color2={ 255 255 255 }
 				
-				holy_site = aslan
-				holy_site = tellan
-				holy_site = white_witch
-				
 				b_aslans_how={
 				}
 				b_stone_table = {
+					holy_site = aslan
+					holy_site = tellan
+					holy_site = white_witch
 				}
 			}
 			c_lionhills = {
@@ -756,11 +744,10 @@ e_narnia = {
 				color={ 7 248 17 }
 				color2={ 255 255 255 }
 				
-				holy_site = white_witch
-				
 				b_lantern_woods = {
 				}
 				b_the_lamp_post={
+					holy_site = white_witch
 				}
 			}
 			c_whispering_wood = {
@@ -1455,8 +1442,6 @@ e_narnia = {
 			c_terebinthia = {
 				color={ 18 27 93 }
 				color2={ 255 255 255 }
-				
-				holy_site = aslan
 		
 				b_terebinthia = {
 				}
@@ -1465,6 +1450,7 @@ e_narnia = {
 				b_terebinthia_outskirts = {
 				}
 				b_grand_temple_on_terebinthia = {
+					holy_site = aslan
 				}
 				b_castle_tere = {
 				}
@@ -1492,10 +1478,9 @@ k_aslans_country = {
 		c_aslans_country = {
 			color={ 7 70 82 }
 			color2={ 255 255 255 }
-			
-			holy_site = aslan
 
 			b_aslans_country = {
+				holy_site = aslan
 			}
 		}
 	}
