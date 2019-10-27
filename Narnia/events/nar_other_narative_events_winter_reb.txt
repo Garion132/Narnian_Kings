@@ -358,21 +358,23 @@ character_event = { #fleeing telmar
 			}
 		}
 		k_telmar = {
-            holder_scope = {
-                NOT = {
-                    current_heir = {
-                        character = ROOT
-                    }
-                }
-            }
-        }
-		NOT = {has_landed_title = k_telmar}
+			holder_scope = {
+				NOT = {
+                  	current_heir = {
+						character = ROOT
+					}
+				}
+			}
+		}
+		NOT = { has_landed_title = k_telmar}
 		diplomacy = 7
 		martial = 6
 		age = 18
-		k_telmar ={
-			any_demesne_province = {
-				disease = scrouge_of_telmar
+		k_telmar = {
+			holder_scope = {
+				any_realm_province = {
+					disease = scrouge_of_telmar
+				}
 			}
 		}
 		year >= 1800
