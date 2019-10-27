@@ -291,12 +291,13 @@ e_axoleca = {
 				color={ 134 114 50 }
 				color2={ 255 255 255 }
 				
+				holy_site = tarutarin
+				holy_site = eline
+				holy_site = eloia
+				
 				b_techinina = {
 				}
 				b_cradle_of_faiths = {
-					holy_site = tarutarin
-					holy_site = eline
-					holy_site = eloia
 				}
 			}
 			c_tanltican = {
@@ -655,11 +656,12 @@ e_elexol = {
 				color={ 143 82 62 }
 				color2={ 255 255 255 }
 				
+				holy_site = eline
+				holy_site = eloia
+				
 				b_piauthn = {
 				}
 				b_piatine = {
-					holy_site = eline
-					holy_site = eloia
 				}
 			}
 			c_tuiarloa = {
@@ -965,6 +967,8 @@ e_eslia = {
 				color={ 168 109 25 }
 				color2={ 255 255 255 }
 				
+				holy_site = eloia
+				
 				b_narwind_town = {
 				}
 				b_narwind_bay = {
@@ -972,7 +976,6 @@ e_eslia = {
 				b_port_narwind = {
 				}
 				b_eloias_on_hill = {
-					holy_site = eloia
 				}
 			}
 			c_niran = {
@@ -1100,16 +1103,18 @@ e_eslia = {
 			color2={ 255 255 255 }
 			
 			capital = 2082 # New Casterly Rock
+			
 			c_new_casterly_rock = {
 				color={ 169 116 23 }
 				color2={ 255 255 255 }
+				
+				holy_site = eloia
 				
 				b_new_casterly_rock = {
 				}
 				b_linalport = {
 				}
 				b_temple_of_the_stranger={
-					holy_site = eloia
 				}
 				b_lanist={
 				}

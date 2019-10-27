@@ -29,11 +29,12 @@ k_old_telmar = {
 		c_telmar = {
 			color={ 140 71 3 }
 			color2={ 255 255 255 }
+			
+			holy_site = tellan
 				
 			b_telmar = {
 			}
 			b_church_of_old_telmar = {
-				holy_site = tellan
 			}
 			b_old_telmar_city = {
 			}
@@ -496,10 +497,11 @@ e_telmar = {
 				color={ 199 93 42 }
 				color2={ 255 255 255 }
 				
+				holy_site = tellan
+				
 				b_uiolas = {
 				}
 				b_temple_uiolas = {
-				holy_site = tellan
 				}
 			}
 			c_veras = {
@@ -1217,10 +1219,11 @@ e_telmar = {
 				color={ 21 139 160 }
 				color2={ 255 255 255 }
 				
+				holy_site = tellan
+				
 				b_demiaria = {
 				}
 				b_temple_of_demirania = {
-				holy_site = tellan
 				}
 			}
 			c_serit = {
@@ -1493,10 +1496,12 @@ e_telmar = {
 				color={ 41 45 141 }
 				color2={ 255 255 255 }
 				
+				holy_site = denols
+				holy_site = surval_reformed #tsf4
+				
 				b_rindema = {
 				}
 				b_rinduima = {
-					holy_site = denols
 				}
 			}
 			c_selirena = {

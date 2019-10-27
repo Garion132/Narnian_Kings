@@ -522,9 +522,7 @@ character_event = {#a holocaust fleer
 		name = invitedCharacterLeavesCourt
 		event_target:invited_character = {
 			death = {death_reason=death_vanished}
-			any_artifact = {
-				destroy_artifact
-			}
+			any_artifact = { destroy_artifact = yes }
 		}
 		}
 	}

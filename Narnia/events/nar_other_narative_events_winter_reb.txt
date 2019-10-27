@@ -358,8 +358,14 @@ character_event = { #fleeing telmar
 			}
 		}
 		k_telmar = {
-			is_heir = no
-		}
+            holder_scope = {
+                NOT = {
+                    current_heir = {
+                        character = ROOT
+                    }
+                }
+            }
+        }
 		NOT = {has_landed_title = k_telmar}
 		diplomacy = 7
 		martial = 6

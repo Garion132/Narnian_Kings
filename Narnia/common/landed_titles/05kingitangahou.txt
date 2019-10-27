@@ -322,10 +322,11 @@ e_kingitangahou = {
 				color={ 122 5 16 }
 				color2={ 255 255 255 }
 				
+				holy_site = celtic
+				holy_site = purakau_ao_kohatu
+				
 				b_raiakua ={}
 				b_raiakuana = {
-					holy_site = celtic
-					holy_site = purakau_ao_kohatu
 				}
 			}
 			c_temitahua = {
@@ -440,10 +441,11 @@ e_kingitangahou = {
 				
 				irish = Holyside
 				
+				holy_site = purakau_ao_kohatu
+				
 				b_manakana = {}
 				b_houmanukau = {}
 				b_huhana = {
-					holy_site = purakau_ao_kohatu
 				}
 			}
 			c_ongawhaua = {
@@ -647,11 +649,12 @@ e_kingitangahou = {
 			c_murnai = {
 				color={ 197 175 196 }
 				color2={ 255 255 255 }
+				
+				holy_site = shinoi
+				holy_site = purakau_ao_kohatu
 			
 				b_murnai ={}
 				b_miru = {
-					holy_site = shinoi
-					holy_site = purakau_ao_kohatu
 				}
 			}
 		}

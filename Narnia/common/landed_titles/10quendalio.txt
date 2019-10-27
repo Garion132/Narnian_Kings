@@ -15,6 +15,8 @@ e_cerendia = {
 			c_orsta = {
 				color={ 170 18 202 }
 				color2={ 255 255 255 }
+
+				holy_site = dragon_worship #tsf4
 				
 				b_orsta = {
 				}
@@ -42,6 +44,8 @@ e_cerendia = {
 				color={ 170 18 202 }
 				color2={ 255 255 255 }
 				
+				holy_site = aryan #tsf4
+				
 				b_manin = {
 				}
 			}
@@ -55,6 +59,8 @@ e_cerendia = {
 			c_parioan = {
 				color={ 170 18 202 }
 				color2={ 255 255 255 }
+
+				holy_site = dragon_worship #tsf4
 				
 				b_parioan = {
 				}
@@ -85,6 +91,8 @@ e_cerendia = {
 			c_lagirs_falls = {
 				color={ 170 18 202 }
 				color2={ 255 255 255 }
+				
+				holy_site = aryan #tsf4
 				
 				b_lagirs_falls = {
 				}
@@ -125,6 +133,8 @@ e_cerendia = {
 			c_jademines = {
 				color={ 170 18 202 }
 				color2={ 255 255 255 }
+				
+				holy_site = aryan #tsf4
 				
 				b_jademines = {
 				}
@@ -245,12 +255,13 @@ e_cerendia = {
 				color={ 170 18 202 }
 				color2={ 255 255 255 }
 				
+				holy_site = quallis
+				
 				b_ironrock_fortress = {
 				}
 				b_ironstone = {
 				}
 				b_ostid = {
-					holy_site = quallis
 				}
 			}
 			c_crowshill = {
@@ -386,12 +397,13 @@ e_cerendia = {
 				color={ 170 18 202 }
 				color2={ 255 255 255 }
 				
+				holy_site = eline
+				
 				b_cereks_landing = {
 				}
 				b_bardstone ={
 				}
 				b_cerektemple = {
-					holy_site = eline
 				}
 			}
 			c_zaenr = {
@@ -736,11 +748,12 @@ e_leuran = {
 				color={ 162 87 147 }
 				color2={ 255 255 255 }
 				
+				holy_site = eline
+				holy_site = quallis
+				
 				b_telairs_mound = {
 				}
 				b_telairs_stone = {
-					holy_site = eline
-					holy_site = quallis
 				}
 			}
 			c_telair = {
@@ -865,12 +878,13 @@ e_ouer = {
 				color={ 127 51 38 }
 				color2={ 255 255 255 }
 				
+				holy_site = eline
+				
 				b_tower_of_light = {
 				}
 				b_ultarston = {
 				}
 				b_pinnacle_of_light = {
-					holy_site = eline
 				}
 			}
 			c_new_oom = {
@@ -1260,10 +1274,11 @@ e_quendelio = {
 				color={ 126 55 45 }
 				color2={ 254 255 255 }
 				
+				holy_site = quallis
+				
 				b_vedar = {
 				}
 				b_vendars_caste = {
-					holy_site = quallis
 				}
 			}
 		}
@@ -1472,10 +1487,11 @@ e_quendelio = {
 				color={ 127 51 38 }
 				color2={ 255 255 255 }
 				
+				holy_site = quallis
+				
 				b_queldia = {
 				}
 				b_quendis_temple = {
-					holy_site = quallis
 				}
 			}
 		}
@@ -1761,12 +1777,13 @@ e_quendelio = {
 				color={ 125 52 42 }
 				color2={ 255 255 255 }
 				
+				holy_site = quallis
+				
 				b_constanium = {
 				}
 				b_caner = {
 				}
 				b_constis_lantern = {
-					holy_site = quallis
 				}
 				b_quallium_hold = {
 				}

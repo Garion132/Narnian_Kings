@@ -473,12 +473,13 @@ e_mellounia = {
 				color={ 134 114 50 }
 				color2={ 255 255 255 }
 				
+				holy_site=mellounian_law
+				
 				b_mellounia = {
 				}
 				b_meloia = {
 				}
 				b_house_of_light = {
-					holy_site=mellounian_law
 				}
 				b_mellounia_outer_fortress = {
 				}
@@ -627,11 +628,12 @@ e_mellounia = {
 				color={ 182 201 224 }
 				color2={ 255 255 255 }
 				
+				holy_site = mellounian_law
+				holy_site = savra
+				
 				b_frain = {
 				}
 				b_rasain = {
-					holy_site = mellounian_law
-					holy_site = savra
 				}
 			}
 		}
@@ -680,6 +682,8 @@ e_mellounia = {
 				color={ 39 213 223 }
 				color2={ 255 255 255 }
 				
+				holy_site = savra #tsf4
+				
 				b_gulrus = {
 				}
 			}
@@ -721,6 +725,8 @@ e_mellounia = {
 			c_aquntae = {
 				color={ 42 210 225 }
 				color2={ 255 255 255 }
+				
+				holy_site = savra #tsf4
 				
 				b_aquntae = {
 				}
@@ -778,6 +784,8 @@ e_mellounia = {
 			c_barisn = {
 				color={ 147 114 20 }
 				color2={ 255 255 255 }
+				
+				holy_site = savra #tsf4
 				
 				b_barisn = {
 				}
@@ -863,12 +871,13 @@ e_mellounia = {
 				color={ 189 203 253 }
 				color2={ 255 255 255 }
 				
+				holy_site = mellounian_law
+				holy_site = kelvrain
+				holy_site = tarutarin
+				
 				b_karna = {
 				}
 				b_culira={
-					holy_site = mellounian_law
-					holy_site = kelvrain
-					holy_site = tarutarin
 				}
 				b_luirean={
 				}
@@ -1205,12 +1214,13 @@ e_mellounia = {
 				color={ 212 150 245 }
 				color2={ 255 255 255 }
 				
+				holy_site = savra
+				holy_site = mellounian_law
+				holy_site = kelvrain
+				
 				b_quiria = {
 				}
 				b_calmin = {
-					holy_site = savra
-					holy_site = mellounian_law
-					holy_site = kelvrain
 				}
 			}
 			c_kirian = {
