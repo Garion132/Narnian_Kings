@@ -376,6 +376,10 @@ generic_artifact = {
 			factor = 0
 			NOT = { has_dlc = "Mystics" }
 		}
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
 	}
 
 	weight = {

@@ -43,7 +43,7 @@ k_holyside={
 	color={ 47 81 183 }
 	color2={ 101 181 165 }
 	
-	trigger = {
+	allow = {
 		always=no
 	}
 	#capital = 2192
