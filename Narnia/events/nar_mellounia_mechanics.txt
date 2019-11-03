@@ -199,7 +199,7 @@ character_event = { #the beurocarcy mutters
 				province_event = { id = nar_mell.6 days = 360 random = 500}
 			}
 		}
-		presitge = 200
+		prestige = 200
 	}
 }
 
