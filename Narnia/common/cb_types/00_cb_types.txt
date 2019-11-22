@@ -4482,6 +4482,7 @@ new_crusade = {
 							limit = {
 								any_owned_bloodline = {
 									has_bloodline_flag = grand_crusader_bloodline
+									bloodline_is_active_for = PREV
 								}
 							}
 							set_crusade_pot_multiplier = 0.2
@@ -5247,13 +5248,6 @@ new_crusade = {
 				imprison = no
 			}
 
-			# Clean up stances
-			any_attacker = {
-				clr_character_flag = crusade_selfish_stance
-				clr_character_flag = crusade_beneficiary_stance
-				clr_character_flag = crusade_papal_stance
-			}
-
 			# Special bloodline for the recipient of the first Crusade
 			if = {
 				limit = {
@@ -5284,6 +5278,7 @@ new_crusade = {
 								religion = THIS
 								inheritance = matrilineal
 							}
+							set_bloodline_founder_religion_flag_effect = yes
 						}
 					}
 					else = {
@@ -5293,6 +5288,7 @@ new_crusade = {
 								religion = THIS
 								inheritance = patrilineal
 							}
+							set_bloodline_founder_religion_flag_effect = yes
 						}
 					}
 				}
@@ -5313,10 +5309,16 @@ new_crusade = {
 				limit = {
 					OR = {
 						has_character_flag = crusade_selfish_stance
-						most_participating_crusader = {
-							crusader_king = {
-								character = PREV
-								character = PREVPREV
+						AND = {
+							NOR = {
+								has_character_flag = crusade_papal_stance
+                				has_character_flag = crusade_beneficiary_stance
+							}
+							most_participating_crusader = {
+								crusader_king = {
+									character = PREV
+									character = PREVPREV
+								}
 							}
 						}
 					}
@@ -5340,6 +5342,13 @@ new_crusade = {
 						}
 					}
 				}
+			}
+
+			# Clean up stances
+			any_attacker = {
+				clr_character_flag = crusade_selfish_stance
+				clr_character_flag = crusade_beneficiary_stance
+				clr_character_flag = crusade_papal_stance
 			}
 
 			ROOT = {
@@ -9152,7 +9161,6 @@ imperial_reconquest = {
 			de_jure_liege_or_above = k_mauretania
 			de_jure_liege_or_above = k_papal_state
 			de_jure_liege_or_above = k_papacy
-			de_jure_liege_or_above = k_venice
 			de_jure_liege_or_above = k_asturias
 			de_jure_liege_or_above = k_sardinia
 			de_jure_liege_or_above = k_antioch

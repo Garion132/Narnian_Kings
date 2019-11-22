@@ -1147,7 +1147,7 @@ nomad = {
 	################### SHRINE ###################
 	no_shrine_1 = {
 		desc = no_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 0 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 0 } }
 		gold_cost = 50
 		build_time = 365
 		ai_creation_factor = 97
@@ -1159,7 +1159,7 @@ nomad = {
 
 	no_shrine_2 = {
 		desc = no_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 1 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		upgrades_from = no_shrine_1
 		gold_cost = 80
 		build_time = 455
@@ -1172,7 +1172,7 @@ nomad = {
 
 	no_shrine_3 = {
 		desc = no_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 1 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		upgrades_from = no_shrine_2
 		gold_cost = 110
 		build_time = 545
@@ -1185,7 +1185,7 @@ nomad = {
 
 	no_shrine_4 = {
 		desc = no_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 2 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 2 } }
 		upgrades_from = no_shrine_3
 		gold_cost = 150
 		build_time = 635
@@ -1198,7 +1198,7 @@ nomad = {
 	
 	no_shrine_5 = {
 		desc = no_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 3 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 3 } }
 		upgrades_from = no_shrine_4
 		gold_cost = 200
 		build_time = 730
@@ -1211,7 +1211,7 @@ nomad = {
 	
 	no_shrine_6 = {
 		desc = no_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 4 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 4 } }
 		upgrades_from = no_shrine_5
 		gold_cost = 250
 		build_time = 850
@@ -1224,7 +1224,7 @@ nomad = {
 	
 	no_shrine_7 = {
 		desc = no_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 4 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 4 } }
 		upgrades_from = no_shrine_6
 		gold_cost = 300
 		build_time = 970
@@ -1237,7 +1237,7 @@ nomad = {
 	
 	no_shrine_8 = {
 		desc = no_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 5 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 5 } }
 		upgrades_from = no_shrine_7
 		gold_cost = 400
 		build_time = 1050
@@ -1274,7 +1274,7 @@ nomad = {
 
 	no_hunting_parties_3 = {
 		desc = no_hunting_parties_desc
-		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
+		trigger = { FROM = { TECH_CASTLE_CONSTRUCTION = 1 } }
 		upgrades_from = no_hunting_parties_2
 		gold_cost = 80
 		build_time = 365
@@ -1626,6 +1626,7 @@ nomad = {
 		}
 		gold_cost = 60
 		build_time = 600
+		galleys = 7
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
@@ -1643,6 +1644,7 @@ nomad = {
 		}
 		gold_cost = 90
 		build_time = 700
+		galleys = 8
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
@@ -1664,6 +1666,7 @@ nomad = {
 		}
 		gold_cost = 120
 		build_time = 800
+		galleys = 9
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
@@ -1683,6 +1686,7 @@ nomad = {
 		}
 		gold_cost = 150
 		build_time = 900
+		galleys = 10
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
@@ -1704,6 +1708,7 @@ nomad = {
 		}
 		gold_cost = 180
 		build_time = 1000
+		galleys = 11
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
@@ -1723,6 +1728,7 @@ nomad = {
 		}
 		gold_cost = 220
 		build_time = 1100
+		galleys = 12
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
@@ -1744,6 +1750,7 @@ nomad = {
 		}
 		gold_cost = 260
 		build_time = 1200
+		galleys = 13
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
@@ -1763,6 +1770,7 @@ nomad = {
 		}
 		gold_cost = 300
 		build_time = 1300
+		galleys = 14
 		ai_creation_factor = 97
 		extra_tech_building_start = 1
 		
@@ -2297,7 +2305,7 @@ nomad = {
 	################### MINORITY SHRINE ###################
 	no_minority_shrine_1 = {
 		desc = no_minority_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 0 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 0 } }
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
@@ -2308,7 +2316,7 @@ nomad = {
 	
 	no_minority_shrine_2 = {
 		desc = no_minority_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 1 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
@@ -2321,7 +2329,7 @@ nomad = {
 	
 	no_minority_shrine_3 = {
 		desc = no_minority_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 1 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 1 } }
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
@@ -2334,7 +2342,7 @@ nomad = {
 	
 	no_minority_shrine_4 = {
 		desc = no_minority_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 2 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 2 } }
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
@@ -2347,7 +2355,7 @@ nomad = {
 	
 	no_minority_shrine_5 = {
 		desc = no_minority_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 2 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 2 } }
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
@@ -2360,7 +2368,7 @@ nomad = {
 	
 	no_minority_shrine_6 = {
 		desc = no_minority_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 3 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 3 } }
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
@@ -2373,7 +2381,7 @@ nomad = {
 	
 	no_minority_shrine_7 = {
 		desc = no_minority_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 4 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 4 } }
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
@@ -2386,7 +2394,7 @@ nomad = {
 	
 	no_minority_shrine_8 = {
 		desc = no_minority_shrine_desc
-		trigger = { FROM = { TECH_TEMPLE_CONSTRUCTION = 5 } }
+		trigger = { FROM = { TECH_CITY_CONSTRUCTION = 5 } }
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
@@ -2784,5 +2792,297 @@ nomad = {
 		garrison_size = 1.8
 		
 		convert_to_tribal = tb_hillfort_4
+	}
+	
+	################### CAMEL_BREEDER ###################
+	no_camel_breeder_1 = {
+		desc = no_camel_breeder_desc
+		trigger = { 
+			location = { terrain = desert }
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+		}
+		is_active_trigger = {
+			location = { terrain = desert }
+		}
+		gold_cost = 60
+		build_time = 365
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		camel_cavalry_defensive = 0.1
+	}
+	
+	no_camel_breeder_2 = {
+		desc = no_camel_breeder_desc
+		trigger = { 
+			location = { terrain = desert }
+			FROM = { TECH_CASTLE_CONSTRUCTION = 1 }
+		}
+		is_active_trigger = {
+			location = { terrain = desert }
+		}
+		gold_cost = 90
+		build_time = 485
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_camel_breeder_1
+		
+		camel_cavalry_defensive = 0.1
+	}
+	
+	no_camel_breeder_3 = {
+		desc = no_camel_breeder_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 1 }
+			location = { terrain = desert }
+		}
+		is_active_trigger = {
+			location = { terrain = desert }
+		}
+		gold_cost = 120
+		build_time = 605
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_camel_breeder_2
+		
+		camel_cavalry_defensive = 0.1
+	}
+	
+	no_camel_breeder_4 = {
+		desc = no_camel_breeder_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 2 }
+			location = { terrain = desert }
+		}
+		is_active_trigger = {
+			location = { terrain = desert }
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_camel_breeder_3
+		
+		camel_cavalry_defensive = 0.1
+	}
+	
+	no_camel_breeder_5 = {
+		desc = no_camel_breeder_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 3 }
+			location = { terrain = desert }
+		}
+		is_active_trigger = {
+			location = { terrain = desert }
+		}
+		gold_cost = 190
+		build_time = 803
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_camel_breeder_4
+		
+		camel_cavalry_defensive = 0.1
+	}
+	
+	no_camel_breeder_6 = {
+		desc = no_camel_breeder_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 4 }
+			location = { terrain = desert }
+		}
+		is_active_trigger = {
+			location = { terrain = desert }
+		}
+		gold_cost = 230
+		build_time = 876
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_camel_breeder_5
+		
+		camel_cavalry_offensive = 0.1
+		camel_cavalry_defensive = 0.1
+	}
+	
+	no_camel_breeder_7 = {
+		desc = no_camel_breeder_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 5 }
+			location = { terrain = desert }
+		}
+		is_active_trigger = {
+			location = { terrain = desert }
+		}
+		gold_cost = 280
+		build_time = 949
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_camel_breeder_6
+		
+		camel_cavalry_offensive = 0.1
+		camel_cavalry_defensive = 0.1
+	}
+	
+	no_camel_breeder_8 = {
+		desc = no_camel_breeder_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 6 }
+			location = { terrain = desert }
+		}
+		is_active_trigger = {
+			location = { terrain = desert }
+		}
+		gold_cost = 350
+		build_time = 1095
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_camel_breeder_7
+		
+		camel_cavalry_offensive = 0.1
+		camel_cavalry_defensive = 0.1
+	}
+	
+	################### ELEPHANT CAMP ###################
+	no_elephant_camp_1 = {
+		desc = no_elephant_camp_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			location = { terrain = jungle }
+		}
+		is_active_trigger = { location = { terrain = jungle } }
+		gold_cost = 60
+		build_time = 365
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		war_elephants_defensive = 0.1
+	}
+	
+	no_elephant_camp_2 = {
+		desc = no_elephant_camp_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 1 }
+			location = { terrain = jungle }
+		}
+		is_active_trigger = { location = { terrain = jungle } }
+		gold_cost = 90
+		build_time = 485
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_elephant_camp_1
+		
+		war_elephants_defensive = 0.1
+	}
+	
+	no_elephant_camp_3 = {
+		desc = no_elephant_camp_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 1 }
+			location = { terrain = jungle }
+		}
+		is_active_trigger = { location = { terrain = jungle } }
+		gold_cost = 120
+		build_time = 605
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_elephant_camp_2
+		
+		war_elephants_defensive = 0.1
+	}
+	
+	no_elephant_camp_4 = {
+		desc = no_elephant_camp_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 2 }
+			location = { terrain = jungle }
+		}
+		is_active_trigger = { location = { terrain = jungle } }
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_elephant_camp_3
+		
+		war_elephants_defensive = 0.1
+	}
+	
+	no_elephant_camp_5 = {
+		desc = no_elephant_camp_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 3 }
+			location = { terrain = jungle }
+		}
+		is_active_trigger = { location = { terrain = jungle } }
+		gold_cost = 190
+		build_time = 803
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_elephant_camp_4
+		
+		war_elephants_defensive = 0.1
+	}
+	
+	no_elephant_camp_6 = {
+		desc = no_elephant_camp_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 4 }
+			location = { terrain = jungle }
+		}
+		is_active_trigger = { location = { terrain = jungle } }
+		gold_cost = 230
+		build_time = 876
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_elephant_camp_5
+		
+		war_elephants_defensive = 0.1
+		war_elephants_offensive = 0.1
+	}
+	
+	no_elephant_camp_7 = {
+		desc = no_elephant_camp_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 5 }
+			location = { terrain = jungle }
+		}
+		is_active_trigger = { location = { terrain = jungle } }
+		gold_cost = 280
+		build_time = 949
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_elephant_camp_6
+		
+		war_elephants_defensive = 0.1
+		war_elephants_offensive = 0.1
+	}
+	
+	no_elephant_camp_8 = {
+		desc = no_elephant_camp_desc
+		trigger = { 
+			FROM = { TECH_CASTLE_CONSTRUCTION = 6 }
+			location = { terrain = jungle }
+		}
+		is_active_trigger = { location = { terrain = jungle } }
+		gold_cost = 350
+		build_time = 1095
+		ai_creation_factor = 97
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_elephant_camp_7
+		
+		war_elephants_defensive = 0.1
+		war_elephants_offensive = 0.1
 	}
 }
