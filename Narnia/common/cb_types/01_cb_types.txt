@@ -32,6 +32,8 @@ force_vassalization = { #New2
 	
 	defender_unoccupied_warscore = yes
 	
+	sort_priority = 830
+	
 	can_use_gui = {
 		FROM = {
 			show_scope_change = no
@@ -41,7 +43,13 @@ force_vassalization = { #New2
 				}
 				ROOT = {
 					show_scope_change = no
-					prestige = 250
+					OR = { 
+						prestige = 250
+						custom_tooltip = { 
+							text = tooltip_antagonize_vassalize_claim 
+							hidden_tooltip = { has_opinion_modifier = { who = FROM modifier = opinion_antagonize_vassalize_claim } } 
+						}
+					}
 				}
 			}
 			conditional_tooltip = {
@@ -50,7 +58,13 @@ force_vassalization = { #New2
 				}
 				ROOT = {
 					show_scope_change = no
-					prestige = 1000
+					OR = { 
+						prestige = 1000
+						custom_tooltip = { 
+							text = tooltip_antagonize_vassalize_claim 
+							hidden_tooltip = { has_opinion_modifier = { who = FROM modifier = opinion_antagonize_vassalize_claim } } 
+						}
+					}
 				}
 			}
 			conditional_tooltip = {
@@ -59,7 +73,13 @@ force_vassalization = { #New2
 				}
 				ROOT = {
 					show_scope_change = no
-					prestige = 2500
+					OR = { 
+						prestige = 2500
+						custom_tooltip = { 
+							text = tooltip_antagonize_vassalize_claim 
+							hidden_tooltip = { has_opinion_modifier = { who = FROM modifier = opinion_antagonize_vassalize_claim } } 
+						}
+					}
 				}
 			}
 		}
@@ -69,7 +89,8 @@ force_vassalization = { #New2
 		FROM = {
 			if = {
 				limit = {
-					tier = COUNT
+					tier = COUNT					
+					NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_antagonize_vassalize_claim } } 
 				}
 				ROOT = {
 					prestige = -250
@@ -78,6 +99,7 @@ force_vassalization = { #New2
 			if = {
 				limit = {
 					tier = DUKE
+					NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_antagonize_vassalize_claim } } 
 				}
 				ROOT = {
 					prestige = -1000
@@ -86,9 +108,18 @@ force_vassalization = { #New2
 			if = {
 				limit = {
 					tier = KING
+					NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_antagonize_vassalize_claim } } 
 				}
 				ROOT = {
 					prestige = -2500
+				}
+			}
+			if = {
+				limit = {
+					reverse_has_opinion_modifier = { who = ROOT modifier = opinion_antagonize_vassalize_claim }
+				}
+				ROOT = {
+					remove_opinion = { who = ROOT modifier = opinion_antagonize_vassalize_claim }
 				}
 			}
 		}
@@ -125,7 +156,6 @@ force_vassalization = { #New2
 				culture_group = ROOT
 			}
 			shares_realm_border_with = ROOT
-			
 		}
 	}
 	
@@ -138,6 +168,7 @@ force_vassalization = { #New2
 
 	on_success = {
 		ROOT = {
+			show_scope_change = no
 			participation_scaled_prestige = 100
 		}
 		any_attacker = {
@@ -145,6 +176,7 @@ force_vassalization = { #New2
 			hidden_tooltip = { participation_scaled_prestige = 100 }
 		}
 		FROM = {
+			show_scope_change = no
 			prestige = -100
 			set_defacto_liege = ROOT
 		}
@@ -152,6 +184,7 @@ force_vassalization = { #New2
 	
 	on_fail = {
 		FROM = {
+			show_scope_change = no
 			participation_scaled_prestige = 50
 		}
 		any_defender = {
@@ -162,12 +195,14 @@ force_vassalization = { #New2
 
 	on_reverse_demand = {
 		ROOT = {
+			show_scope_change = no
 			transfer_scaled_wealth = {
 				to = FROM
 				value = 2.0
 			}
 		}
 		FROM = {
+			show_scope_change = no
 			participation_scaled_prestige = 100
 		}
 		any_defender = {
@@ -209,6 +244,8 @@ great_realm_conflict = { # New3
 
 	allowed_to_target_tributaries = no
 	
+	sort_priority = 820
+
 	can_use_gui = {
 		ROOT = {
 			prestige = 3000
@@ -237,6 +274,12 @@ great_realm_conflict = { # New3
 					name = jade_dragon_cbs
 					value = off
 				}
+			}
+		}
+		FROM = {
+			relative_power = {
+				who = ROOT
+				power = 0.95
 			}
 		}
 	}
@@ -380,10 +423,12 @@ great_realm_conflict = { # New3
 
 	on_fail_title = {
 		ROOT = {
+			show_scope_change = no
 			prestige = -1500
 			piety = -750
 		}
 		FROM = {
+			show_scope_change = no
 			participation_scaled_prestige = 50
 		}
 		any_defender = {
@@ -394,6 +439,7 @@ great_realm_conflict = { # New3
 
 	on_reverse_demand = {
 		ROOT = {
+			show_scope_change = no
 			prestige = -3000
 			piety = -1500
 			transfer_scaled_wealth = {
@@ -402,6 +448,7 @@ great_realm_conflict = { # New3
 			}
 		}
 		FROM = {
+			show_scope_change = no
 			participation_scaled_prestige = 3000
 		}
 		any_defender = {
@@ -443,6 +490,8 @@ hostages_cb = { # New5
 	defender_unoccupied_warscore = yes
 	
 	hostages_block_cb = no
+	
+	sort_priority = 100000 # When there are hostages you can usually not declare any other war, so we want this first
 	
 	can_use = {
 		ROOT = {
@@ -764,25 +813,54 @@ liberate_religion = { # New6
 
 	allowed_to_target_tributaries = no
 	
+	sort_priority = 4000
+	
 	on_add = {
 		hidden_tooltip = {
-			ROOT = {
-				set_character_flag = used_liberate_opportunity
+			if = { 
+				limit = {
+					NOT = {
+						ROOT = {
+							any_owned_bloodline = {  
+								has_bloodline_flag = bloodline_religious_liberation
+								bloodline_is_active_for = PREV
+							}
+						}
+					}
+				}
+				ROOT = {
+					set_character_flag = used_liberate_opportunity
+				}
 			}
 		}
 	}
 
 	can_use = {
-		has_dlc = "Jade Dragon"
+		OR = {
+			has_dlc = "Holy Fury" 
+			has_dlc = "Jade Dragon"
+		}
 		ROOT = {
-			NOT = {
-				has_game_rule = {
-					name = jade_dragon_cbs
-					value = off
+			OR = {
+				any_owned_bloodline = {  
+					has_bloodline_flag = bloodline_religious_liberation
+					bloodline_is_active_for = PREV
+				}
+				NOT = {
+					has_game_rule = {
+						name = jade_dragon_cbs
+						value = off
+					}
 				}
 			}
 			independent = yes
-			has_character_flag = had_liberate_opportunity
+			OR = {
+				any_owned_bloodline = {  
+					has_bloodline_flag = bloodline_religious_liberation
+					bloodline_is_active_for = PREV
+				}
+				has_character_flag = had_liberate_opportunity
+			}
 			NOT = {
 				has_character_flag = used_liberate_opportunity
 			}
@@ -923,6 +1001,7 @@ liberate_religion = { # New6
 		}
 		
 		ROOT = {
+			show_scope_change = no
 			participation_scaled_piety = 500
 			participation_scaled_prestige = 250
 			if = {
@@ -936,8 +1015,8 @@ liberate_religion = { # New6
 				years = 20
 			}
 		}
-		FROM = { piety = -100 }
-		FROM = { prestige = -50 }
+		FROM = { show_scope_change = no piety = -100 }
+		FROM = { show_scope_change = no prestige = -50 }
 	}
 
 	on_success_title = {
@@ -1122,13 +1201,21 @@ liberate_religion = { # New6
 
 	on_fail = {
 		ROOT = { 
+			show_scope_change = no
 			piety = -125 
 			prestige = -250
+		}
+	}
+	
+	on_invalidation = {
+		ROOT = {
+			clr_character_flag = used_liberate_opportunity
 		}
 	}
 
 	on_reverse_demand = {
 		ROOT = {
+			show_scope_change = no
 			transfer_scaled_wealth = {
 				to = FROM
 				value = 4.0
@@ -1137,6 +1224,7 @@ liberate_religion = { # New6
 			prestige = -500
 		}
 		FROM = {
+			show_scope_change = no
 			participation_scaled_piety = 200
 			participation_scaled_prestige = 100
 			if = {
@@ -1867,6 +1955,7 @@ pepin_religious = {
 	check_de_jure_tier = DUKE # this scans all dejure duchies for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
 
 	allowed_to_target_tributaries = yes
+	attacker_rel_head_is_ally = yes # The attacker can call his (main) Pope into the war
 	
 	sort_priority = 790
 	
@@ -3263,6 +3352,7 @@ childrens_crusade = {
 						inheritance = matrilineal
 					}  
 				}
+				set_bloodline_founder_religion_flag_effect = yes
 				any_player = { 
 					limit = {
 						religion_group = christian
@@ -3570,6 +3660,7 @@ matriarchal_deposition_war = {
 		FROM = {
 			is_nomadic = no
 			is_merchant_republic = no
+			is_theocracy = no
 			is_female = no 
 			independent = yes
 		}
@@ -3587,6 +3678,7 @@ matriarchal_deposition_war = {
 		FROM = {
 			is_nomadic = no
 			is_merchant_republic = no
+			is_theocracy = no
 		}
 	}
 	
@@ -4034,6 +4126,7 @@ patriarchal_deposition_war = {
 		FROM = {
 			is_nomadic = no
 			is_merchant_republic = no
+			is_theocracy = no
 		}
 	}
 
@@ -4048,6 +4141,7 @@ patriarchal_deposition_war = {
 		FROM = {
 			is_nomadic = no
 			is_merchant_republic = no
+			is_theocracy = no
 			is_female = yes 
 			independent = yes
 		}
@@ -4687,6 +4781,7 @@ shepherds_crusade_invasion = {
 						inheritance = matrilineal
 					}
 				}
+				set_bloodline_founder_religion_flag_effect = yes
 				event_target:shepherds_kingdom = {
 					capital_scope = {
 						ROOT = {
@@ -5205,4 +5300,3 @@ northern_crusade_war = {
 		factor = 100
 	}
 }
-
