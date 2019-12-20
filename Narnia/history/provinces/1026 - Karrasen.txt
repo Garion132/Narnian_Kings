@@ -10,4 +10,10 @@ b_karrasen = castle
 
 # Misc
 culture = teldesteira
-religion = tellan
+religion = tash
+925.6.8={
+	religion = celtic
+}
+1038.6.8={
+	religion = tellan
+}

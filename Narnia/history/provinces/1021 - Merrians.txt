@@ -11,3 +11,9 @@ b_merrians = castle
 # Misc
 culture = teldesteira
 religion = tash
+925.8.9={
+	culture = irish
+}
+1015.6.8={
+	culture = teldesteira
+}

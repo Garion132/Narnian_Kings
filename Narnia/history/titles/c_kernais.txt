@@ -2,8 +2,15 @@
 	holder = 0
 	law = succ_primogeniture
 }
-782.1.1={
-	liege = k_sheshia
+918.2.19={
+	holder = 87506
+}
+946.7.27={
+	holder = 87507
+}
+967.1.1={
+	liege = d_kernais_coast
+	holder = 87508
 }
 981.5.19={
 	holder = 30902

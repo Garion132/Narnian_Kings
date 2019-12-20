@@ -1047,6 +1047,34 @@
 	name="Laithrea"
 	used_for_random=no
 }
+554={
+	name="Periun"
+	used_for_random=no
+}
+555={
+	name="Talmoric"
+	used_for_random=no
+}
+556={
+	name="Kensuric"
+	used_for_random=no
+}
+557={
+	name="Bondil"
+	used_for_random=no
+}
+558={
+	name="Tallir"
+	used_for_random=no
+}
+559={
+	name="Fenastin"
+	used_for_random=no
+}
+560={
+	name="el Cazorro"
+	used_for_random=no
+}
 1000={
 	name="O'Connell"
 	religion_group = "celtic"

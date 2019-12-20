@@ -1450,7 +1450,7 @@
 	religion = "tellan"
 	culture = "teldesteira"
 	father = 30901
-	#mother = 30901
+	mother = 87407
 	971.3.14={
 		birth="971.3.14"
 	}
@@ -1466,13 +1466,13 @@
 	dynasty = 52
 	religion = "tellan"
 	culture = "teldesteira"
-	#father = 30600
+	father = 30907
 	#mother = 30201
 	952.8.17={
-		birth="952.8.17"
+		birth=yes
 	}
 	991.1.1={
-		death="1042.4.2"
+		death=yes
 	}
 }
 30902 = {
@@ -1481,7 +1481,7 @@
 	religion = "tellan"
 	culture = "teldesteira"
 	father = 30901
-	#mother = 30201
+	mother = 87407
 	intrigue = 8
 	973.8.21={
 		birth="973.8.21"
@@ -1490,7 +1490,7 @@
 		add_claim = k_sheshia
 	}
 	993.8.9={
-		#add_spouse=30802
+		add_spouse=87509
 	}
 	1042.4.2={
 		death="1042.4.2"
@@ -1502,7 +1502,7 @@
 	religion = "tellan"
 	culture = "teldesteira"
 	father = 30902
-	#mother = 30201
+	mother = 87509
 	993.2.10={
 		birth="993.2.10"
 	}
@@ -1530,7 +1530,7 @@
 	religion = "tellan"
 	culture = "teldesteira"
 	father = 30902
-	#mother = 30802
+	mother = 87509
 	997.1.3={
 		birth="997.1.3"
 	}
@@ -1545,12 +1545,54 @@
 	culture = "teldesteira"
 	female = yes
 	father = 30902
-	#mother = 30802
+	mother = 87509
 	997.11.30={
 		birth="997.11.30"
 	}
 	1062.2.14={
 		death="1062.2.14"
+	}
+}
+30907 = {
+	name = "Seshana" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 30908
+	#mother = 30201
+	921.2.28={
+		birth=yes
+	}
+	972.9.4={
+		death=yes
+	}
+}
+30908 = {
+	name = "Shesina" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 30909
+	#mother = 30201
+	899.4.14={
+		birth=yes
+	}
+	947.11.18={
+		death=yes
+	}
+}
+30909 = {
+	name = "Shesina" #
+	dynasty = 52
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30908
+	#mother = 30201
+	864.9.22={
+		birth=yes
+	}
+	919.2.9={
+		death=yes
 	}
 }
 31000 = {
@@ -1988,6 +2030,92 @@
 32700 = {
 	name = "Fernando" #
 	dynasty = 168
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 30600
+	#mother = 30201
+	946.5.2={
+		birth=yes
+	}
+	1011.6.14={
+		death=yes
+	}
+}
+
+32750 = {
+	name = "Rodrigo" #
+	dynasty = 560
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32752
+	#mother = 30201
+	958.9.16={
+		birth=yes
+	}
+	1020.6.14={
+		death=yes
+	}
+}
+32751 = {
+	name = "Rodrigo" #
+	dynasty = 560
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32750
+	#mother = 30201
+	979.1.27={
+		birth=yes
+	}
+	1038.4.19={
+		death=yes
+	}
+}
+32752 = {
+	name = "Seuro" #
+	dynasty = 560
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32753
+	#mother = 30201
+	934.8.16={
+		birth=yes
+	}
+	993.12.3={
+		death=yes
+	}
+}
+32753 = {
+	name = "Seuro" #
+	dynasty = 560
+	religion = "tellan"
+	culture = "teldesteira"
+	father = 32754
+	#mother = 30201
+	910.5.8={
+		birth=yes
+	}
+	976.4.28={
+		death=yes
+	}
+}
+32754 = {
+	name = "Alonso" #
+	dynasty = 560
+	religion = "tellan"
+	culture = "teldesteira"
+	#father = 32750
+	#mother = 30201
+	874.3.12={
+		birth=yes
+	}
+	936.9.14={
+		death=yes
+	}
+}
+
+32800 = {
+	name = "Ferdinand" #
+	dynasty = 561
 	religion = "tellan"
 	culture = "teldesteira"
 	#father = 30600

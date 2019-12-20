@@ -1,6 +1,23 @@
 1.1.1={
 	holder=0
 }
+894.1.2={
+	liege = d_fenaster
+	holder = 87450
+}
+951.7.18={
+	holder = 87451
+}
+967.2.9={
+	holder = 87452
+}
+982.1.23={
+	holder = 87453
+}
 987.4.12={
+	holder = 87400
 	liege = k_luna
+}
+1019.6.29={
+	holder = 87402
 }

@@ -153,7 +153,8 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-			religion = celtic
+			religion_group = celtic_group
+			NOT={religion = lunos}
 			is_patrician = no
 		}
 		free_revoke_on_tiers_culture_and_religion = {
@@ -166,14 +167,11 @@ feudal_governments = {
 		barons_need_dynasty = yes
 		allow_looting = yes
 		allows_matrilineal_marriage = yes
-		can_grant_kingdoms_and_empires_to_other_government = yes
-		can_be_granted_kingdoms_and_empires_by_other_government = yes
 		can_build_tribal = no
 		builds_with_prestige = {FORT CASTLE}
 		demesne_size = 1
 		vassal_limit = 5
 		free_levies_in_offensive_war = yes
-		ignores_de_jure_laws = yes
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
@@ -215,12 +213,10 @@ feudal_governments = {
 						culture_group = west_germanic
 					}
 				}
-			}
-			NOT = { 
-				religion = celtic
-			}
-			NOT={
-				religion = lunos
+				OR={
+					religion = celtic
+					religion = lunos
+				}
 			}
 			is_patrician = no
 		}

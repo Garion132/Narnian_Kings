@@ -10,4 +10,10 @@ b_numarials = castle
 
 # Misc
 culture = teldesteira
-religion = tellan
+religion = tash
+925.6.8={
+	religion = celtic
+}
+1051.6.8={
+	religion = tellan
+}

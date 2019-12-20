@@ -3,6 +3,18 @@
 	law = crown_authority_2
 	law = succ_primogeniture
 }
+892.6.8={
+	holder=30909
+}
+919.2.9={
+	holder=30908
+}
+947.11.18={
+	holder=30907
+}
+972.9.4={
+	holder=30901
+}
 991.1.1={
 	holder = 30900
 }

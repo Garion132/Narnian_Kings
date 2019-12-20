@@ -10,4 +10,12 @@ b_kernais = castle
 
 # Misc
 culture = teldesteira
-religion = tellan
+religion = tash
+925.6.8={
+	religion = celtic
+	culture = irish
+}
+1051.6.8={
+	culture = teldesteira
+	religion = tellan
+}

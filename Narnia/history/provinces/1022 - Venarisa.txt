@@ -10,4 +10,14 @@ b_venarisa = castle
 
 # Misc
 culture = teldesteira
-religion = tellan
+religion = tash
+922.11.12={
+	culture = irish
+}
+925.6.8={
+	religion = celtic
+}
+1051.6.8={
+	religion = tellan
+	culture = teldesteira
+}

@@ -486,21 +486,44 @@ succession_laws = {
 		vassal_opinion = 15
 		vassal_limit = 20
 		potential = {
-			always = no
+			has_landed_title = e_dylis_tiral
 		}
 		allow = {
-			always = no
+			has_landed_title = e_dylis_tiral
 		}
 		effect = {
 			succession = {
-				base_type = feudal_elective
-				voting_rules = hre_feudal_elective
+				base_type = tanistry
+				voting_rules = dylis_tanistry
 			}
 		}
 		revoke_allowed = {
 			always = no
 		}			
 	}
+	
+	# succ_dylis = {
+		# oldest_child_opinion = -10
+		# child_opinion = -5
+		# dynasty_opinion = 15
+		# vassal_opinion = 10
+		# vassal_limit = 5
+		# potential = {
+			# has_landed_title = e_dylis_tiral
+		# }
+		# allow = {
+			# has_landed_title = e_dylis_tiral
+		# }
+		# effect = {
+			# succession = {
+				# base_type = tanistry
+				# voting_rules = dylis_tanistry
+			# }
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }			
+	# }
 	
 	succ_byzantine_elective = {
 		oldest_child_opinion = -5
@@ -907,7 +930,7 @@ gender_laws = {
 		
 		effect = {
 			gender_succ = cognatic
-			law_set_allow_matrilineal_marriage = yes
+			set_allows_matrilineal_marriage = yes
 		}
 		revoke_allowed = {
 			always = no
@@ -975,7 +998,7 @@ gender_laws = {
 		}
 		effect = {
 			gender_succ = true_cognatic
-			law_set_allow_matrilineal_marriage = yes
+			set_allows_matrilineal_marriage = yes
 		}
 		revoke_allowed = {
 			always = no

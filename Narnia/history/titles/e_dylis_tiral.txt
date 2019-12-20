@@ -1,7 +1,8 @@
 1.1.1={
 	#law = succ_tanistry
 	#law = succ_feudal_elective #a test
-	law = succ_gavelkind
+	#law = succ_gavelkind
+	law = succ_hre_elective
 	law = succession_voting_power_1
 	law = law_voting_power_1
 	law = revoke_title_voting_power_1

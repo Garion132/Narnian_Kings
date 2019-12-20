@@ -41,6 +41,15 @@ line_of_erinin = {
 	flags = { historical_bloodline bloodline_Erinin }
 }
 
+line_of_bondil = {
+	picture = GFX_bloodlines_symbol_benevolent
+	combat_rating = 10
+	heath = 2
+	allow_bastards = yes
+	inheritance = patrilineal
+	flags = { historical_bloodline }
+}
+
 caspian = {
 	combat_rating = 5
 	vassal_opinion = 5

@@ -87,7 +87,7 @@
 	religion = "celtic"
 	culture = "irish"
 	father = 80502
-	#mother = 80201
+	mother = 87404
 	wealth = 600
 	968.2.12={
 		birth=yes
@@ -125,6 +125,9 @@
 	#wealth = 600
 	941.7.25={
 		birth=yes
+	}
+	967.5.8={
+		add_spouse = 87404
 	}
 	987.4.12={
 		death={
@@ -2107,6 +2110,9 @@
 	961.5.3={
 		birth="961.5.3"
 	}
+	981.11.20={
+		add_spouse = 87410
+	}
 	1023.7.24={
 		death={
 			death_reason = death_natural
@@ -2601,7 +2607,7 @@
 	religion = "celtic"
 	culture = "irish"
 	father = 82040
-	#mother = 80702
+	mother = 87410
 	#wealth = 340
 	#prestige = 600
 	#add_trait = dylis_dynasty_murtagh
@@ -2621,7 +2627,7 @@
 	culture = "irish"
 	female = yes
 	father = 82040
-	#mother = 80702
+	mother = 87410
 	#wealth = 340
 	#prestige = 600
 	#add_trait = dylis_dynasty_murtagh
@@ -2640,7 +2646,7 @@
 	religion = "celtic"
 	culture = "irish"
 	father = 82040
-	#mother = 80702
+	mother = 87410
 	#wealth = 340
 	#prestige = 600
 	#add_trait = dylis_dynasty_murtagh
@@ -4223,7 +4229,7 @@
 	dynasty = 1002
 	religion = "celtic"
 	culture = "irish"
-	#father = 82052
+	father = 83203
 	#mother = 80702
 	#wealth = 340
 	#prestige = 600
@@ -4267,6 +4273,60 @@
 		birth="998.12.24"
 	}
 	1065.3.30={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+83203 = {
+	name = "David" #
+	dynasty = 1002
+	religion = "celtic"
+	culture = "irish"
+	father = 83204
+	#mother = 80702
+	#wealth = 340
+	#prestige = 600
+	926.4.18={
+		birth=yes
+	}
+	978.6.14={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+83204 = {
+	name = "Damman" #
+	dynasty = 1002
+	religion = "celtic"
+	culture = "irish"
+	father = 83205
+	#mother = 80702
+	#wealth = 340
+	#prestige = 600
+	901.3.25={
+		birth=yes
+	}
+	964.9.14={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+83205 = {
+	name = "David" #
+	dynasty = 1002
+	religion = "celtic"
+	culture = "irish"
+	#father = 83204
+	#mother = 80702
+	#wealth = 340
+	#prestige = 600
+	880.4.11={
+		birth=yes
+	}
+	934.10.26={
 		death={
 			death_reason = death_natural
 		}
@@ -6574,6 +6634,693 @@
 		birth=yes
 	}
 	1001.2.14={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+
+
+87350 = {
+	name = "Connla" #
+	dynasty = 554
+	religion = "celtic"
+	culture = "irish"
+	#father = 87201
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	965.8.10={
+		birth=yes
+	}
+	990.6.19={
+		add_spouse = 87353
+	}
+	1029.10.24={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87351 = {
+	name = "Corcrain" #
+	dynasty = 554
+	religion = "celtic"
+	culture = "irish"
+	father = 87350
+	mother = 87353
+	#wealth = 340
+	#prestige = 600
+	992.6.4={
+		birth=yes
+	}
+	1053.7.16={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87352 = {
+	name = "Brigit" #
+	dynasty = 554
+	religion = "celtic"
+	culture = "irish"
+	father = 87350
+	female = yes
+	mother = 87353
+	#wealth = 340
+	#prestige = 600
+	994.6.4={
+		birth=yes
+	}
+	1049.3.13={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87353 = {
+	name = "Cobflaith" #
+	#dynasty = 554
+	religion = "celtic"
+	culture = "irish"
+	#father = 87350
+	female = yes
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	970.1.1={
+		birth=yes
+	}
+	1014.7.24={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+
+87400 = {
+	name = "Talorcan" #the elder
+	dynasty = 555
+	religion = "lunos"
+	culture = "irish"
+	#father = 87201
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	921.4.24={
+		birth=yes
+	}
+	1019.6.29={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87401 = {
+	name = "Talorcan" #
+	dynasty = 555
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	948.4.24={
+		birth=yes
+	}
+	1009.4.13={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87402 = {
+	name = "Talorcan" #
+	dynasty = 555
+	religion = "lunos"
+	culture = "irish"
+	father = 87401
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	974.3.18={
+		birth=yes
+	}
+	1026.8.23={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87403 = {
+	name = "Oscar" #
+	dynasty = 555
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	948.6.18={
+		birth=yes
+	}
+	986.4.13={
+		death={
+			death_reason = death_battle
+		}
+	}
+}
+87404 = {
+	name = "Eithne" #
+	dynasty = 555
+	female = yes
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	949.3.3={
+		birth=yes
+	}
+	1013.1.2={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87405 = {
+	name = "Fingula" #
+	dynasty = 555
+	female = yes
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	952.12.28={
+		birth=yes
+	}
+	1006.8.17={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87406 = {
+	name = "Lerthan" #
+	dynasty = 555
+	female = yes
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	954.5.18={
+		birth=yes
+	}
+	1019.8.3={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87407 = {
+	name = "Lerthan" #
+	dynasty = 555
+	female = yes
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	957.9.4={
+		birth=yes
+	}
+	975.11.9={
+		add_spouse = 30901
+	}
+	1001.2.14={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87408 = {
+	name = "Emer" #
+	dynasty = 555
+	female = yes
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	959.11.28={
+		birth=yes
+	}
+	1023.8.17={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87409 = {
+	name = "Necthan" #
+	dynasty = 555
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	961.8.14={
+		birth=yes
+	}
+	997.3.6={
+		religion = "tellan"
+	}
+	1001.9.24={
+		death={
+			death_reason = death_execution_burning
+		}
+	}
+}
+87410 = {
+	name = "Ligach" #
+	dynasty = 555
+	female = yes
+	religion = "lunos"
+	culture = "irish"
+	father = 87400
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	964.8.16={
+		birth=yes
+	}
+	1028.4.23={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+
+87450 = {
+	name = "Rumann" #
+	dynasty = 556
+	religion = "celtic"
+	culture = "irish"
+	#father = 87201
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	875.6.18={
+		birth=yes
+	}
+	951.7.18={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87451 = {
+	name = "Calon" #
+	dynasty = 556
+	religion = "celtic"
+	culture = "irish"
+	father = 87450
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	898.9.6={
+		birth=yes
+	}
+	967.2.9={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87452 = {
+	name = "Rumann" #
+	dynasty = 556
+	religion = "celtic"
+	culture = "irish"
+	father = 87451
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	924.11.26={
+		birth=yes
+	}
+	982.1.23={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87453 = {
+	name = "Tomaltach" #
+	dynasty = 556
+	religion = "celtic"
+	culture = "irish"
+	father = 87452
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	951.7.12={
+		birth=yes
+	}
+	1006.5.17={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87454 = {
+	name = "Miurgius" #
+	dynasty = 556
+	religion = "celtic"
+	culture = "irish"
+	father = 87453
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	979.6.1={
+		birth=yes
+	}
+	1038.2.24={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+
+87500 = {
+	name = "Tom" #strikes a deal with the fae, gets long life in payment for deads done, goes and sleeps in a hill instead of dying
+	dynasty = 557
+	religion = "celtic"
+	culture = "irish"
+	#father = 87201
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	health = 9.8
+	768.9.24={
+		birth=yes
+	}
+	789.6.7={
+		create_bloodline = {
+			type = line_of_bondil
+		}
+	}
+	895.6.29={
+		death={
+			death_reason = death_vanished
+		}
+	}
+}
+87501 = {
+	name = "Sivan" #
+	dynasty = 557
+	religion = "celtic"
+	culture = "irish"
+	father = 87500
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	857.11.14={
+		birth=yes
+	}
+	913.4.14={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87502 = {
+	name = "Tom" #
+	dynasty = 557
+	religion = "celtic"
+	culture = "irish"
+	father = 87501
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	891.4.30={
+		birth=yes
+	}
+	946.7.27={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87503 = {
+	name = "Divid" #
+	dynasty = 557
+	religion = "celtic"
+	culture = "irish"
+	father = 87502
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	912.7.15={
+		birth=yes
+	}
+	986.4.5={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87504 = {
+	name = "Sildar" #
+	dynasty = 557
+	religion = "celtic"
+	culture = "irish"
+	father = 87503
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	967.8.24={
+		birth=yes
+	}
+	1012.1.27={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87505 = {
+	name = "Tom" #
+	dynasty = 557
+	religion = "celtic"
+	culture = "irish"
+	father = 87504
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	991.9.19={
+		birth=yes
+	}
+	1048.11.8={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87506 = {
+	name = "Talir" #adventures off and conquers foreign lands
+	dynasty = 557
+	religion = "celtic"
+	culture = "irish"
+	father = 87501
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	martial = 11
+	add_trait = brilliant_strategist
+	893.1.27={
+		birth=yes
+	}
+	918.2.19={
+		dynasty = 558
+	}
+	946.7.27={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87507 = {
+	name = "Talir" #talirs son, dies to sheshia
+	dynasty = 558
+	religion = "celtic"
+	culture = "irish"
+	father = 87506
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	921.2.28={
+		birth=yes
+	}
+	967.1.1={
+		death={
+			death_reason = death_battle
+		}
+	}
+}
+87508 = {
+	name = "Tarn" #talirs grandson, dies with no male heir, seshana II gives the title to his second son
+	dynasty = 558
+	religion = "celtic"
+	culture = "irish"
+	father = 87507
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	946.3.5={
+		birth=yes
+	}
+	967.1.1={
+		religion = tellan
+	}
+	981.5.19={
+		death={
+			death_reason = death_accident_bear
+		}
+	}
+}
+87509 = {
+	name = "Ceria" #Tarns daughter, marries seshana II second son to cement his claim
+	dynasty = 558
+	religion = "tellan"
+	culture = "irish"
+	father = 87508
+	female = yes
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	972.4.3={
+		birth=yes
+	}
+	1024.6.27={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87510 = {
+	name = "Lily" #
+	dynasty = 558
+	religion = "tellan"
+	culture = "irish"
+	father = 87508
+	female = yes
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	974.7.15={
+		birth=yes
+	}
+	1048.11.4={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+
+87600 = {
+	name = "John" #
+	dynasty = 559
+	religion = "celtic"
+	culture = "irish"
+	#father = 87201
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	869.11.28={
+		birth=yes
+	}
+	924.7.30={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87601 = {
+	name = "Peter" #
+	dynasty = 559
+	religion = "celtic"
+	culture = "irish"
+	father = 87600
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	894.3.14={
+		birth=yes
+	}
+	958.9.11={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87602 = {
+	name = "Peter" #
+	dynasty = 559
+	religion = "celtic"
+	culture = "irish"
+	father = 87601
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	918.9.23={
+		birth=yes
+	}
+	983.6.4={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87603 = {
+	name = "David" #
+	dynasty = 559
+	religion = "celtic"
+	culture = "irish"
+	father = 87602
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	941.11.1={
+		birth=yes
+	}
+	1003.7.14={
+		death={
+			death_reason = death_natural
+		}
+	}
+}
+87604 = {
+	name = "Peter" #
+	dynasty = 559
+	religion = "celtic"
+	culture = "irish"
+	father = 87603
+	#mother = 82139
+	#wealth = 340
+	#prestige = 600
+	967.4.16={
+		birth=yes
+	}
+	1023.1.29={
 		death={
 			death_reason = death_natural
 		}
