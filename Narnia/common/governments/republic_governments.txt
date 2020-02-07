@@ -9,6 +9,7 @@ republic_governments = {
 			FAMILY_PALACE
 			FORT
 			TEMPLE
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -75,6 +76,12 @@ republic_governments = {
 		allows_matrilineal_marriage = yes
 
 		can_build_tribal = no
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 5
+		court_size_maintenance_cost_modifier = -0.05
 	}
 	merchant_republic_government = {
 		preferred_holdings = { CITY }
@@ -84,6 +91,7 @@ republic_governments = {
 			CASTLE
 			FAMILY_PALACE
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -101,7 +109,7 @@ republic_governments = {
 				controls_religion = yes
 			}
 			NOT = {religion_group = aryan}
-			is_female = no
+			#is_female = no
 			OR = {
 				AND = {
 					is_patrician = yes
@@ -151,8 +159,17 @@ republic_governments = {
 		have_gender_laws = no
 		can_grant_kingdoms_and_empires_to_other_government = yes
 		allows_matrilineal_marriage = no
+		uses_bride_price = yes
 
 		can_build_tribal = no
+		
+		landed_inheritance = no
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 5
+		court_size_maintenance_cost_modifier = -0.05
 	}
 	
 	republic_government = {
@@ -161,13 +178,14 @@ republic_governments = {
 			CITY
 			CASTLE
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
 		}
 		accepts_liege_governments = { # Accepts other republics
-				merchant_republic_government
-				dylis_merchant_republic_government
+			merchant_republic_government
+			dylis_merchant_republic_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -180,6 +198,7 @@ republic_governments = {
 				controls_religion = yes
 			}
 			NOT = { is_government_potential = merchant_republic_government }
+			holy_order = no
 		}
 		
 		color = { 209 125 130 }
@@ -188,6 +207,11 @@ republic_governments = {
 		can_revoke_without_reason = no
 		
 		can_build_tribal = no
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 5
 	}
 	
 }

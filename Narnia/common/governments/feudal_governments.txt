@@ -5,6 +5,7 @@ feudal_governments = {
 		allowed_holdings = { 
 			CASTLE
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for cities of the same culture
 			CITY
@@ -52,12 +53,18 @@ feudal_governments = {
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
 	}
 	tash_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
 			CASTLE
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -90,6 +97,11 @@ feudal_governments = {
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
 	}
 	
 	lunos_government = {
@@ -98,6 +110,7 @@ feudal_governments = {
 			CASTLE 
 			FORT
 			TEMPLE
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -134,6 +147,11 @@ feudal_governments = {
 			
 			key = "DYLIS_HONOR"
 		}
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
 	}
 	dylis_government = {
 		preferred_holdings = { CASTLE }
@@ -141,6 +159,7 @@ feudal_governments = {
 			CASTLE 
 			FORT
 			TEMPLE
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -181,6 +200,11 @@ feudal_governments = {
 			
 			key = "DYLIS_HONOR"
 		}
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
 	}
 
 	feudal_government = {
@@ -188,6 +212,7 @@ feudal_governments = {
 		allowed_holdings = { 
 			CASTLE 
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -231,6 +256,10 @@ feudal_governments = {
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
 	}
 	
 	NSDAP_government = {
@@ -239,6 +268,7 @@ feudal_governments = {
 			CASTLE
 			CITY
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -301,6 +331,11 @@ feudal_governments = {
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
 		}
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
 	}
 	
 	#absolute_monarcy_government = {
@@ -343,6 +378,7 @@ feudal_governments = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = {
 			CASTLE
+			TEMPLE
 			TRIBAL
 			FORT
 			HOSPITAL

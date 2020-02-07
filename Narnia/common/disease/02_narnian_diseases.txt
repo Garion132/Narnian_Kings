@@ -16,39 +16,27 @@ scrouge_of_telmar = {
 			75 = {
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 1
-					}
+					hospital_level = 1
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 2
-					}
+					hospital_level = 2
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 3
-					}
+					hospital_level = 3
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 4
-					}
+					hospital_level = 4
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 5
-					}
+					hospital_level = 5
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 6
-					}
+					hospital_level = 6
 				}
 			}
 			25 = {

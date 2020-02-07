@@ -1,6 +1,7 @@
 # This file holds the diseases for The Reaper's due, with all new values and effects
 # note the "rip = yes" -- this will make it so that the disease is The Reaper's Due exclusive, so that we can have both versions of the disease
 # if "rip" is not specified, the disease will be available in both version (with the same values in both) and doesn't need to be set twice
+
 tuberculosis = { # Consumption
 	rip = yes
 	contagiousness = 0.25
@@ -16,39 +17,27 @@ tuberculosis = { # Consumption
 			92 = {
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 1
-					}
+					hospital_level = 1
 				}
 				modifier = {
 					factor = 1.1
-					location = {
 						hospital_level = 2
-					}
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 3
-					}
+					hospital_level = 3
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 4
-					}
+					hospital_level = 4
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 5
-					}
+					hospital_level = 5
 				}
 				modifier = {
 					factor = 1.1
-					location = {
-						hospital_level = 6
-					}
+					hospital_level = 6
 				}
 			}
 			8 = {
@@ -71,6 +60,7 @@ tuberculosis = { # Consumption
 					has_character_flag = got_tuberculosis
 					trait = has_tuberculosis
 					trait = horse
+					trait = cat
 					
 					has_character_flag = got_bubonic_plague
 					has_character_flag = got_aztec_disease

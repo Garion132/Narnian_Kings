@@ -6,10 +6,12 @@
 #	name = "TEXT_KEY_FOR_NAME"
 #	desc = "TEXT_KEY_FOR_LONG_DESC"
 #	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	alt_start_default = option_name					# Default value in alt start. If not set, defaults 
 #	option = {										# please note that the first option is always the default option
 #		name = option_token
 #		text = "TEXT_KEY_FOR_OPTION_NAME"
 #		achievements = no							# by default achievements = yes, allows or disallows achievements
+#		alt_start_achievements = no					# by default alt_start_achievements = yes, allows or disallows achievements in alt start. Note that it defaults to yes even when achievements = no
 #	}
 # }
 
@@ -159,19 +161,22 @@ non_epidemic_diseases = {
 		text = "RULE_OPTION_FEWER"
 		desc = "RULE_NON_EPIDEMIC_DISEASES_FEWER_DESC"
 		achievements = no
-		alt_start_achievements = no	}
+		alt_start_achievements = no
+	}
 	option = {
 		name = rare
 		text = "RULE_OPTION_RARE"
 		desc = "RULE_NON_EPIDEMIC_DISEASES_RARE_DESC"
 		achievements = no
-		alt_start_achievements = no	}
+		alt_start_achievements = no
+	}
 	option = {
 		name = none
 		text = "RULE_OPTION_NONE"
 		desc = "RULE_NON_EPIDEMIC_DISEASES_NONE_DESC"
 		achievements = no
-		alt_start_achievements = no	}
+		alt_start_achievements = no
+	}
 }
 
 shattered_retreat = {
@@ -243,6 +248,7 @@ siege_events = {
 		desc = "RULE_SIEGE_EVENTS_OFF_DESC"
 	}
 }
+
 defensive_pacts = {
 	name = "RULE_DEFENSIVE_PACTS"
 	group = "RULE_GROUP_WARFARE"
@@ -318,6 +324,7 @@ silly_events = {
 		desc = "RULE_SILLY_UNRESTRICTED_DESC"
 	}
 }
+
 dejure_drift = {
 	name = "RULE_DEJURE"
 	group = "RULE_GROUP_DEJURE_DRIFT"
@@ -605,7 +612,8 @@ diplo_range = {
 	option = {
 		name = off
 		achievements = no
-		alt_start_achievements = no		text = "RULE_OPTION_OFF"
+		alt_start_achievements = no
+		text = "RULE_OPTION_OFF"
 		desc = "RULE_DIPLO_RANGE_OFF_DESC"
 	}
 }
@@ -827,7 +835,8 @@ dynasty_title_names = {
 cultural_title_names = {
 	name = "RULE_CULTURAL_TITLE_NAMES"
 	group = "RULE_GROUP_VARIOUS"
-	alt_start_default = off	option = {
+	alt_start_default = off
+	option = {
 		name = on
 		text = "RULE_OPTION_ON"
 		desc = "RULE_CULTURAL_TITLE_NAMES_ON_DESC"
@@ -893,6 +902,7 @@ multiplayer_third_party_claims = {
 		desc = "RULE_MULTIPLAYER_3RD_PARTY_CLAIMS_LIMITED_DESC"
 	}
 }
+
 demesne_size = {
 	name = "RULE_DEMESNE_SIZE"
 	group = "RULE_GROUP_DIPLOMACY"
@@ -999,6 +1009,7 @@ child_of_destiny = {
 		desc = "RULE_CHILD_OF_DESTINY_OFF"
 	}
 }
+
 pregnancy_flavor = {
 	name = "RULE_PREGNANCY_FLAVOR"
 	dlc = "Holy Fury"
@@ -1019,6 +1030,7 @@ pregnancy_flavor = {
 		desc = "RULE_PREGNANCY_FLAVOR_OFF"
 	}
 }
+
 martial_headgear = {
 	name = "RULE_MARTIAL_HEADGEAR"
 	dlc = "Holy Fury"
@@ -1034,6 +1046,7 @@ martial_headgear = {
 		desc = "RULE_MARTIAL_HEADGEAR_OFF"
 	}
 }
+
 non_aggression_pacts_block_factions = {
 	name = "RULE_NAP_BLOCK_FACTIONS"
 	group = "RULE_GROUP_WARFARE"
@@ -1061,5 +1074,55 @@ blood_splatter_rule = {
 		name = off
 		text = "RULE_OPTION_OFF"
 		desc = "RULE_BLOOD_SPLATTER_OFF"
+	}
+}
+
+wonder_rule = {
+	name = "RULE_WONDERS"
+	group = "RULE_GROUP_VARIOUS"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_WONDERS_ON"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_WONDERS_OFF"
+	}
+}
+
+wonder_rule_historical = {
+	name = "RULE_WONDERS_HISTORICAL"
+	group = "RULE_GROUP_VARIOUS"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_WONDERS_HISTORICAL_ON"
+	}
+	option = {
+		name = restricted
+		text = "RULE_OPTION_RESTRICTED"
+		desc = "RULE_WONDERS_HISTORICAL_RESTRICTIVE"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_WONDERS_HISTORICAL_OFF"
+	}
+}
+
+court_limit_rule = {
+	name = "RULE_COURT_LIMIT"
+	group = "RULE_GROUP_VARIOUS"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_COURT_LIMIT_ON"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_COURT_LIMIT_OFF"
 	}
 }
