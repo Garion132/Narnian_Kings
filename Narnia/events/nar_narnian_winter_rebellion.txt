@@ -922,7 +922,7 @@ character_event = { #Rabadash comes to you demainding war with narnia
 					province = 553
 					home = 662
 					troops = {
-						heavy_cavalry = { 200 200 }}
+						knights = { 200 200 }}
 					}
 					attrition = 0.0
 					disband_on_peace = yes
@@ -977,7 +977,7 @@ character_event = { #Rabadash comes to you demainding war with narnia
 					province = 553
 					home = 662
 					troops = {
-						heavy_cavalry = { 500 500 }
+						knights = { 500 500 }
 						light_cavalry = { 1500 1500 }
 					}
 					attrition = 0.0

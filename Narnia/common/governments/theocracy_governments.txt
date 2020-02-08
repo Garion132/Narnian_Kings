@@ -6,6 +6,7 @@ theocracy_governments = {
 			TEMPLE
 			CASTLE
 			FORT
+			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
 			TRIBAL
@@ -26,8 +27,17 @@ theocracy_governments = {
 		frame_suffix = "_theocracy"
 		title_prefix = "temple_"
 		potential = {
+			holy_order = no
 			is_patrician = no
 			NOT= {has_landed_title = d_white_witch}
+			OR = {
+				is_female = no
+				religion_allows_female_temple_holders = yes
+			}
+			OR = {
+				is_female = yes
+				religion_allows_male_temple_holders = yes
+			}
 		}
 		
 		color = { 220 220 220 }
@@ -37,6 +47,8 @@ theocracy_governments = {
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 
 		can_build_tribal = no
+		
+		capital_move_delay = 600
 	}
 	
 }

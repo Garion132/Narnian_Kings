@@ -14,7 +14,7 @@
 #	color = { 255 0 0 }                           # What color to use on the map
 # }
 
-
+ 
 # Chancellor
 action_improve_relations = {
 	attribute = diplomacy
@@ -29,6 +29,7 @@ action_improve_relations = {
 			FROM = {
 				job_chancellor = {
 					NOT = { character = PREVPREV } # Can't be sent to improve relations with himself...
+
 				}
 			}
 		}
@@ -56,6 +57,7 @@ action_clan_sentiment = {
 			FROM = {
 				job_chancellor = {
 					NOT = { character = PREVPREV } # Can't be sent to improve relations with himself...
+
 				}
 			}
 			
@@ -83,6 +85,7 @@ action_fabricate_claims = {
 			FROM = {
 				job_chancellor = {
 					NOT = { character = PREVPREV } # Can't be sent to improve relations with himself...
+
 				}
 			}
 		}
@@ -192,6 +195,16 @@ action_settle_tribe = {
 			character = FROM
 		}
 		NOT = { culture = FROM }
+		OR = {
+			NOT = { 
+				has_game_rule = {
+					name = culture_conversion
+					value = restricted
+				}
+			}
+			any_neighbor_province = { culture = FROM } 
+			any_neighbor_province = { port = yes } 
+		}
 	}
 	
 	events = { 925 20206 }
@@ -511,7 +524,7 @@ action_inquisition = {
 		num_of_settlements = 1
 		NAND = {
 			FROM = { job_spiritual = { has_character_modifier = spiritual_refused_pagans } }  # See Event ZE.5040
-			owner = { religion_group = pagan_group }
+			owner = { AND = { religion_group = pagan_group NOT = { religion = FROM } } }
 		}
 		OR = {
 			proselytize_convert_independent_trigger = yes
