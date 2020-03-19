@@ -1407,4 +1407,169 @@ b_mount_pire;Mount Pire;;;;;;;;;;;;;x
 b_pascalen;Pascalen;;;;;;;;;;;;;x
 b_napaeia;Napaeia;;;;;;;;;;;;;x
 b_borgard;Borgard;;;;;;;;;;;;;x
-b_lelmat;Lelmat;;;;;;;;;;;;;x
+b_lelmat;Lelmat;;;;;;;;;;;;;xz
+b_tashselia;Tashselia;;;;;;;;;;;;;x
+b_tashbaan_eastern_outskirts;Tashbaan Eastern Outskirts;;;;;;;;;;;;;x
+b_telvish;Telvish;;;;;;;;;;;;;x
+b_tashbaan_western_outskirts;Tashbaan Western Outskirts;;;;;;;;;;;;;x
+b_talvana;Talvana;;;;;;;;;;;;;x
+b_tashbaan_southern_outskirts;Tashbaan Southern Outskirts;;;;;;;;;;;;;x
+b_grendash;Grendash;;;;;;;;;;;;;x
+b_azem_balda;Azem Balda;;;;;;;;;;;;;x
+b_azem_rashdals;Azem Rashdals;;;;;;;;;;;;;x
+b_azem_outfords;Azem Outfords;;;;;;;;;;;;;x
+b_azem;Azem;;;;;;;;;;;;;x
+b_south_azem;South_azem;;;;;;;;;;;;;x
+b_upper_ilkeen;Upper Ilkeen;;;;;;;;;;;;;x
+b_lower_ilkeen;Lower Ilkeen;;;;;;;;;;;;;x
+b_south_ilkeen;South Ilkeen;;;;;;;;;;;;;x
+b_ilkeen_fords;Ilkeen Fords;;;;;;;;;;;;;x
+b_ourtilkeen;Ourtilkeen;;;;;;;;;;;;;x
+b_agorbah;Agorbah;;;;;;;;;;;;;x
+b_agorbah_outlands;Agorbah Outlands;;;;;;;;;;;;;x
+b_agorsa;Agorsa;;;;;;;;;;;;;x
+b_agorbaan;Agorbaan;;;;;;;;;;;;;x
+b_agouros;Agouros;;;;;;;;;;;;;x
+b_teeban;Teeban;;;;;;;;;;;;;x
+b_loubaan;Loubaan;;;;;;;;;;;;;x
+b_huioban;Huioban;;;;;;;;;;;;;x
+b_outer_teeban;Outer Teeban;;;;;;;;;;;;;x
+b_caloira;Caloira;;;;;;;;;;;;;x
+b_tashbelda;Tashbelda;;;;;;;;;;;;;x
+b_bizra;Bizra;;;;;;;;;;;;;x
+b_nortelbah;Nortelbah;;;;;;;;;;;;;x
+b_telbann;Telbann;;;;;;;;;;;;;x
+b_amayier;Amayier;;;;;;;;;;;;;x
+b_partezia;Partezia;;;;;;;;;;;;;x
+b_taparogh;Taparogh;;;;;;;;;;;;;x
+b_getaberan;Getaberan;;;;;;;;;;;;;x
+b_ankiun;Ankiun;;;;;;;;;;;;;x
+b_dorposhot;Dorposhot;;;;;;;;;;;;;x
+b_dusharia;Dusharia;;;;;;;;;;;;;x
+b_qaumra;Qaumra;;;;;;;;;;;;;x
+b_sharat;Sharat;;;;;;;;;;;;;x
+b_south_valley;South Valley;;;;;;;;;;;;;x
+b_tehishbaan;Tehishbaan;;;;;;;;;;;;;x
+b_tehishbaan_outskirts;Tehishbaan Outskirts;;;;;;;;;;;;;x
+b_pugrahan;Pugrahan;;;;;;;;;;;;;x
+b_norcalor;Norcalor;;;;;;;;;;;;;x
+b_palazeim;Palazeim;;;;;;;;;;;;;x
+b_beninash;Beninash;;;;;;;;;;;;;x
+b_bensir;Bensir;;;;;;;;;;;;;x
+b_valith;Valith;;;;;;;;;;;;;x
+b_talash;Talash;;;;;;;;;;;;;x
+b_tenvish;Tenvish;;;;;;;;;;;;;x
+b_kalorius_temple;Kalorius Temple;;;;;;;;;;;;;x
+b_kalor;Kalor;;;;;;;;;;;;;x
+b_desern;Desern;;;;;;;;;;;;;x
+b_azimbalda;Azimbalda;;;;;;;;;;;;;x
+b_outer_azimbalda;Outer Azimbalda;;;;;;;;;;;;;x
+b_azimtash;Azimtash;;;;;;;;;;;;;x
+b_grand_azim;Grand Azim;;;;;;;;;;;;;x
+b_western_azimbalda;Western Szimbalda;;;;;;;;;;;;;x
+b_souteazim;Souteazim;;;;;;;;;;;;;x
+b_azimbal;Azimbal;;;;;;;;;;;;;x
+b_azimcavar;Azimcavar;;;;;;;;;;;;;x
+b_azlaium;Azlaium;;;;;;;;;;;;;x
+b_aliuzi;Aliuzi;;;;;;;;;;;;;x
+b_zeluia;Zeluia;;;;;;;;;;;;;x
+b_azliua;Azliua;;;;;;;;;;;;;x
+b_azlam;Azlam;;;;;;;;;;;;;x
+b_telazim;Telazim;;;;;;;;;;;;;x
+b_teluia;Teluia;;;;;;;;;;;;;x
+b_aluyia;Aluyia;;;;;;;;;;;;;x
+b_calava;Calava;;;;;;;;;;;;;x
+b_calvia;Calvia;;;;;;;;;;;;;x
+b_cavabann;Cavabann;;;;;;;;;;;;;x
+b_calavar_coast;Calavar Coast;;;;;;;;;;;;;x
+b_zalindreh;Zalindreh;;;;;;;;;;;;;x
+b_zalindreh_city;Zalindreh City;;;;;;;;;;;;;x
+b_zalindres;Zalindres;;;;;;;;;;;;;x
+b_zalinvish;Zalinvish;;;;;;;;;;;;;x
+b_zalindreh_bay;Zalindreh Bay;;;;;;;;;;;;;x
+b_zalintash;Zalintash;;;;;;;;;;;;;x
+b_ourtalindreh;Ourtalindreh;;;;;;;;;;;;;x
+b_ourtalin;Ourtalin;;;;;;;;;;;;;x
+b_soutash;Soutash;;;;;;;;;;;;;x
+b_tashcalavar;Tashcalavar;;;;;;;;;;;;;x
+b_salavar;Salavar;;;;;;;;;;;;;x
+b_lower_salavar;Lower Salavar;;;;;;;;;;;;;x
+b_zaland;Zaland;;;;;;;;;;;;;x
+b_zezala;Zezala;;;;;;;;;;;;;x
+b_tashven;Tashven;;;;;;;;;;;;;x
+b_tashdreh;Tashdreh;;;;;;;;;;;;;x
+b_valundreh;Valundreh;;;;;;;;;;;;;x
+b_ourtvalundreh;Ourtvalundreh;;;;;;;;;;;;;x
+b_tashwailin;Tashwailin;;;;;;;;;;;;;x
+b_eusdrea;Eusdrea;;;;;;;;;;;;;x
+b_taleusa;Taleusa;;;;;;;;;;;;;x
+b_eusabaan;Eusabaan;;;;;;;;;;;;;x
+b_euistals;Euistals;;;;;;;;;;;;;x
+b_mezreel;Mezreel;;;;;;;;;;;;;x
+b_merazel;Merazel;;;;;;;;;;;;;x
+b_mialouz;Mialouz;;;;;;;;;;;;;x
+b_mavaul;Mavaul;;;;;;;;;;;;;x
+b_mizarla;Mizarla;;;;;;;;;;;;;x
+b_qualdia;Qualdia;;;;;;;;;;;;;x
+b_quials;Quials;;;;;;;;;;;;;x
+b_salzos;Salzos;;;;;;;;;;;;;x
+b_yuisla;Yuisla;;;;;;;;;;;;;x
+b_temple_of_yuisla;Temple of Yuisla;;;;;;;;;;;;;x
+b_city_of_lights;City of Lights;;;;;;;;;;;;;x
+b_dolistash;Dolistash;;;;;;;;;;;;;x
+b_wuilusa;Wuilusa;;;;;;;;;;;;;x
+b_salvaza;Salvaza;;;;;;;;;;;;;x
+b_selbaan;Selbaan;;;;;;;;;;;;;x
+b_souitsbah;Souitsbah;;;;;;;;;;;;;x
+b_sucalvar;Sucalvar;;;;;;;;;;;;;x
+b_tulcabah;Tulcabah;;;;;;;;;;;;;x
+b_wizcilbaan;Wizcilbaan;;;;;;;;;;;;;x
+b_suilvar;Suilvar;;;;;;;;;;;;;x
+b_teilsbah;Teilsbah;;;;;;;;;;;;;x
+b_kaoulas;Kaoulas;;;;;;;;;;;;;x
+b_terulisa;Terulisa;;;;;;;;;;;;;x
+b_selcudash;Selcudash;;;;;;;;;;;;;x
+b_setulash;Setulash;;;;;;;;;;;;;x
+b_telash;Telash;;;;;;;;;;;;;x
+b_kalas;Kalas;;;;;;;;;;;;;x
+b_salfuis;Salfuis;;;;;;;;;;;;;x
+b_salfuitash;Salfuitash;;;;;;;;;;;;;x
+b_seluida;Seluida;;;;;;;;;;;;;x
+b_kolfais;Kolfais;;;;;;;;;;;;;x
+b_sceres;Sceres;;;;;;;;;;;;;x
+b_terzeel;Terzeel;;;;;;;;;;;;;x
+b_dulzela;Dulzela;;;;;;;;;;;;;x
+b_szulisha;Szulisha;;;;;;;;;;;;;x
+b_zelzen;Zelzen;;;;;;;;;;;;;x
+b_tashseila;Tashseila;;;;;;;;;;;;;x
+b_zelizeas;Zelizeas;;;;;;;;;;;;;x
+b_uilosis;Uilosis;;;;;;;;;;;;;x
+b_zeliuos;Zeliuos;;;;;;;;;;;;;x
+b_dashilhiash;Dashilhiash;;;;;;;;;;;;;x
+b_deshalisa;Deshalisa;;;;;;;;;;;;;x
+b_seshasha;Seshasha;;;;;;;;;;;;;x
+b_xexsoros;Xexsoros;;;;;;;;;;;;;x
+b_xeserex;Xeserex;;;;;;;;;;;;;x
+b_karis;Karis;;;;;;;;;;;;;x
+b_casriash;Casriash;;;;;;;;;;;;;x
+b_sacresash;Sacresash;;;;;;;;;;;;;x
+b_wisarash;Wisarash;;;;;;;;;;;;;x
+b_xaebaldas;Xaebaldas;;;;;;;;;;;;;x
+b_tahsalis;Tahsalis;;;;;;;;;;;;;x
+b_sesilvasa;Sesilvasa;;;;;;;;;;;;;x
+b_baanselias;Baanselias;;;;;;;;;;;;;x
+b_savanlisa;Savanlisa;;;;;;;;;;;;;x
+b_xesare;Xesare;;;;;;;;;;;;;x
+b_xesresa;Xesresa;;;;;;;;;;;;;x
+b_talis;Talis;;;;;;;;;;;;;x
+b_suilois;Suilois;;;;;;;;;;;;;x
+b_tyalio;Tyalio;;;;;;;;;;;;;x
+b_talula;Talula;;;;;;;;;;;;;x
+b_tashvelsia;Tashvelsia;;;;;;;;;;;;;x
+b_swerata;Swerata;;;;;;;;;;;;;x
+b_tyuriash;Tyuriash;;;;;;;;;;;;;x
+b_uiospals;Uiospals;;;;;;;;;;;;;x
+b_palertash;Palertash;;;;;;;;;;;;;x
+b_wellioa;Wellioa;;;;;;;;;;;;;x
+b_veliuos;Veliuos;;;;;;;;;;;;;x
+b_zalin;Zalin;;;;;;;;;;;;;x
