@@ -1573,3 +1573,376 @@ b_palertash;Palertash;;;;;;;;;;;;;x
 b_wellioa;Wellioa;;;;;;;;;;;;;x
 b_veliuos;Veliuos;;;;;;;;;;;;;x
 b_zalin;Zalin;;;;;;;;;;;;;x
+b_magnesia;Magnesia;;;;;;;;;;;;;x
+b_narrowdell;Narrowdell;;;;;;;;;;;;;x
+b_calennor;Calennor;;;;;;;;;;;;;x
+b_stormness_pass;Stormness Pass;;;;;;;;;;;;;x
+b_dellourea;Dellourea;;;;;;;;;;;;;x
+b_canyonhead;Canyonhead;;;;;;;;;;;;;x
+b_southguard;Southguard;;;;;;;;;;;;;x
+b_desert_gate;Desert_gate;;;;;;;;;;;;;x
+b_cair_anial;Cair_anial;;;;;;;;;;;;;x
+b_willoughby;Willoughby;;;;;;;;;;;;;x
+b_southpass;Southpass;;;;;;;;;;;;;x
+b_southvale;Southvale;;;;;;;;;;;;;x
+b_appledin;Appledin;;;;;;;;;;;;;x
+b_greendale;Greendale;;;;;;;;;;;;;x
+b_orangia;Orangia;;;;;;;;;;;;;x
+b_terebinthia;Terebinthia;;;;;;;;;;;;;x
+b_terebinthia_city;Terebinthia City;;;;;;;;;;;;;x
+b_terebinthia_outskirts;Terebinthia Outskirts;;;;;;;;;;;;;x
+b_castle_tere;Castle Tere;;;;;;;;;;;;;x
+b_grum;Grum;;;;;;;;;;;;;x
+b_ava;Ava;;;;;;;;;;;;;x
+b_deliur;Deliur;;;;;;;;;;;;;x
+b_makodin;Makodin;;;;;;;;;;;;;x
+b_salanvin;Salanvin;;;;;;;;;;;;;x
+b_dark_castle;Dark Castle;;;;;;;;;;;;;x
+b_underland_city;Underland City;;;;;;;;;;;;;x
+b_sunless_shores;Sunless Shores;;;;;;;;;;;;;x
+b_underpalace;Underpalace;;;;;;;;;;;;;x
+b_riftside_temple;Riftside Temple;;;;;;;;;;;;;x
+b_bism;Bism;;;;;;;;;;;;;x
+b_ettinmearns;Ettinmearns;;;;;;;;;;;;;x
+b_skelligmoor;Skelligmoor;;;;;;;;;;;;;x
+b_ettinsbay;Ettinsbay;;;;;;;;;;;;;x
+b_seacairn;Seacairn;;;;;;;;;;;;;x
+b_hattinshorn;Hattinshorn;;;;;;;;;;;;;x
+b_bridgegate;Bridgegate;;;;;;;;;;;;;x
+b_cairnsmere;Cairnsmere;;;;;;;;;;;;;x
+b_bridgeway;Bridgeway;;;;;;;;;;;;;x
+b_jotuncroft;Jotuncroft;;;;;;;;;;;;;x
+b_twinheads;Twinheads;;;;;;;;;;;;;x
+b_fourarm;Fourarm;;;;;;;;;;;;;x
+b_ettinsgate;Ettinsgate;;;;;;;;;;;;;x
+b_greatcairns;Greatcairns;;;;;;;;;;;;;x
+b_chiefsmoor;Chiefsmoor;;;;;;;;;;;;;x
+b_widevalley;Widevalley;;;;;;;;;;;;;x
+b_ettinsmire;Ettinsmire;;;;;;;;;;;;;x
+b_steepcraig;Steepcraig;;;;;;;;;;;;;x
+b_giantknolls;Giantknolls;;;;;;;;;;;;;x
+b_wildmere;Wildmere;;;;;;;;;;;;;x
+b_ogresmoor;Ogresmoor;;;;;;;;;;;;;x
+b_stumbleby;Stumbleby;;;;;;;;;;;;;x
+b_bighills;Bighills;;;;;;;;;;;;;x
+b_cyclopsia;Cyclopsia;;;;;;;;;;;;;x
+b_cycairn;Cycairn;;;;;;;;;;;;;x
+b_argemoor;Argemoor;;;;;;;;;;;;;x
+b_eyeknock;Eyeknock;;;;;;;;;;;;;x
+b_harfang;Harfang;;;;;;;;;;;;;x
+b_ruinous;Ruinous;;;;;;;;;;;;;x
+b_goliathia;Goliathia;;;;;;;;;;;;;x
+b_gath;Gath;;;;;;;;;;;;;x
+b_ogogog;Ogogog;;;;;;;;;;;;;x
+b_tarnaphil;Tarnaphil;;;;;;;;;;;;;x
+b_gibboric;Gibboric;;;;;;;;;;;;;x
+b_emimoor;Emimoor;;;;;;;;;;;;;x
+b_anakiar;Anakiar;;;;;;;;;;;;;x
+b_titanor;Titanor;;;;;;;;;;;;;x
+b_aegirsport;Aegirsport;;;;;;;;;;;;;x
+b_jotnaris;Jotnaris;;;;;;;;;;;;;x
+b_giants_bridge;Giants Bridge;;;;;;;;;;;;;x
+b_giants_pass;Giants Pass;;;;;;;;;;;;;x
+b_giants_road;Giants Road;;;;;;;;;;;;;x
+b_giants_gate;Giants Gate;;;;;;;;;;;;;x
+b_mountain_fortress;Mountain Fortress;;;;;;;;;;;;;x
+b_labyrinthia;Labyrinthia;;;;;;;;;;;;;x
+b_daedalus;Daedalus;;;;;;;;;;;;;x
+b_mazeium;Mazeium;;;;;;;;;;;;;x
+b_ogreia;Ogreia;;;;;;;;;;;;;x
+b_ogreiscia;Ogreiscia;;;;;;;;;;;;;x
+b_ogreden;Ogreden;;;;;;;;;;;;;x
+b_gargoyle_mountains;Gargoyle Mountains;;;;;;;;;;;;;x
+b_ogre_gate;Ogre Gate;;;;;;;;;;;;;x
+b_ogre_caves;Ogre Caves;;;;;;;;;;;;;x
+b_boggle_valley;Boggle Valley;;;;;;;;;;;;;x
+b_goblin_tunnels;Goblin Tunnels;;;;;;;;;;;;;x
+b_goblinton;Goblinton;;;;;;;;;;;;;x
+b_goblin_town;Goblin Town;;;;;;;;;;;;;x
+b_hoblinakh;Hoblinakh;;;;;;;;;;;;;x
+b_orkush;Orkush;;;;;;;;;;;;;x
+b_yagahexe;Yagahexe;;;;;;;;;;;;;x
+b_hagtessia;Hagtessia;;;;;;;;;;;;;x
+b_winterfield;Winterfield;;;;;;;;;;;;;x
+b_lycanturf;Lycanturf;;;;;;;;;;;;;x
+b_wraithmire;Wraithmire;;;;;;;;;;;;;x
+b_harpyden;Harpyden;;;;;;;;;;;;;x
+b_cubiosis;Cubiosis;;;;;;;;;;;;;x
+b_coldplains;Coldplains;;;;;;;;;;;;;x
+b_cronetower;Cronetower;;;;;;;;;;;;;x
+b_aconitine;Aconitine;;;;;;;;;;;;;x
+b_trollhole;Trollhole;;;;;;;;;;;;;x
+b_boggle_woods;Boggle Woods;;;;;;;;;;;;;x
+b_lycania;Lycania;;;;;;;;;;;;;x
+b_manticorea;Manticorea;;;;;;;;;;;;;x
+b_vampyria;Vampyria;;;;;;;;;;;;;x
+b_estriend;Estriend;;;;;;;;;;;;;x
+b_barrier_waste;Barrier Waste;;;;;;;;;;;;;x
+b_bloodbourn;Bloodbourn;;;;;;;;;;;;;x
+b_vertorony;Vertorony;;;;;;;;;;;;;x
+b_grendilow;Grendilow;;;;;;;;;;;;;x
+b_knuckeris;Knuckeris;;;;;;;;;;;;;x
+b_nixia;Nixia;;;;;;;;;;;;;x
+b_sirenia;Sirenia;;;;;;;;;;;;;x
+b_treemarch;Treemarch;;;;;;;;;;;;;x
+b_normark;Normark;;;;;;;;;;;;;x
+b_severgard;Severgard;;;;;;;;;;;;;x
+b_grimfoss;Grimfoss;;;;;;;;;;;;;x
+b_nokkenorst;Nokkenorst;;;;;;;;;;;;;x
+b_kelpire;Kelpire;;;;;;;;;;;;;x
+b_gorgania;Gorgania;;;;;;;;;;;;;x
+b_medusia;Medusia;;;;;;;;;;;;;x
+b_coldliche;Coldliche;;;;;;;;;;;;;x
+b_gamayuna;Gamayuna;;;;;;;;;;;;;x
+b_alkonosta;Alkonosta;;;;;;;;;;;;;x
+b_karuria;Karuria;;;;;;;;;;;;;x
+b_tengutia;Tengutia;;;;;;;;;;;;;x
+b_impcaves;Impcaves;;;;;;;;;;;;;x
+b_imparia;Imparia;;;;;;;;;;;;;x
+b_gremlinum;Gremlinum;;;;;;;;;;;;;x
+b_baleria;Baleria;;;;;;;;;;;;;x
+b_arimaspia;Arimaspia;;;;;;;;;;;;;x
+b_fomoirea;Fomoirea;;;;;;;;;;;;;x
+b_bolgfire;Bolgfire;;;;;;;;;;;;;x
+b_faebaria;Faebaria;;;;;;;;;;;;;x
+b_riphea;Riphea;;;;;;;;;;;;;x
+b_chionia;Chionia;;;;;;;;;;;;;x
+b_hyadia;Hyadia;;;;;;;;;;;;;x
+b_leucia;Leucia;;;;;;;;;;;;;x
+b_minthia;Minthia;;;;;;;;;;;;;x
+b_boreia;Boreia;;;;;;;;;;;;;x
+b_samoia;Samoia;;;;;;;;;;;;;x
+b_walrusia;Walrusia;;;;;;;;;;;;;x
+b_hypoboreis;Hypoboreis;;;;;;;;;;;;;x
+b_chionian;Chionian;;;;;;;;;;;;;x
+b_salica;Salica;;;;;;;;;;;;;x
+b_ownyenbry;Ownyenbry;;;;;;;;;;;;;x
+b_canavan;Canavan;;;;;;;;;;;;;x
+b_patrick_downs;Patrick Downs;;;;;;;;;;;;;x
+b_tolmon;Tolmon;;;;;;;;;;;;;x
+b_moournefold;Moournefold;;;;;;;;;;;;;x
+b_felurin;Felurin;;;;;;;;;;;;;x
+b_monegelthein;Monegelthein;;;;;;;;;;;;;x
+b_sellignford;Sellignford;;;;;;;;;;;;;x
+b_foorefold;Foorefold;;;;;;;;;;;;;x
+b_moyselgin;Moyselgin;;;;;;;;;;;;;x
+b_balhelvin;Balhelvin;;;;;;;;;;;;;x
+b_new_kildare;New_kildare;;;;;;;;;;;;;x
+b_kilsdowns;Kilsdowns;;;;;;;;;;;;;x
+b_knockfel;Knockfel;;;;;;;;;;;;;x
+b_grathcastle;Grathcastle;;;;;;;;;;;;;x
+b_tealsford;Tealsford;;;;;;;;;;;;;x
+b_ildrogigen;Ildrogigen;;;;;;;;;;;;;x
+b_vellaster;Vellaster;;;;;;;;;;;;;x
+b_arkenlos;Arkenlos;;;;;;;;;;;;;x
+b_telibrick;Telibrick;;;;;;;;;;;;;x
+b_eliongu;Eliongu;;;;;;;;;;;;;x
+b_elionsgraths;Elionsgraths;;;;;;;;;;;;;x
+b_calnford;Calnford;;;;;;;;;;;;;x
+b_outer_ortmuns;Outer Ortmuns;;;;;;;;;;;;;x
+b_lesser_ortmuns;Lesser Ortmuns;;;;;;;;;;;;;x
+b_conoltuffs;Conoltuffs;;;;;;;;;;;;;x
+b_aghanna;Aghanna;;;;;;;;;;;;;x
+b_fellingford;Fellingford;;;;;;;;;;;;;x
+b_calstwell;Calstwell;;;;;;;;;;;;;x
+b_anoldfors;Anoldfors;;;;;;;;;;;;;x
+b_claruis;Claruis;;;;;;;;;;;;;x
+b_ulfkehun;Ulfkehun;;;;;;;;;;;;;x
+b_straithdons;Straithdons;;;;;;;;;;;;;x
+b_belignford;Belignford;;;;;;;;;;;;;x
+b_ophinalth;Ophinalth;;;;;;;;;;;;;x
+b_selnister;Selnister;;;;;;;;;;;;;x
+b_dolcalster;Dolcalster;;;;;;;;;;;;;x
+b_dedinby;Dedinby;;;;;;;;;;;;;x
+b_rolthill;Rolthill;;;;;;;;;;;;;x
+b_talxemby;Talxemby;;;;;;;;;;;;;x
+b_holme_athmle;Holme Athmle;;;;;;;;;;;;;x
+b_ardshulm;Ardshulm;;;;;;;;;;;;;x
+b_promordtolsry;Promordtolsry;;;;;;;;;;;;;x
+b_leadnsbry;Leadnsbry;;;;;;;;;;;;;x
+b_calsthime;Calsthime;;;;;;;;;;;;;x
+b_loughaswell;Loughaswell;;;;;;;;;;;;;x
+b_keo_kilnver;Keo_kilnver;;;;;;;;;;;;;x
+b_rofclogith;Rofclogith;;;;;;;;;;;;;x
+b_ryligh;Ryligh;;;;;;;;;;;;;x
+b_old_dylis;Old_dylis;;;;;;;;;;;;;x
+b_high_temple_of_dylis;High Temple of Dylis;;;;;;;;;;;;;x
+b_dylis_city;Dylis City;;;;;;;;;;;;;x
+b_cenlic_hold;Cenlic Hold;;;;;;;;;;;;;x
+b_dylisvena;Dylisvena;;;;;;;;;;;;;x
+b_uliosan_vech;Uliosan Vech;;;;;;;;;;;;;x
+b_glashith;Glashith;;;;;;;;;;;;;x
+b_orlurs;Orlurs;;;;;;;;;;;;;x
+b_f_lghlome;F Ghlome;;;;;;;;;;;;;x
+b_kelisreagh;Kelisreagh;;;;;;;;;;;;;x
+b_oltuvens;Oltuvens;;;;;;;;;;;;;x
+b_svelcuster;Svelcuster;;;;;;;;;;;;;x
+b_karin;Karin;;;;;;;;;;;;;x
+b_kalonreagh;Kalonreagh;;;;;;;;;;;;;x
+b_uiluts;Uiluts;;;;;;;;;;;;;x
+b_goltconster;Goltconster;;;;;;;;;;;;;x
+b_ralingsford;Ralingsford;;;;;;;;;;;;;x
+b_reaghingby;Reaghingby;;;;;;;;;;;;;x
+b_karlinglnby;Karlinglnby;;;;;;;;;;;;;x
+b_linlgnlnby;Linlgnlnby;;;;;;;;;;;;;x
+b_selolinhfel;Selolinhfel;;;;;;;;;;;;;x
+b_welhur_downs;Welhur_downs;;;;;;;;;;;;;x
+b_peloinswood;Peloinswood;;;;;;;;;;;;;x
+b_hullidsgutch;Hullidsgutch;;;;;;;;;;;;;x
+b_ui_celtds;Ui_celtds;;;;;;;;;;;;;x
+b_felunister;Felunister;;;;;;;;;;;;;x
+b_fulinsfords;Fulinsfords;;;;;;;;;;;;;x
+b_colinafel;Colinafel;;;;;;;;;;;;;x
+b_ua_tolmans;Ua_tolmans;;;;;;;;;;;;;x
+b_ciluster;Ciluster;;;;;;;;;;;;;x
+b_lunos;Lunos;;;;;;;;;;;;;x
+b_mon_tresa;Mon Tresa;;;;;;;;;;;;;x
+b_high_temple_of_luna;High Temple of Luna;;;;;;;;;;;;;x
+b_araluoa;Araluoa;;;;;;;;;;;;;x
+b_puraouliu;Puraouliu;;;;;;;;;;;;;x
+b_myyrdin;Myyrdin;;;;;;;;;;;;;x
+b_temple_of_myyrdin;Temple of Myyrdin;;;;;;;;;;;;;x
+b_myrra;Myrra;;;;;;;;;;;;;x
+b_upiloa;Upiloa;;;;;;;;;;;;;x
+b_malloius;Malloius;;;;;;;;;;;;;x
+b_selia;Selia;;;;;;;;;;;;;x
+b_temple_of_selia;Temple of Selia;;;;;;;;;;;;;x
+b_sariout;Sariout;;;;;;;;;;;;;x
+b_lughis;Lughis;;;;;;;;;;;;;x
+b_malronh;Malronh;;;;;;;;;;;;;x
+b_ilinish;Ilinish;;;;;;;;;;;;;x
+b_ilinish_city;Ilinish City;;;;;;;;;;;;;x
+b_fenaster;Fenaster;;;;;;;;;;;;;x
+b_juensaer;Juensaer;;;;;;;;;;;;;x
+b_juensrne;Juensrne;;;;;;;;;;;;;x
+b_pulnaish;Pulnaish;;;;;;;;;;;;;x
+b_derveria;Derveria;;;;;;;;;;;;;x
+b_new_leinster;New Leinster;;;;;;;;;;;;;x
+b_nenvenought;Nenvenought;;;;;;;;;;;;;x
+b_finilas;Finilas;;;;;;;;;;;;;x
+b_cerintal;Cerintal;;;;;;;;;;;;;x
+b_cyrnil;Cyrnil;;;;;;;;;;;;;x
+b_suninlat;Suninlat;;;;;;;;;;;;;x
+b_winderish;Winderish;;;;;;;;;;;;;x
+b_vernuoght;Vernuoght;;;;;;;;;;;;;x
+b_vernuton;Vernuton;;;;;;;;;;;;;x
+b_dyrinesa;Dyrinesa;;;;;;;;;;;;;x
+b_tilrend;Tilrend;;;;;;;;;;;;;x
+b_beriumah;Beriumah;;;;;;;;;;;;;x
+b_karrinough;Karrinough;;;;;;;;;;;;;x
+b_karrington;Karrington;;;;;;;;;;;;;x
+b_tyurah;Tyurah;;;;;;;;;;;;;x
+b_menourea;Menourea;;;;;;;;;;;;;x
+b_hutrenia;Hutrenia;;;;;;;;;;;;;x
+b_seirnios;Seirnios;;;;;;;;;;;;;x
+b_cirona;Cirona;;;;;;;;;;;;;x
+b_olperia;Olperia;;;;;;;;;;;;;x
+b_heriula;Heriula;;;;;;;;;;;;;x
+b_perium;Perium;;;;;;;;;;;;;x
+b_quonila;Quonila;;;;;;;;;;;;;x
+b_nenveriu;Nenveriu;;;;;;;;;;;;;x
+b_vuniough;Vuniough;;;;;;;;;;;;;x
+b_beriuo;Beriuo;;;;;;;;;;;;;x
+b_oulito;Oulito;;;;;;;;;;;;;x
+b_lumnash;Lumnash;;;;;;;;;;;;;x
+b_werriuma;Werriuma;;;;;;;;;;;;;x
+b_burnalis;Burnalis;;;;;;;;;;;;;x
+b_buriloa;Buriloa;;;;;;;;;;;;;x
+b_malought;Malought;;;;;;;;;;;;;x
+b_moriasan;Moriasan;;;;;;;;;;;;;x
+b_moriasan_city;Moriasan City;;;;;;;;;;;;;x
+b_moriample;Moriample;;;;;;;;;;;;;x
+b_denseira;Denseira;;;;;;;;;;;;;x
+b_seiratun;Seiratun;;;;;;;;;;;;;x
+b_nemain;Nemain;;;;;;;;;;;;;x
+b_iubuna;Iubuna;;;;;;;;;;;;;x
+b_lludium;Lludium;;;;;;;;;;;;;x
+b_magcabon;Magcabon;;;;;;;;;;;;;x
+b_yullicea;Yullicea;;;;;;;;;;;;;x
+b_goligonia;Goligonia;;;;;;;;;;;;;x
+b_werebhan;Werebhan;;;;;;;;;;;;;x
+b_taranisa;Taranisa;;;;;;;;;;;;;x
+b_patricius;Patricius;;;;;;;;;;;;;x
+b_uilosas;Uilosas;;;;;;;;;;;;;x
+b_uilosisan;Uilosisan;;;;;;;;;;;;;x
+b_weruino;Weruino;;;;;;;;;;;;;x
+b_ualth;Ualth;;;;;;;;;;;;;x
+b_wuseriol;Wuseriol;;;;;;;;;;;;;x
+b_periunih;Periunih;;;;;;;;;;;;;x
+b_darunh;Darunh;;;;;;;;;;;;;x
+b_finough;Finough;;;;;;;;;;;;;x
+b_temple_of_danu;Temple of Danu;;;;;;;;;;;;;x
+b_koulash;Koulash;;;;;;;;;;;;;x
+b_seniria;Seniria;;;;;;;;;;;;;x
+b_ienster;Ienster;;;;;;;;;;;;;x
+b_uninial;Uninial;;;;;;;;;;;;;x
+b_paluria;Paluria;;;;;;;;;;;;;x
+b_dyilnster;Dyilnster;;;;;;;;;;;;;x
+b_tiytal;Tiytal;;;;;;;;;;;;;x
+b_luriast;Luriast;;;;;;;;;;;;;x
+b_tyrcuyta;Tyrcuyta;;;;;;;;;;;;;x
+b_ogamain;Ogamain;;;;;;;;;;;;;x
+b_bragnina;Bragnina;;;;;;;;;;;;;x
+b_hilurou;Hilurou;;;;;;;;;;;;;x
+b_gentura;Gentura;;;;;;;;;;;;;x
+b_sentiuma;Sentiuma;;;;;;;;;;;;;x
+b_denddulb;Denddulb;;;;;;;;;;;;;x
+b_denivere;Denivere;;;;;;;;;;;;;x
+b_annwnidum;Annwnidum;;;;;;;;;;;;;x
+b_impara;Impara;;;;;;;;;;;;;x
+b_jenaveria;Jenaveria;;;;;;;;;;;;;x
+b_irenvia;Irenvia;;;;;;;;;;;;;x
+b_sentalios;Sentalios;;;;;;;;;;;;;x
+b_ventarought;Ventarought;;;;;;;;;;;;;x
+b_guinavera;Guinavera;;;;;;;;;;;;;x
+b_authura;Authura;;;;;;;;;;;;;x
+b_irendium;Irendium;;;;;;;;;;;;;x
+b_yueris;Yueris;;;;;;;;;;;;;x
+b_leoira;Leoira;;;;;;;;;;;;;x
+b_leoira_city;Leoira City;;;;;;;;;;;;;x
+b_olunia;Olunia;;;;;;;;;;;;;x
+b_uanentil;Uanentil;;;;;;;;;;;;;x
+b_benuralis;Benuralis;;;;;;;;;;;;;x
+b_onulials;Onulials;;;;;;;;;;;;;x
+b_nenival;Nenival;;;;;;;;;;;;;x
+b_inveriua;Inveriua;;;;;;;;;;;;;x
+b_dyhunia;Dyhunia;;;;;;;;;;;;;x
+b_nilougt;Nilougt;;;;;;;;;;;;;x
+b_seliougt;Seliougt;;;;;;;;;;;;;x
+b_minurough;Minurough;;;;;;;;;;;;;x
+b_tarina;Tarina;;;;;;;;;;;;;x
+b_oster;Oster;;;;;;;;;;;;;x
+b_ua_linta;Ua Linta;;;;;;;;;;;;;x
+b_septeniough;Septeniough;;;;;;;;;;;;;x
+b_loghlanough;Loghlanough;;;;;;;;;;;;;x
+b_celligan;Celligan;;;;;;;;;;;;;x
+b_necardif;Necardif;;;;;;;;;;;;;x
+b_irenought;Irenought;;;;;;;;;;;;;x
+b_keriough;Keriough;;;;;;;;;;;;;x
+b_genought;Genought;;;;;;;;;;;;;x
+b_dyfed;Dyfed;;;;;;;;;;;;;x
+b_denaster;Denaster;;;;;;;;;;;;;x
+b_liroia;Liroia;;;;;;;;;;;;;x
+b_jenought;Jenought;;;;;;;;;;;;;x
+b_sepinarin;Sepinarin;;;;;;;;;;;;;x
+b_leirous;Leirous;;;;;;;;;;;;;x
+b_leirisa;Leirisa;;;;;;;;;;;;;x
+b_ua_lanvar;Ua_lanvar;;;;;;;;;;;;;x
+b_laithreain;Laithreain;;;;;;;;;;;;;x
+b_laithreain_uachtarach;Laithreain Uachtarach;;;;;;;;;;;;;x
+b_reimsenua;Reimsenua;;;;;;;;;;;;;x
+b_arliusia;Arliusia;;;;;;;;;;;;;x
+b_derstioght;Derstioght;;;;;;;;;;;;;x
+b_sarianie;Sarianie;;;;;;;;;;;;;x
+b_juamerign;Juamerign;;;;;;;;;;;;;x
+b_farrun;Farrun;;;;;;;;;;;;;x
+b_yewhold;Yewhold;;;;;;;;;;;;;x
+b_rivinith;Rivinith;;;;;;;;;;;;;x
+b_ollnought;Ollnought;;;;;;;;;;;;;x
+b_tremond;Tremond;;;;;;;;;;;;;x
+b_aluought;Aluought;;;;;;;;;;;;;x
+b_jenuris;Jenuris;;;;;;;;;;;;;x
+b_denverith;Denverith;;;;;;;;;;;;;x
+b_ioverught;Ioverught;;;;;;;;;;;;;x
+b_maccumal;Maccumal;;;;;;;;;;;;;x
+b_uan_leoira;Uan_leoira;;;;;;;;;;;;;x
