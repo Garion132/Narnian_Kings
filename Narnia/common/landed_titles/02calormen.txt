@@ -46,7 +46,7 @@ e_calormen = {
 				
 				b_east_tashbaan = {
 				}
-				b_tashbann_eastern_outskirts={
+				b_tashbaan_eastern_outskirts={
 				}
 				b_telvish = {
 				}
@@ -57,7 +57,7 @@ e_calormen = {
 				
 				b_west_tashbaan = {
 				}
-				b_tashbann_western_outskirts={
+				b_tashbaan_western_outskirts={
 				}
 				b_talvana={
 				}
@@ -68,7 +68,7 @@ e_calormen = {
 				
 				b_south_tashbaan = {
 				}
-				b_tashbann_southern_outskirts={
+				b_tashbaan_southern_outskirts={
 				}
 				b_grendash={
 				}
@@ -237,11 +237,11 @@ e_calormen = {
 				b_caloira = {
 				}
 			}
-			c_ihsbaan={
+			c_ishbaan={
 				color={ 171 82 100 }
 				color2={ 255 255 255 }
 				
-				b_ihsbaan = {
+				b_ishbaan = {
 				}
 			}
 			c_tashbelda={
