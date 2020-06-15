@@ -522,19 +522,46 @@ succession_laws = {
 		potential = {
 			holder_scope = {
 				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							holy_order = yes
+						}
+					}
+				}
+				OR = {
 					has_landed_title = k_dwarven_states
 					has_landed_title = e_elexol_confederation
 					AND={
 						has_law = succession_voting_power_1
-						has_dlc = "Zeus"
+						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
 					}
-					has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
 				}
 				is_merchant_republic = no
 				is_patrician = no
+				OR = {
+					independent = yes
+					NOT = {
+						any_demesne_title = {
+							is_vice_royalty = yes
+						}
+					}
+				}
 			}
+			OR = {
+				is_landless_type_title = no
+				is_tribal_type_title = yes
+				temporary = yes
+			}
+			is_primary_type_title = no
 			NOT = { tier = baron }
-		#	holder_scope = { is_feudal = yes }
+			holder_scope = {
+				OR = {
+					# is_feudal = yes
+					has_law = succession_voting_power_1
+					has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
+				}
+			}
 		}
 		allow = {
 			#holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
