@@ -46,7 +46,7 @@ e_calormen = {
 				
 				b_east_tashbaan = {
 				}
-				b_tashbaan_eastern_outskirts={
+				b_tashbann_eastern_outskirts={
 				}
 				b_telvish = {
 				}
@@ -57,7 +57,7 @@ e_calormen = {
 				
 				b_west_tashbaan = {
 				}
-				b_tashbaan_western_outskirts={
+				b_tashbann_western_outskirts={
 				}
 				b_talvana={
 				}
@@ -68,7 +68,7 @@ e_calormen = {
 				
 				b_south_tashbaan = {
 				}
-				b_tashbaan_southern_outskirts={
+				b_tashbann_southern_outskirts={
 				}
 				b_grendash={
 				}
@@ -237,11 +237,11 @@ e_calormen = {
 				b_caloira = {
 				}
 			}
-			c_ishbaan={
+			c_ihsbaan={
 				color={ 171 82 100 }
 				color2={ 255 255 255 }
 				
-				b_ishbaan = {
+				b_ihsbaan = {
 				}
 			}
 			c_tashbelda={
@@ -955,7 +955,6 @@ e_calormen = {
 				}
 				b_temple_of_yuisla = {
 					holy_site = tash
-					holy_site = mellounian_law
 				}
 				b_city_of_lights = {
 				}
@@ -1510,11 +1509,4 @@ d_tyalia = {
 	color2={ 255 255 255 }
 	
 	capital = 794 # Tyalio
-}
-
-d_azem = {
-	color={ 120 34 98 }
-	color2={ 255 255 255 }
-	
-	capital = 680 # Tyalio
 }
