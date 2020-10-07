@@ -776,7 +776,12 @@ succession_laws = {
 				}
 				is_merchant_republic = no
 				is_patrician = no
-				culture_group = celtic
+				OR = {
+					culture_group = celtic
+					any_owned_bloodline = {
+						has_bloodline_flag = bloodline_tanistry
+					}
+				}
 				OR = {
 					independent = yes
 					NOT = {
@@ -794,8 +799,13 @@ succession_laws = {
 			is_primary_type_title = no
 			NOT = { tier = baron }
 			OR = {
-				holder_scope = { 
-					culture_group = celtic
+				holder_scope = {
+					OR = {
+						culture_group = celtic
+						any_owned_bloodline = {
+							has_bloodline_flag = bloodline_tanistry
+						}
+					}
 				}
 				AND = {
 					tier = baron
@@ -804,7 +814,7 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 			}
 			NAND = {
-				NOT = {title = e_dylis_tiral}
+				NOT = { title = e_dylis_tiral }
 				de_jure_liege_or_above = e_dylis_tiral
 			}
 		}
@@ -813,13 +823,28 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
-			holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
-			NAND = { 
-				has_law = succession_voting_power_1
-				has_law = succ_feudal_elective
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Conclave"
+				}
+				custom_tooltip = {
+					text = forced_elective_tt
+					hidden_tooltip = {
+						NAND = { 
+							has_law = succession_voting_power_1
+							has_law = succ_feudal_elective
+						}
+					}
+				}
 			}
 			NAND = {
-				NOT = {title = e_dylis_tiral}
+				NOT = { title = e_dylis_tiral }
 				de_jure_liege_or_above = e_dylis_tiral
 			}
 		}
@@ -873,42 +898,62 @@ succession_laws = {
 					is_feudal = yes
 				}
 				holder_scope = { is_feudal = yes }
-				AND = {
-					is_nomadic = no
-				}
 			}
-			NOT = {title = e_dylis_tiral}
+			NOT = { title = e_dylis_tiral }
 		}
 		allow = {
-			OR = {
-				AND = {
-					has_dlc = "Zeus"
-					holder_scope = {
-						primary_title = {
-							OR = {
-								has_law = ze_administration_laws_1
-								has_law = ze_administration_laws_2
-							}
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Conclave"
+				}
+				holder_scope = {
+					show_scope_change = no
+					primary_title = {
+						show_scope_change = no
+						OR = {
+							has_law = ze_administration_laws_1
+							has_law = ze_administration_laws_2
 						}
 					}
 				}
-				hidden_tooltip = {
-					has_crown_law_title = no
-					NOT = { has_dlc = "Zeus" }
+			}
+			conditional_tooltip = {
+				trigger = {
+					NOT = { has_dlc = "Conclave" }
 				}
-				crownlaw_title = {
-					OR = { 
-						has_law = crown_authority_1
-						has_law = crown_authority_2
-						has_law = crown_authority_3
-						has_law = crown_authority_4
+				OR = {
+					hidden_tooltip = {
+						has_crown_law_title = no
+					}
+					crownlaw_title = {
+						OR = { 
+							has_law = crown_authority_1
+							has_law = crown_authority_2
+							has_law = crown_authority_3
+							has_law = crown_authority_4
+						}
 					}
 				}
 			}
-			holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
-			NAND = { 
-				has_law = succession_voting_power_1
-				has_law = succ_feudal_elective
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+			conditional_tooltip = {
+				trigger = {
+					has_dlc = "Conclave"
+				}
+				custom_tooltip = {
+					text = forced_elective_tt
+					hidden_tooltip = {
+						NAND = { 
+							has_law = succession_voting_power_1
+							has_law = succ_feudal_elective
+						}
+					}
+				}
 			}
 		}
 		
@@ -922,10 +967,54 @@ succession_laws = {
 
 	succ_turkish_succession = {
 		oldest_child_opinion = -5
-#		child_opinion = 30
-#		dynasty_opinion = 10
+		#child_opinion = 30
+		#dynasty_opinion = 10
 		potential = {
 			holder_scope = {government = bureaucracy_government}
+			holder_scope = {
+				OR = {
+					AND = {
+						has_religion_feature = religion_patriarchal
+						is_theocracy = no
+					}
+					AND = {
+						has_religion_feature = religion_matriarchal
+						is_theocracy = no
+					}
+				}
+				is_republic = no
+				is_merchant_republic = no
+				is_nomadic = no
+			}
+			OR = {
+				holder_scope = { # Viceroyalties can always have turkish succession if muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
+					}
+				}
+				AND = {
+					OR = {
+						is_landless_type_title = no
+						is_tribal_type_title = yes
+						temporary = yes
+					}
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
+								}
+							}
+						}
+					}
+					is_primary_type_title = no
+				}
+			}
+			NAND = { 
+				has_law = succession_voting_power_1
+				has_law = succ_feudal_elective 
+			}
 		}
 		effect = {
 			succession = turkish_succession
@@ -1090,6 +1179,23 @@ succession_laws = {
 			always = no
 		}			
 	}
+	
+	succ_offmap_succession = {
+		potential = {
+			holder_scope = {
+				top_liege = { is_offmap_governor = yes }
+			}
+		}
+		effect = {
+			succession = offmap_succession
+			# This succession type generates a character of China's culture and religion
+			# They have decent (4-10) stats, and good (7-11) stewardship, and will always have a Stewardship education
+			# The offmap power defined in the top liege's government is used to determine the culture and religion. Will not function if this isn't defined
+		}
+		revoke_allowed = {
+			always = no
+		}			
+	}
 }
 
 gender_laws = {
@@ -1114,18 +1220,39 @@ gender_laws = {
 					}
 					is_merchant_republic = yes
 				}
-				AND = {
-					has_dlc = "Zeus"
-					OR = {
-						ROOT = { holder_scope = { primary_title = { has_law = status_of_women_3 } } }
-						ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
-						has_game_rule = {
-							name = gender
-							value = all
+				OR = {
+					AND = {
+						has_horde_culture = no
+						is_nomadic = no
+						is_merchant_republic = no
+						is_patrician = no
+					}
+					AND = {
+						has_dlc = "Zeus"
+						OR = {
+							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_3 } } }
+							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
+							has_game_rule = {
+								name = gender
+								value = all
+							}
+						}
+						OR = {
+							is_patrician = no
+							liege = {
+								primary_title = {
+									OR = {
+										has_law = true_cognatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
 						}
 					}
 				}
 			}
+			
+			is_landless_type_title = no
 			
 			OR = {
 				AND = {
@@ -1138,11 +1265,13 @@ gender_laws = {
 					is_republic = no
 				}
 			}
+			
+			is_primary_type_title = no
 		}
 		
 		effect = {
 			gender_succ = cognatic
-			set_allows_matrilineal_marriage = yes
+			law_set_allow_matrilineal_marriage = yes
 		}
 		revoke_allowed = {
 			always = no
@@ -1201,20 +1330,101 @@ gender_laws = {
 		}
 		allow = {
 			OR = {
-				ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
-				has_game_rule = {
-					name = gender
-					value = all
+				AND = {
+					has_dlc = "Zeus"
+					has_game_rule = {
+						name = gender
+						value = all
+					}
+					#is_patrician = no
+				}
+				holder_scope = {
+					OR = {
+						AND = {
+							has_horde_culture = no
+							is_nomadic = no
+						}
+						has_religion_feature = religion_equal
+						has_religion_feature = religion_feature_bon
+						AND = {
+							has_dlc = "Zeus"
+							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
+							OR = {
+								is_patrician = no
+								liege = {
+									primary_title = {
+										OR = {
+											has_law = true_cognatic_succession
+											has_law = cognatic_succession
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			is_landless_type_title = no
+			
+			OR = {
+				AND = {
+					tier = baron
+					is_theocracy = no
+					is_republic = no
+				}
+				holder_scope = {
+					is_theocracy = no
+					OR = {
+						is_republic = no
+						is_patrician = yes
+					}
+				}
+				holder_scope = {
+					has_religion_feature = religion_equal
+				}
+			}
+			
+			is_primary_type_title = no
+			OR = {
+				holder_scope = {
+					has_religion_feature = religion_equal
+				}
+				OR = {
+					ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
+					has_game_rule = {
+						name = gender
+						value = all
+					}
 				}
 			}
 		}
 		effect = {
 			gender_succ = true_cognatic
-			set_allows_matrilineal_marriage = yes
+			law_set_allow_matrilineal_marriage = yes
 		}
 		revoke_allowed = {
 			always = no
-		}			
+		}	
+		default_selection = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.1
+				NOT = {
+					holder_scope = {
+						has_religion_feature = religion_equal
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					has_religion_feature = religion_equal
+				}
+			}
+		}
 	}
 	
 	enatic_succession = {
@@ -1234,7 +1444,11 @@ gender_laws = {
 		}
 		revoke_allowed = {
 			always = no
-		}			
+		}
+		default_selection = {
+			factor = 1
+			
+		}
 	}
 	
 	enatic_cognatic_succession = {
@@ -1252,7 +1466,35 @@ gender_laws = {
 		}
 		revoke_allowed = {
 			always = no
-		}			
-	}
-	
+		}	
+		default_selection = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					holder_scope = {
+						OR = {
+							has_religion_feature = religion_matriarchal
+							any_owned_bloodline = {
+								has_bloodline_flag = bloodline_enatic_cognatic 
+							}
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				holder_scope = {
+					OR = {
+						has_religion_feature = religion_matriarchal
+						any_owned_bloodline = {
+							has_bloodline_flag = bloodline_enatic_cognatic 
+						}
+					}
+				}
+			}
+		}		
+	}	
 }

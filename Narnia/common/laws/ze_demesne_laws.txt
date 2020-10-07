@@ -15,10 +15,17 @@ laws = {
 		group = status_of_women
 		allow = {
 			has_law = status_of_women_1
+			NOR = {
+				holder_scope = { has_religion_feature = religion_matriarchal }
+				holder_scope = { has_religion_feature = religion_equal }
+			}
 		}
 		potential = {
 			has_dlc = "Zeus"
+			holy_order = no
 			NOR = {
+				holder_scope = { has_religion_feature = religion_matriarchal }
+				holder_scope = { has_religion_feature = religion_equal }
 				has_game_rule = {
 					name = gender
 					value = historical
@@ -122,10 +129,19 @@ laws = {
 				has_law = status_of_women_0
 				has_law = status_of_women_2
 			}
+			NOR = {
+				holder_scope = { has_religion_feature = religion_matriarchal }
+				holder_scope = { has_religion_feature = religion_equal }
+				holder_scope = { has_religion_feature = religion_patriarchal }
+			}
 		}
 		potential = {
 			has_dlc = "Zeus"
+			holy_order = no
 			NOR = {
+				holder_scope = { has_religion_feature = religion_matriarchal }
+				holder_scope = { has_religion_feature = religion_equal }
+				holder_scope = { has_religion_feature = religion_patriarchal }
 				has_game_rule = {
 					name = gender
 					value = historical
