@@ -539,6 +539,16 @@ nick_the_frog = {
 	}
 }
 
+nick_the_tenacious = {
+	allow = {
+		age = 15
+		trait = patient
+	}
+	chance = {
+		factor = 2
+	}
+}
+
 nick_the_repulsive = {
 	allow = {
 		age = 15
