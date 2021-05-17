@@ -24,7 +24,7 @@
 bm_winter_invasion = {
 	name = "BM_WINTERINV"
 	desc = "BM_WINTERINV_DESC"
-	date = 898.1.1
+	date = 796.1.1
 	
 	era = yes						## Will be shown on Era screen.
 	picture = GFX_pick_era_image_4
