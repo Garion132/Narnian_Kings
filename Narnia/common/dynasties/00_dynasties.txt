@@ -153,55 +153,55 @@
 }
 31={
 	name="Ironaxe"
-	culture_group="dwarf"
+	culture="red_dwarf" #guess
 }
 32={
 	name="Coalhammer"
-	culture_group="dwarf"
+	culture="red_dwarf" #guess
 }
 33={
 	name="Steelpick"
-	culture_group="dwarf"
+	culture="black_dwarf" #guess
 }
 34={
 	name="Xexsares"
-	culture_group="calormen"
+	culture="calormen"
 }
 35={
 	name="Kollasha"
-	culture_group="calormen"
+	culture="calormen"
 }
 36={
 	name="Dagash"
-	culture_group="calormen"
+	culture="calormen"
 }
 37={
 	name="Kaloresa"
-	culture_group="calormen"
+	culture="calormen"
 }
 38={
 	name="Uyisla"
-	culture_group="calormen"
+	culture="calormen"
 }
 39={
 	name="Weszash"
-	culture_group="calormen"
+	culture="calormen"
 }
 40={
 	name="Azim"
-	culture_group="calormen"
+	culture="calormen"
 }
 41={
 	name="Yuilizash"
-	culture_group="calormen"
+	culture="calormen"
 }
 42={
 	name="Ilyuiliza"
-	culture_group="calormen"
+	culture="calormen"
 }
 43={
 	name="Salzlia"
-	culture_group="calormen"
+	culture="calormen"
 }
 44={
 	name="Alash"
@@ -370,18 +370,15 @@
 }
 93={
 	name="Ralian"
-	religion_group = "celtic"
-}
-94={
-	name="Karrium"
+	religion = "celtic"
 }
 95={
 	name="Von Stattan"
-	religion_group = "aryan"
+	religion = "aryan"
 }
 96={
 	name="Kerriun"
-	religion_group = "aslan"
+	religion = "aslan"
 }
 99={
 	name="Hitler"
@@ -405,25 +402,25 @@
 }
 101={
 	name="Varistil"
-	religion_group = "dragon_worship"
+	religion = "dragon_worship"
 }
 102={
 	name="Malkath"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 103={
 	name="af Stjerne"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 	culture = nord
 }
 104={
 	name="af Himmelen"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 	culture = nord
 }
 105={
 	name="Renlin"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 	culture = nord
 }
 106={
@@ -437,7 +434,7 @@
 108={
 	name="Culraan"
 	culture="scottish"
-	religion_group = "tash"
+	religion = "tash"
 }
 109={
 	name="Seltonas"
@@ -484,7 +481,7 @@
 }
 117={
 	name="Laninster"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -957,47 +954,47 @@
 }
 500={
 	name="Lori"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 501={
 	name="Korna"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 502={
 	name="Ochion"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 503={
 	name="Nobuto"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 504={
 	name="Naaka"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 505={
 	name="Oda"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 506={
 	name="Kilda"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 507={
 	name="Varilt"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 508={
 	name="Yosh"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 509={
 	name="Muneda"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 510={
 	name="Natao"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 511={
 	name="Ilarin"
@@ -1077,15 +1074,15 @@
 }
 1000={
 	name="O'Connell"
-	religion_group = "celtic"
+	religion = "celtic"
 }
 1001={
 	name="O'Reily"
-	religion_group = "celtic"
+	religion = "celtic"
 }
 1002={
 	name="Ua Lendith"
-	religion_group = "celtic"
+	religion = "celtic"
 }
 1003={
 	name="Athlme"
@@ -1104,59 +1101,59 @@
 }
 1004={
 	name="Koldenvar"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1005={
 	name="Sergin"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1006={
 	name="Tenveris"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1007={
 	name="Windlem"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1008={
 	name="Carlsson"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1009={
 	name="Tarek"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1010={
 	name="Koromult"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1011={
 	name="Kolen"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1012={
 	name="Fernvse"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1013={
 	name="Ilioz"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1014={
 	name="Tiraan"
-	religion_group = "pamyatrossii"
+	religion = "pamyatrossii"
 }
 1015={
 	name="Valarin"
-	religion_group = "viirenscari"
+	religion = "viirenscari"
 }
 1016={
 	name="Saris"
-	religion_group = "savra"
+	religion = "savra"
 }
 1017={
 	name="Tulvaim"
-	religion_group = "mellounian_law"
+	religion = "mellounian_law"
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -1171,15 +1168,15 @@
 }
 1018={
 	name="Xaen"
-	religion_group = "mellounian_law"
+	religion = "mellounian_law"
 }
 1019={
 	name="Karne"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1020={
 	name="Enil"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 
 1021={
@@ -1196,47 +1193,47 @@
 }
 1024={
 	name="Tiven"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1025={
 	name="Shala"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1026={
 	name="Teluio"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1027={
 	name="Calcran"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1028={
 	name="Turasen"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1029={
 	name="Gravin"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1030={
 	name="Caira"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1031={
 	name="Toilir"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1032={
 	name="Litare"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1033={
 	name="Tesmonsa"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1034={
 	name="Opan"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -1251,7 +1248,7 @@
 }
 1035={
 	name="Lichana"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -1268,7 +1265,7 @@
 }
 1036={
 	name="Pallentine"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -1284,156 +1281,156 @@
 }
 1037={
 	name="Axoclia"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	used_for_random = yes
 }
 1038={
 	name="Carina"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 
 1039={
 	name="Elliaon"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1040={
 	name="Ilaba"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1041={
 	name="Wuiyen"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1042={
 	name="Redwind"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1043={
 	name="Overhill"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1044={
 	name="Kolta"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 1045={
 	name="Tolna"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 1046={
 	name="Naomasa"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 1047={
 	name="Kana"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 1048={
 	name="Suke"
-	religion_group = "siniia"
+	religion = "shinoi"
 }
 1049={
 	name="Mima"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1050={
 	name="Dylin"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	culture = irish
 	used_for_random = no
 }
 1051={
 	name="Ua Holymound"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	culture = irish
 	used_for_random = no
 }
 1052={
 	name="Ua Quartzmine"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	culture = irish
 	used_for_random = no
 }
 1053={
 	name="Ua Highpare"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	culture = irish
 	used_for_random = no
 }
 1054={
 	name="Ua Lowmond"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	culture = irish
 	used_for_random = no
 }
 1055={
 	name="Ua Goodwater"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	culture = irish
 	used_for_random = no
 }
 1056={
 	name="Awa"
-	#religion_group = "mellounian_law"
-	culture = nihonaru
+	#religion = "mellounian_law"
+	culture = nishonaru
 	used_for_random = no
 }
 1057={
 	name="Lovian"
-	#religion_group = "mellounian_law"
-	culture = nihonaru
+	#religion = "mellounian_law"
+	culture = nishonaru
 	used_for_random = no
 }
 1058={
 	name="Arna"
-	#religion_group = "mellounian_law"
-	culture = nihonaru
+	#religion = "mellounian_law"
+	culture = nishonaru
 	used_for_random = no
 }
 1059={
 	name="Rivin"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	culture = irish
 	used_for_random = no
 }
 1060={
 	name="Kurai"
-	#religion_group = "mellounian_law"
-	culture = nihonaru
+	#religion = "mellounian_law"
+	culture = nishonaru
 	used_for_random = no
 }
 1061={
 	name="Karite"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 	culture = uyirian
 	used_for_random = no
 }
 1062={
 	name="Raruna"
-	#religion_group = "mellounian_law"
-	culture = nihonaru
+	#religion = "mellounian_law"
+	culture = nishonaru
 	used_for_random = no
 }
 1063={
 	name="Sina"
-	#religion_group = "mellounian_law"
-	culture = nihonaru
+	#religion = "mellounian_law"
+	culture = nishonaru
 }
 1064={
 	name="Nilkroc"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1065={
 	name="Zuria"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1066={
 	name="Varian"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1067={
 	name="Ozonia"
-	#religion_group = "mellounian_law"
+	#religion = "mellounian_law"
 }
 1068={
 	name="Tyuotine"
