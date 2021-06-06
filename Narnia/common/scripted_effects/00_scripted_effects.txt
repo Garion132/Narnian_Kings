@@ -1164,14 +1164,14 @@ remove_trait_silently_zealous_effect = {
 
 ###REAPER's DUE###
 
-# remove_patrons_effect = {
-	# remove_character_modifier = patron_shiva
-	# remove_character_modifier = patron_vishnu
-	# remove_character_modifier = patron_brahma
-	# remove_character_modifier = patron_kali
-	# remove_character_modifier = patron_ganesha
-	# remove_character_modifier = patron_ganga
-# }
+remove_patrons_effect = {
+	remove_character_modifier = patron_shiva
+	remove_character_modifier = patron_vishnu
+	remove_character_modifier = patron_brahma
+	remove_character_modifier = patron_kali
+	remove_character_modifier = patron_ganesha
+	remove_character_modifier = patron_ganga
+}
 
 increase_mercenary_troop_support_effect = {
 	if = {
@@ -3945,7 +3945,7 @@ add_cat_effect = {
 add_crusade_trait_effect = {
 	if = {
 		limit = {
-			religion_group = narnian
+			religion_group = christian
 		}
 		add_trait = crusader
 		break = yes
