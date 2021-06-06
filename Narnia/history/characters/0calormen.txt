@@ -1690,7 +1690,7 @@ name="Illsombreh"
 	}
 }
 40147 = {
-name="Sebaash"
+name="Anradin"
 	religion="tash"
 	culture="calormen"
 	dynasty=7
@@ -2079,6 +2079,33 @@ name="Kanandre"
 		death={death_reason = death_duel}
 	}
 }
+40175 = {
+name="Alimash"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40104
+	974.3.27={
+		birth=yes
+	}
+	1041.9.19={
+		death="1041.9.19"
+	}
+}
+40176 = {
+name="Alimash"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40175
+	994.3.27={
+		birth=yes
+	}
+	1041.9.19={
+		death="1041.9.19"
+	}
+}
+
 
 40250 = {
 name = "Xesaser"
