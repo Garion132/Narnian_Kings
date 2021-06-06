@@ -8,7 +8,7 @@ character_event = { #
 		months = 120
 	}
 	min_age = 45
-	female = yes
+	is_female = yes
 	
 	trigger = {
 	is_female = yes

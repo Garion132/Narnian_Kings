@@ -324,7 +324,7 @@ great_tribal_festival_1 = {
 	years = 5
 }
 great_tribal_festival_2 = {
-	authority = 2
+	authority = 1
 	years = 5
 }
 
@@ -352,8 +352,4 @@ reconquista_lost = {
 stopped_reconquista = {
 	authority = 5
 	years = 20
-}
-restored_primacy = {
-	authority = 8
-	years = 50
 }

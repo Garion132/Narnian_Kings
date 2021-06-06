@@ -919,7 +919,7 @@ dragon_worship_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = aryan
+		intermarry = ayran
 		intermarry = aslan
 		intermarry = white_witch
 		
