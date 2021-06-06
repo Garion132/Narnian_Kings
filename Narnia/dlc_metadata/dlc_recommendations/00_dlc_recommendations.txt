@@ -1095,6 +1095,7 @@ dlc069 = {
 			OR = {
 				religion = aslan
 				religion = tellan
+			}
 		}
 	}
 }

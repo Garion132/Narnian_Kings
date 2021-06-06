@@ -2386,29 +2386,6 @@ upgrade_statues_dead = { # Statues of the Dead
 	}
 }
 
-upgrade_eternal_flame = { #Eternal flame
-	#.... 
-	picture = GFX_upgrade_icon_brazier
-	potential = { }
-	allow = { }
-	active = { }
-
-	flags = {
-		is_singular
-	}
-	build_time = 24
-	gold_cost_flat = 450
-	gold_cost_ticking = 1
-	owner_modifier = {
-		
-	}
-	local_modifier = {
-		local_revolt_risk = -0.05
-		zunist_pagan_opinion = 5
-		zunist_pagan_reformed_opinion = 5
-	}
-}
-
 upgrade_unmarked_tombs = { #Unmarked Tombs
 	#.... 
 	picture = GFX_upgrade_icon_skulls

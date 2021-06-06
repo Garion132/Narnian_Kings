@@ -249,6 +249,8 @@ character_event = { #
 	#	months = 3
 	#}
 	
+	hide_window = yes
+	
 	is_triggered_only=yes
 	
 	trigger = {
@@ -315,6 +317,7 @@ character_event = { #
 	#mean_time_to_happen = {
 	#	months = 3
 	#}
+	hide_window = yes
 	
 	is_triggered_only=yes
 	

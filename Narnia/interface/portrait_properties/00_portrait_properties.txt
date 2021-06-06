@@ -8,10 +8,6 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = christian }
-		}
-		modifier = {
-			factor = 0
 			is_nomadic = yes
 		}
 	}
@@ -43,10 +39,6 @@
 
 	3 = { # forest
 		factor = 1
-		modifier = {
-			factor = 0
-			religion_group = muslim
-		}
 		modifier = {
 			factor = 0.01
 			is_nomadic = yes
@@ -154,10 +146,6 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { religion_group = christian }
-		}
-		modifier = {
-			factor = 0
 			OR = {
 				is_ruler = no
 				is_theocracy = no
@@ -167,12 +155,6 @@
 	
 	10 = { # Desert
 		factor = 5
-		modifier = {
-			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-		}
 	}
 	
 	11 = { # Steppe
@@ -205,10 +187,7 @@
 		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { religion_group = indian_group }
+			always = yes
 		}
 	}
 	
@@ -216,10 +195,7 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = indian_group }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
+			always = yes
 		}
 		modifier = {
 			factor = 100
@@ -234,7 +210,7 @@
 		factor = 5
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
+			always = yes
 		}
 	}
 
@@ -258,10 +234,7 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { has_landed_title = k_papal_state }
-			NOT = { has_landed_title = d_fraticelli }
-			NOT = { has_claim = k_papal_state }
-			NOT = { has_claim = d_fraticelli }
+			always = yes
 		}
 	}
 
@@ -269,7 +242,7 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
+			always = yes
 		}
 		modifier = {
 			factor = 0
@@ -446,7 +419,6 @@
 		modifier = {
 			factor = 0
 			is_female = no
-			NOT = { religion_group = christian }
 		}
 		modifier = {
 			factor = 0
@@ -703,7 +675,6 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
-			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -712,7 +683,6 @@
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { has_minor_title = title_prince }
-			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 	}
 	
@@ -911,16 +881,6 @@
 			NOT = { trait = shieldmaiden }
 			NOT = { has_job_title  = job_marshal }
 			NOT = { martial = 12 }
-			NOT = {
-				primary_title = {
-					OR = {
-						title = d_knights_hospitaler
-						title = d_knights_templar
-						title = d_teutonic_order
-						title = e_china_west_governor
-					}
-				}
-			}
 		}
 		modifier = {
 			factor = 0
@@ -936,19 +896,8 @@
 					any_demesne_title = {
 						real_tier = baron
 					}
-					NOT = {
-						primary_title = {
-							OR = {
-								title = d_knights_hospitaler
-								title = d_knights_templar
-								title = d_teutonic_order
-								title = e_china_west_governor
-							}
-						}
-					}
 				}
 				AND = {
-					religion_group = christian
 					OR = {
 						AND = {
 							is_ruler = yes
@@ -1024,7 +973,6 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			religion_group = muslim
 			NOT = { graphical_culture = muslimgfx }
 		}
 		modifier = {
@@ -1081,7 +1029,6 @@
 		factor = 1
 		modifier = {
 			factor = 5
-			religion_group = christian
 			culture_group = iberian
 			OR = {
 				graphical_culture = southerngfx
@@ -1093,12 +1040,10 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			religion_group = muslim
 			NOT = { graphical_culture = muslimgfx }
 		}
 		modifier = {
 			factor = 20
-			religion_group = christian
 			culture_group = iberian
 			OR = {
 				graphical_culture = southerngfx
@@ -1107,7 +1052,6 @@
 		}
 		modifier = {
 			factor = 60
-			religion_group = christian
 			OR = {
 				culture = greek
 				culture = italian
@@ -1129,12 +1073,10 @@
 			factor = 0
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
-			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
 			is_feudal = no
-			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -1142,15 +1084,10 @@
 				trait = peasant_leader
 				trait = heresiarch
 			}
-			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
 			song_dynasty_futou_trigger = yes
-		}
-		modifier = {
-			factor = 0
-			has_landed_title = e_china_west_governor # Uses martial clothing instead
 		}
 	}
 	
@@ -1309,7 +1246,6 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				NOT = { religion = orthodox }
 				is_or_was_offmap_power_ruler = yes
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -1807,8 +1743,6 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
 				culture = manden
 				culture_group = east_african
 			}
@@ -1845,8 +1779,6 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
 				culture = manden
 				culture_group = east_african
 			}
@@ -1977,10 +1909,6 @@
 				culture = maghreb_arabic
 			}
 			NOT = { has_character_modifier = golden_mask }
-		}
-		modifier = {
-			factor = 5
-			has_landed_title = k_papal_state
 		}
 		modifier = {
 			factor = 1000
@@ -2142,13 +2070,6 @@
 				has_character_modifier = glass_eye
 			}
 		}
-		modifier = {
-			factor = 2
-			OR = {
-				religion = tengri_pagan
-				religion = tengri_pagan_reformed
-			}
-		}
 	}
 	
 	7 = { # eyepatch 7 - green rag
@@ -2211,13 +2132,7 @@
 		factor = 3
 		modifier = {
 			factor = 0
-			OR = {
-				NAND = {
-					trait = one_eyed
-					culture_group = celtic
-				}
-				has_character_modifier = glass_eye
-			}
+			has_character_modifier = glass_eye
 		}
 	}
 	

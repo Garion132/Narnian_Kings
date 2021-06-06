@@ -83,19 +83,6 @@ saintly_bloodline_catholic_04 = {
 	}
 }
 
-saintly_bloodline_catholic_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { saintly_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_cross_1
-	active = {
-		religion_group = christian
-	}
-}
-
 saintly_bloodline_catholic_06 = {
 	saintly_theologians_bloodline = 1
 	monthly_character_piety = 0.2
@@ -115,20 +102,6 @@ saintly_bloodline_catholic_06 = {
 	}
 }
 
-##Impious Saint
-
-saintly_bloodline_07 = {
-	monthly_character_prestige = 1
-	monthly_character_piety = -0.1
-	christian_church_opinion = -5
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { saintly_bloodline wicked_saint }
-	picture = GFX_bloodlines_symbol_cross_wicked
-	active = {
-		religion_group = christian
-	}
-}
 
 # Orthodox
 
@@ -212,19 +185,6 @@ saintly_bloodline_orthodox_04 = {
 				}
 			}
 		}
-	}
-}
-
-saintly_bloodline_orthodox_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { saintly_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_cross_orthodox
-	active = {
-		religion_group = christian
 	}
 }
 
@@ -331,20 +291,6 @@ saintly_bloodline_coptic_04 = {
 		}
 	}
 }
-
-saintly_bloodline_coptic_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { saintly_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_cross_miaphysite
-	active = {
-		religion_group = christian
-	}
-}
-
 saintly_bloodline_coptic_06 = {
 	saintly_theologians_bloodline = 1
 	monthly_character_piety = 0.2
@@ -449,19 +395,6 @@ saintly_bloodline_nestorian_04 = {
 	}
 }
 
-saintly_bloodline_nestorian_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { saintly_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_cross_nestorian
-	active = {
-		religion_group = christian
-	}
-}
-
 saintly_bloodline_nestorian_06 = {
 	saintly_theologians_bloodline = 1
 	monthly_character_piety = 0.2
@@ -548,19 +481,6 @@ saintly_bloodline_germanic_04 = {
 	}
 }
 
-saintly_bloodline_germanic_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_norse
-	active = {
-		religion_group = christian
-	}
-}
-
 saintly_bloodline_germanic_06 = {
 	saintly_theologians_bloodline = 1
 	monthly_character_piety = 0.2
@@ -640,19 +560,6 @@ saintly_bloodline_romuva_04 = {
 				}
 			}
 		}
-	}
-}
-
-saintly_bloodline_romuva_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_romuva_tree
-	active = {
-		religion_group = christian
 	}
 }
 
@@ -738,19 +645,6 @@ saintly_bloodline_slavic_04 = {
 	}
 }
 
-saintly_bloodline_slavic_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_slavic_arrow
-	active = {
-		religion_group = christian
-	}
-}
-
 saintly_bloodline_slavic_06 = {
 	saintly_theologians_bloodline = 1
 	monthly_character_piety = 0.2
@@ -830,19 +724,6 @@ saintly_bloodline_tengri_04 = {
 				}
 			}
 		}
-	}
-}
-
-saintly_bloodline_tengri_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_tengri_eagle
-	active = {
-		religion_group = christian
 	}
 }
 
@@ -928,19 +809,6 @@ saintly_bloodline_suomenusko_04 = {
 	}
 }
 
-saintly_bloodline_suomenusko_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_finnish_bearpaw
-	active = {
-		religion_group = christian
-	}
-}
-
 saintly_bloodline_suomenusko_06 = {
 	saintly_theologians_bloodline = 1
 	monthly_character_piety = 0.2
@@ -1020,19 +888,6 @@ saintly_bloodline_aztec_04 = {
 				}
 			}
 		}
-	}
-}
-
-saintly_bloodline_aztec_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_bloodthirsty
-	active = {
-		religion_group = christian
 	}
 }
 
@@ -1118,19 +973,6 @@ saintly_bloodline_african_04 = {
 	}
 }
 
-saintly_bloodline_african_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_african_waves
-	active = {
-		religion_group = christian
-	}
-}
-
 saintly_bloodline_african_06 = {
 	saintly_theologians_bloodline = 1
 	monthly_character_piety = 0.2
@@ -1210,19 +1052,6 @@ saintly_bloodline_zun_04 = {
 				}
 			}
 		}
-	}
-}
-
-saintly_bloodline_zun_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_zun_sun
-	active = {
-		religion_group = christian
 	}
 }
 
@@ -1328,19 +1157,6 @@ saintly_bloodline_hellenic_04 = {
 	}
 }
 
-saintly_bloodline_hellenic_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_stoics
-	active = {
-		religion_group = christian
-	}
-}
-
 saintly_bloodline_hellenic_06 = {
 	saintly_theologians_bloodline = 1
 	monthly_character_piety = 0.2
@@ -1420,19 +1236,6 @@ saintly_bloodline_bon_04 = {
 				}
 			}
 		}
-	}
-}
-
-saintly_bloodline_bon_05 = {
-	monthly_character_piety = 0.2
-	jewish_group_opinion = 15
-	saintly_jewish_bloodline = 1
-	inheritance = patrilineal
-	allow_bastards = no
-	flags = { ancestor_worship_bloodline jewish_saintly_bloodline }
-	picture = GFX_bloodlines_symbol_bon_candle
-	active = {
-		religion_group = christian
 	}
 }
 

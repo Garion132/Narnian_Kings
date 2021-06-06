@@ -3,7 +3,7 @@ character_event = {#a holocaust fleer
 	id = nar_EXT.1
 	title = "EVTNAMEnar_EXT.1"
 	desc = "EVTDESCnar_EXT.1"
-	#picture = GFX_evt_refugees
+	picture = GFX_evt_refugees
 	border = GFX_event_narrative_frame_war
 
 	trigger={

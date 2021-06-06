@@ -1,6 +1,6 @@
 son_of_adam = {
 	combat_rating = 8
-	aslan_opinion = 5
+	#aslan_opinion = 5
 	monthly_character_prestige = 0.2
 	vassal_opinion = 25
 	allow_bastards = yes
@@ -44,7 +44,7 @@ line_of_erinin = {
 line_of_bondil = {
 	picture = GFX_bloodlines_symbol_benevolent
 	combat_rating = 10
-	heath = 2
+	health = 2
 	allow_bastards = yes
 	inheritance = patrilineal
 	flags = { historical_bloodline }

@@ -34,6 +34,12 @@ succession_laws = {
 				is_tribal_type_title = yes
 				temporary = yes
 			}
+			NOT={
+				OR={
+					title = e_dylis_tiral
+					title = c_old_dylis
+				}
+			}
 			
 			rebel = no
 			
@@ -101,6 +107,12 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
+			NOT={
+				OR={
+					title = e_dylis_tiral
+					title = c_old_dylis
+				}
+			}
 			holder_scope = {
 				is_nomadic = no
 				OR = {
@@ -228,6 +240,12 @@ succession_laws = {
 				is_tribal_type_title = yes
 				temporary = yes
 			}
+			NOT={
+				OR={
+					title = e_dylis_tiral
+					title = c_old_dylis
+				}
+			}
 			
 			rebel = no
 			
@@ -314,6 +332,12 @@ succession_laws = {
 							is_vice_royalty = yes
 						}
 					}
+				}
+			}
+			NOT={
+				OR={
+					title = e_dylis_tiral
+					title = c_old_dylis
 				}
 			}
 			OR = {
@@ -437,6 +461,12 @@ succession_laws = {
 			holder_scope = {
 				is_merchant_republic = no
 				is_patrician = no
+			}
+			NOT={
+				OR={
+					title = e_dylis_tiral
+					title = c_old_dylis
+				}
 			}
 			OR = {
 				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
@@ -714,28 +744,37 @@ succession_laws = {
 		}			
 	}
 	
-	# succ_dylis = {
-		# oldest_child_opinion = -10
-		# child_opinion = -5
-		# dynasty_opinion = 15
-		# vassal_opinion = 10
-		# vassal_limit = 5
-		# potential = {
-			# has_landed_title = e_dylis_tiral
-		# }
-		# allow = {
-			# has_landed_title = e_dylis_tiral
-		# }
-		# effect = {
-			# succession = {
-				# base_type = tanistry
-				# voting_rules = dylis_tanistry
-			# }
-		# }
-		# revoke_allowed = {
-			# always = no
-		# }			
-	# }
+	succ_dylis = {
+		oldest_child_opinion = -10
+		child_opinion = -5
+		dynasty_opinion = 15
+		vassal_opinion = 10
+		vassal_limit = 5
+		potential = {
+			OR={
+				title = e_dylis_tiral
+				title = c_old_dylis
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = dylis_tanistry
+			}
+			elective_voting_rules = dylis_tanistry
+		}
+		revoke_allowed = {
+			always = no
+		}			
+	}
 	
 	succ_byzantine_elective = {
 		oldest_child_opinion = -5
@@ -765,6 +804,12 @@ succession_laws = {
 		dynasty_opinion = 5
 		vassal_opinion = 5
 		potential = {
+			NOT={
+				OR={
+					title = e_dylis_tiral
+					title = c_old_dylis
+				}
+			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -865,6 +910,12 @@ succession_laws = {
 		child_opinion = -10
 		dynasty_opinion = -5
 		potential = {
+			NOT={
+				OR={
+					title = e_dylis_tiral
+					title = c_old_dylis
+				}
+			}
 			holder_scope = {
 				OR = {
 					independent = yes

@@ -372,6 +372,10 @@
 	name="Ralian"
 	religion = "celtic"
 }
+94={
+	name="Karrium"
+	religion = "celtic"
+}
 95={
 	name="Von Stattan"
 	religion = "aryan"
@@ -1070,6 +1074,10 @@
 }
 560={
 	name="el Cazorro"
+	used_for_random=no
+}
+561={
+	name="Terrsin"
 	used_for_random=no
 }
 1000={

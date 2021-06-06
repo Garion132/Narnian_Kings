@@ -2738,38 +2738,6 @@ dylis_tanistry = {
 				}
 			}
 		}
-		additive_modifier = { #Praised for being baptized by Bishop
-			value = 5
-			localisation_key = tooltip_feudal_elector_vote_baptized_by_bishop
-			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = christian
-			FROM = { 
-				trait = baptized_by_bishop
-			}
-		}
-		additive_modifier = { #Praised for being baptized by Pope
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_baptized_by_pope
-			NOT = { character = FROM } #Do not judge yourself.
-			OR = { 
-				religion = catholic 
-				religion = fraticelli
-			} 
-			religion = FROM
-			FROM = { 
-				trait = baptized_by_pope
-			}
-		}
-		additive_modifier = { #Praised for being baptized by Patriarch
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_baptized_by_patriarch
-			NOT = { character = FROM } #Do not judge yourself.
-			religion = orthodox
-			religion = FROM
-			FROM = { 
-				trait = baptized_by_patriarch
-			}
-		}
 		additive_modifier = { #Shunned for being of opposite pagan branch.
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_pagan_branch_negative
@@ -3188,7 +3156,6 @@ dylis_tanistry = {
 	
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = {
-		dynasty = 100
 		NOT = { character = FROM } #Not the current ruler.
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			OR = { 
@@ -3236,6 +3203,7 @@ dylis_tanistry = {
 			}
 		}
 		FROM = {
+			dynasty = 100
 			OR = { #Candidate should not be a landless Courtier that is about to inherit a Theocracy or Republic
 				AND = {
 					is_ruler = yes

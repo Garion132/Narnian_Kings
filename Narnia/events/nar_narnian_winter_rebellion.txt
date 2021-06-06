@@ -201,6 +201,7 @@ character_event = { #The White Stag
 narrative_event = { #The White Stag part two
 	id = winter_reb.11
 	desc = "EVTDESCwinter_reb11"
+	title = "EVTTITLE_winter_reb11"
 	
 	is_triggered_only = yes
 	
@@ -266,6 +267,7 @@ narrative_event = { #The White Stag part two
 narrative_event = { #The White Stag part three
 	id = winter_reb.12
 	desc = "EVTDESCwinter_reb12"
+	title = "EVTTITLE_winter_reb12"
 	
 	is_triggered_only = yes
 	
@@ -383,6 +385,7 @@ narrative_event = { #world is notified of corin's acceptance
 narrative_event = { #The White Stag loop
 	id = winter_reb.16
 	desc = "EVTDESCwinter_reb16"
+	title = "EVTTITLE_winter_reb16"
 	
 	is_triggered_only = yes
 	
@@ -403,6 +406,7 @@ narrative_event = { #The White Stag loop
 narrative_event = { #The White Stag loop
 	id = winter_reb.17
 	desc = "EVTDESCwinter_reb17"
+	title = "EVTTITLE_winter_reb17"
 	
 	is_triggered_only = yes
 	

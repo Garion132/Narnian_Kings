@@ -34,22 +34,23 @@ decisions = {
 			factor = 0.1
 			
 			modifier = {
+				factor = 2
 				e_mellounia = {
 					holder = {
 						ROOT = {opinion = { who = PREV value = 25 }}
 					}
 				}	
-				factor = 2
 			}
 			modifier = {
+				factor = 5
 				e_mellounia = {
 					holder = {
 						holds_favor_on = ROOT
 					}
 				}	
-				factor = 5
 			}
 			modifier = {
+				factor = 1
 				e_mellounia = {
 					holder = {
 						ROOT = {
@@ -57,27 +58,24 @@ decisions = {
 						}
 					}
 				}	
-				factor = 1
 			}
 			modifier = {
+				factor = 1
 				e_mellounia = {
 					holder = {
 						ROOT = {
 							religion_group = PREV
 						}
 					}
-				}	
-				factor = 1
+				}
 			}
 			modifier = {
-				religion = pamyatrossii
-				
 				factor = 0.5
+				religion = pamyatrossii
 			}
 			modifier = {
-				trait = craven
-				
 				factor = 1.1
+				trait = craven
 			}
 		}
 	}

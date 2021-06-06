@@ -634,13 +634,5 @@ HORDE_RETTYPE_DESERT = {
 		capital_scope = {
 			terrain = desert
 		}
-		NOT = { has_character_modifier = invading_population_halt } # This stops the Mongol Empire from spending all their money on super-expensive retinues
-	}
-	
-	modifier = {
-		light_cavalry_offensive = 0.25
-		light_cavalry_defensive = 0.5
-		camel_cavalry_offensive = 0.25
-		camel_cavalry_defensive = 0.5
 	}
 }
