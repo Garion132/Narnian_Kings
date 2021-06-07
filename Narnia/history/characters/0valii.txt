@@ -1,110 +1,110 @@
 105001={
-name = "Varle" #The Great
-dynasty = 1015
-religion = "viirenscari"
-culture = "valii"
-#father = 80600
-#mother = 80201
-wealth = 300
-stewardship = 8
-martial = 9
-diplomacy = 7
-add_trait="quick"
-add_trait="valuia_dynasty"
-823.8.17={birth=yes}
-1001.6.1={death=yes}
+	name = "Varle" #The Great
+	dynasty = 1015
+	religion = "viirenscari"
+	culture = "valii"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	stewardship = 8
+	martial = 9
+	diplomacy = 7
+	add_trait="quick"
+	add_trait="valuia_dynasty"
+	823.8.17={birth=yes}
+	1001.6.1={death=yes}
 }
 105002={
-name = "Tarine" #The Lax
-dynasty = 1015
-religion = "viirenscari"
-culture = "valii"
-father = 105001
-#mother = 80201
-wealth = 300
-diplomacy = 2
-stewardship = 3
-add_trait="valuia_dynasty"
-939.3.27={birth=yes}
-1103.9.13={death=yes}
+	name = "Tarine" #The Lax
+	dynasty = 1015
+	religion = "viirenscari"
+	culture = "valii"
+	father = 105001
+	#mother = 80201
+	wealth = 300
+	diplomacy = 2
+	stewardship = 3
+	add_trait="valuia_dynasty"
+	939.3.27={birth=yes}
+	1103.9.13={death=yes}
 }
 105003={
 name="San'sae"
-dynasty=1015
-dna="kipmibjhlkm"
-culture=valii
-religion=viirenscari
-martial=0
-diplomacy=4
-stewardship=2
-intrigue=4
-learning=4
-father = 105001
-trait="fortune_builder"
-trait="zealous"
-875.1.1={birth=yes}
-891.10.31 = {add_spouse=105004}
-1004.1.20={death=yes} add_trait="valuia_dynasty"
+	dynasty=1015
+	dna="kipmibjhlkm"
+	culture=valii
+	religion=viirenscari
+	martial=0
+	diplomacy=4
+	stewardship=2
+	intrigue=4
+	learning=4
+	father = 105001
+	trait="fortune_builder"
+	trait="zealous"
+	875.1.1={birth=yes}
+	891.10.31 = {add_spouse=105004}
+	1004.1.20={death=yes} add_trait="valuia_dynasty"
 }
 105004={
-name="Ilenopa"
-female=yes
-dynasty=511
-dna="apembccbnjp"
-culture=valii
-religion=viirenscari
-martial=6
-diplomacy=3
-stewardship=2
-intrigue=4
-learning=8
-trait="skilled_tactician"
-trait="cynical"
-father = 106367
-875.6.28={birth=yes}
-891.10.31 = {add_spouse=105003}
-986.2.8={death=yes} 
-add_trait="valuia_dynasty"
+	name="Ilenopa"
+	female=yes
+	dynasty=511
+	dna="apembccbnjp"
+	culture=valii
+	religion=viirenscari
+	martial=6
+	diplomacy=3
+	stewardship=2
+	intrigue=4
+	learning=8
+	trait="skilled_tactician"
+	trait="cynical"
+	father = 106367
+	875.6.28={birth=yes}
+	891.10.31 = {add_spouse=105003}
+	986.2.8={death=yes} 
+	add_trait="valuia_dynasty"
 }
 105005={
-name="Parven"
-dynasty=1015
-dna="kpemibdbnkp"
-culture=valii
-religion=viirenscari
-martial=5
-diplomacy=1
-stewardship=3
-intrigue=5
-learning=2
-trait="indulgent_wastrel"
-trait="cynical"
-trait="cruel"
-trait="proud"
-trait="patient"
-father=105003
-mother=105004
-894.7.21={birth=yes}
-916.5.20 = {add_spouse=105011}
-1021.10.4={death=yes} add_trait="valuia_dynasty"
+	name="Parven"
+	dynasty=1015
+	dna="kpemibdbnkp"
+	culture=valii
+	religion=viirenscari
+	martial=5
+	diplomacy=1
+	stewardship=3
+	intrigue=5
+	learning=2
+	trait="indulgent_wastrel"
+	trait="cynical"
+	trait="cruel"
+	trait="proud"
+	trait="patient"
+	father=105003
+	mother=105004
+	894.7.21={birth=yes}
+	916.5.20 = {add_spouse=105011}
+	1021.10.4={death=yes} add_trait="valuia_dynasty"
 }
 105006={
-name="Enayi"
-female=yes
-dynasty=1015
-dna="kiemhcjbnjp"
-culture=valii
-religion=viirenscari
-martial=2
-diplomacy=5
-stewardship=5
-intrigue=4
-learning=1
-trait="fortune_builder"
-father=105003
-mother=105004
-896.1.28={birth=yes}
-1024.5.24={death=yes} add_trait="valuia_dynasty"
+	name="Enayi"
+	female=yes
+	dynasty=1015
+	dna="kiemhcjbnjp"
+	culture=valii
+	religion=viirenscari
+	martial=2
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=1
+	trait="fortune_builder"
+	father=105003
+	mother=105004
+	896.1.28={birth=yes}
+	1024.5.24={death=yes} add_trait="valuia_dynasty"
 }
 105007={
 name="Senus"
@@ -10563,191 +10563,191 @@ mother=105504
 }
 
 105509={
-name="San'sae"
-dynasty=513
-dna="abgiejilefa"
-culture=valii
-religion=viirenscari
-martial=3
-diplomacy=0
-stewardship=2
-intrigue=5
-learning=4
-trait="underhanded_rogue"
-875.1.1={birth=yes}
-895.10.19 = {add_spouse=105510}
-973.4.18={death=yes} add_trait="valuia_dynasty"
+	name="San'sae"
+	dynasty=513
+	dna="abgiejilefa"
+	culture=valii
+	religion=viirenscari
+	martial=3
+	diplomacy=0
+	stewardship=2
+	intrigue=5
+	learning=4
+	trait="underhanded_rogue"
+	875.1.1={birth=yes}
+	895.10.19 = {add_spouse=105510}
+	973.4.18={death=yes} add_trait="valuia_dynasty"
 }
 
 105510={
-name="Avene"
-female=yes
-#dynasty=640
-dna="pjkfngkmppj"
-culture=valii
-religion=viirenscari
-martial=4
-diplomacy=6
-stewardship=5
-intrigue=4
-learning=2
-trait="thrifty_clerk"
-trait="stressed"
-879.6.3={birth=yes}
-895.10.19 = {add_spouse=105509}
-1036.1.21={death=yes} add_trait="valuia_dynasty"
+	name="Avene"
+	female=yes
+	#dynasty=640
+	dna="pjkfngkmppj"
+	culture=valii
+	religion=viirenscari
+	martial=4
+	diplomacy=6
+	stewardship=5
+	intrigue=4
+	learning=2
+	trait="thrifty_clerk"
+	trait="stressed"
+	879.6.3={birth=yes}
+	895.10.19 = {add_spouse=105509}
+	1036.1.21={death=yes} add_trait="valuia_dynasty"
 }
 
 105511={
-name="Enayi"
-female=yes
-dynasty=513
-dna="abkfejhmifa"
-culture=valii
-religion=viirenscari
-martial=4
-diplomacy=5
-stewardship=3
-intrigue=1
-learning=3
-trait="brilliant_strategist"
-trait="trusting"
-trait="envious"
-father=105509
-mother=105510
-898.1.18={birth=yes}
-1028.12.23={death=yes} add_trait="valuia_dynasty"
+	name="Enayi"
+	female=yes
+	dynasty=513
+	dna="abkfejhmifa"
+	culture=valii
+	religion=viirenscari
+	martial=4
+	diplomacy=5
+	stewardship=3
+	intrigue=1
+	learning=3
+	trait="brilliant_strategist"
+	trait="trusting"
+	trait="envious"
+	father=105509
+	mother=105510
+	898.1.18={birth=yes}
+	1028.12.23={death=yes} add_trait="valuia_dynasty"
 }
 
 105512={
-name="E'lire"
-dynasty=513
-dna="pjgfnogmppj"
-culture=valii
-religion=viirenscari
-martial=7
-diplomacy=6
-stewardship=5
-intrigue=6
-learning=4
-trait="intricate_webweaver"
-trait="proud"
-trait="gluttonous"
-trait="craven"
-trait="deceitful"
-father=105509
-mother=105510
-901.6.14={birth=yes}
-922.12.20 = {add_spouse=105516}
-1049.2.21={death=yes} add_trait="valuia_dynasty"
+	name="E'lire"
+	dynasty=513
+	dna="pjgfnogmppj"
+	culture=valii
+	religion=viirenscari
+	martial=7
+	diplomacy=6
+	stewardship=5
+	intrigue=6
+	learning=4
+	trait="intricate_webweaver"
+	trait="proud"
+	trait="gluttonous"
+	trait="craven"
+	trait="deceitful"
+	father=105509
+	mother=105510
+	901.6.14={birth=yes}
+	922.12.20 = {add_spouse=105516}
+	1049.2.21={death=yes} add_trait="valuia_dynasty"
 }
 
 105513={
-name="Enawe"
-female=yes
-dynasty=513
-dna="bbafegimpfj"
-culture=valii
-religion=viirenscari
-martial=3
-diplomacy=2
-stewardship=3
-intrigue=5
-learning=3
-trait="intricate_webweaver"
-trait="celibate"
-trait="just"
-father=105509
-mother=105510
-906.2.11={birth=yes}
-965.9.5={death=yes} add_trait="valuia_dynasty"
+	name="Enawe"
+	female=yes
+	dynasty=513
+	dna="bbafegimpfj"
+	culture=valii
+	religion=viirenscari
+	martial=3
+	diplomacy=2
+	stewardship=3
+	intrigue=5
+	learning=3
+	trait="intricate_webweaver"
+	trait="celibate"
+	trait="just"
+	father=105509
+	mother=105510
+	906.2.11={birth=yes}
+	965.9.5={death=yes} add_trait="valuia_dynasty"
 }
 
 105514={
-name="Virne"
-female=yes
-dynasty=513
-dna="abgfngimpgj"
-culture=valii
-religion=viirenscari
-martial=3
-diplomacy=7
-stewardship=3
-intrigue=2
-learning=3
-trait="underhanded_rogue"
-trait="charitable"
-trait="kind"
-trait="gregarious"
-father=105509
-mother=105510
-910.8.17={birth=yes}
-1045.8.10={death=yes} add_trait="valuia_dynasty"
+	name="Virne"
+	female=yes
+	dynasty=513
+	dna="abgfngimpgj"
+	culture=valii
+	religion=viirenscari
+	martial=3
+	diplomacy=7
+	stewardship=3
+	intrigue=2
+	learning=3
+	trait="underhanded_rogue"
+	trait="charitable"
+	trait="kind"
+	trait="gregarious"
+	father=105509
+	mother=105510
+	910.8.17={birth=yes}
+	1045.8.10={death=yes} add_trait="valuia_dynasty"
 }
 
 105515={
-name="Alyia"
-female=yes
-dynasty=513
-dna="pbkinjimepa"
-culture=valii
-religion=viirenscari
-martial=6
-diplomacy=6
-stewardship=4
-intrigue=4
-learning=1
-trait="tough_soldier"
-trait="zealous"
-trait="honest"
-trait="shy"
-trait="shy"
-father=105509
-mother=105510
-912.11.1={birth=yes}
-1018.3.26={death=yes} add_trait="valuia_dynasty"
+	name="Alyia"
+	female=yes
+	dynasty=513
+	dna="pbkinjimepa"
+	culture=valii
+	religion=viirenscari
+	martial=6
+	diplomacy=6
+	stewardship=4
+	intrigue=4
+	learning=1
+	trait="tough_soldier"
+	trait="zealous"
+	trait="honest"
+	trait="shy"
+	trait="shy"
+	father=105509
+	mother=105510
+	912.11.1={birth=yes}
+	1018.3.26={death=yes} add_trait="valuia_dynasty"
 }
 
 105516={
-name="Avene"
-female=yes
-#dynasty=641
-dna="oehppepeinm"
-culture=valii
-religion=viirenscari
-martial=7
-diplomacy=4
-stewardship=7
-intrigue=5
-learning=3
-trait="misguided_warrior"
-trait="brave"
-trait="charitable"
-906.2.27={birth=yes}
-922.12.20 = {add_spouse=105512}
-1042.1.31={death=yes} add_trait="valuia_dynasty"
+	name="Avene"
+	female=yes
+	#dynasty=641
+	dna="oehppepeinm"
+	culture=valii
+	religion=viirenscari
+	martial=7
+	diplomacy=4
+	stewardship=7
+	intrigue=5
+	learning=3
+	trait="misguided_warrior"
+	trait="brave"
+	trait="charitable"
+	906.2.27={birth=yes}
+	922.12.20 = {add_spouse=105512}
+	1042.1.31={death=yes} add_trait="valuia_dynasty"
 }
 
 105517={
-name="Charnae"
-female=yes
-dynasty=513
-dna="pehpnopeppj"
-culture=valii
-religion=viirenscari
-martial=3
-diplomacy=3
-stewardship=5
-intrigue=3
-learning=4
-trait="naive_appeaser"
-trait="gregarious"
-trait="zealous"
-trait="content"
-father=105512
-mother=105516
-925.9.2={birth=yes}
-1055.7.1={death=yes} add_trait="valuia_dynasty"
+	name="Charnae"
+	female=yes
+	dynasty=513
+	dna="pehpnopeppj"
+	culture=valii
+	religion=viirenscari
+	martial=3
+	diplomacy=3
+	stewardship=5
+	intrigue=3
+	learning=4
+	trait="naive_appeaser"
+	trait="gregarious"
+	trait="zealous"
+	trait="content"
+	father=105512
+	mother=105516
+	925.9.2={birth=yes}
+	1055.7.1={death=yes} add_trait="valuia_dynasty"
 }
 
 105518={
@@ -28507,71 +28507,71 @@ mother=106359
 }
 
 106366={
-name="Varle"
-dynasty=518
-dna="dimefhlbhcc"
-culture=valii
-religion=viirenscari
-martial=7
-diplomacy=4
-stewardship=5
-intrigue=4
-learning=5
-trait="brilliant_strategist"
-trait="cruel"
-trait="diligent"
-trait="honest"
-trait="craven"
-father=106362
-mother=106359
-1867.7.25={birth=yes}
-1988.8.31={death=yes} add_trait="valuia_dynasty"
+	name="Varle"
+	dynasty=518
+	dna="dimefhlbhcc"
+	culture=valii
+	religion=viirenscari
+	martial=7
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=5
+	trait="brilliant_strategist"
+	trait="cruel"
+	trait="diligent"
+	trait="honest"
+	trait="craven"
+	father=106362
+	mother=106359
+	1867.7.25={birth=yes}
+	1988.8.31={death=yes} add_trait="valuia_dynasty"
 }
 
 106367={
-name="Ilen"
-#female=yes
-dynasty=511
-#dna="apembccbnjp"
-culture=valii
-religion=viirenscari
-martial=12
-diplomacy=7
-stewardship=5
-intrigue=3
-learning=12
-father = 106368
-trait="skilled_tactician"
-trait="cynical"
-789.3.14={birth=yes}
-#891.10.31 = {add_spouse=105003}
-956.2.14={death=yes} 
-add_trait="valuia_dynasty"
+	name="Ilen"
+	#female=yes
+	dynasty=511
+	#dna="apembccbnjp"
+	culture=valii
+	religion=viirenscari
+	martial=12
+	diplomacy=7
+	stewardship=5
+	intrigue=3
+	learning=12
+	father = 106368
+	trait="skilled_tactician"
+	trait="cynical"
+	789.3.14={birth=yes}
+	#891.10.31 = {add_spouse=105003}
+	956.2.14={death=yes} 
+	add_trait="valuia_dynasty"
 }
 106368={
-name="Ilen"
-#female=yes
-dynasty=511
-#dna="apembccbnjp"
-culture=valii
-religion=viirenscari
-father = 106369
-732.8.9={birth=yes}
-#891.10.31 = {add_spouse=105003}
-867.8.14={death=yes} 
-add_trait="valuia_dynasty"
+	name="Ilen"
+	#female=yes
+	dynasty=511
+	#dna="apembccbnjp"
+	culture=valii
+	religion=viirenscari
+	father = 106369
+	732.8.9={birth=yes}
+	#891.10.31 = {add_spouse=105003}
+	867.8.14={death=yes} 
+	add_trait="valuia_dynasty"
 }
 106369={
-name="Ilen"#the founder
-#female=yes
-dynasty=511
-#dna="apembccbnjp"
-culture=valii
-religion=viirenscari
-687.4.3={birth=yes}
-#891.10.31 = {add_spouse=105003}
-814.3.7={death=yes} 
-add_trait="valuia_dynasty"
+	name="Ilen"#the founder
+	#female=yes
+	dynasty=511
+	#dna="apembccbnjp"
+	culture=valii
+	religion=viirenscari
+	687.4.3={birth=yes}
+	#891.10.31 = {add_spouse=105003}
+	814.3.7={death=yes} 
+	add_trait="valuia_dynasty"
 }
 
 106370={
@@ -31638,11 +31638,36 @@ mother=106511
 2220.1.18={death=yes} add_trait="valuia_dynasty"
 }
 106517={
-name="Everlan"
-dynasty=513
-culture=valii
-religion=viirenscari
-851.1.1={birth=yes}
-908.7.18={death=yes} 
-add_trait="valuia_dynasty"
+	name="Everlan"
+	dynasty=513
+	culture=valii
+	religion=viirenscari
+	851.1.1={birth=yes}
+	908.7.18={death=yes} 
+	add_trait="valuia_dynasty"
+}
+106518={
+	name="Elvine"
+	female=yes
+	dynasty=511
+	culture=valii
+	religion=viirenscari
+	trait="lustful"
+	father = 106367
+	853.6.28={birth=yes}
+	891.2.14 = {add_spouse=112605}
+	989.2.8={death=yes} 
+	add_trait="valuia_dynasty"
+}
+106519={
+	name="Sanrie"
+	female=yes
+	dynasty=511
+	culture=valii
+	religion=viirenscari
+	trait="craven"
+	father = 106367
+	861.5.17={birth=yes}
+	978.4.30={death=yes} 
+	add_trait="valuia_dynasty"
 }

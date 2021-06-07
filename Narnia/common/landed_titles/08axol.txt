@@ -297,6 +297,7 @@ e_axoleca = {
 					holy_site = tarutarin
 					holy_site = eline
 					holy_site = eloia
+					holy_site = dragon_worship
 				}
 			}
 			c_tanltican = {
@@ -1391,6 +1392,9 @@ e_eslia = {
 				color2={ 255 255 255 }
 				
 				b_bluevine = {
+				}
+				b_bluevine_temple = {
+					holy_site = eloia
 				}
 			}
 			c_lirgurn = {

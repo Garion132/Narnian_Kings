@@ -1454,3 +1454,6 @@
 1071={
 	name="Tyuosugi"
 }
+1072={
+	name="Tolnain"
+}

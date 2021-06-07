@@ -1510,3 +1510,10 @@ d_tyalia = {
 	
 	capital = 794 # Tyalio
 }
+
+d_azem = {
+	color={ 29 103 79 }
+	color2={ 255 255 255 }
+			
+	capital = 680 # Azem
+}

@@ -3676,6 +3676,7 @@ e_yuhniochi = {
 				b_ugisua ={}
 				b_ana={
 					holy_site = shinoi
+					holy_site = purakau_ao_kohatu
 				}
 				b_tyurana={}
 			}

@@ -12,7 +12,7 @@ b_mellounia_outer_fortress = castle
 b_tarven_halls = city
 b_coltsfell = city
 b_urean = city
-#b_melloain_minor = castle
+b_melloain_minor = castle
 
 # Misc
 culture = mellounian

@@ -776,3 +776,208 @@
 		death=yes
 	}
 }
+
+112600 = {
+	name = "Aemilian" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	#father = 80600
+	#mother = 80201
+	wealth = 300
+	738.11.14={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	813.7.26={
+		death=yes
+	}
+}
+112601 = {
+	name = "Aemilian" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112600
+	#mother = 80201
+	wealth = 300
+	761.3.8={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	831.1.2={
+		death=yes
+	}
+}
+112602 = {
+	name = "Romanus" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112601
+	#mother = 80201
+	wealth = 300
+	790.3.6={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	849.12.30={
+		death=yes
+	}
+}
+112603 = {
+	name = "Aemilian" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112602
+	#mother = 80201
+	wealth = 300
+	814.7.19={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	872.5.27={
+		death=yes
+	}
+}
+112604 = {
+	name = "Aemilian" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112603
+	#mother = 80201
+	wealth = 300
+	838.9.30={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	910.4.29={
+		death=yes
+	}
+}
+112605 = {
+	name = "Aemilian" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112604
+	#mother = 80201
+	wealth = 300
+	867.4.28={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	934.11.6={
+		death=yes
+	}
+}
+112606 = {
+	name = "Aemilian" #long lived
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112605
+	mother = 106518
+	wealth = 300
+	health = 9.4
+	add_trait = valuia_dynasty_minor
+	891.6.17={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	1003.4.17={
+		death=yes
+	}
+}
+112607 = {
+	name = "Leontim" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112606
+	#mother = 80201
+	wealth = 300
+	health = 8.7
+	924.6.14={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	978.3.18={
+		death=yes
+	}
+}
+112608 = {
+	name = "Galli" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112607
+	#mother = 80201
+	wealth = 300
+	health = 8.1
+	953.7.24={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	997.11.3={
+		death=yes
+	}
+}
+112609 = {
+	name = "Clemint" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112608
+	#mother = 80201
+	wealth = 300
+	health = 7.2
+	981.6.17={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	1046.8.21={
+		death=yes
+	}
+}
+112610 = {
+	name = "Clemint" #
+	dynasty = 1072
+	religion = "viirenscari"
+	culture = "sulvarian"
+	father = 112608
+	#mother = 80201
+	wealth = 300
+	health = 7.2
+	981.6.17={
+		birth=yes
+	}
+	# 979.5.9={
+		# add_spouse = 110004
+	# }
+	1046.8.21={
+		death=yes
+	}
+}

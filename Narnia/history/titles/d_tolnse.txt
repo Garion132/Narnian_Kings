@@ -1,0 +1,33 @@
+724.2.14={
+	set_tribute_suzerain = { who = k_ilaris type = autonomous_vassal}
+}
+750.6.9={
+	liege = k_senverios
+}
+774.6.9 = {
+	holder = 112600
+}
+813.7.26 = {
+	holder = 112601
+}
+831.1.2 = {
+	holder = 112602
+}
+849.12.30 = {
+	holder = 112603
+}
+872.5.27 = {
+	holder = 112604
+}
+910.4.29 = {
+	holder = 112605
+}
+934.11.6 = {
+	holder = 112606
+}
+986.2.8 = {
+	clear_tribute_suzerain = k_ilaris
+}
+1003.4.17 = {
+	holder = 112609
+}
