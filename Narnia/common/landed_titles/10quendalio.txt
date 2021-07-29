@@ -6,11 +6,14 @@ e_cerendia = {
 	k_wensila = {
 		color={ 2 66 210 }
 		color2={ 237 28 36 }
-		#capital=514
+		
+		capital = 2371 # Daener
 
 		d_totarne = {
 			color={ 117 154 198 }
 			color2={ 255 255 255 }
+
+			capital = 2366 # Totarne
 			
 			c_orsta = {
 				color={ 170 18 202 }
@@ -37,6 +40,8 @@ e_cerendia = {
 		d_daener = {
 			color={ 2 66 210 }
 			color2={ 255 255 255 }
+
+			capital = 2371 # Daener
 			
 			c_manin = {
 				color={ 170 18 202 }
@@ -74,6 +79,8 @@ e_cerendia = {
 		d_ironfall = {
 			color={ 152 184 224 }
 			color2={ 255 255 255 }
+
+			capital = 2375 # Ironforge
 			
 			c_hanel = {
 				color={ 170 18 202 }
@@ -107,6 +114,8 @@ e_cerendia = {
 		d_jademines = {
 			color={ 124 255 112 }
 			color2={ 255 255 255 }
+
+			capital = 2384 # Jademines
 			
 			c_taerin = {
 				color={ 170 18 202 }
@@ -148,11 +157,14 @@ e_cerendia = {
 	k_chardin = {
 		color={ 100 209 207 }
 		color2={ 237 28 36 }
-		#capital=514
+
+		capital = 2391 # Ironrock Fortress
 
 		d_salina = {
 			color={ 150 208 224 }
 			color2={ 255 255 255 }
+
+			capital = 2377 # Salina
 			
 			c_wengild = {
 				color={ 170 18 202 }
@@ -179,6 +191,8 @@ e_cerendia = {
 		d_hotwater_plains = {
 			color={ 127 255 167 }
 			color2={ 255 255 255 }
+
+			capital = 2380 # Hotwater Hollow
 			
 			c_flamesfield = {
 				color={ 170 18 202 }
@@ -207,6 +221,8 @@ e_cerendia = {
 		d_gaven = {
 			color={ 34 142 131 }
 			color2={ 255 255 255 }
+
+			capital = 2388 # Gaven
 			
 			c_haldirs_haven = {
 				color={ 170 18 202 }
@@ -233,6 +249,8 @@ e_cerendia = {
 		d_cereksword = {
 			color={ 248 247 252 }
 			color2={ 255 255 255 }
+
+			capital = 2391 # Ironrock Fortress
 			
 			c_tanim = {
 				color={ 170 18 202 }

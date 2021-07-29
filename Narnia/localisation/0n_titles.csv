@@ -48,6 +48,7 @@ d_ettinsmoor;Ettinsmoor;Ettinsmoor;Ettinsmoor;;Ettinsmoor;;;;;;;;;x
 d_east_ettinsmoor;East Ettinsmoor;East Ettinsmoor;East Ettinsmoor;;East Ettinsmoor;;;;;;;;;x
 d_lone_islands;Lone Islands;Lone Islands;Lone Islands;;Lone Islands;;;;;;;;;x
 d_terebinthia;Terebinthia;Terebinthia;Terebinthia;;Terebinthia;;;;;;;;;x
+d_terebinthia_adj;Terebinthian;;;;;;;;;;;;x
 d_azimbalda;Azimbalda;Azimbalda;Azimbalda;;Azimbalda;;;;;;;;;x
 d_ogreia;Ogreia;Ogreia;Ogreia;;Ogreia;;;;;;;;;x
 d_goblinton;Goblinton;Goblinton;Goblinton;;Goblinton;;;;;;;;;x
@@ -60,6 +61,7 @@ d_narnian_dwarven_states;Narnian Dwaven States;Narnian Dwaven States;Narnian Dwa
 d_northedge;Northedge;Northedge;Northedge;;Northedge;;;;;;;;;x
 d_deepdelve;Deepdelve;Deepdelve;Deepdelve;;Deepdelve;;;;;;;;;x
 d_willoughby;Willoughby;Willoughby;Willoughby;;Willoughby;;;;;;;;;x
+d_willoughby_adj;Willoughbyian;;;;;;;;;;;x
 d_spur_of_calore;Spur Of Calore;Spur Of Calore;Spur Of Calore;;Spur Of Calore;;;;;;;;;x
 d_tashbaan;Tashbaan;Tashbaan;Tashbaan;;Tashbaan;;;;;;;;;x
 d_xerex;Xerex;Xerex;Xerex;;Xerex;;;;;;;;;x
@@ -665,12 +667,14 @@ k_calor;Calor;Calor;Calor;;Calor;;;;;;;;;x
 k_great_desert;Great Desert;Great Desert;Great Desert;;Great Desert;;;;;;;;;x
 k_harfang;Harfang;Harfang;Harfang;;Harfang;;;;;;;;;x
 k_terebinthia;Terebinthia;Terebinthia;Terebinthia;;Terebinthia;;;;;;;;;x
+k_terebinthia_adj;Terebinthian;;;;;;;;;;;;x
 k_calavar;Calavar;Calavar;Calavar;;Calavar;;;;;;;;;x
 k_rebel_narnia;Narnian Rebels;Narnian Rebels;Narnian Rebels;;Narnian Rebels;;;;;;;;;x
 k_ettinsmoor;Ettinsmoor;Ettinsmoor;Ettinsmoor;;Ettinsmoor;;;;;;;;;x
 k_aslans_country;Aslan's Country;Aslan's Country;Aslan's Country;;Aslan's Country;;;;;;;;;x
 k_ramandus_island;Ramandu's Island;Ramandu's Island;Ramandu's Island;;Ramandu's Island;;;;;;;;;x
 k_archenland;Archenland;Archenland;Archenland;;Archenland;;;;;;;;;x
+k_archenland_adj;Archenlandian;;;;;;;;;;;x
 k_narnia;Narnia;Narnia;Narnia;;Narnia;;;;;;;;;x
 k_luna;Luna;Luna;Luna;;Luna;;;;;;;;;x
 k_tirdhreach;Tirdhreach;;;;;;;;;;;;;x
@@ -801,6 +805,7 @@ k_karite;Karite;;;;;;;;;;;;;x
 k_fljont;Fljont;;;;;;;;;;;;;x
 
 e_narnia;Narnia;Narnia;Narnia;;Narnia;;;;;;;;;x
+e_narnia_adj;Narnian;;;;;;;;;;;;x
 e_sesh;Shesh;;;;;;;;;;;;;x
 e_telmar;Empire of Telmar;;;;;;;;;;;;;x
 e_calormen;Calormen Empire;Calormen Empire;Calormen Empire;;Calormen Empire;;;;;;;;;x
@@ -826,6 +831,8 @@ e_ouer;Ouer;;;;;;;;;;;;;x
 e_leuran;Leuran;;;;;;;;;;;;;x
 e_cerendia;Cerendia;;;;;;;;;;;;;x
 
+c_terebinthia;Terebinthia;;;;;;;;;;;x
+c_terebinthia_adj;Terebinthian;;;;;;;;;;;x
 b_stone_table;Stone Table;Stone Table;Stone Table;;Stone Table;;;;;;;;;x 
 b_grand_temple_on_terebinthia;Grand Temple on Terebinthia;Grand Temple on Terebinthia;Grand Temple on Terebinthia;;Grand Temple on Terebinthia;;;;;;;;;x 
 b_aslans_country;Aslans Country;Aslans Country;Aslans Country;;Aslans Country;;;;;;;;;x 
@@ -1588,6 +1595,8 @@ b_southvale;Southvale;;;;;;;;;;;;;x
 b_appledin;Appledin;;;;;;;;;;;;;x
 b_greendale;Greendale;;;;;;;;;;;;;x
 b_orangia;Orangia;;;;;;;;;;;;;x
+c_orangia;Orangia;;;;;;;;;;;x
+c_orangia_adj;Orangian;;;;;;;;;;;x
 b_terebinthia;Terebinthia;;;;;;;;;;;;;x
 b_terebinthia_city;Terebinthia City;;;;;;;;;;;;;x
 b_terebinthia_outskirts;Terebinthia Outskirts;;;;;;;;;;;;;x
