@@ -42,8 +42,25 @@
 	963.11.23={
 		birth="963.11.23"
 	}
+	987.12.28={
+		add_spouse = 90202
+	}
 	1042.5.17={
 		death="1042.5.17"
+	}
+}
+90101 = {
+	name = "Yaropolk" #
+	dynasty = 1006
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90100
+	mother = 90202
+	989.6.3={
+		birth="989.6.3"
+	}
+	1050.1.1={
+		death="1050.1.1"
 	}
 }
 90200 = {
@@ -51,7 +68,7 @@
 	dynasty = 1012
 	religion = "pamyatrossii"
 	culture = "muzhchinzmei"
-	#father = 80600
+	father = 90201
 	#mother = 80201
 	wealth = 600
 	969.6.14={
@@ -59,6 +76,53 @@
 	}
 	1042.5.17={
 		death="1042.5.17"
+	}
+}
+90201 = {
+	name = "Demid" #
+	dynasty = 1012
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90203
+	#mother = 80201
+	wealth = 600
+	947.11.18={
+		birth="947.11.18"
+	}
+	990.1.12={
+		death="990.1.12"
+	}
+}
+
+90202 = {
+	name = "Agrafena" #
+	female = yes
+	dynasty = 1012
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	father = 90201
+	#mother = 80201
+	wealth = 600
+	970.8.21={
+		birth="970.8.21"
+	}
+	1035.8.6={
+		death="1035.8.6"
+	}
+}
+90203 = {
+	name = "Vysheslav" #
+	dynasty = 1012
+	religion = "pamyatrossii"
+	culture = "muzhchinzmei"
+	#father = 80600
+	#mother = 80201
+	wealth = 600
+	908.2.21={
+		birth="908.2.21"
+	}
+	976.5.6={
+		death="976.5.6"
 	}
 }
 90300 = {
