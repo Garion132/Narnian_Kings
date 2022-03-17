@@ -24,7 +24,7 @@ k_old_telmar = {
 		color={ 171 72 2 }
 		color2={ 255 255 255 }
 		
-		capital = 803 # 
+		capital = 2429 # Telmar
 		
 		c_telmar = {
 			color={ 140 71 3 }
@@ -175,7 +175,7 @@ e_telmar = {
 			color={ 96 103 34 }
 			color2={ 255 255 255 }
 			
-			capital = 809 # 
+			capital = 811 # New Castile
 			
 			c_new_castile = {
 				color={ 173 104 33 }
@@ -343,7 +343,7 @@ e_telmar = {
 			color={ 186 123 10 }
 			color2={ 255 255 255 }
 			
-			capital = 827 # 
+			capital = 832 # Oreaina
 			
 			c_oreaina = {
 				color={ 184 117 11 }

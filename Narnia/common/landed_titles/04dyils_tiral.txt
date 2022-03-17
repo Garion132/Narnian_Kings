@@ -1563,18 +1563,22 @@ e_bay_of_the_moon = {
 	allow = {
 		culture = irish	
 	}
+
+	capital = 1076 # Lunos
 	
 	k_luna = {
 		color={ 57 16 124 }
 		color2={ 255 255 255 }
 		
 		teldesteira = "Colonia de la Luna"
+
+		capital = 1076 # Lunos
 		
 		d_lunos = {
 			color={ 57 16 124 }
 			color2={ 255 255 255 }
 			
-			capital = 1076 # 
+			capital = 1076 # Lunos
 			
 			c_lunos = {
 				color={ 57 16 124 }
@@ -1649,12 +1653,14 @@ e_bay_of_the_moon = {
 		color2={ 255 255 255 }
 		
 		teldesteira = "Colonia de Alcanz"
+
+		capital = 1082 # Fenaster
 		
 		d_fenaster = {
 			color={ 175 230 120 }
 			color2={ 255 255 255 }
 			
-			capital = 1082 # 
+			capital = 1082 # Fenaster
 			
 			c_malronh = {
 				color={ 178 230 120 }
@@ -1914,7 +1920,7 @@ e_bay_of_the_moon = {
 			color={ 171 231 142 }
 			color2={ 255 255 255 }
 			
-			capital = 1105 # 
+			capital = 1109 # Beriuo
 			
 			c_vuniough = {
 				color={ 176 231 140 }
@@ -1942,7 +1948,7 @@ e_bay_of_the_moon = {
 			color={ 182 232 142 }
 			color2={ 255 255 255 }
 			
-			capital = 1105 # 
+			capital = 1117 # Burnalis
 			
 			c_lumnash = {
 				color={ 183 231 146 }
@@ -2011,12 +2017,14 @@ e_bay_of_the_moon = {
 	k_iresa = {
 		color={ 50 124 48 }
 		color2={ 255 255 255 }
+
+		capital = 1119 # Nemain
 		
 		d_nemain = {
 			color={ 50 124 48 }
 			color2={ 255 255 255 }
 			
-			capital = 1120 # 
+			capital = 1119 # Nemain
 			
 			c_nemain = {
 				color={ 50 124 48 }
@@ -2137,7 +2145,7 @@ e_bay_of_the_moon = {
 			color={ 189 221 164 }
 			color2={ 255 255 255 }
 			
-			capital = 1105 # 
+			capital = 1113 # Finough
 			
 			c_periunih = {
 				color={ 185 223 164 }
@@ -2183,15 +2191,19 @@ e_impara = {
 	
 	dignity = 100
 
+	capital = 1148 # Impara
+
 	k_ua_pulioua = {
 		color={ 75 201 53 }
 		color2={ 255 255 255 }
+
+		capital = 1132 # Seniria
 		
 		d_seniria = {
 			color={ 75 201 53 }
 			color2={ 255 255 255 }
 			
-			capital = 1132 # 
+			capital = 1132 # Seniria
 			
 			c_seniria = {
 				color={ 76 200 60 }
@@ -2336,13 +2348,15 @@ e_impara = {
 		tangatawhetu = "Emepaera"
 		
 		dignity = 100
+
+		capital = 1148 # Impara
 		
 		d_impara = {
 		
 			color={ 50 255 184 }
 			color2={ 255 255 255 }
 			
-			capital = 1148 # 
+			capital = 1148 # Impara
 			
 			c_impara = {
 				color={ 50 255 184 }
@@ -2371,7 +2385,7 @@ e_impara = {
 			color={ 60 248 176 }
 			color2={ 255 255 255 }
 			
-			capital = 1148 # 
+			capital = 1152 # Ventarought
 			
 			c_sentalios = {
 				color={ 48 230 189 }
@@ -2612,10 +2626,14 @@ e_impara = {
 		
 		kingiongaiwi = "Kerihana"
 		tangatawhetu = "Kerihana"
+
+		capital = 1180 # Dyfed
 		
 		d_dfyrid = {
 			color={ 48 255 182 }
 			color2={ 255 255 255 }
+
+			capital = 1180 # Dyfed
 			
 			c_dyfed = {
 				color={ 255 187 39 }
@@ -2677,6 +2695,8 @@ e_impara = {
 		d_laithreain = {
 			color={ 191 155 50 }
 			color2={ 255 255 255 }
+
+			capital = 1184 # Laithreain
 			
 			c_ua_lanvar = {
 				color={ 184 154 41 }
@@ -2710,6 +2730,8 @@ e_impara = {
 		d_arlioght = {
 			color={ 172 148 61 }
 			color2={ 255 255 255 }
+
+			capital = 1187 # Arliusia
 			
 			c_arliusia = {
 				color={ 177 151 58 }
@@ -2743,6 +2765,8 @@ e_impara = {
 		d_rivinith = {
 			color={ 152 121 50 }
 			color2={ 255 255 255 }
+
+			capital = 1195 # Rivinith
 			
 			c_farrun = {
 				color={ 151 124 58 }
@@ -2783,6 +2807,8 @@ e_impara = {
 		d_aluought = {
 			color={ 121 100 34 }
 			color2={ 255 255 255 }
+
+			capital = 1198 # Aluought
 			
 			c_aluought = {
 				color={ 121 94 37 }
